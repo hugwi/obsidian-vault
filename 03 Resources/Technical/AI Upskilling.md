@@ -1,0 +1,3 @@
+
+
+Local AI upskilling communnity 

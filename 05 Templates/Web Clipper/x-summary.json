@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "0.1.0",
+  "name": "X (Twitter) - Summary",
+  "behavior": "create",
+  "noteNameFormat": "{{date|date:\"YYYY-MM-DD\"}} - {{selector:div[data-testid=\"User-Name\"]|first|safe_name}} - {{selector:article div[data-testid=\"tweetText\"]|first|safe_name|slice:0,60}}",
+  "path": "Inbox/Articles",
+  "context": "{{selector:article div[data-testid=\"tweetText\"]|join:\"\\n\\n---\\n\\n\"|slice:0,12000|trim}}",
+  "properties": [
+    { "name": "title", "value": "X thread by {{selector:div[data-testid=\"User-Name\"]|first}}", "type": "text" },
+    { "name": "type", "value": "social", "type": "text" },
+    { "name": "platform", "value": "x", "type": "text" },
+    { "name": "author", "value": "{{selector:div[data-testid=\"User-Name\"]|first}}", "type": "text" },
+    { "name": "url", "value": "{{url}}", "type": "text" },
+    { "name": "clipped", "value": "{{date|date:\"YYYY-MM-DD\"}}", "type": "date" },
+    { "name": "status", "value": "unread", "type": "text" },
+    { "name": "tags", "value": "clip/social", "type": "multitext" }
+  ],
+  "triggers": [
+    "https://x.com/",
+    "https://twitter.com/"
+  ],
+  "noteContentFormat": "# {{selector:article div[data-testid=\"tweetText\"]|first|slice:0,80}}\n\n> by **{{selector:div[data-testid=\"User-Name\"]|first}}** - [original]({{url}})\n\n## TL;DR\n{{\"Based solely on the provided context, summarise this post or thread in ONE paragraph (50-90 words). Plain text, ASCII only. No headings, no lists, no surrounding quotes.\"|strip_tags:\"p,div,span,code,pre,ul,ol,li,h1,h2,h3,h4,h5,h6\"|strip_md|replace:\"/\\s+/g\":\" \"|trim}}\n\n## Key points\n{{\"Based solely on the provided context, return 3-6 key points from the post or thread. Each line prefixed with '- ', 6-14 words, no trailing punctuation. ASCII only. No surrounding quotes.\"|strip_tags:\"p,div,span,ul,ol,li\"|replace:\"/^(?:\\*|\\u2022|\\u2014|\\u2013|\\d+\\.|\\d+\\))\\s*/gm\":\"- \"|replace:\"/\\s*-\\s/g\":\"\\n- \"|replace:\"/[\\.;:!\\?]+$/gm\":\"\"|replace:\"/[^\\x00-\\x7F]/g\":\"\"|replace:\"/^\\s*-\\s*$/gm\":\"\"|trim}}\n\n## Posts\n{{selector:article div[data-testid=\"tweetText\"]|join:\"\\n\\n---\\n\\n\"}}"
+}

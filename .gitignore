@@ -1,0 +1,27 @@
+# Obsidian — ignore machine-specific cache/layout, keep shared plugin config
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/appearance.json
+
+# Syncthing artifacts
+.stfolder/
+.stfolder*/
+.stversions/
+.trash/
+
+# macOS
+.DS_Store
+
+# Large media — use external storage, not git
+*.mov
+*.mp4
+*.m4a
+
+# Claude agent worktrees/state — nested git repos break clones
+.claude/
+**/.claude/
+
+# Plugin data with secrets/local state — don't commit
+.obsidian/plugins/obsidian-git/data.json
+.obsidian/plugins/readwise-official/data.json

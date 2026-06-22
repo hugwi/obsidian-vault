@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "0.1.0",
+  "name": "Reddit - Summary",
+  "behavior": "create",
+  "noteNameFormat": "{{selector:shreddit-post?created-timestamp|date:\"YYYY-MM-DD\"}} - {{selector:shreddit-post?post-title|trim|safe_name}}",
+  "path": "Inbox/Articles",
+  "context": "POST: {{selector:shreddit-post?post-title|trim}}\n\n{{selectorHtml:shreddit-post > div[class=\"text-neutral-content\"]|strip_tags|trim}}\n\nCOMMENTS:\n{{selectorHtml:shreddit-comment-tree|strip_tags|replace:\"/\\s+/g\":\" \"|slice:0,12000|trim}}",
+  "properties": [
+    { "name": "title", "value": "{{selector:shreddit-post?post-title|trim}}", "type": "text" },
+    { "name": "type", "value": "discussion", "type": "text" },
+    { "name": "platform", "value": "reddit", "type": "text" },
+    { "name": "subreddit", "value": "{{selector:shreddit-post?subreddit-prefixed-name}}", "type": "text" },
+    { "name": "author", "value": "{{selector:shreddit-post?author}}", "type": "text" },
+    { "name": "url", "value": "{{url}}", "type": "text" },
+    { "name": "published", "value": "{{selector:shreddit-post?created-timestamp|date:\"YYYY-MM-DD\"}}", "type": "date" },
+    { "name": "clipped", "value": "{{date|date:\"YYYY-MM-DD\"}}", "type": "date" },
+    { "name": "score", "value": "{{selector:shreddit-post?score}}", "type": "number" },
+    { "name": "status", "value": "unread", "type": "text" },
+    { "name": "tags", "value": "clip/discussion", "type": "multitext" }
+  ],
+  "triggers": [
+    "https://www.reddit.com/r/",
+    "https://reddit.com/r/"
+  ],
+  "noteContentFormat": "# {{selector:shreddit-post?post-title|trim}}\n\n> Posted in **{{selector:shreddit-post?subreddit-prefixed-name}}** by *u/{{selector:shreddit-post?author}}* (score {{selector:shreddit-post?score}})\n\n## TL;DR\n{{\"Based solely on the provided context, summarise the Reddit post and the overall discussion in ONE paragraph (60-100 words). Plain text, ASCII only. No headings, no lists, no surrounding quotes.\"|strip_tags:\"p,div,span,code,pre,ul,ol,li,h1,h2,h3,h4,h5,h6\"|strip_md|replace:\"/\\s+/g\":\" \"|trim}}\n\n## Key points\n{{\"Based solely on the provided context, return 3-6 key points capturing the post and main comment takeaways. Each line prefixed with '- ', 6-14 words, no trailing punctuation. ASCII only. No surrounding quotes.\"|strip_tags:\"p,div,span,ul,ol,li\"|replace:\"/^(?:\\*|\\u2022|\\u2014|\\u2013|\\d+\\.|\\d+\\))\\s*/gm\":\"- \"|replace:\"/\\s*-\\s/g\":\"\\n- \"|replace:\"/[\\.;:!\\?]+$/gm\":\"\"|replace:\"/[^\\x00-\\x7F]/g\":\"\"|replace:\"/^\\s*-\\s*$/gm\":\"\"|trim}}\n\n## Post\n{{selectorHtml:shreddit-post > div[class=\"text-neutral-content\"]|markdown}}\n\n## Top comments\n{{selectorHtml:shreddit-comment-tree|markdown}}"
+}

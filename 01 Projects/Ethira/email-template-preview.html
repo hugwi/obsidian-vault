@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ethira Email Template</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;700&display=swap');
+
+  body {
+    margin: 0;
+    padding: 40px 20px;
+    background-color: #F1F0EB;
+    font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    color: #10201F;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .email-wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(16, 32, 31, 0.06);
+  }
+
+  /* Header */
+  .email-header {
+    background: #10201F;
+    padding: 32px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .logo-symbol {
+    width: 32px;
+    height: 32px;
+    position: relative;
+  }
+
+  .logo-symbol svg {
+    width: 32px;
+    height: 32px;
+  }
+
+  .logo-text {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: -0.02em;
+  }
+
+  .header-badge {
+    background: rgba(169, 251, 192, 0.15);
+    color: #A9FBC0;
+    font-size: 11px;
+    font-weight: 500;
+    padding: 4px 10px;
+    border-radius: 20px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  /* Hero */
+  .email-hero {
+    padding: 48px 40px 32px;
+    border-bottom: 1px solid #F1F0EB;
+  }
+
+  .email-hero h1 {
+    font-family: 'DM Serif Display', Georgia, 'Times New Roman', serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.3;
+    color: #10201F;
+    margin: 0 0 12px;
+  }
+
+  .email-hero p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #494541;
+    margin: 0;
+  }
+
+  /* Status card */
+  .status-card {
+    margin: 32px 40px;
+    background: #F7F7F2;
+    border-radius: 10px;
+    padding: 24px;
+    border-left: 3px solid #A9FBC0;
+  }
+
+  .status-card-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+
+  .status-dot {
+    width: 8px;
+    height: 8px;
+    background: #016853;
+    border-radius: 50%;
+  }
+
+  .status-label {
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #016853;
+  }
+
+  .status-card-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+
+  .status-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .status-item-label {
+    font-size: 11px;
+    color: #B4AAA1;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-weight: 500;
+  }
+
+  .status-item-value {
+    font-size: 14px;
+    color: #10201F;
+    font-weight: 500;
+  }
+
+  /* Body content */
+  .email-body {
+    padding: 0 40px 32px;
+  }
+
+  .email-body p {
+    font-size: 15px;
+    line-height: 1.65;
+    color: #494541;
+    margin: 0 0 16px;
+  }
+
+  /* CTA Button */
+  .cta-container {
+    padding: 0 40px 40px;
+    text-align: center;
+  }
+
+  .cta-button {
+    display: inline-block;
+    background: #10201F;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 14px 32px;
+    border-radius: 8px;
+    letter-spacing: -0.01em;
+    transition: background 0.2s;
+  }
+
+  .cta-button:hover {
+    background: #334D46;
+  }
+
+  .cta-button span {
+    color: #A9FBC0;
+    margin-left: 6px;
+  }
+
+  .cta-secondary {
+    display: block;
+    margin-top: 12px;
+    font-size: 13px;
+    color: #B4AAA1;
+    text-decoration: none;
+  }
+
+  .cta-secondary:hover {
+    color: #494541;
+  }
+
+  /* Divider */
+  .divider {
+    height: 1px;
+    background: #F1F0EB;
+    margin: 0 40px;
+  }
+
+  /* Footer */
+  .email-footer {
+    padding: 32px 40px;
+    text-align: center;
+  }
+
+  .footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    margin-bottom: 16px;
+  }
+
+  .footer-logo svg {
+    width: 20px;
+    height: 20px;
+    opacity: 0.3;
+  }
+
+  .footer-logo-text {
+    font-weight: 600;
+    font-size: 14px;
+    color: #DED8D8;
+    letter-spacing: -0.02em;
+  }
+
+  .footer-links {
+    margin-bottom: 16px;
+  }
+
+  .footer-links a {
+    font-size: 12px;
+    color: #B4AAA1;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+
+  .footer-links a:hover {
+    color: #494541;
+  }
+
+  .footer-text {
+    font-size: 11px;
+    color: #DED8D8;
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  /* Lifecycle indicators */
+  .lifecycle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    padding: 24px 40px;
+    background: #F7F7F2;
+  }
+
+  .lifecycle-step {
+    font-size: 11px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #B4AAA1;
+    padding: 6px 16px;
+    position: relative;
+  }
+
+  .lifecycle-step.active {
+    color: #016853;
+    background: rgba(169, 251, 192, 0.2);
+    border-radius: 20px;
+  }
+
+  .lifecycle-connector {
+    width: 24px;
+    height: 1px;
+    background: #DED8D8;
+  }
+</style>
+</head>
+<body>
+  <div class="email-wrapper">
+    <!-- Header -->
+    <div class="email-header">
+      <div class="logo-container">
+        <svg class="logo-symbol" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="16" cy="16" r="14" stroke="#A9FBC0" stroke-width="1.5" fill="none"/>
+          <circle cx="16" cy="16" r="9" stroke="#A9FBC0" stroke-width="1.5" fill="none"/>
+          <path d="M20 16C20 18.2091 18.2091 20 16 20C13.7909 20 12 18.2091 12 16C12 13.7909 13.7909 12 16 12" stroke="#A9FBC0" stroke-width="1.5" fill="none"/>
+        </svg>
+        <span class="logo-text">Ethira</span>
+      </div>
+      <span class="header-badge">Notification</span>
+    </div>
+
+    <!-- Hero -->
+    <div class="email-hero">
+      <h1>Your vendor assessment is complete</h1>
+      <p>The security review for <strong>Acme Corp</strong> has been finalized. All findings have been documented and are ready for your review.</p>
+    </div>
+
+    <!-- Status Card -->
+    <div class="status-card">
+      <div class="status-card-header">
+        <div class="status-dot"></div>
+        <span class="status-label">Assessment Complete</span>
+      </div>
+      <div class="status-card-content">
+        <div class="status-item">
+          <span class="status-item-label">Vendor</span>
+          <span class="status-item-value">Acme Corp</span>
+        </div>
+        <div class="status-item">
+          <span class="status-item-label">Risk Level</span>
+          <span class="status-item-value" style="color: #016853;">Low</span>
+        </div>
+        <div class="status-item">
+          <span class="status-item-label">Completed</span>
+          <span class="status-item-value">Apr 9, 2026</span>
+        </div>
+        <div class="status-item">
+          <span class="status-item-label">Reviewed by</span>
+          <span class="status-item-value">Security Team</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Body -->
+    <div class="email-body">
+      <p>The questionnaire responses have been analyzed and cross-referenced with our security requirements. No critical issues were identified during this assessment cycle.</p>
+      <p>You can view the full report, approve the vendor, or request additional information from your dashboard.</p>
+    </div>
+
+    <!-- CTA -->
+    <div class="cta-container">
+      <a href="#" class="cta-button">View Assessment<span>&rarr;</span></a>
+      <a href="#" class="cta-secondary">View in dashboard</a>
+    </div>
+
+    <!-- Lifecycle -->
+    <div class="lifecycle">
+      <span class="lifecycle-step">Discovery</span>
+      <span class="lifecycle-connector"></span>
+      <span class="lifecycle-step active">Approval</span>
+      <span class="lifecycle-connector"></span>
+      <span class="lifecycle-step">Monitoring</span>
+      <span class="lifecycle-connector"></span>
+      <span class="lifecycle-step">Action</span>
+    </div>
+
+    <!-- Divider -->
+    <div class="divider"></div>
+
+    <!-- Footer -->
+    <div class="email-footer">
+      <div class="footer-logo">
+        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="16" cy="16" r="14" stroke="#DED8D8" stroke-width="1.5" fill="none"/>
+          <circle cx="16" cy="16" r="9" stroke="#DED8D8" stroke-width="1.5" fill="none"/>
+          <path d="M20 16C20 18.2091 18.2091 20 16 20C13.7909 20 12 18.2091 12 16C12 13.7909 13.7909 12 16 12" stroke="#DED8D8" stroke-width="1.5" fill="none"/>
+        </svg>
+        <span class="footer-logo-text">Ethira</span>
+      </div>
+      <div class="footer-links">
+        <a href="#">Dashboard</a>
+        <a href="#">Settings</a>
+        <a href="#">Help Center</a>
+        <a href="#">Unsubscribe</a>
+      </div>
+      <p class="footer-text">
+        Ethira &middot; Driving third-party security decisions<br>
+        You're receiving this because you're part of the security team at Your Company.
+      </p>
+    </div>
+  </div>
+</body>
+</html>

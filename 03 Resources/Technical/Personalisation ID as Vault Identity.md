@@ -1,0 +1,3 @@
+ Check how personalizatoin id for consent works  https://miro.com/app/board/uXjVN5W6hss=/. Do we need to create another type. How does that work if there needs to be a identifier?  We can update _get_identifier_column to check more PII types as identifier column. Or we add another column? 
+
+ We can't let DCID and Personalizatoin ID be the same in this case. Or we need to specify which type we're forgetting. 

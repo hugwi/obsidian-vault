@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "0.1.0",
+  "name": "Article - Summary",
+  "behavior": "create",
+  "noteNameFormat": "{{published|date:\"YYYY-MM-DD\"}} - {{title|safe_name}}",
+  "path": "Inbox/Articles",
+  "context": "{{content|slice:0,16000|trim}}",
+  "properties": [
+    { "name": "title", "value": "{{title}}", "type": "text" },
+    { "name": "type", "value": "article", "type": "text" },
+    { "name": "platform", "value": "{{site}}", "type": "text" },
+    { "name": "author", "value": "{{author|wikilink}}", "type": "text" },
+    { "name": "url", "value": "{{url}}", "type": "text" },
+    { "name": "published", "value": "{{published|date:\"YYYY-MM-DD\"}}", "type": "date" },
+    { "name": "clipped", "value": "{{date|date:\"YYYY-MM-DD\"}}", "type": "date" },
+    { "name": "words", "value": "{{words}}", "type": "number" },
+    { "name": "reading_time_min", "value": "{{words|calc:\"/238\"|round}}", "type": "number" },
+    { "name": "status", "value": "unread", "type": "text" },
+    { "name": "tags", "value": "clip/article", "type": "multitext" }
+  ],
+  "triggers": [
+    "schema:@Article",
+    "schema:@NewsArticle"
+  ],
+  "noteContentFormat": "# {{title}}\n\n## TL;DR\n{{\"Based solely on the provided context, write a TL;DR of ONE paragraph (60-100 words). Plain text, ASCII only. No headings, no lists, no surrounding quotes.\"|strip_tags:\"p,div,span,code,pre,ul,ol,li,h1,h2,h3,h4,h5,h6\"|strip_md|replace:\"/\\s+/g\":\" \"|trim}}\n\n## Key points\n{{\"Based solely on the provided context, return 3-6 key points as a Markdown list. Each line prefixed with '- ', 6-14 words, no trailing punctuation. ASCII only. No surrounding quotes.\"|strip_tags:\"p,div,span,ul,ol,li\"|replace:\"/^(?:\\*|\\u2022|\\u2014|\\u2013|\\d+\\.|\\d+\\))\\s*/gm\":\"- \"|replace:\"/\\s*-\\s/g\":\"\\n- \"|replace:\"/[\\.;:!\\?]+$/gm\":\"\"|replace:\"/[^\\x00-\\x7F]/g\":\"\"|replace:\"/^\\s*-\\s*$/gm\":\"\"|trim}}\n\n## Article\n{{content}}"
+}

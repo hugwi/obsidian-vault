@@ -1,0 +1,23 @@
+--- a/api/src/application/services/trust-portal-slack/trust-portal-answer-ready-notification.service.ts
++++ b/api/src/application/services/trust-portal-slack/trust-portal-answer-ready-notification.service.ts
+@@ -122,11 +122,18 @@
+         await this.sendEmail(email, params);
+         return;
+       }
+-      await this.slackChatService.sendDirectMessage(workspaceId, {
++      const result = await this.slackChatService.sendDirectMessage(workspaceId, {
+         userId: slackUserId,
+         message: this.buildSlackMessage(params),
+       });
+
++      if (!result) {
++        this.logger.warn(
++          `Slack DM delivery failed for ${email} — falling back to email`,
++        );
++        await this.sendEmail(email, params);
++        return;
++      }
++
+       this.logger.log(
+         `Sent answer-ready Slack DM to ${email} ` +
+           `for questionnaire "${params.questionnaireName}"`,

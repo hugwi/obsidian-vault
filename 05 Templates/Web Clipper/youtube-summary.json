@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "0.1.0",
+  "name": "YouTube - Summary",
+  "behavior": "create",
+  "noteNameFormat": "{{schema:@VideoObject:uploadDate|date:\"YYYY-MM-DD\"}} - {{schema:@VideoObject:author}} - {{title|safe_name}}",
+  "path": "Inbox/Videos",
+  "context": "{{schema:@VideoObject:description}}\n\n{{selectorHtml:ytd-transcript-segment-list-renderer, #segments-container|remove_html:(\"ytd-transcript-section-header-renderer\")|strip_tags|join:\" \"|replace:\"/\\s+/g\":\" \"|slice:0,16000|trim}}",
+  "properties": [
+    { "name": "title", "value": "{{schema:@VideoObject:name}}", "type": "text" },
+    { "name": "type", "value": "video", "type": "text" },
+    { "name": "platform", "value": "youtube", "type": "text" },
+    { "name": "channel", "value": "{{schema:@VideoObject:author}}", "type": "text" },
+    { "name": "url", "value": "{{url}}", "type": "text" },
+    { "name": "published", "value": "{{schema:@VideoObject:uploadDate|date:\"YYYY-MM-DD\"}}", "type": "date" },
+    { "name": "clipped", "value": "{{date|date:\"YYYY-MM-DD\"}}", "type": "date" },
+    { "name": "duration", "value": "{{schema:@VideoObject:duration|replace:\"PT\":\"\":\"S\":\"\"}}", "type": "text" },
+    { "name": "status", "value": "unread", "type": "text" },
+    { "name": "tags", "value": "clip/video", "type": "multitext" }
+  ],
+  "triggers": [
+    "https://www.youtube.com/watch?v=",
+    "https://youtu.be/"
+  ],
+  "noteContentFormat": "# {{schema:@VideoObject:name}}\n\n![{{title}}]({{url|replace:\"watch?v=\":\"embed/\"}})\n\n## TL;DR\n{{\"Based solely on the provided context, write a TL;DR of ONE paragraph (60-100 words). Plain text, ASCII only. No headings, no lists, no surrounding quotes.\"|strip_tags:\"p,div,span,code,pre,ul,ol,li,h1,h2,h3,h4,h5,h6\"|strip_md|replace:\"/\\s+/g\":\" \"|trim}}\n\n## Key points\n{{\"Based solely on the provided context, return 3-6 key points as a Markdown list. Each line prefixed with '- ', 6-14 words, no trailing punctuation. ASCII only. No surrounding quotes.\"|strip_tags:\"p,div,span,ul,ol,li\"|replace:\"/^(?:\\*|\\u2022|\\u2014|\\u2013|\\d+\\.|\\d+\\))\\s*/gm\":\"- \"|replace:\"/\\s*-\\s/g\":\"\\n- \"|replace:\"/[\\.;:!\\?]+$/gm\":\"\"|replace:\"/[^\\x00-\\x7F]/g\":\"\"|replace:\"/^\\s*-\\s*$/gm\":\"\"|trim}}\n\n## Notes\n\n\n## Description\n{{schema:@VideoObject:description}}\n\n## Transcript\n{{selectorHtml:ytd-transcript-segment-list-renderer, #segments-container|remove_html:(\"ytd-transcript-section-header-renderer\")|strip_tags|join|markdown}}"
+}

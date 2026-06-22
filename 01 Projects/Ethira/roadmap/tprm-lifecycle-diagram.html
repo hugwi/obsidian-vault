@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>TPRM Lifecycle — Ethira</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #1a1a2e;
+    color: #e0e0e0;
+    font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+    padding: 40px;
+    min-height: 100vh;
+  }
+  h1 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #fff;
+    letter-spacing: -0.5px;
+  }
+  .subtitle {
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 48px;
+  }
+
+  /* ── Lifecycle Ring ── */
+  .lifecycle {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 56px;
+    position: relative;
+  }
+  .lifecycle::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    right: 10%;
+    height: 2px;
+    background: linear-gradient(90deg, #e74c6f22, #e74c6f66, #e74c6f66, #e74c6f22);
+    z-index: 0;
+  }
+  .stage {
+    position: relative;
+    z-index: 1;
+    width: 160px;
+    padding: 20px 16px;
+    border-radius: 16px;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  .stage:hover { transform: translateY(-4px); }
+  .stage-num {
+    display: inline-block;
+    width: 28px; height: 28px;
+    line-height: 28px;
+    border-radius: 50%;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  .stage-title {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 6px;
+  }
+  .stage-desc {
+    font-size: 11px;
+    line-height: 1.4;
+    color: #aaa;
+  }
+  .s-detect  { background: #2d1f3d; border: 1.5px solid #9b59b6; }
+  .s-detect .stage-num { background: #9b59b6; color: #fff; }
+  .s-detect .stage-title { color: #c39bd3; }
+
+  .s-prescreen { background: #1f2d3d; border: 1.5px solid #3498db; }
+  .s-prescreen .stage-num { background: #3498db; color: #fff; }
+  .s-prescreen .stage-title { color: #85c1e9; }
+
+  .s-dashboard { background: #1f3d2d; border: 1.5px solid #2ecc71; }
+  .s-dashboard .stage-num { background: #2ecc71; color: #fff; }
+  .s-dashboard .stage-title { color: #82e0aa; }
+
+  .s-monitor { background: #3d3d1f; border: 1.5px solid #f1c40f; }
+  .s-monitor .stage-num { background: #f1c40f; color: #1a1a2e; }
+  .s-monitor .stage-title { color: #f9e79f; }
+
+  .s-enforce { background: #3d1f1f; border: 1.5px solid #e74c3c; }
+  .s-enforce .stage-num { background: #e74c3c; color: #fff; }
+  .s-enforce .stage-title { color: #f1948a; }
+
+  .s-offboard { background: #2d2d2d; border: 1.5px solid #95a5a6; }
+  .s-offboard .stage-num { background: #95a5a6; color: #1a1a2e; }
+  .s-offboard .stage-title { color: #bfc9ca; }
+
+  .arrow {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: #e74c6f88;
+    z-index: 1;
+    position: relative;
+  }
+
+  /* ── Sections ── */
+  .sections {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px;
+    max-width: 1200px;
+    margin: 0 auto 48px;
+  }
+  .section {
+    background: #16213e;
+    border-radius: 16px;
+    padding: 24px;
+    border: 1px solid #1a3a5c;
+  }
+  .section-title {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #1a3a5c;
+  }
+  .st-detect { color: #c39bd3; }
+  .st-enforce { color: #f1948a; }
+  .st-inventory { color: #85c1e9; }
+
+  .item-group {
+    margin-bottom: 14px;
+  }
+  .item-group-title {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #666;
+    margin-bottom: 6px;
+  }
+  .item {
+    display: inline-block;
+    padding: 5px 12px;
+    margin: 3px 4px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .item-sensor { background: #2d1f3d; color: #c39bd3; border: 1px solid #9b59b644; }
+  .item-dimension { background: #1f2d3d; color: #85c1e9; border: 1px solid #3498db44; }
+  .item-enforce { background: #3d1f1f; color: #f1948a; border: 1px solid #e74c3c44; }
+  .item-asset { background: #1f3d2d; color: #82e0aa; border: 1px solid #2ecc7144; }
+  .item-owner { background: #3d3d1f; color: #f9e79f; border: 1px solid #f1c40f44; }
+  .item-biz { background: #2d2d3d; color: #bfc9ca; border: 1px solid #95a5a644; }
+
+  /* ── AI-Specific Venn ── */
+  .venn-section {
+    max-width: 1200px;
+    margin: 0 auto 48px;
+    background: #16213e;
+    border-radius: 16px;
+    padding: 24px 32px;
+    border: 1px solid #1a3a5c;
+  }
+  .venn-title {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #e74c6f;
+    margin-bottom: 20px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #1a3a5c;
+  }
+  .venn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    position: relative;
+    height: 220px;
+  }
+  .venn-circle {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 600;
+    position: absolute;
+  }
+  .vc-browser {
+    background: #9b59b622;
+    border: 2px solid #9b59b6;
+    color: #c39bd3;
+    left: calc(50% - 160px);
+  }
+  .vc-os {
+    background: #3498db22;
+    border: 2px solid #3498db;
+    color: #85c1e9;
+    left: calc(50% - 50px);
+  }
+  .vc-server {
+    background: #2ecc7122;
+    border: 2px solid #2ecc71;
+    color: #82e0aa;
+    left: calc(50% + 60px);
+  }
+  .venn-center {
+    position: absolute;
+    left: calc(50% + 5px);
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: #e74c3c33;
+    border: 2px solid #e74c3c;
+    color: #f1948a;
+    padding: 8px 16px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    z-index: 2;
+  }
+
+  /* ── Footer ── */
+  .footer {
+    text-align: center;
+    font-size: 11px;
+    color: #444;
+    margin-top: 32px;
+  }
+</style>
+</head>
+<body>
+
+<h1>TPRM Lifecycle</h1>
+<p class="subtitle">Third-Party Risk Management — Ethira Product Roadmap</p>
+
+<!-- Lifecycle Stages -->
+<div class="lifecycle">
+  <div class="stage s-detect">
+    <div class="stage-num">1</div>
+    <div class="stage-title">Detect</div>
+    <div class="stage-desc">Shadow provider discovery across all surfaces</div>
+  </div>
+  <div class="arrow">&rarr;</div>
+  <div class="stage s-prescreen">
+    <div class="stage-num">2</div>
+    <div class="stage-title">Pre-Screen</div>
+    <div class="stage-desc">Automated triage of new providers</div>
+  </div>
+  <div class="arrow">&rarr;</div>
+  <div class="stage s-dashboard">
+    <div class="stage-num">3</div>
+    <div class="stage-title">Dashboard</div>
+    <div class="stage-desc">Central visibility &amp; reporting</div>
+  </div>
+  <div class="arrow">&rarr;</div>
+  <div class="stage s-monitor">
+    <div class="stage-num">4</div>
+    <div class="stage-title">Monitor</div>
+    <div class="stage-desc">Continuous alerting &amp; anomaly detection</div>
+  </div>
+  <div class="arrow">&rarr;</div>
+  <div class="stage s-enforce">
+    <div class="stage-num">5</div>
+    <div class="stage-title">Enforce</div>
+    <div class="stage-desc">Policy, block lists &amp; MCP controls</div>
+  </div>
+  <div class="arrow">&rarr;</div>
+  <div class="stage s-offboard">
+    <div class="stage-num">6</div>
+    <div class="stage-title">Offboard</div>
+    <div class="stage-desc">Decommission &amp; verify removal</div>
+  </div>
+</div>
+
+<!-- Detail Sections -->
+<div class="sections">
+
+  <!-- Detection Surfaces -->
+  <div class="section">
+    <div class="section-title st-detect">Detection Surfaces</div>
+    <div class="item-group">
+      <div class="item-group-title">Sensors</div>
+      <span class="item item-sensor">Browser Extension</span>
+      <span class="item item-sensor">CLI</span>
+      <span class="item item-sensor">Workstation Mon.</span>
+      <span class="item item-sensor">SDK</span>
+      <span class="item item-sensor">Proxy / CrowdStrike</span>
+    </div>
+    <div class="item-group">
+      <div class="item-group-title">Discovery Dimensions</div>
+      <span class="item item-dimension">Country</span>
+      <span class="item item-dimension">Type of Data</span>
+      <span class="item item-dimension">Provider Category</span>
+    </div>
+  </div>
+
+  <!-- Enforcement -->
+  <div class="section">
+    <div class="section-title st-enforce">Enforcement</div>
+    <div class="item-group">
+      <div class="item-group-title">Mechanisms</div>
+      <span class="item item-enforce">Policy Rules</span>
+      <span class="item item-enforce">Banned Sites</span>
+      <span class="item item-enforce">Banned MCP Connections</span>
+    </div>
+    <div class="item-group">
+      <div class="item-group-title">Actions</div>
+      <span class="item item-enforce">Warn</span>
+      <span class="item item-enforce">Require Justification</span>
+      <span class="item item-enforce">Block</span>
+    </div>
+  </div>
+
+  <!-- Inventory -->
+  <div class="section">
+    <div class="section-title st-inventory">Inventory Model</div>
+    <div class="item-group">
+      <div class="item-group-title">Assets</div>
+      <span class="item item-asset">System</span>
+      <span class="item item-asset">App</span>
+      <span class="item item-asset">Microservice</span>
+      <span class="item item-asset">Agent</span>
+      <span class="item item-asset">Model</span>
+      <span class="item item-asset">MCP Server</span>
+    </div>
+    <div class="item-group">
+      <div class="item-group-title">Ownership</div>
+      <span class="item item-owner">People</span>
+      <span class="item item-owner">Teams</span>
+    </div>
+    <div class="item-group">
+      <div class="item-group-title">Business</div>
+      <span class="item item-biz">Function</span>
+      <span class="item item-biz">Process</span>
+    </div>
+  </div>
+
+</div>
+
+<!-- AI-Specific Shadow Provider Problems -->
+<div class="venn-section">
+  <div class="venn-title">AI-Specific Shadow Provider Detection Surfaces</div>
+  <div class="venn">
+    <div class="venn-circle vc-browser">Browser</div>
+    <div class="venn-circle vc-os">OS</div>
+    <div class="venn-circle vc-server">Server /<br>Production</div>
+    <div class="venn-center">RISKS</div>
+  </div>
+</div>
+
+<div class="footer">Ethira TPRM Lifecycle — Whiteboard session 2026-04-14</div>
+
+</body>
+</html>

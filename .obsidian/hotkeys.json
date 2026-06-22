@@ -1,0 +1,27 @@
+{
+  "obsidian-tasks-plugin:edit-task": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "["
+    }
+  ],
+  "obsidian-tasks-plugin:toggle-done": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "]"
+    }
+  ],
+  "obsidian-comments:add-comment": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "P"
+    }
+  ]
+}
