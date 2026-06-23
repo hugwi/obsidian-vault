@@ -195,7 +195,7 @@ I think the time we spent was very positive, you were very nice person to work w
 
   
 
-# Albin 
+# [[Albin]] 
 
 Stark teknisk på A nivå - problemlösare, stark teknisk kommunikation
 Inga problem att ta ses data Engineer roll även om det inte är hans styrka 
