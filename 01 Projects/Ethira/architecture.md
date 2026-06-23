@@ -195,15 +195,15 @@ Chat is fully asynchronous: transport and compute **are split**. The WebSocket o
 ```mermaid
 sequenceDiagram
     participant Client
-    participant WS as AgentWebsocket<br/>(Socket.IO)
-    participant Q as ConversationPromptQueue<br/>(CW + BullMQ)
-    participant W as message-processor<br/>(BullMQ worker)
+    participant WS as AgentWebsocket (Socket.IO)
+    participant Q as ConversationPromptQueue (BullMQ)
+    participant W as message-processor (worker)
 
     Client->>WS: connect (workspaceId) + withCredentials
     Client->>WS: send prompt
     WS->>Q: persist ChatPromptQueueItem + enqueue (carries socketConnectionId)
     Q->>W: per-conversation sequencing (transient)
-    W-->>WS: agent step (#1)
+    W-->>WS: agent step 1
     W-->>WS: window history, assemble toolbelt, run AgentExecutor
     WS-->>Client: stream agent steps
     W->>Q: end (job persists, results in DB)
