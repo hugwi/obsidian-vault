@@ -299,14 +299,15 @@ Ska behålla - kulturbärare
 På Scania måstean ta ägandeskap själv , du har inte produkt hjälp
 
 
-# Halft time feedback
-Även om S ersatte en senior konsult hos kunden har han levererat självständigt och tagit initiativ. Han tog ledning i Snowflake-integrationen, höll arbetet igång och gjorde ett starkt första intryck. Han löste svåra tekniska uppgifter, tog på sig Data Engineer-uppgifter även om det inte är hans huvudområde, och höll alla uppdaterade med tydliga dagliga standups och bra dokumentation. Han lyfter också rätt personer vid rätt tillfälle för att hålla ett jämnt flöde i arbetet.
+# Half time feedback
+
+Även om Samuel ersatte en senior konsult hos kunden har han levererat självständigt och tagit initiativ. Han tog ledning i Snowflake-integrationen, höll arbetet igång och gjorde ett starkt första intryck. Han löste svåra tekniska uppgifter, tog på sig Data Engineer-uppgifter även om det inte är hans huvudområde, och höll alla uppdaterade med tydliga dagliga standups och bra dokumentation. Han lyfter också rätt personer vid rätt tillfälle för att hålla ett jämnt flöde i arbetet.
 
 Kreativitet  
-S tar gärna initiativ och söker utmaningar, även när de är nya och obekväma. Han drev Snowflake-integrationen framåt så att andra kunde fokusera på sitt. DC Albin lyfter att S är nyfiken, driven och kommer med många idéer—och att han aktivt utmanar sig själv.
+Samuel tar gärna initiativ och söker utmaningar, även när de är nya och obekväma. Han drev Snowflake-integrationen framåt så att andra kunde fokusera på sitt. Hans DC, Albin, lyfter att Samuel är nyfiken, driven och kommer med många idéer och att han aktivt utmanar sig själv.
 
 Kompetens  
-S visar stark teknisk problemlösning och tydlig teknisk kommunikation. Han lär sig snabbt, hanterar press och levererar stabilt. Han tog Data Engineer-rollen när det behövdes, trots att det inte är hans styrka, och gjorde det bra. Hans kommunikation är tydlig och konsekvent: han ger kontinuerliga uppdateringar i dagliga standups och dokumenterar väl. Hans sätt att kommunicera sticker ut och gör arbetet lätt att följa och lämna över.
+Samuel visar stark teknisk problemlösning och tydlig teknisk kommunikation. Han lär sig snabbt, hanterar press och levererar stabilt. Han tog Data Engineer-rollen när det behövdes, trots att det inte är hans styrka, och gjorde det bra. Hans kommunikation är tydlig och konsekvent: han ger kontinuerliga uppdateringar i dagliga standups och dokumenterar väl. Hans sätt att kommunicera sticker ut och gör arbetet lätt att följa och lämna över.
 
 Affärssinne  
-S tar plats i framsätet, väljer rätt saker att göra och driver arbetet mot tydliga mål. Han vill skapa sammanhållning i teamet och ser till att involvera rätt personer vid rätt tid, vilket ger ett jämnt och hållbart tempo. DC Albin beskriver också att S har starkt affärssinne och kreativitet, litar på sin förmåga och inte fastnar i en snäv roll, utan hjälper teamet att lyckas tillsammans.
+Samuel tar plats i framsätet, väljer rätt saker att göra och driver arbetet mot tydliga mål. Han vill skapa sammanhållning i teamet och ser till att involvera rätt personer vid rätt tid, vilket ger ett jämnt och hållbart tempo. Albin beskriver också att Samuel har starkt affärssinne och kreativitet, litar på sin förmåga och inte fastnar i en snäv roll, utan hjälper teamet att lyckas tillsammans.
