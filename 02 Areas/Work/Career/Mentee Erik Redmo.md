@@ -414,3 +414,11 @@ Samtliga återkopplingar visar att Person E snabbt har anpassat sig till Netligh
 
 ## Sen 
 + Hoppa modul i kommunikation kan göras 
+
+
+# Trial period motivation
+Erik visar stark leverans och förtroendeskapande beteende över hela CCB. Han tar sig an komplexa utmaningar, lär sig snabbt, kommunicerar pedagogiskt och bidrar med positiv energi. Tydligt fokus på kundvärde och god relationsbyggare som passar väl i kulturen.
+
+- Kompetens: Har snabbt tagit över och förbättrat en komplex kodbas, levererar värde tidigt och inger förtroende. Kan förklara teknik på ett enkelt och tillgängligt sätt och använder nätverket effektivt. Han har tagit över en komplex kodbas från en senior kollega och gör det galant. Hans DC har själv sagt att han har jobbat väldigt bra hittills!
+- Kreativitet: Tar initiativ, vågar testa nytt och lär sig kontinuerligt. Lyfter blicken, tar in ny information och omsätter den i arbetet. Lägger tid på förberedelser och sprider positiv energi i teamet. Hans social kompetens och nätverkssökande gör honom till en solid Netlighter.
+- Affärssinne: Genuint engagerad i kunden och inriktad på att leverera affärsvärde. Bygger relationer både internt och externt, smälter in i gruppen och trivs i Netlights kultur.
