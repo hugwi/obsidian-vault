@@ -1,6 +1,6 @@
 # Ethira — AI Architecture Overview
 
-> A high-level look at how Ethira embeds LLM agents inside a multi-tenant SaaS: the design principles, the product surface, and how the system matured. Implementation specifics, internal references, and vendor details are intentionally omitted.
+> A look at how Ethira embeds LLM agents inside a multi-tenant SaaS: the design principles, the core components, and how the system is wired. Core libraries and vendors are named to show how things connect; internal identifiers, exact file paths, pricing, and security specifics are intentionally omitted.
 
 Ethira runs LLM agents as a first-class part of the product, not a bolt-on. The architecture separates **five concerns** into clean layers: a **provider port** (one disciplined way to call any model), a **resilience belt** (kill-switch, circuit breaker, fallback), a **tool model** (per-domain capabilities filtered by permission), an **orchestration layer** (agents on durable background queues), and an **accounting layer** (every call logged for cost and attribution).
 
@@ -74,6 +74,103 @@ graph TD
 - **One tool definition, many surfaces.** The same capability powers the in-product agent and an external integration surface — written once.
 - **Consensus for high-stakes extraction.** Where a silent error would be costly and hard to retract, the system deliberately spends more: it fans one extraction out to several diverse models in parallel and uses a cheap mediator to reconcile them. This is quarantined to a narrow, low-volume, high-value path — everywhere else stays single-model and cheap.
 - **Structured-source-first cost discipline.** For ingest/monitoring, a model is used once to bootstrap a pipeline, after which deterministic parsing takes over — turning a per-call LLM cost into a one-time setup cost.
+
+---
+
+## Components & how they connect
+
+The stack is deliberately conventional — proven libraries wired through the ports above rather than a bespoke framework.
+
+| Component | Role in the system |
+|---|---|
+| **LangChain** | Agent runtime. `createToolCallingAgent` + `AgentExecutor` drive the tool-calling loop; a single builder serves every agent (chat, Slack, doc-edit, extractors). |
+| **Requesty** | Provider gateway. One egress to many model vendors, with EU data residency, real per-call cost returned on the wire, and model-name normalization — so swapping a model is a config change. |
+| **LangSmith** | Tracing & observability. Flag-gated; every call is traced and tagged with workspace + feature context for later cost and quality analysis. |
+| **BullMQ + Redis** | Durable job queues. Agents run as background jobs — abortable, retryable, and resilient across restarts and replicas. |
+| **Socket.IO (+ Redis adapter)** | Real-time transport. Streams agent steps to the client and routes events across API replicas. |
+| **Postgres** | Source of truth. Conversation history is reloaded per turn; durable multi-step work uses explicit domain state machines. |
+| **Vector store** | Retrieval. Semantic search over workspace documents feeds grounded answers. |
+| **Zod** | Tool input contracts. The schema *is* the model's input specification and the validation boundary. |
+| **OpenTelemetry** | Telemetry. GenAI spans plus a span per tool call. |
+
+### How the pieces talk
+
+```mermaid
+graph LR
+    UI[Client] -->|Socket.IO| GW[Agent gateway]
+    GW -->|enqueue| Q[BullMQ + Redis]
+    Q --> WK[Background worker]
+    WK -->|LangChain AgentExecutor| EX[Agent loop]
+    EX -->|bindTools| TB[Toolbelt<br/>permission-filtered]
+    EX -->|getLLM| PP[Provider port]
+    PP -->|Requesty gateway| MV[Model vendors]
+    PP -->|callbacks| LS[LangSmith tracing]
+    PP -->|usage + cost| DB[(Postgres<br/>usage logs)]
+    EX -->|stream steps| GW
+    GW -->|Socket.IO| UI
+    EX -.->|RAG| VS[(Vector store)]
+    WK -.->|history / state| DB
+```
+
+### Pseudocode — the request path
+
+```
+on incoming message (chat or Slack):
+    enqueue(message) -> BullMQ                      # never handled inline
+
+worker.process(job):
+    toolbelt = assembleTools(workspace, user, conversation)
+    toolbelt = filterByPermission(toolbelt)         # before the model sees anything
+    if not killSwitch.allowed(): abort              # global / dev gate
+    model   = routeModel(useCase, tier)             # cheapest viable tier
+    agent   = buildAgent(toolbelt, history, model)
+    for step in agent.stream(message):              # breaker + fallback wrap the call
+        emit(step) -> Socket.IO room                # live to client; usage logged per call
+```
+
+### Pseudocode — the provider port (`getLLM`)
+
+```
+function getLLM(model, temperature):
+    validatePricing(model)                          # refuse models with no price table
+    {baseURL, apiKey, realModel} = resolveProvider(model)   # Requesty vs direct vendor
+    return ChatModel(
+        model      = realModel, apiKey, temperature,
+        gateway    = Requesty(baseURL),             # EU residency, real cost on the wire
+        cache      = { key: context + workspace + conversation, ttl: 24h },
+        callbacks  = [ LangSmithTracing(tags), UsageTracking() ],   # tracing + cost
+        metadata   = { workspaceId, feature, conversationId },
+    )
+    # UsageTracking.onEnd  -> read tokens + wire cost -> write usage log
+    # UsageTracking.onError-> write a failed-call row  -> failures are still metered
+```
+
+### Pseudocode — the agent loop (LangChain)
+
+```
+function buildAgent(tools, history, model):
+    llm    = getLLM(model).bindTools(sort(tools))   # stable order = better prompt-cache hits
+    prompt = template(system, history, userInput, scratchpad)
+    agent  = LangChain.createToolCallingAgent(llm, tools, prompt)
+    return LangChain.AgentExecutor(
+        agent, tools,
+        maxIterations,                              # hard loop guard
+        callbacks = streamStepsToClient,            # steps shown as real agent activity
+    ).withTelemetry(OpenTelemetry)
+```
+
+### Pseudocode — a tool (thin adapter over a domain service)
+
+```
+tool getResearch(researchService, workspaceId):
+    schema = Zod.object({ id: uuid })               # the model's input contract
+    run(input):
+        r = researchService.findById(input.id, workspaceId)   # workspaceId closed over
+        return JSON({ id: r.id, name: r.name })     # model cannot reach other tenants
+    # errors are returned as structured JSON, not thrown — the model reasons about failure
+```
+
+The throughline: **the model only ever talks to the provider port, and only ever sees permission-filtered tools.** Every other concern — cost logging, tracing, caching, retries, telemetry — is attached at the port, so business code and tools stay thin.
 
 ---
 
