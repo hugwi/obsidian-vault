@@ -1,9 +1,13 @@
 ---
+categories:
+  - "[[Clippings]]"
 title: "calesthio/OpenMontage: World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio."
 source: https://github.com/calesthio/OpenMontage
 author:
 published:
 created: 2026-06-21
+rating: 
+action: 
 description: World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio. - calesthio/OpenMontage
 tags:
   - clippings

@@ -1,10 +1,14 @@
 ---
+categories:
+  - "[[Clippings]]"
 title: "Code Surgery: How AI Assistants Make Precise Edits to Your Files"
 source: "https://fabianhertwig.com/blog/coding-assistants-file-edits/"
 author:
   - "[[Fabian Hertwig]]"
 published: 2025-04-26
 created: 2026-06-18
+rating: 
+action: 
 description: "How Codex, Aider, RooCode, and Cursor apply AI-generated changes to files—comparing patch formats, fuzzy matching, and Cursor’s specialized apply model."
 tags:
   - "clippings"

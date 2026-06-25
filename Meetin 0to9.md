@@ -1,3 +1,8 @@
+---
+categories:
+  - "[[Inbox]]"
+created: 2026-06-23
+---
 - Okej att installera manuellt nu 
 - Mindre begränsning för användare 
 - Grupper i Okta, SAML och SKIM, google workspaces, IRU

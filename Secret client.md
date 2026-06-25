@@ -1,3 +1,8 @@
+---
+categories:
+  - "[[Inbox]]"
+created: 2026-06-23
+---
 
 jobbar med palantir -> vill till palantir foundary 
 european sovreignity 

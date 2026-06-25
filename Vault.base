@@ -1,3 +1,94 @@
+filters:
+  and:
+    - file.ext == "md"
+properties:
+  file.name:
+    displayName: Note
+  categories:
+    displayName: Category
+  domain:
+    displayName: Domain
+  project:
+    displayName: Project
+  created:
+    displayName: Created
 views:
   - type: table
-    name: Table
+    name: Projects
+    filters:
+      and:
+        - categories.contains(link("Projects"))
+    groupBy:
+      property: project
+      direction: ASC
+    order:
+      - file.name
+      - project
+      - created
+  - type: table
+    name: Areas
+    filters:
+      and:
+        - categories.contains(link("Areas"))
+    groupBy:
+      property: domain
+      direction: ASC
+    order:
+      - file.name
+      - domain
+      - created
+  - type: table
+    name: Resources
+    filters:
+      and:
+        - categories.contains(link("Resources"))
+    groupBy:
+      property: domain
+      direction: ASC
+    order:
+      - file.name
+      - domain
+      - created
+  - type: table
+    name: People
+    filters:
+      and:
+        - categories.contains(link("People"))
+    order:
+      - file.name
+      - created
+  - type: table
+    name: Inbox
+    filters:
+      and:
+        - categories.contains(link("Inbox"))
+    order:
+      - file.name
+      - created
+  - type: table
+    name: Clippings
+    filters:
+      and:
+        - categories.contains(link("Clippings"))
+    order:
+      - file.name
+      - source
+      - created
+  - type: table
+    name: Archive
+    filters:
+      and:
+        - categories.contains(link("Archive"))
+    order:
+      - file.name
+      - created
+  - type: table
+    name: Daily
+    filters:
+      and:
+        - categories.contains(link("Daily"))
+    groupBy:
+      property: created
+      direction: DESC
+    order:
+      - file.name

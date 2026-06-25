@@ -1,0 +1,160 @@
+FILE: Your voice is the only AI moat that compounds. Here is how to clone it into Claude in a weekend
+TITLE: Your voice is the only AI moat that compounds. Here is how to clone it into Claude in a weekend
+DESC: Your unique voice is the key to making AI work better for you, saving hundreds of hours each year. By creating a personal voice file, your AI can write more like you, faster and smarter. This guide shows how to build that voice file in just one weekend, giving you a lasting advantage over others using the same AI models.
+
+FILE: Your whole app inside iframe. And it works.
+TITLE: Your whole app inside iframe. And it works.
+DESC: Embedding your app as an iframe widget lets others easily add it to their websites using simple HTML and JavaScript. The widget communicates with the host page to resize and handle navigation smoothly, even across different browsers. For security and usability, you control embedding permissions and handle special cases like Safari’s cookie restrictions.
+
+FILE: agent-skillsskillsread-only-postgres at main · jawwadfirdousiagent-skills · GitHub
+TITLE: agent-skillsskillsread-only-postgres at main · jawwadfirdousiagent-skills · GitHub
+DESC: This project provides a safe read-only PostgreSQL query tool for multiple databases with built-in write protection and PII data masking. Users configure database connections, customize queries, and ensure security with features like query validation and timeouts. The tool helps prevent data leaks and accidental changes while allowing easy access to database information.
+
+FILE: agent-stuffskillsweb-browserSKILL.md at main · mitsuhikoagent-stuff · GitHub
+TITLE: agent-stuffskillsweb-browserSKILL.md at main · mitsuhikoagent-stuff · GitHub
+DESC: The web-browser skill lets Claude control Chrome or Chromium to browse web pages by clicking, filling forms, and navigating links. It uses Chrome DevTools Protocol and includes tools to start the browser, run JavaScript, take screenshots, and handle cookie dialogs. It also supports logging network activity and interactive element picking for easy site exploration.
+
+FILE: browser-usebrowser-use 🌐 Make websites accessible for AI agents. Automate tasks online with ease.
+TITLE: browser-usebrowser-use 🌐 Make websites accessible for AI agents. Automate tasks online with ease.
+DESC: Browser-Use is an open-source tool that helps AI agents automate tasks on websites easily. It offers both self-hosted and cloud options for scalable, stealthy browser automation. Users can quickly set up and run agents to perform tasks like form-filling, shopping, and personal assistance.
+
+FILE: caliber-ai-orgai-setup Continuously sync your AI setups with one command. Codebase tailor suited agent skills, MCPs and config files for Claude Code, Cursor, and Codex.
+TITLE: caliber-ai-orgai-setup Continuously sync your AI setups with one command. Codebase tailor suited agent skills, MCPs and config files for Claude Code, Cursor, and Codex.
+DESC: Caliber is a tool that keeps AI setup files accurate and in sync as your code changes. It works with many AI coding tools like Claude Code, Cursor, and GitHub Copilot. Caliber audits, improves, and updates configs automatically without overwriting your work.
+
+FILE: can1357oh-my-pi ⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more
+TITLE: can1357oh-my-pi ⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more
+DESC: Oh-my-pi is a powerful AI coding agent for the terminal that integrates many tools and runs code with advanced features like persistent Python and embedded bash. It supports fast searches across multiple providers, remembers your code between sessions, and works inside editors like Zed. The project is open-source, built mainly in Rust and TypeScript, and extends the original Pi agent with many coding-focused improvements.
+
+FILE: code-quality-metricsmeasuring-ai-code-drift-using-github-metrics.md at main · stride-nyccode-quality-metrics
+TITLE: code-quality-metricsmeasuring-ai-code-drift-using-github-metrics.md at main · stride-nyccode-quality-metrics
+DESC: AI coding tools help developers write code faster but often cause bigger, harder-to-review changes that increase bugs and reduce team delivery quality. Research shows teams with strong development practices benefit from AI, while weaker teams create more technical debt faster. Measuring AI code drift early, especially before merging, helps detect risks and improve software quality.
+
+FILE: confident-aideepeval The LLM Evaluation Framework
+TITLE: confident-aideepeval The LLM Evaluation Framework
+DESC: DeepEval is an open-source tool for evaluating large language models using many ready-made and custom metrics. It works with popular AI frameworks like OpenAI, LangChain, and Anthropic to test tasks such as accuracy, relevancy, and hallucination. Users can run detailed evaluations and share reports to improve their AI applications easily.
+
+FILE: davebcn87pi-autoresearch Autonomous experiment loop extension for pi
+TITLE: davebcn87pi-autoresearch Autonomous experiment loop extension for pi
+DESC: pi-autoresearch is a tool that lets the pi agent run experiments on its own to find better solutions by trying, measuring, and keeping what works. It keeps track of all results and can resume work after pauses or restarts. Users can customize settings, view progress in a dashboard, and finalize improvements into separate reviewable branches.
+
+FILE: dependency-cruiserdocreal-world-samples.md at main · sverweijdependency-cruiser
+TITLE: dependency-cruiserdocreal-world-samples.md at main · sverweijdependency-cruiser
+DESC: Dependency Cruiser analyzes and visualizes dependencies in real-world projects like React, Yarn, and TypeScript without extra build steps. It supports various languages including JavaScript, TypeScript, and CoffeeScript, helping find issues like circular dependencies. Users can generate detailed, high-level, or folder-level graphs to understand and manage complex codebases efficiently.
+
+FILE: dislerpi-vs-claude-code Comparison between open source PI agent and closed source Claude Code agent
+TITLE: dislerpi-vs-claude-code Comparison between open source PI agent and closed source Claude Code agent
+DESC: Comparison between open source PI agent and closed source Claude Code agent - disler/pi-vs-claude-code
+
+FILE: dynaptikcrispy CRISPY (how QRSPI sounds to me phonetically) is a multi-agent orchestration plugin for agentic AI coding. It implements an 8-phase state machine based on the QRSPI methodology (Question, Research, Structure, Plan, Implement).
+TITLE: dynaptikcrispy CRISPY (how QRSPI sounds to me phonetically) is a multi-agent orchestration plugin for agentic AI coding. It implements an 8-phase state machine based on the QRSPI methodology (Question, Research, Structure, Plan, Implement).
+DESC: CRISPY is a plugin for VS Code that helps AI agents work together to write code using an 8-step process called QRSPI. It breaks development into small, testable parts and controls how agents share information to keep work clear and focused. The plugin supports git and guides users through design approval and implementation in a structured way.
+
+FILE: emilybacheTheatrical-Players-Refactoring-Kata Example from first chapter of 'Refactoring' by Martin Fowler, with tests and translations
+TITLE: emilybacheTheatrical-Players-Refactoring-Kata Example from first chapter of 'Refactoring' by Martin Fowler, with tests and translations
+DESC: This GitHub repo offers a coding exercise from Martin Fowler's book "Refactoring" with tests in multiple languages. It helps you practice changing code, like adding HTML output and new play types. The author added tests using Approval testing to support safe refactoring.
+
+FILE: firstloophqclaude-code-test-runner An automated E2E natural language test runner built on Claude Code
+TITLE: firstloophqclaude-code-test-runner An automated E2E natural language test runner built on Claude Code
+DESC: Claude Code Test Runner automates end-to-end web tests using simple natural language steps. It adapts to changes and handles issues like a human tester, making tests more reliable. The tool runs tests through a CLI, supports Docker, and provides detailed results and logs.
+
+FILE: httpswww.google.comsearchq=v8+idolate&oq=v8+idolate+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQABgNGIAEMggIAhAAGA0YHjIICAMQABgNGB4yCAgEEAAYDRgeMggIBRAAGA0YHjIICAYQABgNGB4yCAgHEAAYDRgeMggICBAAGA0YHjIICAkQABgNGB4yCggKEAAYChgNGB4yCggLEAAYBRgNGB4yCggMEAAYBRgNG
+TITLE: httpswww.google.comsearchq=v8+idolate&oq=v8+idolate+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQABgNGIAEMggIAhAAGA0YHjIICAMQABgNGB4yCAgEEAAYDRgeMggIBRAAGA0YHjIICAYQABgNGB4yCAgHEAAYDRgeMggICBAAGA0YHjIICAkQABgNGB4yCggKEAAYChgNGB4yCggLEAAYBRgNGB4yCggMEAAYBRgNG
+DESC: Google detected unusual traffic from your network when searching for "v8 idolate." The system wants to verify if you are a real person, not a robot. This check helps protect against automated requests.
+
+FILE: jbrainstrivia Legacy Code Retreat - Trivia Game codebase
+TITLE: jbrainstrivia Legacy Code Retreat - Trivia Game codebase
+DESC: This codebase is for practicing refactoring and testing legacy code. It was created to be tricky but still doable, inspired by old-style programming. People use it in workshops and events to learn how to improve tough code safely.
+
+FILE: mattpocockskills Skills for Real Engineers. Straight from my .claude directory.
+TITLE: mattpocockskills Skills for Real Engineers. Straight from my .claude directory.
+DESC: This GitHub project offers practical skills to help engineers work effectively with AI coding agents. It focuses on clear communication, feedback loops, and maintaining good code design. The goal is to make real software development easier and more reliable.
+
+FILE: medium.com
+TITLE: medium.com
+DESC: This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.
+
+FILE: monorepoexampleslegit-code at main · Legit-Controlmonorepo · GitHub
+TITLE: monorepoexampleslegit-code at main · Legit-Controlmonorepo · GitHub
+DESC: Legit Code is a tool that saves your AI coding chats directly in your Git repository. It tracks every question, answer, and code change as part of your project history. This helps teams keep, share, and review their AI coding work easily.
+
+FILE: multica-aiandrej-karpathy-skills A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.
+TITLE: multica-aiandrej-karpathy-skills A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.
+DESC: This project offers clear guidelines to improve how Claude AI writes code by avoiding wrong assumptions and overcomplication. It emphasizes simple, focused changes with clear goals and verification steps. Following these rules helps produce clean, minimal code with fewer mistakes and clarifications.
+
+FILE: multica-aimultica The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.
+TITLE: multica-aimultica The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.
+DESC: Multica is an open-source platform that turns coding agents into real teammates who can autonomously do tasks like writing code and reporting progress. It lets teams assign work to agents, track their progress, and reuse skills to work faster and smarter. Multica supports many AI tools and can be self-hosted or used in the cloud for flexible team collaboration.
+
+FILE: nedcodes-okrule-porter Convert AI IDE rules between Cursor, Windsurf, CLAUDE.md, AGENTS.md, and Copilot. Bidirectional. Zero dependencies.
+TITLE: nedcodes-okrule-porter Convert AI IDE rules between Cursor, Windsurf, CLAUDE.md, AGENTS.md, and Copilot. Bidirectional. Zero dependencies.
+DESC: Rule-porter converts AI IDE rules between different formats like Cursor, Claude, Copilot, Windsurf, and AGENTS.md. It works bidirectionally with zero dependencies and preserves most rule details. Users can preview changes and check their rules after conversion for errors.
+
+FILE: nextlevelbuilderui-ux-pro-max-skill An AI SKILL that provide design intelligence for building professional UIUX multiple platforms
+TITLE: nextlevelbuilderui-ux-pro-max-skill An AI SKILL that provide design intelligence for building professional UIUX multiple platforms
+DESC: Nextlevelbuilder/ui-ux-pro-max-skill is an AI tool that helps create professional UI/UX designs for various platforms. It uses intelligent rules to generate custom design systems with styles, colors, and typography. The tool supports many tech stacks and provides code and best practices for easy implementation.
+
+FILE: object-oriented-learning-journeyblog_draftbusiness_context_driven_carrental_c_sharp_en.md at main · andreas-wagner-devobject-oriented-learning-journey · GitHub
+TITLE: object-oriented-learning-journeyblog_draftbusiness_context_driven_carrental_c_sharp_en.md at main · andreas-wagner-devobject-oriented-learning-journey · GitHub
+DESC: The project organizes code by business domains, using clear package names that match bounded contexts and avoid technical jargon. It uses interfaces and decorators to separate business logic from technical details like persistence or messaging. This approach supports clean architecture, modularity, and easy evolution from monolith to microservices.
+
+FILE: pi-ai · pi-coding-agent · pi-tui
+TITLE: pi-ai · pi-coding-agent · pi-tui
+DESC: Pi-ai is a coding agent that breaks down tasks into research, design, planning, implementation, and validation steps. It uses a system of skills and artifacts to move from vague goals to shipped code. The agent also manages context with per-folder guidance files to work effectively in large codebases.
+
+FILE: pi-remote-agent
+TITLE: pi-remote-agent
+DESC: pi-remote-agent is a pi extension that lets you connect your pi session to a friend's pi instance for collaboration. It uses secure Tailscale connections and allows both manual and automatic task delegation. You can install it from npm and configure remote peers easily to share work in real-time.
+
+FILE: rtk-airtk CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies
+TITLE: rtk-airtk CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies
+DESC: RTK is a tool that rewrites common developer commands to reduce AI token usage by 60-90%. It works by filtering and condensing command outputs for tools like git, docker, and AWS. RTK installs easily, runs as a single Rust binary, and supports many AI integrations for efficient coding workflows.
+
+FILE: skillsgreploopSKILL.md at main · greptileaiskills
+TITLE: skillsgreploopSKILL.md at main · greptileaiskills
+DESC: Greploop is a tool that improves code reviews on GitHub, GitLab, or Perforce until the review score is perfect and no comments remain unresolved. It works by repeatedly pushing changes, triggering Greptile reviews, fixing comments, and resolving threads. The process ends when the confidence score reaches 5/5 or the maximum number of iterations is hit.
+
+FILE: skillsgrill-meSKILL.md at main · mattpocockskills
+TITLE: skillsgrill-meSKILL.md at main · mattpocockskills
+DESC: The "grill-me" skill helps interviewers ask many detailed questions about a plan or design. It guides users through each decision step-by-step until everyone agrees. The skill also explores code when needed to find answers.
+
+FILE: speaches-aispeaches
+TITLE: speaches-aispeaches
+DESC: Speaches is a server that works like the OpenAI API for speech transcription, translation, and generation. It uses fast models like faster-whisper for speech-to-text and kokoro and piper for text-to-speech. The project supports streaming, dynamic model loading, and works on both GPU and CPU.
+
+FILE: steel-devsteel-browser 🔥 Open Source Browser API for AI Agents & Apps. Steel Browser is a batteries-included browser sandbox that lets you automate the web without worrying about infrastructure.
+TITLE: steel-devsteel-browser 🔥 Open Source Browser API for AI Agents & Apps. Steel Browser is a batteries-included browser sandbox that lets you automate the web without worrying about infrastructure.
+DESC: Steel Browser is an open-source tool that helps AI apps automate web browsing easily. It manages browser tasks like sessions, proxies, and extensions for you. You can run it locally or in the cloud and use it with popular tools like Puppeteer, Playwright, and Selenium.
+
+FILE: stride-nycohl-agent ReAct agent with MCP for OneHealthLink agent escalation
+TITLE: stride-nycohl-agent ReAct agent with MCP for OneHealthLink agent escalation
+DESC: This project builds a ReAct agent that uses a structured state system and tools to analyze conversations and suggest responses quickly. It connects a LangGraph server with an MCP gateway to access local and external tools, including documentation and memory servers. The design allows easy switching of AI providers, clear state management, and faster response times without extra MCP calls during reasoning.
+
+FILE: swingermandisciplined-agentic-engineering Acceptance Test Driven Development for Claude Code — inspired by Uncle Bob's approach from empire-2025
+TITLE: swingermandisciplined-agentic-engineering Acceptance Test Driven Development for Claude Code — inspired by Uncle Bob's approach from empire-2025
+DESC: This project provides a disciplined method called Disciplined Agentic Engineering (DAE) that uses Acceptance Test Driven Development (ATDD), mutation testing, and strict verification to guide AI coding safely. It breaks features into clear, human-reviewed steps with tests and architecture plans to keep AI changes correct and controlled. The tools and plugins help software engineers manage AI coding like writing specs, running tests, and checking code quality.
+
+FILE: system-prompts-and-models-of-ai-toolsLovableAgent Prompt.txt at main · x1xhlolsystem-prompts-and-models-of-ai-tools
+TITLE: system-prompts-and-models-of-ai-toolsLovableAgent Prompt.txt at main · x1xhlolsystem-prompts-and-models-of-ai-tools
+DESC: You help users by chatting and making real-time code changes, but also guide or explain without always editing code. Always follow a clear design system, focusing on beautiful, responsive designs and consistent styles. Avoid overcomplicating, communicate planned actions, and make small, focused improvements based on user requests.
+
+FILE: tirth8205code-review-graph Local knowledge graph for Claude Code. Builds a persistent map of your codebase so Claude reads only what matters — 6.8× fewer tokens on reviews and up to 49× on daily coding tasks.
+TITLE: tirth8205code-review-graph Local knowledge graph for Claude Code. Builds a persistent map of your codebase so Claude reads only what matters — 6.8× fewer tokens on reviews and up to 49× on daily coding tasks.
+DESC: code-review-graph builds a detailed map of your code to help AI tools review only the important parts, saving many tokens. It updates quickly with every change and supports 19 programming languages plus notebooks. This tool improves efficiency, especially in large projects, by focusing on affected files and ignoring irrelevant code.
+
+FILE: truecourse-aitruecourse AI-powered architecture analysis and code intelligence. Detects circular deps, layer violations, dead modules, and more. Web UI + CLI.
+TITLE: truecourse-aitruecourse AI-powered architecture analysis and code intelligence. Detects circular deps, layer violations, dead modules, and more. Web UI + CLI.
+DESC: TrueCourse is an AI tool that analyzes code architecture and quality to find hidden problems like circular dependencies and security risks. It uses many rules and AI to give clear reports and fix suggestions through a web UI or command line. The tool supports JavaScript, TypeScript, and Python, and helps teams keep code reliable and safe.
+
+FILE: vercel-labsopensrc Fetch source code for npm packages to give AI coding agents deeper context
+TITLE: vercel-labsopensrc Fetch source code for npm packages to give AI coding agents deeper context
+DESC: OpenSrc lets coding agents fetch source code from npm and other package registries. It caches code locally for fast access and works with multiple languages. The tool is open source and built with Rust and Next.js.
+
+FILE: web-infra-devmidscene AI-powered, vision-driven UI automation for every platform.
+TITLE: web-infra-devmidscene AI-powered, vision-driven UI automation for every platform.
+DESC: Midscene.js is an AI-powered tool for automating user interfaces on web, Android, and iOS platforms using vision-based technology. It allows developers to write automation scripts in natural language or code, and offers zero-code options through browser extensions and playgrounds. The tool supports visual language models to interact with UI elements purely from screenshots, making automation faster and more cost-effective.
+
+FILE: x1xhlolsystem-prompts-and-models-of-ai-tools FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode
+TITLE: x1xhlolsystem-prompts-and-models-of-ai-tools FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode
+DESC: This GitHub project collects system prompts and models for many AI tools. It offers open-source resources and warns AI startups about security risks. Support is welcome through crypto or Patreon to keep the project growing.
+

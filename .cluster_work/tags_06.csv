@@ -1,0 +1,51 @@
+file,tags
+The package manager for agent skills and context,agent-skills token-efficiency
+They Lied to You About AI (This Study Proves It),llm-fundamentals ai-industry
+Thinking in Threads,harness-engineering multi-agent
+This Chrome DevTools MCP Trick Will Blow Your Mind,browser-automation mcp
+This Simple File Beats Every AI Coding Tool's Defaults,code-quality alt-agents claude-code-ops
+This Tool Fixes AI Coding at Scale with 70x Fewer Tokens (Graphify),code-intelligence token-efficiency cost-optimization
+This is insane…,agent-memory multi-agent harness-engineering
+Top 8 Claude Skills for UIUX Engineers,agent-skills ux-ui-design frontend-webapp
+"Transforming Legacy With Domain-Driven Design, III Tactic",ddd clean-architecture software-patterns
+"Transforming Legacy with Domain-Driven Design, II Strategy",ddd clean-architecture
+"Two old GPUs I salvaged are doing more AI work than a brand new $2000 card, and I won't be upgrading anytime soon",local-llm
+Typical TypeScript Clean Architecture,clean-architecture software-patterns
+UI Components,ux-ui-design frontend-webapp
+UX UI tips A guide to creating buttons,ux-ui-design frontend-webapp
+"Understanding Epics, Features, And User Stories",product-management software-patterns
+"Understanding Spec-Driven-Development Kiro, spec-kit, and Tessl",spec-driven-dev harness-engineering
+Understanding clean architectures,clean-architecture software-patterns
+Unnamed board,non-content
+Update July 2023,non-content
+Using GraphViz for CLAUDE.md,claude-md harness-engineering
+Vibe coding and agentic engineering are getting closer than I’d like,alt-agents harness-engineering code-quality comprehension-debt
+Visualize TypeScript Dependencies of Changed Files in a Pull Request Using dependency-cruiser-report-action,code-quality code-review observability
+Voice agent skills for coding assistants,voice-ai agent-skills
+"VoltAgentawesome-agent-skills A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",agent-skills alt-agents
+"Wasserman, Noam - The Founder's Dilemmas_ Anticipating and Avoiding the Pitfalls That Can Sink a Startup.pdf",non-content
+We Automated Our AI Review Loop and It Failed 86% of the Time,code-review harness-engineering multi-agent
+WebMCP — The Web Just Got a Bit Smarter (Whether It Wanted To or Not),mcp browser-automation web-security
+What AI augmentation means for technical leaders – Birgitta Boeckeler,harness-engineering context-engineering code-quality multi-agent
+What Does Democratizing Data Mean Unlocking the Power of Data Cultures,mdm-governance data-engineering
+What Makes a Good Agent Skill (And How to Know Before You Deploy It),agent-skills evals token-efficiency
+What Makes a WebApp Feel Native,frontend-webapp ux-ui-design
+What has everyone been building with agentic workflows in a corporate setting,harness-engineering code-review agent-testing multi-agent
+What is AI Harness Engineering Your Guide to Controlling Autonomous Systems,harness-engineering
+What is the difference between the Facade and Adapter Pattern,software-patterns ddd
+What’s Your Current Best AI Voice Agents Stack,voice-ai harness-engineering
+When Claude Code's Browser Plugin Wasn't Enough A Journey to Reliable Browser Automation with…,browser-automation claude-code-ops harness-engineering
+Whirlpool Process of Model Exploration,software-patterns ddd
+Why Claude Code Forgets What It Was Doing (And How to Fix It),claude-code-ops agent-memory context-engineering
+Why Everyone Is Wrong About the AI Bubble,ai-industry llm-fundamentals
+Why You Don't Need the Nuxt MCP When You Use Claude Code,mcp context-engineering token-efficiency
+Why agent harnesses fail inside cloud-native systems,harness-engineering observability agent-testing
+Why is estimation part of refinement and not sprint planning,product-management software-patterns
+Why we’re moving from Cursor to Claude Code (and why you should too),alt-agents claude-code-ops
+Working on Multiple Branches Without Losing My Mind,agent-git claude-code-ops harness-engineering
+Writing tests with Claude Code - part 1 - initial results,agent-testing code-quality evals
+Yann LeCun's Billion Dollar Bet,llm-fundamentals ai-industry
+You can only do real estate 7 hours a day. How do you use those hours,non-content
+You don't need an expensive GPU to run a local LLM that actually works,local-llm
+Your AI Budget Is Growing. Your Returns Aren't. Here's Why.,cost-optimization observability
+Your Clean Architecture is still layered!,clean-architecture software-patterns

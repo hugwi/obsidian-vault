@@ -1,0 +1,200 @@
+FILE: Replacing 12K LoC with a 200 LoC Skill — David Gomes, Cursor
+TITLE: Replacing 12K LoC with a 200 LoC Skill — David Gomes, Cursor
+DESC: The Cursor team replaced a complex 12,000-line code feature with a simple 200-line markdown skill. This new skill uses agents and word trees to manage parallel work more efficiently and is easier to maintain. They plan to improve it further with better prompts, training, and a new native interface in Cursor 3.0.
+
+FILE: Rethinking AI Agents The Rise of Harness Engineering
+TITLE: Rethinking AI Agents The Rise of Harness Engineering
+DESC: AI agent performance depends more on the harness—the code and structure around the model—than the model itself. Researchers are now focusing on harness engineering to optimize how agents work, using clear logic, natural language, and automatic tuning. This shift means improving agents by refining their harness, not just upgrading the language model.
+
+FILE: Rethinking Domain Layer Folder Structure for Clean Architecture
+TITLE: Rethinking Domain Layer Folder Structure for Clean Architecture
+DESC: The Domain layer should be organized by related features, not by technical types like entities or repositories. This makes the code more cohesive and easier to understand. Grouping by features leads to better structure and supports Vertical Slice Architecture.
+
+FILE: Run AI with an API.
+TITLE: Run AI with an API.
+DESC: Replicate.com offers many AI models with easy-to-use APIs. These models are made by the community and work well in real projects. The platform helps people use AI beyond research papers and demos.
+
+FILE: Running AI Coding Agents From My Phone (it’s getting out of hand)
+TITLE: Running AI Coding Agents From My Phone (it’s getting out of hand)
+DESC: Alexei Ledenev built CCGram, a Telegram bot that lets him control AI coding agents on his phone via tmux sessions. This tool helps him manage multiple coding tasks remotely, making coding happen anytime, even when he’s away from his desk. CCGram has voice input, session alerts, and works with different AI agents, increasing his productivity but also making him always reachable.
+
+FILE: SEMAG Self-Evolutionary Multi-Agent Code Generation
+TITLE: SEMAG Self-Evolutionary Multi-Agent Code Generation
+DESC: SEMAG is a new multi-agent system that improves code generation by using self-evolution and teamwork among agents. It achieves top accuracy on seven programming benchmarks, outperforming previous methods like GPT-4o. SEMAG also reduces computing costs while solving complex coding tasks effectively.
+
+FILE: Scalp Psoriasis Treatment Breakthroughs New Options for 2026–2027
+TITLE: Scalp Psoriasis Treatment Breakthroughs New Options for 2026–2027
+DESC: New treatments for scalp psoriasis in 2026–2027 include advanced topicals, foams, and personalized biologics that work better and last longer. These therapies are easier to use and focus on reducing inflammation while supporting the scalp’s natural barrier and microbiome. Dermatologists can now tailor treatments more precisely to each patient, offering hope for faster relief and better control.
+
+FILE: Scientists Test New Ways To Regrow Joints Damaged by Arthritis
+TITLE: Scientists Test New Ways To Regrow Joints Damaged by Arthritis
+DESC: Scientists are developing new treatments to regrow cartilage and bone for people with osteoarthritis. Some methods use injections, while others try to rebuild a whole knee with 3D printing. These treatments have shown promise in animals and may soon be tested in humans.
+
+FILE: Scrapling The Web Scraper That Repairs Itself
+TITLE: Scrapling The Web Scraper That Repairs Itself
+DESC: Scrapling is a Python web scraper that can fix itself when websites change. It uses adaptive parsing to find data even if the page structure shifts. This tool saves time by reducing scraper maintenance and supports different fetching methods for better results.
+
+FILE: Semantic vs Heuristic Code Graphs for AI Agents
+TITLE: Semantic vs Heuristic Code Graphs for AI Agents
+DESC: This article compares three ways coding agents build context: text search, heuristic parsing, and semantic code graphs. Semantic graphs provide the most accurate and reliable understanding of code relationships, especially in complex projects. Context Master uses semantic graphs to help agents navigate code more precisely and reduce errors.
+
+FILE: Shared Goals for Event Sourcing and Change Data Capture
+TITLE: Shared Goals for Event Sourcing and Change Data Capture
+DESC: Event Sourcing and Change Data Capture (CDC) both track data changes as events but use different sources of truth. CDC with the Outbox Pattern offers strong consistency, simpler design, and better reliability for microservices. While Event Sourcing can be useful, CDC and Outbox with Debezium are often better choices for building distributed systems.
+
+FILE: Shortcut for toggling between different windows of same app
+TITLE: Shortcut for toggling between different windows of same app
+DESC: You can switch between windows of the same app on a Mac using Cmd + ` if all windows are in the same Space. For windows across multiple Spaces or fullscreen, right-click the app icon in the Dock to select the window. Some shortcuts vary by keyboard language, and you can customize them in System Settings under Keyboard Shortcuts.
+
+FILE: Should we use custom exceptions in Python
+TITLE: Should we use custom exceptions in Python
+DESC: Python has many built-in exceptions, but custom exceptions can make errors clearer and more related to your project. Custom exceptions are easy to create and can improve code readability and user understanding. While not always necessary, using custom exceptions thoughtfully can benefit your projects.
+
+FILE: Sign in to your account-2
+TITLE: Sign in to your account-2
+DESC: 
+
+FILE: Sign in to your account
+TITLE: Sign in to your account
+DESC: 
+
+FILE: Slack Reminders for Assigned Reviewers with Pending Questionnaire Work
+TITLE: Slack Reminders for Assigned Reviewers with Pending Questionnaire Work
+DESC: Legora team members assigned to review questionnaires will get Slack reminders if they have pending work. Reminders stop once the review starts or the questionnaire is fully approved. If Slack is unavailable, reminders are sent by email instead.
+
+FILE: So I stumbled across this prompt hack a couple weeks back and honestly I wish I could unlearn it.
+TITLE: So I stumbled across this prompt hack a couple weeks back and honestly I wish I could unlearn it.
+DESC: A prompt hack where Claude AI reviews its own code harshly helps find many bugs and edge cases. Users find it effective but sometimes tiring due to many issues being raised. Using official plugins and multiple review agents improves code quality and learning.
+
+FILE: Spec-driven development
+TITLE: Spec-driven development
+DESC: Spec-driven development (SDD) uses detailed, machine-friendly specifications plus AI coding agents to generate executable code.
+
+FILE: Stacked PRs, Worktrees, and Git Exercises for Agentic Development
+TITLE: Stacked PRs, Worktrees, and Git Exercises for Agentic Development
+DESC: Git worktree lets you work on multiple branches at the same time without extra clones. Breaking changes into small Stacked PRs makes code review easier and cleaner. Using interactive rebase helps you safely edit and split commits in your work.
+
+FILE: Startup Playbook
+TITLE: Startup Playbook
+DESC: Startups must make something a small number of users love and then scale from there. Great startups need a strong idea, a focused team, excellent product execution, and relentless learning. Founders must recruit well, stay committed without being stubborn, and talk to users constantly.
+
+FILE: State of Play AI Coding Assistants
+TITLE: State of Play AI Coding Assistants
+DESC: AI coding assistants have grown smarter and more independent, needing less human help. They use context engineering and subagents to understand code better and work more safely. This technology helps developers by automating tasks and improving code quality while reducing risks.
+
+FILE: Stop Bloating Your CLAUDE.md Progressive Disclosure for AI Coding Tools
+TITLE: Stop Bloating Your CLAUDE.md Progressive Disclosure for AI Coding Tools
+DESC: Keep your CLAUDE.md file short and focused to save context tokens. Move detailed rules and lessons to separate docs that Claude reads only when needed. This way, AI tools work better by loading the right info at the right time.
+
+FILE: Stop Building Subagents. Start Writing Skills.
+TITLE: Stop Building Subagents. Start Writing Skills.
+DESC: Subagents use up lots of context by loading everything at once, while skills load only what’s needed, saving space and complexity. Skills are easy to manage, discover automatically by project, and work across many AI tools as portable expertise. Use skills first and only switch to subagents when you need isolated or parallel tasks.
+
+FILE: Stop Fighting Claude Code’s Permission Prompts — Here’s How the System Actually Works
+TITLE: Stop Fighting Claude Code’s Permission Prompts — Here’s How the System Actually Works
+DESC: Claude Code asks permission often to protect against security risks like malicious code injections. It uses a three-rule system (deny, ask, allow) across four permission levels to control what actions run without prompts. The new Auto Mode lets you set natural language rules, making permissions smarter and reducing interruptions.
+
+FILE: Stop Wasting Tokens A Smarter Alternative to JSON for LLM Pipelines
+TITLE: Stop Wasting Tokens A Smarter Alternative to JSON for LLM Pipelines
+DESC: TOON is a new format that reduces repeated JSON tokens in large language model prompts, making input more efficient. It keeps the same data as JSON but uses fewer tokens by listing field names once and then streaming values. TOON works best for repeated, uniform data and should be tested alongside JSON to see what fits each LLM task.
+
+FILE: Stop Writing Rules in AGENTS.md Use Agent Hooks and Nano-Staged Instead
+TITLE: Stop Writing Rules in AGENTS.md Use Agent Hooks and Nano-Staged Instead
+DESC: Using agent hooks and tools like nano-staged to run linters is faster and more reliable than writing rules in AGENTS.md. Automating code style checks in scripts saves tokens and prevents errors that LLMs might forget. This setup improves feedback speed and keeps both humans and LLMs focused on shipping code.
+
+FILE: Stop babysitting your agents... — Brandon Walsenuk, Unblocked
+TITLE: Stop babysitting your agents... — Brandon Walsenuk, Unblocked
+DESC: The speaker explains that AI agents need a smart context engine to understand and act without constant help. Simply giving agents access to data is not enough; they need reasoning across information like code and conversations. A good context engine improves agent performance and helps teams work better with AI tools.
+
+FILE: Strategies to Manage the Context Bloat
+TITLE: Strategies to Manage the Context Bloat
+DESC: Users face issues with context bloat when agents read too many documents, making workflows slow. Solutions include disabling compaction, using subagents with specific roles, and tools like compas that index code for faster searching. Combining these methods helps keep context smaller and tasks more manageable.
+
+FILE: Strengthening the Inner Developer Loop Turn AI Into a Reliable Engineering Partner
+TITLE: Strengthening the Inner Developer Loop Turn AI Into a Reliable Engineering Partner
+DESC: AI can speed coding but often increases bugs and complexity. A tight inner developer loop with objective Code Health checks keeps AI changes safe and maintainable. Giving AI access to CodeScene’s MCP makes it a reliable, quality-aware engineering partner.
+
+FILE: Sunny mornings
+TITLE: Sunny mornings
+DESC: Text animated with JavaScript & anime.js
+
+FILE: Sälja Utan Mäklare
+TITLE: Sälja Utan Mäklare
+DESC: Du bestämmer själv pris och köpare när du säljer utan mäklare. Det sparar mäklaravgift men ofta ger lägre slutpris och högre juridisk risk. Alternativ finns, som skrivuppdrag eller delservice via företag som annonserar på Hemnet.
+
+FILE: Tactical Agentic Coding Course
+TITLE: Tactical Agentic Coding Course
+DESC: The Tactical Agentic Coding Course teaches engineers how to use AI agents to automate and scale their work beyond traditional coding. It emphasizes mastering new tactics to build systems that build systems, making engineers irreplaceable. The course offers practical lessons to help engineers shift from hands-on coding to orchestrating autonomous AI workflows.
+
+FILE: Taking Frontend Architecture Serious with dependency-cruiser
+TITLE: Taking Frontend Architecture Serious with dependency-cruiser
+DESC: Dependency-cruiser helps enforce and visualize frontend architecture by controlling imports and detecting unused or misplaced code. It improves code quality by ensuring proper module organization and preventing architectural drift. Using it alongside tools like eslint enhances development and keeps the codebase clean and maintainable.
+
+FILE: Testing Agent Skills Systematically with Evals OpenAI Developers
+TITLE: Testing Agent Skills Systematically with Evals OpenAI Developers
+DESC: Agent skills are sets of prompts and instructions for large language models that need careful testing to work well. Using evals means running the skill, recording what happens, and scoring it with clear checks to catch problems or improvements. This process helps make skill behavior reliable and repeatable over time.
+
+FILE: The 7 Most Powerful Moats For AI Startup YC Startup Library Y Combinator
+TITLE: The 7 Most Powerful Moats For AI Startup YC Startup Library Y Combinator
+DESC: AI startups face challenges building lasting advantages or "moats" because many products can be quickly copied. Strong moats come from deep customizations, unique data access, and complex engineering that are hard to replicate. Vertical AI companies serving specific industries may grow big by managing AI agents better than traditional software.
+
+FILE: The AI Strategy Playbook For Senior Executives
+TITLE: The AI Strategy Playbook For Senior Executives
+DESC: The playbook guides senior leaders on using AI to boost software development by building trust, measuring impact, and managing risks. It stresses that success comes from thoughtful adoption and a culture that sees AI as a tool to enhance human work. Leaders must support teams, integrate AI deeply, and keep improving to stay ahead in the AI-driven future.
+
+FILE: The AI Vampire
+TITLE: The AI Vampire
+DESC: AI can make people much more productive but also causes burnout like a vampire draining energy. Startups and companies push workers too hard, trying to capture all the value from AI without sharing it fairly. To stay healthy and sustainable, leaders and workers must balance AI use and protect their well-being.
+
+FILE: The AI code review checklist that prevents the next $1M production incident
+TITLE: The AI code review checklist that prevents the next $1M production incident
+DESC: AI-generated code often contains serious errors that humans miss because it is produced faster than it can be reviewed. This has led to multiple costly production failures and data losses in major companies. Ruben Dominguez offers a detailed checklist and tools to help teams catch AI code mistakes before they cause damage.
+
+FILE: The Constraints of Traditional Test Impact Analysis
+TITLE: The Constraints of Traditional Test Impact Analysis
+DESC: Traditional test impact analysis is limited by its reliance on static code tools and struggles with diverse tech environments. Orangebeard uses AI to learn from test data and automatically selects the best tests to run, improving speed and quality. This approach helps leaders, QA engineers, and developers work faster and catch issues earlier with fewer resources.
+
+FILE: The Final Bottleneck
+TITLE: The Final Bottleneck
+DESC: Writing code is getting faster, but reviewing it cannot keep up, creating a big backlog problem. This is similar to past industrial bottlenecks where speeding one step just shifts the problem downstream. We must find new ways to share responsibility between humans and machines to handle this faster pace sustainably.
+
+FILE: The Flat Curve Society
+TITLE: The Flat Curve Society
+DESC: AI development is slowing as powerful models become restricted and costly, limiting access to only a few. Most people and companies will use current AI tools, which are helpful but not yet revolutionary. To succeed, organizations must train employees in AI skills and overcome resistance to change.
+
+FILE: The Future of AI 60+ Agents Collaborating in Real Time.
+TITLE: The Future of AI 60+ Agents Collaborating in Real Time.
+DESC: Rooflow is a top-ranked open-source project that uses over 60 AI agents working together as a team. These agents share memory and handle tasks like researching, coding, and testing to improve over time. The system smartly assigns tasks to different AI models based on difficulty, saving costs and boosting efficiency.
+
+FILE: The Future of MCP — David Soria Parra, Anthropic
+TITLE: The Future of MCP — David Soria Parra, Anthropic
+DESC: MCP is a powerful protocol that helps agents connect and work with different tools and interfaces smoothly. In 2026, agents will use MCP along with other methods to handle complex tasks for knowledge workers. The community is open and growing, aiming to improve MCP for better connectivity and smarter agents.
+
+FILE: The RACI Matrix Your Blueprint for Project Success
+TITLE: The RACI Matrix Your Blueprint for Project Success
+DESC: Clear roles and responsibilities are the key to project success. The RACI matrix assigns who is Responsible, Accountable, Consulted, and Informed for each task. Using RACI with your project lifecycle prevents confusion and gets stalled projects moving.
+
+FILE: The Rise of Obsidian as a Second Brain
+TITLE: The Rise of Obsidian as a Second Brain
+DESC: Obsidian is a powerful note app built around plain-text markdown, links, and local files so your notes are portable and future-proof. It excels at searching, linking, templates, plugins, and offline use, making reuse and upgrade easy. Collaboration and built-in sync are limited, so power users handle backups and sharing themselves.
+
+FILE: The Weekly
+TITLE: The Weekly
+DESC: Netlight shares stories about strong client relationships and successful teamwork, like turning around the Candy Crush Saga team with new leadership. They also created Impact Story workshops to show their work’s value and improve how they communicate it. The company invites everyone to join their global meetings to stay informed and connected.
+
+FILE: The backend building blocks for your agents
+TITLE: The backend building blocks for your agents
+DESC: Convex lets you build your backend using only TypeScript. Your code is typechecked, autocompleted, and AI-generated with high accuracy. It supports features like realtime updates, auth, and caching easily.
+
+FILE: The basics of software coupling metrics and concepts
+TITLE: The basics of software coupling metrics and concepts
+DESC: Coupling measures how many dependencies exist between software components. Cohesion measures how related the internal parts of a component are. Metrics like afferent/efferent coupling, instability, and abstractness help architects design modular, maintainable systems.
+
+FILE: The comprehensive guide to making your web app feel native
+TITLE: The comprehensive guide to making your web app feel native
+DESC: When it comes to web apps, they often feel like they're in second place compared to native apps. While there have been advancements in the web platform that make web apps more app-like, it takes more than just those advancements to convince users that a web app is on par with a native app. Techniques such as customizing the installation process, handling app updates properly, utilizing the manifest, implementing smart loading, and adding additional affordances can help make a web app feel more n
+
+FILE: The hidden technical debt of agentic engineering
+TITLE: The hidden technical debt of agentic engineering
+DESC: Building agents is easy, but managing them at scale creates hidden technical debt. Companies need centralized tools for integration, measurement, governance, and orchestration to control many agents working together. Platform teams must focus on visibility and standards to help engineers use agents safely and effectively.
+

@@ -1,3 +1,8 @@
+---
+categories:
+  - "[[Inbox]]"
+created: 2026-06-23
+---
 My name is Hugo and I’ve been working for Netlight  for five years, with a background in data and AI. I’ve helped companies set up data platforms and infrastructure to get better insights.
 
 **Section two: Past work and approach**  

@@ -1,0 +1,8 @@
+---
+categories:
+  - "[[Resources]]"
+domain: compliance
+created: 2026-06-23
+---
+# What Is PCI Compliance?
+Payment card industry (PCI) compliance is mandated by [credit card](https://www.investopedia.com/terms/c/creditcard.asp) companies to help ensure the security of credit card transactions in the payments industry. Payment card industry compliance refers to the technical and operational standards that businesses follow to secure and protect credit card data provided by cardholders and transmitted through card processing transactions.)

@@ -1,0 +1,24 @@
+filters:
+  and:
+    - categories.contains(link("Resources"))
+    - '!file.name.contains("Template")'
+properties:
+  file.name:
+    displayName: Note
+  domain:
+    displayName: Domain
+  created:
+    displayName: Created
+views:
+  - type: table
+    name: Resources
+    groupBy:
+      property: domain
+      direction: ASC
+    order:
+      - file.name
+      - domain
+      - created
+    columnSize:
+      file.name: 397
+      note.domain: 241

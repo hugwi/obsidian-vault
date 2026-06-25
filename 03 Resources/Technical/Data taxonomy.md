@@ -1,1 +1,0 @@
-https://amplitude.com/explore/data/what-data-taxonomy

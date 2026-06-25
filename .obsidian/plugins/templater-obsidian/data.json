@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "05 Templates",
+  "templates_folder": "Templates",
   "templates_pairs": [
     [
       "",
@@ -15,8 +15,12 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "",
-      "template": ""
+      "folder": "Clippings",
+      "template": "Templates/Clipping Template.md"
+    },
+    {
+      "folder": "References",
+      "template": "Templates/Person Template.md"
     }
   ],
   "syntax_highlighting": true,

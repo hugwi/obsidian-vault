@@ -1,3 +1,8 @@
+---
+categories:
+  - "[[Inbox]]"
+created: 2026-06-23
+---
 Agent infrastructure, set it up in a broad way 
 - open source
 - easy to setup 

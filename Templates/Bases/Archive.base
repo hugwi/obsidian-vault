@@ -1,0 +1,21 @@
+filters:
+  and:
+    - categories.contains(link("Archive"))
+    - '!file.name.contains("Template")'
+properties:
+  file.name:
+    displayName: Note
+  domain:
+    displayName: Domain
+  created:
+    displayName: Created
+views:
+  - type: table
+    name: Archive
+    order:
+      - file.name
+      - domain
+      - created
+    sort:
+      - property: created
+        direction: DESC

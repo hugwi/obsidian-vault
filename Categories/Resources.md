@@ -1,0 +1,5 @@
+---
+tags:
+  - categories
+---
+![[Resources.base]]

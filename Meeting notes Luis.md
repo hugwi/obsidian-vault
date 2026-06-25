@@ -1,3 +1,8 @@
+---
+categories:
+  - "[[Inbox]]"
+created: 2026-06-23
+---
 - [ ] Skapa grupp för AI best practices och blueprint
 	- [ ] Built an automatic slack github notification when a PR opens
 	- [ ] visibility

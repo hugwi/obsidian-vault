@@ -1,0 +1,18 @@
+filters:
+  and:
+    - categories.contains(link("Inbox"))
+    - '!file.name.contains("Template")'
+properties:
+  file.name:
+    displayName: Note
+  created:
+    displayName: Created
+views:
+  - type: table
+    name: Inbox
+    order:
+      - file.name
+      - created
+    sort:
+      - property: created
+        direction: DESC

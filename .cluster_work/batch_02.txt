@@ -1,0 +1,200 @@
+FILE: Falling Into The Pit of Success
+TITLE: Falling Into The Pit of Success
+DESC: Eric Lippert notes the perils of programming in C++:
+
+FILE: Fallow The Code Intelligence Tool Every Claude User Needs
+TITLE: Fallow The Code Intelligence Tool Every Claude User Needs
+DESC: Follow is a code intelligence tool for JavaScript and TypeScript that finds dead code, duplication, and complexity issues. It works with many frameworks, offers detailed reports, and can integrate with AI agents like Claude for automated fixes. Though powerful and feature-rich, it focuses only on JavaScript and TypeScript and includes paid features for runtime analysis.
+
+FILE: Fastlagsvägen 61
+TITLE: Fastlagsvägen 61
+DESC: Ljusa och välplanerade gaveltrea med balkong, originaldetaljer och möjlighet att få fyra rum. Lugnt, grönt läge mellan Telefonplan och Aspudden med närhet till tunnelbana, butiker, parker och bad. Stabil bostadsrättsförening med god ekonomi och gemensamma trädgårdsytor.
+
+FILE: Flux A Kanban Board That Speaks MCP
+TITLE: Flux A Kanban Board That Speaks MCP
+DESC: Flux is a simple Kanban board made for AI coding agents to manage tasks clearly and efficiently. It works offline, syncs with git, and lets agents pick tasks by priority without complex setups. Flux is open-source and helps teams and AI work together smoothly.
+
+FILE: For Those Who Left Six-Figure Jobs to Become Real Estate Agents, Was It Worth It or Do You Regret It
+TITLE: For Those Who Left Six-Figure Jobs to Become Real Estate Agents, Was It Worth It or Do You Regret It
+DESC: People say real estate can pay well but is risky and takes years to earn six figures. Many recommend keeping a steady job and doing real estate part-time until you have clients. Some love the flexibility despite lower pay, while others regret quitting steady six-figure work.
+
+FILE: From RPI to QRSPI Rebuilding the First Structured Workflow for Coding Agents
+TITLE: From RPI to QRSPI Rebuilding the First Structured Workflow for Coding Agents
+DESC: The original Research-Plan-Implement (RPI) workflow for coding agents failed at real-world scale due to complexity and fragile triggers. Dex Horthy rebuilt it into QRSPI, a clearer eight-stage process that focuses on gathering facts and structured design before coding. Reliable AI coding depends more on managing context and workflows than just using advanced models.
+
+FILE: Getting Started With Ddd When Surrounded By Legacy Systems
+TITLE: Getting Started With Ddd When Surrounded By Legacy Systems
+DESC: When working with legacy systems, create small "bubble" contexts that isolate new domain models using an Anticorruption Layer (ACL).
+
+FILE: Getting Started with Reader
+TITLE: Getting Started with Reader
+DESC: Reader is a powerful reading app that lets you save, highlight, and annotate many types of documents using keyboard shortcuts and mobile gestures. It offers features like text-to-speech, YouTube video highlighting, and a browser extension for easy saving and web highlighting. The app organizes your content into a Library for important reads and a Feed for automatic updates, and it is constantly improving based on user feedback.
+
+FILE: Git for agents (and humans).
+TITLE: Git for agents (and humans).
+DESC: Oobo adds AI context to git commits, tracking who wrote code, why, and how much it cost. It creates a detailed work record that includes AI sessions and token usage, helping teams see the full history behind changes. Oobo is open source, private by default, and works without plugins to improve software development with humans and AI agents.
+
+FILE: GitHub - AgriciDanielclaude-seo Universal SEO skill for Claude Code. 25 sub-skills + 18 sub-agents covering technical SEO, E-E-A-T, schema, GEOAEO, backlinks, local SEO, maps intelligence, semantic clustering, e-commerce SEO, international SEO, Googl
+TITLE: GitHub - AgriciDanielclaude-seo Universal SEO skill for Claude Code. 25 sub-skills + 18 sub-agents covering technical SEO, E-E-A-T, schema, GEOAEO, backlinks, local SEO, maps intelligence, semantic clustering, e-commerce SEO, international SEO, Googl
+DESC: Claude SEO is an open-source plugin for Claude Code that performs detailed SEO analysis using 25 sub-skills and 18 agents. It covers technical SEO, content quality, schema markup, local and international SEO, and integrates with Google APIs and other data sources. The tool is fast, free with Claude Code, and designed for SEO agencies, in-house teams, and consultants.
+
+FILE: GitHub - AlexsJonesllmfit A way to justify buying a more powerful laptop (and see what LLM's will run)
+TITLE: GitHub - AlexsJonesllmfit A way to justify buying a more powerful laptop (and see what LLM's will run)
+DESC: llmfit is a tool that checks if large language models will run well on your computer by comparing them to your system's RAM, CPU, and GPU. It supports a terminal user interface and classic command-line mode, showing which of 33 popular models fit your hardware. You can install it easily and even add new models by updating its database.
+
+FILE: GitHub - EvolvingSoftwarescreen-pipe Record your screen & mic 247 and connect it to LLMs. Inspired by adept.ai, rewind.ai, Apple Shortcut. Written in Rust. Free. You own your data.
+TITLE: GitHub - EvolvingSoftwarescreen-pipe Record your screen & mic 247 and connect it to LLMs. Inspired by adept.ai, rewind.ai, Apple Shortcut. Written in Rust. Free. You own your data.
+DESC: screen-pipe is an open-source Rust library that records your screen and mic 24/7 and stores the data locally.
+
+FILE: GitHub - HKUDSOpenHarness OpenHarness Open Agent Harness -- Ultra-Lightweight Claude Code · GitHub
+TITLE: GitHub - HKUDSOpenHarness OpenHarness Open Agent Harness -- Ultra-Lightweight Claude Code · GitHub
+DESC: OpenHarness is a very lightweight, open-source Python tool that makes AI models work like helpful agents. It uses only a small part of the code compared to Claude Code but still offers most key features and tools. Users can customize it with new tools, skills, and plugins to build smart AI assistants easily.
+
+FILE: GitHub - aiming-labAutoHarness AutoHarness Automated Harness Engineering for AI Agents · GitHub
+TITLE: GitHub - aiming-labAutoHarness AutoHarness Automated Harness Engineering for AI Agents · GitHub
+DESC: AutoHarness is a tool that helps AI agents become more reliable by managing risks, costs, and tools automatically. It uses a simple pipeline to check and control every action the agent takes, making sure it is safe and efficient. Users can easily add AutoHarness to their AI with just a few lines of code for better governance and audit trails.
+
+FILE: GitHub - arielb135claude-code-e2e-demo E2E testing demo using Claude Code as an autonomous test agent with Playwright · GitHub
+TITLE: GitHub - arielb135claude-code-e2e-demo E2E testing demo using Claude Code as an autonomous test agent with Playwright · GitHub
+DESC: This project demonstrates automated end-to-end testing of a shopping cart app using Claude Code and Playwright. Tests are written in plain English and run securely with optimized API usage and parallel execution. It handles login safely and supports various shopping cart scenarios like adding items and completing checkout.
+
+FILE: GitHub - bmad-code-orgBMAD-METHOD Breakthrough Method for Agile Ai Driven Development
+TITLE: GitHub - bmad-code-orgBMAD-METHOD Breakthrough Method for Agile Ai Driven Development
+DESC: BMad-Method is an AI-driven framework that helps plan and develop software with specialized AI agents working together. It also supports many fields like creative writing and business through expansion packs. The tool includes features like a codebase flattener to prepare projects for AI analysis and offers easy installation and community support.
+
+FILE: GitHub - dirac-rundirac Open Source Coding Agent singularly focused efficiency. Reduces API costs by 50-80% vs other agent AND improves the code quality at the same time. Uses Hash Anchored edits, massively parallel operations, AST manipulation and m
+TITLE: GitHub - dirac-rundirac Open Source Coding Agent singularly focused efficiency. Reduces API costs by 50-80% vs other agent AND improves the code quality at the same time. Uses Hash Anchored edits, massively parallel operations, AST manipulation and m
+DESC: Dirac is an open-source AI coding agent that edits code precisely and efficiently, cutting API costs by 64.8%. It works with multiple files at once and understands code structure to make accurate changes. You can install it as a VS Code extension or use it from the command line to automate coding tasks.
+
+FILE: GitHub - emilybacheRacing-Car-Katas Several code katas on a racing car theme
+TITLE: GitHub - emilybacheRacing-Car-Katas Several code katas on a racing car theme
+DESC: This GitHub repository offers coding exercises with a racing car theme to help improve skills in unit testing and SOLID design principles. Each exercise involves writing tests for legacy code and then refactoring it to be more testable without changing its behavior. The author provides videos, blog posts, and example solutions to support learning.
+
+FILE: GitHub - gitpod-iogitpod The developer platform for on-demand cloud development environments to create software faster and more securely.
+TITLE: GitHub - gitpod-iogitpod The developer platform for on-demand cloud development environments to create software faster and more securely.
+DESC: Gitpod is a cloud development environment that creates fresh dev environments for each task. It integrates with GitLab, GitHub, and Bitbucket for seamless coding and collaboration. Gitpod allows for code reviews, customizability, and easy sharing of dev environments.
+
+FILE: GitHub - gsemetCraftsman Craftsman is an powerful generic coding Agent for GitHub Copilot. It provides a Plan agent that does extensive interview to understand the need and a Ralph implementation loop to implement most plan in a single premium reques
+TITLE: GitHub - gsemetCraftsman Craftsman is an powerful generic coding Agent for GitHub Copilot. It provides a Plan agent that does extensive interview to understand the need and a Ralph implementation loop to implement most plan in a single premium reques
+DESC: Craftsman is a tool that helps plan and build software changes using AI agents inside VS Code. It has two modes: Plan Mode for detailed planning and Ralph Loop for automatic coding and checking. This system improves workflow by organizing tasks, verifying work, and linking progress with project trackers like JIRA.
+
+FILE: GitHub - hamelsmuevals-skills Skills for AI Evals to compliment the course AI Evals For Engineers & PMs · GitHub
+TITLE: GitHub - hamelsmuevals-skills Skills for AI Evals to compliment the course AI Evals For Engineers & PMs · GitHub
+DESC: This GitHub repo offers skills to help AI coding agents build and improve LLM evaluations. It includes tools like eval-audit to find common problems and recommends fixes. Users can install the plugin, use available skills, and create custom ones tailored to their projects.
+
+FILE: GitHub - jordan-gibbshyperresearch Agent-driven research knowledge base. Agents collect, search, and synthesize web research into a persistent, searchable wiki. · GitHub
+TITLE: GitHub - jordan-gibbshyperresearch Agent-driven research knowledge base. Agents collect, search, and synthesize web research into a persistent, searchable wiki. · GitHub
+DESC: Hyperresearch is a research tool that uses AI agents to collect, analyze, and summarize web and academic sources into a searchable knowledge base. It follows a detailed 16-step process to ensure deep, reliable reports with full source tracking. Users can access past research easily, and the tool supports authenticated crawling and academic API searches for thorough investigation.
+
+FILE: GitHub - keploykeploy Shadow Test generation for Developers. Generate tests and stubs for your application that actually work!
+TITLE: GitHub - keploykeploy Shadow Test generation for Developers. Generate tests and stubs for your application that actually work!
+DESC: Keploy is an API testing tool that quickly generates tests and mocks from your application's API and database calls. It features a unit test generator that automates the creation of comprehensive tests to improve coverage and handle complex scenarios. Keploy is easy to install and integrates seamlessly with various testing libraries and CI/CD pipelines.
+
+FILE: GitHub - middlewarehqmiddleware ✨ Open-source DORA metrics platform for engineering teams ✨
+TITLE: GitHub - middlewarehqmiddleware ✨ Open-source DORA metrics platform for engineering teams ✨
+DESC: Middleware is an open-source tool for engineering leaders to measure team effectiveness using DORA metrics. It offers features like automated metric collection, visualization, and integration with project management platforms. Users can set up Middleware easily with Docker or manually to access analytics and server functionalities.
+
+FILE: GitHub - mikaelvesavuorigithub-dora-metrics Instant, badge-ready DORA metrics for your GitHub repository. · GitHub
+TITLE: GitHub - mikaelvesavuorigithub-dora-metrics Instant, badge-ready DORA metrics for your GitHub repository. · GitHub
+DESC: This project provides an AWS-based service that calculates DORA metrics for GitHub repositories using repository data. It supports personal access tokens for private repos and can generate badge-ready metric summaries. The tool uses GitHub deployments and issues to estimate key performance metrics like deployment frequency and change failure rate.
+
+FILE: GitHub - millioncoreact-doctor Let coding agents diagnose and fix your React code
+TITLE: GitHub - millioncoreact-doctor Let coding agents diagnose and fix your React code
+DESC: React Doctor is a tool that scans React code for problems like security and performance issues. It gives a score from 0 to 100 and shows how to fix the problems. You can use it with one command or add it to coding agents like Copilot to improve your React projects.
+
+FILE: GitHub - openaievals Evals is a framework for evaluating LLMs and LLM systems, and an open-source registry of benchmarks.
+TITLE: GitHub - openaievals Evals is a framework for evaluating LLMs and LLM systems, and an open-source registry of benchmarks.
+DESC: OpenAI Evals is a framework for evaluating large language models (LLMs) and allows users to create custom evaluations. It provides a registry of existing evals and supports private data use without public exposure. Users can run and contribute evals, and detailed guides are available to assist in the process.
+
+FILE: GitHub - sandromancusotrip-service-kata Kata for a legacy code hands-on session. The objective is to write tests and refactor the given legacy code.
+TITLE: GitHub - sandromancusotrip-service-kata Kata for a legacy code hands-on session. The objective is to write tests and refactor the given legacy code.
+DESC: The Trip Service Kata is a coding exercise to write tests and refactor legacy TripService code. The goal is to achieve full test coverage and improve the code without changing its public interface or adding state. Tests must isolate TripService by mocking dependencies like UserSession and TripDAO.
+
+FILE: GitHub - shep-aicli Multi-Session SDLC Control Center for AI Coding Agents · GitHub
+TITLE: GitHub - shep-aicli Multi-Session SDLC Control Center for AI Coding Agents · GitHub
+DESC: Shep AI is a command-line tool that automates the full software development lifecycle for coding features using AI agents. It manages research, planning, coding, testing, and pull requests with optional human approval at key stages. The tool runs locally with a web dashboard and supports multiple agents, repositories, and parallel workflows without needing cloud services.
+
+FILE: Goodbye, VRAM Limits How to Run Massive LLMs Across Your GPUs 🚀
+TITLE: Goodbye, VRAM Limits How to Run Massive LLMs Across Your GPUs 🚀
+DESC: Ollama lets you run huge AI models by splitting them across multiple GPUs instead of just one. This stops slowdowns caused by using the CPU and makes the model run faster. You simply create a Modelfile to tell Ollama how many GPUs to use, and it handles the rest automatically.
+
+FILE: Graphify + code-review-graph Build a Self-Updating Knowledge Graph for Claude Code and other AI Coding Agent
+TITLE: Graphify + code-review-graph Build a Self-Updating Knowledge Graph for Claude Code and other AI Coding Agent
+DESC: Graphify is best for exploring unknown code by showing connections, while CRG is better for precise symbol lookup. The system uses CRG first and falls back to Graphify only if needed to save resources. A special check prevents too many Graphify processes from running at once and overloading the computer.
+
+FILE: Graphify vs. code-review-graph Which is better for context-mapping across two very different large codebases
+TITLE: Graphify vs. code-review-graph Which is better for context-mapping across two very different large codebases
+DESC: The author compares Graphify and code-review-graph for mapping context in two different large codebases: a data-heavy dashboard and a full-stack web platform. Recommendations suggest using code-review-graph for structural mapping of the dashboard and Graphify for handling the website's multi-modal assets. A third tool, TrueCourse, is also recommended for better architectural analysis and cross-service flow tracing.
+
+FILE: Hacker News
+TITLE: Hacker News
+DESC: Dirac uses smart code editing techniques like hash-anchored edits and AST to improve efficiency. Developers discuss how AST can help with easier code review and better context understanding. They also compare tools and methods for handling large codebases and improving AI-assisted coding.
+
+FILE: Harness engineering for coding agent users
+TITLE: Harness engineering for coding agent users
+DESC: Coding agents work best when paired with a "harness," which guides their actions and helps them self-correct errors. This harness uses both feedforward controls to steer the agent before acting and feedback sensors to catch mistakes after. Building strong harnesses takes effort but boosts trust and accuracy in AI-driven coding.
+
+FILE: Harness engineering leveraging Codex in an agent-first world OpenAI
+TITLE: Harness engineering leveraging Codex in an agent-first world OpenAI
+DESC: OpenAI's team built software using only Codex-generated code, with no manual coding. Engineers now focus on guiding and improving agents to do reliable work. This new approach changes how software is designed, reviewed, and maintained at scale.
+
+FILE: Harnesses in AI A Deep Dive — Tejas Kumar, IBM
+TITLE: Harnesses in AI A Deep Dive — Tejas Kumar, IBM
+DESC: An AI harness is a system that controls and guides AI models to work safely and reliably. It adds rules and checks to keep the AI grounded in reality and prevent errors like lying. Building a harness helps make AI agents more stable and trustworthy when doing tasks.
+
+FILE: Hexagonal Architecture A Complete Guide for Modern Software Design
+TITLE: Hexagonal Architecture A Complete Guide for Modern Software Design
+DESC: Hexagonal Architecture separates core business logic from external systems to make software flexible, testable, and easy to maintain. It uses ports (interfaces) and adapters (implementations) to keep the domain independent of technology changes. This design helps build scalable and resilient applications that can evolve without breaking.
+
+FILE: Hexagonal Architecture The Secret to Scalable and Maintainable Code for Modern Software
+TITLE: Hexagonal Architecture The Secret to Scalable and Maintainable Code for Modern Software
+DESC: Hexagonal architecture separates core business logic from external systems using ports and adapters. This makes software easier to test, maintain, and scale by allowing components to be swapped without changing the core. It is especially useful for complex applications that integrate many external systems.
+
+FILE: Hip Pain while Approaching Climbs or Landing From Boulders
+TITLE: Hip Pain while Approaching Climbs or Landing From Boulders
+DESC: Hip pain during climbing often comes from pressure on the hip joint. Gentle hip traction can provide quick relief. For lasting help, strengthen your hip and see a physical therapist.
+
+FILE: How Duolingo reignited user growth - by Jorge Mazal — How Duolingo reignited user growth
+TITLE: How Duolingo reignited user growth - by Jorge Mazal — How Duolingo reignited user growth
+DESC: Duolingo grew its users by making learning more fun with leaderboards, streaks, and smart notifications. They focused on keeping current users engaged instead of just finding new ones. This approach helped Duolingo get more active users and succeed in its IPO.
+
+FILE: How I Built an AI Agent That Actually Gets Work Done
+TITLE: How I Built an AI Agent That Actually Gets Work Done
+DESC: Every few months, a new wave of AI agents shows up promising the same thing: automate your work, save hours, and act like a digital…
+
+FILE: How I Built an AI Documentation Engine with Tree-sitter, Claude AI, and RAG
+TITLE: How I Built an AI Documentation Engine with Tree-sitter, Claude AI, and RAG
+DESC: Elizabeth Stein built AutomaDocs, an AI tool that keeps code documentation updated automatically by analyzing code structure with Tree-sitter and generating text using Claude AI. The system syncs changes instantly using GitHub webhooks and improves search with a hybrid retrieval method. This approach makes documentation easier to maintain and more accurate without manual work.
+
+FILE: How I Finally Sorted My Claude Code Memory #98
+TITLE: How I Finally Sorted My Claude Code Memory #98
+DESC: John Conneely set up a clear memory system for Claude Code using organized files in ~/.claude/memory/ and project-specific memory folders. This system helps Claude remember useful information by writing it to the right files and reading them at session start. It also automatically loads project memory before using tools to keep knowledge fresh and organized.
+
+FILE: How I Vibe Code Technical Videos With Claude Code and Remotion
+TITLE: How I Vibe Code Technical Videos With Claude Code and Remotion
+DESC: John Hartquist shows how he makes and edits technical videos using Claude Code and Remotion. This method automates video tasks with code, making the process faster and easier. It helps focus on content, not tedious editing.
+
+FILE: How I plan my day with Obsidian Daily Notes
+TITLE: How I plan my day with Obsidian Daily Notes
+DESC: Elizabeth Tai shows how she uses Obsidian daily notes, templates, and a few plugins to plan and automate tasks. She keeps project notes with task lists and pulls relevant tasks into each day. She also uses the daily notes for quick planning, reflection, and journaling.
+
+FILE: How I run customer interviews (and why they're better than analytics for 0-1)
+TITLE: How I run customer interviews (and why they're better than analytics for 0-1)
+DESC: Talk to customers early to learn why they do things, not just what they do. Let them talk, ask open questions, and follow interesting tangents. Record and repeat back what they say to uncover real problems you can't see in analytics.
+
+FILE: How We Organize Our Life in Notion Second Brain
+TITLE: How We Organize Our Life in Notion Second Brain
+DESC: Tiago Forte uses Notion to write things down so he stops relying on memory. He organizes checklists, projects, and household info into searchable databases. This system saves time, prevents reinvention, and lets him focus on creative work.
+
+FILE: How are push notifications created and handled in PWAs
+TITLE: How are push notifications created and handled in PWAs
+DESC: Push notifications in PWAs work through browser service workers that run in the background to deliver messages. They are free to send but may be less reliable than native app notifications, especially on some browsers or devices. Tools like PushEngage or LaraPush can simplify adding and managing push notifications for PWAs.
+
+FILE: How can you make website feel like a native app
+TITLE: How can you make website feel like a native app
+DESC: To make a website feel like a native app, developers can use single-page architecture, smooth animations, and fast touch responses. Adding offline support, installable features, and optimizing performance also help create a seamless experience. These techniques together make web apps feel polished, reliable, and fast like native apps.
+
+FILE: How long before we stop reading the code
+TITLE: How long before we stop reading the code
+DESC: Code reviews are slowing down development because AI writes code faster than humans can read it. Instead of checking code line-by-line, teams should review the intent and plans before coding begins. Using automated checks for standards and tests lets humans focus on important judgment calls, making reviews faster and better.
+

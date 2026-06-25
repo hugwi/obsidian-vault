@@ -1,9 +1,13 @@
 ---
+categories:
+  - "[[Clippings]]"
 title: "Visual Plans"
 source: "https://www.agent-native.com/docs/template-plan"
 author:
 published:
 created: 2026-06-18
+rating: 
+action: 
 description: "Agent-Native Plans turns your coding agent's plan into a structured, reviewable document — diagrams, wireframes, annotated code, comments, and share links. Install once from the CLI; reviewers you share with edit as a guest and sign in only to save or share."
 tags:
   - "clippings"

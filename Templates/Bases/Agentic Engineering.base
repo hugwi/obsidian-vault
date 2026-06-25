@@ -1,0 +1,244 @@
+filters:
+  and:
+    - domain.contains("agentic-engineering")
+    - '!file.name.contains("Template")'
+properties:
+  file.name:
+    displayName: Note
+  theme:
+    displayName: Theme
+  subtheme:
+    displayName: Sub-theme
+  file.tags:
+    displayName: Tags
+  rating:
+    displayName: Rating
+  action:
+    displayName: Action
+  read:
+    displayName: Read
+  source:
+    displayName: Source
+views:
+  - type: table
+    name: 🧠 Context engineering
+    filters:
+      and:
+        - theme == "context-engineering"
+    groupBy:
+      property: subtheme
+      direction: ASC
+    order:
+      - file.name
+      - subtheme
+      - rating
+      - action
+      - read
+  - type: table
+    name: 📋 Work breakdown & specs
+    filters:
+      and:
+        - theme == "work-breakdown-specs"
+    groupBy:
+      property: subtheme
+      direction: ASC
+    order:
+      - file.name
+      - subtheme
+      - rating
+      - action
+      - read
+  - type: table
+    name: ✅ Quality gates
+    filters:
+      and:
+        - theme == "quality-gates"
+    groupBy:
+      property: subtheme
+      direction: ASC
+    order:
+      - file.name
+      - subtheme
+      - rating
+      - action
+      - read
+  - type: table
+    name: 🔍 Comprehension & maintainability
+    filters:
+      and:
+        - theme == "comprehension-maintainability"
+    groupBy:
+      property: subtheme
+      direction: ASC
+    order:
+      - file.name
+      - subtheme
+      - rating
+      - action
+      - read
+  - type: table
+    name: 🤖 Multi-agent orchestration
+    filters:
+      and:
+        - theme == "multi-agent-orchestration"
+    groupBy:
+      property: subtheme
+      direction: ASC
+    order:
+      - file.name
+      - subtheme
+      - rating
+      - action
+      - read
+  - type: table
+    name: 🔁 Workflow phases & gates
+    filters:
+      and:
+        - theme == "workflow-phases-gates"
+    groupBy:
+      property: subtheme
+      direction: ASC
+    order:
+      - file.name
+      - subtheme
+      - rating
+      - action
+      - read
+  - type: table
+    name: 📈 Productivity & measurement
+    filters:
+      and:
+        - theme == "productivity-measurement"
+    groupBy:
+      property: subtheme
+      direction: ASC
+    order:
+      - file.name
+      - subtheme
+      - rating
+      - action
+      - read
+  - type: table
+    name: 👤 Human, UX & frontend
+    filters:
+      and:
+        - theme == "human-ux-frontend"
+    groupBy:
+      property: subtheme
+      direction: ASC
+    order:
+      - file.name
+      - subtheme
+      - rating
+      - action
+      - read
+  - type: table
+    name: 🏭 Industry & product
+    filters:
+      and:
+        - theme == "industry-product"
+    groupBy:
+      property: subtheme
+      direction: ASC
+    order:
+      - file.name
+      - subtheme
+      - rating
+      - action
+      - read
+  - type: table
+    name: 🧩 Agents & models
+    filters:
+      and:
+        - theme == "agents-models"
+    groupBy:
+      property: subtheme
+      direction: ASC
+    order:
+      - file.name
+      - subtheme
+      - rating
+      - action
+      - read
+  - type: table
+    name: 🔨 To implement
+    filters:
+      and:
+        - action == "implement"
+    order:
+      - file.name
+      - theme
+      - subtheme
+      - rating
+    sort:
+      - property: rating
+        direction: DESC
+  - type: table
+    name: 📌 To review
+    filters:
+      and:
+        - action == "review"
+    order:
+      - file.name
+      - theme
+      - subtheme
+      - rating
+  - type: table
+    name: 💡 Insights
+    filters:
+      and:
+        - action == "insight"
+    order:
+      - file.name
+      - theme
+      - subtheme
+      - rating
+  - type: table
+    name: ⭐ Top rated
+    order:
+      - file.name
+      - theme
+      - subtheme
+      - rating
+      - action
+    sort:
+      - property: rating
+        direction: DESC
+  - type: table
+    name: Unread
+    filters:
+      and:
+        - read != true
+    groupBy:
+      property: theme
+      direction: ASC
+    order:
+      - file.name
+      - subtheme
+      - rating
+      - action
+  - type: table
+    name: Read
+    filters:
+      and:
+        - read == true
+    groupBy:
+      property: theme
+      direction: ASC
+    order:
+      - file.name
+      - subtheme
+      - rating
+      - action
+  - type: table
+    name: All topics
+    groupBy:
+      property: theme
+      direction: ASC
+    order:
+      - file.name
+      - subtheme
+      - rating
+      - action
+      - read
+      - source

@@ -1,0 +1,73 @@
+---
+categories:
+  - "[[Daily]]"
+created: 2024-06-19 09:30
+---
+tags:: [[+Daily Notes]]
+
+# Wednesday, June 19, 2024
+
+<< [[2024-06-18-Tuesday|Yesterday]] | [[2024-06-20-Thursday|Tomorrow]] >>
+
+---
+
+# 🔥 Todo 
+- [ ] Vorwerk
+		- [ ] Book meeting Valnetina recurring
+		- [ ] Reschedule meeting Eric
+		- [ ] Bokat möte med Olle Skandia
+	- [ ] Make a drawing of attribue based access control
+	- [ ] Answer Piiano
+	- [x] Report time Vorwerk ✅ 2024-06-19
+	- [ ] Look into how much is left to be done of homebrew and try to give time estimation
+	- [ ] Make a comparison for Piiano
+	- [ ] Make a vendor comparison - construct excel sheet and start rating
+		- collect points to compare 
+	- [ ] Check response about load testing
+	- [ ] Check with Valentina if she has reached out to Julian
+	
+- [ ] Waiting
+- [ ] Netlight 
+	- [ ] Write to FI about movement
+	- [ ] Delete AWS databricks resources
+- [ ] DATA PRIVACY considerations 
+	- [ ] Need to add checks to see that we're not caching calls to udf
+	- [ ] What happens if we create the token at the same time as we reuse it? I suppose we only create one since we're deduplicating?
+	- [ ] RTBF across systems
+	- [ ] Can we keep a deletion log for RTBF
+	- [ ] Need to create a seggregation for use cases. What if you only can have access to part of the tokens although they're in the same column group? Do we need to add isolation? 
+	- [ ] Pii in unity catalog - Create a [warning](https://medium.com/@andrewpweaver/identifying-and-tagging-pii-data-with-unity-catalog-870522f25730)
+- [ ] Personal
+ - [ ] Backlog
+	- [ ] How is policies mapped to user attributes?
+	- [ ] Follow up with DPO
+	- [ ] Show PIIano sandbox
+	 - [ ] Keep in mind to replace with token and not delete
+	- [ ] What happens if a value for a customer is updated? How should it behave?
+		- [ ] Data access concepts
+		- How is PII accessed? Do we need to have more fine grained access rules? 
+	- [ ] Compare synchronization vs isolation
+	- [ ] Write about data governance initiative - check with Michael
+	- [ ] What happens if we have id from different sources
+	- [ ] Watch [gen ai talk](https://netlight365beta-my.sharepoint.com/personal/raku_netlight_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fraku%5Fnetlight%5Fcom%2FDocuments%2FRecordings%2FArchitecting%20LLM%2Dpowered%20applications%5F%20A%20practical%20guide%2D20231207%5F180207%2DMeeting%20Recording%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview&ga=1)
+
+---
+
+# 📝 Notes
+- 
+
+---
+### Notes created today
+```dataview
+LIST  
+WHERE file.cday = this.file.day  
+SORT file.time asc  
+```
+
+### Notes last touched today
+```dataview
+LIST  
+WHERE file.mday = this.file.day  
+SORT file.mtime asc  
+```
+

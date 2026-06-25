@@ -1,0 +1,17 @@
+filters:
+  and:
+    - categories.contains(link("Daily"))
+    - '!file.name.contains("Template")'
+properties:
+  file.name:
+    displayName: Note
+  created:
+    displayName: Created
+views:
+  - type: table
+    name: Daily
+    order:
+      - file.name
+    sort:
+      - property: file.name
+        direction: DESC

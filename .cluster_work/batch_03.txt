@@ -1,0 +1,200 @@
+FILE: How to Build a Pseudocode Runner with AI
+TITLE: How to Build a Pseudocode Runner with AI
+DESC: The Screaming Protocol uses AI to rigorously test and validate pseudocode before real coding begins. It forces AI to find flaws by running tough, adversarial inputs and self-checking its logic. This method speeds up development and reduces costly bugs, especially in regulated industries.
+
+FILE: How to Build an E2E Web Testing Agent with Claude - No Selectors, No Scripts, No Frameworks
+TITLE: How to Build an E2E Web Testing Agent with Claude - No Selectors, No Scripts, No Frameworks
+DESC: This blog shows how to build a testing agent that uses plain English goals to test web apps without scripts or selectors. The agent uses Claude's API to think and adapt while running tests with Playwright. This method makes testing easier and more flexible than traditional scripts.
+
+FILE: How to Get Clawdbot Set Up in an Afternoon
+TITLE: How to Get Clawdbot Set Up in an Afternoon
+DESC: Clawdbot is a personal AI assistant you can text using WhatsApp on a separate phone number with an eSIM. It runs on a Mac Mini that stays on all the time and connects to your phone via WhatsApp Business. This setup lets you chat with AI anytime without mixing it with your personal messages.
+
+FILE: How to Harness Coding Agents With the Right Infrastructure
+TITLE: How to Harness Coding Agents With the Right Infrastructure
+DESC: Coding agents work best when supported by clear context, specialized roles, persistent memory, and structured steps. Overloading agents with too much information or tools makes them less effective. Atomic is an open-source tool that applies these ideas to help agents work reliably on complex coding tasks.
+
+FILE: How to Implement a Successful Master Data Management Strategy
+TITLE: How to Implement a Successful Master Data Management Strategy
+DESC: Master Data Management (MDM) needs clear governance, data quality rules, and the right people in defined roles. Use automation, validation tools, and KPIs to keep data accurate and trusted. Plan with as-is assessment, future design, and a phased implementation roadmap.
+
+FILE: How to Make Your OpenClaw Agent Useful and Secure
+TITLE: How to Make Your OpenClaw Agent Useful and Secure
+DESC: OpenClaw agents become useful and secure by setting clear personality, behavior, and security rules in workspace files like SOUL.md and AGENTS.md. Proper setup prevents accidental sharing of secrets and ensures the agent responds only when appropriate, especially in group chats. Over time, the agent builds memory to understand your preferences and work context, making it a personalized and reliable assistant.
+
+FILE: How to Run Local LLMs with Claude Code
+TITLE: How to Run Local LLMs with Claude Code
+DESC: This guide explains how to run local large language models (LLMs) using Claude Code and OpenAI Codex with llama.cpp and Unsloth tools. It shows how to deploy models like GLM-4.7-Flash on your machine for coding and fine-tuning tasks. You can use Claude Code or Codex locally to interact with these models for agentic coding and automation.
+
+FILE: How to Sanitize User Input in React to Prevent Injection Attacks
+TITLE: How to Sanitize User Input in React to Prevent Injection Attacks
+DESC: User input can allow hackers to inject malicious code into React apps, causing security problems like XSS and SQL injection. React helps protect against many attacks automatically, but you must still sanitize and validate inputs carefully, especially when rendering HTML or handling URLs. Use tools like DOMPurify and follow security best practices regularly to keep your app safe.
+
+FILE: How to Sync Your Obsidian Vault Across Multiple Devices for Free
+TITLE: How to Sync Your Obsidian Vault Across Multiple Devices for Free
+DESC: Obsidian's official sync service costs money, but you can sync your vault for free using cloud storage like Google Drive. By installing Google Drive on your computer and a third-party app called Autosync on your phone, you can keep your notes updated across devices. This method helps you access and back up your Obsidian vault without paying for a subscription.
+
+FILE: How to build a skills library for your engineering team
+TITLE: How to build a skills library for your engineering team
+DESC: The team built a skills library to standardize AI coding assistant configurations across engineers. Skills are grouped into required and optional sets, updated automatically, and easy to contribute to. This system helps track usage, improve quality, and reduce scattered, outdated skills.
+
+FILE: How to build your seed round pitch deck YC Startup Library Y Combinator
+TITLE: How to build your seed round pitch deck YC Startup Library Y Combinator
+DESC: The text provides a template for building a seed round pitch deck, emphasizing clarity and concision in storytelling. It includes sections on problem statement, solution, traction, team, business model, market size, and funding needs. The template aims to help founders effectively communicate their startup's value proposition to potential investors.
+
+FILE: How to measure Claude Code ROI Developer productivity insights with Faros
+TITLE: How to measure Claude Code ROI Developer productivity insights with Faros
+DESC: Claude Code helps developers write code faster, but organizations often don't see overall delivery improve. Faros tracks how teams use Claude Code and links this data to real productivity and quality metrics. This helps companies measure true ROI and optimize AI tools for better software delivery.
+
+FILE: How we use Claude Agents to automate test coverage
+TITLE: How we use Claude Agents to automate test coverage
+DESC: We used Claude Agents to automate writing and reviewing tests, speeding up the process that would take weeks manually. The agents follow a clear roadmap with priorities, coverage targets, and quality checks, ensuring thorough and maintainable test suites. This approach raised test coverage from 30% to nearly 50% in less than a week with better control and results.
+
+FILE: Hugo Pod
+TITLE: Hugo Pod
+DESC: hi
+
+FILE: HugoRoberto 2.0
+TITLE: HugoRoberto 2.0
+DESC: + + + + + + + + +
+
+FILE: I Built 63 Design Skills For Claude - and They're Free
+TITLE: I Built 63 Design Skills For Claude - and They're Free
+DESC: The author built 63 free design skills for the AI tool Claude to help designers work better with AI. These skills teach Claude real design knowledge, not just image creation. The goal is to support, not replace, designers by sharing useful frameworks and workflows.
+
+FILE: I Improved 15 LLMs at Coding in One Afternoon. Only the Harness Changed.
+TITLE: I Improved 15 LLMs at Coding in One Afternoon. Only the Harness Changed.
+DESC: Improving the tool that helps models edit code can boost their performance more than changing the model itself. A new method using line hashes made editing more accurate and efficient across many models. Open, community-built tools are key to solving this problem, not just private company solutions.
+
+FILE: I Replaced $90Month in AI Coding Tools With 3 Free GitHub Repos. Here's the Exact Setup.
+TITLE: I Replaced $90Month in AI Coding Tools With 3 Free GitHub Repos. Here's the Exact Setup.
+DESC: This setup replaces costly AI coding tools with three free GitHub projects: 9router for free AI models, agentmemory for saving work across sessions, and agent-skills for following real engineering steps. Together, they let you build software with persistent memory and quality workflows without paying $90/month. The system works well but may take longer since it does extra checks and testing automatically.
+
+FILE: I Thought DGX Spark Was Slower… Until I Changed ONE Thing
+TITLE: I Thought DGX Spark Was Slower… Until I Changed ONE Thing
+DESC: Alex tested AI model speeds on several machines, including the DGX Spark and Mac Studio. He found that DGX Spark is much faster with concurrency using VLM software. The Mac Studio leads in single-user speed, but Spark shines with many users at once.
+
+FILE: I built Claude's Dreams feature myself using Mem0 and Codex, and it changed how I code
+TITLE: I built Claude's Dreams feature myself using Mem0 and Codex, and it changed how I code
+DESC: Anthropic created a feature called Claude Dreams that helps AI agents learn from past conversations by reviewing and improving their memories. Since access was limited, the author built a similar system using Mem0 and Codex to give their agent long-term memory and reflection abilities. This approach separates raw memories, summaries, and insights to keep the memory useful and helps the AI improve over time.
+
+FILE: I built a coding agent that gets 87% on benchmarks with a 4B parameter model, here's how
+TITLE: I built a coding agent that gets 87% on benchmarks with a 4B parameter model, here's how
+DESC: A developer built SmallCode, a coding agent that scores 87% on benchmarks using a 4 billion parameter model by combining multiple tools into one and instantly checking code for errors. This approach helps small models work reliably by breaking tasks into simpler steps and escalating hard problems to bigger models if needed. SmallCode runs locally with OpenAI-compatible endpoints but lacks some advanced features like multi-session support.
+
+FILE: I ditched Claude Code and OpenCode for Pi, and my coding workflow became predictable again
+TITLE: I ditched Claude Code and OpenCode for Pi, and my coding workflow became predictable again
+DESC: The author switched to Pi, an AI coding harness, because it gives more control and uses fewer tokens than others like Claude Code and OpenCode. Pi lets users see and manage everything the AI does, making coding more predictable and efficient. It also can create its own extensions, helping customize workflows easily.
+
+FILE: I learned a productivity system for organizing life
+TITLE: I learned a productivity system for organizing life
+DESC: Matt learned a simple note-taking system to organize his life and projects.
+
+FILE: I tested 3 tiny local LLMs for everyday work, and only one of them impressed me
+TITLE: I tested 3 tiny local LLMs for everyday work, and only one of them impressed me
+DESC: The author tested three very small local language models for everyday tasks and found only one truly useful. Gemma 4 E2B handled structured tasks well but had quirks, while Qwen 3.5 0.8B was confidently wrong often. LFM2.5-1.2B was poor at creative tasks but reliable and accurate for real-time data and specialized uses.
+
+FILE: I was tired of AI coding agents breaking my projects. Here is the Harness framework that fixed it.
+TITLE: I was tired of AI coding agents breaking my projects. Here is the Harness framework that fixed it.
+DESC: AI coding agents often fail on complex projects by losing context and breaking code. The "Harness" framework uses rules, clear folder structures, and progress tracking to keep AI on track. This system makes AI more reliable by updating rules instead of rewriting prompts.
+
+FILE: Improving Performance with HTTP Streaming
+TITLE: Improving Performance with HTTP Streaming
+DESC: Airbnb improved web performance by using HTTP Streaming, which sends parts of a webpage in chunks to load faster. They broke their page into early head, late head, and body components to stream content and data efficiently. This method reduced loading times and made their site feel quicker for users.
+
+FILE: Instant Startup Valuations Based on Live Market Data
+TITLE: Instant Startup Valuations Based on Live Market Data
+DESC: HubSpot offers a free tool that estimates your startup's valuation based on six questions. It helps founders prepare for fundraising and understand their valuation. The tool also provides pitch deck analysis and keeps your information safe.
+
+FILE: Introducing Beads A coding agent memory system
+TITLE: Introducing Beads A coding agent memory system
+DESC: Beads is a new tool that helps coding agents remember and manage long tasks better than markdown plans. It uses an issue tracker system to keep tasks organized and prevent lost work. This makes agents more reliable and efficient across multiple work sessions.
+
+FILE: Introducing visual-plan - rich plans for Claude Code + Codex
+TITLE: Introducing visual-plan - rich plans for Claude Code + Codex
+DESC: Steve created a tool called visual plan that makes coding plans easy to understand with interactive visuals and diagrams. It helps catch mistakes early and improves teamwork by sharing clear, visual plans and recaps. The tool is open source, customizable, and works with GitHub to show visual summaries on pull requests.
+
+FILE: Introduction to Domain-Driven Design (DDD) in Insurance
+TITLE: Introduction to Domain-Driven Design (DDD) in Insurance
+DESC: Domain-Driven Design (DDD) builds software by modeling real business concepts and using a shared language between developers and domain experts.
+
+FILE: Is There A Right Way To Write User Stories
+TITLE: Is There A Right Way To Write User Stories
+DESC: User stories must describe a clear business need, include a concise title, description, and acceptance criteria, and fit within one sprint. Use INVEST (Independent, Negotiable, Valuable, Estimable, Small, Testable) and vertical slicing to make stories deliverable and shippable. Keep stories focused on one intent, avoid implementation details, and give the development team enough info to build and test.
+
+FILE: Is There a Cure for Arthritis
+TITLE: Is There a Cure for Arthritis
+DESC: Arthritis has many types and no cure yet, but research is ongoing to find better treatments. Clinical trials test new medicines and devices to make sure they are safe and effective for people. The Arthritis Foundation supports research and helps patients by funding studies and training doctors.
+
+FILE: JavaScript
+TITLE: JavaScript
+DESC: Motion.dev is a JavaScript animation library. It helps create smooth and fast web animations. You can use it for simple moves or complex gestures.
+
+FILE: Jira and Linear are legacy software
+TITLE: Jira and Linear are legacy software
+DESC: Jira and Linear are becoming outdated because AI and agents can handle much of the work in software development. This new approach focuses on using context and automation to speed up planning and coding. The future will simplify processes by blending code, intent, and AI tools, replacing traditional issue tracking.
+
+FILE: Joel Spolsky on Equity for Startups · GitHub
+TITLE: Joel Spolsky on Equity for Startups · GitHub
+DESC: Joel Spolsky emphasizes the importance of fairness when dividing ownership in a startup, suggesting a 50-50 split between founders to avoid conflicts. He proposes a "layered" approach, where founders receive about 50% of the company and subsequent employee layers share the remaining ownership based on their risk. Vesting is crucial to ensure commitment, preventing early leavers from claiming significant equity without contributing long-term.
+
+FILE: Karpathy Just Told Us What Startups To Build For 2026
+TITLE: Karpathy Just Told Us What Startups To Build For 2026
+DESC: Karpathy says in 2026, builders should focus on agent-first apps that let AI do tasks for us. Many current apps are outdated because AI models can do their work natively now. The future is building new software that only works with AI, not old-style apps with just faster interfaces.
+
+FILE: Karpathy's Skill Just Fixed Claude Code's Biggest Problem
+TITLE: Karpathy's Skill Just Fixed Claude Code's Biggest Problem
+DESC: Karpathy's skill adds four clear rules to a Claude MD file that help AI think before coding and keep code simple and goal-driven. This stops the AI from making mistakes or changing unrelated code. It also guides the AI to use the right skills for each task, making coding smarter and faster.
+
+FILE: Keep your coding agent on task with mutation testing
+TITLE: Keep your coding agent on task with mutation testing
+DESC: AI coding agents often generate extra or untested code, so you should make them run linters, typechecks, and tests after each change. Use mutation testing (e.g., Stryker) to break code and find weak tests that let bugs survive. Run mutations only on changed files and use coverage to limit tests so runs stay fast.
+
+FILE: Kobo 2.0 Sync is Here 📕 🔁
+TITLE: Kobo 2.0 Sync is Here 📕 🔁
+DESC: Readwise updated its Kobo import to make authentication and syncing smoother and more reliable. They also launched Reader, their integrated read-it-later app, into public beta. Both updates are now available to users.
+
+FILE: Komplett Guide Till Att Sälja Bostad Utan Mäklare
+TITLE: Komplett Guide Till Att Sälja Bostad Utan Mäklare
+DESC: Du kan spara pengar på att sälja bostad själv, men det kräver mycket tid, kunskap och arbete.
+
+FILE: Legit-Controlmonorepo A Git based Version control system for AI agents to make them safe, reliable collaborators.
+TITLE: Legit-Controlmonorepo A Git based Version control system for AI agents to make them safe, reliable collaborators.
+DESC: Legit SDK is a Git-based version control system that makes apps fail-safe and easy to use. It lets users track changes, branch safely, and roll back to previous states through a familiar file system API. The SDK works everywhere, including browsers and servers, and supports many programming environments.
+
+FILE: Let Claude use your computer from the CLI
+TITLE: Let Claude use your computer from the CLI
+DESC: Claude's computer use feature lets it control macOS apps through the command line by clicking, typing, and interacting like a user. It requires a Pro or Max plan, macOS permissions, and an interactive session to work safely with app approvals and a lock system. This tool helps build, test, and debug apps by automating GUI tasks without needing extra setup or leaving the terminal.
+
+FILE: Linas Beliūnas’ Post
+TITLE: Linas Beliūnas’ Post
+DESC: Anthropic analyzed one million AI chats and found many people seek personal advice on health, money, and relationships. This shows a big chance for founders to build trusted AI guidance products in nine key areas. Linas Beliūnas offers a detailed playbook and insights on where Anthropic will compete and where startups can succeed.
+
+FILE: Loading skill…
+TITLE: Loading skill…
+DESC: Local memory management for agents. Compression detection, auto-snapshots, and semantic search. Use when agents need to detect compression risk before memory loss, save context snapshots, search hist…
+
+FILE: Luke Alvoeiro The Bottleneck in Coding Is No Longer AI — It's Human Attention
+TITLE: Luke Alvoeiro The Bottleneck in Coding Is No Longer AI — It's Human Attention
+DESC: AI models can now handle many coding tasks at once, but human attention is the real bottleneck. Factory's Missions system improves productivity by letting humans focus on planning while AI agents do the coding and validation. Success depends on smart orchestration, structured workflows, and clear checkpoints, not just better AI models.
+
+FILE: MCP Security Is a Mess 5 Ways I Broke My Own AI Agent
+TITLE: MCP Security Is a Mess 5 Ways I Broke My Own AI Agent
+DESC: MCP lets AI agents connect to many tools but has serious security flaws. Attackers can steal data, run harmful commands, and hijack agents using simple tricks. To stay safe, use strict permissions, isolate sensitive tools, and verify all MCP servers carefully.
+
+FILE: MCP vs CLI Two Ways to Let AI Take Action (and Why It Matters)
+TITLE: MCP vs CLI Two Ways to Let AI Take Action (and Why It Matters)
+DESC: MCP and CLI are two ways AI agents execute tasks: MCP uses predefined tools for precise actions, while CLI generates commands and learns from feedback. MCP is safer and clearer but costly with many tools, whereas CLI is flexible and cheaper but riskier. Modern systems blend both, using MCP for critical tasks and CLI for iterative work.
+
+FILE: MDM Survivorship How to Choose the Right Record
+TITLE: MDM Survivorship How to Choose the Right Record
+DESC: MDM survivorship rules pick the best attribute values from multiple source records to create one trusted golden record. Good survivorship combines rule types (like source priority, recency, completeness, and quality scoring) and is set at the attribute level. Strong survivorship improves accuracy, efficiency, compliance, and customer experience.
+
+FILE: MIT Explains the 12 Possible Endings for AI
+TITLE: MIT Explains the 12 Possible Endings for AI
+DESC: AI experts warn that superintelligent AI could lead to many possible futures, some very dangerous for humanity. Some fear AI might control or enslave humans, while others hope for peaceful coexistence or strict regulation. The future depends on how we manage AI development and its risks.
+
+FILE: Make videos programmatically.
+TITLE: Make videos programmatically.
+DESC: Demo Pricing For collaborations and companies of 4+ people Trusted by
+

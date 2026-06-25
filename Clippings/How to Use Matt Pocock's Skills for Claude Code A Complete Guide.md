@@ -1,10 +1,14 @@
 ---
+categories:
+  - "[[Clippings]]"
 title: "How to Use Matt Pocock's Skills for Claude Code: A Complete Guide"
 source: "https://tosea.ai/blog/matt-pocock-skills-claude-code-guide"
 author:
   - "[[Tosea.ai Team]]"
 published: 2026-04-26
 created: 2026-06-21
+rating: 
+action: 
 description: "A practical guide to Matt Pocock's mattpocock/skills repository — the .claude directory that makes Claude Code follow team conventions for PRDs, TDD, refactors, and git safety."
 tags:
   - "clippings"

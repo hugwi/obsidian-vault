@@ -1,9 +1,13 @@
 ---
+categories:
+  - "[[Clippings]]"
 title: "bytedance/deer-flow: An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours."
 source: "https://github.com/bytedance/deer-flow"
 author:
 published:
 created: 2026-06-21
+rating: 
+action: 
 description: "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours. - bytedance/deer-flow"
 tags:
   - "clippings"

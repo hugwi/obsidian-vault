@@ -1,0 +1,51 @@
+file,tags
+Can an AI learn cooking (And what it teaches us about building better agents),llm-fundamentals code-quality
+Capabilities Mapping for Domain Driven Architecture,ddd clean-architecture
+Change Data Capture (CDC),data-engineering
+Claude + Obsidian + Graphify = New Meta,pkm-obsidian context-engineering token-efficiency
+Claude + Remotion = Marketing Cheat Code,media-generation alt-agents
+Claude Code 2026 The Daily Operating System Top Developers Actually Use,claude-code-ops harness-engineering
+Claude Code Is Wasting 98% Of Your Tokens On Search. Here's The Fix.,token-efficiency cost-optimization code-intelligence
+"Claude Code Just Killed $10,000 Websites (Here's Proof)",alt-agents cost-optimization
+Claude Code Prompt Coach Skill to analyse your AI-Assisted Coding Skills,claude-code-ops agent-skills observability
+Claude Code Skills Don't Auto-Activate (a workaround),claude-code-ops agent-skills
+"Claude Code Skills, Plugins, and the JSONC Design Spec Trick That Changed My Workflow",claude-code-ops agent-skills frontend-webapp
+Claude Code for Everything Keeping Up with the Claude Code Treadmill (30 Claude Code Tips & Tricks),claude-code-ops
+Claude Code is Expensive. This MCP Server Fixes It (Context Mode),mcp token-efficiency cost-optimization
+Claude Code's creator says his setup involves thousands of AI sub-agents doing 'deeper work' overnight,multi-agent harness-engineering
+Claude HTML Slides = The NEW Powerpoint Killer (Full Tutorial),media-generation alt-agents
+"Claude Oceanus, Anthropic AGI Claims, GPT-5.6 Checkpoint, GLM 5.2, Nemotron 3 Ultra & More\! AI NEWS\!",ai-industry llm-fundamentals
+"Claude Saves Tokens, Forgets Everything",context-engineering token-efficiency comprehension-debt
+Clean architecture folder structure · Issue #3 · eminettoclean-architecture-go-v2,clean-architecture software-patterns
+Clock in your agents.,multi-agent harness-engineering dora-metrics
+Computer use is 45x More Expensive Than Structured APIs,cost-optimization browser-automation
+Connect to dbt Core,data-engineering
+"Context Is the New Code — Patrick Debois, Tessl-2",context-engineering agent-skills code-quality
+"Context Is the New Code — Patrick Debois, Tessl",context-engineering agent-skills
+Create presentation,media-generation
+Creating The Perfect Claude Code Status Line,claude-code-ops observability
+Daily Driver Task Management System,productivity
+Dashboards for OpenCode and Claude coding sessions,observability dora-metrics alt-agents
+Data Democratization Embracing Trusted Data to Transform Your Business,mdm-governance
+Data Mesh From an Engineering Perspective,data-engineering mdm-governance
+Data democratization How data architecture can drive business decisions and AI initiatives,mdm-governance data-engineering
+Deduplication as Part of MDM,mdm-governance data-engineering
+Deterministic vs. Non-Deterministic LLMs What's the Difference,llm-fundamentals evals
+"DeusDatacodebase-memory-mcp High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 66 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",mcp code-intelligence token-efficiency
+Discover community-made UI components 21st,frontend-webapp ux-ui-design
+Diving into Claude Code's Source Code Leak,web-security claude-code-ops
+Domain Driven Design implemented by functional programming,ddd software-patterns
+Domain-Driven Design (DDD) Explained for Business Analysts A Step-by-Step Guide,ddd product-management
+Domain-Driven Design Tackling Complexity In The Heart Of Software,ddd clean-architecture software-patterns
+Domain-Driven Design Use Case Improving A Life Insurance Selling Platform,ddd software-patterns
+Don't Trust the Process,ux-ui-design product-management
+Don't buy GPUs for AI,local-llm cost-optimization
+Dribbble - Discover the World's Top Designers & Creative Professionals,ux-ui-design
+E2e Test Framework,agent-testing code-quality
+ESLint as AI Guardrails The Rules That Make AI Code Readable,code-quality harness-engineering
+Effective Context Engineering for AI Agents,context-engineering harness-engineering
+Every UIUX Concept Explained in Under 10 Minutes,ux-ui-design
+Every idea needs a,non-content
+Exhaustiveness Checking with Mypy,code-quality software-patterns
+"Experimental Drug Can Reverse Osteoarthritis in Weeks, Animal Research Shows",health
+Exploring Self-Healing Playwright Automation with AI — Looking for Suggestions,agent-testing code-quality

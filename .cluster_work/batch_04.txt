@@ -1,0 +1,200 @@
+FILE: Managing Comprehension Debt How to Stop Shipping AI Code You Don’t Understand
+TITLE: Managing Comprehension Debt How to Stop Shipping AI Code You Don’t Understand
+DESC: Many teams use AI to write code they don't fully understand, creating "comprehension debt." To stop this, Simon Wang suggests scoring how well you understand AI-generated code before using it. Success needs support from the whole organization, not just individual effort.
+
+FILE: Mapping Business Capabilities to Services
+TITLE: Mapping Business Capabilities to Services
+DESC: Map business capabilities to domain services using domain-driven design.
+
+FILE: Master Data Management (MDM)
+TITLE: Master Data Management (MDM)
+DESC: Master Data Management (MDM) creates a single, trusted view of key business data like customers, products, and suppliers. It combines processes, governance, and tools to keep data accurate, consistent, and up-to-date across systems. With MDM, companies reduce duplicates, improve decisions, and power reliable analytics and AI.
+
+FILE: Master Data Management A Strategic Imperative for Enterprise Data Governance
+TITLE: Master Data Management A Strategic Imperative for Enterprise Data Governance
+DESC: Full text of this document omitted because this document is a PDF Download original file →
+
+FILE: Master Data Management Best Practices How to Do It Right
+TITLE: Master Data Management Best Practices How to Do It Right
+DESC: Master Data Management (MDM) makes business data accurate, consistent, and reliable. A good MDM strategy needs governance, quality controls, and system integration. The right tools and processes reduce duplicates, ensure compliance, and support growth.
+
+FILE: Master Data Management in a distributed landscape
+TITLE: Master Data Management in a distributed landscape
+DESC: Data Mesh challenges traditional Master Data Management (MDM) approaches by emphasizing semantic linking and diverse perspectives. Knowledge graphs and Vector Databases offer new solutions for addressing the complexities of MDM. By empowering data owners and rethinking technological solutions, organizations can create more integrated and effective MDM practices.
+
+FILE: Master data management strategy The key to getting more from your data
+TITLE: Master data management strategy The key to getting more from your data
+DESC: A master data management (MDM) strategy makes critical business data accurate, consistent, and accessible. It sets governance, roles, and processes to create a single trusted source across systems. Strong MDM improves efficiency, compliance, and decision-making while reducing duplication and errors.
+
+FILE: Matteo Collina’s Post
+TITLE: Matteo Collina’s Post
+DESC: AI now writes much of the code, but humans must carefully review every change. The key skill for developers is not coding fast but making good judgments. Human review is the crucial step that ensures quality and prevents problems.
+
+FILE: Medical Research at the Johns Hopkins Arthritis Center
+TITLE: Medical Research at the Johns Hopkins Arthritis Center
+DESC: The Johns Hopkins Arthritis Center studies many types of arthritis to improve diagnosis and treatment. Their research focuses on immune-related arthritis, osteoarthritis, and new therapies using advanced imaging and patient data. They provide expert care while working on better treatments and possible cures.
+
+FILE: Microsoft accidentally told the truth about AI
+TITLE: Microsoft accidentally told the truth about AI
+DESC: AI is making software jobs harder and often produces mistakes. A dad worries that relying on AI steals his daughter's chance to learn and grow. Real skill comes from struggle and experience, not just using tools.
+
+FILE: Mitko Vasilev’s Post
+TITLE: Mitko Vasilev’s Post
+DESC: Anthropic released Petri, an AI tool that tests other AI models for harmful behavior. They shared the code openly, letting anyone use and audit it. This shows that trust and ownership of AI are more important than control.
+
+FILE: Multica The Open Source Tool That Makes Claude Code 10x Better
+TITLE: Multica The Open Source Tool That Makes Claude Code 10x Better
+DESC: Multimodal is a tool that helps you turn coding agents like Claude Code into helpful teammates. You can self-host it on your own server and manage tasks, skills, and alerts for your agents. It offers a flexible, cheaper way to work with AI agents through direct dialogue and task tracking.
+
+FILE: Must-Have UXUI Design Skills for Claude Code
+TITLE: Must-Have UXUI Design Skills for Claude Code
+DESC: Claude Code offers multiple skills that help create user-focused, polished, and modern web designs. These skills include UI/UX strategy, frontend design, animation, and adherence to web design best practices. They can be installed easily and trigger automatically to improve design quality and consistency.
+
+FILE: My Claude Code Now Has Its Own Second Brain in Obsidian
+TITLE: My Claude Code Now Has Its Own Second Brain in Obsidian
+DESC: The author uses a plugin called Ars Contexta with Claude Code to create an AI assistant inside their Obsidian notes. This assistant builds its own "second brain" by learning how the author works and helps automate tasks like making content outlines. The author believes this tool improves knowledge management by acting as a helpful partner, not a replacement.
+
+FILE: My Favorite Books for DevOps Engineering
+TITLE: My Favorite Books for DevOps Engineering
+DESC: These are the best books to learn DevOps in 2024
+
+FILE: My MDM Framework
+TITLE: My MDM Framework
+DESC: The author presents a practical Master Data Management (MDM) framework that brings together strategy, governance, people, processes, and technology. MDM ensures consistent, accurate master data to support business transactions and use cases like customer management. Implementing MDM requires clear roles, integration with business processes and programs, and measurable value indicators.
+
+FILE: My Simple Productivity System (for normal people)!
+TITLE: My Simple Productivity System (for normal people)!
+DESC: Capture every idea quickly in one easy app so your brain can forget it. Organize those items later into the places you will actually use them (calendar, Notion, email). This two-step habit gives most of the productivity benefits with minimal effort.
+
+FILE: My Telescope for Claude
+TITLE: My Telescope for Claude
+DESC: MyTelescope connects to Claude via MCP and delivers real search demand data from Google, YouTube, Amazon and 10+ platforms. Start free with 500 credits.
+
+FILE: Never Forget A Task or To-Do Again - Obsidian Reminders
+TITLE: Never Forget A Task or To-Do Again - Obsidian Reminders
+DESC: Antone shows how to add pop-up reminders to Obsidian using the Reminder plugin. You can set dates, times, snooze options, and view all reminders in a sidebar. The plugin works on desktop and mobile so you won't forget tasks.
+
+FILE: New AI coding paradiagm - OpenAI Symphony
+TITLE: New AI coding paradiagm - OpenAI Symphony
+DESC: OpenAI Symphony is a new system that manages coding agents by linking tasks like tickets to isolated workspaces automatically. It uses a special workflow.md file to control how agents work and handle tasks in a flexible, version-controlled way. This setup helps agents complete coding jobs fully and verify their work, making software development more organized and efficient.
+
+FILE: Nordic.js 2025 •Tobias Ahlin - Finding Signal in the AI Noise
+TITLE: Nordic.js 2025 •Tobias Ahlin - Finding Signal in the AI Noise
+DESC: AI is getting smarter but still makes many mistakes and has limits. The key challenge is managing many AI agents that are smart but lack clear direction. Success will come from designing systems where AI agents work together by debating and disagreeing to find the best solutions.
+
+FILE: Obsidian As A Second Brain The ULTIMATE Tutorial
+TITLE: Obsidian As A Second Brain The ULTIMATE Tutorial
+DESC: Obsidian is a note-taking app you can use as a second brain to store ideas, notes, and knowledge. The tutorial shows how to organize, link, and search notes for easy recall. It teaches practical tips to build a reliable personal knowledge system.
+
+FILE: Oliver Molander’s Post
+TITLE: Oliver Molander’s Post
+DESC: This advice list from YC back in 2023 is still one of the best things early-stage founders can revisit.
+
+FILE: Open Design is Here The Open-Source Claude Code Design Alternative
+TITLE: Open Design is Here The Open-Source Claude Code Design Alternative
+DESC: Open Design is an open-source alternative to Cloud Code for designing products. It works with many tools and lets you create prototypes quickly. You can find it on GitHub and use it to build and share designs easily.
+
+FILE: Open source voice ai that scales linearly in production at 110th of Vapi's cost
+TITLE: Open source voice ai that scales linearly in production at 110th of Vapi's cost
+DESC: Rapida is a new open source voice AI that scales efficiently and costs one-tenth of Vapi. It uses Go for better performance, lower memory use, and easier scaling compared to Pipecat's Python base. Rapida is designed for large production systems with built-in reliability and enterprise features.
+
+FILE: OpenAI Just Showed Us What Comes After the Harness. Here's The Layer Almost Everyone's Missing.
+TITLE: OpenAI Just Showed Us What Comes After the Harness. Here's The Layer Almost Everyone's Missing.
+DESC: OpenAI created an open-source tool called Symphony to help many AI coding agents work together smoothly. They explain that AI agents need both inner and outer harness layers to manage tasks and improve results. This new approach reduces human bottlenecks and makes AI systems more reliable and scalable.
+
+FILE: OpenClaw Is Changing My Life
+TITLE: OpenClaw Is Changing My Life
+DESC: OpenClaw changed how I work by letting me manage projects through simple chat, without writing code myself. It acts like a team of programmers, handling coding, testing, and deployment on its own. This frees me to focus on big ideas and planning, making my productivity and dreams much closer to reality.
+
+FILE: OpenClaw Setup Guide 25 Tools + 53 Skills Explained
+TITLE: OpenClaw Setup Guide 25 Tools + 53 Skills Explained
+DESC: OpenClaw is an AI agent with 25 Tools that enable actions and 53 Skills that teach it tasks. It works in layers: core tools let it respond, advanced tools let it act smartly, and skills connect it to apps like Gmail and Slack. Users configure which tools and skills to enable for safe, automated assistance on tasks like email triage and CI/CD monitoring.
+
+FILE: OpenCode has been a gamechanger!
+TITLE: OpenCode has been a gamechanger!
+DESC: A small SEO startup switched from expensive Claude Code to affordable OpenCode AI tools and saved a lot of money. They found OpenCode's Chinese models powerful and its interface easier to use. Many users shared tips and liked OpenCode's flexibility despite some lag in the desktop app.
+
+FILE: Osteoarthritis and bouldering
+TITLE: Osteoarthritis and bouldering
+DESC: Many people with osteoarthritis in hips or knees still enjoy climbing by adjusting their style and doing stretches or yoga. Some suggest avoiding jumping down and trying roped climbing to reduce pain and injury risk. Surgery is often seen as the only permanent fix, but gentle climbing can help maintain strength and flexibility.
+
+FILE: PI Agent Revolution Building Customizable, Open-Source AI Coding Agents That Outperform Claude Code
+TITLE: PI Agent Revolution Building Customizable, Open-Source AI Coding Agents That Outperform Claude Code
+DESC: PI Agent is an open-source AI coding tool that gives engineers full control through a minimal core and customizable extensions. It outperforms Claude Code by focusing on modularity, transparency, and flexibility for advanced users. This guide teaches you how to build, customize, and orchestrate powerful AI agents for real-world development.
+
+FILE: Panel Does AI lead us back to a beautiful document based waterfall approach
+TITLE: Panel Does AI lead us back to a beautiful document based waterfall approach
+DESC: AI is changing how we write code and specifications, making the process more agile but also raising trust and skill questions. Experienced developers still play a key role in guiding AI tools to produce good results. The future will blend human learning and AI assistance, but challenges and new problems will continue to arise.
+
+FILE: Parallel AI Coding with Git Worktrees and Custom Claude Code Commands
+TITLE: Parallel AI Coding with Git Worktrees and Custom Claude Code Commands
+DESC: This text explains how to use Claude Code's custom commands with git worktrees to run multiple AI agents coding in parallel on different branches. This method helps create several versions of the same feature at once, allowing you to pick the best one. It makes AI coding faster, more flexible, and scalable for teams.
+
+FILE: Parse, don’t validate
+TITLE: Parse, don’t validate
+DESC: In Haskell, it is better to parse inputs upfront than to validate them later, as parsing catches errors early and keeps the code safe. Strengthening types helps avoid runtime errors and makes programs clearer. People have mixed feelings about Haskell, finding it either powerful and elegant or complex and hard to learn.
+
+FILE: Pattern Saga
+TITLE: Pattern Saga
+DESC: Sagas are a way to manage transactions that span multiple microservices, allowing for data consistency without using distributed transactions. They can be coordinated through choreography, where services communicate via events, or orchestration, where a central orchestrator directs the process. While sagas help maintain order and consistency, they add complexity and require careful design of compensating transactions.
+
+FILE: Perplexity Open-Sourced a Scanner Every Dev Should Know (Bumblebee)
+TITLE: Perplexity Open-Sourced a Scanner Every Dev Should Know (Bumblebee)
+DESC: Bumblebee is a free tool that quickly scans your computer for developer packages and extensions without running any code. It helps find risky or malicious software safely by reading metadata only. This tool is useful for checking developer machines during security incidents to know what is installed locally.
+
+FILE: Pi The Minimal Agent Within OpenClaw
+TITLE: Pi The Minimal Agent Within OpenClaw
+DESC: Pi is a small and reliable coding agent that writes and runs code using just four tools. It lets users build and extend their own agents by writing code instead of downloading many extensions. This approach powers projects like OpenClaw and shows how software can build more software naturally.
+
+FILE: Pi to Pi Two-Way Agent Orchestration with the Pi Coding Agent
+TITLE: Pi to Pi Two-Way Agent Orchestration with the Pi Coding Agent
+DESC: The Pi Coding Agent enables different agents to talk and work together across devices. This teamwork helps solve complex problems by dividing tasks and double-checking work. Using specialized agents improves control and efficiency in building smart systems.
+
+FILE: Playing Nicely With Git Worktrees And DevContainers
+TITLE: Playing Nicely With Git Worktrees And DevContainers
+DESC: The author struggled to use git worktrees with devcontainers because of a "not a git repository" error. After research, AI help, and trial-and-error, they found a working solution. They shared their fix to help others avoid the same problem.
+
+FILE: Practical Guide to Evaluating and Testing Agent Skills
+TITLE: Practical Guide to Evaluating and Testing Agent Skills
+DESC: Agent skills are sets of instructions that help AI agents perform tasks without retraining the model. This guide shows how to define success, create tests, and improve skills using automation and manual checks. Testing skills thoroughly ensures they work well and stay up-to-date, avoiding errors and wasted resources.
+
+FILE: Programming as Theory Building · GitHub
+TITLE: Programming as Theory Building · GitHub
+DESC: The text discusses programming as theory building, emphasizing the importance of programmers forming a theory to support program development. It suggests that a programmer's theory of a program is essential for understanding and maintaining the program over time. The Theory Building View of programming highlights the significance of programmers' insights and knowledge in creating and modifying effective programs.
+
+FILE: Prompting & Context Engineering
+TITLE: Prompting & Context Engineering
+DESC: Ruben Dominguez writes about how to use AI tools smarter by improving prompts and system design. He shares tips to reduce wasted AI usage and make AI agents more reliable and helpful. His work helps people save money and get better results with AI.
+
+FILE: Publish App Google Play Store AI Guide Complete Walkthrough
+TITLE: Publish App Google Play Store AI Guide Complete Walkthrough
+DESC: This guide shows how AI tools help anyone build and publish Android apps on Google Play without coding skills. It explains simple steps from planning the app to creating features, testing, and submitting the app. Using AI makes app development faster, easier, and accessible to everyone.
+
+FILE: Quantifying Productivity
+TITLE: Quantifying Productivity
+DESC: The author created ulogme to track and analyze their computer usage to better understand productivity. After three months of data collection, they discovered insights about their work habits, including time spent on various tasks. The project aims to be an open-source tool for others interested in quantifying their productivity.
+
+FILE: Qwen3 235b-A22b on a Windows Tablet @ ~11.1tS on AMD Ryzen AI Max 395+ 128GB RAM
+TITLE: Qwen3 235b-A22b on a Windows Tablet @ ~11.1tS on AMD Ryzen AI Max 395+ 128GB RAM
+DESC: A powerful Asus ROG Flow Z13 Windows tablet with AMD Ryzen AI Max 395+ and 128GB RAM runs a large 235B language model using only its integrated GPU at about 11 tokens per second. This setup uses Vulkan backend and aggressive quantization to fit the model in GPU memory without CPU help. Users note this tablet offers impressive AI inference speed for its size and price compared to desktops and other devices.
+
+FILE: Reader Frequently Asked Questions
+TITLE: Reader Frequently Asked Questions
+DESC: Changelog October 27, 2023 Updated instructions for adding document notes to include mobile and browser extension Updated mobile directions for customizing appearance Pro Tip: Use Ghostreader One of the coolest features of Reader is an AI reading assistant called Ghostreader (based on GPT-3). Ghostreader enables you to define terms, look
+
+FILE: Real Estate Agents Are Wasting 20 Hours a Week. Here's How I Fix It for Them
+TITLE: Real Estate Agents Are Wasting 20 Hours a Week. Here's How I Fix It for Them
+DESC: Realtors waste ~20 hours a week on low-value busywork and miss deals or burn out. A VA-led "No-Thinking" Delegation System—bottleneck audit, rule-of-3, SOPs, and a weekly CEO hour—reclaims that time. Delegate or automate repetitive tasks to close more deals and protect your sanity.
+
+FILE: Regenerative Medicine Helping the Body Heal Itself
+TITLE: Regenerative Medicine Helping the Body Heal Itself
+DESC: Regenerative medicine helps the body heal itself using new treatments like stem cells and platelet-rich plasma. These therapies show promise for diseases like osteoarthritis and are safer than traditional options. Scientists are also exploring gene editing to improve healing and reduce inflammation.
+
+FILE: Relationships Between Bounded Contexts in DDD-2
+TITLE: Relationships Between Bounded Contexts in DDD-2
+DESC: Bounded contexts in DDD rarely stand alone and must be mapped to show how they relate. Common relationship patterns (shared kernel, partnership, upstream/downstream with published language, conformist, ACL, customer/supplier) guide how teams integrate and avoid tight coupling. A context map helps spot conflicts early and choose fixes like ACLs, refactoring, or merging.
+
+FILE: Relationships Between Bounded Contexts in DDD
+TITLE: Relationships Between Bounded Contexts in DDD
+DESC: Bounded Contexts must be mapped and understood, because they rarely act alone.
+

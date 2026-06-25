@@ -1,0 +1,41 @@
+file,tags
+Your voice is the only AI moat that compounds. Here is how to clone it into Claude in a weekend,voice-ai
+Your whole app inside iframe. And it works.,spec-driven-dev web-security
+agent-skillsskillsread-only-postgres at main · jawwadfirdousiagent-skills · GitHub,agent-skills harness-engineering web-security
+agent-stuffskillsweb-browserSKILL.md at main · mitsuhikoagent-stuff · GitHub,agent-skills harness-engineering
+browser-usebrowser-use 🌐 Make websites accessible for AI agents. Automate tasks online with ease.,browser-automation frontend-webapp harness-engineering
+"caliber-ai-orgai-setup Continuously sync your AI setups with one command. Codebase tailor suited agent skills, MCPs and config files for Claude Code, Cursor, and Codex.",agent-skills alt-agents claude-code-ops harness-engineering mcp
+"can1357oh-my-pi ⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",agent-memory browser-automation harness-engineering
+code-quality-metricsmeasuring-ai-code-drift-using-github-metrics.md at main · stride-nyccode-quality-metrics,code-quality code-review comprehension-debt dora-metrics spec-driven-dev startup
+confident-aideepeval The LLM Evaluation Framework,agent-testing evals
+davebcn87pi-autoresearch Autonomous experiment loop extension for pi,code-review harness-engineering observability
+dependency-cruiserdocreal-world-samples.md at main · sverweijdependency-cruiser,comprehension-debt
+dislerpi-vs-claude-code Comparison between open source PI agent and closed source Claude Code agent,non-content
+"dynaptikcrispy CRISPY (how QRSPI sounds to me phonetically) is a multi-agent orchestration plugin for agentic AI coding. It implements an 8-phase state machine based on the QRSPI methodology (Question, Research, Structure, Plan, Implement).",agent-testing harness-engineering multi-agent spec-driven-dev
+"emilybacheTheatrical-Players-Refactoring-Kata Example from first chapter of 'Refactoring' by Martin Fowler, with tests and translations",agent-testing software-patterns
+firstloophqclaude-code-test-runner An automated E2E natural language test runner built on Claude Code,agent-testing claude-code-ops frontend-webapp
+httpswww.google.comsearchq=v8+idolate&oq=v8+idolate+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQABgNGIAEMggIAhAAGA0YHjIICAMQABgNGB4yCAgEEAAYDRgeMggIBRAAGA0YHjIICAYQABgNGB4yCAgHEAAYDRgeMggICBAAGA0YHjIICAkQABgNGB4yCggKEAAYChgNGB4yCggLEAAYBRgNGB4yCggMEAAYBRgNG,non-content
+jbrainstrivia Legacy Code Retreat - Trivia Game codebase,agent-testing software-patterns
+mattpocockskills Skills for Real Engineers. Straight from my .claude directory.,agent-skills harness-engineering
+medium.com,non-content
+monorepoexampleslegit-code at main · Legit-Controlmonorepo · GitHub,code-review
+"multica-aiandrej-karpathy-skills A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",claude-code-ops claude-md observability
+"multica-aimultica The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",agent-skills harness-engineering multi-agent
+"nedcodes-okrule-porter Convert AI IDE rules between Cursor, Windsurf, CLAUDE.md, AGENTS.md, and Copilot. Bidirectional. Zero dependencies.",alt-agents claude-md harness-engineering
+nextlevelbuilderui-ux-pro-max-skill An AI SKILL that provide design intelligence for building professional UIUX multiple platforms,ux-ui-design
+object-oriented-learning-journeyblog_draftbusiness_context_driven_carrental_c_sharp_en.md at main · andreas-wagner-devobject-oriented-learning-journey · GitHub,clean-architecture context-engineering ddd
+pi-ai · pi-coding-agent · pi-tui,agent-skills context-engineering harness-engineering
+pi-remote-agent,harness-engineering multi-agent
+"rtk-airtk CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",context-engineering token-efficiency
+skillsgreploopSKILL.md at main · greptileaiskills,code-review
+skillsgrill-meSKILL.md at main · mattpocockskills,
+speaches-aispeaches,local-llm voice-ai
+steel-devsteel-browser 🔥 Open Source Browser API for AI Agents & Apps. Steel Browser is a batteries-included browser sandbox that lets you automate the web without worrying about infrastructure.,agent-testing harness-engineering
+stride-nycohl-agent ReAct agent with MCP for OneHealthLink agent escalation,agent-memory harness-engineering health mcp startup
+swingermandisciplined-agentic-engineering Acceptance Test Driven Development for Claude Code — inspired by Uncle Bob's approach from empire-2025,agent-testing claude-code-ops code-quality code-review harness-engineering software-patterns spec-driven-dev
+system-prompts-and-models-of-ai-toolsLovableAgent Prompt.txt at main · x1xhlolsystem-prompts-and-models-of-ai-tools,alt-agents harness-engineering ux-ui-design
+tirth8205code-review-graph Local knowledge graph for Claude Code. Builds a persistent map of your codebase so Claude reads only what matters — 6.8× fewer tokens on reviews and up to 49× on daily coding tasks.,claude-code-ops code-intelligence code-review context-engineering spec-driven-dev
+"truecourse-aitruecourse AI-powered architecture analysis and code intelligence. Detects circular deps, layer violations, dead modules, and more. Web UI + CLI.",frontend-webapp web-security
+vercel-labsopensrc Fetch source code for npm packages to give AI coding agents deeper context,context-engineering harness-engineering
+"web-infra-devmidscene AI-powered, vision-driven UI automation for every platform.",browser-automation cost-optimization frontend-webapp
+"x1xhlolsystem-prompts-and-models-of-ai-tools FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode",alt-agents claude-code-ops spec-driven-dev startup web-security

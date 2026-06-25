@@ -1,1 +1,0 @@
-https://fotbutiken.se/barfotaskor/barfotaskor-active-svart

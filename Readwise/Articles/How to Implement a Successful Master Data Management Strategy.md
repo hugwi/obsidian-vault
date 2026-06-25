@@ -1,4 +1,0 @@
----
-aliases:
----
-<label class="ob-comment" title="" style="">  <input type="checkbox"> <span style=""> Comment </span></label>

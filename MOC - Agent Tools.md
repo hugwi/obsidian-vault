@@ -1,0 +1,92 @@
+---
+categories:
+  - "[[Resources]]"
+title: "MOC: Agent Tools"
+category: moc
+created: 2026-06-13
+tags:
+  - moc
+  - agent-tools
+---
+
+# Agent Tools
+
+> Map of Content — 74 notes
+
+## Notes
+
+- [[Agent-Driven Browser Verification.md|Agent-Driven Browser Verification]] — oh-my-pi's persistent-tab + arbitrary-JS + observe-first browser tool vs fixed-tool MCP servers (Chrome DevTools / Playwright) for verification testing
+- [[AI E2E Testing Tooling.md|AI E2E Testing Tooling]] — survey of MCP servers (Octomind) + libraries (Stagehand, Midscene, Shortest) that auto-author/drive/self-heal E2E tests; cost model + hermetic-gate caution
+
+- [[# a brief history of ralph (01kme1qz64whbe514x6wkb0b9w).md|# a brief history of ralph]] — The Ralph Wiggum Technique went viral in the last week of 2025. Here's the
+- [[# automating software engineering (01ktfarbg47dberphkx37ma3xd).md|# automating software engineering]] — # automating software engineering
+- [[25 Claude Code Tips from 11 Months of Intense Use (01kncvvn4v6pgcbntwzy6p8pnk).md|25 Claude Code Tips from 11 Months of Intense Use]] — You can customize the status line at the bottom of Claude Code to show useful
+- [[3 New Claude Code Repos Will 100x Your Next Project (01kqv9khyjp4mm1hp5j0sf6c1b).md|3 New Claude Code Repos Will 100x Your Next Project]] — Comment \"AI Agent\" for Access to the 3 Repos & 40+ free Claude Code Guides
+- [[4 Claude Code slash commands I use daily that make me more productive (01knd2jsw05g1hwggyrv3e40cp).md|4 Claude Code slash commands I use daily that make me more productive]] — Small commands, massive workflow gains.
+- [[A wild month in the cyber industry (01kp6kn88yk9m9m9rfhn4z10pd).md|A wild month in the cyber industry]] — On accountability, supply chains, and why the lawsuits matter more than the
+- [[Agents on the Canvas in tldraw  Steve Ruiz, tldraw (01kqzaqgec2872krf621m23wtk).md|Agents on the Canvas in tldraw — Steve Ruiz, tldraw]] — At tldraw, we''ve been bringing agents to our infinite canvas. In December
+- [[Anthropic's Boris Cherny: Why Coding Is Solved, and What Comes Next (01krkm8zbvnxnwhcbmpjyw1vec).md|Anthropic''s Boris Cherny: Why Coding Is Solved, and What Comes Next]] — Boris Cherny, creator of Claude Code at Anthropic, joins Sequoia partner
+- [[Blog.md|Blog]] — Practical guides, tutorials, and real-world examples for building AI agents, workflows, and automations with MindStudio.
+- [[Building AI governance while building AI (01kpg0nnywysakb5rtv72dpp6y).md|Building AI governance while building AI]] — Real AI governance needs both practitioner capability and organisational
+- [[Claude Code 2026: The Daily Operating System Top Developers Actually U… (01kp6g51ymx09ae3pqjs3s8c0f).md|Claude Code 2026: The Daily Operating System Top Developers Actually Use]] — The exact 5-part model, 10-minute routine, slash commands, context hygiene
+- [[Claude Code Just Killed $10,000 Websites (Heres Proof) (01kqz9knhp53g271z5xchj5js0).md|Claude Code Just Killed $10,000 Websites (Here’s Proof)]] — The #1 community for building a highly-profitable personal brand with AI
+- [[Claude Code Prompt Coach Skill to analyse your AI-Assisted Coding Skil… (01kqxtb5q440vkwdb81152m5tr).md|Claude Code Prompt Coach Skill to analyse your AI-Assisted Coding Skills]] — Claude Code Prompt Coach Skill to analyse your ai-assisted coding skills
+- [[Claude Code Skills Don't Auto-Activate (a workaround) (01kn2cyhkm9fb9shegmhcre4yh).md|Claude Code Skills Don't Auto-Activate (a workaround)]] — So I got Claude Skills to register with Claude Code (sorted the
+- [[Claude Code's creator says his setup involves thousands of AI sub-agen… (01krm2jw5z53gj1qthtydt576d).md|Claude Code's creator says his setup involves thousands of AI sub-agents doing]] — Boris Cherny says he has thousands of AI agents running tasks for him, especially
+- [[Claude Oceanus, Anthropic AGI Claims, GPT-5.6 Checkpoint, GLM 5.2, Nem… (01kteze1bydnav10p1rasmwj3b).md|Claude Oceanus, Anthropic AGI Claims, GPT-5.6 Checkpoint, GLM 5.2, Nemotron]] — AI-generated code is moving faster than human review can keep up. If you\
+- [[Create presentation (01kb4gtp75tmzk89jzrwykp80a).md|Create presentation]] — ChatGPT helps you get answers, find inspiration, and be more productive.
+- [[Creating The Perfect Claude Code Status Line (01kr8yeypdny51pc67qrr4zmnb).md|Creating The Perfect Claude Code Status Line]] — I've created the perfect Claude Code statusline - including git info and
+- [[Diving into Claude Code's Source Code Leak (01knnqrdt67tmm1kmmf19758v2).md|Diving into Claude Code's Source Code Leak]] — Engineer’s Codex is a publication about real-world software engineering.
+- [[Falling Into The Pit of Success (01h1p69a6jh22x6qp1acer8zxw).md|Falling Into The Pit of Success]] — Eric Lippert notes the perils of programming in C++:
+- [[GitHub - AgriciDaniel-claude-seo: Universal SEO skill for Claude Code… (01ktdx2hgag9ka228cf3z16731).md|GitHub - AgriciDaniel/claude-seo: Universal SEO skill for Claude Code. 25]] — Universal SEO skill for Claude Code. 25 sub-skills + 18 sub-agents covering
+- [[GitHub - millionco-react-doctor: Let coding agents diagnose and fix yo… (01kqz359a1hwv0yc5pmp5nthds).md|GitHub - millionco/react-doctor: Let coding agents diagnose and fix your React]] — Let coding agents diagnose and fix your React code - millionco/react-doctor
+- [[How Duolingo reignâ¦ (01h9njbc8z4srmx6r6fvrw97qy)|How Duolingo reignited user growth - by Jorge Mazal]] — The story behind Duolingo's 350% growth acceleration, leaderboards, streaks,
+- [[How I Built an AI Documentation Engine with Tree-sitter, Claude AI, an… (01kp12rzryv92a2y22eqs2b19d).md|How I Built an AI Documentation Engine with Tree-sitter, Claude AI, and RAG]] — Documentation is every developer’s least favorite task.  We all agree it’s
+- [[How I Turned Pi Into the Ultimate Coding Agent.md|How I Turned Pi Into the Ultimate Coding Agent]] — Pi has quickly become my favorite coding agent. It's fast, minimal, and you can customize it to an insane degree...Thank
+- [[How to Build a Pseudocode Runner with AI (01kqg2ne7enc7xrjf42hpjb28h).md|How to Build a Pseudocode Runner with AI]] — The Logic Validation Problem of 2026   Fast iteration is key in the B2B world
+- [[How to Build an AI Brand Voice System Voice Profile, Body of Work, and Design Tokens.md|How to Build an AI Brand Voice System: Voice Profile, Body of Work, and Design Tokens]] — Build three reusable brand context files so every AI output sounds and looks like your brand—without re-explaining yours
+- [[How to Get Clawdbot Set Up in an Afternoon (01khqvk7k0s8r8a4tsz74dmdan).md|How to Get Clawdbot Set Up in an Afternoon]] — Some painful lessons and advice along the way
+- [[How to Make Your OpenClaw Agent Useful and Secure (01khqvkgw9x5q2kj4s2nwe7n5r).md|How to Make Your OpenClaw Agent Useful and Secure]] — Get your ClawdBot/OpenClaw set up with a single prompt
+- [[How to Run Local LLMs with Claude Code (01knfghh056rdn8jn8dnjkffy7).md|How to Run Local LLMs with Claude Code]] — Guide to use open models with Claude Code on your local device.
+- [[I Replaced $90-Month in AI Coding Tools With 3 Free GitHub Repos. Here… (01ksd871v9asdjhyw80sryegbp).md|I Replaced $90/Month in AI Coding Tools With 3 Free GitHub Repos. Here's the]] — 9router + agentmemory + agent-skills. Built a Full SaaS App in 5 Sessions,
+- [[I told Claude Code to build me an executive assistant. This is what my… (01knnqdhg3vk2dscpssqbp3nj6).md|I told Claude Code to build me an executive assistant. This is what my work]] — This tweet contains no text.
+- [[JavaScript (01krvdvb7n079s9z0xx9zv3xs1).md|JavaScript]] — Motion (prev Framer Motion) is a fast, production-grade web animation library
+- [[Loading skill (01kkssgbkc0ggc7w9rttcy584d).md|Loading skill…]] — Local memory management for agents. Compression detection, auto-snapshots,
+- [[Microsoft accidentally told the truth about AI (01krhfpm1041fwvdsztpnzgm73).md|Microsoft accidentally told the truth about AI]] — Rogue researchers are telling the truth about AI
+- [[Mitko Vasilevs Post (01kr6bcbb277dh6kczqdxnd5gj).md|Mitko Vasilev’s Post]] — \nAnthropic just dropped Petri. A full automated AI red team in a box: generates\
+- [[Oliver Molanders Post (01kscnbq3k4zds8y7dmvk9tfry).md|Oliver Molander’s Post]] — This advice list from YC back in 2023 is still one of the best things early-stage
+- [[OpenClaw Setup Guide: 25 Tools + 53 Skills Explained (01khqvmrkwscaq89ddpwfkbvb4).md|OpenClaw Setup Guide: 25 Tools + 53 Skills Explained]] — Finished installing OpenClaw but unsure what to enable? This research-backed
+- [[OpenCode has been a gamechanger! (01knez0zzyrge39nbv1vfsa6ca).md|OpenCode has been a gamechanger!]] — I’m working at a small startup in a pretty niche space—our core business
+- [[Parallel AI Coding with Git Worktrees and Custom Claude Code Commands (01knc1w6j5pmvp8mvwvtrdkne7).md|Parallel AI Coding with Git Worktrees and Custom Claude Code Commands]] — Learn how to design an AI interview dashboard using parallel Claude Code
+- [[Pi Coding Agent 1.md|Pi Coding Agent]] — A terminal-based coding agent
+- [[Pi Coding Agent.md|Pi Coding Agent]] — A terminal-based coding agent
+- [[Pi: The Minimal Agent Within OpenClaw (01kksvane3tsrs2b3z3pgb1zhx).md|Pi: The Minimal Agent Within OpenClaw]] — A gentle introduction to the Pi coding agent and why I think it’s a glimpse
+- [[Quantifying Productivity (01kt6eynppek95w2wpnzz21c43).md|Quantifying Productivity]] — Musings of a Computer Scientist.
+- [[Run AI with an API. (01knbxp0fkz5p7z7f7nvwbypct).md|Run AI with an API.]] — Run open-source machine learning models with a cloud API
+- [[Scrapling: The Web Scraper That Repairs Itself (01ktc3n8ct5hd5ce72n6e2q8wq).md|Scrapling: The Web Scraper That Repairs Itself]] — In this video, I test Scrapling, the adaptive Python web scraping framework\
+- [[Should we use custom exceptions in Python? (01h1pacb70yxaqse405020bea8).md|Should we use custom exceptions in Python?]] — Python has so many built-in exceptions that we rarely need to create and
+- [[So I stumbled across this prompt hack a couple weeks back and honestly… (01kp6qf8hyhbgsp6p5qqp7q7dp).md|So I stumbled across this prompt hack a couple weeks back and honestly? I wish]] — Since I started using it, I've realized that basically every first pass from
+- [[Stacked PRs, Worktrees, and Git Exercises for Agentic Development (01kq1wft7y8w6ts4mhaw134dvc).md|Stacked PRs, Worktrees, and Git Exercises for Agentic Development]] — Highlighting some recent 'aha' moments I've had while learning to effectively
+- [[State of Play: AI Coding Assistants (01kqzbtp29c313qynprmymhr6y).md|State of Play: AI Coding Assistants]] — Birgitta Böckeler discusses the rapid evolution of AI agents, moving beyond
+- [[Tactical Agentic Coding Course (01ktf923dnz5qzqde20jjdf2v6).md|Tactical Agentic Coding Course]] — Build LIVING software. Your guide to mastering prompts, ai coding, ai agents,
+- [[The AI Strategy Playbook For Senior Executives (01kt1sc16zrzy6r49k8ns62yey).md|The AI Strategy Playbook For Senior Executives]] — ![](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/381538727/jJh8Li3f4Jz8Uxj0zO5LoefviAtdE
+- [[The AI Vampire (01kpv087psm1kw88sej1tyd3ej).md|The AI Vampire]] — This was an unusually hard post to write, because it flies in the face of
+- [[The Weekly (01h31kgswmqqfymwz79knwr04d).md|The Weekly]] — As part of our annual theme 2023 – For the World – we put the spotlight on
+- [[The backend building blocks for your agents (01ktcd8vh1qnwbx4jfk1md7tev).md|The backend building blocks for your agents]] — Convex provides the backend building blocks for your agents. Everything you
+- [[The most underrated skill for building AI agents isn't prompting. It's error handling..md|The most underrated skill for building AI agents isn't prompting. It's error handling.]] — I've built AI agents for over a dozen companies at this point. Different industries, different use cases, all kinds of c
+- [[The package manager for agent skills and context (01kqz8en7bw36x2fwq8vjjs0tp).md|The package manager for agent skills and context]] — Tessl helps teams build AI-native software by giving coding agents structured,
+- [[This Simple File Beats Every AI Coding Tool's Defaults (01kq4qz5qrskn4c3b1e091hxyc).md|This Simple File Beats Every AI Coding Tool's Defaults]] — Karpathy has noticed something fundamentally wrong with AI coding tools.
+- [[Untitled (01kbax64qbc6f2md3jhdpjpme3).md|Untitled (01kbax64qbc6f2md3jhdpjpme3)]]
+- [[Using Claude Code: The Unreasonable Effectiveness of HTML (01kr8cxh4qsq5c5gn03htnhz5b).md|Using Claude Code: The Unreasonable Effectiveness of HTML]] — This tweet contains no text.
+- [[What Does Democratizing Data Mean? Unlocking the Power of Data Cultures (01kcy8q2e648a5pmcasfjkab7j).md|What Does Democratizing Data Mean? Unlocking the Power of Data Cultures]] — Learn about data democratization, why it matters, and how to achieve it.
+- [[What it feels like to work with Mythos.md|What it feels like to work with Mythos]] — Claude Fable represents another big jump in AI
+- [[Whats Your Current - Best AI Voice Agents Stack? (01knc82bjn9771aa49qpbawx1g).md|What’s Your Current / Best AI Voice Agents Stack?]] — My restaurant table reservation bot keeps telling people we're \"fully booked
+- [[When Claude Code's Browser Plugin Wasn't Enough: A Journey to Reliable… (01kngp9mywnw8zp8w382zhxp45).md|When Claude Code''s Browser Plugin Wasn''t Enough: A Journey to Reliable Browser]] — How CDP, AppleScript window fingerprinting, and agent-browser solve overnight
+- [[Why were moving from Cursor to Claude Code (and why you should too) (01kqvhp7byat1vnbpejvhggw9j).md|Why we’re moving from Cursor to Claude Code (and why you should too)]] — Discover why I switched from Cursor to Claude Code. A Lead Frontend Developer’s
+- [[Your voice is the only AI moat that compounds. Here is how to clone it… (01ksvvnr5vv65hhepyvng31xaf).md|Your voice is the only AI moat that compounds. Here is how to clone it into]] — The model is the commodity. Your voice is the asset. A 4,000-token file is
+- [[medium.com (01krm7jrrst9rkjwt3hrv60g33).md|medium.com]] — This website uses a security service to protect against malicious bots. This
+- [[pi-ai  pi-coding-agent  pi-tui (01ktcf5nc2qcwc2zftkydbjvp8).md|pi-ai · pi-coding-agent · pi-tui]] — A pipeline of skills and agents for the Pi coding agent. 19 skills, 13 specialist
+- [[pi-remote-agent (01ktep3ye42mcveg0rz9astxq9).md|pi-remote-agent]] — A terminal-based coding agent
+- [[pipackagescoding-agentdocscompaction.md at main.md|pi/packages/coding-agent/docs/compaction.md at main]] — AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI - pi/packages/coding-agent/docs/compaction.md at ma
+- [[pipackagescoding-agentdocssessions.md at main.md|pi/packages/coding-agent/docs/sessions.md at main]] — AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI - pi/packages/coding-agent/docs/sessions.md at main
+- [[tirth8205-code-review-graph: Local knowledge graph for Claude Code. Bu… (01knnr4xjace1n5f5bec4x1ap8).md|tirth8205/code-review-graph: Local knowledge graph for Claude Code. Builds]] — Local knowledge graph for Claude Code. Builds a persistent map of your codebase

@@ -1,0 +1,5 @@
+---
+tags:
+  - categories
+---
+![[Areas.base]]

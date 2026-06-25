@@ -1,0 +1,106 @@
+filters:
+  and:
+    - categories.contains(link("Clippings"))
+    - '!file.name.contains("Template")'
+properties:
+  file.name:
+    displayName: Note
+  domain:
+    displayName: Domain
+  file.tags:
+    displayName: Tags
+  source:
+    displayName: Source
+  read:
+    displayName: Read
+  rating:
+    displayName: Rating
+  action:
+    displayName: Action
+views:
+  - type: table
+    name: 📋 To review
+    filters:
+      and:
+        - action == "review"
+    order:
+      - file.name
+      - rating
+      - domain
+      - file.tags
+  - type: table
+    name: 🔨 To implement
+    filters:
+      and:
+        - action == "implement"
+    order:
+      - file.name
+      - rating
+      - domain
+      - file.tags
+  - type: table
+    name: 💡 Insights
+    filters:
+      and:
+        - action == "insight"
+    order:
+      - file.name
+      - rating
+      - domain
+      - file.tags
+  - type: table
+    name: ⭐ Top rated
+    sort:
+      - property: rating
+        direction: DESC
+    order:
+      - file.name
+      - rating
+      - action
+      - domain
+      - file.tags
+  - type: table
+    name: Unread
+    filters:
+      and:
+        - read != true
+    order:
+      - file.name
+      - rating
+      - action
+      - domain
+      - file.tags
+  - type: table
+    name: Read
+    filters:
+      and:
+        - read == true
+    groupBy:
+      property: domain
+      direction: ASC
+    order:
+      - file.name
+      - rating
+      - action
+      - file.tags
+  - type: table
+    name: All
+    order:
+      - file.name
+      - rating
+      - action
+      - read
+      - domain
+      - file.tags
+      - source
+      - created
+  - type: table
+    name: Readwise
+    filters:
+      and:
+        - source == "readwise"
+    order:
+      - file.name
+      - rating
+      - action
+      - file.tags

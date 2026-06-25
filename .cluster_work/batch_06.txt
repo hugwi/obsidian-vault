@@ -1,0 +1,200 @@
+FILE: The package manager for agent skills and context
+TITLE: The package manager for agent skills and context
+DESC: Tessl.io helps developers create and manage agent skills that work well with their organization's tools and rules. It lets users test these skills in real-world situations to improve agent performance. Many engineers trust Tessl.io to make AI agents more productive and reliable.
+
+FILE: They Lied to You About AI (This Study Proves It)
+TITLE: They Lied to You About AI (This Study Proves It)
+DESC: A math proof shows AI can't fully do complex tasks because of fixed limits in how it processes information. Current AI tools are good for simple work but can't run businesses alone or solve big problems without human help. The hype about AI being super smart soon is wrong; real progress means knowing what AI can do now, not chasing impossible goals.
+
+FILE: Thinking in Threads
+TITLE: Thinking in Threads
+DESC: Thread-Based Engineering is a new way to work with AI agents by running multiple connected tasks called threads. It helps engineers scale their work by managing many agents in parallel or in stages, increasing output and reliability. By thinking in threads, you improve your skills and let agents do more work autonomously over time.
+
+FILE: This Chrome DevTools MCP Trick Will Blow Your Mind
+TITLE: This Chrome DevTools MCP Trick Will Blow Your Mind
+DESC: Chrome DevTools MCP lets AI coding assistants see and interact with live web pages like humans do. It helps AI find bugs, analyze performance, and test code directly in the browser. This tool makes AI a smarter partner in building and fixing websites faster.
+
+FILE: This Simple File Beats Every AI Coding Tool's Defaults
+TITLE: This Simple File Beats Every AI Coding Tool's Defaults
+DESC: AI coding tools often make code worse by adding unnecessary or wrong parts. Varun Chang created a simple file that tells AI to be careful, keep code simple, and only change what is needed. This approach is popular because it helps AI write better code, not just faster.
+
+FILE: This Tool Fixes AI Coding at Scale with 70x Fewer Tokens (Graphify)
+TITLE: This Tool Fixes AI Coding at Scale with 70x Fewer Tokens (Graphify)
+DESC: Graphy is a tool that creates a map of your code to help AI understand it better, using 70% fewer tokens. It connects files, docs, and diagrams into a visual graph, so AI can remember relationships and answer questions faster. This saves time, reduces costs, and improves accuracy, especially for big or complex projects.
+
+FILE: This is insane…
+TITLE: This is insane…
+DESC: A Reddit user tried Octopoda, an open-source agent builder, and was impressed by its persistent shared memory and loop detection. The tool lets multiple agents remember and share information without extra setup, saving coding effort. Some users noted concerns about proprietary components despite the open-source label.
+
+FILE: Top 8 Claude Skills for UIUX Engineers
+TITLE: Top 8 Claude Skills for UIUX Engineers
+DESC: Claude Skills help UI/UX engineers automate repetitive tasks like design variants and accessibility checks. They improve design quality, performance, and compliance by activating the right tools for each task. Using these skills saves time and creates better, more professional front-end code.
+
+FILE: Transforming Legacy With Domain-Driven Design, III Tactic
+TITLE: Transforming Legacy With Domain-Driven Design, III Tactic
+DESC: This article explains practical, tactical patterns of Domain-Driven Design to modernize legacy systems. It outlines layered architecture (Client, Application, Domain, Infrastructure) and key patterns like Commands, Entities, Value Objects, Services, Specifications, Events, and Repositories. These techniques keep business logic isolated, explicit, and easier to change or integrate.
+
+FILE: Transforming Legacy with Domain-Driven Design, II Strategy
+TITLE: Transforming Legacy with Domain-Driven Design, II Strategy
+DESC: Domain-Driven Design (DDD) is a collection of principles that helps create clear and maintainable software architectures in complex domains. It emphasizes building a domain model with input from experts, using a consistent language, and isolating different domain components to reduce complexity. The methodology also suggests dividing large domains into smaller, manageable parts called bounded contexts for better organization and understanding.
+
+FILE: Two old GPUs I salvaged are doing more AI work than a brand new $2000 card, and I won't be upgrading anytime soon
+TITLE: Two old GPUs I salvaged are doing more AI work than a brand new $2000 card, and I won't be upgrading anytime soon
+DESC: The author uses two old GPUs, an RTX 3080 Ti and a GTX 1080, to run powerful AI models locally without needing the newest expensive cards. They rely on special model designs that use less VRAM and can share work between the GPU and CPU. Running these AI tasks on older hardware saves energy and still delivers good performance for coding, image editing, and other AI workflows.
+
+FILE: Typical TypeScript Clean Architecture
+TITLE: Typical TypeScript Clean Architecture
+DESC: Clean Architecture organizes software into layers, keeping business rules at the center and external systems at the edges. This approach helps separate concerns and makes the system easier to maintain and understand. The article explains how to apply Clean Architecture principles using TypeScript for clearer and more practical design.
+
+FILE: UI Components
+TITLE: UI Components
+DESC: This text lists various UI components and agent templates. It includes items like AI Chat, Animated AI Input, and Message Dock. The author of the content is 21st from 21st.dev.
+
+FILE: UX UI tips A guide to creating buttons
+TITLE: UX UI tips A guide to creating buttons
+DESC: Buttons are key parts of user interfaces and need clear design to work well. Good buttons have the right size, color, text, and states to help users interact easily. Poor button design can confuse users and hurt a website’s success.
+
+FILE: Understanding Epics, Features, And User Stories
+TITLE: Understanding Epics, Features, And User Stories
+DESC: Epics are large, high-level bodies of work spanning releases that get broken into smaller pieces. Features group related user stories, fit within a release, and deliver testable business value. User stories are small, sprint-sized tasks with clear acceptance criteria for developers to implement.
+
+FILE: Understanding Spec-Driven-Development Kiro, spec-kit, and Tessl
+TITLE: Understanding Spec-Driven-Development Kiro, spec-kit, and Tessl
+DESC: Spec-driven development means writing structured specs before generating code with AI. Different tools (Kiro, spec-kit, Tessl) implement this in varied ways, from spec-first to spec-as-source. The term is still vague and tools differ on how specs are maintained over time.
+
+FILE: Understanding clean architectures
+TITLE: Understanding clean architectures
+DESC: Clean architecture divides an application into layers, each with its own clear responsibility. It keeps the core domain model separate from technical details to reduce accidental complexity. This approach works best for complex problems where isolating the domain helps maintain and evolve the software.
+
+FILE: Unnamed board
+TITLE: Unnamed board
+DESC: The board is from Conceptboard and is unnamed. It focuses on extracting and adding confidence levels to emails, phone numbers, and cities. The results are combined to detect personal information on a column level.
+
+FILE: Update July 2023
+TITLE: Update July 2023
+DESC: Netlight updates its Employer Value Proposition twice a year to stay competitive and support employees with salary, benefits, and development. In July 2023, they increased consultant salaries and improved programs like parental leave meetups and bike leasing. They monitor market data closely to make careful, fair decisions despite economic uncertainty.
+
+FILE: Using GraphViz for CLAUDE.md
+TITLE: Using GraphViz for CLAUDE.md
+DESC: The author and Claude used GraphViz (.dot) as a readable process-spec language and iterated until flows were clear. Dot made rules visual, searchable, versionable, and easier for Claude to follow. They propose a modular process library of focused .dot files for reuse.
+
+FILE: Vibe coding and agentic engineering are getting closer than I’d like
+TITLE: Vibe coding and agentic engineering are getting closer than I’d like
+DESC: AI coding tools are blurring the lines between casual "vibe coding" and professional "agentic engineering." The author feels uneasy trusting AI-generated code without thorough review but compares it to trusting other teams' work. Despite AI advances, software development remains complex, and experienced engineers are still needed.
+
+FILE: Visualize TypeScript Dependencies of Changed Files in a Pull Request Using dependency-cruiser-report-action
+TITLE: Visualize TypeScript Dependencies of Changed Files in a Pull Request Using dependency-cruiser-report-action
+DESC: The article introduces dependency-cruiser-report-action, a GitHub Action that visualizes TypeScript file dependencies changed in a Pull Request. It creates a Mermaid.js graph that helps teams understand complex module relationships during code reviews. This tool improves review clarity and supports safer, long-term project maintenance.
+
+FILE: Voice agent skills for coding assistants
+TITLE: Voice agent skills for coding assistants
+DESC: Building voice agents with AI coding assistants is hard because of realtime constraints, changing SDKs, and outdated model knowledge. LiveKit Agent Skills guide coding assistants with architectural best practices and live documentation to create reliable voice agents. This approach greatly improves success rates, making AI-assisted voice agent development practical today.
+
+FILE: VoltAgentawesome-agent-skills A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.
+TITLE: VoltAgentawesome-agent-skills A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.
+DESC: This is a list of over 1000 agent skills from developers and the community. The skills work with tools like Claude Code, Codex, and Gemini CLI. Users should check the skills carefully before using them in real projects.
+
+FILE: Wasserman, Noam - The Founder's Dilemmas_ Anticipating and Avoiding the Pitfalls That Can Sink a Startup.pdf
+TITLE: Wasserman, Noam - The Founder's Dilemmas_ Anticipating and Avoiding the Pitfalls That Can Sink a Startup.pdf
+DESC: Full text of this document omitted because this document is a PDF
+
+FILE: We Automated Our AI Review Loop and It Failed 86% of the Time
+TITLE: We Automated Our AI Review Loop and It Failed 86% of the Time
+DESC: A team tried to automate their AI code review process but it failed 86% of the time. The AI agents worked well with humans but often got confused and went off-task when running alone. The experiment showed that human judgment is crucial to catch errors and keep the review loop reliable.
+
+FILE: WebMCP — The Web Just Got a Bit Smarter (Whether It Wanted To or Not)
+TITLE: WebMCP — The Web Just Got a Bit Smarter (Whether It Wanted To or Not)
+DESC: WebMCP is a new browser API from Google that lets websites share their functions directly with AI agents in a clear, structured way. This helps AI interact with sites smoothly, avoiding slow guessing or errors. Though still early and needing careful security work, WebMCP promises smarter web-AI cooperation and better accessibility soon.
+
+FILE: What AI augmentation means for technical leaders – Birgitta Boeckeler
+TITLE: What AI augmentation means for technical leaders – Birgitta Boeckeler
+DESC: AI agents help technical leaders by automating coding tasks with less human supervision. They use context engineering and sub-agents to improve code quality and collaboration. Leaders must focus on security, maintainability, and guiding AI to work well within teams.
+
+FILE: What Does Democratizing Data Mean Unlocking the Power of Data Cultures
+TITLE: What Does Democratizing Data Mean Unlocking the Power of Data Cultures
+DESC: Data democratization means making data easy to access and use for everyone. It requires training, tools, and clear governance so non-technical people can make data-driven decisions. When done well, it boosts transparency, innovation, and business performance.
+
+FILE: What Makes a Good Agent Skill (And How to Know Before You Deploy It)
+TITLE: What Makes a Good Agent Skill (And How to Know Before You Deploy It)
+DESC: There are many agent skills available, but most are untested and may not improve performance. A good skill helps the agent complete tasks well, works with different inputs, uses few tokens, and applies broadly. Evaluating skills with real tests is essential to ensure quality before using them in important work.
+
+FILE: What Makes a WebApp Feel Native
+TITLE: What Makes a WebApp Feel Native
+DESC: A native-feeling web app requires a strong PWA foundation with offline support and smooth navigation. It must use touch gestures, fast animations, and device features like haptic feedback. Careful design and performance tuning make users want to install and keep the app like a native one.
+
+FILE: What has everyone been building with agentic workflows in a corporate setting
+TITLE: What has everyone been building with agentic workflows in a corporate setting
+DESC: Many companies use agentic workflows mainly for automation tasks like code reviews, testing, and monitoring rather than having agents write all the code. Parallel agents can help break down tasks but still need human checks because AI often makes small mistakes. Overall, agents assist developers but do not replace them in creating production-quality software.
+
+FILE: What is AI Harness Engineering Your Guide to Controlling Autonomous Systems
+TITLE: What is AI Harness Engineering Your Guide to Controlling Autonomous Systems
+DESC: From Constraints to Feedback Loops, the Core of Trustworthy AI.
+
+FILE: What is the difference between the Facade and Adapter Pattern
+TITLE: What is the difference between the Facade and Adapter Pattern
+DESC: A Facade gives a simpler, higher-level interface to a complex system. An Adapter makes one interface compatible with another so they can work together. Think: Facade = one remote button doing many tasks; Adapter = plug that lets old hardware connect to new ports.
+
+FILE: What’s Your Current Best AI Voice Agents Stack
+TITLE: What’s Your Current Best AI Voice Agents Stack
+DESC: Many users building AI voice agents face challenges like hallucinations and handling dynamic data. Popular tools include Vapi, VoiceHub, and AgentVoice, each offering different strengths in reliability and integration. Experts recommend combining specialized tools and testing thoroughly to improve accuracy and user experience.
+
+FILE: When Claude Code's Browser Plugin Wasn't Enough A Journey to Reliable Browser Automation with…
+TITLE: When Claude Code's Browser Plugin Wasn't Enough A Journey to Reliable Browser Automation with…
+DESC: Claude Code's browser plugin works well for interactive use but fails for reliable overnight automation with multiple browser profiles. Using Chrome DevTools Protocol, AppleScript window fingerprinting, and Vercel's agent-browser, the author built a stable system to control specific Brave browser profiles during scheduled tasks. This approach ensures persistent login sessions and improves automation reliability for cron jobs running at night.
+
+FILE: Whirlpool Process of Model Exploration
+TITLE: Whirlpool Process of Model Exploration
+DESC: People often seek guidance on how to explore models, particularly in Agile or Lean environments. Eric Evans has documented a process called the Whirlpool Process of Model Exploration, which has been used successfully with clients in different contexts. This process is not a development process, but rather a framework that can be integrated into various design iterations.
+
+FILE: Why Claude Code Forgets What It Was Doing (And How to Fix It)
+TITLE: Why Claude Code Forgets What It Was Doing (And How to Fix It)
+DESC: Cloud code sessions have a limited memory called a context window, which fills up and triggers compaction that summarizes and discards detailed history. To avoid losing important task details, use task state files and session handoff files to keep key information outside the conversation. Deliberately splitting sessions with handoff files helps manage context better than relying on automatic compaction, ensuring smooth continuity and efficient use of memory.
+
+FILE: Why Everyone Is Wrong About the AI Bubble
+TITLE: Why Everyone Is Wrong About the AI Bubble
+DESC: The AI bubble worries are compared to the dotcom bubble, but AI has real growth potential. The big challenge is building enough data centers and electricity to power AI, unlike unused fiber optic cables in the past. Recent breakthroughs show AI can improve efficiently, so the bubble may not burst like before.
+
+FILE: Why You Don't Need the Nuxt MCP When You Use Claude Code
+TITLE: Why You Don't Need the Nuxt MCP When You Use Claude Code
+DESC: Nuxt’s Model Context Protocol (MCP) causes context bloat and is less efficient for up-to-date AI assistance. Instead, using custom research agents that fetch current docs via llms.txt keeps context small and answers accurate. This method, used by Claude Code, works well for Nuxt Content v3 by loading only needed info without bloating the main AI context.
+
+FILE: Why agent harnesses fail inside cloud-native systems
+TITLE: Why agent harnesses fail inside cloud-native systems
+DESC: Coding agents need feedback loops to know if their changes work, but cloud-native systems make this feedback hard to provide. Current methods like mocks or late CI tests break the feedback loop, causing delays and human intervention. A better solution is fast, realistic, programmable environments that give agents real-time feedback inside their workflow.
+
+FILE: Why is estimation part of refinement and not sprint planning
+TITLE: Why is estimation part of refinement and not sprint planning
+DESC: Estimation is done during backlog refinement to prepare items well before sprint planning. This helps the team avoid delays and focus during sprint planning meetings. Refinement allows better forecasts for releases and uncovers risks early.
+
+FILE: Why we’re moving from Cursor to Claude Code (and why you should too)
+TITLE: Why we’re moving from Cursor to Claude Code (and why you should too)
+DESC: The author switched from Cursor to Claude Code because Claude Code is faster, lighter, and better for managing multiple projects. Claude Code lets him spend less time typing code and more time solving problems and designing solutions. He advises customizing the tool carefully for best results and says this change is more than a tool swap—it’s a new way of working.
+
+FILE: Working on Multiple Branches Without Losing My Mind
+TITLE: Working on Multiple Branches Without Losing My Mind
+DESC: The author uses Git Worktrees and a custom tool called wtm to work on multiple branches at once without losing focus. Each worktree runs separately with its own server, database, and context, so switching tasks is easy and mental context is preserved. This setup also cleans up worktrees fully when deleted, keeping the workspace organized and efficient.
+
+FILE: Writing tests with Claude Code - part 1 - initial results
+TITLE: Writing tests with Claude Code - part 1 - initial results
+DESC: Claude Code quickly generated 23 tests with good coverage, saving much time compared to writing them manually. The tests covered most code paths but missed some important boundary cases and critical logic. The author plans to improve the test suite using Claude and mutation testing in a future post.
+
+FILE: Yann LeCun's Billion Dollar Bet
+TITLE: Yann LeCun's Billion Dollar Bet
+DESC: Yann LeCun developed new AI methods that learn by predicting parts of data without needing labels. These methods use embeddings to understand images, videos, and language more efficiently. This approach helps build smarter AI that can adapt to many tasks, like robot control and vision-language problems.
+
+FILE: You can only do real estate 7 hours a day. How do you use those hours
+TITLE: You can only do real estate 7 hours a day. How do you use those hours
+DESC: Spend most of your seven hours on lead generation: calls, door knocking, networking, and social media.
+
+FILE: You don't need an expensive GPU to run a local LLM that actually works
+TITLE: You don't need an expensive GPU to run a local LLM that actually works
+DESC: You don't need an expensive GPU to run useful local large language models (LLMs). Smaller, quantized models can run well on regular CPUs with enough RAM. Apple Silicon and budget GPUs also offer good performance for everyday AI tasks.
+
+FILE: Your AI Budget Is Growing. Your Returns Aren't. Here's Why.
+TITLE: Your AI Budget Is Growing. Your Returns Aren't. Here's Why.
+DESC: Many companies spend more on AI but don’t see expected savings because their processes and data are not ready. Successful firms treat data access, process redesign, and AI governance as top leadership issues, not just IT problems. To get real value, businesses must fix workflows, set clear accountability, and measure outcomes beyond cost savings.
+
+FILE: Your Clean Architecture is still layered!
+TITLE: Your Clean Architecture is still layered!
+DESC: Many developers organize code in layers, but this can cause unwanted dependencies between features. The author suggests structuring projects by component, putting all related code in one project to improve encapsulation. This makes code clearer, safer, and easier to manage than traditional layered architecture.
+

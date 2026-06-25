@@ -1,3 +1,8 @@
+---
+categories:
+  - "[[Inbox]]"
+created: 2026-06-23
+---
 
 - Tailored to client 
 - Last minute changes. Reschedule meeting

@@ -1,9 +1,13 @@
 ---
+categories:
+  - "[[Clippings]]"
 title: "tursodatabase/turso: Turso is an in-process SQL database, compatible with SQLite."
 source: "https://github.com/tursodatabase/turso"
 author:
 published:
 created: 2026-06-21
+rating: 
+action: 
 description: "Turso is an in-process SQL database, compatible with SQLite. - tursodatabase/turso"
 tags:
   - "clippings"

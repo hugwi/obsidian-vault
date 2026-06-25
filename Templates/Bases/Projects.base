@@ -1,0 +1,24 @@
+filters:
+  and:
+    - categories.contains(link("Projects"))
+    - '!file.name.contains("Template")'
+properties:
+  file.name:
+    displayName: Note
+  project:
+    displayName: Project
+  status:
+    displayName: Status
+  created:
+    displayName: Created
+views:
+  - type: table
+    name: Projects
+    groupBy:
+      property: project
+      direction: ASC
+    order:
+      - file.name
+      - project
+      - status
+      - created

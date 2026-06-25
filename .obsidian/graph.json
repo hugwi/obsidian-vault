@@ -6,7 +6,20 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [],
+  "colorGroups": [
+    { "query": "[\"categories\":\"Projects\"]", "color": { "a": 1, "rgb": 5025616 } },
+    { "query": "[\"categories\":\"People\"]", "color": { "a": 1, "rgb": 7951176 } },
+    { "query": "[\"categories\":\"Clippings\"]", "color": { "a": 1, "rgb": 9127187 } },
+    { "query": "[\"categories\":\"Inbox\"]", "color": { "a": 1, "rgb": 16726337 } },
+    { "query": "[\"categories\":\"Archive\"]", "color": { "a": 0.35, "rgb": 7693429 } },
+    { "query": "[\"categories\":\"Daily\"]", "color": { "a": 0.4, "rgb": 8421504 } },
+    { "query": "[\"domain\":\"engineering\"]", "color": { "a": 1, "rgb": 16007990 } },
+    { "query": "[\"domain\":\"compliance\"]", "color": { "a": 1, "rgb": 16772411 } },
+    { "query": "[\"domain\":\"clients\"]", "color": { "a": 1, "rgb": 2201331 } },
+    { "query": "[\"domain\":\"career\"]", "color": { "a": 1, "rgb": 16750592 } },
+    { "query": "[\"domain\":\"finance\"]", "color": { "a": 1, "rgb": 38536 } },
+    { "query": "[\"domain\":\"interests\"]", "color": { "a": 1, "rgb": 15277667 } }
+  ],
   "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
@@ -17,6 +30,6 @@
   "repelStrength": 17.375,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.8479260232248819,
+  "scale": 0.09737041665047252,
   "close": true
 }

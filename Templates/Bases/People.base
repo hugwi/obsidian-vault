@@ -1,0 +1,24 @@
+filters:
+  and:
+    - categories.contains(link("People"))
+    - '!file.name.contains("Template")'
+properties:
+  file.name:
+    displayName: Note
+  company:
+    displayName: Company
+  role:
+    displayName: Role
+  created:
+    displayName: Created
+views:
+  - type: table
+    name: People
+    order:
+      - file.name
+      - company
+      - role
+      - created
+    sort:
+      - property: file.name
+        direction: ASC

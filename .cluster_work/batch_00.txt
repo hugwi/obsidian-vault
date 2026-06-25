@@ -1,0 +1,200 @@
+FILE: # Skill Issue Harness Engineering for Coding Agents
+TITLE: Skill Issue Harness Engineering for Coding Agents
+DESC: Coding agents often fail without proper setup, so engineers use "harness engineering" to improve them by fixing mistakes and managing how agents interact with their environment. Key tools include skills, sub-agents, and MCP servers, which help control context and make agents smarter by giving them only the needed information. The best approach is to start simple, fix real problems as they arise, and keep improving rather than trying to build a perfect system from the start.
+
+FILE: # Writing a good CLAUDE.md
+TITLE: Writing a good CLAUDE.md
+DESC: CLAUDE.md should concisely onboard Claude to your codebase by explaining the project’s WHAT, WHY, and HOW. Keep instructions minimal and universally applicable, and use progressive disclosure with separate docs for task-specific details. Rely on linters and hooks for formatting and avoid auto-generating the file.
+
+FILE: # a brief history of ralph
+TITLE: a brief history of ralph
+DESC: Geoff Huntley’s Ralph Wiggum Technique went viral in late 2025 and sparked a lot of experiments in agentic coding and context engineering. Dex recounts meeting Geoff, using Ralph for refactors and productivity hacks, and lessons learned about specs, small iterative changes, and control loops. The community built tools (cursed lang, plugins) and hype grew, but the core idea remains carving work into small, manageable context windows.
+
+FILE: (Recorded during Xian Goh’s falling workshop during the
+TITLE: (Recorded during Xian Goh’s falling workshop during the
+DESC: Climbing gyms need more downclimb options for safety and accessibility. Many people, especially those with disabilities, cannot risk falling. Having downclimbs on both sides of climbs would help everyone climb more safely.
+
+FILE: 142 JavaScript Text Effects
+TITLE: 142 JavaScript Text Effects
+DESC: This collection showcases 142 JavaScript text effects that bring typography to life with animations like typewriter, liquid drops, and hover distortions. These effects enhance web pages by adding motion, interactivity, and visual depth to headlines and text elements. Many demos use libraries like GSAP, Splitting.js, and Anime.js to create dynamic, engaging text experiences.
+
+FILE: 15 steps to launch your own startup
+TITLE: 15 steps to launch your own startup
+DESC: Starting a tech startup is very hard and needs many skills, experience, and a strong team. Find good co-founders, mentors, and a supportive community to help you grow. Focus on long-term goals, learn from failures, and be ready to take risks and adapt quickly.
+
+FILE: 2.1 Write a PRD
+TITLE: 2.1 Write a PRD
+DESC: This module teaches how to write better PRDs by partnering with AI to add context, ask smart questions, and get diverse feedback. You create multiple strategies and refine your draft before sharing it with your team. The key is using AI to improve your thinking, not to do the work for you.
+
+FILE: 25 Claude Code Tips from 11 Months of Intense Use
+TITLE: 25 Claude Code Tips from 11 Months of Intense Use
+DESC: Claude Code helps automate coding tasks by breaking problems into smaller steps and managing workflows efficiently. It uses features like context compaction, autonomous testing, and specialized subagents to improve productivity. Users find it useful for coordinating complex projects and simplifying coding processes.
+
+FILE: 3 New Claude Code Repos Will 100x Your Next Project
+TITLE: 3 New Claude Code Repos Will 100x Your Next Project
+DESC: Three new Claude code plugins can help you save tokens, track where tokens are used, and copy website designs with animations. Caveman reduces token use by simplifying responses. Code Burn shows token usage, and Design Extract pulls design details and motion for easy rebuilding.
+
+FILE: 4 Claude Code slash commands I use daily that make me more productive
+TITLE: 4 Claude Code slash commands I use daily that make me more productive
+DESC: Claude Code’s slash commands help users work faster by controlling models, managing servers, and handling memory efficiently. Commands like /model, /mcp, /memory, /context, and /agents let you switch tasks, monitor systems, and run parallel workflows easily. Using these commands changes Claude from a simple chatbot into a powerful tool that improves daily productivity.
+
+FILE: 4 Inbox Zero Best Practices
+TITLE: 4 Inbox Zero Best Practices
+DESC: Jeff fixes confusion from his Inbox Zero tutorial and shows a clearer daily workflow.
+
+FILE: 5 Things I Learned About Being a Technical Lead
+TITLE: 5 Things I Learned About Being a Technical Lead
+DESC: A technical lead’s job is to help the team grow and remove obstacles, not to do all the technical work alone. Small, stream-aligned teams with clear boundaries reduce cognitive load and work best. Support teams (enabling, platform, complicated-subsystem) exist to give autonomy and specialist help so stream-aligned teams can deliver.
+
+FILE: 5 ways of using Claude Code remotely - and when to use which
+TITLE: 5 ways of using Claude Code remotely - and when to use which
+DESC: Claude Code can be used remotely in five ways: cloud, remote control, dispatch, channels, and SSH access. Each method has different needs, like keeping your machine on or using special apps. The best choice depends on how you want to work and your setup.
+
+FILE: 6 Best Spec-Driven Development Tools for AI Coding in 2026
+TITLE: 6 Best Spec-Driven Development Tools for AI Coding in 2026
+DESC: Spec-driven development tools help keep coding specifications clear and aligned with AI-generated code. Living-spec tools like Intent update specs continuously, ideal for complex, multi-service projects. Static-spec tools like Kiro and GitHub Spec Kit suit stable, single-repo projects but need manual updates.
+
+FILE: 7 Claude Code Design Skills That Follow a Real Design Process
+TITLE: 7 Claude Code Design Skills That Follow a Real Design Process
+DESC: Julian Oczkowski shows that AI changes how design work happens by replacing the whole process, not just tools. He created seven Claude Code skills that follow a real design process from planning to review, making AI design reliable and structured. This approach helps designers use AI with clear steps, avoiding chaos and improving quality.
+
+FILE: 7 Rules for Creating Gorgeous UI
+TITLE: 7 Rules for Creating Gorgeous UI
+DESC: The article "7 Rules for Creating Gorgeous UI" by Erik D. Kennedy offers practical tips for developers and UX designers looking to improve their interface design skills. It emphasizes the importance of starting with black and white designs, using ample whitespace, and understanding the basics of lighting and typography. The guide aims to help designers create visually appealing and effective user interfaces without needing an art background.
+
+FILE: A Comprehensive Overview of Large Language Models
+TITLE: A Comprehensive Overview of Large Language Models
+DESC: Large language models (LLMs) are pre-trained on huge text corpora and scale improves their generalization for many tasks. They can perform zero-shot and few-shot tasks like text and code generation, and get better with instruction fine-tuning. Researchers keep building larger and multilingual LLMs and creating instruction datasets to boost performance and control outputs.
+
+FILE: A Live Workshop That Teaches You How to Build A Future-Proof PKM System
+TITLE: A Live Workshop That Teaches You How to Build A Future-Proof PKM System
+DESC: This live workshop teaches you how to build a powerful personal knowledge management (PKM) system. You get lifetime access to lessons, live sessions, and a supportive community. Many participants say it boosts creativity, productivity, and helps them organize ideas better.
+
+FILE: A framework for Spec-Driven Development.
+TITLE: A framework for Spec-Driven Development.
+DESC: Spec-Driven Development (SDD) is a workflow that starts with clear product vision and feature specifications, then moves through structured planning, tasking, and quality control. It uses AI tools and shared skills to enforce consistency, traceability, and quality at every step of feature delivery. This framework supports multiple AI coding tools with a unified, tool-agnostic core to streamline project governance and implementation.
+
+FILE: A roadmap for becoming a top 2% agentic engineer in 2026
+TITLE: A roadmap for becoming a top 2% agentic engineer in 2026
+DESC: Top agentic engineers build custom agents they trust to do complex tasks. They focus on multi-agent orchestration and using agent sandboxes to scale safely. Success comes from mastering key elements: context, model, prompt, and tools.
+
+FILE: A wild month in the cyber industry
+TITLE: A wild month in the cyber industry
+DESC: AI supply chains are becoming complex and risky, with no current system to track their actions continuously. Lawsuits are pushing companies to prove ongoing accountability, not just rely on yearly reports or audits. This shift means real-time data and trust will drive business decisions and legal outcomes in AI use.
+
+FILE: AI Sorcery Demo of a Claude Code Plugin
+TITLE: AI Sorcery Demo of a Claude Code Plugin
+DESC: A demo of each skill within ai-sorcery, which is a Claude Code plugin (https://github.com/ai-sorcery/ai-sorcery) containing a number of skills that are useful for building software with Claude.
+
+FILE: AIDesigner
+TITLE: AIDesigner
+DESC: AIDesigner helps you create AI-generated UI designs quickly inside your project using simple commands. It connects with various AI clients and uses your code context to make designs that fit your stack. You can generate, refine, and preview designs, and get guides to adopt them into your code.
+
+FILE: AI’s trillion-dollar opportunity Context graphs
+TITLE: AI’s trillion-dollar opportunity Context graphs
+DESC: By building context graphs from decision traces, AI agent startups are capturing the "why" behind the "what"—and gaining a structural advantage in shaping what comes next.
+
+FILE: Adapter and Facade Patterns
+TITLE: Adapter and Facade Patterns
+DESC: The adapter pattern lets your app wrap and convert third-party APIs so different classes can talk to each other. The facade pattern gives one simple interface that combines functions across many services for easy, high-level tasks. Both patterns make code modular and protect your app from API changes.
+
+FILE: After self-hosting LLMs for a year, I realized that models are not the real bottleneck
+TITLE: After self-hosting LLMs for a year, I realized that models are not the real bottleneck
+DESC: After using self-hosted language models for a year, the author found that the main problem was not the models or hardware, but how they gave instructions. Messy and vague prompts caused confusion and errors, while clear, structured, and precise prompts made small models work much better. Good prompting habits improved reliability and saved time more than upgrading to bigger models.
+
+FILE: Agent Harness Engineering
+TITLE: Agent Harness Engineering
+DESC: A coding agent is made of a model plus a harness, which includes all the tools and logic around the model. Harness engineering improves agents by fixing mistakes through better configuration, not just waiting for better models. The harness shapes how the agent works, helping it complete tasks and learn from errors over time.
+
+FILE: Agentic AI Coding Best Practice Patterns for Speed with Quality
+TITLE: Agentic AI Coding Best Practice Patterns for Speed with Quality
+DESC: Agentic AI coding can speed up software development by 2–3 times but requires strong engineering discipline to maintain code quality. Key practices include ensuring healthy, modular code, automating quality checks, and using clear rules and feedback loops to guide AI agents. This approach turns AI from a hype tool into a reliable accelerator for building better software.
+
+FILE: Agents on the Canvas in tldraw — Steve Ruiz, tldraw
+TITLE: Agents on the Canvas in tldraw — Steve Ruiz, tldraw
+DESC: tldraw makes a whiteboard tool that lets AI agents work directly on the canvas. These agents can draw, edit, and collaborate with users in real time. This approach helps people create and interact with designs easily, even without coding skills.
+
+FILE: Amazon.com
+TITLE: Amazon.com
+DESC: © 1996-2025, Amazon. com, Inc.
+
+FILE: An app that uses artificial intelligence to make money from trading has been released to the public - here's how much we managed to earn.
+TITLE: An app that uses artificial intelligence to make money from trading has been released to the public - here's how much we managed to earn.
+DESC: An app called Wencoin STX uses artificial intelligence to trade stocks and currencies automatically and make money for users. People who tried it earned over $24,000 in 30 days with little effort. The app is now open for limited public registration before it becomes paid.
+
+FILE: Andrej Karpathy From Vibe Coding to Agentic Engineering
+TITLE: Andrej Karpathy From Vibe Coding to Agentic Engineering
+DESC: Andrej Karpathy talks about how new AI agents can work intelligently on tasks by themselves. He says programming is changing to focus on giving clear instructions to these agents. He also believes humans will stay important by overseeing and guiding the agents in big projects.
+
+FILE: Andrej Karpathy's Math Proves Agent Skills Will Fail. Here's What to Build Instead.
+TITLE: Andrej Karpathy's Math Proves Agent Skills Will Fail. Here's What to Build Instead.
+DESC: Andrej Karpathy shows that AI agents often fail in complex tasks because they lack reliability. Instead, building specialized harnesses that control and check each step improves dependability. These harnesses use smaller sub-agents and skills to handle large workflows effectively and at scale.
+
+FILE: Anthropic's Boris Cherny Why Coding Is Solved, and What Comes Next
+TITLE: Anthropic's Boris Cherny Why Coding Is Solved, and What Comes Next
+DESC: Boris Cherny from Anthropic says coding is mostly solved because AI can now write most code automatically. Their tool, Claude code, helps everyone on the team code faster and better. In the future, AI will write all code, making software building easier and more common.
+
+FILE: Anthropic’s Daniela Amodei says entrepreneurs should go on vacation to road test potential cofounders—if they’re a drain, they’re ‘the wrong choice’
+TITLE: Anthropic’s Daniela Amodei says entrepreneurs should go on vacation to road test potential cofounders—if they’re a drain, they’re ‘the wrong choice’
+DESC: Daniela Amodei says entrepreneurs should go on vacation together to see if they work well before starting a company. Good cofounders share strong relationships and a clear, shared vision. Experts agree that trust, time spent together, and honest communication are key to choosing the right partner.
+
+FILE: Apologies, but something went wrong on our end.
+TITLE: Apologies, but something went wrong on our end.
+DESC: 500 Apologies, but something went wrong on our end. Refresh the page, check Medium's site status, or find something interesting to read.
+
+FILE: As agentic dev tools boom, workflow auditability becomes the constraint
+TITLE: As agentic dev tools boom, workflow auditability becomes the constraint
+DESC: AI coding agents speed up development but create audit and compliance challenges. Teams struggle to track who approved changes, what inputs were used, and how to reproduce work. To fix this, organizations must build systems that record agent actions clearly and enable easy review and rollback.
+
+FILE: Auntie Webinar Recovery starts even before the vacation
+TITLE: Auntie Webinar Recovery starts even before the vacation
+DESC: Plan and finish key tasks before your holiday so you can truly detach.
+
+FILE: Automating e2e manual labor with Claude Code
+TITLE: Automating e2e manual labor with Claude Code
+DESC: Claude Code lets you write end-to-end tests using plain English instead of code. It runs tests by controlling the browser and checking results automatically. This method is good for complex flows but slower and costlier than traditional testing tools.
+
+FILE: Awesome Local LLM Speech-to-Speech Models &amp; Frameworks
+TITLE: Awesome Local LLM Speech-to-Speech Models &amp; Frameworks
+DESC: The post shares a list of local speech-to-speech models that integrate large language models and work fully offline. It highlights two main types: cascading pipelines and end-to-end systems, each with pros and cons. The author and community discuss features, platforms, and improvements for these frameworks.
+
+FILE: Beck Design Rules
+TITLE: Beck Design Rules
+DESC: Kent Beck's four rules of simple design prioritize passing tests, clear intent, no duplication, and minimal elements in code. These rules help create better, easier-to-understand software that works correctly. They are simple to remember and improve code quality across different programming styles.
+
+FILE: Benchmarking semantic code retrieval on Claude Code — Kuba Rogut, Turbopuffer
+TITLE: Benchmarking semantic code retrieval on Claude Code — Kuba Rogut, Turbopuffer
+DESC: Cloud code mostly uses simple keyword search rather than semantic code search because it works faster and simpler. However, semantic search can improve code retrieval by understanding meaning, which helps find related files better and reduces wasted file reads. Tests show semantic search boosts precision and user satisfaction, especially when code has good comments or documentation.
+
+FILE: Benefits of Using the C4 Model with Enterprise Architect (EA)
+TITLE: Benefits of Using the C4 Model with Enterprise Architect (EA)
+DESC: The C4 Model is a simple, four-level way to visualize and document software architecture.
+
+FILE: Best AI News Aggregators in 2026 7 Tools Compared
+TITLE: Best AI News Aggregators in 2026 7 Tools Compared
+DESC: In 2026, Particle, Ground News, and Feedly are the top AI news aggregators, each excelling in speed, bias awareness, and source control. Choose Particle for fast summaries, Ground News to spot bias, and Feedly for deep topic tracking. The best tool depends on how you like to read and stay informed.
+
+FILE: Branschrapporten_2025.pdf
+TITLE: Branschrapporten_2025.pdf
+DESC: Full text of this document omitted because this document is a PDF
+
+FILE: Breakthrough to Restore Aging Joints Could Help Treat Osteoarthritis
+TITLE: Breakthrough to Restore Aging Joints Could Help Treat Osteoarthritis
+DESC: Scientists found a protein called 15-PGDH causes cartilage loss in aging joints. Blocking this protein in mice helped regrow cartilage and reduce pain from osteoarthritis. This discovery could lead to new treatments that restore joints and avoid replacements in the future.
+
+FILE: Building AI governance while building AI
+TITLE: Building AI governance while building AI
+DESC: AI governance must be built alongside AI systems through ongoing learning and adaptation. Start small, focus on key risks, and improve governance as you go. Success depends on culture, real authority, and feedback loops—not perfect plans or big teams.
+
+FILE: Building Claude Code with Harness Engineering
+TITLE: Building Claude Code with Harness Engineering
+DESC: Claude Code uses a smart loop and tool system to help the AI plan, act, and keep track of its work over long tasks. It supports many agents working together safely and quickly by sharing tasks and running operations in the background. The system also saves progress, allows real-time control, and manages permissions for reliable and efficient coding.
+
+FILE: Built a multi-agent skill for Claude Code - routes tasks to 6 different AI models based on what each does best
+TITLE: Built a multi-agent skill for Claude Code - routes tasks to 6 different AI models based on what each does best
+DESC: The author built a Claude Code skill called OmO that routes tasks to six different AI models based on their strengths. This skill helps choose the best model for tasks like coding, research, or design automatically. The skill is free, open source, and uses Claude's ability to understand task needs for smart routing.
+
+FILE: CLAUDE.md Writing Guide Context Engineering for AI CLI Tools
+TITLE: CLAUDE.md Writing Guide Context Engineering for AI CLI Tools
+DESC: CLAUDE.md files provide essential, focused context that helps AI agents understand a project without overload. They should be concise, avoid redundancy, and include architecture, constraints, commands, and conventions. Keep CLAUDE.md under 100 lines, test it with real tasks, and move task-specific info to SKILL.md files.
+

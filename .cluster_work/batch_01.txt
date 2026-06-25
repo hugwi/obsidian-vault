@@ -1,0 +1,200 @@
+FILE: Can an AI learn cooking (And what it teaches us about building better agents)
+TITLE: Can an AI learn cooking (And what it teaches us about building better agents)
+DESC: Researchers created a small AI model that understands cooking using 4.1 million recipes in seven languages. Instead of loading all recipes at once, the model learns compact relationships between ingredients and cuisines. This shows that smaller, smarter models might be better than huge ones with lots of data.
+
+FILE: Capabilities Mapping for Domain Driven Architecture
+TITLE: Capabilities Mapping for Domain Driven Architecture
+DESC: Domain Driven Design helps map business capabilities to bounded contexts so systems can evolve from monoliths to cloud-native architectures. Start by modeling the business and organization, create a capabilities map, and use it to define isolated bounded contexts. Keep dependencies between contexts loose to avoid hard technical coupling that breaks services.
+
+FILE: Change Data Capture (CDC)
+TITLE: Change Data Capture (CDC)
+DESC: Change Data Capture (CDC) is a method to track and sync data changes from one system to another. It uses techniques like row versioning, where each record has a version number that updates with changes. This helps keep data accurate but can be complex and requires extra work to manage.
+
+FILE: Claude + Obsidian + Graphify = New Meta
+TITLE: Claude + Obsidian + Graphify = New Meta
+DESC: Claude forgets your business every new session and wastes tokens rereading files. Graphify in Obsidian creates a lasting knowledge graph linking all your data. This makes Claude faster and smarter by using the graph instead of rereading everything.
+
+FILE: Claude + Remotion = Marketing Cheat Code
+TITLE: Claude + Remotion = Marketing Cheat Code
+DESC: Claude can create marketing videos quickly by using Remotion. You just give Claude a website link and a command from Remotion.dev. Then Claude makes the video, lets you edit it, and you can download it easily.
+
+FILE: Claude Code 2026 The Daily Operating System Top Developers Actually Use
+TITLE: Claude Code 2026 The Daily Operating System Top Developers Actually Use
+DESC: Claude Code is a daily system that helps developers work faster with AI. It uses five key steps to keep work organized and efficient. This new approach treats AI as a full operating system, not just a tool.
+
+FILE: Claude Code Is Wasting 98% Of Your Tokens On Search. Here's The Fix.
+TITLE: Claude Code Is Wasting 98% Of Your Tokens On Search. Here's The Fix.
+DESC: Claude Code wastes most tokens by reading entire files during searches, making it slow and costly. Semble, a local open-source search tool, fixes this by returning only relevant code chunks, saving tokens and speeding up searches. It works with many AI tools and greatly improves search quality without needing powerful hardware.
+
+FILE: Claude Code Just Killed $10,000 Websites (Here’s Proof)
+TITLE: Claude Code Just Killed $10,000 Websites (Here’s Proof)
+DESC: Claude Code lets anyone build beautiful, animated websites with just one line of code. It replaces expensive $10,000 website services by simplifying the process into four easy steps. A free PDF guide with all instructions and links is available to help you get started.
+
+FILE: Claude Code Prompt Coach Skill to analyse your AI-Assisted Coding Skills
+TITLE: Claude Code Prompt Coach Skill to analyse your AI-Assisted Coding Skills
+DESC: Prompt Coach is a skill that analyzes your Claude Code sessions to show how clear and effective your prompts are, where you waste time, and which tools you ignore. It scores your prompts, tracks token use, and gives personalized tips to improve your coding workflow. This helps you work faster, save tokens, and boost productivity by learning from your own usage patterns.
+
+FILE: Claude Code Skills Don't Auto-Activate (a workaround)
+TITLE: Claude Code Skills Don't Auto-Activate (a workaround)
+DESC: Claude Code skills do not activate automatically despite being listed and having trigger words. To make them work reliably, you must use hooks that explicitly tell Claude to use a skill when certain keywords appear. However, this method is imperfect and often inconsistent, so directly invoking skills in prompts is more dependable.
+
+FILE: Claude Code Skills, Plugins, and the JSONC Design Spec Trick That Changed My Workflow
+TITLE: Claude Code Skills, Plugins, and the JSONC Design Spec Trick That Changed My Workflow
+DESC: Claude Code uses Skills, Plugins, and a JSONC design spec to improve AI-assisted coding and design. This method helps create unique frontends quickly and precisely. Claude also gives feedback to improve prompts and workflow.
+
+FILE: Claude Code for Everything Keeping Up with the Claude Code Treadmill (30 Claude Code Tips & Tricks)
+TITLE: Claude Code for Everything Keeping Up with the Claude Code Treadmill (30 Claude Code Tips & Tricks)
+DESC: This article shares 30 tips to help you use Claude Code better, including how to customize your workspace and connect Claude to the web. You can watch Claude's reasoning live, manage longer sessions, and create visuals without leaving the app. These tricks make Claude Code more powerful, efficient, and easy to use anywhere.
+
+FILE: Claude Code is Expensive. This MCP Server Fixes It (Context Mode)
+TITLE: Claude Code is Expensive. This MCP Server Fixes It (Context Mode)
+DESC: Claude code uses a lot of context space, making it expensive and causing the AI to forget important information. Context mode saves space by indexing data in a local database, reducing token use by up to 99%. This helps keep longer sessions, saves money, and lets Claude work smarter on big projects.
+
+FILE: Claude Code's creator says his setup involves thousands of AI sub-agents doing 'deeper work' overnight
+TITLE: Claude Code's creator says his setup involves thousands of AI sub-agents doing 'deeper work' overnight
+DESC: Boris Cherny, creator of Claude Code, runs thousands of AI coding agents overnight to do deep work. He controls these agents mostly through his phone using features that schedule tasks automatically. This setup helps keep the agents working even when his laptop is off.
+
+FILE: Claude HTML Slides = The NEW Powerpoint Killer (Full Tutorial)
+TITLE: Claude HTML Slides = The NEW Powerpoint Killer (Full Tutorial)
+DESC: Claude can quickly create beautiful HTML slides with animations, charts, and brand visuals. This tool lets you customize presentations and add dynamic components easily. It is a free, powerful alternative to PowerPoint for making engaging slides.
+
+FILE: Claude Oceanus, Anthropic AGI Claims, GPT-5.6 Checkpoint, GLM 5.2, Nemotron 3 Ultra & More! AI NEWS!
+TITLE: Claude Oceanus, Anthropic AGI Claims, GPT-5.6 Checkpoint, GLM 5.2, Nemotron 3 Ultra & More! AI NEWS!
+DESC: Enthropic and OpenAI are releasing powerful new AI models like Mythos, Oceananis, and GPT-5.6 that show big improvements in coding and creativity. Nvidia also launched Neotron 3 Ultra, a fast and cost-effective AI for complex tasks. These advances hint at AI soon improving itself and making software development much faster and easier.
+
+FILE: Claude Saves Tokens, Forgets Everything
+TITLE: Claude Saves Tokens, Forgets Everything
+DESC: Claude’s automatic context compaction summarizes earlier conversation parts to extend chat length but often causes it to forget important instructions. Users report that after compaction, Claude frequently ignores critical project rules and skills, making long sessions unreliable. To work well, users must manually manage context and save key information outside the conversation.
+
+FILE: Clean architecture folder structure · Issue #3 · eminettoclean-architecture-go-v2
+TITLE: Clean architecture folder structure · Issue #3 · eminettoclean-architecture-go-v2
+DESC: Clean architecture in Go uses self-contained domains with clear separation, but importing similarly named packages requires careful aliasing. Direct cross-domain references should be avoided to keep boundaries clear, even if it means more boilerplate. Go favors simple naming conventions and minimal abstraction, differing from traditional OOP practices.
+
+FILE: Clock in your agents.
+TITLE: Clock in your agents.
+DESC: Gas City turns coding agents into a factory that plans, builds, tests, and ships software automatically. Humans guide the process where judgment matters, while agents run the routine work. The platform supports multiple providers and lets engineers control quality and workflows easily.
+
+FILE: Computer use is 45x More Expensive Than Structured APIs
+TITLE: Computer use is 45x More Expensive Than Structured APIs
+DESC: Using AI agents to control apps through vision (screenshots and clicks) is much slower and costlier than using structured APIs. The vision agent needed many more steps, time, and tokens to finish tasks, while the API agent was faster and more efficient. For internal tools, building APIs is cheaper and better than relying on vision-based AI agents.
+
+FILE: Connect to dbt Core
+TITLE: Connect to dbt Core
+DESC: dbt Core is a free, open-source tool that helps you transform data by running SQL code on Databricks from your local machine. To use it, you create a Python virtual environment, install the dbt Databricks adapter, and configure connection settings to your Databricks cluster or SQL warehouse. You then test the connection to ensure everything is set up correctly before running your dbt projects.
+
+FILE: Context Is the New Code — Patrick Debois, Tessl-2
+TITLE: Context Is the New Code — Patrick Debois, Tessl-2
+DESC: Context is becoming the new form of code, where reusable pieces called skills help solve problems more flexibly than traditional coding. We can create, test, and improve context like code, using feedback loops and packaging to share with teams. This shift means focusing on writing good context and tests, which requires effort but leads to better and more adaptable AI solutions.
+
+FILE: Context Is the New Code — Patrick Debois, Tessl
+TITLE: Context Is the New Code — Patrick Debois, Tessl
+DESC: Context is becoming as important as code in software development. Instead of just writing code, developers create, test, and share context like reusable skills and prompts. This new approach helps improve AI agents and workflows through collaboration and continuous feedback.
+
+FILE: Create presentation
+TITLE: Create presentation
+DESC: User asked ChatGPT to create a 4-slide MDM introduction PowerPoint with an agenda and reformulated benefits.
+
+FILE: Creating The Perfect Claude Code Status Line
+TITLE: Creating The Perfect Claude Code Status Line
+DESC: Matt Pocock built a compact Claude Code status line showing repo path, Git state, and context-window usage.
+
+FILE: Daily Driver Task Management System
+TITLE: Daily Driver Task Management System
+DESC: A robust task management system designed for people who have trouble sticking with task management systems. A cross between bullet journaling, GTD, and a simple to-do list.
+
+FILE: Dashboards for OpenCode and Claude coding sessions
+TITLE: Dashboards for OpenCode and Claude coding sessions
+DESC: OpenCode and Claude offer cloud-synced dashboards to track coding sessions and tool usage. You can search, tag, export, and keep your data private. Data control is yours, with options to delete or run everything locally.
+
+FILE: Data Democratization Embracing Trusted Data to Transform Your Business
+TITLE: Data Democratization Embracing Trusted Data to Transform Your Business
+DESC: Data democratization involves giving everyone in an organization access to data and tools to understand it, aiming to optimize its usefulness and decision-making. Centralizing data, enacting governance policies, and providing training are key steps in successful data democratization. By democratizing data, businesses can improve efficiency, productivity, and decision-making processes.
+
+FILE: Data Mesh From an Engineering Perspective
+TITLE: Data Mesh From an Engineering Perspective
+DESC: Data mesh shifts data responsibility from a central team to domain teams, letting them create and share data products independently. It uses a decentralized approach supported by a self-serve platform and governance to enable better data collaboration. This organizational change helps teams work with data more effectively and drives innovation across the company.
+
+FILE: Data democratization How data architecture can drive business decisions and AI initiatives
+TITLE: Data democratization How data architecture can drive business decisions and AI initiatives
+DESC: Data democratization makes data easy to find and use across the company by simplifying architecture and tools. It gives nontechnical employees access to trusted data, improving decisions, productivity, and security. With democratized data, organizations can scale AI and automation more effectively.
+
+FILE: Deduplication as Part of MDM
+TITLE: Deduplication as Part of MDM
+DESC: Deduplication is a key link between Data Quality Management and Master Data Management. It finds and links records for the same person, organization, product, or asset and creates golden records or links. Linked records also form hierarchies (family, company, product) that improve operations and analytics.
+
+FILE: Deterministic vs. Non-Deterministic LLMs What's the Difference
+TITLE: Deterministic vs. Non-Deterministic LLMs What's the Difference
+DESC: Some LLMs are deterministic and give the same answer every time, which is good for precise tasks. Others are non-deterministic and produce varied answers, which is better for creative tasks. Choose the mode based on whether you need consistency or creativity.
+
+FILE: DeusDatacodebase-memory-mcp High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 66 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.
+TITLE: DeusDatacodebase-memory-mcp High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 66 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.
+DESC: codebase-memory-mcp is a fast code intelligence engine that indexes large codebases into a knowledge graph in minutes. It works with many coding agents and supports 66 programming languages, offering tools like search, call tracing, and dead code detection. The software runs as a single binary with zero dependencies and includes a 3D graph visualization UI.
+
+FILE: Discover community-made UI components 21st
+TITLE: Discover community-made UI components 21st
+DESC: 21st.dev offers a wide range of community-made UI components and animations. Users can explore popular items like animated heroes, shaders, and buttons. The site organizes components by categories such as features, pricing sections, and AI chat tools.
+
+FILE: Diving into Claude Code's Source Code Leak
+TITLE: Diving into Claude Code's Source Code Leak
+DESC: Anthropic accidentally leaked the full source code of Claude Code through an npm update, exposing many hidden features and security measures. This leak allowed others to analyze and recreate the software, though Anthropic is actively trying to remove unauthorized copies. The incident highlights the risks of developer errors and the importance of self-updating documentation in AI projects.
+
+FILE: Domain Driven Design implemented by functional programming
+TITLE: Domain Driven Design implemented by functional programming
+DESC: Domain Driven Design (DDD) pairs domain experts with developers to build clear, high-quality software.
+
+FILE: Domain-Driven Design (DDD) Explained for Business Analysts A Step-by-Step Guide
+TITLE: Domain-Driven Design (DDD) Explained for Business Analysts A Step-by-Step Guide
+DESC: Domain-Driven Design puts the business problem first and builds software to match the business. Business analysts help by discovering domain knowledge, defining bounded contexts, and creating a shared ubiquitous language. Teams iterate with workshops, translate models into use cases, and continuously refine the model during development and after delivery.
+
+FILE: Domain-Driven Design Tackling Complexity In The Heart Of Software
+TITLE: Domain-Driven Design Tackling Complexity In The Heart Of Software
+DESC: The text discusses how to create effective domain models that connect theory to practical software design. It emphasizes the importance of using standard patterns and shared language among team members to improve collaboration and understanding. A well-defined domain model enhances software correctness and helps manage complexity, but it requires careful integration with the implementation.
+
+FILE: Domain-Driven Design Use Case Improving A Life Insurance Selling Platform
+TITLE: Domain-Driven Design Use Case Improving A Life Insurance Selling Platform
+DESC: The article revisits a life insurance web platform and shows how domain-driven design and event storming clarify business events. It explains using events and a saga for long-running tasks (like submitting to external insurer APIs) to avoid timeouts and bad UX. Modeling the domain and using bounded contexts improves reliability and maintainability.
+
+FILE: Don't Trust the Process
+TITLE: Don't Trust the Process
+DESC: Jenny Wen says the traditional Design Process is outdated because anyone can create anything today. She suggests designers focus on making prototypes quickly, using AI to save time. This approach helps find better ideas faster and reduces costly mistakes.
+
+FILE: Don’t buy GPUs for AI
+TITLE: Don’t buy GPUs for AI
+DESC: You don’t need to buy expensive GPUs for most AI tasks because smaller models run well on CPUs and edge devices. Renting cloud GPUs or using specialized chips is cheaper and more efficient than owning hardware. In the future, AI will mostly run on software and serverless platforms, making GPUs less important for most users.
+
+FILE: Dribbble - Discover the World’s Top Designers & Creative Professionals
+TITLE: Dribbble - Discover the World’s Top Designers & Creative Professionals
+DESC: Dribbble is a website where top designers share their creative work. You can explore designs, hire talent, or join the community. It features many categories like animation, branding, and web design.
+
+FILE: E2e Test Framework
+TITLE: E2e Test Framework
+DESC: This skill helps create automated end-to-end tests for web applications using Playwright, Cypress, or Selenium. It tests user workflows like registration, login, and shopping cart processes across different browsers. Users can specify their testing needs, and the skill generates scripts to verify that the web app works correctly.
+
+FILE: ESLint as AI Guardrails The Rules That Make AI Code Readable
+TITLE: ESLint as AI Guardrails The Rules That Make AI Code Readable
+DESC: AI-generated code often has more bugs and readability issues than human code. Using strict ESLint rules acts as guardrails that force AI to write clearer, maintainable code. These rules stop AI from bypassing limits and help create reliable, self-documenting programs.
+
+FILE: Effective Context Engineering for AI Agents
+TITLE: Effective Context Engineering for AI Agents
+DESC: Context engineering is about choosing the smallest, most relevant set of information to feed an LLM so it stays focused and effective. For long tasks, agents use techniques like compaction, structured notes, and sub-agents to avoid context overload. Treating context as a scarce resource is key to building reliable, autonomous AI agents.
+
+FILE: Every UIUX Concept Explained in Under 10 Minutes
+TITLE: Every UIUX Concept Explained in Under 10 Minutes
+DESC: Good UI design uses clear signs like containers, colors, and hierarchy to show how things work without instructions. Consistent spacing, simple fonts, and purposeful colors help make designs easy to understand and attractive. Every interaction should give feedback, and small animations or overlays can improve user experience.
+
+FILE: Every idea needs a
+TITLE: Every idea needs a
+DESC: Medium is a platform where many people share and discover new ideas. It supports honest and deep storytelling without focusing on ads. This helps readers and writers connect and learn from each other.
+
+FILE: Exhaustiveness Checking with Mypy
+TITLE: Exhaustiveness Checking with Mypy
+DESC: Mypy can check if you handle all possible cases in your code using a function called assert_never. This helps catch missing cases in enums or union types before running the program. It works by narrowing types and showing errors when some cases are not handled.
+
+FILE: Experimental Drug Can Reverse Osteoarthritis in Weeks, Animal Research Shows
+TITLE: Experimental Drug Can Reverse Osteoarthritis in Weeks, Animal Research Shows
+DESC: Scientists have developed an experimental drug that can repair damaged joints and reverse osteoarthritis in animals within weeks. The treatment uses a slow-release injection that helps the body regrow cartilage and bone. Researchers hope to start human trials soon and offer a cure instead of just pain relief or surgery.
+
+FILE: Exploring Self-Healing Playwright Automation with AI — Looking for Suggestions
+TITLE: Exploring Self-Healing Playwright Automation with AI — Looking for Suggestions
+DESC: A tester asked about using AI for self-healing Playwright tests to reduce flaky failures and script rewrites. Many replied that AI often guesses wrong, making issues harder to fix, and suggested better selectors and rerun strategies instead. Some think AI can help only with classifying failures or summarizing reports, but not reliably fix tests.
+

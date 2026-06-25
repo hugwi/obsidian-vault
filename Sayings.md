@@ -1,0 +1,8 @@
+---
+categories:
+  - "[[Areas]]"
+domain: interests
+created: 2026-06-23
+---
+
+**Ivory tower approach** - An ivory tower approach refers to a style of decision-making or planning that is detached from the real-world problems and lacks input or involvement from those who are directly affected or have relevant expertise**.

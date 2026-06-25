@@ -1,9 +1,13 @@
 ---
+categories:
+  - "[[Clippings]]"
 title: "BuilderIO/skills: Skills for coding agents"
 source: "https://github.com/BuilderIO/skills/tree/main"
 author:
 published:
 created: 2026-06-18
+rating: 
+action: 
 description: "Skills for coding agents. Contribute to BuilderIO/skills development by creating an account on GitHub."
 tags:
   - "clippings"
