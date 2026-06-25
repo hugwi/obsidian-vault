@@ -75,4 +75,5 @@ below is a live view grouped by sub-theme. Mark a note `read: true` to track pro
 - [[agentic-systems-architecture]] — Ethira architecture
 - [[agentic-systems-tools-and-prompts]] — tools catalog
 - [[Agentic Engineering — Implementation Guide]] — what to build, ranked + compared
+- [[Agentic Engineering Mindmap]] — visual map of the 10 themes + subthemes (Excalidraw)
 - [[Agentic Engineering — Trends 2026]] — what's trending now + sources
