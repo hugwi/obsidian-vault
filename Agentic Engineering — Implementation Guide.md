@@ -217,7 +217,7 @@ Contracts: **Pydantic models** (optional validation, Python-native) vs **JSON-Sc
 - Drop Karpathy rules into CLAUDE.md (5 min).
 - Add `docs/progress.md` (current/completed/next); agent reads start, writes end (10 min).
 - Write 3–5 self-contained `tasks-*.md` with acceptance criteria (15 min) → QRSPI/BMAD/Craftsman-ready.
-- If running a custom harness: adopt hashline edits (~30 min, 5–10× fewer edit failures).
+- **If running a custom harness: adopt hashline edits (~30 min, 5–10× fewer edit failures).**
 
 ---
 
