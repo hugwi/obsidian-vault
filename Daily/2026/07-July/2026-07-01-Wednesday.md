@@ -20,7 +20,7 @@ tags:: [[+Daily Notes]]
 	- [ ] Create AI governance placeholder
 - [ ] check mentor transfer
 	- [ ] Boka möte Jakub
-- [ ] Begär ny dator och mobil
+- [x] Begär ny dator och mobil ✅ 2026-07-01
 
 ---
 
