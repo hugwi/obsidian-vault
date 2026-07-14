@@ -4,7 +4,7 @@ categories:
 domain: agentic-engineering
 theme: context-engineering
 subtheme:
-  - claude-md
+  - agents-md
   - conditional-xml-blocks
 title: "Getting Claude to Actually Read Your CLAUDE.md"
 source: "https://www.humanlayer.dev/blog/stop-claude-from-ignoring-your-claude-md"
@@ -14,7 +14,7 @@ created: 2026-06-07
 description: "Using conditional XML blocks to make Claude pay attention to the right instructions at the right time."
 tags:
   - agent-configuration
-  - claude-md
+  - agents-md
 ---
 Claude Code wraps your CLAUDE.md in a `<system_reminder>` that explicitly tells the model the contents "may or may not be relevant." The longer your file gets, the more Claude seems to treat individual sections as optional.
 

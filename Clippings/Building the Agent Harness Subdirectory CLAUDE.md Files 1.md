@@ -12,7 +12,7 @@ tags:
   - clippings
   - agentic-engineering
   - subdirectory-structure
-  - claude-md
+  - agents-md
   - automatic-feedback
 ---
 ## One Big File Doesn't Scale
