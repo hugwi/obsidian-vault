@@ -14,6 +14,7 @@ created: 2026-06-07
 description: "Using conditional XML blocks to make Claude pay attention to the right instructions at the right time."
 tags:
   - agent-configuration
+  - claude-md
 ---
 Claude Code wraps your CLAUDE.md in a `<system_reminder>` that explicitly tells the model the contents "may or may not be relevant." The longer your file gets, the more Claude seems to treat individual sections as optional.
 
