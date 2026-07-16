@@ -17,5 +17,6 @@ Then finish with one sentence:
 
 
 # Open points 
-- 
-- 
+- depth in the commercial
+- missing really concrete use cases. Understand where AI could make a difference in our business. Value chain and the porblem where data friction occur, ai potential in additioanl revenue 
+- business and processes. It's important to 
