@@ -18,4 +18,4 @@ Then finish with one sentence:
 
 # Open points 
 - 
-- kk
+- 
