@@ -13,3 +13,9 @@
 Then finish with one sentence:
 
 > "The reason we cover all three layers is that they reinforce each other. Strategy guides what we build, the organization enables adoption, and what we learn from delivery continuously improves the strategy."
+
+
+
+# Open points 
+- 
+- kk
