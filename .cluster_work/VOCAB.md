@@ -11,7 +11,7 @@ Only use tags from this list. If an article is a login wall / error page / empty
 ## Agentic engineering
 - harness-engineering — the loop/scaffolding/infra that makes an autonomous agent reliable & controllable
 - context-engineering — managing the LLM context window, compaction, what tokens to include
-- claude-md — writing/structuring CLAUDE.md / AGENTS.md instruction files
+- agents-md — writing/structuring CLAUDE.md / AGENTS.md instruction files
 - token-efficiency — reducing token consumption / smaller context / token-efficient pipelines
 - cost-optimization — reducing AI/API $ cost, cheaper inference, lowering tool spend
 - code-intelligence — codebase indexing, semantic code retrieval, code knowledge graphs
