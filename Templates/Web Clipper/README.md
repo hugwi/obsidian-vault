@@ -15,10 +15,36 @@ is a no-AI visual clipper.
 | `reddit-summary.json` | reddit.com/r/ | `Inbox/Articles` |
 | `x-summary.json` | x.com, twitter.com | `Inbox/Articles` |
 
-> **Template order matters.** `inspiration-media.json` also triggers on
-> `schema:@VideoObject`, which YouTube pages carry too. Keep `youtube-summary.json`
-> **above** it in the extension's template list so YouTube still gets the transcript
-> template — Web Clipper uses the first template whose trigger matches.
+### Template order in the extension
+
+Web Clipper uses the **first** template whose trigger matches, in list order, and it does
+not prefer a URL trigger over a schema one. No two templates here share a URL trigger, but
+two schema triggers overlap, so order them most-specific → most-generic:
+
+| # | Template | Why here |
+|---|---|---|
+| 1 | `youtube-summary.json` | YouTube pages also carry `schema:@VideoObject`, which #2 triggers on |
+| 2 | `inspiration-media.json` | design sites also carry `schema:@Article` sometimes, which #6 triggers on |
+| 3 | `medium-summary.json` | URL-specific, no overlap |
+| 4 | `reddit-summary.json` | URL-specific, no overlap |
+| 5 | `x-summary.json` | URL-specific, no overlap |
+| 6 | `article-summary.json` | generic `schema:@Article` / `@NewsArticle` catch-all — must be last |
+
+None of the pre-existing templates trigger on 21st.dev, Dribbble or Pinterest, so
+`inspiration-media.json` is the only one that claims those sites.
+
+### Templater does not interfere
+
+`Clippings/` has a Templater folder template (`Templates/Clipping Template.md`) and
+`trigger_on_file_creation` is on, which looks like it would overwrite every clip. It does
+not. Templater's creation handler measures the body length after the frontmatter and only
+applies a folder template when that is **zero**; a file that arrives with a body instead
+gets scanned for `<% %>` commands and is otherwise left alone. Clips from this template
+always carry a body (heading, `dataviewjs` block, source link, notes sections), and that
+body contains no Templater syntax. The 378 Readwise notes already in `Clippings/` confirm
+the same behaviour in practice — none of them carry the folder template's markers.
+
+The one way to break this is to empty `noteContentFormat`. Keep a body in it.
 
 > **Which browser you clip with does not affect playback.** The renderer runs inside
 > Obsidian, not in your browser, so a clip made in Firefox behaves exactly like one made
