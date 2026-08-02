@@ -21,7 +21,9 @@ obsidian-vault/
 > so it cannot load from `.obsidian/` or any dot-prefixed folder (unlike `.multilabel.py`
 > and `.cluster_work/`, which are hidden on purpose). `Templates/` already holds the
 > vault's other non-note technical files, so scripts go there rather than in a new root
-> folder.
+> folder. **`.js` also needs Settings → Files & Links → *Detect all file extensions*
+> (`showUnsupportedFiles`)** — while that is off Obsidian doesn't index `.js` at all and
+> `dv.view()` fails with "custom view not found". See `Templates/Scripts/README.md`.
 
 > **No MOCs.** Navigation is category hubs + backlinks + `[[wikilinks]]` + quick switcher
 > (kepano model). There is no `_MOC/` folder and no `moc` category.
