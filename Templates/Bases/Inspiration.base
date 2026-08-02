@@ -1,0 +1,114 @@
+filters:
+  and:
+    - type == "inspiration"
+    - '!file.name.contains("Template")'
+properties:
+  file.name:
+    displayName: Note
+  title:
+    displayName: Title
+  platform:
+    displayName: Platform
+  thumbnail_url:
+    displayName: Thumbnail
+  file.tags:
+    displayName: Tags
+  saved_at:
+    displayName: Saved
+  rating:
+    displayName: Rating
+  action:
+    displayName: Action
+views:
+  - type: cards
+    name: 🖼 Gallery
+    image: thumbnail_url
+    imageAspectRatio: 1.4
+    imageFit: cover
+    sort:
+      - property: saved_at
+        direction: DESC
+    order:
+      - file.name
+      - platform
+      - file.tags
+      - saved_at
+  - type: cards
+    name: 🎨 Web design
+    image: thumbnail_url
+    imageAspectRatio: 1.4
+    imageFit: cover
+    filters:
+      and:
+        - file.tags.contains("web-design")
+    sort:
+      - property: saved_at
+        direction: DESC
+    order:
+      - file.name
+      - platform
+      - file.tags
+      - saved_at
+  - type: cards
+    name: 🧩 UI
+    image: thumbnail_url
+    imageAspectRatio: 1.4
+    imageFit: cover
+    filters:
+      and:
+        - file.tags.contains("ui")
+    sort:
+      - property: saved_at
+        direction: DESC
+    order:
+      - file.name
+      - platform
+      - file.tags
+      - saved_at
+  - type: cards
+    name: 🧠 UX
+    image: thumbnail_url
+    imageAspectRatio: 1.4
+    imageFit: cover
+    filters:
+      and:
+        - file.tags.contains("ux")
+    sort:
+      - property: saved_at
+        direction: DESC
+    order:
+      - file.name
+      - platform
+      - file.tags
+      - saved_at
+  - type: table
+    name: 🎬 Has video
+    filters:
+      or:
+        - media_url
+        - media_url_secure
+        - media_url_schema
+        - media_url_twitter
+        - media_url_source
+        - media_url_video
+    sort:
+      - property: saved_at
+        direction: DESC
+    order:
+      - file.name
+      - platform
+      - file.tags
+      - saved_at
+  - type: table
+    name: 📋 All
+    sort:
+      - property: saved_at
+        direction: DESC
+    order:
+      - file.name
+      - platform
+      - file.tags
+      - rating
+      - action
+      - saved_at
+      - source_url

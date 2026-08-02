@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "0.1.0",
+  "name": "Inspiration - Media",
+  "behavior": "create",
+  "noteNameFormat": "{{title|safe_name}}",
+  "path": "Clippings",
+  "context": "",
+  "properties": [
+    { "name": "type", "value": "inspiration", "type": "text" },
+    { "name": "title", "value": "{{title}}", "type": "text" },
+    { "name": "categories", "value": "[[Clippings]]", "type": "multitext" },
+    { "name": "domain", "value": "design", "type": "text" },
+    { "name": "source_url", "value": "{{url}}", "type": "text" },
+    { "name": "platform", "value": "{{domain}}", "type": "text" },
+    { "name": "thumbnail_url", "value": "{{image}}", "type": "text" },
+    { "name": "media_url_secure", "value": "{{meta:property:og:video:secure_url}}", "type": "text" },
+    { "name": "media_url", "value": "{{meta:property:og:video}}", "type": "text" },
+    { "name": "media_url_twitter", "value": "{{meta:name:twitter:player:stream}}", "type": "text" },
+    { "name": "media_url_schema", "value": "{{schema:@VideoObject:contentUrl}}", "type": "text" },
+    { "name": "media_url_source", "value": "{{selector:video source?src}}", "type": "text" },
+    { "name": "media_url_video", "value": "{{selector:video?src}}", "type": "text" },
+    { "name": "saved_at", "value": "{{date|date:\"YYYY-MM-DD\"}}", "type": "date" },
+    { "name": "created", "value": "{{date|date:\"YYYY-MM-DD\"}}", "type": "date" },
+    { "name": "source", "value": "web-clipper", "type": "text" },
+    { "name": "rating", "value": "", "type": "number" },
+    { "name": "action", "value": "review", "type": "text" },
+    { "name": "tags", "value": "inspiration, web-design, ui, ux", "type": "multitext" }
+  ],
+  "triggers": [
+    "https://21st.dev",
+    "https://dribbble.com",
+    "https://www.pinterest.com",
+    "https://pinterest.com",
+    "https://pin.it",
+    "schema:@VideoObject"
+  ],
+  "noteContentFormat": "# {{title}}\n\n```dataviewjs\nawait dv.view(\"Templates/Scripts/remote-video\");\n```\n\n[Open original source]({{url}})\n\n## Notes\n\n- \n\n## Why I saved this\n\n- \n"
+}
