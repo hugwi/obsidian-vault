@@ -26,6 +26,8 @@
     "media_url_source": "text",
     "media_url_video": "text",
     "media_url_image": "text",
+    "media_url_srcset": "text",
+    "media_url_image_meta": "text",
     "saved_at": "date",
     "TQ_explain": "checkbox",
     "TQ_extra_instructions": "text",

@@ -2,6 +2,9 @@ const page = dv.current();
 
 const VIDEO_EXT = /\.(mp4|webm|mov|m4v)(?:$|[?#])/i;
 const IMAGE_EXT = /\.(png|jpe?g|gif|webp|avif|svg)(?:$|[?#])/i;
+// Adaptive-streaming manifests. Chromium — and so Obsidian — cannot play these
+// without a JS player, so a <video> pointed at one just fails silently.
+const STREAM_EXT = /\.(m3u8|mpd)(?:$|[?#])/i;
 
 function valuesOf(value) {
     if (value === null || value === undefined) {
@@ -15,9 +18,20 @@ function valuesOf(value) {
     return [String(value).trim()].filter(Boolean);
 }
 
-// A property may hold a bare URL, several URLs from a comma-separated selector,
-// or a srcset ("url 1x, url 2x"). Split on whitespace/commas and keep the pieces
-// that actually parse as http(s) URLs — descriptors like "1600w" fall away.
+function isRemoteUrl(value) {
+    try {
+        const url = new URL(value);
+
+        // blob: and data: are page-local and meaningless once the tab is gone.
+        return url.protocol === "http:" || url.protocol === "https:";
+    } catch {
+        return false;
+    }
+}
+
+// A property may hold a bare URL, several URLs because the clipper matched a
+// comma-separated selector list, or a srcset. Split on whitespace/commas and keep
+// the pieces that are real remote URLs — descriptors like "1600w" fall away.
 function urlsOf(...properties) {
     const found = [];
 
@@ -26,24 +40,34 @@ function urlsOf(...properties) {
             for (const piece of raw.split(/[\s,]+/)) {
                 const candidate = piece.trim();
 
-                if (!candidate) {
-                    continue;
-                }
-
-                try {
-                    const url = new URL(candidate);
-
-                    if (url.protocol === "http:" || url.protocol === "https:") {
-                        found.push(candidate);
-                    }
-                } catch {
-                    // Not a URL — skip it.
+                if (candidate && isRemoteUrl(candidate)) {
+                    found.push(candidate);
                 }
             }
         }
     }
 
     return [...new Set(found)];
+}
+
+// srcset is "url 320w, url 640w" (or "url 1x, url 2x"). Return the URLs biggest
+// first, so a note shows the highest resolution the page offered.
+function srcsetUrlsOf(property) {
+    const entries = [];
+
+    for (const raw of valuesOf(property)) {
+        for (const entry of raw.split(",")) {
+            const [url, descriptor] = entry.trim().split(/\s+/);
+
+            if (url && isRemoteUrl(url)) {
+                entries.push({ url, weight: parseFloat(descriptor) || 0 });
+            }
+        }
+    }
+
+    entries.sort((a, b) => b.weight - a.weight);
+
+    return [...new Set(entries.map((entry) => entry.url))];
 }
 
 function extensionLooksLike(pattern, value) {
@@ -58,9 +82,9 @@ function extensionLooksLike(pattern, value) {
 
 const sourceUrl = valuesOf(page.source_url)[0] ?? "";
 
-// Video properties are video-specific, so anything in them counts — streaming
-// endpoints often have no file extension at all. Only reject values that are
-// plainly an image, which happens when a page puts a still in og:video.
+// Video properties are video-specific, so anything in them counts — plenty of CDNs
+// serve MP4 from an extensionless path. Only reject values that are plainly an
+// image, which happens when a page puts a still in og:video.
 const declaredVideoUrls = urlsOf(
     page.media_url_secure,
     page.media_url,
@@ -78,20 +102,22 @@ if (extensionLooksLike(VIDEO_EXT, sourceUrl)) {
     videoCandidates.push(sourceUrl);
 }
 
-// media_url_image is scraped from the page's media container and is usually the
-// full-size still; thumbnail_url (og:image) is the fallback. A still that the page
-// wrongly published in og:video is rejected above — reuse it here rather than
-// losing it, so the note still shows something.
+const mediaUrl = videoCandidates.find(
+    (candidate) => !extensionLooksLike(STREAM_EXT, candidate)
+);
+
+// Captured, but not playable here. Worth saying so rather than showing a dead player.
+const streamUrl = videoCandidates.find((candidate) =>
+    extensionLooksLike(STREAM_EXT, candidate)
+);
+
+// Biggest srcset entry first, then the container's own src, then the social-card
+// image, then anything an image-shaped URL that turned up in a video property.
 const imageCandidates = [
-    ...urlsOf(page.media_url_image, page.thumbnail_url),
+    ...srcsetUrlsOf(page.media_url_srcset),
+    ...urlsOf(page.media_url_image, page.thumbnail_url, page.media_url_image_meta),
     ...declaredVideoUrls.filter((candidate) => extensionLooksLike(IMAGE_EXT, candidate)),
 ];
-
-if (extensionLooksLike(IMAGE_EXT, sourceUrl)) {
-    imageCandidates.push(sourceUrl);
-}
-
-const mediaUrl = videoCandidates.find(Boolean);
 
 const posterUrl =
     imageCandidates.find((candidate) => extensionLooksLike(IMAGE_EXT, candidate)) ??
@@ -104,6 +130,16 @@ const root = dv.container.createDiv();
 
 root.style.width = "100%";
 root.style.maxWidth = "960px";
+
+function createNote(parent, text) {
+    const note = parent.createEl("p", { text });
+
+    note.style.fontSize = "0.85em";
+    note.style.color = "var(--text-muted)";
+    note.style.margin = "8px 0 0";
+
+    return note;
+}
 
 function addSourceLink(parent, text = "Open the original source") {
     if (!sourceUrl) {
@@ -126,7 +162,9 @@ if (!mediaUrl && !posterUrl) {
     const fallback = root.createDiv();
 
     fallback.createEl("p", {
-        text: "No direct video URL was exposed by this page.",
+        text: streamUrl
+            ? "This page only exposed an adaptive video stream, which Obsidian cannot play."
+            : "No direct video URL was exposed by this page.",
     });
 
     addSourceLink(fallback);
@@ -135,7 +173,7 @@ if (!mediaUrl && !posterUrl) {
 }
 
 // ------------------------------------------------------------- still image
-// No video, but we do have an image — this is the normal Dribbble / Pinterest
+// No playable video, but we do have an image — the normal Dribbble / Pinterest
 // case. Show the still full width instead of reporting a missing video.
 if (!mediaUrl) {
     const figure = root.createDiv();
@@ -157,6 +195,14 @@ if (!mediaUrl) {
     if (sourceUrl) {
         image.style.cursor = "pointer";
         image.addEventListener("click", () => window.open(sourceUrl, "_blank"));
+    }
+
+    if (streamUrl) {
+        createNote(
+            root,
+            "This post has video, but only as an adaptive stream Obsidian cannot play — " +
+                "showing the still. Open the source to watch it."
+        );
     }
 
     const caption = root.createDiv();
@@ -223,6 +269,31 @@ loadButton.addEventListener("click", () => {
     if (posterUrl) {
         video.poster = posterUrl;
     }
+
+    // A signed CDN link can expire long after the clip was saved. Say so instead
+    // of leaving a black rectangle.
+    video.addEventListener("error", () => {
+        preview.empty();
+
+        if (posterUrl) {
+            const still = preview.createEl("img");
+
+            still.src = posterUrl;
+            still.alt = altText;
+            still.style.width = "100%";
+            still.style.maxHeight = "70vh";
+            still.style.objectFit = "contain";
+        }
+
+        const failure = root.createDiv();
+
+        createNote(
+            failure,
+            "The saved video URL did not load — it has probably expired."
+        );
+
+        addSourceLink(failure);
+    });
 
     // Attach the remote media only after the user presses the button.
     video.src = mediaUrl;

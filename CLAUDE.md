@@ -108,9 +108,13 @@ into `Clippings/`. These notes store **remote URLs only — never download the m
 - Video props, checked in this order by the renderer: `media_url_secure` → `media_url` →
   `media_url_twitter` → `media_url_schema` → `media_url_source` → `media_url_video`;
   `source_url` is also used when it ends in `.mp4`/`.webm`/`.mov`/`.m4v`.
-- Image props: `media_url_image` (scraped from the page's media container) → `thumbnail_url`
-  (og:image). **Most Dribbble/Pinterest posts are stills**, so a clip with no video is
-  normal, not a failure — the renderer shows the image full width instead.
+- Image props, biggest-first: `media_url_srcset` (largest entry wins) → `media_url_image`
+  (media-container `src`) → `thumbnail_url` (og:image) → `media_url_image_meta`
+  (twitter:image / schema / `<video poster>`). **Most Dribbble/Pinterest posts are stills**,
+  so a clip with no video is normal, not a failure — the renderer shows the image instead.
+- Unplayable media is detected, not shown broken: `.m3u8`/`.mpd` manifests (Chromium has no
+  native HLS) and `blob:`/`data:` URLs are rejected, and an expired video URL falls back to
+  the still with an explanation.
 - Plus `type: inspiration`, `platform:`, `thumbnail_url:`, `saved_at:` (alongside the usual
   `categories: "[[Clippings]]"`, `created:`, `rating:`, `action:`).
 - Default tags: `inspiration`, `web-design`, `ui`, `ux`. Add finer ones by hand
