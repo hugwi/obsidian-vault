@@ -112,9 +112,11 @@ into `Clippings/`. These notes store **remote URLs only — never download the m
   (media-container `src`) → `thumbnail_url` (og:image) → `media_url_image_meta`
   (twitter:image / schema / `<video poster>`). **Most Dribbble/Pinterest posts are stills**,
   so a clip with no video is normal, not a failure — the renderer shows the image instead.
-- Unplayable media is detected, not shown broken: `.m3u8`/`.mpd` manifests (Chromium has no
-  native HLS) and `blob:`/`data:` URLs are rejected, and an expired video URL falls back to
-  the still with an explanation.
+- Unplayable media is detected, not shown broken: `blob:`/`data:` URLs are rejected, an
+  expired video URL falls back to the still with an explanation, and `.m3u8`/`.mpd`
+  manifests are offered only where `canPlayType` says the engine supports them (no on
+  desktop Electron/Chromium, yes on Obsidian iOS/WKWebView). The clipping browser is
+  irrelevant — the renderer runs in Obsidian, not the browser.
 - Plus `type: inspiration`, `platform:`, `thumbnail_url:`, `saved_at:` (alongside the usual
   `categories: "[[Clippings]]"`, `created:`, `rating:`, `action:`).
 - Default tags: `inspiration`, `web-design`, `ui`, `ux`. Add finer ones by hand

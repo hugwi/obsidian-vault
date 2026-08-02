@@ -20,6 +20,12 @@ is a no-AI visual clipper.
 > **above** it in the extension's template list so YouTube still gets the transcript
 > template — Web Clipper uses the first template whose trigger matches.
 
+> **Which browser you clip with does not affect playback.** The renderer runs inside
+> Obsidian, not in your browser, so a clip made in Firefox behaves exactly like one made
+> in Chrome. The Firefox and Chromium builds of the extension are the same extension, and
+> `inspiration-media.json` uses no Interpreter/AI variables, so nothing here depends on
+> browser-specific features.
+
 ## One-time setup
 
 1. Install **Obsidian Web Clipper** (Chrome/Firefox/Safari extension).
@@ -116,9 +122,11 @@ was captured:
 
 - A still is never handed to the `<video>` element, and an image-shaped URL found in a
   video property is reused as the image rather than discarded.
-- `.m3u8` / `.mpd` manifests are recognised as unplayable — Chromium has no native HLS —
-  so you get the still and an explanation rather than a dead player. A real MP4 always
-  wins over a manifest.
+- `.m3u8` / `.mpd` manifests are only offered where the engine can actually play them.
+  The renderer asks via `canPlayType` rather than assuming: desktop Obsidian is
+  Electron/Chromium and has no native HLS, so you get the still plus an explanation;
+  Obsidian on iOS runs in WKWebView and plays HLS fine, so there you get a player. A real
+  MP4 always wins over a manifest on either.
 - `blob:` and `data:` URLs are dropped. They are page-local and meaningless once the tab
   closes, which is what Pinterest's player often hands you.
 - `srcset` is parsed and the **largest** entry wins, so pins saved from a grid still show

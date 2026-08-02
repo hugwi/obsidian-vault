@@ -2,9 +2,20 @@ const page = dv.current();
 
 const VIDEO_EXT = /\.(mp4|webm|mov|m4v)(?:$|[?#])/i;
 const IMAGE_EXT = /\.(png|jpe?g|gif|webp|avif|svg)(?:$|[?#])/i;
-// Adaptive-streaming manifests. Chromium — and so Obsidian — cannot play these
-// without a JS player, so a <video> pointed at one just fails silently.
+// Adaptive-streaming manifests. Desktop Obsidian is Electron/Chromium, which has no
+// native HLS, so a <video> pointed at one fails silently — but Obsidian on iOS runs
+// in WKWebView, where HLS plays fine. Ask the engine rather than assuming.
 const STREAM_EXT = /\.(m3u8|mpd)(?:$|[?#])/i;
+
+const canPlayStreams = (() => {
+    try {
+        return !!document.createElement("video").canPlayType(
+            "application/vnd.apple.mpegurl"
+        );
+    } catch {
+        return false;
+    }
+})();
 
 function valuesOf(value) {
     if (value === null || value === undefined) {
@@ -102,14 +113,20 @@ if (extensionLooksLike(VIDEO_EXT, sourceUrl)) {
     videoCandidates.push(sourceUrl);
 }
 
-const mediaUrl = videoCandidates.find(
+const directVideoUrl = videoCandidates.find(
     (candidate) => !extensionLooksLike(STREAM_EXT, candidate)
 );
 
-// Captured, but not playable here. Worth saying so rather than showing a dead player.
-const streamUrl = videoCandidates.find((candidate) =>
+const manifestUrl = videoCandidates.find((candidate) =>
     extensionLooksLike(STREAM_EXT, candidate)
 );
+
+// A plain file always beats a manifest; fall back to the manifest only where the
+// engine can actually play it.
+const mediaUrl = directVideoUrl ?? (canPlayStreams ? manifestUrl : undefined);
+
+// Captured, but not playable here. Worth saying so rather than showing a dead player.
+const streamUrl = mediaUrl === manifestUrl ? undefined : manifestUrl;
 
 // Biggest srcset entry first, then the container's own src, then the social-card
 // image, then anything an image-shaped URL that turned up in a video property.
