@@ -17,6 +17,17 @@
 *.mov
 *.mp4
 *.m4a
+*.m4v
+*.mkv
+*.webm
+*.opus
+*.mp3
+
+# Downloaded YouTube archive — notes + transcripts are committed, media is not
+Attachments/Videos/
+*.vtt
+*.part
+*.ytdl
 
 # Claude agent worktrees/state — nested git repos break clones
 .claude/
@@ -25,3 +36,7 @@
 # Plugin data with secrets/local state — don't commit
 .obsidian/plugins/obsidian-git/data.json
 .obsidian/plugins/readwise-official/data.json
+
+# Python bytecode from vault scripts
+__pycache__/
+*.pyc

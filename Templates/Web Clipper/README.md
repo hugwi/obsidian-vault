@@ -9,7 +9,7 @@ is a no-AI visual clipper.
 | Template | Triggers on | Saves to |
 |---|---|---|
 | `inspiration-media.json` | 21st.dev, dribbble.com, pinterest.com, pin.it, `schema:@VideoObject` | `Clippings` |
-| `youtube-summary.json` | youtube.com/watch, youtu.be | `Inbox/Videos` |
+| `youtube-summary.json` | youtube.com/watch, youtu.be | `Clippings` |
 | `medium-summary.json` | medium.com (+ subdomains) | `Inbox/Articles` |
 | `article-summary.json` | any page with `schema:@Article` / `@NewsArticle` | `Inbox/Articles` |
 | `reddit-summary.json` | reddit.com/r/ | `Inbox/Articles` |
@@ -42,6 +42,10 @@ is a no-AI visual clipper.
 - **YouTube**: open the **Transcript** panel on the video page *before* clipping —
   the transcript is scraped from the DOM (`#segments-container`). Summary context
   = description + transcript, so it still produces a summary if no transcript.
+  The note is named `Title (VIDEO_ID)` and carries `type: video`, matching what
+  `Templates/Scripts/youtube-archive/youtube_archive.py` writes — run that script with
+  `--force` on the same URL to download the video and replace the clip with a full
+  archive note (timestamped transcript, chapters, local player). See [[YouTube Archive]].
 - **Reddit / X**: these are SPAs with changing CSS. Scroll to load the post/thread
   (and comments) before clipping. If selectors break after a site redesign, update
   the `selector:`/`selectorHtml:` paths via right-click → Inspect.

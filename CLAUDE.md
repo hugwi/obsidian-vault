@@ -21,7 +21,8 @@ obsidian-vault/
 > so it cannot load from `.obsidian/` or any dot-prefixed folder (unlike `.multilabel.py`
 > and `.cluster_work/`, which are hidden on purpose). `Templates/` already holds the
 > vault's other non-note technical files, so scripts go there rather than in a new root
-> folder.
+> folder. Standalone CLI tools live alongside them in the same folder shape
+> (`Templates/Scripts/youtube-archive/youtube_archive.py`).
 
 > **No MOCs.** Navigation is category hubs + backlinks + `[[wikilinks]]` + quick switcher
 > (kepano model). There is no `_MOC/` folder and no `moc` category.
@@ -116,6 +117,21 @@ into `Clippings/`. These notes store **remote URLs only — never download the m
   link when no playable URL exists. Needs Dataview → *Enable JavaScript Queries*.
 - Hub: [[Inspiration]] · views: `Templates/Bases/Inspiration.base` (gallery is thumbnails
   only — never embed every remote video in the overview).
+
+## YouTube video archive (`type: video`)
+Saved YouTube videos are downloaded with `Templates/Scripts/youtube-archive/youtube_archive.py`
+(yt-dlp + ffmpeg, runs locally — not from a container). Media goes to `Attachments/Videos/`
+(**git-ignored**, synced by Syncthing); the note goes to `Clippings/` as `Title (VIDEO_ID).md`.
+- Props: `type: video`, `channel:`, `duration:`, `published:`, `url:`, `video_id:`, `media:`,
+  `transcript_source:` (`captions`/`whisper`/`web-clipper`/`none`), `thumbnail_url:`,
+  alongside the usual `categories: "[[Clippings]]"`, `created:`, `rating:`, `action:`.
+- Body: local `![[Attachments/Videos/…]]` embed, chapters, description, and a transcript in
+  ~45s paragraphs, each prefixed `**[mm:ss](https://youtu.be/ID?t=SEC)**`.
+- `WL` / `LL` archive Watch Later / Liked (need `--cookies-from-browser`); `--no-media` keeps
+  transcript only; `--whisper` covers videos with captions disabled. Re-runs skip existing
+  notes unless `--force`.
+- Browser path (no download): **YouTube - Summary** Web Clipper → same note shape.
+- Hub: [[YouTube Archive]] · view: `Clippings.base` → 🎬 Videos.
 
 ## Agentic-engineering theming
 The 221 `domain: agentic-engineering` clippings are organised by the **problem they solve**

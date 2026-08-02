@@ -17,6 +17,12 @@ properties:
     displayName: Rating
   action:
     displayName: Action
+  channel:
+    displayName: Channel
+  duration:
+    displayName: Length
+  published:
+    displayName: Published
 views:
   - type: table
     name: 📋 To review
@@ -48,6 +54,21 @@ views:
       - rating
       - domain
       - file.tags
+  - type: table
+    name: 🎬 Videos
+    filters:
+      and:
+        - type == "video"
+    sort:
+      - property: published
+        direction: DESC
+    order:
+      - file.name
+      - channel
+      - duration
+      - published
+      - rating
+      - action
   - type: table
     name: ⭐ Top rated
     sort:
