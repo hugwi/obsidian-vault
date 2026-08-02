@@ -70,7 +70,11 @@ It scrapes the page for a playable video in this order and stores whatever it fi
 | `media_url_schema` | Schema.org `VideoObject` → `contentUrl` |
 | `media_url_source` | `<video><source src>` |
 | `media_url_video` | `<video src>` |
+| `media_url_image` | the page's media container — `.shot-media-container img`, `.media-shot img`, `[data-testid="shot-media"] img`, `figure img` |
 | `thumbnail_url` | `og:image` |
+
+Most Dribbble and Pinterest posts are **stills, not video**, so the clipper also grabs
+the image out of the media container rather than only hunting for an MP4.
 
 The note body calls the Dataview renderer:
 
@@ -78,9 +82,18 @@ The note body calls the Dataview renderer:
 await dv.view("Templates/Scripts/remote-video");
 ```
 
-which shows the thumbnail plus a **Load video** button, and only attaches the remote
-source once you press it. When no direct video URL was found it falls back to the
-thumbnail plus an *Open the original source* link, so the clip stays useful either way.
+It picks one of three presentations:
+
+| Page has | Note shows |
+|---|---|
+| a playable video | thumbnail + **Load video** button; the source is attached only on click |
+| a still only | the image full width, click-through to the original |
+| neither | *"No direct video URL was exposed by this page."* + source link |
+
+A still is never handed to the `<video>` element, and a URL found in a video property
+that is plainly an image (`.png`, `.jpg`, `.webp`, …) is reused as the image rather than
+discarded. Selector output that comes back as a comma list or a `srcset` is split apart,
+so `"url 1x, url 2x"` still resolves to a usable URL.
 
 **Requires DataviewJS.** Settings → Dataview → *Enable JavaScript Queries*. This vault
 ships it pre-enabled via `.obsidian/plugins/dataview/data.json`.

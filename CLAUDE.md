@@ -105,17 +105,21 @@ and `Agentic Engineering.base` (same action views + ⭐ Top rated).
 Web-design inspiration from 21st.dev / Dribbble / Pinterest etc. is captured by the
 **Inspiration - Media** Web Clipper template (`Templates/Web Clipper/inspiration-media.json`)
 into `Clippings/`. These notes store **remote URLs only — never download the media**.
-- Media props, checked in this order by the renderer: `media_url_secure` → `media_url` →
+- Video props, checked in this order by the renderer: `media_url_secure` → `media_url` →
   `media_url_twitter` → `media_url_schema` → `media_url_source` → `media_url_video`;
   `source_url` is also used when it ends in `.mp4`/`.webm`/`.mov`/`.m4v`.
+- Image props: `media_url_image` (scraped from the page's media container) → `thumbnail_url`
+  (og:image). **Most Dribbble/Pinterest posts are stills**, so a clip with no video is
+  normal, not a failure — the renderer shows the image full width instead.
 - Plus `type: inspiration`, `platform:`, `thumbnail_url:`, `saved_at:` (alongside the usual
   `categories: "[[Clippings]]"`, `created:`, `rating:`, `action:`).
 - Default tags: `inspiration`, `web-design`, `ui`, `ux`. Add finer ones by hand
   (`animation`, `navigation`, `mobile`, `landing-page`, `typography`, `dashboard`,
   `interaction-design`).
-- Body calls ` ```dataviewjs / await dv.view("Templates/Scripts/remote-video") ` — thumbnail
-  + **Load video** button, source attached only on click; falls back to thumbnail + source
-  link when no playable URL exists. Needs Dataview → *Enable JavaScript Queries*.
+- Body calls ` ```dataviewjs / await dv.view("Templates/Scripts/remote-video") ` — video →
+  thumbnail + **Load video** button (source attached only on click); still → full-width
+  image, click-through to source; neither → message + source link. Needs Dataview →
+  *Enable JavaScript Queries* **and** Files & Links → *Detect all file extensions*.
 - Hub: [[Inspiration]] · views: `Templates/Bases/Inspiration.base` (gallery is thumbnails
   only — never embed every remote video in the overview).
 

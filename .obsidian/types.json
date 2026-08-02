@@ -25,6 +25,7 @@
     "media_url_schema": "text",
     "media_url_source": "text",
     "media_url_video": "text",
+    "media_url_image": "text",
     "saved_at": "date",
     "TQ_explain": "checkbox",
     "TQ_extra_instructions": "text",

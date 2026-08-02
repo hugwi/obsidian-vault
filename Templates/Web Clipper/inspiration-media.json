@@ -19,6 +19,7 @@
     { "name": "media_url_schema", "value": "{{schema:@VideoObject:contentUrl}}", "type": "text" },
     { "name": "media_url_source", "value": "{{selector:video source?src}}", "type": "text" },
     { "name": "media_url_video", "value": "{{selector:video?src}}", "type": "text" },
+    { "name": "media_url_image", "value": "{{selector:.shot-media-container img, .media-shot img, [data-testid=\"shot-media\"] img, figure img?src}}", "type": "text" },
     { "name": "saved_at", "value": "{{date|date:\"YYYY-MM-DD\"}}", "type": "date" },
     { "name": "created", "value": "{{date|date:\"YYYY-MM-DD\"}}", "type": "date" },
     { "name": "source", "value": "web-clipper", "type": "text" },
