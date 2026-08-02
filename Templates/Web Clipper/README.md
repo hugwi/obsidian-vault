@@ -33,6 +33,26 @@ two schema triggers overlap, so order them most-specific → most-generic:
 None of the pre-existing templates trigger on 21st.dev, Dribbble or Pinterest, so
 `inspiration-media.json` is the only one that claims those sites.
 
+### No community template covers these sites
+
+Checked against [obsidian-community/web-clipper-templates](https://github.com/obsidian-community/web-clipper-templates)
+(2026-08-02, repo still marked "under construction"). All 14 templates there are
+URL-triggered at text/link sites — Apple Podcasts, GitHub (issues/releases/repo), Gmail,
+Indeed, Medium, Reddit, Stackademic, The Hacker News and five YouTube variants. **Nothing
+targets Dribbble, Pinterest, 21st.dev or Behance, and nothing scrapes `og:video` or a
+media container.** So this template is not duplicating existing work.
+
+Two things to watch if you ever import from that collection:
+
+- `stackademic-bullet-summary-clipper.json` also triggers on the generic `schema:@Article`,
+  so it belongs down at position 6 alongside `article-summary.json`.
+- Its five YouTube templates all trigger on `youtube.com/watch` and would collide with each
+  other and with our `schema:@VideoObject`. Import at most one, and keep it at position 1.
+
+Their `CONTRIBUTING.md` also suggests pairing templates with a plugin that **downloads
+images into the vault**. That is the opposite of what this workflow wants — remote URLs
+only — so do not adopt that pattern here.
+
 ### Templater does not interfere
 
 `Clippings/` has a Templater folder template (`Templates/Clipping Template.md`) and
