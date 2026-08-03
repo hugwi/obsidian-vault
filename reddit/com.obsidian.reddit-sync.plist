@@ -22,7 +22,7 @@
     <key>ProgramArguments</key>
     <array>
         <string>/bin/bash</string>
-        <string>VAULT_PATH/.reddit-sync/run.sh</string>
+        <string>VAULT_PATH/reddit/run.sh</string>
         <!-- Feed mode needs no Reddit app. Drop this argument to use the
              OAuth API instead (requires credentials in .env). -->
         <string>--from-feed</string>
@@ -41,9 +41,9 @@
     <false/>
 
     <key>StandardOutPath</key>
-    <string>VAULT_PATH/.reddit-sync/launchd.log</string>
+    <string>VAULT_PATH/reddit/launchd.log</string>
     <key>StandardErrorPath</key>
-    <string>VAULT_PATH/.reddit-sync/launchd.log</string>
+    <string>VAULT_PATH/reddit/launchd.log</string>
 
     <key>ProcessType</key>
     <string>Background</string>

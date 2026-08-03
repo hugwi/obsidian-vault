@@ -76,7 +76,7 @@ The client id is the string shown under the app name; the secret is labelled
 **2. Fill in credentials**
 
 ```bash
-cd /path/to/vault/.reddit-sync
+cd /path/to/vault/reddit
 cp .env.example .env
 $EDITOR .env
 chmod 600 .env
@@ -120,7 +120,7 @@ To remove it:
 ### cron (Linux, or if you prefer it)
 
 ```cron
-30 7 * * * /bin/bash /path/to/vault/.reddit-sync/run.sh
+30 7 * * * /bin/bash /path/to/vault/reddit/run.sh
 ```
 
 `run.sh` handles the working directory, appends to `sync.log`, and trims that
@@ -128,7 +128,7 @@ log at 2000 lines. It passes its arguments straight through to `sync.py`, so
 for a no-app scheduled sync use:
 
 ```cron
-30 7 * * * /bin/bash /path/to/vault/.reddit-sync/run.sh --from-feed
+30 7 * * * /bin/bash /path/to/vault/reddit/run.sh --from-feed
 ```
 
 The launchd plist does the same — see the `--from-feed` argument in it.

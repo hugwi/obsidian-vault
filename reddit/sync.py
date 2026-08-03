@@ -785,7 +785,7 @@ def get_refresh_token(cfg: dict[str, str]) -> None:
     token = body.get("refresh_token")
     if not token:
         die(f"no refresh_token returned (codes expire fast — try again): {body}")
-    print("\nSuccess. Add this line to .reddit-sync/.env:\n")
+    print("\nSuccess. Add this line to reddit/.env:\n")
     print(f"REDDIT_REFRESH_TOKEN={token}\n")
     print("You can then remove REDDIT_PASSWORD from .env.")
 

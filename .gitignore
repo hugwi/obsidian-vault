@@ -27,6 +27,6 @@
 .obsidian/plugins/readwise-official/data.json
 
 # Reddit sync — credentials and local run state
-.reddit-sync/.env
-.reddit-sync/*.log
-.reddit-sync/__pycache__/
+reddit/.env
+reddit/*.log
+reddit/__pycache__/

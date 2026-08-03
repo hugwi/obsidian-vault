@@ -20,7 +20,7 @@ Pull all saved Reddit posts into the vault, and make it run recurrently.
 
 ## What is done
 
-`.reddit-sync/` — zero-dependency Python 3.9+, stdlib only:
+`reddit/` — zero-dependency Python 3.9+, stdlib only:
 
 | File | Purpose |
 |---|---|
@@ -68,7 +68,7 @@ both `reddit.com` and `oauth.reddit.com`) and where the account credentials
 are not available. The import must run wherever the vault lives:
 
 ```bash
-cd /path/to/vault/.reddit-sync
+cd /path/to/vault/reddit
 
 # 1. full backfill — needs nothing but the data export
 #    (request it at https://www.reddit.com/settings/data-request)
@@ -145,12 +145,16 @@ cause is auth, and `sync.py` prints a specific message for 401 and
 ## Notes for whoever picks this up
 
 - Credentials must never be committed. The vault auto-commits ("vault backup"
-  commits), so `.gitignore` covers `.reddit-sync/.env`, `*.log`, and
+  commits), so `.gitignore` covers `reddit/.env`, `*.log`, and
   `__pycache__/`. Verified with `git check-ignore`.
-- `.reddit-sync/` is dot-prefixed on purpose, matching `.multilabel.py` and
-  `.cluster_work/`, so Obsidian does not index it as notes. Do not move it to
-  `Templates/Scripts/` — that folder is for `dv.view()` JavaScript, which must
-  be in an indexed folder for the opposite reason.
+- `reddit/` is a plain visible folder at the vault root, so Obsidian would
+  normally index `README.md` and `HANDOFF.md` as notes and show them in
+  `Vault.base` without frontmatter. `"userIgnoreFilters": ["reddit/"]` in
+  `.obsidian/app.json` keeps it out of search, graph and the file explorer.
+  If those docs ever reappear as notes, that setting was reset — Obsidian
+  rewrites `app.json` on some settings changes.
+- Do not move this into `Templates/Scripts/` — that folder is for `dv.view()`
+  JavaScript, which must live in an *indexed* folder for the opposite reason.
 - The pre-existing `Templates/Web Clipper/reddit-summary.json` clipper is
   unrelated and untouched, but note it still writes to `Inbox/Articles` with
   `title:`/`status:`/`tags: clip/discussion` — it predates the flat
