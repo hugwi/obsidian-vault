@@ -1,0 +1,23 @@
+# Obsidian and its plugins rewrite these JSON files in full whenever a setting
+# changes or a new property appears — clipping a note is enough to rewrite
+# types.json. With obsidian-git auto-committing that on one machine and the same
+# file edited on another, every pull collides on machine-local state nobody is
+# actually trying to merge.
+#
+# `merge=ours` keeps the local copy on a conflicting merge instead of stopping to
+# ask. That is what you want here: Obsidian regenerates this state anyway, and a
+# fresh clone still gets the committed version because a first checkout is not a
+# merge.
+#
+# Enable the driver once per clone (it cannot live in the repo):
+#
+#     git config merge.ours.driver true
+#
+# Without that config Git falls back to a normal conflict, so this degrades
+# safely rather than breaking.
+
+.obsidian/*.json                merge=ours
+.obsidian/plugins/*/data.json   merge=ours
+
+# Keep real content merging normally — notes, templates, scripts and bases are
+# edited deliberately and a conflict there is worth seeing.
