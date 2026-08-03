@@ -1,6 +1,7 @@
 {
   "vimMode": true,
   "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true,
   "promptDelete": false,
   "tabSize": 2,
   "showLineNumber": false,
