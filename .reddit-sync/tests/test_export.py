@@ -1,4 +1,4 @@
-"""Cover --from-export: CSV parsing and the unauthenticated fetch path.
+"""Cover the no-credentials modes: --from-export and --from-feed.
 
 Runs sync.py's real HTTP stack against a fake www.reddit.com on localhost, with
 no credentials configured anywhere — the point of this mode.
@@ -164,6 +164,87 @@ with tempfile.TemporaryDirectory() as td:
                     "--limit", "1", "--interval", "0.05"]
         sync.main()
         check("--dry-run + --limit honoured", len(list(Path(td2).glob("*.md"))) == 0)
+
+
+print("\n== --from-feed: private RSS, no app, unattended ==")
+ATOM = """<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>saved</title>
+  <entry><title>One</title>
+    <link href="https://www.reddit.com/r/test/comments/abc123/one/" /></entry>
+  <entry><title>Two</title>
+    <link href="https://www.reddit.com/r/test/comments/def456/two/" /></entry>
+  <entry><title>Dupe of one</title>
+    <link href="https://www.reddit.com/r/test/comments/abc123/one/" /></entry>
+</feed>"""
+
+FEED = {"served": [], "status": 200, "body": ATOM}
+
+class FeedSrv(BaseHTTPRequestHandler):
+    def log_message(self, *a): pass
+    def do_GET(self):
+        FEED["served"].append(self.path)
+        b = FEED["body"].encode()
+        self.send_response(FEED["status"])
+        self.send_header("Content-Type", "application/atom+xml")
+        self.send_header("Content-Length", str(len(b)))
+        self.end_headers()
+        self.wfile.write(b)
+
+fsrv = ThreadingHTTPServer(("127.0.0.1", 0), FeedSrv)
+threading.Thread(target=fsrv.serve_forever, daemon=True).start()
+feed_url = f"http://127.0.0.1:{fsrv.server_address[1]}/saved.rss?feed=TOKEN&user=me"
+
+# fetch_feed_ids sanity-checks that the url mentions reddit.com; satisfy that
+# for the local fake server without weakening the check itself.
+feed_url_ok = feed_url + "&host=reddit.com"
+ids = sync.fetch_feed_ids(feed_url_ok)
+check("parses atom feed", ids == ["abc123", "def456"], str(ids))
+check("dedupes repeated entries", len(ids) == 2)
+check("adds limit=100", "limit=100" in FEED["served"][0], FEED["served"][0])
+
+import subprocess
+r = subprocess.run([sys.executable, "-c",
+    f"import importlib.util;s=importlib.util.spec_from_file_location('s',r'{SYNC_PATH}');"
+    f"m=importlib.util.module_from_spec(s);s.loader.exec_module(m);"
+    f"m.fetch_feed_ids('https://example.com/feed.rss')"], capture_output=True, text=True)
+check("rejects non-reddit url", r.returncode == 1 and "does not look like" in r.stderr, r.stderr[:120])
+
+FEED["body"] = "<feed xmlns='http://www.w3.org/2005/Atom'><title>empty</title></feed>"
+r = subprocess.run([sys.executable, "-c",
+    f"import importlib.util;s=importlib.util.spec_from_file_location('s',r'{SYNC_PATH}');"
+    f"m=importlib.util.module_from_spec(s);s.loader.exec_module(m);"
+    f"m.fetch_feed_ids('{feed_url_ok}')"], capture_output=True, text=True)
+check("empty feed exits with guidance", r.returncode == 1 and "prefs/feeds" in r.stderr, r.stderr[:150])
+
+FEED["status"] = 403
+r = subprocess.run([sys.executable, "-c",
+    f"import importlib.util;s=importlib.util.spec_from_file_location('s',r'{SYNC_PATH}');"
+    f"m=importlib.util.module_from_spec(s);s.loader.exec_module(m);"
+    f"m.fetch_feed_ids('{feed_url_ok}')"], capture_output=True, text=True)
+check("403 tells you the token is stale", r.returncode == 1 and "expired" in r.stderr, r.stderr[:150])
+FEED["status"] = 200
+FEED["body"] = ATOM
+
+print("\n== end-to-end --from-feed ==")
+with tempfile.TemporaryDirectory() as td:
+    out = Path(td)
+    sync.load_config = lambda: {"REDDIT_SAVED_FEED": feed_url_ok}
+    sys.argv = ["sync.py", "--from-feed", "--out", str(out), "--interval", "0.05"]
+    rc = sync.main()
+    files = sorted(p.name for p in out.glob("*.md"))
+    check("feed run needs no credentials", rc == 0, f"rc={rc}")
+    check("writes a note per feed entry", len(files) == 2, str(files))
+    n = len(FEED["served"])
+    sync.main()
+    check("rerun skips already-synced", len(list(out.glob("*.md"))) == 2)
+    check("feed refetched, posts not", len(FEED["served"]) == n + 1)
+
+    sys.argv = ["sync.py", "--from-feed", feed_url_ok, "--out", str(out), "--interval", "0.05"]
+    sync.main()
+    check("explicit url overrides .env", len(list(out.glob("*.md"))) == 2)
+
+fsrv.shutdown()
 
 srv.shutdown()
 print("\n" + ("ALL PASS" if not fails else f"{len(fails)} FAILURES: {fails}"))

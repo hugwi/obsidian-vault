@@ -93,6 +93,7 @@ def load_config() -> dict[str, str]:
         "REDDIT_USERNAME",
         "REDDIT_PASSWORD",
         "REDDIT_REFRESH_TOKEN",
+        "REDDIT_SAVED_FEED",
     ):
         if os.environ.get(key):
             cfg[key] = os.environ[key]
@@ -667,6 +668,63 @@ def read_export(path: Path) -> list[str]:
     return ids
 
 
+def fetch_feed_ids(url: str) -> list[str]:
+    """Extract post ids from Reddit's private saved-posts RSS feed.
+
+    The feed carries its own token in the query string, so it needs no app and
+    no OAuth — which is the point: it is the only unattended path left when
+    app creation is gated. Find yours at https://old.reddit.com/prefs/feeds/
+    ("saved" → RSS).
+    """
+    if "reddit.com" not in url:
+        die(f"that does not look like a reddit feed url: {url}")
+    if "limit=" not in url:
+        url += ("&" if "?" in url else "?") + "limit=100"
+
+    req = urllib.request.Request(url, headers={"User-Agent": f"{USER_AGENT} (saved feed)"})
+    text = ""
+    for attempt in range(MAX_RETRIES):
+        try:
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                text = resp.read().decode("utf-8", "replace")
+            break
+        except urllib.error.HTTPError as exc:
+            if exc.code in (401, 403):
+                die(
+                    "reddit rejected the feed url (403). The token is wrong or expired — "
+                    "get a fresh one at https://old.reddit.com/prefs/feeds/"
+                )
+            if exc.code == 404:
+                die(f"feed not found (404): {url}")
+            if exc.code in (429, 500, 502, 503, 504) and attempt < MAX_RETRIES - 1:
+                wait = 2 ** (attempt + 1)
+                log(f"http {exc.code} fetching feed, retrying in {wait}s")
+                time.sleep(wait)
+                continue
+            die(f"could not fetch the feed ({exc.code})")
+        except (urllib.error.URLError, TimeoutError) as exc:
+            if attempt < MAX_RETRIES - 1:
+                time.sleep(2 ** (attempt + 1))
+                continue
+            die(f"could not reach reddit: {exc}")
+
+    ids: list[str] = []
+    seen: set[str] = set()
+    for match in POST_ID_RE.finditer(text):
+        pid = match.group(1)
+        if pid not in seen:
+            seen.add(pid)
+            ids.append(pid)
+
+    if not ids:
+        die(
+            "the feed returned no posts. If you have saved items, the token is "
+            "probably for a different feed — use the 'saved' one at "
+            "https://old.reddit.com/prefs/feeds/"
+        )
+    return ids
+
+
 def unique_path(clippings: Path, stem: str, post_id: str) -> Path:
     """Pick a free filename, disambiguating collisions with the post id."""
     candidate = clippings / f"{stem}.md"
@@ -762,6 +820,15 @@ def main() -> int:
         default=ANON_REQUEST_INTERVAL,
         help=f"seconds between requests in --from-export mode (default {ANON_REQUEST_INTERVAL})",
     )
+    parser.add_argument(
+        "--from-feed",
+        nargs="?",
+        const="",
+        metavar="URL",
+        help="sync from Reddit's private saved-posts RSS feed — no app or "
+        "credentials needed, and it can run unattended. Omit the url to use "
+        "REDDIT_SAVED_FEED from .env",
+    )
     parser.add_argument("--out", type=Path, default=CLIPPINGS_DIR, help="output folder")
     parser.add_argument("--verbose", action="store_true")
     parser.add_argument(
@@ -777,15 +844,26 @@ def main() -> int:
         return 0
 
     work_ids: list[str] = []
-    if args.from_export:
-        # No app, no credentials, no 1000-item cap — just the export plus
-        # Reddit's public JSON endpoints.
+    anon_mode = bool(args.from_export or args.from_feed is not None)
+    if anon_mode:
+        # No app, no credentials — the export/feed plus Reddit's public JSON.
         client = AnonReddit(verbose=args.verbose, interval=args.interval)
-        work_ids = read_export(args.from_export)
+        if args.from_export:
+            work_ids = read_export(args.from_export)
+            source = "export"
+        else:
+            feed_url = args.from_feed or cfg.get("REDDIT_SAVED_FEED", "")
+            if not feed_url:
+                die(
+                    "--from-feed needs a url, or REDDIT_SAVED_FEED in .env.\n"
+                    "  Get yours at https://old.reddit.com/prefs/feeds/ → saved → RSS"
+                )
+            work_ids = fetch_feed_ids(feed_url)
+            source = "feed"
         if args.limit:
             work_ids = work_ids[: args.limit]
         eta = len(work_ids) * args.interval / 60
-        log(f"{len(work_ids)} post(s) in export — unauthenticated mode, ~{eta:.0f} min at best")
+        log(f"{len(work_ids)} post(s) in {source} — unauthenticated mode, ~{eta:.0f} min at best")
     else:
         client = Reddit(cfg, verbose=args.verbose)
         if not client.username:
@@ -815,7 +893,7 @@ def main() -> int:
             log(f"wrote {target.name} ({len(comments)} comments)")
         counts["written"] += 1
 
-    if args.from_export:
+    if anon_mode:
         for post_id in work_ids:
             fullname = f"t3_{post_id}"
             if fullname in known and not args.update:

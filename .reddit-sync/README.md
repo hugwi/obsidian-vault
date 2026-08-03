@@ -6,21 +6,37 @@ is cheap: posts already synced are skipped, so this is safe on a schedule.
 
 Python 3.9+ standard library only — nothing to `pip install`.
 
-There are two ways to run it. **Export mode needs no Reddit app and no
-credentials** — start there if app creation is a hassle.
+Three ways to run it. **Two of them need no Reddit app at all** — which
+matters, because app creation is now gated behind Reddit's
+[Responsible Builder Policy](https://support.reddithelp.com/hc/en-us/articles/42728983564564-Responsible-Builder-Policy).
 
-| | API mode (default) | Export mode (`--from-export`) |
-|---|---|---|
-| Reddit app | required | **none** |
-| Credentials | required | **none** |
-| History reachable | ~1000 most recent saves | **everything** |
-| Can run unattended | yes | no (manual export each time) |
-| Speed | ~1 post/sec | ~1 post/3sec |
+| | Feed (`--from-feed`) | Export (`--from-export`) | API (default) |
+|---|---|---|---|
+| Reddit app | **none** | **none** | required + policy review |
+| Credentials | private feed url | **none** | id/secret/password |
+| History reachable | ~100 most recent | **everything** | ~1000 most recent |
+| Runs unattended | **yes** | no | yes |
+| Speed | ~1 post/3sec | ~1 post/3sec | ~1 post/sec |
 
-The usual setup is both: export mode once to backfill everything, then API
-mode on a schedule to keep up with new saves.
+**Recommended setup, no app required:** export mode once to backfill your
+whole history, then feed mode on a schedule to catch new saves.
 
-## Export mode — no app, no credentials
+## Feed mode — no app, and it can be scheduled
+
+1. Open <https://old.reddit.com/prefs/feeds/> and copy the **RSS** link on the
+   *saved* row. It contains a private token — treat it like a password.
+2. Put it in `.env` as `REDDIT_SAVED_FEED=...` (gitignored).
+3. Run:
+
+```bash
+./sync.py --from-feed --dry-run
+./sync.py --from-feed
+```
+
+The feed carries roughly your 100 most recent saves, which is plenty for a
+daily job. Pair it with one export-mode backfill for everything older.
+
+## Export mode — no app, complete history
 
 1. Request your data at <https://www.reddit.com/settings/data-request>
    (choose GDPR or CCPA; the archive arrives by email, usually within a day).
@@ -40,17 +56,16 @@ waits 3 seconds between posts (`--interval` to change, at your own risk).
 It also accepts a plain file of thread URLs, one per line, if you would
 rather hand-pick.
 
-## API mode setup
+## API mode setup — only if you can get an app
+
+> Reddit now routes app creation through the **Responsible Builder Policy**,
+> and steers developers toward **Devvit**, which builds apps that run *on*
+> Reddit and cannot issue script credentials. If you land on the policy page
+> and cannot get past it, use feed + export mode above — together they do
+> everything API mode does, and they need no app.
 
 **1. Create a Reddit app** at <https://www.reddit.com/prefs/apps> →
-*create another app…*
-
-> If that page no longer offers app creation, try
-> <https://old.reddit.com/prefs/apps/>, which still shows the
-> "create another app…" button. Reddit's newer **Devvit** developer platform
-> is for apps that run *on* Reddit and cannot issue script credentials — it
-> is not what this needs. If you cannot create an app at all, use export mode
-> above; it does everything except run unattended.
+*create another app…* (or <https://old.reddit.com/prefs/apps/>)
 
 - type: **script**
 - redirect uri: `http://localhost:8080`
@@ -109,7 +124,14 @@ To remove it:
 ```
 
 `run.sh` handles the working directory, appends to `sync.log`, and trims that
-log at 2000 lines.
+log at 2000 lines. It passes its arguments straight through to `sync.py`, so
+for a no-app scheduled sync use:
+
+```cron
+30 7 * * * /bin/bash /path/to/vault/.reddit-sync/run.sh --from-feed
+```
+
+The launchd plist does the same — see the `--from-feed` argument in it.
 
 ## What a note looks like
 
@@ -160,7 +182,8 @@ Notes match the vault conventions in `CLAUDE.md`:
 | `--no-comments` | Post body only, much faster |
 | `--max-more N` | Cap extra requests per post for expanding collapsed comment branches (default 20) |
 | `--from-export CSV` | Backfill from a data-export `saved_posts.csv` — no app or credentials needed |
-| `--interval S` | Seconds between requests in export mode (default 3.0) |
+| `--from-feed [URL]` | Sync from the private saved-posts RSS feed — no app, schedulable. Omit the url to use `REDDIT_SAVED_FEED` |
+| `--interval S` | Seconds between requests in feed/export mode (default 3.0) |
 | `--out DIR` | Write somewhere other than `Clippings/` |
 | `--verbose` | Log skips and token activity |
 
@@ -170,11 +193,11 @@ Notes match the vault conventions in `CLAUDE.md`:
 ./tests/run.sh
 ```
 
-112 assertions, no credentials or network required — `tests/test_http.py`
+123 assertions, no credentials or network required — `tests/test_http.py`
 serves a fake Reddit on localhost and drives the real HTTP stack against it
 (OAuth grants, headers, throttle, 429 backoff, mid-run token expiry,
 pagination), and `test_export.py` does the same for the unauthenticated
-export path. Takes about 30 seconds, most of it the deliberate throttle and
+export and feed paths. Takes about 30 seconds, most of it the deliberate throttle and
 backoff waits. Worth running after any edit to `sync.py`.
 
 ## Known limits

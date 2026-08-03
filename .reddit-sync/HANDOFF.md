@@ -29,6 +29,7 @@ Pull all saved Reddit posts into the vault, and make it run recurrently.
 | `run.sh` | Scheduled-run wrapper — logging + rotation at 2000 lines |
 | `com.obsidian.reddit-sync.plist` | launchd job, daily 07:30 |
 | `README.md` | Setup, scheduling, flags, limits |
+| `tests/` | 123 assertions, `./tests/run.sh`, no network needed |
 
 Behaviour: authenticates (password grant, or refresh-token grant if 2FA), pages
 the saved listing filtered to link posts, fetches each post's comments and
@@ -41,22 +42,23 @@ and `action:` so imports surface as untriaged in `Clippings.base`, plus
 `platform: reddit`, `subreddit`, `score`, `reddit_id`. Body is the post text
 (or outbound link) then comments, nested as blockquotes to 6 levels.
 
-## Two ways to run it
+## Three ways to run it — two need no Reddit app
 
-App creation on reddit.com/prefs/apps has become awkward — Reddit pushes
-people toward **Devvit**, which builds apps that run *on* Reddit and cannot
-issue script credentials. So there are two paths:
+App creation now redirects to Reddit's Responsible Builder Policy, and Reddit
+steers developers to **Devvit**, which builds apps that run *on* Reddit and
+cannot issue script credentials. Assume API mode may simply be unavailable.
 
-- **API mode** (default) — needs a script app; runs unattended; sees roughly
-  the 1000 most recent saves.
-- **Export mode** (`--from-export saved_posts.csv`) — needs **nothing**. Reads
-  Reddit's public JSON endpoints, so no app and no credentials, and no cap on
-  history. Slower (3s/post) and the export is manual, so it cannot be
-  scheduled.
+- **Feed mode** (`--from-feed`) — the private saved-posts RSS feed from
+  <https://old.reddit.com/prefs/feeds/>. No app; the feed url carries its own
+  token. Covers roughly the 100 most recent saves and **runs unattended**, so
+  this is what the scheduled job uses.
+- **Export mode** (`--from-export saved_posts.csv`) — no app, no credentials,
+  complete history, no cap. Manual export, so not schedulable.
+- **API mode** (default) — needs a script app. Kept because it is the fastest
+  and has no ~100-item feed window, but it is now the least available.
 
-If app creation is blocked, export mode alone delivers the full import; only
-the recurring part needs the app. `old.reddit.com/prefs/apps/` is worth trying
-first — it still exposes the create button.
+**Recommended, no app at all:** one export-mode backfill for the full history,
+then feed mode daily for new saves. The launchd plist passes `--from-feed`.
 
 ## What is NOT done — the one remaining step
 
@@ -67,24 +69,28 @@ are not available. The import must run wherever the vault lives:
 
 ```bash
 cd /path/to/vault/.reddit-sync
-cp .env.example .env && $EDITOR .env   # app from reddit.com/prefs/apps, type: script
+
+# 1. full backfill — needs nothing but the data export
+#    (request it at https://www.reddit.com/settings/data-request)
+./sync.py --from-export ~/Downloads/export/saved_posts.csv --dry-run --limit 5
+./sync.py --from-export ~/Downloads/export/saved_posts.csv
+
+# 2. recurring — grab the saved RSS url from old.reddit.com/prefs/feeds/
+cp .env.example .env && $EDITOR .env   # set REDDIT_SAVED_FEED
 chmod 600 .env
-./sync.py --dry-run --limit 5          # verify the note format first
-./sync.py                              # full import
+./sync.py --from-feed
 ```
 
-Expect roughly 10–30 minutes for a few hundred posts — the throttle dominates.
+Export mode runs at 3s/post, so budget ~100 minutes per 2000 posts.
 
 Then schedule it: edit both `VAULT_PATH` placeholders in the plist, copy to
 `~/Library/LaunchAgents/`, `launchctl load`, and `launchctl start` once to
-confirm. Cron alternative is in `README.md`.
-
-If 2FA is on the account, password login cannot work unattended — run
-`./sync.py --get-refresh-token` first and put the token in `.env`.
+confirm. The plist already passes `--from-feed`. Cron alternative is in
+`README.md`.
 
 ## Verification
 
-112 assertions across four suites in `tests/`, all passing. No credentials or
+123 assertions across four suites in `tests/`, all passing. No credentials or
 network needed — run them with:
 
 ```bash
@@ -99,7 +105,10 @@ network needed — run them with:
 - `test_api.py` — listing flattening, `more` expansion including "continue
   this thread", 100-item batching, `max_more` capping, saved-listing
   pagination and the `t1` filter.
-- `test_export.py` — CSV parsing (official export, permalink-only,
+- `test_export.py` — feed mode (Atom parsing, dedupe, `limit=100`, non-Reddit
+  url rejected, empty feed and stale-token 403 exits, end-to-end run from
+  `.env` and from an explicit url), plus CSV parsing (official export,
+  permalink-only,
   headerless URL lists, BOM, duplicates, `t3_` prefixes, and three
   malformed-input exits), plus an end-to-end `--from-export` run against a
   fake `www.reddit.com` with **no credentials configured at all**, including a

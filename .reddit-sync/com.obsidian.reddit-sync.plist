@@ -23,6 +23,9 @@
     <array>
         <string>/bin/bash</string>
         <string>VAULT_PATH/.reddit-sync/run.sh</string>
+        <!-- Feed mode needs no Reddit app. Drop this argument to use the
+             OAuth API instead (requires credentials in .env). -->
+        <string>--from-feed</string>
     </array>
 
     <key>StartCalendarInterval</key>
