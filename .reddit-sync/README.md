@@ -121,6 +121,18 @@ Notes match the vault conventions in `CLAUDE.md`:
 | `--out DIR` | Write somewhere other than `Clippings/` |
 | `--verbose` | Log skips and token activity |
 
+## Tests
+
+```bash
+./tests/run.sh
+```
+
+87 assertions, no credentials or network required — `tests/test_http.py`
+serves a fake Reddit on localhost and drives the real HTTP stack against it
+(OAuth grants, headers, throttle, 429 backoff, mid-run token expiry,
+pagination). Takes about 30 seconds, most of it the deliberate throttle and
+backoff waits. Worth running after any edit to `sync.py`.
+
 ## Known limits
 
 - **~1000 saved items.** Reddit's listing API exposes only roughly your 1000

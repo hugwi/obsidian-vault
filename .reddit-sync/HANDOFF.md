@@ -66,18 +66,32 @@ If 2FA is on the account, password login cannot work unattended — run
 
 ## Verification
 
-60 assertions across two offline suites, all passing. Covered: filename
-sanitization (illegal characters, truncation, unicode, collisions), YAML
-escaping round-tripped through a real parser, comment-tree nesting and score
-ordering, orphaned comments, the 6-level nesting cap, `more` expansion
-including "continue this thread", 100-item batching, `max_more` capping,
-listing pagination and the `t1` filter, and an end-to-end run against a mocked
-API covering fresh sync, rerun-skips-existing, `--update`, and `--dry-run`.
+87 assertions across three suites in `tests/`, all passing. No credentials or
+network needed — run them with:
 
-**Only the live network calls are unverified** — auth handshake, real listing
-and comment payloads. That is the risk surface for the first real run. If
-something breaks there it will most likely be an auth error, and `sync.py`
-prints a specific message for 401 and `invalid_grant`.
+```bash
+./tests/run.sh
+```
+
+- `test_render.py` — filename sanitization (illegal characters, truncation,
+  unicode, collisions), YAML escaping round-tripped through a real parser,
+  comment-tree nesting and score ordering, orphaned comments, the 6-level
+  nesting cap, dedupe scanning, and an end-to-end run against a mocked client
+  covering fresh sync, rerun-skips-existing, `--update`, and `--dry-run`.
+- `test_api.py` — listing flattening, `more` expansion including "continue
+  this thread", 100-item batching, `max_more` capping, saved-listing
+  pagination and the `t1` filter.
+- `test_http.py` — stands up a **fake Reddit on localhost** and drives
+  `sync.py`'s real HTTP stack against it: OAuth password and refresh-token
+  grants, Authorization/User-Agent headers, the request throttle, a served 429
+  with backoff, mid-run token expiry and re-auth, pagination over the wire,
+  and both credential-failure error messages.
+
+**What remains unverified is Reddit itself** — its real payload shapes and
+whether the account's saved listing behaves as documented. Everything on this
+side of the socket is covered. If the first real run breaks, the likeliest
+cause is auth, and `sync.py` prints a specific message for 401 and
+`invalid_grant`.
 
 ## Open items
 
