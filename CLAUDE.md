@@ -12,8 +12,16 @@ obsidian-vault/
 ├── Attachments/   → images, PDFs, audio, recordings
 ├── Daily/         → daily notes, nested YYYY/MM-MMMM/YYYY-MM-DD-dddd.md (core plugin)
 ├── Templates/     → note templates + Templates/Bases/ (per-category .base files)
+│                    + Templates/Web Clipper/ (clipper JSON) + Templates/Scripts/ (JS)
 └── Vault.base     → Bases file: one filtered view per category
 ```
+
+> **Reusable scripts live in `Templates/Scripts/<name>/view.js`.** They must sit in a
+> normal, indexed folder — `dv.view()` resolves via `metadataCache.getFirstLinkpathDest`,
+> so it cannot load from `.obsidian/` or any dot-prefixed folder (unlike `.multilabel.py`
+> and `.cluster_work/`, which are hidden on purpose). `Templates/` already holds the
+> vault's other non-note technical files, so scripts go there rather than in a new root
+> folder.
 
 > **No MOCs.** Navigation is category hubs + backlinks + `[[wikilinks]]` + quick switcher
 > (kepano model). There is no `_MOC/` folder and no `moc` category.
@@ -82,6 +90,7 @@ Do **not** add a redundant `title:` — the filename is the title.
 - **Vault navigation**: `Home.md` (root) + `Categories/` hubs · **All views**: `Vault.base`
 - **Daily notes template**: `Templates/daily_note_template.md`
 - **Web clip template**: `Templates/web-clip-template.md`
+- **Design inspiration**: `Inspiration.md` (root) + `Templates/Bases/Inspiration.base`
 
 ## Clippings triage props
 Every note in `Clippings/` carries two extra props for triage:
@@ -89,6 +98,24 @@ Every note in `Clippings/` carries two extra props for triage:
 - `action:` — one of `review` (todo, look at it) · `implement` (will build) · `insight` (good, not implementing)
 Browse via `Clippings.base` (📋 To review / 🔨 To implement / 💡 Insights / ⭐ Top rated)
 and `Agentic Engineering.base` (same action views + ⭐ Top rated).
+
+## Inspiration clippings (`type: inspiration`)
+Web-design inspiration from 21st.dev / Dribbble / Pinterest etc. is captured by the
+**Inspiration - Media** Web Clipper template (`Templates/Web Clipper/inspiration-media.json`)
+into `Clippings/`. These notes store **remote URLs only — never download the media**.
+- Media props, checked in this order by the renderer: `media_url_secure` → `media_url` →
+  `media_url_twitter` → `media_url_schema` → `media_url_source` → `media_url_video`;
+  `source_url` is also used when it ends in `.mp4`/`.webm`/`.mov`/`.m4v`.
+- Plus `type: inspiration`, `platform:`, `thumbnail_url:`, `saved_at:` (alongside the usual
+  `categories: "[[Clippings]]"`, `created:`, `rating:`, `action:`).
+- Default tags: `inspiration`, `web-design`, `ui`, `ux`. Add finer ones by hand
+  (`animation`, `navigation`, `mobile`, `landing-page`, `typography`, `dashboard`,
+  `interaction-design`).
+- Body calls ` ```dataviewjs / await dv.view("Templates/Scripts/remote-video") ` — thumbnail
+  + **Load video** button, source attached only on click; falls back to thumbnail + source
+  link when no playable URL exists. Needs Dataview → *Enable JavaScript Queries*.
+- Hub: [[Inspiration]] · views: `Templates/Bases/Inspiration.base` (gallery is thumbnails
+  only — never embed every remote video in the overview).
 
 ## Agentic-engineering theming
 The 221 `domain: agentic-engineering` clippings are organised by the **problem they solve**
