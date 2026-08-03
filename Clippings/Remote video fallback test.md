@@ -29,7 +29,7 @@ tags:
 # Remote video fallback test
 
 ```dataviewjs
-await dv.view("Templates/Scripts/remote-video");
+await dv.view("Templates/Scripts/remote-media");
 ```
 
 [Open original source](https://dribbble.com/shots/popular)

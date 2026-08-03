@@ -23,7 +23,7 @@ tags:
 # Remote video test
 
 ```dataviewjs
-await dv.view("Templates/Scripts/remote-video");
+await dv.view("Templates/Scripts/remote-media");
 ```
 
 [Open original source](https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/)
@@ -35,4 +35,4 @@ await dv.view("Templates/Scripts/remote-video");
 
 ## Why I saved this
 
-- Verifies the remote-video renderer end to end without writing any MP4 into the vault.
+- Verifies the remote-media renderer end to end without writing any MP4 into the vault.

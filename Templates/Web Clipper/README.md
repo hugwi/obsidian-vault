@@ -151,7 +151,7 @@ trigger, pick **Inspiration - Media** manually from the clipper's template dropd
 The note body calls the Dataview renderer:
 
 ```dataviewjs
-await dv.view("Templates/Scripts/remote-video");
+await dv.view("Templates/Scripts/remote-media");
 ```
 
 It picks one of three presentations:
@@ -211,7 +211,7 @@ Often you can skip even this. The generic selectors plus `media_url_image_meta`
 (`og:image`, `twitter:image`, schema, `<video poster>`) already cover most sites — try
 clipping one first and only add a selector if `media_url_image` comes back empty.
 
-**2. Presentation** — `Templates/Scripts/remote-video/view.js`
+**2. Presentation** — `Templates/Scripts/remote-media/view.js`
 
 Only needed when a site serves downscaled stills and a URL rewrite gets the full-size
 one. Append an entry to the `SITES` table at the top of the file:
@@ -228,7 +228,7 @@ one. Append an entry to the `SITES` table at the top of the file:
 renderer walks down the list on each load error and ends at the URL the clipper actually
 saved. Nothing else in the file is site-aware.
 
-**3. Check it** — `node Templates/Scripts/remote-video/test.js`
+**3. Check it** — `node Templates/Scripts/remote-media/test.js`
 
 93 assertions covering both engines, all three built-in sites, and the malformed-metadata
 cases. Add a case next to `[16] Site rules` for whatever you added.

@@ -1,5 +1,5 @@
 // Harness: emulates enough of Obsidian's DOM helpers + Dataview's dv.view()
-// to exercise Templates/Scripts/remote-video/view.js the way Dataview does.
+// to exercise Templates/Scripts/remote-media/view.js the way Dataview does.
 const fs = require("fs");
 const SRC = fs.readFileSync(require("path").join(__dirname, "view.js"), "utf8");
 

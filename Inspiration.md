@@ -19,7 +19,7 @@ stores remote URLs only — nothing is downloaded into the vault. Open a note to
 its video; the gallery below deliberately shows thumbnails only, so browsing the
 library costs one image request per card instead of one video stream per card.
 
-> Renderer: `Templates/Scripts/remote-video/view.js` · Full table: [[Inspiration.base]]
+> Renderer: `Templates/Scripts/remote-media/view.js` · Full table: [[Inspiration.base]]
 
 ## 🖼 Everything
 ![[Inspiration.base#🖼 Gallery]]

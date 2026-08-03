@@ -43,16 +43,26 @@ scripts go here rather than in a new root folder.
 
 | View | Used by |
 |---|---|
-| `remote-video/` | `type: inspiration` clippings — thumbnail + on-demand remote video player |
+| `remote-media/` | `type: inspiration` clippings — still image, or thumbnail + on-demand remote video |
+| `remote-video/` | compatibility shim forwarding to `remote-media` (see below) |
 
-`remote-video/` ships a `SITES` table at the top of `view.js` holding per-site URL rules
+`remote-media` was called `remote-video` until it grew still-image support, at which point
+the name was actively misleading on an image-only clipping. `remote-video/view.js` is now a
+one-line forwarder so notes clipped before the rename keep working. Delete that folder once
+nothing references it:
+
+```bash
+grep -rl 'Scripts/remote-video' --include='*.md' .
+```
+
+`remote-media/` ships a `SITES` table at the top of `view.js` holding per-site URL rules
 (Dribbble, Pinterest, 21st.dev today). Adding a site means appending one entry — see
 *Adding another site* in `Templates/Web Clipper/README.md`.
 
-`remote-video/test.js` runs the renderer against a stubbed Dataview/DOM:
+`remote-media/test.js` runs the renderer against a stubbed Dataview/DOM:
 
 ```bash
-node Templates/Scripts/remote-video/test.js
+node Templates/Scripts/remote-media/test.js
 ```
 
 93 assertions, no dependencies. It stubs both engines Obsidian runs on (Electron/Chromium

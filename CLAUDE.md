@@ -122,7 +122,7 @@ into `Clippings/`. These notes store **remote URLs only — never download the m
 - Default tags: `inspiration`, `web-design`, `ui`, `ux`. Add finer ones by hand
   (`animation`, `navigation`, `mobile`, `landing-page`, `typography`, `dashboard`,
   `interaction-design`).
-- Body calls ` ```dataviewjs / await dv.view("Templates/Scripts/remote-video") ` — video →
+- Body calls ` ```dataviewjs / await dv.view("Templates/Scripts/remote-media") ` — video →
   thumbnail + **Load video** button (source attached only on click); still → full-width
   image, click-through to source; neither → message + source link. Needs Dataview →
   *Enable JavaScript Queries* **and** Files & Links → *Detect all file extensions*.
@@ -132,7 +132,7 @@ into `Clippings/`. These notes store **remote URLs only — never download the m
   `inspiration-media.json`, and — only if the site serves downscaled stills — one entry in
   the `SITES` table at the top of `view.js` (Dribbble drops `?resize=`, Pinterest rewrites
   `/236x/`→`/originals/`). A wrong upgrade guess is free: the renderer falls back down the
-  candidate list on load error. Verify with `node Templates/Scripts/remote-video/test.js`.
+  candidate list on load error. Verify with `node Templates/Scripts/remote-media/test.js`.
 
 ## Agentic-engineering theming
 The 221 `domain: agentic-engineering` clippings are organised by the **problem they solve**

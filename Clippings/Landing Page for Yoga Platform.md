@@ -30,7 +30,7 @@ tags:
 # Landing Page for Yoga Platform
 
 ```dataviewjs
-await dv.view("Templates/Scripts/remote-video");
+await dv.view("Templates/Scripts/remote-media");
 ```
 
 [Open original source](https://dribbble.com/shots/24325045-Landing-Page-for-Yoga-Platform)
