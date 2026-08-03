@@ -196,8 +196,15 @@ The workflow is built in two layers, and most new sites need only the first.
 - Add a trigger. Prefer a regex so subdomains and country domains come along:
   `"/^https?:\\/\\/([a-z0-9-]+\\.)?example\\.com\\//"`.
 - If the site's media does not sit in a `figure`, `article` or `main`, add its
-  container selector to the **front** of the `media_url_image` and `media_url_srcset`
-  selector lists. Right-click the image → Inspect to find it.
+  container selector to the **front** of the `media_url_image`, `media_url_srcset`,
+  `media_url_video` and `media_url_source` lists. Right-click the image → Inspect.
+- **Scope every video selector to the media container.** A bare `{{selector:video?src}}`
+  matches the first `<video>` anywhere on the page, which on a Dribbble still-shot page is
+  a clip from the "More by this designer" grid — the note then offers a Load video button
+  for somebody else's shot. The video selectors deliberately stop at `figure video` and do
+  not fall back to `article video` / `main video`, because a video that far out is almost
+  always a recommendation rather than the thing you clipped. The image selectors do go that
+  broad, since a stray `<img>` in `main` is usually the hero.
 - Nothing else changes: the property schema, the note body and the renderer are shared.
 
 Often you can skip even this. The generic selectors plus `media_url_image_meta`
