@@ -19,8 +19,8 @@
     { "name": "media_url_schema", "value": "{{schema:@VideoObject:contentUrl}}", "type": "text" },
     { "name": "media_url_source", "value": "{{selector:video source?src}}", "type": "text" },
     { "name": "media_url_video", "value": "{{selector:video?src}}", "type": "text" },
-    { "name": "media_url_image", "value": "{{selector:[data-test-id=\"pin-closeup-image\"] img, [data-test-id=\"closeup-image\"] img, [data-test-id=\"pin-image\"] img, .shot-media-container img, .media-shot img, [data-testid=\"shot-media\"] img, figure img, main img?src}}", "type": "text" },
-    { "name": "media_url_srcset", "value": "{{selector:[data-test-id=\"pin-closeup-image\"] img, [data-test-id=\"closeup-image\"] img, [data-test-id=\"pin-image\"] img, .shot-media-container img, .media-shot img, [data-testid=\"shot-media\"] img, figure img, main img?srcset}}", "type": "text" },
+    { "name": "media_url_image", "value": "{{selector:[data-test-id=\"pin-closeup-image\"] img, [data-test-id=\"closeup-image\"] img, [data-test-id=\"pin-image\"] img, .shot-media-container img, .media-shot img, [data-testid=\"shot-media\"] img, [class*=\"preview\"] img, [class*=\"component\"] img, figure img, article img, main img?src}}", "type": "text" },
+    { "name": "media_url_srcset", "value": "{{selector:[data-test-id=\"pin-closeup-image\"] img, [data-test-id=\"closeup-image\"] img, [data-test-id=\"pin-image\"] img, .shot-media-container img, .media-shot img, [data-testid=\"shot-media\"] img, [class*=\"preview\"] img, [class*=\"component\"] img, figure img, article img, main img?srcset}}", "type": "text" },
     { "name": "media_url_image_meta", "value": "{{meta:property:og:image:secure_url}} {{meta:name:twitter:image}} {{schema:@ImageObject:contentUrl}} {{selector:video?poster}}", "type": "text" },
     { "name": "saved_at", "value": "{{date|date:\"YYYY-MM-DD\"}}", "type": "date" },
     { "name": "created", "value": "{{date|date:\"YYYY-MM-DD\"}}", "type": "date" },
@@ -30,10 +30,9 @@
     { "name": "tags", "value": "inspiration, web-design, ui, ux", "type": "multitext" }
   ],
   "triggers": [
-    "https://21st.dev",
-    "https://dribbble.com",
-    "https://www.pinterest.com",
-    "https://pinterest.com",
+    "/^https?:\\/\\/([a-z0-9-]+\\.)?21st\\.dev\\//",
+    "/^https?:\\/\\/([a-z0-9-]+\\.)?dribbble\\.com\\//",
+    "/^https?:\\/\\/([a-z0-9-]+\\.)?pinterest\\.[a-z.]+\\//",
     "https://pin.it",
     "schema:@VideoObject"
   ],

@@ -128,6 +128,11 @@ into `Clippings/`. These notes store **remote URLs only — never download the m
   *Enable JavaScript Queries* **and** Files & Links → *Detect all file extensions*.
 - Hub: [[Inspiration]] · views: `Templates/Bases/Inspiration.base` (gallery is thumbnails
   only — never embed every remote video in the overview).
+- **Adding a site**: add a regex trigger (+ container selector if needed) to
+  `inspiration-media.json`, and — only if the site serves downscaled stills — one entry in
+  the `SITES` table at the top of `view.js` (Dribbble drops `?resize=`, Pinterest rewrites
+  `/236x/`→`/originals/`). A wrong upgrade guess is free: the renderer falls back down the
+  candidate list on load error. Verify with `node Templates/Scripts/remote-video/test.js`.
 
 ## Agentic-engineering theming
 The 221 `domain: agentic-engineering` clippings are organised by the **problem they solve**

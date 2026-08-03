@@ -1,5 +1,48 @@
 const page = dv.current();
 
+// ─── Site rules ──────────────────────────────────────────────────────────────
+// Sites serve stills at whatever size their layout happened to need, so the URL a
+// clip captured is often a downscaled variant. `upgrade` returns higher-resolution
+// URLs to try *before* the captured one; if an upgrade 404s the renderer falls back
+// down the list automatically, so a wrong guess costs nothing.
+//
+// To support a new site, append one entry — nothing else in this file changes.
+// `match` is tested against the media URL's hostname, not the page's.
+const SITES = [
+    {
+        id: "pinterest",
+        match: /(^|\.)pinimg\.com$/,
+        // i.pinimg.com/236x/ab/cd/ef.jpg -> i.pinimg.com/originals/ab/cd/ef.jpg
+        upgrade: (url) => [url.replace(/\/\d+x\d*\//, "/originals/")],
+    },
+    {
+        id: "dribbble",
+        match: /(^|\.)dribbble\.com$/,
+        // .../original-abc.png?resize=1600x1200&vertical=center -> unresized original
+        upgrade: (url) => [url.split("?")[0]],
+    },
+    {
+        id: "21st.dev",
+        match: /(^|\.)21st\.dev$/,
+        // Serves assets at full size already; listed so the site is documented.
+        upgrade: () => [],
+    },
+];
+
+function hostOf(value) {
+    try {
+        return new URL(value).hostname;
+    } catch {
+        return "";
+    }
+}
+
+function ruleFor(url) {
+    const host = hostOf(url);
+
+    return SITES.find((site) => site.match.test(host));
+}
+
 const VIDEO_EXT = /\.(mp4|webm|mov|m4v)(?:$|[?#])/i;
 const IMAGE_EXT = /\.(png|jpe?g|gif|webp|avif|svg)(?:$|[?#])/i;
 // Adaptive-streaming manifests. Desktop Obsidian is Electron/Chromium, which has no
@@ -130,16 +173,36 @@ const streamUrl = mediaUrl === manifestUrl ? undefined : manifestUrl;
 
 // Biggest srcset entry first, then the container's own src, then the social-card
 // image, then anything an image-shaped URL that turned up in a video property.
-const imageCandidates = [
+const rawImageCandidates = [
     ...srcsetUrlsOf(page.media_url_srcset),
     ...urlsOf(page.media_url_image, page.thumbnail_url, page.media_url_image_meta),
     ...declaredVideoUrls.filter((candidate) => extensionLooksLike(IMAGE_EXT, candidate)),
 ];
 
-const posterUrl =
-    imageCandidates.find((candidate) => extensionLooksLike(IMAGE_EXT, candidate)) ??
-    imageCandidates[0] ??
-    "";
+// Put each site's higher-resolution variant ahead of the URL it came from, so the
+// renderer tries the best one first and falls back if it does not exist.
+function withUpgrades(urls) {
+    const expanded = [];
+
+    for (const url of urls) {
+        for (const better of ruleFor(url)?.upgrade(url) ?? []) {
+            if (better && better !== url && isRemoteUrl(better)) {
+                expanded.push(better);
+            }
+        }
+
+        expanded.push(url);
+    }
+
+    return [...new Set(expanded)];
+}
+
+const imageCandidates = withUpgrades([
+    ...rawImageCandidates.filter((candidate) => extensionLooksLike(IMAGE_EXT, candidate)),
+    ...rawImageCandidates.filter((candidate) => !extensionLooksLike(IMAGE_EXT, candidate)),
+]);
+
+const posterUrl = imageCandidates[0] ?? "";
 
 const altText = page.title ? String(page.title) : "Preview";
 
@@ -147,6 +210,31 @@ const root = dv.container.createDiv();
 
 root.style.width = "100%";
 root.style.maxWidth = "960px";
+
+// Walk the candidate list on each load error, so an upgraded URL that turns out not
+// to exist quietly gives way to the one the clipper actually captured.
+function createImage(parent, candidates) {
+    const image = parent.createEl("img");
+
+    let index = 0;
+
+    image.alt = altText;
+    image.loading = "lazy";
+
+    image.addEventListener("error", () => {
+        index += 1;
+
+        if (index < candidates.length) {
+            image.src = candidates[index];
+        } else {
+            image.remove();
+        }
+    });
+
+    image.src = candidates[0];
+
+    return image;
+}
 
 function createNote(parent, text) {
     const note = parent.createEl("p", { text });
@@ -199,11 +287,8 @@ if (!mediaUrl) {
     figure.style.borderRadius = "12px";
     figure.style.background = "var(--background-secondary)";
 
-    const image = figure.createEl("img");
+    const image = createImage(figure, imageCandidates);
 
-    image.src = posterUrl;
-    image.alt = altText;
-    image.loading = "lazy";
     image.style.width = "100%";
     image.style.maxHeight = "80vh";
     image.style.objectFit = "contain";
@@ -245,11 +330,8 @@ preview.style.borderRadius = "12px";
 preview.style.background = "var(--background-secondary)";
 
 if (posterUrl) {
-    const poster = preview.createEl("img");
+    const poster = createImage(preview, imageCandidates);
 
-    poster.src = posterUrl;
-    poster.alt = altText;
-    poster.loading = "lazy";
     poster.style.width = "100%";
     poster.style.maxHeight = "70vh";
     poster.style.objectFit = "contain";
@@ -293,10 +375,8 @@ loadButton.addEventListener("click", () => {
         preview.empty();
 
         if (posterUrl) {
-            const still = preview.createEl("img");
+            const still = createImage(preview, imageCandidates);
 
-            still.src = posterUrl;
-            still.alt = altText;
             still.style.width = "100%";
             still.style.maxHeight = "70vh";
             still.style.objectFit = "contain";

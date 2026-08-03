@@ -187,6 +187,54 @@ Every clip starts with the tags `inspiration`, `web-design`, `ui`, `ux`; add fin
 (`animation`, `navigation`, `mobile`, `landing-page`, `typography`, `dashboard`,
 `interaction-design`) by hand. Browse the library at [[Inspiration]] / `Inspiration.base`.
 
+## Adding another site
+
+The workflow is built in two layers, and most new sites need only the first.
+
+**1. Capture** — `inspiration-media.json`
+
+- Add a trigger. Prefer a regex so subdomains and country domains come along:
+  `"/^https?:\\/\\/([a-z0-9-]+\\.)?example\\.com\\//"`.
+- If the site's media does not sit in a `figure`, `article` or `main`, add its
+  container selector to the **front** of the `media_url_image` and `media_url_srcset`
+  selector lists. Right-click the image → Inspect to find it.
+- Nothing else changes: the property schema, the note body and the renderer are shared.
+
+Often you can skip even this. The generic selectors plus `media_url_image_meta`
+(`og:image`, `twitter:image`, schema, `<video poster>`) already cover most sites — try
+clipping one first and only add a selector if `media_url_image` comes back empty.
+
+**2. Presentation** — `Templates/Scripts/remote-video/view.js`
+
+Only needed when a site serves downscaled stills and a URL rewrite gets the full-size
+one. Append an entry to the `SITES` table at the top of the file:
+
+```js
+{
+    id: "example",
+    match: /(^|\.)example\.com$/,   // tested against the MEDIA host, not the page
+    upgrade: (url) => [url.replace("/thumb/", "/full/")],
+},
+```
+
+`upgrade` returns URLs to try **before** the captured one. A wrong guess is free — the
+renderer walks down the list on each load error and ends at the URL the clipper actually
+saved. Nothing else in the file is site-aware.
+
+**3. Check it** — `node Templates/Scripts/remote-video/test.js`
+
+93 assertions covering both engines, all three built-in sites, and the malformed-metadata
+cases. Add a case next to `[16] Site rules` for whatever you added.
+
+### Sites handled today
+
+| Site | Trigger | Rule |
+|---|---|---|
+| Dribbble | `dribbble.com` + subdomains | drop the `?resize=…` query for the unscaled original |
+| Pinterest | `pinterest.*` + subdomains, `pin.it` | rewrite `/236x/` → `/originals/` |
+| 21st.dev | `21st.dev` + subdomains | none needed; assets are served full size |
+| anything else | manual pick, or `schema:@VideoObject` | generic selectors + meta/schema fallbacks |
+
 ### Known limitation
 
 Pinterest and Dribbble often expose no stable direct MP4 — signed/expiring CDN links,
