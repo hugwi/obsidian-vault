@@ -4,7 +4,7 @@
 set -uo pipefail
 DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 fail=0
-for t in test_render test_api test_http; do
+for t in test_render test_api test_http test_export; do
   echo "───── $t ─────"
   python3 "$DIR/$t.py" || fail=1
 done

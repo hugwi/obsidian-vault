@@ -6,10 +6,51 @@ is cheap: posts already synced are skipped, so this is safe on a schedule.
 
 Python 3.9+ standard library only — nothing to `pip install`.
 
-## Setup
+There are two ways to run it. **Export mode needs no Reddit app and no
+credentials** — start there if app creation is a hassle.
+
+| | API mode (default) | Export mode (`--from-export`) |
+|---|---|---|
+| Reddit app | required | **none** |
+| Credentials | required | **none** |
+| History reachable | ~1000 most recent saves | **everything** |
+| Can run unattended | yes | no (manual export each time) |
+| Speed | ~1 post/sec | ~1 post/3sec |
+
+The usual setup is both: export mode once to backfill everything, then API
+mode on a schedule to keep up with new saves.
+
+## Export mode — no app, no credentials
+
+1. Request your data at <https://www.reddit.com/settings/data-request>
+   (choose GDPR or CCPA; the archive arrives by email, usually within a day).
+2. Unzip it and find `saved_posts.csv`.
+3. Run:
+
+```bash
+./sync.py --from-export ~/Downloads/export/saved_posts.csv --dry-run --limit 5
+./sync.py --from-export ~/Downloads/export/saved_posts.csv
+```
+
+This reads Reddit's public JSON endpoints, which need no authentication. It
+is deliberately slow — unauthenticated requests are rate limited hard, so it
+waits 3 seconds between posts (`--interval` to change, at your own risk).
+2000 saved posts is about 100 minutes. Leave it running.
+
+It also accepts a plain file of thread URLs, one per line, if you would
+rather hand-pick.
+
+## API mode setup
 
 **1. Create a Reddit app** at <https://www.reddit.com/prefs/apps> →
 *create another app…*
+
+> If that page no longer offers app creation, try
+> <https://old.reddit.com/prefs/apps/>, which still shows the
+> "create another app…" button. Reddit's newer **Devvit** developer platform
+> is for apps that run *on* Reddit and cannot issue script credentials — it
+> is not what this needs. If you cannot create an app at all, use export mode
+> above; it does everything except run unattended.
 
 - type: **script**
 - redirect uri: `http://localhost:8080`
@@ -118,6 +159,8 @@ Notes match the vault conventions in `CLAUDE.md`:
 | `--update` | Rewrite notes for posts already synced (refreshes scores/comments) |
 | `--no-comments` | Post body only, much faster |
 | `--max-more N` | Cap extra requests per post for expanding collapsed comment branches (default 20) |
+| `--from-export CSV` | Backfill from a data-export `saved_posts.csv` — no app or credentials needed |
+| `--interval S` | Seconds between requests in export mode (default 3.0) |
 | `--out DIR` | Write somewhere other than `Clippings/` |
 | `--verbose` | Log skips and token activity |
 
@@ -127,19 +170,18 @@ Notes match the vault conventions in `CLAUDE.md`:
 ./tests/run.sh
 ```
 
-87 assertions, no credentials or network required — `tests/test_http.py`
+112 assertions, no credentials or network required — `tests/test_http.py`
 serves a fake Reddit on localhost and drives the real HTTP stack against it
 (OAuth grants, headers, throttle, 429 backoff, mid-run token expiry,
-pagination). Takes about 30 seconds, most of it the deliberate throttle and
+pagination), and `test_export.py` does the same for the unauthenticated
+export path. Takes about 30 seconds, most of it the deliberate throttle and
 backoff waits. Worth running after any edit to `sync.py`.
 
 ## Known limits
 
-- **~1000 saved items.** Reddit's listing API exposes only roughly your 1000
-  most recent saved items. Older saves are not reachable through any API. If
-  you need the complete history, request a data export at
-  <https://www.reddit.com/settings/data-request> — `saved_posts.csv` has every
-  permalink — and we can add a backfill mode that reads that CSV.
+- **~1000 saved items in API mode.** Reddit's listing API exposes only
+  roughly your 1000 most recent saved items. Use `--from-export` for the rest;
+  the data export has every permalink and export mode has no cap.
 - **Saved comments are skipped.** The listing is filtered to link posts
   (`type=links`). Saved *comments* are not imported.
 - **Very large threads.** `--max-more` caps how hard the script works to

@@ -1,6 +1,6 @@
 # Handoff — Reddit saved posts → vault sync
 
-**Branch:** `claude/reddit-articles-vault-sync-7l4hny` · **Commit:** `2919522` · **Date:** 2026-08-03
+**Branch:** `claude/reddit-articles-vault-sync-7l4hny` · **Commit:** see `git log` · **Date:** 2026-08-03
 **Status:** code complete and tested; **the import has not been run yet**
 
 ---
@@ -14,6 +14,7 @@ Pull all saved Reddit posts into the vault, and make it run recurrently.
 | Question | Choice |
 |---|---|
 | How to reach Reddit | OAuth API, "script" app (works unattended) |
+| Fallback added later | `--from-export` — no app, no credentials, no 1000-cap |
 | Where the schedule runs | Locally, launchd/cron |
 | Note contents | Post **plus the full comment tree** |
 
@@ -39,6 +40,23 @@ Note shape follows `CLAUDE.md`: `categories: "[[Clippings]]"`, blank `rating:`
 and `action:` so imports surface as untriaged in `Clippings.base`, plus
 `platform: reddit`, `subreddit`, `score`, `reddit_id`. Body is the post text
 (or outbound link) then comments, nested as blockquotes to 6 levels.
+
+## Two ways to run it
+
+App creation on reddit.com/prefs/apps has become awkward — Reddit pushes
+people toward **Devvit**, which builds apps that run *on* Reddit and cannot
+issue script credentials. So there are two paths:
+
+- **API mode** (default) — needs a script app; runs unattended; sees roughly
+  the 1000 most recent saves.
+- **Export mode** (`--from-export saved_posts.csv`) — needs **nothing**. Reads
+  Reddit's public JSON endpoints, so no app and no credentials, and no cap on
+  history. Slower (3s/post) and the export is manual, so it cannot be
+  scheduled.
+
+If app creation is blocked, export mode alone delivers the full import; only
+the recurring part needs the app. `old.reddit.com/prefs/apps/` is worth trying
+first — it still exposes the create button.
 
 ## What is NOT done — the one remaining step
 
@@ -66,7 +84,7 @@ If 2FA is on the account, password login cannot work unattended — run
 
 ## Verification
 
-87 assertions across three suites in `tests/`, all passing. No credentials or
+112 assertions across four suites in `tests/`, all passing. No credentials or
 network needed — run them with:
 
 ```bash
@@ -81,6 +99,11 @@ network needed — run them with:
 - `test_api.py` — listing flattening, `more` expansion including "continue
   this thread", 100-item batching, `max_more` capping, saved-listing
   pagination and the `t1` filter.
+- `test_export.py` — CSV parsing (official export, permalink-only,
+  headerless URL lists, BOM, duplicates, `t3_` prefixes, and three
+  malformed-input exits), plus an end-to-end `--from-export` run against a
+  fake `www.reddit.com` with **no credentials configured at all**, including a
+  deleted post that must not abort the run.
 - `test_http.py` — stands up a **fake Reddit on localhost** and drives
   `sync.py`'s real HTTP stack against it: OAuth password and refresh-token
   grants, Authorization/User-Agent headers, the request throttle, a served 429
@@ -95,11 +118,10 @@ cause is auth, and `sync.py` prints a specific message for 401 and
 
 ## Open items
 
-1. **The ~1000 cap.** Reddit's listing API exposes only roughly the 1000 most
-   recent saved items; older saves are unreachable by any API. If the import
-   count comes in below what you expect, the full history needs a data export
-   from <https://www.reddit.com/settings/data-request> (`saved_posts.csv` has
-   every permalink) and a backfill mode reading that CSV. Not built.
+1. **The ~1000 cap applies to API mode only.** If the import count comes in
+   below expectation, backfill with `--from-export` against
+   `saved_posts.csv` from <https://www.reddit.com/settings/data-request>.
+   Built and tested.
 2. **Saved comments are skipped** — the listing is filtered to link posts.
 3. **Two deliberate deviations** from the existing 443 clippings, either of
    which can be reverted in `render_note()`:

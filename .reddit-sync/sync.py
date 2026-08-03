@@ -22,6 +22,7 @@ from __future__ import annotations
 
 import argparse
 import base64
+import csv
 import json
 import os
 import re
@@ -45,6 +46,11 @@ USER_AGENT = "obsidian-vault-reddit-sync/1.0"
 # Reddit allows 100 requests/minute for OAuth clients. Stay well under it: a
 # scheduled job has no deadline, and a 429 costs more than the wait does.
 MIN_REQUEST_INTERVAL = 1.0
+
+# Unauthenticated requests to www.reddit.com are rate limited far more
+# aggressively than OAuth ones, so --from-export backs right off.
+ANON_REQUEST_INTERVAL = 3.0
+
 MAX_RETRIES = 5
 
 # Filenames are the note title in this vault, so keep them readable. Reddit
@@ -120,6 +126,8 @@ class Reddit:
         self._token = ""
         self._token_expires_at = 0.0
         self._last_request = 0.0
+        self.base = OAUTH_BASE
+        self.min_interval = MIN_REQUEST_INTERVAL
         self.user_agent = f"{USER_AGENT} by u/{self.username or 'unknown'}"
 
     # -- auth ------------------------------------------------------------
@@ -180,28 +188,28 @@ class Reddit:
 
     def _throttle(self) -> None:
         delta = time.time() - self._last_request
-        if delta < MIN_REQUEST_INTERVAL:
-            time.sleep(MIN_REQUEST_INTERVAL - delta)
+        if delta < self.min_interval:
+            time.sleep(self.min_interval - delta)
         self._last_request = time.time()
 
+    def _prepare_path(self, path: str) -> str:
+        """Hook for subclasses that address endpoints differently."""
+        return path
+
+    def _headers(self) -> dict:
+        return {"Authorization": f"Bearer {self._token}", "User-Agent": self.user_agent}
+
     def request(self, path: str, params: dict | None = None, post_data: dict | None = None):
-        """Call an oauth.reddit.com endpoint and return parsed JSON."""
+        """Call a Reddit endpoint and return parsed JSON."""
         self._ensure_token()
-        url = f"{OAUTH_BASE}{path}"
+        url = f"{self.base}{self._prepare_path(path)}"
         if params:
             url += "?" + urllib.parse.urlencode(params)
 
         for attempt in range(MAX_RETRIES):
             self._throttle()
             body = urllib.parse.urlencode(post_data).encode() if post_data else None
-            req = urllib.request.Request(
-                url,
-                data=body,
-                headers={
-                    "Authorization": f"Bearer {self._token}",
-                    "User-Agent": self.user_agent,
-                },
-            )
+            req = urllib.request.Request(url, data=body, headers=self._headers())
             try:
                 with urllib.request.urlopen(req, timeout=60) as resp:
                     remaining = resp.headers.get("X-Ratelimit-Remaining")
@@ -270,10 +278,24 @@ class Reddit:
 
     def comments(self, post_id: str, max_more: int) -> list[dict]:
         """Fetch a post's comments, expanding collapsed 'more' nodes."""
+        return self.thread(post_id, max_more)[1]
+
+    def thread(self, post_id: str, max_more: int) -> tuple[dict | None, list[dict]]:
+        """Fetch a post and its comments in one request.
+
+        Returns (post, comments). The post is None only if Reddit returned a
+        thread with no post in it — deleted, or an id that does not exist.
+        """
         listing = self.request(
             f"/comments/{post_id}",
             {"limit": 500, "depth": 100, "sort": "top", "raw_json": 1},
         )
+        post = None
+        try:
+            post = listing[0]["data"]["children"][0]["data"]
+        except (IndexError, KeyError, TypeError):
+            pass
+
         flat: dict[str, dict] = {}
         pending: list[dict] = []
         for part in listing[1:]:
@@ -328,7 +350,38 @@ class Reddit:
 
         if pending:
             log(f"  note: {len(pending)} collapsed branch(es) left unexpanded (--max-more)")
-        return list(flat.values())
+        return post, list(flat.values())
+
+
+class AnonReddit(Reddit):
+    """Unauthenticated client for Reddit's public JSON endpoints.
+
+    Used by --from-export. Reading a data-export CSV needs no Reddit app and
+    no credentials at all, and it is not subject to the ~1000-item cap on the
+    saved listing. The tradeoff is a much stricter rate limit, so it crawls.
+    """
+
+    def __init__(self, verbose: bool = False, interval: float = ANON_REQUEST_INTERVAL):
+        self.verbose = verbose
+        self.username = ""
+        self.base = WWW_BASE
+        self.min_interval = interval
+        self._token = ""
+        self._token_expires_at = float("inf")
+        self._last_request = 0.0
+        self.user_agent = f"{USER_AGENT} (export backfill)"
+
+    def _ensure_token(self) -> None:
+        """No auth to obtain — these endpoints are public."""
+
+    def _headers(self) -> dict:
+        return {"User-Agent": self.user_agent}
+
+    def _prepare_path(self, path: str) -> str:
+        # www.reddit.com serves JSON only when the path asks for it.
+        if path.startswith("/comments/") and not path.endswith(".json"):
+            return path + ".json"
+        return path
 
 
 def _walk_listing(node, flat: dict[str, dict], pending: list[dict]) -> None:
@@ -539,6 +592,81 @@ def existing_reddit_ids(clippings: Path) -> dict[str, Path]:
     return found
 
 
+POST_ID_RE = re.compile(r"/comments/([a-z0-9]+)", re.I)
+
+
+def read_export(path: Path) -> list[str]:
+    """Extract post ids from a Reddit data-export saved_posts.csv.
+
+    The export ships `id,permalink`, but be liberal: accept any column that
+    holds an id or a thread URL, with or without a header row, so a hand-made
+    list of permalinks works too.
+    """
+    if not path.exists():
+        die(f"export file not found: {path}")
+
+    ids: list[str] = []
+    seen: set[str] = set()
+
+    def add(value: str, bare_ok: bool = False) -> None:
+        """Record a post id from a cell.
+
+        `bare_ok` is only set for a column the header actually calls "id".
+        Without it a bare word is rejected: plenty of ordinary text is short
+        and lowercase, and silently treating it as an id would send the
+        crawler after posts that do not exist.
+        """
+        value = (value or "").strip().strip('"')
+        if not value:
+            return
+        match = POST_ID_RE.search(value)
+        if match:
+            pid = match.group(1)
+        elif value.startswith("t3_"):
+            pid = value[3:]
+        elif bare_ok:
+            pid = value
+        else:
+            return
+        # Reddit ids are short base36; anything else is a stray column.
+        if not re.fullmatch(r"[a-z0-9]{4,10}", pid, re.I):
+            return
+        if pid not in seen:
+            seen.add(pid)
+            ids.append(pid)
+
+    with path.open(newline="", encoding="utf-8-sig", errors="replace") as fh:
+        rows = list(csv.reader(fh))
+
+    if not rows:
+        die(f"export file is empty: {path}")
+
+    header = [c.strip().lower() for c in rows[0]]
+    has_header = "id" in header or "permalink" in header
+    if has_header:
+        want = [(i, c) for i, c in enumerate(header) if c in ("id", "permalink", "url")]
+        for row in rows[1:]:
+            before = len(ids)
+            for i, col in want:
+                if i < len(row) and row[i].strip():
+                    add(row[i], bare_ok=(col == "id"))
+                    if len(ids) > before:
+                        break
+    else:
+        # No header to trust, so only accept unambiguous thread references.
+        for row in rows:
+            for cell in row:
+                add(cell)
+
+    if not ids:
+        die(
+            f"no post ids found in {path}.\n"
+            "  Expected Reddit's saved_posts.csv (columns: id, permalink), or a "
+            "file of thread URLs."
+        )
+    return ids
+
+
 def unique_path(clippings: Path, stem: str, post_id: str) -> Path:
     """Pick a free filename, disambiguating collisions with the post id."""
     candidate = clippings / f"{stem}.md"
@@ -621,6 +749,19 @@ def main() -> int:
         default=20,
         help="max extra requests per post to expand collapsed comment branches (default 20)",
     )
+    parser.add_argument(
+        "--from-export",
+        type=Path,
+        metavar="CSV",
+        help="backfill from a Reddit data-export saved_posts.csv — needs no app "
+        "and no credentials, and is not subject to the ~1000-item API cap",
+    )
+    parser.add_argument(
+        "--interval",
+        type=float,
+        default=ANON_REQUEST_INTERVAL,
+        help=f"seconds between requests in --from-export mode (default {ANON_REQUEST_INTERVAL})",
+    )
     parser.add_argument("--out", type=Path, default=CLIPPINGS_DIR, help="output folder")
     parser.add_argument("--verbose", action="store_true")
     parser.add_argument(
@@ -635,12 +776,23 @@ def main() -> int:
         get_refresh_token(cfg)
         return 0
 
-    client = Reddit(cfg, verbose=args.verbose)
-    if not client.username:
-        client.username = client.whoami()
+    work_ids: list[str] = []
+    if args.from_export:
+        # No app, no credentials, no 1000-item cap — just the export plus
+        # Reddit's public JSON endpoints.
+        client = AnonReddit(verbose=args.verbose, interval=args.interval)
+        work_ids = read_export(args.from_export)
+        if args.limit:
+            work_ids = work_ids[: args.limit]
+        eta = len(work_ids) * args.interval / 60
+        log(f"{len(work_ids)} post(s) in export — unauthenticated mode, ~{eta:.0f} min at best")
+    else:
+        client = Reddit(cfg, verbose=args.verbose)
         if not client.username:
-            die("could not determine the reddit username; set REDDIT_USERNAME in .env")
-        log(f"authenticated as u/{client.username}")
+            client.username = client.whoami()
+            if not client.username:
+                die("could not determine the reddit username; set REDDIT_USERNAME in .env")
+            log(f"authenticated as u/{client.username}")
 
     clippings = args.out
     if not args.dry_run:
@@ -649,39 +801,61 @@ def main() -> int:
     known = existing_reddit_ids(clippings)
     log(f"{len(known)} reddit post(s) already in {clippings.name}/")
 
-    written = skipped = failed = 0
-    for post in client.saved_posts(limit=args.limit):
+    counts = {"written": 0, "skipped": 0, "failed": 0}
+
+    def emit(post: dict, comments: list[dict]) -> None:
         fullname = post.get("name") or f"t3_{post.get('id')}"
-        title = (post.get("title") or "").strip() or "(untitled)"
+        stem = sanitize_filename((post.get("title") or "").strip() or "(untitled)")
+        target = known.get(fullname) or unique_path(clippings, stem, post.get("id", ""))
+        note = render_note(post, comments, target.stem)
+        if args.dry_run:
+            log(f"would write {target.name} ({len(comments)} comments)")
+        else:
+            target.write_text(note, encoding="utf-8")
+            log(f"wrote {target.name} ({len(comments)} comments)")
+        counts["written"] += 1
 
-        if fullname in known and not args.update:
-            skipped += 1
-            if args.verbose:
-                log(f"skip (already synced): {title[:70]}")
-            continue
+    if args.from_export:
+        for post_id in work_ids:
+            fullname = f"t3_{post_id}"
+            if fullname in known and not args.update:
+                counts["skipped"] += 1
+                if args.verbose:
+                    log(f"skip (already synced): {post_id}")
+                continue
+            try:
+                post, comments = client.thread(
+                    post_id, max_more=0 if args.no_comments else args.max_more
+                )
+                if post is None:
+                    counts["failed"] += 1
+                    log(f"FAILED {post_id}: no post in thread (deleted or bad id)")
+                    continue
+                emit(post, [] if args.no_comments else comments)
+            except (RuntimeError, OSError) as exc:
+                counts["failed"] += 1
+                log(f"FAILED {post_id}: {exc}")
+    else:
+        for post in client.saved_posts(limit=args.limit):
+            fullname = post.get("name") or f"t3_{post.get('id')}"
+            title = (post.get("title") or "").strip() or "(untitled)"
 
-        try:
-            comments: list[dict] = []
-            if not args.no_comments:
-                comments = client.comments(post["id"], max_more=args.max_more)
+            if fullname in known and not args.update:
+                counts["skipped"] += 1
+                if args.verbose:
+                    log(f"skip (already synced): {title[:70]}")
+                continue
 
-            stem = sanitize_filename(title)
-            if fullname in known:
-                target = known[fullname]
-            else:
-                target = unique_path(clippings, stem, post.get("id", ""))
-            note = render_note(post, comments, target.stem)
+            try:
+                comments: list[dict] = []
+                if not args.no_comments:
+                    comments = client.comments(post["id"], max_more=args.max_more)
+                emit(post, comments)
+            except (RuntimeError, OSError) as exc:
+                counts["failed"] += 1
+                log(f"FAILED {title[:60]}: {exc}")
 
-            if args.dry_run:
-                log(f"would write {target.name} ({len(comments)} comments)")
-            else:
-                target.write_text(note, encoding="utf-8")
-                log(f"wrote {target.name} ({len(comments)} comments)")
-            written += 1
-        except (RuntimeError, OSError) as exc:
-            failed += 1
-            log(f"FAILED {title[:60]}: {exc}")
-
+    written, skipped, failed = counts["written"], counts["skipped"], counts["failed"]
     verb = "would write" if args.dry_run else "wrote"
     log(f"done — {verb} {written}, skipped {skipped}, failed {failed}")
     return 1 if failed else 0
