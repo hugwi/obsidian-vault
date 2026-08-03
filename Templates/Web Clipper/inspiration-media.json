@@ -6,28 +6,121 @@
   "path": "Clippings",
   "context": "",
   "properties": [
-    { "name": "type", "value": "inspiration", "type": "text" },
-    { "name": "title", "value": "{{title}}", "type": "text" },
-    { "name": "categories", "value": "[[Clippings]]", "type": "multitext" },
-    { "name": "domain", "value": "design", "type": "text" },
-    { "name": "source_url", "value": "{{url}}", "type": "text" },
-    { "name": "platform", "value": "{{domain}}", "type": "text" },
-    { "name": "thumbnail_url", "value": "{{image}}", "type": "text" },
-    { "name": "media_url_secure", "value": "{{meta:property:og:video:secure_url}}", "type": "text" },
-    { "name": "media_url", "value": "{{meta:property:og:video}}", "type": "text" },
-    { "name": "media_url_twitter", "value": "{{meta:name:twitter:player:stream}}", "type": "text" },
-    { "name": "media_url_schema", "value": "{{schema:@VideoObject:contentUrl}}", "type": "text" },
-    { "name": "media_url_source", "value": "{{selector:[data-test-id=\"pin-closeup-image\"] video source, [data-test-id=\"closeup-image\"] video source, [data-test-id=\"pin-image\"] video source, .shot-media-container video source, .media-shot video source, [data-testid=\"shot-media\"] video source, [class*=\"preview\"] video source, [class*=\"component\"] video source, figure video source?src}}", "type": "text" },
-    { "name": "media_url_video", "value": "{{selector:[data-test-id=\"pin-closeup-image\"] video, [data-test-id=\"closeup-image\"] video, [data-test-id=\"pin-image\"] video, .shot-media-container video, .media-shot video, [data-testid=\"shot-media\"] video, [class*=\"preview\"] video, [class*=\"component\"] video, figure video?src}}", "type": "text" },
-    { "name": "media_url_image", "value": "{{selector:[data-test-id=\"pin-closeup-image\"] img, [data-test-id=\"closeup-image\"] img, [data-test-id=\"pin-image\"] img, .shot-media-container img, .media-shot img, [data-testid=\"shot-media\"] img, [class*=\"preview\"] img, [class*=\"component\"] img, figure img, article img, main img?src}}", "type": "text" },
-    { "name": "media_url_srcset", "value": "{{selector:[data-test-id=\"pin-closeup-image\"] img, [data-test-id=\"closeup-image\"] img, [data-test-id=\"pin-image\"] img, .shot-media-container img, .media-shot img, [data-testid=\"shot-media\"] img, [class*=\"preview\"] img, [class*=\"component\"] img, figure img, article img, main img?srcset}}", "type": "text" },
-    { "name": "media_url_image_meta", "value": "{{meta:property:og:image:secure_url}} {{meta:name:twitter:image}} {{schema:@ImageObject:contentUrl}} {{selector:video?poster}}", "type": "text" },
-    { "name": "saved_at", "value": "{{date|date:\"YYYY-MM-DD\"}}", "type": "date" },
-    { "name": "created", "value": "{{date|date:\"YYYY-MM-DD\"}}", "type": "date" },
-    { "name": "source", "value": "web-clipper", "type": "text" },
-    { "name": "rating", "value": "", "type": "number" },
-    { "name": "action", "value": "review", "type": "text" },
-    { "name": "tags", "value": "inspiration, web-design, ui, ux", "type": "multitext" }
+    {
+      "name": "type",
+      "value": "inspiration",
+      "type": "text"
+    },
+    {
+      "name": "title",
+      "value": "{{title}}",
+      "type": "text"
+    },
+    {
+      "name": "categories",
+      "value": "[[Clippings]]",
+      "type": "multitext"
+    },
+    {
+      "name": "domain",
+      "value": "design",
+      "type": "text"
+    },
+    {
+      "name": "source_url",
+      "value": "{{url}}",
+      "type": "text"
+    },
+    {
+      "name": "platform",
+      "value": "{{domain}}",
+      "type": "text"
+    },
+    {
+      "name": "thumbnail_url",
+      "value": "{{image}}",
+      "type": "text"
+    },
+    {
+      "name": "media_url_secure",
+      "value": "{{meta:property:og:video:secure_url}}",
+      "type": "text"
+    },
+    {
+      "name": "media_url",
+      "value": "{{meta:property:og:video}}",
+      "type": "text"
+    },
+    {
+      "name": "media_url_twitter",
+      "value": "{{meta:name:twitter:player:stream}}",
+      "type": "text"
+    },
+    {
+      "name": "media_url_schema",
+      "value": "{{schema:@VideoObject:contentUrl}}",
+      "type": "text"
+    },
+    {
+      "name": "media_url_source",
+      "value": "{{selector:[data-test-id=\"pin-closeup-image\"] video source, [data-test-id=\"closeup-image\"] video source, [data-test-id=\"pin-image\"] video source, .shot-media-container video source, .media-shot video source, [data-testid=\"shot-media\"] video source, [class*=\"preview\"] video source, [class*=\"component\"] video source, figure video source?src}}",
+      "type": "text"
+    },
+    {
+      "name": "media_url_video",
+      "value": "{{selector:[data-test-id=\"pin-closeup-image\"] video, [data-test-id=\"closeup-image\"] video, [data-test-id=\"pin-image\"] video, .shot-media-container video, .media-shot video, [data-testid=\"shot-media\"] video, [class*=\"preview\"] video, [class*=\"component\"] video, figure video?src}}",
+      "type": "text"
+    },
+    {
+      "name": "media_url_image",
+      "value": "{{selector:[data-test-id=\"pin-closeup-image\"] img, [data-test-id=\"closeup-image\"] img, [data-test-id=\"pin-image\"] img, .shot-media-container img, .media-shot img, [data-testid=\"shot-media\"] img, [class*=\"shot-media\"] img, [class*=\"preview\"] img, [class*=\"component\"] img?src}}",
+      "type": "text"
+    },
+    {
+      "name": "media_url_srcset",
+      "value": "{{selector:[data-test-id=\"pin-closeup-image\"] img, [data-test-id=\"closeup-image\"] img, [data-test-id=\"pin-image\"] img, .shot-media-container img, .media-shot img, [data-testid=\"shot-media\"] img, [class*=\"shot-media\"] img, [class*=\"preview\"] img, [class*=\"component\"] img?srcset}}",
+      "type": "text"
+    },
+    {
+      "name": "media_url_image_generic",
+      "value": "{{selector:figure img, article img, main img?src}}",
+      "type": "text"
+    },
+    {
+      "name": "media_url_image_meta",
+      "value": "{{meta:property:og:image:secure_url}} {{meta:name:twitter:image}} {{schema:@ImageObject:contentUrl}} {{selector:.shot-media-container video, .media-shot video, [class*=\"preview\"] video?poster}}",
+      "type": "text"
+    },
+    {
+      "name": "saved_at",
+      "value": "{{date|date:\"YYYY-MM-DD\"}}",
+      "type": "date"
+    },
+    {
+      "name": "created",
+      "value": "{{date|date:\"YYYY-MM-DD\"}}",
+      "type": "date"
+    },
+    {
+      "name": "source",
+      "value": "web-clipper",
+      "type": "text"
+    },
+    {
+      "name": "rating",
+      "value": "",
+      "type": "number"
+    },
+    {
+      "name": "action",
+      "value": "review",
+      "type": "text"
+    },
+    {
+      "name": "tags",
+      "value": "inspiration, web-design, ui, ux",
+      "type": "multitext"
+    }
   ],
   "triggers": [
     "/^https?:\\/\\/([a-z0-9-]+\\.)?21st\\.dev\\//",

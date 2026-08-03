@@ -173,9 +173,19 @@ const streamUrl = mediaUrl === manifestUrl ? undefined : manifestUrl;
 
 // Biggest srcset entry first, then the container's own src, then the social-card
 // image, then anything an image-shaped URL that turned up in a video property.
+// Order matters, and page-level metadata deliberately outranks a broad DOM match.
+// og:image always describes the page you clipped, whereas a generic `article img`
+// selector will happily match a neighbouring item in a related-content grid — on a
+// Dribbble shot page that means somebody else's shot.
 const rawImageCandidates = [
+    // 1. the media container itself, matched by a site-specific selector
     ...srcsetUrlsOf(page.media_url_srcset),
-    ...urlsOf(page.media_url_image, page.thumbnail_url, page.media_url_image_meta),
+    ...urlsOf(page.media_url_image),
+    // 2. what the page says it is
+    ...urlsOf(page.thumbnail_url, page.media_url_image_meta),
+    // 3. last resort: any image in figure/article/main, which may not be the subject
+    ...urlsOf(page.media_url_image_generic),
+    // 4. a still that was wrongly published in a video property
     ...declaredVideoUrls.filter((candidate) => extensionLooksLike(IMAGE_EXT, candidate)),
 ];
 

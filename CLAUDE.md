@@ -108,10 +108,14 @@ into `Clippings/`. These notes store **remote URLs only — never download the m
 - Video props, checked in this order by the renderer: `media_url_secure` → `media_url` →
   `media_url_twitter` → `media_url_schema` → `media_url_source` → `media_url_video`;
   `source_url` is also used when it ends in `.mp4`/`.webm`/`.mov`/`.m4v`.
-- Image props, biggest-first: `media_url_srcset` (largest entry wins) → `media_url_image`
-  (media-container `src`) → `thumbnail_url` (og:image) → `media_url_image_meta`
-  (twitter:image / schema / `<video poster>`). **Most Dribbble/Pinterest posts are stills**,
-  so a clip with no video is normal, not a failure — the renderer shows the image instead.
+- Image props, in precedence order: `media_url_srcset` (largest entry) → `media_url_image`
+  (site-specific media container) → `thumbnail_url` (og:image) → `media_url_image_meta`
+  (twitter:image / schema / poster) → `media_url_image_generic` (`figure`/`article`/`main`).
+  **Page metadata deliberately outranks the generic DOM match**: a broad `article img`
+  selector matches a neighbouring item in a related-content grid, which on a Dribbble shot
+  page is somebody else's shot. Same reason every video selector is container-scoped.
+  **Most Dribbble/Pinterest posts are stills**, so a clip with no video is normal, not a
+  failure — the renderer shows the image instead.
 - Unplayable media is detected, not shown broken: `blob:`/`data:` URLs are rejected, an
   expired video URL falls back to the still with an explanation, and `.m3u8`/`.mpd`
   manifests are offered only where `canPlayType` says the engine supports them (no on

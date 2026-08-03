@@ -504,5 +504,62 @@ console.log("\n[17] Site rules stay contained");
     check("image removed once all candidates fail", find(dead.container, "img").length === 0);
 }
 
+// --------------------------------------------------------------- case 18
+console.log("\n[18] Related-shot grid must never outrank the page's own metadata");
+{
+    // Real case: clipped shot 27586011, but a generic selector matched shot 27611035
+    // from the "more shots" grid further down the page.
+    const mine = "https://cdn.dribbble.com/userupload/burger-island.png";
+    const neighbour = "https://cdn.dribbble.com/userupload/health-analytics.png";
+
+    const { container } = run({
+        title: "Burger Island, burger delivery platform line art logo design",
+        source_url: "https://dribbble.com/shots/27586011-Burger-Island",
+        thumbnail_url: mine,                    // og:image — authoritative
+        media_url_image: "",                    // tight selector missed
+        media_url_image_generic: neighbour,     // matched the wrong shot
+    });
+    check("og:image beats a generic DOM match",
+        find(container, "img")[0]._src === mine);
+
+    // The generic match is still usable when nothing better exists.
+    const onlyGeneric = run({
+        source_url: "https://example.com/thing",
+        media_url_image_generic: neighbour,
+    });
+    check("generic still used as a last resort",
+        find(onlyGeneric.container, "img")[0]._src === neighbour);
+
+    // A tight, site-specific match outranks og:image, since it is the real container.
+    const tight = run({
+        thumbnail_url: "https://cdn.dribbble.com/og-card.png",
+        media_url_image: mine,
+        media_url_image_generic: neighbour,
+    });
+    check("tight container selector still wins over og:image",
+        find(tight.container, "img")[0]._src === mine);
+
+    // Full precedence chain in one go.
+    const all = run({
+        media_url_srcset: "https://cdn.example.com/big.png 1200w",
+        media_url_image: "https://cdn.example.com/container.png",
+        thumbnail_url: "https://cdn.example.com/og.png",
+        media_url_image_meta: "https://cdn.example.com/twitter.png",
+        media_url_image_generic: "https://cdn.example.com/stray.png",
+    });
+    const img = find(all.container, "img")[0];
+    const order = [];
+    order.push(img._src);
+    for (let i = 0; i < 4; i++) { img._listeners.error(); order.push(img._src); }
+    check("precedence: srcset > container > og > meta > generic",
+        JSON.stringify(order) === JSON.stringify([
+            "https://cdn.example.com/big.png",
+            "https://cdn.example.com/container.png",
+            "https://cdn.example.com/og.png",
+            "https://cdn.example.com/twitter.png",
+            "https://cdn.example.com/stray.png",
+        ]), JSON.stringify(order));
+}
+
 console.log(failures === 0 ? "\nALL CHECKS PASSED" : `\n${failures} CHECK(S) FAILED`);
 process.exit(failures === 0 ? 0 : 1);
