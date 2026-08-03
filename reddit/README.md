@@ -212,5 +212,34 @@ backoff waits. Worth running after any edit to `sync.py`.
   rather than silently dropping them; raise the cap for those posts.
 - **Deleted/removed content** appears as `[deleted]` / `_[removed]_`, which is
   all the API returns.
+- **The feed window is ~100 posts.** Fine for a daily job. If the machine is
+  off for weeks and you save heavily, older items can fall out the back —
+  re-run an export backfill occasionally as a safety net.
 - Unsaving a post on Reddit does not delete the note here — imports are
   one-way by design.
+
+## Notes for future edits
+
+- **Credentials must never be committed.** The vault auto-commits ("vault
+  backup" commits), so `.gitignore` covers `reddit/.env`, `reddit/*.log` and
+  `reddit/__pycache__/`. The RSS feed url is a live credential too — anyone
+  holding it can read your saved posts. Reset it at
+  <https://old.reddit.com/prefs/feeds/> if it leaks.
+- **This folder is hidden from Obsidian** by `"userIgnoreFilters": ["reddit/"]`
+  in `.obsidian/app.json`. Without it, this README and any other `.md` here
+  get indexed as vault notes and show up in `Vault.base` with no frontmatter.
+  Obsidian rewrites `app.json` on some settings changes, so if these docs
+  reappear as notes, that filter was dropped.
+- **Don't move this into `Templates/Scripts/`.** That folder is for `dv.view()`
+  JavaScript, which has to live in an *indexed* folder — the opposite
+  requirement to this one.
+- **`Templates/Web Clipper/reddit-summary.json` is unrelated** to this script
+  and untouched by it. Worth knowing it is now inconsistent with `CLAUDE.md`:
+  it still writes to `Inbox/Articles` with `title:`/`status:`/
+  `tags: clip/discussion`, predating the flat property-driven restructure.
+  Fixing it is a separate job.
+- **Two deliberate deviations** from the other 443 clippings, both reversible
+  in `render_note()`: `title:` is written only when the filename had to be
+  truncated or sanitized (per `CLAUDE.md`'s "no redundant title"), and
+  `author:` is plain `u/name` rather than a `[[wikilink]]`, to avoid hundreds
+  of unresolved links for people who are not `References/` notes.
