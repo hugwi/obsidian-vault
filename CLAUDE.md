@@ -149,6 +149,32 @@ Each carries `theme:` (one slug) + `subtheme:` (1–3 finer tags). The 10 themes
 sub-theme). Current landscape: [[Agentic Engineering — Trends 2026]]. When adding a new
 agentic clipping, set `theme` + `subtheme` to match.
 
+## Git setup (run once per clone — check this before any git work)
+This vault is synced by obsidian-git, which auto-commits on a timer. Obsidian and its
+plugins rewrite `.obsidian/*.json` in full whenever a setting changes or a new property
+appears (clipping a note is enough to rewrite `types.json`), so those files collide on
+almost every pull. `.gitattributes` marks them `merge=ours`, but **the driver has to be
+enabled locally — it cannot be committed**:
+
+```bash
+git config merge.ours.driver true
+```
+
+**Always verify this is set before pulling, merging, or resolving conflicts** in a new
+clone or a fresh container — `git config merge.ours.driver` should print `true`. If it is
+empty, set it, then continue. Without it Git falls back to ordinary conflicts on machine
+state nobody is trying to merge.
+
+If a conflict does appear in `.obsidian/`, keep the local copy — Obsidian regenerates that
+state anyway:
+
+```bash
+git checkout --ours .obsidian/ && git add .obsidian/
+```
+
+Real content — notes, templates, scripts, bases — merges normally, and a conflict there is
+worth reading.
+
 ## Preferences
 - ISO dates: `YYYY-MM-DD` (daily notes named `YYYY-MM-DD.md`, no weekday suffix)
 - `categories`: wikilinks to a hub, TitleCase plural (`"[[Resources]]"`); tags: `lowercase-hyphenated`
