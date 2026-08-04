@@ -289,6 +289,7 @@ const gallerySlots = [
     slotsOf(page.media_url_gallery).map((raw) => urlsOf(raw)[0] ?? ""),
     slotsOf(page.media_url_gallery_srcset).map((raw) => srcsetUrlsOf(raw)[0] ?? ""),
     slotsOf(page.media_url_gallery_lazy).map((raw) => urlsOf(raw)[0] ?? ""),
+    slotsOf(page.media_url_gallery_href).map((raw) => urlsOf(raw)[0] ?? ""),
 ];
 
 const slotCount = Math.max(0, ...gallerySlots.map((slots) => slots.length));

@@ -92,6 +92,11 @@
       "type": "text"
     },
     {
+      "name": "media_url_gallery_href",
+      "value": "{{selector:#ssr-app > .content-block-container.full-width a[data-photoswipe-image]?href}}",
+      "type": "text"
+    },
+    {
       "name": "media_url_image",
       "value": "{{selector:[data-test-id=\"pin-closeup-image\"] img, [data-test-id=\"closeup-image\"] img, [data-test-id=\"pin-image\"] img, .shot-media-container img, .media-shot img, [data-testid=\"shot-media\"] img, [class*=\"shot-media\"] img, [class*=\"preview\"] img, [class*=\"component\"] img?src}}",
       "type": "text"

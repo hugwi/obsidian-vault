@@ -87,6 +87,7 @@ Three properties read the same element set through different attributes:
 | `media_url_gallery` | `src` |
 | `media_url_gallery_srcset` | `srcset` |
 | `media_url_gallery_lazy` | `data-srcset` |
+| `media_url_gallery_href` | Dribbble PhotoSwipe anchor `href` |
 
 `view.js` resolves **each image from its own slot index**, taking the first capture
 that has a URL at that index. Two tempting alternatives are both wrong and are

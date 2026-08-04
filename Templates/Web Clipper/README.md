@@ -320,12 +320,17 @@ Three captures therefore read the same element set:
 | `media_url_gallery` | `src` |
 | `media_url_gallery_srcset` | `srcset` |
 | `media_url_gallery_lazy` | `data-srcset` |
+| `media_url_gallery_href` | `href` of Dribbble's `a[data-photoswipe-image]` |
 
 The renderer resolves **each image from its own slot index**, taking the first capture
 that has a URL there. It deliberately does not pick "whichever capture matched the most
 images": on a lazy-loaded page the `src` and `data-srcset` captures can hold different
 *half* of the set, so choosing one discards the other half. Nor does it concatenate them,
 which would render one image's variants as separate pictures.
+
+Some long Dribbble shots never materialise several `<img>` attributes even after a full
+scroll. Their enclosing PhotoSwipe anchors still expose stable `href` values, so
+`media_url_gallery_href` is the final positional fallback for those slots.
 
 If images are still missing, run `Templates/Scripts/remote-media/probe-lazy.js` in the
 browser console on the page. `missedBySelector` non-empty means the container selector

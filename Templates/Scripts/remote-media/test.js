@@ -773,5 +773,24 @@ console.log("\n[21] Real Dribbble shot 27606181 (probed 2026-08-04)");
         !imgs.some((img) => img._src.includes("48556246")));
 }
 
+// ── Case 24: Dribbble images that never materialise in <img> attributes ─────
+{
+    const ids = ["46686852", "46686855", "46686854", "46686853", "46686856", "46686857", "46686858"];
+    const urls = ids.map((id) => `https://cdn.dribbble.com/userupload/${id}/file/shot.png?resize=752x`);
+    const { container } = run({
+        source_url: "https://dribbble.com/shots/27072001-Hotel-Management-Dashboard-UI-Design",
+        media_url_gallery: JSON.stringify([urls[0], "", "", "", "", "", ""]),
+        media_url_gallery_srcset: JSON.stringify([urls[0], urls[1], "", "", "", urls[5], urls[6]]),
+        media_url_gallery_lazy: JSON.stringify(["", urls[1], "", "", "", urls[5], urls[6]]),
+        media_url_gallery_href: JSON.stringify(urls),
+    });
+    const imgs = find(container, "img");
+
+    check("anchor href recovers all seven Hotel Dashboard images", imgs.length === 7,
+        `got ${imgs.length}`);
+    check("anchor recovery preserves document order",
+        imgs.every((img, index) => img._src.includes(ids[index])));
+}
+
 console.log(failures === 0 ? "\nALL CHECKS PASSED" : `\n${failures} CHECK(S) FAILED`);
 process.exit(failures === 0 ? 0 : 1);
