@@ -561,5 +561,90 @@ console.log("\n[18] Related-shot grid must never outrank the page's own metadata
         ]), JSON.stringify(order));
 }
 
+// --------------------------------------------------------------- case 19
+console.log("\n[19] Multi-match selectors arrive as a JSON array string");
+{
+    // This is exactly what the clipper writes when a selector matches >1 element.
+    const json = '["https://cdn.dribbble.com/a.png","https://cdn.dribbble.com/b.png"]';
+
+    const { container } = run({ media_url_image: json });
+    check("JSON array parsed, first image used",
+        find(container, "img")[0]._src === "https://cdn.dribbble.com/a.png");
+
+    // A single match is stored bare — must still work.
+    const single = run({ media_url_image: "https://cdn.dribbble.com/only.png" });
+    check("single match still handled",
+        find(single.container, "img")[0]._src === "https://cdn.dribbble.com/only.png");
+
+    // A bracketed string that is not JSON must not blow up.
+    const notJson = run({ media_url_image: "[not json at all", thumbnail_url: "https://e.com/f.png" });
+    check("malformed bracket text falls through safely",
+        find(notJson.container, "img")[0]._src === "https://e.com/f.png");
+
+    // Video properties get the same treatment.
+    const vid = run({ media_url_video: '["https://cdn.example.com/a.mp4"]' });
+    const btn = find(vid.container, "button")[0];
+    check("JSON array in a video property parsed", !!btn);
+    btn._listeners.click();
+    check("player gets the parsed URL",
+        find(vid.container, "video")[0]._src === "https://cdn.example.com/a.mp4");
+}
+
+// --------------------------------------------------------------- case 20
+console.log("\n[20] A shot with several images renders all of them");
+{
+    const gallery = '["https://cdn.dribbble.com/one.png","https://cdn.dribbble.com/two.png","https://cdn.dribbble.com/three.png"]';
+
+    const { container } = run({
+        source_url: "https://dribbble.com/shots/27606181-Financial-Dashboard",
+        media_url_gallery: gallery,
+        thumbnail_url: "https://cdn.dribbble.com/one.png",
+    });
+    const imgs = find(container, "img");
+    check("all three stills rendered", imgs.length === 3, `got ${imgs.length}`);
+    check("in document order",
+        imgs.map((i) => i._src.split("/").pop()).join(",") === "one.png,two.png,three.png",
+        imgs.map((i) => i._src).join(" | "));
+    check("each is clickable to the source", imgs.every((i) => i.style.cursor === "pointer"));
+
+    // Each image keeps its own upgrade + fallback chain.
+    const pins = run({
+        media_url_gallery: '["https://i.pinimg.com/236x/a.jpg","https://i.pinimg.com/236x/b.jpg"]',
+    });
+    const pinImgs = find(pins.container, "img");
+    check("every gallery image is upgraded",
+        pinImgs.map((i) => i._src).join(",") ===
+            "https://i.pinimg.com/originals/a.jpg,https://i.pinimg.com/originals/b.jpg");
+    pinImgs[0]._listeners.error();
+    check("one image failing does not affect the others",
+        pinImgs[0]._src === "https://i.pinimg.com/236x/a.jpg" &&
+        pinImgs[1]._src === "https://i.pinimg.com/originals/b.jpg");
+
+    // media_url_image alone already carries every match, so it drives the gallery too.
+    const fromImageProp = run({
+        media_url_image: '["https://cdn.dribbble.com/x.png","https://cdn.dribbble.com/y.png"]',
+    });
+    check("media_url_image with several matches renders all",
+        find(fromImageProp.container, "img").length === 2);
+
+    // A single-image shot still renders exactly one.
+    const one = run({ media_url_gallery: "https://cdn.dribbble.com/solo.png" });
+    check("single-image gallery renders one", find(one.container, "img").length === 1);
+
+    // No gallery captured -> unchanged single-hero behaviour.
+    const noGallery = run({ thumbnail_url: "https://cdn.example.com/og.png" });
+    check("falls back to the single hero image",
+        find(noGallery.container, "img").length === 1 &&
+        find(noGallery.container, "img")[0]._src === "https://cdn.example.com/og.png");
+
+    // Video still wins over a gallery of stills.
+    const withVideo = run({
+        media_url: "https://cdn.example.com/clip.mp4",
+        media_url_gallery: gallery,
+    });
+    check("video still takes precedence over a still gallery",
+        find(withVideo.container, "button").length === 1);
+}
+
 console.log(failures === 0 ? "\nALL CHECKS PASSED" : `\n${failures} CHECK(S) FAILED`);
 process.exit(failures === 0 ? 0 : 1);

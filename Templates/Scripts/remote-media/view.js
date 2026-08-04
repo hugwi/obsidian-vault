@@ -69,7 +69,28 @@ function valuesOf(value) {
         return value.flatMap(valuesOf);
     }
 
-    return [String(value).trim()].filter(Boolean);
+    const text = String(value).trim();
+
+    if (!text) {
+        return [];
+    }
+
+    // A selector that matches more than one element is stored by the clipper as a
+    // JSON array string — `["url1","url2"]` — while a single match is stored bare.
+    // Parse the array form, or every multi-image clip is silently unreadable.
+    if (text.startsWith("[") && text.endsWith("]")) {
+        try {
+            const parsed = JSON.parse(text);
+
+            if (Array.isArray(parsed)) {
+                return parsed.flatMap(valuesOf);
+            }
+        } catch {
+            // Not JSON after all — treat it as a plain value.
+        }
+    }
+
+    return [text];
 }
 
 function isRemoteUrl(value) {
@@ -180,7 +201,7 @@ const streamUrl = mediaUrl === manifestUrl ? undefined : manifestUrl;
 const rawImageCandidates = [
     // 1. the media container itself, matched by a site-specific selector
     ...srcsetUrlsOf(page.media_url_srcset),
-    ...urlsOf(page.media_url_image),
+    ...urlsOf(page.media_url_image, page.media_url_gallery),
     // 2. what the page says it is
     ...urlsOf(page.thumbnail_url, page.media_url_image_meta),
     // 3. last resort: any image in figure/article/main, which may not be the subject
@@ -213,6 +234,24 @@ const imageCandidates = withUpgrades([
 ]);
 
 const posterUrl = imageCandidates[0] ?? "";
+
+// A shot often has several images. media_url_gallery holds every image found inside
+// the shot's own container, so those render as a stack rather than only the first.
+// Each still keeps its own upgrade/fallback chain.
+// Deliberately not upgraded here — each entry gets its own upgrade chain below, so
+// upgrading first would turn one image's variants into extra gallery entries.
+// media_url_image already holds every image the container selector matched, so a
+// multi-image shot needs no extra capture — just reading past the first entry.
+// media_url_gallery is an optional override for a site needing its own container.
+const galleryUrls = urlsOf(page.media_url_gallery, page.media_url_image).filter(
+    (candidate) => extensionLooksLike(IMAGE_EXT, candidate)
+);
+
+function candidatesFor(url) {
+    const upgrades = withUpgrades([url]);
+
+    return upgrades.length ? upgrades : [url];
+}
 
 const altText = page.title ? String(page.title) : "Preview";
 
@@ -291,22 +330,32 @@ if (!mediaUrl && !posterUrl) {
 // No playable video, but we do have an image — the normal Dribbble / Pinterest
 // case. Show the still full width instead of reporting a missing video.
 if (!mediaUrl) {
-    const figure = root.createDiv();
+    // Several images means a multi-image shot: render each with its own upgrade
+    // chain. With one image (or none captured) keep the full precedence chain, so a
+    // container image that 404s can still fall back to og:image.
+    const stills = galleryUrls.length > 1
+        ? galleryUrls.map(candidatesFor)
+        : [imageCandidates];
 
-    figure.style.overflow = "hidden";
-    figure.style.borderRadius = "12px";
-    figure.style.background = "var(--background-secondary)";
+    for (const candidates of stills) {
+        const figure = root.createDiv();
 
-    const image = createImage(figure, imageCandidates);
+        figure.style.overflow = "hidden";
+        figure.style.borderRadius = "12px";
+        figure.style.background = "var(--background-secondary)";
+        figure.style.marginBottom = stills.length > 1 ? "12px" : "0";
 
-    image.style.width = "100%";
-    image.style.maxHeight = "80vh";
-    image.style.objectFit = "contain";
-    image.style.display = "block";
+        const image = createImage(figure, candidates);
 
-    if (sourceUrl) {
-        image.style.cursor = "pointer";
-        image.addEventListener("click", () => window.open(sourceUrl, "_blank"));
+        image.style.width = "100%";
+        image.style.maxHeight = "80vh";
+        image.style.objectFit = "contain";
+        image.style.display = "block";
+
+        if (sourceUrl) {
+            image.style.cursor = "pointer";
+            image.addEventListener("click", () => window.open(sourceUrl, "_blank"));
+        }
     }
 
     if (streamUrl) {
