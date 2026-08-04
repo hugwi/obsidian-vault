@@ -3,8 +3,8 @@
 // attribute? The clipper only ever sees the DOM as it stands when you press clip, so
 // an image the page has not materialised yet cannot be captured by any selector.
 //
-// Wrapped in an IIFE and returning a string, so it is safe to re-run in the same
-// console session and prints its result rather than `undefined`.
+// Wrapped in an IIFE and logged explicitly because Firefox displays an async IIFE as
+// a pending Promise without necessarily printing its eventual return value.
 (async () => {
     const SELECTOR = [
         "#ssr-app img",
@@ -75,5 +75,8 @@
             })),
     };
 
-    return JSON.stringify(report, null, 2);
+    const output = JSON.stringify(report, null, 2);
+
+    console.log(output);
+    return output;
 })();
