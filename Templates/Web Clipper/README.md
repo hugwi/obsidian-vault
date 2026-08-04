@@ -8,7 +8,7 @@ is a no-AI visual clipper.
 
 | Template | Triggers on | Saves to |
 |---|---|---|
-| `inspiration-media.json` | 21st.dev, dribbble.com, pinterest.com, pin.it, `schema:@VideoObject` | `Clippings` |
+| `inspiration-media.json` | 21st.dev, dribbble.com, pinterest.* (+ subdomains), pin.it | `Clippings` |
 | `youtube-summary.json` | youtube.com/watch, youtu.be | `Inbox/Videos` |
 | `medium-summary.json` | medium.com (+ subdomains) | `Inbox/Articles` |
 | `article-summary.json` | any page with `schema:@Article` / `@NewsArticle` | `Inbox/Articles` |
@@ -18,17 +18,20 @@ is a no-AI visual clipper.
 ### Template order in the extension
 
 Web Clipper uses the **first** template whose trigger matches, in list order, and it does
-not prefer a URL trigger over a schema one. No two templates here share a URL trigger, but
-two schema triggers overlap, so order them most-specific → most-generic:
+not prefer a URL trigger over a schema one. So put URL-triggered templates above
+schema-triggered ones, and keep the generic catch-all last:
 
 | # | Template | Why here |
 |---|---|---|
-| 1 | `youtube-summary.json` | YouTube pages also carry `schema:@VideoObject`, which #2 triggers on |
-| 2 | `inspiration-media.json` | design sites also carry `schema:@Article` sometimes, which #6 triggers on |
-| 3 | `medium-summary.json` | URL-specific, no overlap |
-| 4 | `reddit-summary.json` | URL-specific, no overlap |
-| 5 | `x-summary.json` | URL-specific, no overlap |
-| 6 | `article-summary.json` | generic `schema:@Article` / `@NewsArticle` catch-all — must be last |
+| 1–5 | `inspiration-media`, `youtube-summary`, `medium-summary`, `reddit-summary`, `x-summary` | all URL-triggered, mutually exclusive — order among them does not matter |
+| 6 | `article-summary.json` | generic `schema:@Article` / `@NewsArticle` catch-all — **must be last**, or it claims design pages that happen to publish Article metadata |
+
+`inspiration-media.json` is deliberately **URL-triggered only**. It briefly also triggered
+on `schema:@VideoObject`, which the original brief asked for, but that matches any page
+embedding video metadata — news sites, blogs, product pages, docs — so it fired almost
+everywhere instead of on design sites. If you want it on a site with no trigger, pick
+**Inspiration - Media** from the clipper's template dropdown, or add a trigger (see
+*Adding another site*).
 
 None of the pre-existing templates trigger on 21st.dev, Dribbble or Pinterest, so
 `inspiration-media.json` is the only one that claims those sites.
@@ -47,7 +50,7 @@ Two things to watch if you ever import from that collection:
 - `stackademic-bullet-summary-clipper.json` also triggers on the generic `schema:@Article`,
   so it belongs down at position 6 alongside `article-summary.json`.
 - Its five YouTube templates all trigger on `youtube.com/watch` and would collide with each
-  other and with our `schema:@VideoObject`. Import at most one, and keep it at position 1.
+  other. Import at most one.
 
 Their `CONTRIBUTING.md` also suggests pairing templates with a plugin that **downloads
 images into the vault**. That is the opposite of what this workflow wants — remote URLs
@@ -122,27 +125,44 @@ It scrapes the page for a playable video in this order and stores whatever it fi
 | `media_url_schema` | Schema.org `VideoObject` → `contentUrl` |
 | `media_url_source` | `<video><source src>` |
 | `media_url_video` | `<video src>` |
-| `media_url_image` | `src` of the page's media container (see selectors below) |
+| `media_url_image` | `src` of the page's media container (tight selectors, below) |
 | `media_url_srcset` | `srcset` of the same container — the renderer picks the biggest entry |
-| `media_url_image_meta` | `og:image:secure_url`, `twitter:image`, schema `ImageObject.contentUrl`, `<video poster>` |
+| `media_url_image_meta` | `og:image:secure_url`, `twitter:image`, schema `ImageObject.contentUrl`, container `<video poster>` |
 | `thumbnail_url` | `og:image` |
+| `media_url_image_generic` | `figure img`, `article img`, `main img` — last resort only |
 
 Most Dribbble and Pinterest posts are **stills, not video**, so the clipper grabs the
 image out of the media container rather than only hunting for an MP4.
 
-The container selector is a list, ordered site-specific → generic, so it degrades to
-something sensible on a site it has never seen:
+Images are captured at three confidence levels, and the renderer prefers them in this
+order:
 
 ```
-[data-test-id="pin-closeup-image"] img,   ← Pinterest
-[data-test-id="closeup-image"] img,
-[data-test-id="pin-image"] img,
-.shot-media-container img,                ← Dribbble
-.media-shot img,
-[data-testid="shot-media"] img,
-figure img,                               ← generic semantic markup
-main img
+1. tight — the media container itself
+   [data-test-id="pin-closeup-image"] img    ← Pinterest
+   [data-test-id="closeup-image"] img
+   [data-test-id="pin-image"] img
+   .shot-media-container img                 ← Dribbble
+   .media-shot img
+   [data-testid="shot-media"] img
+   [class*="shot-media"] img
+   [class*="preview"] img                    ← 21st.dev / component galleries
+   [class*="component"] img
+
+2. metadata — what the page says it is
+   og:image · og:image:secure_url · twitter:image · schema ImageObject
+
+3. generic — any image in figure / article / main
 ```
+
+**Level 2 outranks level 3 deliberately.** A broad `article img` matches whatever comes
+first in the DOM, which on a Dribbble shot page is often a shot from the related-shots
+grid — a different designer's work. `og:image` always describes the page you clipped, so
+it wins. The generic level exists only so an unknown site still yields something.
+
+Every **video** selector is container-scoped for the same reason, and stops at
+`figure video` rather than falling through to `article`/`main`: a video that far from the
+container is almost always a recommendation.
 
 If every selector misses, `media_url_image_meta` and `thumbnail_url` still carry the
 social-card image, which nearly every site publishes. For a site with no dedicated
@@ -240,7 +260,7 @@ cases. Add a case next to `[16] Site rules` for whatever you added.
 | Dribbble | `dribbble.com` + subdomains | drop the `?resize=…` query for the unscaled original |
 | Pinterest | `pinterest.*` + subdomains, `pin.it` | rewrite `/236x/` → `/originals/` |
 | 21st.dev | `21st.dev` + subdomains | none needed; assets are served full size |
-| anything else | manual pick, or `schema:@VideoObject` | generic selectors + meta/schema fallbacks |
+| anything else | pick manually from the dropdown, or add a trigger | generic selectors + meta/schema fallbacks |
 
 ### Known limitation
 
