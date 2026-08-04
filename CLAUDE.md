@@ -64,13 +64,17 @@ a clipping keeps `categories: "[[Clippings]]"` and stays in `Clippings/` while s
 up as that project's raw material. `project: name/slice` scopes to a sub-area of
 `name`. A plain `[[wikilink]]` to the project note counts too (that is how daily notes
 land on the desk). When asked to attach material to a project, add the `project:`
-property — never move the file.
+property — never move the file. By hand the user does this with the **Attach note to
+project** command (Cmd+P → "project"); every clipping template now ships an empty
+`project:` field to fill at clip time.
 
 - Project note body ends in ` ```dataviewjs / await dv.view("Templates/Scripts/project-desk") ` —
   renders packets, raw material split by `action:`, resources/areas/people, recent
   daily mentions, open tasks. Template: `Templates/Project Template.md`.
 - Hub [[Projects]] runs the same view with `{mode: "board"}`: every project by status,
   with next action, material counts, and any `project:` value that has **no note yet**.
+- Capture commands: `Templates/Commands/` + user scripts in `Templates/Templater/`
+  (Templater `user_scripts_folder` + `enabled_templates_hotkeys` — see that README).
 - Full description: [[Project workflow]] · views: `Templates/Bases/Projects.base`.
 
 ### Finding related notes

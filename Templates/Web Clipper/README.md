@@ -81,6 +81,18 @@ The one way to break this is to empty `noteContentFormat`. Keep a body in it.
    Interpreter enabled** — without it the `TL;DR`/`Key points` blocks stay empty.
 4. **Settings → Templates → Import** → import each `*.json` in this folder.
 
+> **Editing a template here does nothing until you re-import it.** The extension keeps
+> its own copy; these files are the source, not the live config.
+
+## The `project` field
+
+Every template carries an empty `project` property. The extension shows properties as
+editable fields in the clip preview, so if you already know the clip belongs to a
+project, type `[[Ethira]]` there before saving and it lands on that project's desk
+straight away. Leave it empty and nothing happens — an empty value is ignored by the
+desk and by every `.base` view. You can always attach it later with the **Attach note
+to project** command (Cmd/Ctrl+P → "project"). See [[Project workflow]].
+
 ## How it works
 
 - The `context` field is the *only* text the AI sees. Prompt variables

@@ -8,6 +8,7 @@
   "properties": [
     { "name": "title", "value": "X thread by {{selector:div[data-testid=\"User-Name\"]|first}}", "type": "text" },
     { "name": "type", "value": "social", "type": "text" },
+    { "name": "project", "value": "", "type": "text" },
     { "name": "platform", "value": "x", "type": "text" },
     { "name": "author", "value": "{{selector:div[data-testid=\"User-Name\"]|first}}", "type": "text" },
     { "name": "url", "value": "{{url}}", "type": "text" },

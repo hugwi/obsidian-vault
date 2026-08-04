@@ -8,6 +8,7 @@
   "properties": [
     { "name": "title", "value": "{{schema:@VideoObject:name}}", "type": "text" },
     { "name": "type", "value": "video", "type": "text" },
+    { "name": "project", "value": "", "type": "text" },
     { "name": "platform", "value": "youtube", "type": "text" },
     { "name": "channel", "value": "{{schema:@VideoObject:author}}", "type": "text" },
     { "name": "url", "value": "{{url}}", "type": "text" },

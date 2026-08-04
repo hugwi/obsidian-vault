@@ -8,6 +8,7 @@
   "properties": [
     { "name": "title", "value": "{{selector:shreddit-post?post-title|trim}}", "type": "text" },
     { "name": "type", "value": "discussion", "type": "text" },
+    { "name": "project", "value": "", "type": "text" },
     { "name": "platform", "value": "reddit", "type": "text" },
     { "name": "subreddit", "value": "{{selector:shreddit-post?subreddit-prefixed-name}}", "type": "text" },
     { "name": "author", "value": "{{selector:shreddit-post?author}}", "type": "text" },

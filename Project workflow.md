@@ -49,6 +49,26 @@ Two ways, both of which leave the source note where it is:
 Nothing moves folders. A clipping that becomes your own thinking gets rewritten into
 a new note at the root — that is the only case where a file leaves `Clippings/`.
 
+## Capture into it
+
+Two command-palette entries do the property-writing for you. Hit Cmd/Ctrl+P and type
+**project** (or assign hotkeys in Settings → Hotkeys):
+
+- **Capture to project** — a picker lists your projects, active first. Choose one and it
+  opens with the cursor on a fresh `- YYYY-MM-DD — ` bullet under `## Log`, so you write
+  with the project's own content in front of you. Choose *➕ New note* instead and it asks
+  for a title and makes a plain root note in `[[Inbox]]`. Esc cancels.
+- **Attach note to project** — run it while reading any note and pick a project; it writes
+  `project: "[[Name]]"` into that note's frontmatter. This is the one for clippings.
+
+Both are Templater templates in `Templates/Commands/`, backed by user scripts in
+`Templates/Templater/` — see the README there. What counts as a project note is defined
+once, here: **a note with `categories: "[[Projects]]"` that either names itself in
+`project:` or has no `project:` at all.** Anything pointing at a different project is a
+note *inside* that project. That rule is implemented twice — `Templates/Templater/
+projects.js` and `Templates/Scripts/project-desk/view.js` — because one reads Obsidian's
+metadataCache and the other reads Dataview. Change both.
+
 ## Work it
 
 The project note ends in:

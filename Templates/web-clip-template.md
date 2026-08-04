@@ -3,6 +3,7 @@ title: {{title}}
 source_url: {{url}}
 date_clipped: {{date:YYYY-MM-DD}}
 author:
+project: 
 tags: [inbox, web-clip]
 status: inbox
 clip_type: article

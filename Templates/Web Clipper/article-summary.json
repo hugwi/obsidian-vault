@@ -8,6 +8,7 @@
   "properties": [
     { "name": "title", "value": "{{title}}", "type": "text" },
     { "name": "type", "value": "article", "type": "text" },
+    { "name": "project", "value": "", "type": "text" },
     { "name": "platform", "value": "{{site}}", "type": "text" },
     { "name": "author", "value": "{{author|wikilink}}", "type": "text" },
     { "name": "url", "value": "{{url}}", "type": "text" },
