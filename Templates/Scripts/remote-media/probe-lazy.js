@@ -7,7 +7,7 @@
 // a pending Promise without necessarily printing its eventual return value.
 (async () => {
     const SELECTOR = [
-        "#ssr-app img",
+        '#ssr-app > .content-block-container.full-width img[data-test="v-img"]',
         '[data-test-id="pin-closeup-image"] img',
         '[data-test-id="closeup-image"] img',
     ].join(", ");
@@ -37,7 +37,7 @@
         // where all three are empty is an image the page never materialised.
         images: matched.map((img) => ({
             src: (img.getAttribute("src") || "").slice(0, 100),
-            dataSrc: (img.getAttribute("data-src") || "").slice(0, 100),
+            dataSrcset: (img.getAttribute("data-srcset") || "").slice(0, 120),
             srcset: (img.getAttribute("srcset") || "").slice(0, 120),
             natural: `${img.naturalWidth}x${img.naturalHeight}`,
         })),

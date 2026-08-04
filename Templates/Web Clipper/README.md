@@ -294,25 +294,22 @@ had already produced two wrong-image bugs:
 | Images inside it | 2 — the shot's own |
 | Where the shot's images sit | directly under `#ssr-app` — both of them, and nothing else |
 | The designer's "services" cards | `services-by-user__service-card`, **outside** `#ssr-app` |
-| `og:image` vs the DOM image | different upload ids (`48556246` vs `48556248`) |
+| Actual shot uploads | `48556248` and lazy-loaded `48556247` |
+| `og:image` | separate social-card upload `48556246`; not a shot gallery image |
 
-That last row is the important one: **a shot's images cannot be reconstructed from page
-metadata.** `og:image` is one image; the others exist only in the container. So
-`media_url_gallery` captures `#ssr-app img` and the renderer draws every image it finds,
-while `#ssr-app` is safe to use for text too because the related content is genuinely
-outside it.
+The gallery cannot be reconstructed from page metadata: `og:image` is a separate social
+card. `media_url_gallery` therefore captures only direct full-width content blocks under
+`#ssr-app`; related shots are outside that container.
 
-Use `#ssr-app img` plainly — **do not refine it.** An earlier version narrowed it to
-`#ssr-app .block-media img, #ssr-app .content-block img`, reading those class names off a
-console ancestor dump. They do not match as CSS classes in the live DOM, so the capture
-silently returned empty and every clip fell back to a single metadata image. The probe
-already established that `#ssr-app` contains the shot's images and nothing else, which is
-the whole reason the container is worth using; narrowing it added risk and bought nothing.
+The selector verified through CDP is
+`#ssr-app > .content-block-container.full-width img[data-test="v-img"]`. The direct-child
+and `full-width` constraints select the two media blocks while excluding the following
+description block.
 
 #### Lazy-loaded images
 
 A shot image below the fold is rendered with a placeholder, so `getAttribute("src")`
-returns `""` for it while the real URL sits in `srcset` or `data-src`. The clipper stores
+returns `""` for it while the real URL sits in `srcset` or `data-srcset`. The clipper stores
 one entry per matched element (`shared.ts` → `extractContentBySelector`), so that empty
 string still occupies its slot in the array — which is what makes the fix possible.
 
@@ -322,11 +319,11 @@ Three captures therefore read the same element set:
 |---|---|
 | `media_url_gallery` | `src` |
 | `media_url_gallery_srcset` | `srcset` |
-| `media_url_gallery_lazy` | `data-src` |
+| `media_url_gallery_lazy` | `data-srcset` |
 
 The renderer resolves **each image from its own slot index**, taking the first capture
 that has a URL there. It deliberately does not pick "whichever capture matched the most
-images": on a `data-src` page the `src` and `data-src` captures each hold a different
+images": on a lazy-loaded page the `src` and `data-srcset` captures can hold different
 *half* of the set, so choosing one discards the other half. Nor does it concatenate them,
 which would render one image's variants as separate pictures.
 

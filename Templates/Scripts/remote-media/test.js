@@ -737,12 +737,13 @@ console.log("\n[21] Real Dribbble shot 27606181 (probed 2026-08-04)");
 }
 
 // ── Case 23: the real clipped note, verbatim ────────────────────────────────
-// Values copied verbatim from the synced clip and confirmed by a live browser probe.
-// Dribbble no longer has #ssr-app: the first shot image comes from `main img`, while
-// the other distinct shot image is the page's og:image.
+// Values captured by CDP from the rendered page. The second image has no src but does
+// expose srcset/data-srcset; og:image is a third social-card asset and must not render.
 {
     const shotOne =
         "https://cdn.dribbble.com/userupload/48556248/file/f2e88a1df2306dbe05345d34077eef9d.png?resize=752x&vertical=center";
+    const shotTwo =
+        "https://cdn.dribbble.com/userupload/48556247/file/0ee52e59ece2d225a43b7242bb917aff.png";
     const serviceCards = [
         "https://cdn.dribbble.com/userupload/44513408/file/still-aa63a796441785157c67c8b39238af71.png?resize=400x300&vertical=center",
         "https://cdn.dribbble.com/userupload/46513805/file/still-f52ceef54e6e34456e6f2e3ce55d167a.png?resize=400x300&vertical=center",
@@ -752,20 +753,24 @@ console.log("\n[21] Real Dribbble shot 27606181 (probed 2026-08-04)");
 
     const fixed = run({
         source_url: "https://dribbble.com/shots/27606181-Financial-Dashboard",
-        media_url_gallery: "",
+        media_url_gallery: JSON.stringify([shotOne, ""]),
+        media_url_gallery_srcset: JSON.stringify(["", `${shotTwo}?resize=1890x1418 1890w`]),
+        media_url_gallery_lazy: JSON.stringify(["", `${shotTwo}?resize=1890x1418 1890w`]),
         media_url_image: "",
         thumbnail_url: ogImage,
         media_url_image_generic: JSON.stringify([shotOne, "", ...serviceCards]),
     });
     const imgs = find(fixed.container, "img");
-    check("both shot images render from the exact live clip", imgs.length === 2,
+    check("both shot images render from the CDP capture", imgs.length === 2,
         `got ${imgs.length}`);
     check("the ?resize= variant is upgraded to the original",
         imgs[0]._src === shotOne.split("?")[0], imgs[0]._src);
     check("no service card reaches the gallery",
         !imgs.some((img) => /still-/.test(img._src)));
-    check("og:image supplies the second distinct shot image",
-        imgs[1]._src === ogImage.split("?")[0], imgs[1]._src);
+    check("srcset supplies the actual second shot image",
+        imgs[1]._src === shotTwo, imgs[1]._src);
+    check("og:image is not rendered as a gallery image",
+        !imgs.some((img) => img._src.includes("48556246")));
 }
 
 console.log(failures === 0 ? "\nALL CHECKS PASSED" : `\n${failures} CHECK(S) FAILED`);

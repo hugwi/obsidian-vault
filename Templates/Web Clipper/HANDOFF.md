@@ -86,26 +86,23 @@ Three properties read the same element set through different attributes:
 |---|---|
 | `media_url_gallery` | `src` |
 | `media_url_gallery_srcset` | `srcset` |
-| `media_url_gallery_lazy` | `data-src` |
+| `media_url_gallery_lazy` | `data-srcset` |
 
 `view.js` resolves **each image from its own slot index**, taking the first capture
 that has a URL at that index. Two tempting alternatives are both wrong and are
 covered by tests:
-- *"use whichever capture matched the most images"* — on a `data-src` page the `src`
-  and `data-src` captures each hold a different **half** of the set, so picking one
+- *"use whichever capture matched the most images"* — on a lazy-loaded page the `src`
+  and `data-srcset` captures can hold different **halves** of the set, so picking one
   discards the other half.
 - *"concatenate all three"* — renders one image's own srcset variants as separate
   pictures.
 
 ## Mistakes already made — do not repeat these
 
-- **Do not narrow `#ssr-app img`.** It was once refined to
-  `#ssr-app .block-media img, #ssr-app .content-block img`, with those class names
-  read off a console ancestor dump. They do not match as CSS classes in the live DOM,
-  so the capture silently returned empty. A probe had already shown `#ssr-app` holds
-  the shot's images and nothing else — no `nav`, `header` or `footer` inside it.
+- **Use the CDP-verified selector**, not a guessed descendant:
+  `#ssr-app > .content-block-container.full-width img[data-test="v-img"]`.
 - **Page metadata cannot rebuild a shot's image set.** On shot 27606181 `og:image` is
-  upload `48556246` while the in-page image is `48556248` — different files. This is
+  upload `48556246`, while the real gallery uploads are `48556248` and `48556247`. This is
   why the container capture exists at all.
 - **Keep video selectors container-scoped.** An unscoped `{{selector:video?src}}`
   pulled a video out of the "More by this designer" grid — someone else's work.

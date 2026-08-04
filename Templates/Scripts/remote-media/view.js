@@ -96,7 +96,7 @@ function valuesOf(value) {
 // Positional read of a multi-match capture. The clipper stores one entry per matched
 // element, so entry N of every capture describes the same image — an image whose
 // `src` is a lazy placeholder yields an empty entry there and a real URL in the
-// srcset/data-src capture at the same index. Empty entries must therefore be kept:
+// srcset/lazy-attribute capture at the same index. Empty entries must therefore be kept:
 // dropping them would slide every later URL onto the wrong image.
 function slotsOf(value) {
     if (value === null || value === undefined) {
@@ -279,11 +279,11 @@ const posterUrl = imageCandidates[0] ?? "";
 //
 // Sites expose a multi-image post in three ways at once, and a lazy-loading page
 // splits the answer across them: the `src` of every image, a srcset per image, and a
-// data-src placeholder holding the real URL until the image scrolls into view. An
+// lazy attribute holding the real URL until the image scrolls into view. An
 // image still below the fold at clip time leaves its `src` slot empty while the
 // other two carry it, so the captures are complementary rather than alternatives —
 // resolve each image from its own slot, first capture that has a URL there. Taking
-// whichever capture is longest instead would drop half of a data-src page, and
+// whichever capture is longest instead would drop half of a lazy-loaded page, and
 // concatenating them all would show one image's variants as separate pictures.
 const gallerySlots = [
     slotsOf(page.media_url_gallery).map((raw) => urlsOf(raw)[0] ?? ""),
@@ -303,49 +303,11 @@ for (let slot = 0; slot < slotCount; slot += 1) {
     }
 }
 
-// Dribbble removed the former #ssr-app wrapper in August 2026. The current page puts
-// the primary shot first in `main`, while its other shot image is exposed as og:image;
-// later `main img` matches are related shots. Combine only those two page-owned values.
-// Canonical upgraded URLs prevent a one-image shot from being rendered twice when its
-// DOM and metadata URLs differ only by resize parameters.
-const dribbbleFallbackGallery = (() => {
-    if (!/(^|\.)dribbble\.com$/.test(hostOf(sourceUrl))) {
-        return [];
-    }
-
-    const genericSlots = slotsOf(page.media_url_image_generic);
-    const firstInPage = urlsOf(genericSlots[0])[0];
-    const metadataImage = urlsOf(page.thumbnail_url, page.media_url_image_meta)[0];
-
-    // A lone generic match may be a related shot. The observed live page produces
-    // multiple main-image slots (including an empty lazy slot), which proves this is
-    // the page layout whose first match is the primary shot.
-    if (genericSlots.length < 2) {
-        return [];
-    }
-
-    const candidates = [firstInPage, metadataImage].filter(Boolean);
-    const seen = new Set();
-
-    return candidates.filter((url) => {
-        const canonical = withUpgrades([url])[0] ?? url;
-
-        if (seen.has(canonical)) {
-            return false;
-        }
-
-        seen.add(canonical);
-        return true;
-    });
-})();
-
 // Sites without their own container selector still expose several images through
 // media_url_image, which matches a different element set — so it is a fallback, not
 // a fourth slot source.
 const galleryUrls = resolvedGallery.length
     ? [...new Set(resolvedGallery)]
-    : dribbbleFallbackGallery.length > 1
-      ? dribbbleFallbackGallery
     : urlsOf(page.media_url_image).filter((candidate) =>
           extensionLooksLike(IMAGE_EXT, candidate)
       );
