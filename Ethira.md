@@ -3,6 +3,9 @@ categories:
   - "[[Projects]]"
 project: "[[Ethira]]"
 created: 2026-06-23
+status: active
+outcome: 
+due: 
 ---
 Äga och driva saker
 Lukas har inte tid vid sidan om 
@@ -75,4 +78,12 @@ They have exel file
 - Fix issues 
 
 - Let go of our pride 
-- Everytime acquire we need, the SLA is ASAP 
+- Everytime acquire we need, the SLA is ASAP
+
+---
+
+## Desk
+
+```dataviewjs
+await dv.view("Templates/Scripts/project-desk");
+```

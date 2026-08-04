@@ -1,6 +1,5 @@
 filters:
   and:
-    - categories.contains(link("Projects"))
     - '!file.name.contains("Template")'
 properties:
   file.name:
@@ -9,16 +8,100 @@ properties:
     displayName: Project
   status:
     displayName: Status
+  outcome:
+    displayName: Outcome
+  due:
+    displayName: Due
+  action:
+    displayName: Action
+  rating:
+    displayName: Rating
   created:
     displayName: Created
 views:
+  # A project with no status counts as active — the 47 notes that predate the
+  # status vocabulary should not vanish from the view you open every day.
   - type: table
-    name: Projects
+    name: 🎯 Active
+    filters:
+      and:
+        - categories.contains(link("Projects"))
+        - status != "pursue"
+        - status != "paused"
+        - status != "done"
     groupBy:
       property: project
       direction: ASC
     order:
       - file.name
-      - project
+      - outcome
+      - due
+      - status
+  - type: table
+    name: 🌱 To pursue
+    filters:
+      and:
+        - categories.contains(link("Projects"))
+        - status == "pursue"
+    groupBy:
+      property: project
+      direction: ASC
+    order:
+      - file.name
+      - outcome
+      - created
+  - type: table
+    name: ⏸️ Paused
+    filters:
+      and:
+        - categories.contains(link("Projects"))
+        - status == "paused"
+    groupBy:
+      property: project
+      direction: ASC
+    order:
+      - file.name
+      - outcome
+      - created
+  - type: table
+    name: ✅ Done
+    filters:
+      and:
+        - categories.contains(link("Projects"))
+        - status == "done"
+    groupBy:
+      property: project
+      direction: ASC
+    order:
+      - file.name
+      - outcome
+      - due
+  # Raw material: notes attached to a project that are not project notes themselves
+  # — clippings, resources, people. They keep their own category and folder.
+  - type: table
+    name: 📎 Material
+    filters:
+      and:
+        - file.hasProperty("project")
+        - '!categories.contains(link("Projects"))'
+    groupBy:
+      property: project
+      direction: ASC
+    order:
+      - file.name
+      - categories
+      - action
+      - rating
+  - type: table
+    name: All
+    filters:
+      and:
+        - file.hasProperty("project")
+    groupBy:
+      property: project
+      direction: ASC
+    order:
+      - file.name
+      - categories
       - status
       - created
