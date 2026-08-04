@@ -262,6 +262,39 @@ cases. Add a case next to `[16] Site rules` for whatever you added.
 | 21st.dev | `21st.dev` + subdomains | none needed; assets are served full size |
 | anything else | pick manually from the dropdown, or add a trigger | generic selectors + meta/schema fallbacks |
 
+### Dribbble container, verified 2026-08-04
+
+Probed on `dribbble.com/shots/27606181` from the browser console, because guessing here
+had already produced two wrong-image bugs:
+
+| Question | Answer |
+|---|---|
+| Does `#ssr-app` exist? | yes |
+| Is it the whole app root? | **no** — no `nav`, no `header`, no `footer` inside it |
+| Images inside it | 2 — the shot's own |
+| Where the shot's images sit | `#ssr-app .block-media img`, wrapped in `.block-media-wrapper.content-block` |
+| The designer's "services" cards | `services-by-user__service-card`, **outside** `#ssr-app` |
+| `og:image` vs the DOM image | different upload ids (`48556246` vs `48556248`) |
+
+That last row is the important one: **a shot's images cannot be reconstructed from page
+metadata.** `og:image` is one image; the others exist only in the container. So
+`media_url_gallery` captures `#ssr-app .block-media img` and the renderer draws every
+image it finds, while `#ssr-app` is safe to use for text because the related content is
+genuinely outside it.
+
+The note body captures the shot's text with
+
+```
+{{selectorHtml:#ssr-app|remove_html:("img,picture,source,video,svg,button,noscript,form")|markdown|trim}}
+```
+
+Images are stripped from that markdown deliberately — the renderer already shows them, and
+embedding them twice would double every remote request.
+
+**Scroll through the shot before clipping.** Dribbble lazy-loads images below the fold, and
+the clipper only sees the DOM as it stands when you press clip. An image that has not
+loaded yet has no usable `src` to capture.
+
 ### Known limitation
 
 Pinterest and Dribbble often expose no stable direct MP4 — signed/expiring CDN links,

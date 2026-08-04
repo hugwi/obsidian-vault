@@ -646,5 +646,42 @@ console.log("\n[20] A shot with several images renders all of them");
         find(withVideo.container, "button").length === 1);
 }
 
+// --------------------------------------------------------------- case 21
+console.log("\n[21] Real Dribbble shot 27606181 (probed 2026-08-04)");
+{
+    // Verified in-page: the shot's images live in #ssr-app .block-media, while the
+    // designer's services-by-user cards sit outside #ssr-app entirely. og:image is a
+    // *different* upload id from the DOM image, so metadata alone cannot rebuild the set.
+    const ogImage =
+        "https://cdn.dribbble.com/userupload/48556246/file/08515bfa69a616df29fc490bfbc19bf1.png?crop=0x0-3200x2400&resize=1600x1200";
+    const inPage = "https://cdn.dribbble.com/userupload/48556248/file/f2e88a1df2306dbe0534.png";
+    const serviceCard = "https://cdn.dribbble.com/userupload/44513408/file/still-aa63a796441785.png";
+
+    const { container } = run({
+        title: "Financial Dashboard, B2B Sales Pipeline & Revenue Tracking",
+        source_url: "https://dribbble.com/shots/27606181-Financial-Dashboard",
+        media_url_gallery: JSON.stringify([ogImage, inPage]),
+        thumbnail_url: ogImage,
+    });
+    const imgs = find(container, "img");
+    check("both shot images rendered", imgs.length === 2, `got ${imgs.length}`);
+    check("og:image crop/resize stripped to the original",
+        imgs[0]._src ===
+            "https://cdn.dribbble.com/userupload/48556246/file/08515bfa69a616df29fc490bfbc19bf1.png",
+        imgs[0]._src);
+    imgs[0]._listeners.error();
+    check("falls back to the cropped og:image if the original 404s", imgs[0]._src === ogImage);
+    check("second image independent", imgs[1]._src === inPage);
+
+    // The services cards are outside #ssr-app, so they never reach the gallery — but
+    // if one ever leaked in via the generic tier it must not displace the shot.
+    const leaked = run({
+        media_url_gallery: inPage,
+        media_url_image_generic: serviceCard,
+    });
+    check("a service-card image cannot displace the shot",
+        find(leaked.container, "img")[0]._src === inPage);
+}
+
 console.log(failures === 0 ? "\nALL CHECKS PASSED" : `\n${failures} CHECK(S) FAILED`);
 process.exit(failures === 0 ? 0 : 1);
