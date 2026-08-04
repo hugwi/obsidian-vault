@@ -738,8 +738,9 @@ console.log("\n[21] Real Dribbble shot 27606181 (probed 2026-08-04)");
 
 // ── Case 23: the real clipped note, verbatim ────────────────────────────────
 // Values copied from "Financial Dashboard - B2B Sales Pipeline & Revenue Tracking.md"
-// as the clipper actually wrote them. The empty slot at index 1 is the second shot
-// image, still a lazy placeholder when the clip was taken.
+// as the clipper actually wrote them — except shotTwo, which is a stand-in: that clip
+// never captured the second image, which is the bug this case pins down. The empty
+// slot at index 1 is where it should have been.
 {
     const shotOne =
         "https://cdn.dribbble.com/userupload/48556248/file/f2e88a1df2306dbe05345d34077eef9d.png?resize=752x&vertical=center";
