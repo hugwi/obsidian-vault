@@ -35,7 +35,7 @@ embeds a `.base` listing its members; `Vault.base` also turns each into a view:
 
 | `categories` value | Extra props |
 |---|---|
-| `"[[Projects]]"` | `project: "[[Name]]"` |
+| `"[[Projects]]"` | `project: "[[Name]]"` + `status:`/`outcome:`/`due:` on the hub note |
 | `"[[Areas]]"` | `domain:` engineering/career/clients/finance/health/interests/personal |
 | `"[[Resources]]"` | `domain:` engineering/compliance |
 | `"[[People]]"` | (lives in `References/`) |
@@ -52,6 +52,33 @@ When asked to "process inbox":
 2. Set the right `categories`/`domain` (move clips out of `Clippings/` only if they become your own note)
 3. Suggest `[[wikilinks]]` to related notes
 4. Update `status:` frontmatter `inbox` → `processed` where present
+
+### Working a project
+Projects follow Forte: an `outcome:` (one sentence, past tense), a `due:`, a
+`status:` (`active` · `pursue` · `paused` · `done` — missing counts as active), and
+progress measured in **intermediate packets** (own notes carrying the project's
+`project:`). `status: pursue` is the "want to pursue, not started" shelf.
+
+**`project:` attaches any note to a project without moving or recategorising it** —
+a clipping keeps `categories: "[[Clippings]]"` and stays in `Clippings/` while showing
+up as that project's raw material. `project: name/slice` scopes to a sub-area of
+`name`. A plain `[[wikilink]]` to the project note counts too (that is how daily notes
+land on the desk). When asked to attach material to a project, add the `project:`
+property — never move the file. By hand the user does this with the **Attach note to
+project** command (Cmd+P → "project"); every clipping template now ships an empty
+`project:` field to fill at clip time.
+
+- Project note body ends in ` ```dataviewjs / await dv.view("Templates/Scripts/project-desk") ` —
+  renders packets, raw material split by `action:`, resources/areas/people, recent
+  daily mentions, open tasks. Template: `Templates/Project Template.md`.
+- Hub [[Projects]] runs the same view with `{mode: "board"}`: every project by status,
+  with next action, material counts, and any `project:` value that has **no note yet**.
+- Capture commands: `Templates/Commands/` + user scripts in `Templates/Templater/`
+  (Templater `user_scripts_folder` + `enabled_templates_hotkeys` — see that README).
+- Capture from outside Obsidian: Raycast Script Commands in `Templates/Raycast/`, which
+  write to disk directly (no plugin, Obsidian need not run) and import the same
+  `logInsertion`/`isProjectHub` — never fork that logic.
+- Full description: [[Project workflow]] · views: `Templates/Bases/Projects.base`.
 
 ### Finding related notes
 - Filter by `categories`/`domain` via [[Vault.base]] or a `Categories/` hub, or search the flat root
@@ -83,6 +110,7 @@ Do **not** add a redundant `title:` — the filename is the title.
 | Career & growth notes | root | `"[[Areas]]"` + `domain: career` |
 | People/contacts | `References/` | `"[[People]]"` |
 | Web clips (unprocessed) | `Clippings/` | `"[[Clippings]]"` |
+| Clip that belongs to a project | stays in `Clippings/` | `"[[Clippings]]"` + `project:` |
 | Quick ideas | root | `"[[Inbox]]"` |
 | Personal life | root | `"[[Areas]]"` + `domain: personal/finance/health/interests` |
 
@@ -92,6 +120,7 @@ Do **not** add a redundant `title:` — the filename is the title.
 - **Vault navigation**: `Home.md` (root) + `Categories/` hubs · **All views**: `Vault.base`
 - **Daily notes template**: `Templates/daily_note_template.md`
 - **Web clip template**: `Templates/web-clip-template.md`
+- **Project workflow**: `Project workflow.md` (root) + `Templates/Project Template.md`
 - **Design inspiration**: `Inspiration.md` (root) + `Templates/Bases/Inspiration.base`
 
 ## Clippings triage props

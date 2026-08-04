@@ -9,11 +9,18 @@ is a no-AI visual clipper.
 | Template | Triggers on | Saves to |
 |---|---|---|
 | `inspiration-media.json` | 21st.dev, dribbble.com, pinterest.* (+ subdomains), pin.it | `Clippings` |
-| `youtube-summary.json` | youtube.com/watch, youtu.be | `Inbox/Videos` |
-| `medium-summary.json` | medium.com (+ subdomains) | `Inbox/Articles` |
-| `article-summary.json` | any page with `schema:@Article` / `@NewsArticle` | `Inbox/Articles` |
-| `reddit-summary.json` | reddit.com/r/ | `Inbox/Articles` |
-| `x-summary.json` | x.com, twitter.com | `Inbox/Articles` |
+| `youtube-summary.json` | youtube.com/watch, youtu.be | `Clippings` |
+| `medium-summary.json` | medium.com (+ subdomains) | `Clippings` |
+| `article-summary.json` | any page with `schema:@Article` / `@NewsArticle` | `Clippings` |
+| `reddit-summary.json` | reddit.com/r/ | `Clippings` |
+| `x-summary.json` | x.com, twitter.com | `Clippings` |
+
+All six save to `Clippings/` and write the same triage frontmatter, so a clip is usable
+from `Clippings.base` the moment it lands: `categories: "[[Clippings]]"` (the folder alone
+means nothing in this vault — the property is what files it), `created`, `domain`,
+`project`, `read: false`, `rating`, `action: review`. The five `*-summary.json` ones used
+to save to `Inbox/Articles` / `Inbox/Videos` — folders that no longer exist — and set
+`title`/`status: unread` instead, which left them invisible to every view.
 
 ### Template order in the extension
 
@@ -62,10 +69,11 @@ only — so do not adopt that pattern here.
 `trigger_on_file_creation` is on, which looks like it would overwrite every clip. It does
 not. Templater's creation handler measures the body length after the frontmatter and only
 applies a folder template when that is **zero**; a file that arrives with a body instead
-gets scanned for `<% %>` commands and is otherwise left alone. Clips from this template
-always carry a body (heading, `dataviewjs` block, source link, notes sections), and that
-body contains no Templater syntax. The 378 Readwise notes already in `Clippings/` confirm
-the same behaviour in practice — none of them carry the folder template's markers.
+gets scanned for `<% %>` commands and is otherwise left alone. Every template here writes
+a body (heading, summary blocks or `dataviewjs`, source link, notes sections), and none of
+those bodies contain Templater syntax. The 378 Readwise notes already in `Clippings/`
+confirm the same behaviour in practice — none of them carry the folder template's markers.
+This matters more now that all six templates land in `Clippings/`, not just the visual one.
 
 The one way to break this is to empty `noteContentFormat`. Keep a body in it.
 
@@ -83,6 +91,18 @@ The one way to break this is to empty `noteContentFormat`. Keep a body in it.
    (OpenAI, Anthropic, Ollama, etc.). **The AI summary only works with the
    Interpreter enabled** — without it the `TL;DR`/`Key points` blocks stay empty.
 4. **Settings → Templates → Import** → import each `*.json` in this folder.
+
+> **Editing a template here does nothing until you re-import it.** The extension keeps
+> its own copy; these files are the source, not the live config.
+
+## The `project` field
+
+Every template carries an empty `project` property. The extension shows properties as
+editable fields in the clip preview, so if you already know the clip belongs to a
+project, type `[[Ethira]]` there before saving and it lands on that project's desk
+straight away. Leave it empty and nothing happens — an empty value is ignored by the
+desk and by every `.base` view. You can always attach it later with the **Attach note
+to project** command (Cmd/Ctrl+P → "project"). See [[Project workflow]].
 
 ## How it works
 

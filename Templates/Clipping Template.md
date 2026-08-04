@@ -6,6 +6,9 @@ domain: null
 source: web
 url: test
 author:
+project: 
+rating: 
+action: 
 tags:
   - inbox
 status: inbox

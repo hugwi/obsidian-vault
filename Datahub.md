@@ -3,6 +3,9 @@ categories:
   - "[[Projects]]"
 project: "[[Datahub]]"
 created: 2026-06-23
+status: active
+outcome: 
+due: 
 ---
 **Related:** [[Resources/Compliance/Data Governance Netlight|Data Governance]] · [[Projects/PII/PII Scanner|PII Scanner]] · [[Projects/Datahub/Data Catalog|Data Catalog]] · [[MOC-Data-Governance|Data Governance MOC]]
 
@@ -16,4 +19,12 @@ Looked into Collibra. Cost 500 k a year per source.
 One of the main reason was to build a portal or data marketplace. 
 
 
-05 June - Datahub being 
+05 June - Datahub being
+
+---
+
+## Desk
+
+```dataviewjs
+await dv.view("Templates/Scripts/project-desk");
+```

@@ -22,6 +22,11 @@
       "type": "multitext"
     },
     {
+      "name": "project",
+      "value": "",
+      "type": "text"
+    },
+    {
       "name": "domain",
       "value": "design",
       "type": "text"
