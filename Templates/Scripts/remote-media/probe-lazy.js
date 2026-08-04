@@ -7,7 +7,7 @@
 // a pending Promise without necessarily printing its eventual return value.
 (async () => {
     const SELECTOR = [
-        '#ssr-app > .content-block-container.full-width img[data-test="v-img"]',
+        'img[data-test="v-img"]',
         '[data-test-id="pin-closeup-image"] img',
         '[data-test-id="closeup-image"] img',
     ].join(", ");

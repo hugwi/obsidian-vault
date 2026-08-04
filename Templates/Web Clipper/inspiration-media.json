@@ -78,22 +78,22 @@
     },
     {
       "name": "media_url_gallery",
-      "value": "{{selector:#ssr-app > .content-block-container.full-width img[data-test=\"v-img\"], [data-test-id=\"pin-closeup-image\"] img, [data-test-id=\"closeup-image\"] img?src}}",
+      "value": "{{selector:img[data-test=\"v-img\"], [data-test-id=\"pin-closeup-image\"] img, [data-test-id=\"closeup-image\"] img?src}}",
       "type": "text"
     },
     {
       "name": "media_url_gallery_srcset",
-      "value": "{{selector:#ssr-app > .content-block-container.full-width img[data-test=\"v-img\"], [data-test-id=\"pin-closeup-image\"] img, [data-test-id=\"closeup-image\"] img?srcset}}",
+      "value": "{{selector:img[data-test=\"v-img\"], [data-test-id=\"pin-closeup-image\"] img, [data-test-id=\"closeup-image\"] img?srcset}}",
       "type": "text"
     },
     {
       "name": "media_url_gallery_lazy",
-      "value": "{{selector:#ssr-app > .content-block-container.full-width img[data-test=\"v-img\"], [data-test-id=\"pin-closeup-image\"] img, [data-test-id=\"closeup-image\"] img?data-srcset}}",
+      "value": "{{selector:img[data-test=\"v-img\"], [data-test-id=\"pin-closeup-image\"] img, [data-test-id=\"closeup-image\"] img?data-srcset}}",
       "type": "text"
     },
     {
       "name": "media_url_gallery_href",
-      "value": "{{selector:#ssr-app > .content-block-container.full-width a[data-photoswipe-image]?href}}",
+      "value": "{{selector:a[data-photoswipe-image]?href}}",
       "type": "text"
     },
     {
@@ -153,5 +153,5 @@
     "/^https?:\\/\\/([a-z0-9-]+\\.)?pinterest\\.[a-z.]+\\//",
     "https://pin.it"
   ],
-  "noteContentFormat": "# {{title}}\n\n```dataviewjs\nawait dv.view(\"Templates/Scripts/remote-media\");\n```\n\n[Open original source]({{url}})\n\n## Description\n\n{{selectorHtml:#ssr-app > .content-block-container:not(.full-width)|markdown|trim}}\n\n## Notes\n\n- \n\n## Why I saved this\n\n- \n"
+  "noteContentFormat": "# {{title}}\n\n```dataviewjs\nawait dv.view(\"Templates/Scripts/remote-media\");\n```\n\n[Open original source]({{url}})\n\n## Description\n\n{{selectorHtml:.formatted-text.content-block|markdown|trim}}\n\n## Notes\n\n- \n\n## Why I saved this\n\n- \n"
 }

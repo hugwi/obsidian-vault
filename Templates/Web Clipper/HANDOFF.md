@@ -100,8 +100,9 @@ covered by tests:
 
 ## Mistakes already made — do not repeat these
 
-- **Use the CDP-verified selector**, not a guessed descendant:
-  `#ssr-app > .content-block-container.full-width img[data-test="v-img"]`.
+- **Do not prefix selectors with `#ssr-app`.** CDP sees that hydrated wrapper, but Web
+  Clipper's extraction snapshot does not. Use `img[data-test="v-img"]`,
+  `a[data-photoswipe-image]`, and `.formatted-text.content-block` directly.
 - **Page metadata cannot rebuild a shot's image set.** On shot 27606181 `og:image` is
   upload `48556246`, while the real gallery uploads are `48556248` and `48556247`. This is
   why the container capture exists at all.

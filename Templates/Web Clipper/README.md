@@ -301,10 +301,10 @@ The gallery cannot be reconstructed from page metadata: `og:image` is a separate
 card. `media_url_gallery` therefore captures only direct full-width content blocks under
 `#ssr-app`; related shots are outside that container.
 
-The selector verified through CDP is
-`#ssr-app > .content-block-container.full-width img[data-test="v-img"]`. The direct-child
-and `full-width` constraints select the two media blocks while excluding the following
-description block.
+CDP identifies shot images as `img[data-test="v-img"]` and their stable links as
+`a[data-photoswipe-image]`. Do not prefix these with `#ssr-app`: the hydrated browser DOM
+has that wrapper, but Web Clipper's extraction snapshot does not. Description blocks use
+`.formatted-text.content-block`.
 
 #### Lazy-loaded images
 
