@@ -1,6 +1,6 @@
 {
   "snapStepMinutes": 10,
-  "progressIndicator": "bar",
+  "progressIndicator": "mini-timeline",
   "showTaskNotification": false,
   "zoomLevel": 2,
   "timelineIcon": "calendar-with-checkmark",
@@ -34,10 +34,7 @@
   "eventFormatOnCreation": "task",
   "sortTasksInPlanAfterEdit": false,
   "firstDayOfWeek": "monday",
-  "multiDayRange": "work-week",
+  "multiDayRange": "3-days",
   "showTimeTracker": false,
-  "showActiveClocks": false,
-  "showDataviewMigrationWarning": false,
-  "unscheduledTasksHeight": 100,
-  "rawIcals": []
+  "showActiveClocks": false
 }
