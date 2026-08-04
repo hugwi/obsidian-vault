@@ -79,6 +79,20 @@ directory scan does not mistake it for a command.
   Project notes live at the vault root, so this is free — but a project note filed inside
   one of those folders would be invisible to Raycast.
 
-Verify with `node Templates/Raycast/lib/vault.test.js` (37 checks against a throwaway
+Verify with `node Templates/Raycast/lib/vault.test.js` (38 checks against a throwaway
 vault in a temp dir). The scripts take the vault root as an optional second argument to
 `main()` purely so the test can point them somewhere safe; Raycast never passes it.
+
+## Running from a git worktree
+
+`vaultRoot()` resolves upwards from the script's own path, so in a worktree it finds the
+**worktree's** copy of the vault — captures would land in a checkout Obsidian never
+opens. Set `OBSIDIAN_VAULT_PATH` to the real vault to point them back:
+
+```bash
+OBSIDIAN_VAULT_PATH=~/vaults/hugwi ./capture-to-project.js eth "from the worktree"
+```
+
+Raycast has no per-command environment, so for a worktree you would set it in the shell
+Raycast inherits — or simpler, only point Raycast at a directory inside the live vault
+and use the worktree for reading the code.

@@ -12,7 +12,12 @@ const { isProjectHub, normalizeStatus } = require("../../Templater/projects.js")
 
 // The scripts live inside the vault, so the vault root is just up the tree — nothing
 // to configure, and it keeps working when the vault is moved or cloned elsewhere.
-const vaultRoot = () => path.resolve(__dirname, "../../..");
+//
+// `OBSIDIAN_VAULT_PATH` overrides that, which matters when the scripts are run from a
+// git worktree: there, "up the tree" is the worktree's copy of the vault, and captures
+// would land in a checkout Obsidian never opens.
+const vaultRoot = () => process.env.OBSIDIAN_VAULT_PATH ||
+    path.resolve(__dirname, "../../..");
 
 // Folders with no project notes in them. Skipping them keeps a 900-note vault fast
 // enough that Raycast feels instant.

@@ -80,6 +80,13 @@ check(
     JSON.stringify(vault.parseFrontmatter('---\ntags: [a, b]\n---\n').tags) === '["a","b"]'
 );
 check("returns null with no frontmatter", vault.parseFrontmatter("# Just a note") === null);
+
+// Run from a git worktree, "up the tree" is the worktree's own copy of the vault, so
+// captures would land somewhere Obsidian never opens. The override is the way out.
+process.env.OBSIDIAN_VAULT_PATH = "/tmp/somewhere-else";
+check("honours OBSIDIAN_VAULT_PATH", vault.vaultRoot() === "/tmp/somewhere-else");
+delete process.env.OBSIDIAN_VAULT_PATH;
+check("falls back to its own location", vault.vaultRoot().endsWith("obsidian-vault"), vault.vaultRoot());
 check("formats an ISO date", /^\d{4}-\d{2}-\d{2}$/.test(vault.today(new Date(2026, 7, 4))));
 check("uses local time, not UTC", vault.today(new Date(2026, 7, 4)) === "2026-08-04");
 
