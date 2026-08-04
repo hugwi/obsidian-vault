@@ -93,6 +93,39 @@ function valuesOf(value) {
     return [text];
 }
 
+// Positional read of a multi-match capture. The clipper stores one entry per matched
+// element, so entry N of every capture describes the same image — an image whose
+// `src` is a lazy placeholder yields an empty entry there and a real URL in the
+// srcset/data-src capture at the same index. Empty entries must therefore be kept:
+// dropping them would slide every later URL onto the wrong image.
+function slotsOf(value) {
+    if (value === null || value === undefined) {
+        return [];
+    }
+
+    const asSlots = (entries) => entries.map((entry) => String(entry ?? "").trim());
+
+    if (Array.isArray(value)) {
+        return asSlots(value);
+    }
+
+    const text = String(value).trim();
+
+    if (text.startsWith("[") && text.endsWith("]")) {
+        try {
+            const parsed = JSON.parse(text);
+
+            if (Array.isArray(parsed)) {
+                return asSlots(parsed);
+            }
+        } catch {
+            // Not JSON after all — treat it as a single slot.
+        }
+    }
+
+    return text ? [text] : [];
+}
+
 function isRemoteUrl(value) {
     try {
         const url = new URL(value);
@@ -243,9 +276,41 @@ const posterUrl = imageCandidates[0] ?? "";
 // media_url_image already holds every image the container selector matched, so a
 // multi-image shot needs no extra capture — just reading past the first entry.
 // media_url_gallery is an optional override for a site needing its own container.
-const galleryUrls = urlsOf(page.media_url_gallery, page.media_url_image).filter(
-    (candidate) => extensionLooksLike(IMAGE_EXT, candidate)
-);
+//
+// Sites expose a multi-image post in three ways at once, and a lazy-loading page
+// splits the answer across them: the `src` of every image, a srcset per image, and a
+// data-src placeholder holding the real URL until the image scrolls into view. An
+// image still below the fold at clip time leaves its `src` slot empty while the
+// other two carry it, so the captures are complementary rather than alternatives —
+// resolve each image from its own slot, first capture that has a URL there. Taking
+// whichever capture is longest instead would drop half of a data-src page, and
+// concatenating them all would show one image's variants as separate pictures.
+const gallerySlots = [
+    slotsOf(page.media_url_gallery).map((raw) => urlsOf(raw)[0] ?? ""),
+    slotsOf(page.media_url_gallery_srcset).map((raw) => srcsetUrlsOf(raw)[0] ?? ""),
+    slotsOf(page.media_url_gallery_lazy).map((raw) => urlsOf(raw)[0] ?? ""),
+];
+
+const slotCount = Math.max(0, ...gallerySlots.map((slots) => slots.length));
+
+const resolvedGallery = [];
+
+for (let slot = 0; slot < slotCount; slot += 1) {
+    const url = gallerySlots.map((slots) => slots[slot] ?? "").find(Boolean);
+
+    if (url && extensionLooksLike(IMAGE_EXT, url)) {
+        resolvedGallery.push(url);
+    }
+}
+
+// Sites without their own container selector still expose several images through
+// media_url_image, which matches a different element set — so it is a fallback, not
+// a fourth slot source.
+const galleryUrls = resolvedGallery.length
+    ? [...new Set(resolvedGallery)]
+    : urlsOf(page.media_url_image).filter((candidate) =>
+          extensionLooksLike(IMAGE_EXT, candidate)
+      );
 
 function candidatesFor(url) {
     const upgrades = withUpgrades([url]);

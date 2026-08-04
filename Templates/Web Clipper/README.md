@@ -282,6 +282,32 @@ metadata.** `og:image` is one image; the others exist only in the container. So
 image it finds, while `#ssr-app` is safe to use for text because the related content is
 genuinely outside it.
 
+#### Lazy-loaded images
+
+A shot image below the fold is rendered with a placeholder, so `getAttribute("src")`
+returns `""` for it while the real URL sits in `srcset` or `data-src`. The clipper stores
+one entry per matched element (`shared.ts` → `extractContentBySelector`), so that empty
+string still occupies its slot in the array — which is what makes the fix possible.
+
+Three captures therefore read the same element set:
+
+| Property | Attribute |
+|---|---|
+| `media_url_gallery` | `src` |
+| `media_url_gallery_srcset` | `srcset` |
+| `media_url_gallery_lazy` | `data-src` |
+
+The renderer resolves **each image from its own slot index**, taking the first capture
+that has a URL there. It deliberately does not pick "whichever capture matched the most
+images": on a `data-src` page the `src` and `data-src` captures each hold a different
+*half* of the set, so choosing one discards the other half. Nor does it concatenate them,
+which would render one image's variants as separate pictures.
+
+If images are still missing, run `Templates/Scripts/remote-media/probe-lazy.js` in the
+browser console on the page. `missedBySelector` non-empty means the container selector
+needs widening; a row in `images` with all three attributes empty means the page had not
+materialised that image at all, and no selector can capture it — scroll the page first.
+
 The note body captures the shot's text with
 
 ```

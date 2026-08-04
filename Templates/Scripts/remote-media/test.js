@@ -683,5 +683,58 @@ console.log("\n[21] Real Dribbble shot 27606181 (probed 2026-08-04)");
         find(leaked.container, "img")[0]._src === inPage);
 }
 
+// ── Case 22: a lazy-loaded shot, where the src capture under-counts ──────────
+// Dribbble renders images below the fold with a placeholder, so their `src` comes
+// back empty and only the srcset (or data-src) carries the real URL.
+{
+    const first = "https://cdn.dribbble.com/userupload/1/one.png";
+    const second = "https://cdn.dribbble.com/userupload/2/two.png";
+
+    // The clipper stores one entry per matched element, empty for the placeholder.
+    const viaSrcset = run({
+        media_url_gallery: JSON.stringify([first, ""]),
+        media_url_gallery_srcset: JSON.stringify([
+            `${first}?resize=400x300 400w, ${first}?resize=800x600 800w`,
+            `${second}?resize=400x300 400w, ${second}?resize=800x600 800w`,
+        ]),
+    });
+    const srcsetImgs = find(viaSrcset.container, "img");
+    check("srcset recovers the lazy image the src capture missed",
+        srcsetImgs.length === 2, `got ${srcsetImgs.length}`);
+    check("largest srcset entry per image, upgraded",
+        srcsetImgs[0]._src === first, srcsetImgs[0]._src);
+    check("no variant of image one leaks in as image two",
+        srcsetImgs[1]._src === second, srcsetImgs[1]._src);
+
+    const viaLazy = run({
+        media_url_gallery: JSON.stringify([first, ""]),
+        media_url_gallery_lazy: JSON.stringify(["", second]),
+    });
+    check("data-src recovers the lazy image",
+        find(viaLazy.container, "img").length === 2);
+
+    // Richest capture wins; a poorer one must not shrink the gallery.
+    const mixed = run({
+        media_url_gallery: JSON.stringify([first, second]),
+        media_url_gallery_srcset: `${first} 800w`,
+        media_url_gallery_lazy: "",
+    });
+    check("a one-image srcset cannot shrink a two-image src capture",
+        find(mixed.container, "img").length === 2);
+
+    // A genuine single-image shot keeps the full precedence chain, not the gallery
+    // shortcut — otherwise a 404 could no longer fall back to og:image.
+    const single = run({
+        media_url_gallery: first,
+        media_url_gallery_srcset: `${first}?resize=400x300 400w`,
+        thumbnail_url: "https://cdn.dribbble.com/userupload/3/og.png",
+    });
+    const singleImgs = find(single.container, "img");
+    check("single-image shot still renders one image", singleImgs.length === 1);
+    singleImgs[0]._listeners.error();
+    check("single-image shot keeps its fallback chain",
+        singleImgs[0]._src !== first, singleImgs[0]._src);
+}
+
 console.log(failures === 0 ? "\nALL CHECKS PASSED" : `\n${failures} CHECK(S) FAILED`);
 process.exit(failures === 0 ? 0 : 1);
