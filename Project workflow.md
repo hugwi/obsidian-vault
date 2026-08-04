@@ -62,7 +62,15 @@ Two command-palette entries do the property-writing for you. Hit Cmd/Ctrl+P and 
   `project: "[[Name]]"` into that note's frontmatter. This is the one for clippings.
 
 Both are Templater templates in `Templates/Commands/`, backed by user scripts in
-`Templates/Templater/` — see the README there. What counts as a project note is defined
+`Templates/Templater/` — see the README there.
+
+**From outside Obsidian**, the same capture runs through Raycast: *Capture to project*
+takes a project name (fuzzy — `eth` finds Ethira) and a line of text, appends it to that
+project's `## Log`, and never brings Obsidian to the front — it does not even need to be
+running. Leave the project blank and you get a plain Inbox note instead. *Open project*
+is the opposite: it fires `obsidian://open` and pulls you in. Both are Script Commands in
+`Templates/Raycast/`, sharing the same log-insertion and project-detection code as the
+in-app commands. What counts as a project note is defined
 once, here: **a note with `categories: "[[Projects]]"` that either names itself in
 `project:` or has no `project:` at all.** Anything pointing at a different project is a
 note *inside* that project. That rule is implemented twice — `Templates/Templater/

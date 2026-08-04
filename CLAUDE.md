@@ -75,6 +75,9 @@ project** command (Cmd+P → "project"); every clipping template now ships an em
   with next action, material counts, and any `project:` value that has **no note yet**.
 - Capture commands: `Templates/Commands/` + user scripts in `Templates/Templater/`
   (Templater `user_scripts_folder` + `enabled_templates_hotkeys` — see that README).
+- Capture from outside Obsidian: Raycast Script Commands in `Templates/Raycast/`, which
+  write to disk directly (no plugin, Obsidian need not run) and import the same
+  `logInsertion`/`isProjectHub` — never fork that logic.
 - Full description: [[Project workflow]] · views: `Templates/Bases/Projects.base`.
 
 ### Finding related notes
