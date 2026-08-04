@@ -303,11 +303,49 @@ for (let slot = 0; slot < slotCount; slot += 1) {
     }
 }
 
+// Dribbble removed the former #ssr-app wrapper in August 2026. The current page puts
+// the primary shot first in `main`, while its other shot image is exposed as og:image;
+// later `main img` matches are related shots. Combine only those two page-owned values.
+// Canonical upgraded URLs prevent a one-image shot from being rendered twice when its
+// DOM and metadata URLs differ only by resize parameters.
+const dribbbleFallbackGallery = (() => {
+    if (!/(^|\.)dribbble\.com$/.test(hostOf(sourceUrl))) {
+        return [];
+    }
+
+    const genericSlots = slotsOf(page.media_url_image_generic);
+    const firstInPage = urlsOf(genericSlots[0])[0];
+    const metadataImage = urlsOf(page.thumbnail_url, page.media_url_image_meta)[0];
+
+    // A lone generic match may be a related shot. The observed live page produces
+    // multiple main-image slots (including an empty lazy slot), which proves this is
+    // the page layout whose first match is the primary shot.
+    if (genericSlots.length < 2) {
+        return [];
+    }
+
+    const candidates = [firstInPage, metadataImage].filter(Boolean);
+    const seen = new Set();
+
+    return candidates.filter((url) => {
+        const canonical = withUpgrades([url])[0] ?? url;
+
+        if (seen.has(canonical)) {
+            return false;
+        }
+
+        seen.add(canonical);
+        return true;
+    });
+})();
+
 // Sites without their own container selector still expose several images through
 // media_url_image, which matches a different element set — so it is a fallback, not
 // a fourth slot source.
 const galleryUrls = resolvedGallery.length
     ? [...new Set(resolvedGallery)]
+    : dribbbleFallbackGallery.length > 1
+      ? dribbbleFallbackGallery
     : urlsOf(page.media_url_image).filter((candidate) =>
           extensionLooksLike(IMAGE_EXT, candidate)
       );

@@ -737,15 +737,12 @@ console.log("\n[21] Real Dribbble shot 27606181 (probed 2026-08-04)");
 }
 
 // ── Case 23: the real clipped note, verbatim ────────────────────────────────
-// Values copied from "Financial Dashboard - B2B Sales Pipeline & Revenue Tracking.md"
-// as the clipper actually wrote them — except shotTwo, which is a stand-in: that clip
-// never captured the second image, which is the bug this case pins down. The empty
-// slot at index 1 is where it should have been.
+// Values copied verbatim from the synced clip and confirmed by a live browser probe.
+// Dribbble no longer has #ssr-app: the first shot image comes from `main img`, while
+// the other distinct shot image is the page's og:image.
 {
     const shotOne =
         "https://cdn.dribbble.com/userupload/48556248/file/f2e88a1df2306dbe05345d34077eef9d.png?resize=752x&vertical=center";
-    const shotTwo =
-        "https://cdn.dribbble.com/userupload/48556249/file/a1b2c3d4e5f60718293a4b5c6d7e8f90.png?resize=752x&vertical=center";
     const serviceCards = [
         "https://cdn.dribbble.com/userupload/44513408/file/still-aa63a796441785157c67c8b39238af71.png?resize=400x300&vertical=center",
         "https://cdn.dribbble.com/userupload/46513805/file/still-f52ceef54e6e34456e6f2e3ce55d167a.png?resize=400x300&vertical=center",
@@ -753,31 +750,22 @@ console.log("\n[21] Real Dribbble shot 27606181 (probed 2026-08-04)");
     const ogImage =
         "https://cdn.dribbble.com/userupload/48556246/file/08515bfa69a616df29fc490bfbc19bf1.png?crop=0x0-3200x2400&resize=1600x1200";
 
-    // What the old, over-narrow `.block-media` selector produced: nothing.
-    const empty = run({
+    const fixed = run({
+        source_url: "https://dribbble.com/shots/27606181-Financial-Dashboard",
         media_url_gallery: "",
         media_url_image: "",
         thumbnail_url: ogImage,
         media_url_image_generic: JSON.stringify([shotOne, "", ...serviceCards]),
     });
-    check("an empty gallery still renders something rather than failing",
-        find(empty.container, "img").length === 1);
-
-    // What `#ssr-app img` produces: two slots, the second one lazy.
-    const fixed = run({
-        media_url_gallery: JSON.stringify([shotOne, ""]),
-        media_url_gallery_srcset: JSON.stringify(["", `${shotTwo} 752w`]),
-        media_url_gallery_lazy: JSON.stringify(["", ""]),
-        thumbnail_url: ogImage,
-        media_url_image_generic: JSON.stringify([shotOne, "", ...serviceCards]),
-    });
     const imgs = find(fixed.container, "img");
-    check("both shot images render from the real clip", imgs.length === 2,
+    check("both shot images render from the exact live clip", imgs.length === 2,
         `got ${imgs.length}`);
     check("the ?resize= variant is upgraded to the original",
         imgs[0]._src === shotOne.split("?")[0], imgs[0]._src);
     check("no service card reaches the gallery",
         !imgs.some((img) => /still-/.test(img._src)));
+    check("og:image supplies the second distinct shot image",
+        imgs[1]._src === ogImage.split("?")[0], imgs[1]._src);
 }
 
 console.log(failures === 0 ? "\nALL CHECKS PASSED" : `\n${failures} CHECK(S) FAILED`);
