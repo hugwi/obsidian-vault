@@ -73,17 +73,17 @@
     },
     {
       "name": "media_url_gallery",
-      "value": "{{selector:#ssr-app .block-media img, #ssr-app .content-block img, [data-test-id=\"pin-closeup-image\"] img, [data-test-id=\"closeup-image\"] img?src}}",
+      "value": "{{selector:#ssr-app img, [data-test-id=\"pin-closeup-image\"] img, [data-test-id=\"closeup-image\"] img?src}}",
       "type": "text"
     },
     {
       "name": "media_url_gallery_srcset",
-      "value": "{{selector:#ssr-app .block-media img, #ssr-app .content-block img, [data-test-id=\"pin-closeup-image\"] img, [data-test-id=\"closeup-image\"] img?srcset}}",
+      "value": "{{selector:#ssr-app img, [data-test-id=\"pin-closeup-image\"] img, [data-test-id=\"closeup-image\"] img?srcset}}",
       "type": "text"
     },
     {
       "name": "media_url_gallery_lazy",
-      "value": "{{selector:#ssr-app .block-media img, #ssr-app .content-block img, [data-test-id=\"pin-closeup-image\"] img, [data-test-id=\"closeup-image\"] img?data-src}}",
+      "value": "{{selector:#ssr-app img, [data-test-id=\"pin-closeup-image\"] img, [data-test-id=\"closeup-image\"] img?data-src}}",
       "type": "text"
     },
     {

@@ -272,15 +272,22 @@ had already produced two wrong-image bugs:
 | Does `#ssr-app` exist? | yes |
 | Is it the whole app root? | **no** — no `nav`, no `header`, no `footer` inside it |
 | Images inside it | 2 — the shot's own |
-| Where the shot's images sit | `#ssr-app .block-media img`, wrapped in `.block-media-wrapper.content-block` |
+| Where the shot's images sit | directly under `#ssr-app` — both of them, and nothing else |
 | The designer's "services" cards | `services-by-user__service-card`, **outside** `#ssr-app` |
 | `og:image` vs the DOM image | different upload ids (`48556246` vs `48556248`) |
 
 That last row is the important one: **a shot's images cannot be reconstructed from page
 metadata.** `og:image` is one image; the others exist only in the container. So
-`media_url_gallery` captures `#ssr-app .block-media img` and the renderer draws every
-image it finds, while `#ssr-app` is safe to use for text because the related content is
-genuinely outside it.
+`media_url_gallery` captures `#ssr-app img` and the renderer draws every image it finds,
+while `#ssr-app` is safe to use for text too because the related content is genuinely
+outside it.
+
+Use `#ssr-app img` plainly — **do not refine it.** An earlier version narrowed it to
+`#ssr-app .block-media img, #ssr-app .content-block img`, reading those class names off a
+console ancestor dump. They do not match as CSS classes in the live DOM, so the capture
+silently returned empty and every clip fell back to a single metadata image. The probe
+already established that `#ssr-app` contains the shot's images and nothing else, which is
+the whole reason the container is worth using; narrowing it added risk and bought nothing.
 
 #### Lazy-loaded images
 
