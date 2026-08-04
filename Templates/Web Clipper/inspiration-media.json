@@ -148,5 +148,5 @@
     "/^https?:\\/\\/([a-z0-9-]+\\.)?pinterest\\.[a-z.]+\\//",
     "https://pin.it"
   ],
-  "noteContentFormat": "# {{title}}\n\n```dataviewjs\nawait dv.view(\"Templates/Scripts/remote-media\");\n```\n\n[Open original source]({{url}})\n\n## Description\n\n{{selectorHtml:#ssr-app|remove_html:(\"img,picture,source,video,svg,button,noscript,form\")|markdown|trim}}\n\n## Notes\n\n- \n\n## Why I saved this\n\n- \n"
+  "noteContentFormat": "# {{title}}\n\n```dataviewjs\nawait dv.view(\"Templates/Scripts/remote-media\");\n```\n\n[Open original source]({{url}})\n\n## Description\n\n{{description|trim}}\n\n## Notes\n\n- \n\n## Why I saved this\n\n- \n"
 }

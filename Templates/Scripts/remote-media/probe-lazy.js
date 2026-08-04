@@ -7,8 +7,7 @@
 // console session and prints its result rather than `undefined`.
 (async () => {
     const SELECTOR = [
-        "#ssr-app .block-media img",
-        "#ssr-app .content-block img",
+        "#ssr-app img",
         '[data-test-id="pin-closeup-image"] img',
         '[data-test-id="closeup-image"] img',
     ].join(", ");
@@ -33,6 +32,7 @@
         matchedBeforeScroll: before,
         matchedAfterScroll: matched.length,
         ssrAppImgTotal: document.querySelectorAll("#ssr-app img").length,
+        ssrAppExists: Boolean(document.querySelector("#ssr-app")),
         // Per matched element: which attribute actually holds a usable URL. A row
         // where all three are empty is an image the page never materialised.
         images: matched.map((img) => ({
@@ -53,6 +53,7 @@
             .map((img) => ({
                 src: img.src.slice(0, 100),
                 natural: `${img.naturalWidth}x${img.naturalHeight}`,
+                alt: img.alt,
                 parents: (() => {
                     const chain = [];
                     let el = img.parentElement;
