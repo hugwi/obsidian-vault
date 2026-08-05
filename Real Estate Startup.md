@@ -12,7 +12,10 @@ Do you want keep more percentage of the sell to yourself but you're afraid how i
 TillSalu help you confidently sell your apartment without the risk of selling it and supporting you with every step of the sales
 - Generating description of the appartment with all relevant information 
 - Taking pictures 
-- publishing the part
+- publishing the apartment 
+- showroom and private showing 
+- bidding 
+- final contract after bidding closed
 
 
 And the best part if you don't manage to sell it there is no upfront cost. 
