@@ -801,7 +801,7 @@ console.log("\n[21] Real Dribbble shot 27606181 (probed 2026-08-04)");
     const { container } = run({
         source_url: "https://21st.dev/@solaceui/components/phone",
         media_url_21st_video: video,
-        media_url_image: preview,
+        media_url_21st_preview: preview,
         live_preview_url: live,
         demo_code_url: code,
     });

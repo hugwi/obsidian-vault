@@ -237,6 +237,7 @@ const rawImageCandidates = [
     // 1. the media container itself, matched by a site-specific selector
     ...srcsetUrlsOf(page.media_url_srcset),
     ...urlsOf(
+        page.media_url_21st_preview,
         page.media_url_image,
         page.media_url_gallery,
         page.media_url_21st_home_poster

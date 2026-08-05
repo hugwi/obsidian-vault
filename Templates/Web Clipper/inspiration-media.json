@@ -2,7 +2,7 @@
   "schemaVersion": "0.1.0",
   "name": "Inspiration - Media",
   "behavior": "create",
-  "noteNameFormat": "{{title|safe_name}}",
+  "noteNameFormat": "{{title|safe_name|replace:\"  Community Components\":\"\"}}",
   "path": "Clippings",
   "context": "",
   "properties": [
@@ -68,17 +68,17 @@
     },
     {
       "name": "media_url_source",
-      "value": "{{selector:[data-test-id=\"pin-closeup-image\"] video source, [data-test-id=\"closeup-image\"] video source, [data-test-id=\"pin-image\"] video source, .shot-media-container video source, .media-shot video source, [data-testid=\"shot-media\"] video source, [class*=\"preview\"] video source, [class*=\"component\"] video source, figure video source?src}}",
+      "value": "{{selector:[data-test-id=\"pin-closeup-image\"] video source, [data-test-id=\"closeup-image\"] video source, [data-test-id=\"pin-image\"] video source, .shot-media-container video source, .media-shot video source, [data-testid=\"shot-media\"] video source, figure video source?src}}",
       "type": "text"
     },
     {
       "name": "media_url_video",
-      "value": "{{selector:[data-test-id=\"pin-closeup-image\"] video, [data-test-id=\"closeup-image\"] video, [data-test-id=\"pin-image\"] video, .shot-media-container video, .media-shot video, [data-testid=\"shot-media\"] video, [class*=\"preview\"] video, [class*=\"component\"] video, figure video?src}}",
+      "value": "{{selector:[data-test-id=\"pin-closeup-image\"] video, [data-test-id=\"closeup-image\"] video, [data-test-id=\"pin-image\"] video, .shot-media-container video, .media-shot video, [data-testid=\"shot-media\"] video, figure video?src}}",
       "type": "text"
     },
     {
       "name": "media_url_21st_video",
-      "value": "{{selector:iframe[src*=\"cdn.21st.dev/\"][src*=\"/bundle.\"]?src|replace:\"/\\/bundle\\./\":\"/video.\"|replace:\"/\\.html(?:\\?.*)?$/\":\".mp4\"}}",
+      "value": "{{selector:iframe[src*=\"cdn.21st.dev/\"][src*=\"/bundle.\"]?src|replace:\"/\\/bundle\\./\":\"/video.\"|replace:\"/\\.html.*$/\":\".mp4\"}}",
       "type": "text"
     },
     {
@@ -107,8 +107,13 @@
       "type": "text"
     },
     {
+      "name": "media_url_21st_preview",
+      "value": "{{selector:img[src^=\"https://cdn.21st.dev/\"][src*=\"/preview.\"][alt=\"Default preview\"]?src}}",
+      "type": "text"
+    },
+    {
       "name": "media_url_image",
-      "value": "{{selector:img[src^=\"https://cdn.21st.dev/\"][src*=\"/preview.\"][alt=\"Default preview\"], [data-test-id=\"pin-closeup-image\"] img, [data-test-id=\"closeup-image\"] img, [data-test-id=\"pin-image\"] img, .shot-media-container img, .media-shot img, [data-testid=\"shot-media\"] img, [class*=\"shot-media\"] img, [class*=\"preview\"] img, [class*=\"component\"] img?src}}",
+      "value": "{{selector:[data-test-id=\"pin-closeup-image\"] img, [data-test-id=\"closeup-image\"] img, [data-test-id=\"pin-image\"] img, .shot-media-container img, .media-shot img, [data-testid=\"shot-media\"] img, [class*=\"shot-media\"] img?src}}",
       "type": "text"
     },
     {
@@ -118,7 +123,7 @@
     },
     {
       "name": "media_url_srcset",
-      "value": "{{selector:[data-test-id=\"pin-closeup-image\"] img, [data-test-id=\"closeup-image\"] img, [data-test-id=\"pin-image\"] img, .shot-media-container img, .media-shot img, [data-testid=\"shot-media\"] img, [class*=\"shot-media\"] img, [class*=\"preview\"] img, [class*=\"component\"] img?srcset}}",
+      "value": "{{selector:[data-test-id=\"pin-closeup-image\"] img, [data-test-id=\"closeup-image\"] img, [data-test-id=\"pin-image\"] img, .shot-media-container img, .media-shot img, [data-testid=\"shot-media\"] img, [class*=\"shot-media\"] img?srcset}}",
       "type": "text"
     },
     {
@@ -138,7 +143,7 @@
     },
     {
       "name": "demo_code_url",
-      "value": "{{selector:iframe[src*=\"cdn.21st.dev/\"][src*=\"/bundle.\"]?src|replace:\"/\\/bundle\\./\":\"/code.demo.\"|replace:\"/\\.html(?:\\?.*)?$/\":\".tsx\"}}",
+      "value": "{{selector:iframe[src*=\"cdn.21st.dev/\"][src*=\"/bundle.\"]?src|replace:\"/\\/bundle\\./\":\"/code.demo.\"|replace:\"/\\.html.*$/\":\".tsx\"}}",
       "type": "text"
     },
     {
