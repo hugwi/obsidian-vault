@@ -145,6 +145,10 @@ It scrapes the page for a playable video in this order and stores whatever it fi
 | `media_url_schema` | Schema.org `VideoObject` → `contentUrl` |
 | `media_url_source` | `<video><source src>` |
 | `media_url_video` | `<video src>` |
+| `media_url_21st_video` | 21st.dev component iframe bundle rewritten to its paired immutable MP4 |
+| `media_url_21st_preview` | current component's direct `cdn.21st.dev/.../preview.*` poster |
+| `live_preview_url` | sandboxed 21st.dev component bundle, linked but never embedded |
+| `demo_code_url` | public 21st.dev `code.demo.*.tsx` source URL |
 | `media_url_image` | `src` of the page's media container (tight selectors, below) |
 | `media_url_srcset` | `srcset` of the same container — the renderer picks the biggest entry |
 | `media_url_image_meta` | `og:image:secure_url`, `twitter:image`, schema `ImageObject.contentUrl`, container `<video poster>` |
@@ -166,8 +170,8 @@ order:
    .media-shot img
    [data-testid="shot-media"] img
    [class*="shot-media"] img
-   [class*="preview"] img                    ← 21st.dev / component galleries
-   [class*="component"] img
+   img[src^="https://cdn.21st.dev/"][src*="/preview."][alt="Default preview"]
+                                                ← 21st.dev current component only
 
 2. metadata — what the page says it is
    og:image · og:image:secure_url · twitter:image · schema ImageObject
@@ -183,6 +187,19 @@ it wins. The generic level exists only so an unknown site still yields something
 Every **video** selector is container-scoped for the same reason, and stops at
 `figure video` rather than falling through to `article`/`main`: a video that far from the
 container is almost always a recommendation.
+
+21st.dev component pages are a separate shape: the visual runs inside a sandboxed
+`bundle.*.html` iframe, while the page stores a paired immutable `video.*.mp4`,
+`preview.*`, and `code.demo.*.tsx` under the same CDN path. The clipper derives those
+URLs from the hydrated iframe. The renderer shows the preview first, attaches the MP4
+only after **Load video**, and links the live bundle and demo source rather than executing
+community code inside the note. Broad `[class*="component"]` selectors are intentionally
+not used because they capture the related-components grid.
+
+The 21st.dev homepage is different again: its main motion is a native
+`/landing/codex-floral-sm.mp4` with a poster, alongside CSS/SVG animation that has no
+standalone media URL. The template captures the video/poster and leaves CSS/SVG motion
+as source-only context.
 
 If every selector misses, `media_url_image_meta` and `thumbnail_url` still carry the
 social-card image, which nearly every site publishes. For a site with no dedicated
@@ -279,7 +296,7 @@ cases. Add a case next to `[16] Site rules` for whatever you added.
 |---|---|---|
 | Dribbble | `dribbble.com` + subdomains | drop the `?resize=…` query for the unscaled original |
 | Pinterest | `pinterest.*` + subdomains, `pin.it` | rewrite `/236x/` → `/originals/` |
-| 21st.dev | `21st.dev` + subdomains | none needed; assets are served full size |
+| 21st.dev | `21st.dev` + subdomains | component poster + derived MP4/live bundle/demo source; homepage native video/poster |
 | anything else | pick manually from the dropdown, or add a trigger | generic selectors + meta/schema fallbacks |
 
 ### Dribbble container, verified 2026-08-04

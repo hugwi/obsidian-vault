@@ -18,15 +18,16 @@ no media is ever downloaded into the vault. No MP4, no image files. The note sto
 URLs; a DataviewJS renderer draws them at read time. A video is attached to the
 `<video>` element only when the reader clicks "Load video", never on note open.
 
-## Current state: working, with one item unverified
+## Current state: working; Pinterest remains unverified
 
 | Piece | State |
 |---|---|
-| Renderer `Templates/Scripts/remote-media/view.js` | done, 128 assertions green |
+| Renderer `Templates/Scripts/remote-media/view.js` | done, regression suite green |
 | Clipper template `Templates/Web Clipper/inspiration-media.json` | done |
 | Overview `Templates/Bases/Inspiration.base` + `Inspiration.md` hub | done |
-| Multi-image capture on Dribbble | **fix pushed, not yet confirmed on a real clip** |
-| Pinterest / 21st.dev selectors | written, never observed — see "Blocked" |
+| Multi-image capture on Dribbble | confirmed end-to-end on a real seven-image clip |
+| 21st.dev component + homepage capture | confirmed end-to-end on Phone Mockups 1 and the supplied homepage URL |
+| Pinterest selectors | written, never observed |
 
 ## Set up a new machine before anything else
 
@@ -47,29 +48,14 @@ worth knowing:
   Without this Obsidian does not index `.js` at all and `dv.view()` fails with
   "custom view not found". This cost us a debugging round.
 
-## Pick up here — the one open item
+## Pick up here — remaining open item
 
-The last clip of
-`dribbble.com/shots/27606181-Financial-Dashboard-B2B-Sales-Pipeline-Revenue-Tracking`
-rendered **one** image when the shot has two. Two causes were found and both are fixed
-in `54f8f93` and `e6ef08d`, but the fix has not been confirmed against a live clip.
-
-**To confirm:**
-
-1. `git pull origin main`
-2. In the Firefox/Chrome clipper: **delete** the existing "Inspiration - Media"
-   template, then re-import `Templates/Web Clipper/inspiration-media.json`.
-   Re-importing without deleting first leaves the old properties behind.
-3. Open the shot, scroll to the bottom, clip it.
-4. Expect two images stacked in the note.
-
-**If it is still one image:** paste `Templates/Scripts/remote-media/probe-lazy.js`
-into the browser console on the shot page. It scrolls, then reports per image which
-attribute held a URL.
-- `missedBySelector` non-empty → the container selector is too narrow.
-- a row in `images` with `src`, `srcset` and `dataSrc` all empty → the page never
-  materialised that image; no selector can capture it, and scrolling before clipping
-  is the only remedy.
+Pinterest still needs one real clipping pass. Dribbble and 21st.dev have both been
+confirmed from browser DOM through Web Clipper into an Obsidian note. For 21st.dev the
+verified component was `@solaceui/components/phone-mockups-1`: direct poster, derived
+MP4, live bundle, demo source, and description all landed correctly. The supplied
+homepage URL also exposed and captured its native landing MP4/poster; CSS/SVG-only
+motion intentionally remains represented by the source page.
 
 ## How the multi-image capture works
 
@@ -121,14 +107,8 @@ covered by tests:
 
 ## Blocked in the container, needs a real machine
 
-This dev environment's egress proxy denies CONNECT to `dribbble.com`, `pinterest.com`
-and `21st.dev`, so pages cannot be loaded here. Every DOM fact above came from console
-output pasted by the user or from a clipped note that synced into the repo. Reading a
-synced clipped note is the highest-value diagnostic available — it shows exactly what
-the clipper wrote.
-
-Consequently **Pinterest and 21st.dev selectors have never been observed**, only
-written from structure. First clip from each will show whether they hold.
+Pinterest has not yet been observed in a real Web Clipper pass. Dribbble and 21st.dev
+were inspected and clipped through the CDP-enabled Chrome profile on 2026-08-05.
 
 Also unverified: whether the Bases `type: cards` / `image:` syntax renders in the
 installed Obsidian version. A table view is in `Inspiration.base` as a fallback.
