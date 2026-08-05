@@ -86,7 +86,7 @@ The one way to break this is to empty `noteContentFormat`. Keep a body in it.
 ## One-time setup
 
 1. Install **Obsidian Web Clipper** (Chrome/Firefox/Safari extension).
-2. Extension → **Settings → General** → set **Vault** to `hugwi`.
+2. Extension → **Settings → General** → set **Vault** to `obsidian-vault`.
 3. **Settings → Interpreter** → enable it and add a model/API key
    (OpenAI, Anthropic, Ollama, etc.). **The AI summary only works with the
    Interpreter enabled** — without it the `TL;DR`/`Key points` blocks stay empty.
