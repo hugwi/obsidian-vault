@@ -199,7 +199,9 @@ const declaredVideoUrls = urlsOf(
     page.media_url_twitter,
     page.media_url_schema,
     page.media_url_source,
-    page.media_url_video
+    page.media_url_video,
+    page.media_url_21st_video,
+    page.media_url_21st_home_video
 );
 
 const videoCandidates = declaredVideoUrls.filter(
@@ -234,7 +236,11 @@ const streamUrl = mediaUrl === manifestUrl ? undefined : manifestUrl;
 const rawImageCandidates = [
     // 1. the media container itself, matched by a site-specific selector
     ...srcsetUrlsOf(page.media_url_srcset),
-    ...urlsOf(page.media_url_image, page.media_url_gallery),
+    ...urlsOf(
+        page.media_url_image,
+        page.media_url_gallery,
+        page.media_url_21st_home_poster
+    ),
     // 2. what the page says it is
     ...urlsOf(page.thumbnail_url, page.media_url_image_meta),
     // 3. last resort: any image in figure/article/main, which may not be the subject
@@ -320,6 +326,8 @@ function candidatesFor(url) {
 }
 
 const altText = page.title ? String(page.title) : "Preview";
+const livePreviewUrl = urlsOf(page.live_preview_url)[0] ?? "";
+const demoCodeUrl = urlsOf(page.demo_code_url)[0] ?? "";
 
 const root = dv.container.createDiv();
 
@@ -377,6 +385,25 @@ function addSourceLink(parent, text = "Open the original source") {
     return link;
 }
 
+function addRelatedLinks(parent) {
+    const links = [
+        [sourceUrl, "Open the original source"],
+        [livePreviewUrl, "Open the live preview"],
+        [demoCodeUrl, "View demo source"],
+    ].filter(([url]) => url);
+
+    for (const [index, [url, text]] of links.entries()) {
+        if (index > 0) {
+            parent.createEl("span", { text: " · " });
+        }
+
+        const link = parent.createEl("a", { text, href: url });
+
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+    }
+}
+
 // ---------------------------------------------------------------- no media
 if (!mediaUrl && !posterUrl) {
     const fallback = root.createDiv();
@@ -387,7 +414,7 @@ if (!mediaUrl && !posterUrl) {
             : "No direct video URL was exposed by this page.",
     });
 
-    addSourceLink(fallback);
+    addRelatedLinks(fallback);
 
     return;
 }
@@ -438,7 +465,7 @@ if (!mediaUrl) {
     caption.style.fontSize = "0.85em";
     caption.style.color = "var(--text-muted)";
 
-    addSourceLink(caption);
+    addRelatedLinks(caption);
 
     return;
 }
@@ -514,7 +541,7 @@ loadButton.addEventListener("click", () => {
             "The saved video URL did not load — it has probably expired."
         );
 
-        addSourceLink(failure);
+        addRelatedLinks(failure);
     });
 
     // Attach the remote media only after the user presses the button.
@@ -526,3 +553,11 @@ loadButton.addEventListener("click", () => {
         // The user can still use the video controls.
     });
 });
+
+const caption = root.createDiv();
+
+caption.style.marginTop = "8px";
+caption.style.fontSize = "0.85em";
+caption.style.color = "var(--text-muted)";
+
+addRelatedLinks(caption);

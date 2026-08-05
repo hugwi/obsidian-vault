@@ -77,6 +77,16 @@
       "type": "text"
     },
     {
+      "name": "media_url_21st_video",
+      "value": "{{selector:iframe[src*=\"cdn.21st.dev/\"][src*=\"/bundle.\"]?src|replace:\"/\\/bundle\\./\":\"/video.\"|replace:\"/\\.html(?:\\?.*)?$/\":\".mp4\"}}",
+      "type": "text"
+    },
+    {
+      "name": "media_url_21st_home_video",
+      "value": "{{selector:video[src^=\"/landing/\"]?src|replace:\"/^\\//\":\"https://21st.dev/\"}}",
+      "type": "text"
+    },
+    {
       "name": "media_url_gallery",
       "value": "{{selector:img[data-test=\"v-img\"], [data-test-id=\"pin-closeup-image\"] img, [data-test-id=\"closeup-image\"] img?src}}",
       "type": "text"
@@ -98,7 +108,12 @@
     },
     {
       "name": "media_url_image",
-      "value": "{{selector:[data-test-id=\"pin-closeup-image\"] img, [data-test-id=\"closeup-image\"] img, [data-test-id=\"pin-image\"] img, .shot-media-container img, .media-shot img, [data-testid=\"shot-media\"] img, [class*=\"shot-media\"] img, [class*=\"preview\"] img, [class*=\"component\"] img?src}}",
+      "value": "{{selector:img[src^=\"https://cdn.21st.dev/\"][src*=\"/preview.\"][alt=\"Default preview\"], [data-test-id=\"pin-closeup-image\"] img, [data-test-id=\"closeup-image\"] img, [data-test-id=\"pin-image\"] img, .shot-media-container img, .media-shot img, [data-testid=\"shot-media\"] img, [class*=\"shot-media\"] img, [class*=\"preview\"] img, [class*=\"component\"] img?src}}",
+      "type": "text"
+    },
+    {
+      "name": "media_url_21st_home_poster",
+      "value": "{{selector:video[src^=\"/landing/\"]?poster|replace:\"/^\\//\":\"https://21st.dev/\"}}",
       "type": "text"
     },
     {
@@ -114,6 +129,16 @@
     {
       "name": "media_url_image_meta",
       "value": "{{meta:property:og:image:secure_url}} {{meta:name:twitter:image}} {{schema:@ImageObject:contentUrl}} {{selector:.shot-media-container video, .media-shot video, [class*=\"preview\"] video?poster}}",
+      "type": "text"
+    },
+    {
+      "name": "live_preview_url",
+      "value": "{{selector:iframe[src*=\"cdn.21st.dev/\"][src*=\"/bundle.\"]?src}}",
+      "type": "text"
+    },
+    {
+      "name": "demo_code_url",
+      "value": "{{selector:iframe[src*=\"cdn.21st.dev/\"][src*=\"/bundle.\"]?src|replace:\"/\\/bundle\\./\":\"/code.demo.\"|replace:\"/\\.html(?:\\?.*)?$/\":\".tsx\"}}",
       "type": "text"
     },
     {
@@ -153,5 +178,5 @@
     "/^https?:\\/\\/([a-z0-9-]+\\.)?pinterest\\.[a-z.]+\\//",
     "https://pin.it"
   ],
-  "noteContentFormat": "# {{title}}\n\n```dataviewjs\nawait dv.view(\"Templates/Scripts/remote-media\");\n```\n\n[Open original source]({{url}})\n\n## Description\n\n{{selectorHtml:.formatted-text.content-block|join:\"\\n\\n\"|markdown|trim}}\n\n## Notes\n\n- \n\n## Why I saved this\n\n- \n"
+  "noteContentFormat": "# {{title}}\n\n```dataviewjs\nawait dv.view(\"Templates/Scripts/remote-media\");\n```\n\n[Open original source]({{url}})\n\n## Description\n\n{{selectorHtml:.formatted-text.content-block|join:\"\\n\\n\"|markdown|trim}}{{selectorHtml:div:has(> h1) + div p|join:\"\\n\\n\"|markdown|trim}}\n\n## Notes\n\n- \n\n## Why I saved this\n\n- \n"
 }

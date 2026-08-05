@@ -792,5 +792,32 @@ console.log("\n[21] Real Dribbble shot 27606181 (probed 2026-08-04)");
         imgs.every((img, index) => img._src.includes(ids[index])));
 }
 
+// ── Case 25: 21st.dev component artefacts ───────────────────────────────────
+{
+    const video = "https://cdn.21st.dev/solaceui/phone/default/video.123.mp4";
+    const preview = "https://cdn.21st.dev/solaceui/phone/default/preview.123.png";
+    const live = "https://cdn.21st.dev/solaceui/phone/default/bundle.123.html?theme=light";
+    const code = "https://cdn.21st.dev/solaceui/phone/default/code.demo.123.tsx";
+    const { container } = run({
+        source_url: "https://21st.dev/@solaceui/components/phone",
+        media_url_21st_video: video,
+        media_url_image: preview,
+        live_preview_url: live,
+        demo_code_url: code,
+    });
+
+    check("21st.dev recording is offered as motion", !!find(container, "button")[0]);
+    check("21st.dev preview is the poster", find(container, "img")[0]._src === preview);
+
+    find(container, "button")[0]._listeners.click();
+    check("21st.dev recording loads only after click", find(container, "video")[0]._src === video);
+
+    const links = find(container, "a");
+    check("21st.dev source page remains available", links.some((a) => a.href.includes("/@solaceui/")));
+    check("21st.dev live bundle is linked, not embedded", links.some((a) => a.href === live));
+    check("21st.dev demo source is linked", links.some((a) => a.href === code));
+    check("21st.dev live bundle is never rendered as an iframe", find(container, "iframe").length === 0);
+}
+
 console.log(failures === 0 ? "\nALL CHECKS PASSED" : `\n${failures} CHECK(S) FAILED`);
 process.exit(failures === 0 ? 0 : 1);
