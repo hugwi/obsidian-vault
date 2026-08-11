@@ -6,8 +6,7 @@ categories:
 domain: design
 source_url: https://dribbble.com/shots/popular
 platform: dribbble.com
-thumbnail_url: 
-media_url_image: 
+thumbnail_url: https://cdn.dribbble.com/assets/dribbble-ball-icon-4e54c54abecf8efe027abe6f8bc7794553b8abef3bdb49cf22984ecc3ed2ba00.svg
 media_url_secure: 
 media_url: 
 media_url_twitter: 
@@ -36,12 +35,11 @@ await dv.view("Templates/Scripts/remote-video");
 
 ## Notes
 
-- Nothing-at-all path: every media property is present but empty, so the renderer shows the
-  message *"No direct video URL was exposed by this page."* and an **Open the original
-  source** link. Nothing breaks.
-- When a still *is* available the renderer shows it instead of this message — see
-  [[Landing Page for Yoga Platform]].
+- Fallback path: every `media_url*` property is present but empty, so the renderer shows the
+  thumbnail, the message *"No direct video URL was exposed by this page."* and an
+  **Open the original source** link. Nothing breaks.
 
 ## Why I saved this
 
-- Verifies the note stays useful when a page exposes neither a playable video nor an image.
+- Verifies that a clip stays useful when the platform exposes no playable MP4 — the common
+  case on Pinterest and Dribbble.

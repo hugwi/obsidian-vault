@@ -21,9 +21,7 @@ obsidian-vault/
 > so it cannot load from `.obsidian/` or any dot-prefixed folder (unlike `.multilabel.py`
 > and `.cluster_work/`, which are hidden on purpose). `Templates/` already holds the
 > vault's other non-note technical files, so scripts go there rather than in a new root
-> folder. **`.js` also needs Settings → Files & Links → *Detect all file extensions*
-> (`showUnsupportedFiles`)** — while that is off Obsidian doesn't index `.js` at all and
-> `dv.view()` fails with "custom view not found". See `Templates/Scripts/README.md`.
+> folder.
 
 > **No MOCs.** Navigation is category hubs + backlinks + `[[wikilinks]]` + quick switcher
 > (kepano model). There is no `_MOC/` folder and no `moc` category.
@@ -105,34 +103,19 @@ and `Agentic Engineering.base` (same action views + ⭐ Top rated).
 Web-design inspiration from 21st.dev / Dribbble / Pinterest etc. is captured by the
 **Inspiration - Media** Web Clipper template (`Templates/Web Clipper/inspiration-media.json`)
 into `Clippings/`. These notes store **remote URLs only — never download the media**.
-- Video props, checked in this order by the renderer: `media_url_secure` → `media_url` →
+- Media props, checked in this order by the renderer: `media_url_secure` → `media_url` →
   `media_url_twitter` → `media_url_schema` → `media_url_source` → `media_url_video`;
   `source_url` is also used when it ends in `.mp4`/`.webm`/`.mov`/`.m4v`.
-- Image props, biggest-first: `media_url_srcset` (largest entry wins) → `media_url_image`
-  (media-container `src`) → `thumbnail_url` (og:image) → `media_url_image_meta`
-  (twitter:image / schema / `<video poster>`). **Most Dribbble/Pinterest posts are stills**,
-  so a clip with no video is normal, not a failure — the renderer shows the image instead.
-- Unplayable media is detected, not shown broken: `blob:`/`data:` URLs are rejected, an
-  expired video URL falls back to the still with an explanation, and `.m3u8`/`.mpd`
-  manifests are offered only where `canPlayType` says the engine supports them (no on
-  desktop Electron/Chromium, yes on Obsidian iOS/WKWebView). The clipping browser is
-  irrelevant — the renderer runs in Obsidian, not the browser.
 - Plus `type: inspiration`, `platform:`, `thumbnail_url:`, `saved_at:` (alongside the usual
   `categories: "[[Clippings]]"`, `created:`, `rating:`, `action:`).
 - Default tags: `inspiration`, `web-design`, `ui`, `ux`. Add finer ones by hand
   (`animation`, `navigation`, `mobile`, `landing-page`, `typography`, `dashboard`,
   `interaction-design`).
-- Body calls ` ```dataviewjs / await dv.view("Templates/Scripts/remote-video") ` — video →
-  thumbnail + **Load video** button (source attached only on click); still → full-width
-  image, click-through to source; neither → message + source link. Needs Dataview →
-  *Enable JavaScript Queries* **and** Files & Links → *Detect all file extensions*.
+- Body calls ` ```dataviewjs / await dv.view("Templates/Scripts/remote-video") ` — thumbnail
+  + **Load video** button, source attached only on click; falls back to thumbnail + source
+  link when no playable URL exists. Needs Dataview → *Enable JavaScript Queries*.
 - Hub: [[Inspiration]] · views: `Templates/Bases/Inspiration.base` (gallery is thumbnails
   only — never embed every remote video in the overview).
-- **Adding a site**: add a regex trigger (+ container selector if needed) to
-  `inspiration-media.json`, and — only if the site serves downscaled stills — one entry in
-  the `SITES` table at the top of `view.js` (Dribbble drops `?resize=`, Pinterest rewrites
-  `/236x/`→`/originals/`). A wrong upgrade guess is free: the renderer falls back down the
-  candidate list on load error. Verify with `node Templates/Scripts/remote-video/test.js`.
 
 ## Agentic-engineering theming
 The 221 `domain: agentic-engineering` clippings are organised by the **problem they solve**
