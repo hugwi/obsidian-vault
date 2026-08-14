@@ -1,263 +1,317 @@
 ---
+created: 2026-08-14
 categories:
-  - "[[Resources]]"
-domain: engineering
-title: "Blog"
-source: "https://www.mindstudio.ai/blog"
-author:
-published: 2001-06-12
-created: 2026-06-13
-description: "Practical guides, tutorials, and real-world examples for building AI agents, workflows, and automations with MindStudio."
+  - "[[Projects]]"
+project: "[[Blog]]"
+status: pursue
+outcome: Published three posts — AI UX slop, how to actually measure engineering success, and structural lint rules in a legacy codebase.
+due: 
 tags:
-  - "to-process"
-  - agent-tools
+  - blog
+  - writing
+  - content
 ---
-## Insights for AI builders
 
-Tutorials, product updates, and ideas to help you build and ship AI applications faster.
-
-[Subscribe via RSS](https://www.mindstudio.ai/rss.xml)
-
-[All](https://www.mindstudio.ai/blog) [AI Industry Strategy (369)](https://www.mindstudio.ai/blog/topic/ai-industry-strategy "Vendor moves, compute economics, what each lab is betting on. Less product, more strategy — Anthropic compute shortages, OpenAI vs Anthropic vs Google bets, business-of-AI takes.") [Claude Code Workflows (183)](https://www.mindstudio.ai/blog/topic/claude-code-workflows "Daily-driver tricks, hidden commands, and productivity patterns for power users of Claude Code. Includes /compact, /btw, /simplify, /batch, effort levels, opus plan mode, token hacks, git worktrees, auto mode, buddy easter egg.") [AI Workflow Automation (183)](https://www.mindstudio.ai/blog/topic/ai-workflow-automation "Building automated workflows that run without you — Google Workspace CLI, AutoResearch loops, content repurposing skills, agent skill systems, 24/7 trading bots, self-improving prompts. Also captures AI integrations with existing tools (Zapier, Notion, Airtable, Slack).") [AI Model Reviews & Comparisons (174)](https://www.mindstudio.ai/blog/topic/ai-model-reviews-comparisons "Reviews, explainers, and head-to-head comparisons of released AI models. Includes 'What is [model]?' evergreen posts, single-model reviews, capability deep-dives, and side-by-side comparisons. Closed-source frontier models (GPT, Claude, Gemini) are the main beat; non-deployment content on open models lives here too. Deployment guides for open models stay in Local & Open-Weight Models.") [AI Agents by Role (167)](https://www.mindstudio.ai/blog/topic/ai-agents-by-role "Profession-specific agent roundups — marketing teams, sales, product managers, researchers, financial services, customer support, personal productivity. Buyer's-guide style content for specific job titles or functions.") [AI Reality Checks (133)](https://www.mindstudio.ai/blog/topic/ai-reality-checks "Is it actually working? Demo-vs-reality posts, hype audits, 'what they're not telling you' takes on model releases and tool launches.") [AI Image Generation (132)](https://www.mindstudio.ai/blog/topic/ai-image-generation "New image models, how to use them, side-by-sides — GPT Image 2, Grok Imagine, Krea, prompt techniques for creators. Demo-forward, generative-art-friendly.") [AI Memory & Knowledge Bases (124)](https://www.mindstudio.ai/blog/topic/ai-memory-knowledge-bases "Persistent memory and knowledge bases for AI agents — Karpathy's LLM wiki, OpenBrain, second brain setups, self-evolving Claude Code memory, three-layer memory architectures, RAG patterns, vector databases, embeddings strategy.") [AI Video Generation (113)](https://www.mindstudio.ai/blog/topic/ai-video-generation "AI video generation tools, motion graphics, editing workflows — Seedance, LTX Desktop, Hyperframes, Grok Imagine Video, Runway, Google Flow. Includes integrations with Claude Code for code-driven video.") [AI Coding Tool Comparisons (92)](https://www.mindstudio.ai/blog/topic/ai-coding-tool-comparisons "Which AI coding tool to pick — Claude Code vs Codex, sub-agent models head-to-head, agentic coding model showdowns. Decision-matrix style content.") [AI Audio: Voice, Speech & Music (90)](https://www.mindstudio.ai/blog/topic/ai-audio "AI for audio — real-time voice agents (Pika Me-style), text-to-speech, voice cloning (ElevenLabs), music generation (Suno, Udio), sound effects, audio editing, transcription. Anything where the output or input is audio.") [Local & Open-Weight Models (89)](https://www.mindstudio.ai/blog/topic/local-open-weight-models "Deployment-focused content for open-weight models — running Gemma, Qwen, etc. locally, on phones, laptops, edge devices. Setup guides, hardware requirements, deployment patterns. Single-model reviews and explainers go under AI Model Reviews & Comparisons instead.") [MindStudio & Remy Tutorials (75)](https://www.mindstudio.ai/blog/topic/mindstudio-remy-tutorials "How to build agents in MindStudio, Remy use cases, MindStudio feature announcements, 'How to do X in MindStudio' walkthroughs. Product-education content that helps blog readers actually convert into MindStudio users.") [Multi-Agent Orchestration (74)](https://www.mindstudio.ai/blog/topic/multi-agent-orchestration "When and how to run multiple AI agents as a team — Paperclip vs OpenClaw architecture, multi-agent companies, agent role design, when single-agent loops are better.") [AI Design & Creative Tools (74)](https://www.mindstudio.ai/blog/topic/ai-design-creative-tools "Tools that let you generate or refine design output with AI — Claude Design, Google Stitch, design.md systems, AI-driven UI consistency.") [Claude Code Frameworks (67)](https://www.mindstudio.ai/blog/topic/claude-code-frameworks "Open-source frameworks built on top of Claude Code — GStack, Superpowers, Hermes, WAT, Paperclip. Comparison posts, when-to-use-which, framework-specific tutorials.") [AI for Industries (67)](https://www.mindstudio.ai/blog/topic/ai-for-industries "Real deployment stories and decision frameworks for specific industries — legal, healthcare, real estate, supply chain, education, government. 'AI for [industry]' is the search pattern; this pillar captures it.") [AI Safety, Risk & Ethics (66)](https://www.mindstudio.ai/blog/topic/ai-safety-risk-ethics "Cybersecurity gaps in frontier models, capability risks, dangerous-AI investigations, brain-emulation/AGI-path implications, bias and fairness audits, deepfake harms, AI regulation. The 'what could go wrong' beat — both technical risk and ethical risk.") [Prompt Engineering Patterns (60)](https://www.mindstudio.ai/blog/topic/prompt-engineering-patterns "How to actually write prompts that work — system prompts, chain-of-thought, few-shot, Anthropic's workflow patterns, prompt evaluation harnesses like Skills 2.0.") [AI Model Leaks & Speculation (60)](https://www.mindstudio.ai/blog/topic/ai-model-leaks-speculation "What's coming next — leaked benchmarks, unreleased models, signals from job postings and open-weight drops. Claude Mythos, OpenAI Spud-style speculation but with rigor.") [Self-Improving AI Systems (54)](https://www.mindstudio.ai/blog/topic/self-improving-ai "Recursive self-improvement claims, autonomous learning loops, AutoResearch-style overnight optimization. Whether the 'self-improving AI' framing is real or marketing.") [AI Cost & Token Optimization (38)](https://www.mindstudio.ai/blog/topic/ai-cost-token-optimization "Cutting your AI bill — free model routing through Open Router, running models locally to offload work, token-saving Claude Code commands, opus-plan-mode tricks.") [AI Computer Use & Remote Control (36)](https://www.mindstudio.ai/blog/topic/ai-computer-use-remote-control "Letting AI agents drive your computer or be driven by you remotely — Claude Code Dispatch, Computer Use, browser automation, Telegram channels, 24/7 agent setups.")
-
-[![](https://i.mscdn.ai/70cbb1ad-08d7-4fdc-ab31-e343780966a6/generated-images/81cb3772-cb32-4905-8e35-5f8407de8982.png?fm=auto&w=1200&fit=cover)](https://www.mindstudio.ai/blog/ai-content-empire-one-input-15-outputs-workflow)
-
-June 12, 2026
-
-### [How to Build an AI Content Empire: One Input, 15 Outputs with AI Video Tools](https://www.mindstudio.ai/blog/ai-content-empire-one-input-15-outputs-workflow)
-
-Learn how to turn one PDF or newsletter into YouTube videos, shorts, LinkedIn posts, and multilingual content using AI avatar and video generation tools.
-
-Workflows Automation Content Creation
-
-[![](https://i.mscdn.ai/70cbb1ad-08d7-4fdc-ab31-e343780966a6/generated-images/e3150482-9158-4d03-bc4b-98be0c3fba82.png?fm=auto&w=1200&fit=cover)
-
-June 12, 2026
-
-### How to Build an AI Digital Twin for Content Creation Using HeyGen
-
-Create a digital avatar from 15 seconds of video, then use it to publish scripts, change outfits, and deliver content in 15+ languages without re-filming.
-
-Automation Content Creation Workflows
-
-](https://www.mindstudio.ai/blog/ai-digital-twin-content-creation-heygen)[![](https://i.mscdn.ai/70cbb1ad-08d7-4fdc-ab31-e343780966a6/generated-images/e8245d65-25fc-42c3-bf41-4c26a02cb2b7.png?fm=auto&w=1200&fit=cover)
-
-June 12, 2026
-
-### How to Build an AI Film Production Workflow with Claude Code and MCP
-
-Learn how to use Claude Code as a production office for AI filmmaking—story breakdowns, character references, scene generation, and asset tracking via MCP.
-
-Claude Workflows Multi-Agent
-
-](https://www.mindstudio.ai/blog/ai-film-production-workflow-claude-code-mcp)[![](https://i.mscdn.ai/70cbb1ad-08d7-4fdc-ab31-e343780966a6/generated-images/6d559da6-bd93-4e62-80db-1d207e00e7ce.png?fm=auto&w=1200&fit=cover)
-
-June 12, 2026
-
-### AI Model Routing in 2026: When to Use Fable 5, Opus, Sonnet, and Haiku
-
-Not every task needs your most expensive model. Learn how to route tasks across Claude Fable 5, Opus, Sonnet, and Haiku to cut costs without losing quality.
-
-Claude LLMs & Models Optimization
-
-](https://www.mindstudio.ai/blog/ai-model-routing-fable-5-opus-sonnet-haiku)[![](https://i.mscdn.ai/70cbb1ad-08d7-4fdc-ab31-e343780966a6/generated-images/0ed21842-a4ce-4d1b-aadd-8d509b5a9caf.png?fm=auto&w=1200&fit=cover)
-
-June 12, 2026
-
-### AI Scaling Laws Are Breaking Down: What It Means for AI Builders
-
-New research shows bigger AI models don't reliably improve analogical reasoning. Here's what the scaling law breakdown means for your AI stack.
-
-AI Concepts LLMs & Models Enterprise AI
-
-](https://www.mindstudio.ai/blog/ai-scaling-laws-breaking-down-what-it-means-for-builders)[![](https://i.mscdn.ai/70cbb1ad-08d7-4fdc-ab31-e343780966a6/generated-images/cadcb869-46e2-407e-bd40-2f9edb3ce2e2.png?fm=auto&w=1200&fit=cover)
-
-June 12, 2026
-
-### How to Build an AI Second Brain with the Four C's Framework: Context, Connections, Capabilities, Cadence
-
-The Four C's framework gives you a repeatable system for building an AI operating system that knows your business and automates work while you sleep.
-
-Workflows Automation Productivity
-
-](https://www.mindstudio.ai/blog/ai-second-brain-four-cs-framework-context-connections-capabilities-cadence)[![](https://i.mscdn.ai/70cbb1ad-08d7-4fdc-ab31-e343780966a6/generated-images/84566b63-8364-45e8-917c-1e0f77bf8ee2.png?fm=auto&w=1200&fit=cover)
-
-June 12, 2026
-
-### What Is Apple's AI Strategy? How WWDC 2026 Changes the AI Landscape for Builders
-
-Apple is turning AI into part of the operating system, not a chatbot tab. Here's what WWDC 2026's announcements mean for AI builders and enterprise teams.
-
-AI Concepts Enterprise AI Integrations
-
-](https://www.mindstudio.ai/blog/apple-wwdc-2026-ai-strategy-what-it-means-for-builders)[![](https://i.mscdn.ai/1b7301c0-de42-4e46-b110-e9c55396e7ca/generated-images/0b7a5e84-d7e7-416a-b7f3-4a5be2162c52.png?fm=auto&w=1200&fit=cover)
-
-June 12, 2026
-
-### 7 Apps Your Operations Team Can Build This Quarter—No Engineers
-
-Vendor SLAs, onboarding checklists, incident logs—the internal tools ops keeps faking in spreadsheets. Here are seven your team can build this quarter.
-
-operations team apps internal tools operations automation
-
-](https://www.mindstudio.ai/blog/apps-operations-teams-can-build-with-ai)[![](https://i.mscdn.ai/70cbb1ad-08d7-4fdc-ab31-e343780966a6/generated-images/fe3dd1dc-4981-4c43-adcf-fa0e908014fd.png?fm=auto&w=1200&fit=cover)
-
-June 12, 2026
-
-### How to Build a Brainstorm-First AI Workflow: Separate Ideation from Execution
-
-Instead of asking AI for one answer, ask for five options first. This brainstorm-first technique consistently produces better outputs across any AI task.
-
-Prompt Engineering Workflows Productivity
-
-](https://www.mindstudio.ai/blog/brainstorm-first-ai-workflow-ideation-before-execution)[![](https://i.mscdn.ai/1b7301c0-de42-4e46-b110-e9c55396e7ca/generated-images/0107f0cb-c228-4b88-82b6-c885bb6a8c6a.png?fm=auto&w=1200&fit=cover)
-
-June 12, 2026
-
-### Buy the Commodity, Build What's Yours
-
-Buy SaaS for the undifferentiated work—payroll, accounting, the system of record. Build the workflows that are core to how your org actually operates.
-
-build vs buy software commodity vs core internal tools
-
-](https://www.mindstudio.ai/blog/buy-the-commodity-build-whats-yours)[![](https://i.mscdn.ai/70cbb1ad-08d7-4fdc-ab31-e343780966a6/generated-images/f9aed70b-77ea-4177-868e-209090b1aea4.png?fm=auto&w=1200&fit=cover)
-
-June 12, 2026
-
-### Claude Fable 5 vs GPT 5.5: Benchmark Breakdown and Real-World Coding Results
-
-Compare Claude Fable 5 and GPT 5.5 on SWEBench Pro, Frontier Code, and real agentic coding tasks to find the right model for your workflows.
-
-Claude GPT & OpenAI Comparisons
-
-](https://www.mindstudio.ai/blog/claude-fable-5-vs-gpt-5-5-benchmark-comparison)[![](https://i.mscdn.ai/1b7301c0-de42-4e46-b110-e9c55396e7ca/generated-images/538ca6a2-0551-4a3b-b874-b90021456aaa.png?fm=auto&w=1200&fit=cover)
-
-June 12, 2026
-
-### Decentralize the Building. Centralize the Seeing.
-
-The two motions look contradictory: push building to the edges, pull visibility to the center. They only conflict when every tool is a separate island.
-
-citizen development software governance operating model
-
-](https://www.mindstudio.ai/blog/decentralize-building-centralize-seeing)[![](https://i.mscdn.ai/70cbb1ad-08d7-4fdc-ab31-e343780966a6/generated-images/3d90b689-dbac-48bc-912d-84cc8746ff67.png?fm=auto&w=1200&fit=cover)
-
-June 12, 2026
-
-### Diffusion Language Models Explained: How Google's Diffusion Gemma Works
-
-Diffusion Gemma is Google's first open-weight diffusion language model. Learn how it differs from autoregressive models and when to use it in your workflows.
-
-Gemini LLMs & Models AI Concepts
-
-](https://www.mindstudio.ai/blog/diffusion-language-models-google-diffusion-gemma-explained)[![](https://i.mscdn.ai/1b7301c0-de42-4e46-b110-e9c55396e7ca/generated-images/687af916-c2e0-4ae5-a747-e3a4ebc29b46.png?fm=auto&w=1200&fit=cover)
-
-June 12, 2026
-
-### Your Best Engineers Should Architect Substrates, Not CRUD Apps
-
-When non-engineers build the long tail of internal tools, scarce engineering talent moves up: design the governed substrate, set patterns, review what ships.
-
-engineering org design platform engineering internal tools
-
-](https://www.mindstudio.ai/blog/engineers-should-architect-substrates)[![](https://i.mscdn.ai/1b7301c0-de42-4e46-b110-e9c55396e7ca/generated-images/a6daa9c4-5a8b-42f3-bb7d-e5a6b07c3a99.png?fm=auto&w=1200&fit=cover)
-
-June 12, 2026
-
-### Fragmented Tools Make Your Org Illegible to Its Own Leadership
-
-Run on dozens of disconnected tools and leadership can't see across them—can't answer cross-cutting questions, govern, or steer. The org goes blind to itself.
-
-organizational legibility tool fragmentation SaaS sprawl
-
-](https://www.mindstudio.ai/blog/fragmented-tools-make-orgs-illegible)[![](https://i.mscdn.ai/70cbb1ad-08d7-4fdc-ab31-e343780966a6/generated-images/86d29b6c-faf4-4798-bc0d-1edc77ab0a5d.png?fm=auto&w=1200&fit=cover)
-
-June 12, 2026
-
-### How to Use Claude Fable 5 for Complex Agentic Workflows: Tips and Best Practices
-
-Claude Fable 5 excels at long, complex tasks but burns tokens fast. Learn how to set effort levels, manage costs, and get the most out of this model.
-
-Claude Workflows Automation
-
-](https://www.mindstudio.ai/blog/how-to-use-claude-fable-5-agentic-workflows)[![](https://i.mscdn.ai/1b7301c0-de42-4e46-b110-e9c55396e7ca/generated-images/508bff2e-cec2-481b-9179-0d3430faa8ed.png?fm=auto&w=1200&fit=cover)
-
-June 12, 2026
-
-### Your Processes Change Faster Than Your Software Can
-
-In most orgs, the business learns faster than its tools can be rebuilt, so understanding outpaces software and the company slows to the speed of its backlog.
-
-software adaptability change velocity spec-driven development
-
-](https://www.mindstudio.ai/blog/software-at-the-speed-of-understanding)[![](https://i.mscdn.ai/1b7301c0-de42-4e46-b110-e9c55396e7ca/generated-images/03db9173-5834-4d0b-a83f-ffb14f34fc87.png?fm=auto&w=1200&fit=cover)
-
-June 12, 2026
-
-### The Compliance Case for Letting Everyone Build
-
-Compliance teams treat citizen development as a risk. On a governed substrate it's the opposite—a better audit trail and access control than the status quo.
-
-citizen development compliance audit trail data governance
-
-](https://www.mindstudio.ai/blog/the-compliance-case-for-citizen-development)[![](https://i.mscdn.ai/70cbb1ad-08d7-4fdc-ab31-e343780966a6/generated-images/f41c40e3-bb9b-45ca-9d5e-4ef65e767e2d.png?fm=auto&w=1200&fit=cover)
-
-June 12, 2026
-
-### What Is Analogical Reasoning in AI? Why Bigger Models Don't Always Win
-
-Analogical reasoning is one of the most human-like AI capabilities—and it doesn't scale with model size. Here's what the research shows and why it matters.
-
-AI Concepts LLMs & Models Prompt Engineering
-
-](https://www.mindstudio.ai/blog/what-is-analogical-reasoning-ai-scaling-limits)[![](https://i.mscdn.ai/70cbb1ad-08d7-4fdc-ab31-e343780966a6/generated-images/195e7fa3-feda-42d8-92f5-061efebb0700.png?fm=auto&w=1200&fit=cover)
-
-June 12, 2026
-
-### What Is Claude Fable 5? Anthropic's Mythos-Class Model for General Use Explained
-
-Claude Fable 5 is Anthropic's most capable publicly available model. Learn what makes it different, its pricing, and best use cases for agentic work.
-
-Claude LLMs & Models AI Concepts
-
-](https://www.mindstudio.ai/blog/what-is-claude-fable-5-anthropic-mythos-class-model-2)[![](https://i.mscdn.ai/70cbb1ad-08d7-4fdc-ab31-e343780966a6/generated-images/c7f36c50-47db-4b82-b95d-bfd40eb6e597.png?fm=auto&w=1200&fit=cover)
-
-June 12, 2026
-
-### What Is Inference-Time Compute? Why OpenAI, Google, and Anthropic Are All Pivoting
-
-Inference-time compute lets AI models think longer at query time instead of relying on bigger base models. Here's why every major lab is making this shift.
-
-AI Concepts LLMs & Models Enterprise AI
-
-](https://www.mindstudio.ai/blog/what-is-inference-time-compute-ai-pivot-explained)[![](https://i.mscdn.ai/1b7301c0-de42-4e46-b110-e9c55396e7ca/generated-images/088e18c8-6ffa-45a9-b5b0-bd59b0823705.png?fm=auto&w=1200&fit=cover)
-
-June 12, 2026
-
-### The Companies Winning at AI Don't Have the Biggest Budgets
-
-AI returns don't track with spend. The orgs pulling ahead didn't buy the most licenses or GPUs—they shortened the distance between a problem and a working tool.
-
-AI budget AI ROI AI adoption
-
-](https://www.mindstudio.ai/blog/winning-at-ai-isnt-about-budget)[![](https://i.mscdn.ai/70cbb1ad-08d7-4fdc-ab31-e343780966a6/generated-images/c0b4a985-110b-42c1-ba61-5c12ba072d41.png?fm=auto&w=1200&fit=cover)
-
-June 11, 2026
-
-### AI Benchmark Contamination: Why SWEBench Pro Scores Should Come with an Asterisk
-
-SWEBench Pro has contamination problems—models like Claude Opus cheated on 12% of tasks. Learn why DeepSWE is a more reliable benchmark for agentic coding.
-
-LLMs & Models AI Concepts Comparisons
-
-](https://www.mindstudio.ai/blog/ai-benchmark-contamination-swebench-pro-deepswe)[![](https://i.mscdn.ai/70cbb1ad-08d7-4fdc-ab31-e343780966a6/generated-images/e6668c34-66b4-4cba-9ba9-00d185d50176.png?fm=auto&w=1200&fit=cover)
-
-June 11, 2026
-
-### How to Build an AI Operating System Using the Four C's Framework
-
-The Four C's—Context, Connections, Capabilities, and Cadence—are the building blocks of a personal AI OS. Learn how to implement each layer with Claude Code.
-
-Claude Workflows Automation
-
-](https://www.mindstudio.ai/blog/ai-operating-system-four-cs-framework-claude-code)
+# Blog
+
+Idea shelf for posts and LinkedIn writing. Three in the pipe. Each idea below has a
+**thesis** (the one sentence the post has to earn), an **outline**, **research/refs**,
+and **open questions** — the things I still have to decide before drafting.
+
+> [!note] Conventions
+> Long-form goes on the blog, the short provocation goes on LinkedIn and links back.
+> Anything I clip as raw material for one of these gets `project: "[[Blog]]"` so it
+> lands on the desk below without leaving `Clippings/`. See [[Project workflow]].
+
+**Done when:**
+- [ ] Idea 1 — AI UX/UI slop + slop-voting + [[Netlight]] audit offer, published
+- [ ] Idea 2 — LinkedIn post on bad success metrics, published
+- [ ] Idea 2b — follow-up blog on what to measure instead, published
+- [ ] Idea 3 — structural lint rules in a dirty codebase, published
+
+---
+
+## Idea 1 — Reducing AI UX/UI slop (and will scroll-hijacking be the next kind?)
+
+**Thesis.** AI slop isn't one aesthetic, it's a *moving target*. Every time the tools
+get better, the tell moves — and the tell is always the same underlying failure:
+the model outputs the statistical average of the web, and nobody edited it afterwards.
+
+### The argument: slop has had two generations so far
+
+| Gen | What it looked like | How you spotted it |
+|---|---|---|
+| **1. Genuinely ugly** | Broken spacing, mismatched type scales, clipped layouts, stock-photo mush | You could see it from across the room |
+| **2. Competent but templated** | Tailwind `blue-600 → purple-500` hero gradient, Inter bold centered headline, three equal-width feature cards with thin-line icons, "Get Started" CTA, and the same closing section every time | Looks fine at a glance. The *copy* gives it away — the boilerplate closing line, the "It's not just X — it's Y" construction, the em-dash cadence |
+
+The gen-2 tell is worth being precise about, because it's the interesting one: the
+layout passes, and then the **last block of text on the page** always reads the same.
+The negative-parallelism construction ("It's not just a tool — it's a workflow") plus
+the closing CTA paragraph is the most reliable fingerprint left, and it's a *writing*
+fingerprint, not a design one. Design got good enough to hide; the copy didn't.
+(Worth noting for fairness: no single tell proves anything — em-dashes have been in
+edited English forever. It's the *density and co-occurrence* of tells that's the
+signal.)
+
+### The prediction: gen 3 is motion
+
+Right now the hype has moved to heavily animated sites — scroll-driven timelines,
+pinned sections, scroll hijacking. GSAP went fully free (plugins included) in 2026,
+every "Awwwards clone in 20 minutes" tutorial is a ScrollTrigger tutorial, and the
+agents have learned it. So: **is scroll-hijacking the next slop?**
+
+My take — and this is the spine of the post: yes, and it will be *worse* than gen 2,
+because gen-2 slop was merely boring, whereas motion slop actively hurts people.
+
+- NN/g usability work found the majority of participants got at least mildly
+  disoriented by scrolljacking; some read the altered scroll as a *bug*.
+- Parallax, zoom transitions and auto-scroll trigger dizziness, nausea and migraines
+  in users with vestibular sensitivity.
+- It routinely ignores `prefers-reduced-motion` — a setting the user explicitly chose.
+- Keyboard and screen-reader users can get stuck outright.
+- It's slow and unpredictable on mobile, which is where the traffic is.
+
+So the pattern repeats: the tool makes a hard thing cheap → everyone does the cheap
+version → the cheap version has a fingerprint → the fingerprint becomes the slop.
+Gen 1 was cheap layout. Gen 2 was cheap taste. Gen 3 is cheap motion. **Gen 4 is
+probably cheap *interaction*** — AI-generated micro-interactions and "agentic" UI
+that reorganises itself, where the tell will be that nothing sits still long enough
+to be learned.
+
+### The counter-position I have to take seriously
+
+Not all animation is slop, and "AI-looking" is not the same as "bad". A pinned
+scroll sequence on a product story page is a legitimate craft choice. The line I'll
+draw in the post: **does the effect complement the user's scroll, or take it over?**
+Complementing is craft. Taking over is slop. That gives readers a usable test instead
+of a vibe.
+
+### Interactive bit — "Is this site AI slop?" voting
+
+The post should not just assert the tells, it should *collect* them.
+
+- Reader pastes a URL (or picks from a seeded gallery) and votes: **slop / not slop /
+  borderline**.
+- Second question, the useful one: *why?* — checkbox tells (gradient hero, three-card
+  grid, negative-parallelism copy, scroll hijack, no reduced-motion respect,
+  boilerplate closing CTA, generic stock illustration).
+- Results shown live. Over time this becomes a dataset of what people actually
+  register as slop, which is a *second* post and a talk.
+- Seed it with a handful of sites I'm confident about in each direction so the first
+  visitor sees something.
+
+Open design questions: moderation (people will submit competitors' sites — probably
+no public URL list, aggregate only, or a curated gallery only), and whether a public
+"this site is slop" scoreboard is a fight worth having. Leaning: **curated gallery,
+aggregate results, no user-submitted public shaming.**
+
+### The [[Netlight]] angle
+
+Close with what we're actually doing about it: at Netlight we're starting to run
+**UX/UI audits** — going through a site or product against exactly these criteria
+(taste and consistency, motion and accessibility, copy authenticity, does the design
+carry a point of view) and coming back with a concrete improvement plan. The post
+earns the offer instead of being an ad for it: reader gets the checklist for free,
+and the audit is "we do this properly, with research and a plan."
+
+Needs a decision on positioning — audit as a standalone offer vs. part of the wider
+AI-transformation work in [[AI Transformation]].
+
+### Refs
+- [AI Slop Web Design: Complete Guide to Spotting and Fixing Generic Websites (2026)](https://www.925studios.co/blog/ai-slop-web-design-guide)
+- [Why Your AI Keeps Building the Same Purple Gradient Website](https://prg.sh/ramblings/Why-Your-AI-Keeps-Building-the-Same-Purple-Gradient-Website)
+- [AI Slop in 2026: The State of the AI-Generated Web (100-page report)](https://www.sailop.com/blog/ai-slop-2026-state-of-the-ai-generated-web)
+- [Unslop UI: Kill the AI Design Tells](https://www.claudecodehq.com/playbooks/unslop-ui)
+- [Don't Fuck With Scroll — Stop Scrolljacking the Web](https://dontfuckwithscroll.com/)
+- [Avoid scrolljacking and custom scroll behavior — Front-End Checklist](https://frontendchecklist.io/rules/accessibility/scrolljacking)
+- [Most UI Animations Shouldn't Exist — Trevor Calabro](https://trevorcalabro.substack.com/p/most-ui-animations-shouldnt-exist)
+- [Designing for Reduced Motion — Craft CMS](https://craftcms.com/blog/designing-for-reduced-motion)
+- [The phrases that give away AI writing — Ritner Digital](https://www.ritnerdigital.com/blog/the-phrases-that-give-away-ai-writing-and-how-to-edit-them-out-before-they-cost-you-trust)
+- [The em dash isn't an AI fingerprint](https://jamaalglenn.substack.com/p/the-em-dash-isnt-an-ai-fingerprint) — the fair counter-argument
+- Vault: [[Inspiration]] (the gallery is the "not slop" evidence base) ·
+  [[7 Rules for Creating Gorgeous UI (01kn9zv7vjs2fn3r9yksh1xez4)]] ·
+  [[Every UI-UX Concept Explained in Under 10 Minutes (01kna4wk4axs6p6078mytd9pnr)]] ·
+  [[Beck Design Rules (01ks7c0ngsfj5whrewh690b6wm)]]
+
+### Open questions
+- [ ] Do I have permission/appetite to name real sites as examples, or only anonymised screenshots?
+- [ ] Where does the voting widget live — own the hosting, or a hosted poll?
+- [ ] Is the Netlight audit far enough along to link to a real page, or is it "get in touch"?
+
+---
+
+## Idea 2 — Stop measuring engineering success by lines of code and story points
+
+**Format.** LinkedIn post first (the provocation), then a longer blog post on what to
+measure instead. Keep the LinkedIn one short and pointed; put the nuance in the blog.
+
+**Thesis.** Lines-of-code leaderboards and story-point velocity aren't *imperfect*
+measures of engineering success — they measure something that isn't success at all,
+and in the AI era they've gone from useless to actively harmful.
+
+### Why LoC is worse now than it ever was
+
+LoC was always a bad proxy: it rewards volume and punishes deletion, which is the
+single highest-leverage thing an engineer does. But AI broke it completely — output
+volume is now nearly free, so a LoC leaderboard is a leaderboard of *who accepted the
+most autocomplete*. Same for "PRs merged" and "commits."
+
+### Why story points are a different kind of wrong
+
+Story points are a **team-relative** estimate. Comparing velocity across teams is
+arithmetic on incompatible units. And the moment velocity becomes a target, it stops
+being a measure — teams inflate estimates, not output. Goodhart, on a two-week cadence.
+
+### The receipts
+
+- **METR RCT (July 2025):** experienced open-source developers were **19% slower**
+  with early-2025 AI tools — while believing they'd been sped up by ~20%. That gap
+  between *felt* and *measured* productivity is the whole post in one number.
+  *Honest caveat I should include:* METR published an update in Feb 2026 after finding
+  a selection effect (30–50% of invited devs declined without AI access, biasing the
+  sample). The newer cohort — 57 developers, 800+ tasks — showed **-4%** with a CI of
+  -15% to +9%, i.e. much closer to "no measurable effect" than to a 19% slowdown.
+  I'd rather cite both than get called out; the argument doesn't need the big number.
+  The point stands either way: **self-reported speed is not evidence.**
+- **DORA 2025 AI Capabilities Model:** teams reporting individual productivity gains
+  are simultaneously seeing slower delivery, more bugs and longer reviews. The tools
+  generate code faster than organisations can safely absorb it.
+- Even DORA gets misused — the metrics are diagnostic, not a leaderboard. Teams that
+  optimise for the number instead of the outcome will game the number.
+
+### What to measure instead (the blog follow-up)
+
+The structure I want:
+
+1. **Never measure an individual with a system metric.** Every framework says this
+   and every org does it anyway.
+2. **DORA** for delivery flow (change lead time, deployment frequency, change failure
+   rate, failed-deployment recovery) — as a diagnostic, at team level.
+3. **SPACE** for the reminder that satisfaction, performance, activity, communication
+   and efficiency are five *different* axes and activity is the least useful one.
+4. **DX Core 4** as the practical synthesis: speed, effectiveness, quality, business
+   impact. Key rule from their own guidance — speed metrics like diffs/engineer are
+   *dangerous in isolation* and only work counterbalanced by experience metrics, and
+   never tied to individual performance targets.
+5. **Outcome metrics that actually mean success**: did the thing we shipped move the
+   number we shipped it for? Adoption, retention, revenue, cost-to-serve, incident
+   load. Uncomfortable, slow, and the only ones that are actually about success.
+6. **AI-specific quality drift**, which connects straight to Idea 3: complexity
+   trend, duplication, review latency, revert rate, % of PRs touching the same code
+   twice within N days. See
+   [[code-quality-metrics-measuring-ai-code-drift-using-github-metrics.md a… (01kr8qqpadyvjhyej7k9hwwqa6)]]
+   — including its point that `git merge --squash` destroys the granular signal, so
+   you have to measure pre-merge.
+
+### Refs
+- **Reference post from the user:** <https://x.com/i/status/2088116654102249957>
+  — ⚠️ **not yet captured.** x.com is blocked from this environment, so I couldn't
+  read it. Paste the text or a screenshot into this note before drafting, so the post
+  can quote it properly and credit the author.
+- [METR — Measuring the Impact of Early-2025 AI on Experienced OSS Developer Productivity](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/) · [arXiv 2507.09089](https://arxiv.org/abs/2507.09089)
+- [Measuring developer productivity with the DX Core 4](https://getdx.com/research/measuring-developer-productivity-with-the-dx-core-4/)
+- [How to measure developer productivity — DX](https://getdx.com/blog/developer-productivity/)
+- [Developer Productivity Metrics 2026: From DORA to DevEx and Beyond](https://zylos.ai/research/2026-02-07-developer-productivity-metrics/)
+- Vault: [[Is There A Right Way To Write User Stories (01kcmg2qj0ja56sf5p0gcjp0ec)]] ·
+  [[GitHub - middlewarehq-middleware:  Open-source DORA metrics platform f… (01kr280nq0b1s5a1c3qd1k1yja)]] ·
+  [[GitHub - mikaelvesavuori-github-dora-metrics: Instant, badge-ready DOR… (01kr2801w835pagbeb3nazenyz)]] ·
+  [[The hidden technical debt of agentic engineering (01knacfykmbc0ggg22m3dvprct)]]
+
+### Open questions
+- [ ] Hook for the LinkedIn post — lead with the METR perception gap, or with a
+      concrete "we ran a LoC leaderboard and here's what happened"?
+- [ ] Do I name the anti-pattern with a real example (a client, anonymised) or keep
+      it general? A real story is 10x the engagement and 10x the risk.
+
+---
+
+## Idea 3 — Introducing structural lint rules into a codebase that's already bad
+
+**Thesis.** You don't fix a dirty codebase by turning on `complexity: error` and
+watching CI go red for six months. You turn the rules on as **warnings**, feed those
+warnings to the agent as *state*, and let the boy-scout rule plus a never-worse gate
+do the work commit by commit.
+
+### The setup
+
+The rules worth having are the structural ones — cyclomatic/cognitive complexity,
+`max-lines`, `max-lines-per-function`, `max-params`, `max-depth`. In a greenfield repo
+you just turn them on. In a repo with years of accumulated code, turning them on as
+errors is a non-starter: thousands of violations, nobody can ship, the rules get
+switched off within a week and never come back.
+
+### The mechanism I want to propose
+
+1. **Warn, don't error.** New rules land at `warn`. Nothing is blocked.
+2. **Feed the warnings back to the LLM as context.** The agent sees the current
+   quality state of the files it's touching — not as a lecture in `CLAUDE.md`, but as
+   live linter output in its loop. It now *knows* the code is bad, and where.
+3. **Boy-scout rule: leave it better than you found it.** The agent's brief includes
+   improving what it touches, not just what it was asked to change.
+4. **Never-worse quality gate.** Measure the metric at the start of the change and
+   again at the end. The change can leave the number the same or better; it cannot
+   make it worse. That's a *delta* gate, not an absolute one — which is exactly what
+   makes it adoptable on day one in a repo with 4,000 violations.
+5. Over time the ratchet tightens: once a rule's violation count hits zero in a
+   directory, it graduates from `warn` to `error` there.
+
+### The caveat that makes this hard — and it's the best part of the post
+
+**A threshold rule can be satisfied without improving anything.** The canonical case
+is `max-params`: the rule fires on a 4-argument method, and the agent "fixes" it by
+wrapping the four arguments in one object. Lint goes green. The method still depends
+on exactly the same four facts. Nothing improved — the braces moved.
+
+I already wrote this up in detail:
+**[[Max-Params Lint — The Parameter-Object Trap]]** — a real case from `ethira/api`
+where the honest fix was to notice the method had two responsibilities, split it, and
+watch the argument count fall out as a *consequence*. The note has the decision tree:
+
+- fields form one real concept (a value object)? → parameter object is legitimate
+- one arg is only forwarded onwards (Feature Envy)? → move the behaviour to the data,
+  the arg evaporates
+- method owns >1 responsibility? → split it, the count drops by itself
+- **never** wrap-to-silence when the fields are unrelated
+
+That note is the backbone of the second half of the post: *green lint ≠ good refactor*,
+and a metric an agent can game is a metric that will be gamed. Which means the gate
+needs teeth against gaming too — banning inline `eslint-disable` as an escape hatch,
+flagging unused disable directives, and reviewing *why* a number went down, not just
+that it did.
+
+### Research findings
+
+> Background research pending — findings will be appended here.
+
+### Refs
+- Vault: **[[Max-Params Lint — The Parameter-Object Trap]]** (primary — the caveat) ·
+  [[ESLint as AI Guardrails: The Rules That Make AI Code Readable (01knvx4ag6zqy02se06rxkgfnf)]]
+  (agents need hard constraints, not nudges; CodeRabbit's 1.7x-more-issues figure) ·
+  [[Refactoring Examples — Bad to Good]] ·
+  [[AI - Testing and Code Health]] ·
+  [[Getting Started With Ddd When Surrounded By Legacy Systems (01kb69xfk9xxq5f8eatccj7vbh)]] ·
+  [[The basics of software coupling metrics and concepts (01kd04z7es6cncgkad9sx5xv4q)]] ·
+  [[The hidden technical debt of agentic engineering (01knacfykmbc0ggg22m3dvprct)]]
+
+### Open questions
+- [ ] Which repo do I use for the worked example — `ethira/api` (real, mine, but
+      needs sanitising) or a public refactoring kata?
+- [ ] Does the post ship with a working config (ESLint + gate script) people can copy?
+      That's what would make it actually useful, and it's the difference between a
+      post and a repo.
+
+---
+
+## Notes
+- Ideas 2 and 3 are the same argument at two altitudes: *stop measuring volume, start
+  measuring whether the thing got better.* Consider cross-linking them explicitly, or
+  even publishing them as a pair.
+- Idea 1 is the odd one out topically but the strongest candidate for reach.
+
+---
+
+## Desk
+
+```dataviewjs
+await dv.view("Templates/Scripts/project-desk");
+```
