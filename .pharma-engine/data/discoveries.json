@@ -1,0 +1,42 @@
+{
+  "_comment": "Rediscovery ground truth, kept in a separate file so it can never leak into the evidence ledger the engine reasons over. Each entry is a real, published discovery of a target-disease link that did not exist in the literature before `discovered_year`. The `abc` test asks: restricted to knowledge before that year, does the engine's open-discovery pass surface this pair, and how highly does it rank it?",
+  "rediscovery_cases": [
+    {
+      "id": "rock-dry-amd",
+      "target": [
+        "ROCK1",
+        "ROCK2"
+      ],
+      "disease": "DRY_AMD",
+      "discovered_year": 2025,
+      "cutoff_year": 2024,
+      "expected_bridge": [
+        "ACTIN_ROCK",
+        "PHAGOCYTOSIS",
+        "RPE_PHAGOCYTOSIS"
+      ],
+      "what_happened": "Robin, a multi-agent system from FutureHouse, autonomously generated the hypothesis that enhancing retinal pigment epithelium phagocytosis could treat dry age-related macular degeneration, selected ROCK inhibitors as the intervention class, and nominated ripasudil -- an approved glaucoma drug. Human experimenters ran the assays; ripasudil increased RPE phagocytosis. Concept to paper took about two and a half months.",
+      "citation": "FutureHouse, 'Demonstrating end-to-end scientific discovery with Robin, a multi-agent system', 2025",
+      "why_it_is_a_fair_test": "Every edge the engine needs was public well before 2025: ROCK sits in Rho/ROCK actin regulation (1996), actin remodelling gates phagocytic engulfment (2000s), RPE phagocytosis of shed outer segments fails in dry AMD (2008), and ripasudil was an approved ROCK inhibitor (2014). The A-C edge -- ROCK to dry AMD -- was the thing nobody had written down.",
+      "allow_new_disease_node": false
+    },
+    {
+      "id": "aak1-covid",
+      "target": [
+        "AAK1"
+      ],
+      "disease": "COVID19",
+      "discovered_year": 2020,
+      "cutoff_year": 2019,
+      "expected_bridge": [
+        "CLATHRIN_ENDOCYTOSIS",
+        "VIRAL_ENTRY"
+      ],
+      "what_happened": "BenevolentAI queried a machine-read knowledge graph and identified clathrin-mediated endocytosis as the likely route of SARS-CoV-2 entry, and baricitinib -- a rheumatoid arthritis JAK inhibitor that also inhibits the numb-associated kinases AAK1 and GAK -- as an agent that would block it while also damping the cytokine response. Baricitinib went on to reduce mortality in ACTT-2 and COV-BARRIER and received emergency authorisation.",
+      "citation": "Richardson et al., Lancet 2020; Stebbing et al., Front Pharmacol 2021 (expert-augmented computational drug repurposing)",
+      "why_it_is_a_fair_test": "AAK1's role in clathrin-mediated endocytosis was published in 2002 and endocytosis as a viral entry route long before 2020. With the COVID19 disease node present but no AAK1-COVID19 evidence atom, the engine has exactly the information BenevolentAI's graph had.",
+      "caveat": "The COVID19 disease node and its process edges are dated 2020 in the entity graph, so this case tests bridge-finding given a new disease node, not prediction of the pandemic itself. Run it with --allow-new-disease-node.",
+      "allow_new_disease_node": true
+    }
+  ]
+}

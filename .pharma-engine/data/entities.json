@@ -1,0 +1,1647 @@
+{
+  "_comment": "Hand-curated snapshot of real targets, diseases, pathways and drugs. Facts are drawn from the published literature; see README.md 'On the data' for what this snapshot is and is not. connectors.py replaces this file wholesale with live Open Targets / ChEMBL / Europe PMC pulls where network egress permits.",
+  "targets": [
+    {
+      "id": "PCSK9",
+      "name": "Proprotein convertase subtilisin/kexin type 9",
+      "family": "protease",
+      "secreted": true,
+      "contexts": [
+        "liver",
+        "plasma"
+      ],
+      "constraint": 0.1,
+      "tractability": {
+        "antibody": 0.95,
+        "small_molecule": 0.55,
+        "oligonucleotide": 0.9
+      },
+      "note": "Secreted, so accessible to antibodies and siRNA; intracellular small-molecule inhibition proved hard."
+    },
+    {
+      "id": "HMGCR",
+      "name": "HMG-CoA reductase",
+      "family": "enzyme",
+      "contexts": [
+        "liver"
+      ],
+      "constraint": 0.6,
+      "tractability": {
+        "small_molecule": 0.95,
+        "antibody": 0.05
+      }
+    },
+    {
+      "id": "NPC1L1",
+      "name": "Niemann-Pick C1-like 1",
+      "family": "transporter",
+      "contexts": [
+        "intestine",
+        "liver"
+      ],
+      "constraint": 0.3,
+      "tractability": {
+        "small_molecule": 0.85,
+        "antibody": 0.1
+      }
+    },
+    {
+      "id": "ANGPTL3",
+      "name": "Angiopoietin-like 3",
+      "family": "secreted regulator",
+      "secreted": true,
+      "contexts": [
+        "liver",
+        "plasma"
+      ],
+      "constraint": 0.15,
+      "tractability": {
+        "antibody": 0.9,
+        "oligonucleotide": 0.9,
+        "small_molecule": 0.2
+      }
+    },
+    {
+      "id": "APOC3",
+      "name": "Apolipoprotein C-III",
+      "family": "apolipoprotein",
+      "secreted": true,
+      "contexts": [
+        "liver",
+        "plasma"
+      ],
+      "constraint": 0.1,
+      "tractability": {
+        "oligonucleotide": 0.95,
+        "antibody": 0.8,
+        "small_molecule": 0.15
+      }
+    },
+    {
+      "id": "LPA",
+      "name": "Apolipoprotein(a)",
+      "family": "apolipoprotein",
+      "secreted": true,
+      "contexts": [
+        "liver",
+        "plasma"
+      ],
+      "constraint": 0.1,
+      "tractability": {
+        "oligonucleotide": 0.9,
+        "antibody": 0.5,
+        "small_molecule": 0.35
+      }
+    },
+    {
+      "id": "CETP",
+      "name": "Cholesteryl ester transfer protein",
+      "family": "lipid transfer",
+      "secreted": true,
+      "contexts": [
+        "plasma",
+        "liver"
+      ],
+      "constraint": 0.2,
+      "tractability": {
+        "small_molecule": 0.9,
+        "antibody": 0.6
+      }
+    },
+    {
+      "id": "IL23A",
+      "name": "Interleukin-23 subunit alpha (p19)",
+      "family": "cytokine",
+      "secreted": true,
+      "contexts": [
+        "skin",
+        "gut",
+        "joint",
+        "immune"
+      ],
+      "constraint": 0.3,
+      "tractability": {
+        "antibody": 0.95,
+        "small_molecule": 0.15
+      }
+    },
+    {
+      "id": "IL12B",
+      "name": "Interleukin-12 subunit beta (p40)",
+      "family": "cytokine",
+      "secreted": true,
+      "contexts": [
+        "skin",
+        "gut",
+        "immune"
+      ],
+      "constraint": 0.3,
+      "tractability": {
+        "antibody": 0.95,
+        "small_molecule": 0.15
+      }
+    },
+    {
+      "id": "IL23R",
+      "name": "Interleukin-23 receptor",
+      "family": "receptor",
+      "contexts": [
+        "gut",
+        "skin",
+        "immune"
+      ],
+      "constraint": 0.25,
+      "tractability": {
+        "antibody": 0.8,
+        "small_molecule": 0.35
+      }
+    },
+    {
+      "id": "TYK2",
+      "name": "Tyrosine kinase 2",
+      "family": "kinase",
+      "contexts": [
+        "immune",
+        "skin",
+        "gut"
+      ],
+      "constraint": 0.5,
+      "tractability": {
+        "small_molecule": 0.9,
+        "antibody": 0.05
+      },
+      "note": "Allosteric pseudokinase-domain binding gives selectivity that ATP-site JAK inhibitors lack."
+    },
+    {
+      "id": "JAK1",
+      "name": "Janus kinase 1",
+      "family": "kinase",
+      "contexts": [
+        "immune",
+        "gut",
+        "skin"
+      ],
+      "constraint": 0.8,
+      "tractability": {
+        "small_molecule": 0.9,
+        "antibody": 0.05
+      }
+    },
+    {
+      "id": "IL6R",
+      "name": "Interleukin-6 receptor",
+      "family": "receptor",
+      "contexts": [
+        "immune",
+        "joint",
+        "liver",
+        "vessel"
+      ],
+      "constraint": 0.3,
+      "tractability": {
+        "antibody": 0.95,
+        "small_molecule": 0.25
+      }
+    },
+    {
+      "id": "IL17A",
+      "name": "Interleukin-17A",
+      "family": "cytokine",
+      "secreted": true,
+      "contexts": [
+        "skin",
+        "joint",
+        "immune"
+      ],
+      "constraint": 0.2,
+      "tractability": {
+        "antibody": 0.95,
+        "small_molecule": 0.2
+      }
+    },
+    {
+      "id": "TNF",
+      "name": "Tumour necrosis factor",
+      "family": "cytokine",
+      "secreted": true,
+      "contexts": [
+        "immune",
+        "gut",
+        "joint",
+        "skin"
+      ],
+      "constraint": 0.4,
+      "tractability": {
+        "antibody": 0.95,
+        "small_molecule": 0.3
+      }
+    },
+    {
+      "id": "LRRK2",
+      "name": "Leucine-rich repeat kinase 2",
+      "family": "kinase",
+      "contexts": [
+        "brain",
+        "lung",
+        "immune"
+      ],
+      "constraint": 0.7,
+      "tractability": {
+        "small_molecule": 0.85,
+        "oligonucleotide": 0.6,
+        "antibody": 0.05
+      }
+    },
+    {
+      "id": "SNCA",
+      "name": "Alpha-synuclein",
+      "family": "structural",
+      "contexts": [
+        "brain"
+      ],
+      "constraint": 0.5,
+      "tractability": {
+        "antibody": 0.5,
+        "oligonucleotide": 0.7,
+        "small_molecule": 0.2
+      }
+    },
+    {
+      "id": "GBA1",
+      "name": "Glucocerebrosidase",
+      "family": "enzyme",
+      "contexts": [
+        "brain",
+        "lysosome"
+      ],
+      "constraint": 0.3,
+      "tractability": {
+        "small_molecule": 0.7,
+        "gene_therapy": 0.5
+      }
+    },
+    {
+      "id": "TREM2",
+      "name": "Triggering receptor expressed on myeloid cells 2",
+      "family": "receptor",
+      "contexts": [
+        "brain",
+        "microglia"
+      ],
+      "constraint": 0.2,
+      "tractability": {
+        "antibody": 0.8,
+        "small_molecule": 0.2
+      },
+      "note": "Requires agonism, which is materially harder than blockade for a receptor of this class."
+    },
+    {
+      "id": "APOE",
+      "name": "Apolipoprotein E",
+      "family": "apolipoprotein",
+      "secreted": true,
+      "contexts": [
+        "brain",
+        "liver",
+        "plasma"
+      ],
+      "constraint": 0.2,
+      "tractability": {
+        "oligonucleotide": 0.6,
+        "gene_therapy": 0.45,
+        "antibody": 0.4
+      }
+    },
+    {
+      "id": "BACE1",
+      "name": "Beta-secretase 1",
+      "family": "protease",
+      "contexts": [
+        "brain"
+      ],
+      "constraint": 0.6,
+      "tractability": {
+        "small_molecule": 0.85,
+        "antibody": 0.3
+      }
+    },
+    {
+      "id": "MAPT",
+      "name": "Microtubule-associated protein tau",
+      "family": "structural",
+      "contexts": [
+        "brain"
+      ],
+      "constraint": 0.7,
+      "tractability": {
+        "oligonucleotide": 0.75,
+        "antibody": 0.55,
+        "small_molecule": 0.15
+      }
+    },
+    {
+      "id": "SOST",
+      "name": "Sclerostin",
+      "family": "secreted regulator",
+      "secreted": true,
+      "contexts": [
+        "bone",
+        "plasma",
+        "vessel"
+      ],
+      "constraint": 0.2,
+      "tractability": {
+        "antibody": 0.95,
+        "small_molecule": 0.2
+      }
+    },
+    {
+      "id": "TNFSF11",
+      "name": "RANKL",
+      "family": "cytokine",
+      "secreted": true,
+      "contexts": [
+        "bone",
+        "immune"
+      ],
+      "constraint": 0.3,
+      "tractability": {
+        "antibody": 0.95,
+        "small_molecule": 0.2
+      }
+    },
+    {
+      "id": "GLP1R",
+      "name": "Glucagon-like peptide 1 receptor",
+      "family": "GPCR",
+      "contexts": [
+        "pancreas",
+        "brain",
+        "gut"
+      ],
+      "constraint": 0.4,
+      "tractability": {
+        "peptide": 0.95,
+        "small_molecule": 0.7,
+        "antibody": 0.3
+      }
+    },
+    {
+      "id": "GIPR",
+      "name": "Gastric inhibitory polypeptide receptor",
+      "family": "GPCR",
+      "contexts": [
+        "pancreas",
+        "adipose",
+        "brain"
+      ],
+      "constraint": 0.4,
+      "tractability": {
+        "peptide": 0.9,
+        "small_molecule": 0.55,
+        "antibody": 0.6
+      }
+    },
+    {
+      "id": "HSD17B13",
+      "name": "Hydroxysteroid 17-beta dehydrogenase 13",
+      "family": "enzyme",
+      "contexts": [
+        "liver"
+      ],
+      "constraint": 0.1,
+      "tractability": {
+        "oligonucleotide": 0.85,
+        "small_molecule": 0.6
+      }
+    },
+    {
+      "id": "PNPLA3",
+      "name": "Patatin-like phospholipase domain containing 3",
+      "family": "enzyme",
+      "contexts": [
+        "liver"
+      ],
+      "constraint": 0.2,
+      "tractability": {
+        "oligonucleotide": 0.85,
+        "small_molecule": 0.4
+      }
+    },
+    {
+      "id": "INHBE",
+      "name": "Inhibin subunit beta E",
+      "family": "secreted regulator",
+      "secreted": true,
+      "contexts": [
+        "liver",
+        "adipose",
+        "plasma"
+      ],
+      "constraint": 0.15,
+      "tractability": {
+        "antibody": 0.85,
+        "oligonucleotide": 0.85,
+        "small_molecule": 0.2
+      }
+    },
+    {
+      "id": "NLRP3",
+      "name": "NLR family pyrin domain containing 3",
+      "family": "inflammasome sensor",
+      "contexts": [
+        "immune",
+        "brain",
+        "vessel",
+        "joint"
+      ],
+      "constraint": 0.4,
+      "tractability": {
+        "small_molecule": 0.85,
+        "antibody": 0.05
+      }
+    },
+    {
+      "id": "C3",
+      "name": "Complement C3",
+      "family": "complement",
+      "secreted": true,
+      "contexts": [
+        "plasma",
+        "retina",
+        "liver"
+      ],
+      "constraint": 0.3,
+      "tractability": {
+        "peptide": 0.85,
+        "antibody": 0.85,
+        "oligonucleotide": 0.7,
+        "small_molecule": 0.3
+      }
+    },
+    {
+      "id": "CFH",
+      "name": "Complement factor H",
+      "family": "complement",
+      "secreted": true,
+      "contexts": [
+        "plasma",
+        "retina",
+        "liver"
+      ],
+      "constraint": 0.2,
+      "tractability": {
+        "antibody": 0.5,
+        "gene_therapy": 0.5,
+        "small_molecule": 0.15
+      }
+    },
+    {
+      "id": "ROCK1",
+      "name": "Rho-associated coiled-coil kinase 1",
+      "family": "kinase",
+      "contexts": [
+        "eye",
+        "retina",
+        "vessel",
+        "lung"
+      ],
+      "constraint": 0.5,
+      "tractability": {
+        "small_molecule": 0.9,
+        "antibody": 0.05
+      }
+    },
+    {
+      "id": "ROCK2",
+      "name": "Rho-associated coiled-coil kinase 2",
+      "family": "kinase",
+      "contexts": [
+        "eye",
+        "retina",
+        "vessel",
+        "immune"
+      ],
+      "constraint": 0.5,
+      "tractability": {
+        "small_molecule": 0.9,
+        "antibody": 0.05
+      }
+    },
+    {
+      "id": "AAK1",
+      "name": "AP2-associated protein kinase 1",
+      "family": "kinase",
+      "contexts": [
+        "immune",
+        "lung",
+        "brain"
+      ],
+      "constraint": 0.5,
+      "tractability": {
+        "small_molecule": 0.85,
+        "antibody": 0.05
+      }
+    },
+    {
+      "id": "JAK2",
+      "name": "Janus kinase 2",
+      "family": "kinase",
+      "contexts": [
+        "immune",
+        "bone marrow"
+      ],
+      "constraint": 0.8,
+      "tractability": {
+        "small_molecule": 0.9,
+        "antibody": 0.05
+      }
+    },
+    {
+      "id": "PDE10A",
+      "name": "Phosphodiesterase 10A",
+      "family": "enzyme",
+      "contexts": [
+        "brain",
+        "gut"
+      ],
+      "constraint": 0.5,
+      "tractability": {
+        "small_molecule": 0.9,
+        "antibody": 0.05
+      }
+    },
+    {
+      "id": "ASGR1",
+      "name": "Asialoglycoprotein receptor 1",
+      "family": "receptor",
+      "contexts": [
+        "liver"
+      ],
+      "constraint": 0.15,
+      "tractability": {
+        "antibody": 0.8,
+        "small_molecule": 0.4,
+        "oligonucleotide": 0.7
+      }
+    },
+    {
+      "id": "MERTK",
+      "name": "MER proto-oncogene tyrosine kinase",
+      "family": "kinase",
+      "contexts": [
+        "retina",
+        "immune",
+        "brain"
+      ],
+      "constraint": 0.4,
+      "tractability": {
+        "small_molecule": 0.8,
+        "antibody": 0.6
+      }
+    },
+    {
+      "id": "SLC30A8",
+      "name": "Zinc transporter 8",
+      "family": "transporter",
+      "contexts": [
+        "pancreas"
+      ],
+      "constraint": 0.2,
+      "tractability": {
+        "small_molecule": 0.4,
+        "oligonucleotide": 0.6
+      }
+    }
+  ],
+  "diseases": [
+    {
+      "id": "ASCVD",
+      "name": "Atherosclerotic cardiovascular disease",
+      "area": "cardiometabolic",
+      "contexts": [
+        "vessel",
+        "plasma",
+        "liver"
+      ]
+    },
+    {
+      "id": "HYPERCHOL",
+      "name": "Hypercholesterolaemia",
+      "area": "cardiometabolic",
+      "contexts": [
+        "plasma",
+        "liver"
+      ]
+    },
+    {
+      "id": "T2D",
+      "name": "Type 2 diabetes",
+      "area": "cardiometabolic",
+      "contexts": [
+        "pancreas",
+        "liver",
+        "adipose",
+        "muscle"
+      ]
+    },
+    {
+      "id": "OBESITY",
+      "name": "Obesity",
+      "area": "cardiometabolic",
+      "contexts": [
+        "adipose",
+        "brain",
+        "gut"
+      ]
+    },
+    {
+      "id": "MASH",
+      "name": "Metabolic dysfunction-associated steatohepatitis",
+      "area": "cardiometabolic",
+      "contexts": [
+        "liver"
+      ]
+    },
+    {
+      "id": "CROHN",
+      "name": "Crohn's disease",
+      "area": "immunology",
+      "contexts": [
+        "gut",
+        "immune"
+      ]
+    },
+    {
+      "id": "UC",
+      "name": "Ulcerative colitis",
+      "area": "immunology",
+      "contexts": [
+        "gut",
+        "immune"
+      ]
+    },
+    {
+      "id": "PSORIASIS",
+      "name": "Plaque psoriasis",
+      "area": "immunology",
+      "contexts": [
+        "skin",
+        "immune"
+      ]
+    },
+    {
+      "id": "RA",
+      "name": "Rheumatoid arthritis",
+      "area": "immunology",
+      "contexts": [
+        "joint",
+        "immune"
+      ]
+    },
+    {
+      "id": "PD",
+      "name": "Parkinson's disease",
+      "area": "neuroscience",
+      "contexts": [
+        "brain"
+      ]
+    },
+    {
+      "id": "AD",
+      "name": "Alzheimer's disease",
+      "area": "neuroscience",
+      "contexts": [
+        "brain",
+        "microglia"
+      ]
+    },
+    {
+      "id": "OSTEOPOROSIS",
+      "name": "Osteoporosis",
+      "area": "musculoskeletal",
+      "contexts": [
+        "bone"
+      ]
+    },
+    {
+      "id": "DRY_AMD",
+      "name": "Dry age-related macular degeneration",
+      "area": "ophthalmology",
+      "contexts": [
+        "retina",
+        "eye"
+      ]
+    },
+    {
+      "id": "COVID19",
+      "name": "COVID-19",
+      "area": "infectious disease",
+      "contexts": [
+        "lung",
+        "immune",
+        "vessel"
+      ]
+    },
+    {
+      "id": "GLAUCOMA",
+      "name": "Primary open-angle glaucoma",
+      "area": "ophthalmology",
+      "contexts": [
+        "eye"
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "id": "LDLR_RECYCLING",
+      "name": "LDL receptor recycling and clearance",
+      "contexts": [
+        "liver",
+        "plasma"
+      ]
+    },
+    {
+      "id": "TRL_METABOLISM",
+      "name": "Triglyceride-rich lipoprotein metabolism",
+      "contexts": [
+        "liver",
+        "plasma"
+      ]
+    },
+    {
+      "id": "IL23_TH17",
+      "name": "IL-23 / Th17 axis",
+      "contexts": [
+        "gut",
+        "skin",
+        "immune",
+        "joint"
+      ]
+    },
+    {
+      "id": "JAK_STAT",
+      "name": "JAK-STAT cytokine signalling",
+      "contexts": [
+        "immune",
+        "gut",
+        "skin",
+        "joint"
+      ]
+    },
+    {
+      "id": "LYSOSOME_AUTOPHAGY",
+      "name": "Lysosomal function and autophagy",
+      "contexts": [
+        "brain",
+        "lysosome",
+        "immune"
+      ]
+    },
+    {
+      "id": "PHAGOCYTOSIS",
+      "name": "Phagocytosis and cellular clearance",
+      "contexts": [
+        "microglia",
+        "retina",
+        "immune",
+        "brain"
+      ]
+    },
+    {
+      "id": "WNT_OSTEOBLAST",
+      "name": "Wnt signalling in osteoblasts",
+      "contexts": [
+        "bone",
+        "vessel"
+      ]
+    },
+    {
+      "id": "CLATHRIN_ENDOCYTOSIS",
+      "name": "Clathrin-mediated endocytosis",
+      "contexts": [
+        "lung",
+        "immune",
+        "brain"
+      ]
+    },
+    {
+      "id": "INFLAMMASOME",
+      "name": "NLRP3 inflammasome activation",
+      "contexts": [
+        "immune",
+        "brain",
+        "vessel",
+        "joint"
+      ]
+    },
+    {
+      "id": "COMPLEMENT_ALT",
+      "name": "Alternative complement pathway",
+      "contexts": [
+        "retina",
+        "plasma",
+        "immune"
+      ]
+    },
+    {
+      "id": "INCRETIN",
+      "name": "Incretin signalling",
+      "contexts": [
+        "pancreas",
+        "brain",
+        "gut",
+        "adipose"
+      ]
+    },
+    {
+      "id": "HEPATIC_LIPID",
+      "name": "Hepatic lipid droplet handling",
+      "contexts": [
+        "liver"
+      ]
+    },
+    {
+      "id": "ACTIN_ROCK",
+      "name": "Rho/ROCK actin cytoskeletal regulation",
+      "contexts": [
+        "eye",
+        "retina",
+        "vessel",
+        "immune",
+        "lung"
+      ]
+    },
+    {
+      "id": "IL6_TRANS",
+      "name": "IL-6 trans-signalling",
+      "contexts": [
+        "immune",
+        "joint",
+        "vessel",
+        "liver"
+      ]
+    }
+  ],
+  "processes": [
+    {
+      "id": "RPE_PHAGOCYTOSIS",
+      "name": "Retinal pigment epithelium phagocytosis of photoreceptor outer segments",
+      "contexts": [
+        "retina",
+        "eye"
+      ]
+    },
+    {
+      "id": "MICROGLIAL_CLEARANCE",
+      "name": "Microglial clearance of amyloid and debris",
+      "contexts": [
+        "brain",
+        "microglia"
+      ]
+    },
+    {
+      "id": "VIRAL_ENTRY",
+      "name": "Viral entry by receptor-mediated endocytosis",
+      "contexts": [
+        "lung",
+        "immune"
+      ]
+    },
+    {
+      "id": "CYTOKINE_STORM",
+      "name": "Hyperinflammatory cytokine response",
+      "contexts": [
+        "lung",
+        "immune",
+        "vessel"
+      ]
+    },
+    {
+      "id": "BONE_FORMATION",
+      "name": "Osteoblast-driven bone formation",
+      "contexts": [
+        "bone"
+      ]
+    },
+    {
+      "id": "VASCULAR_CALCIFICATION",
+      "name": "Vascular calcification",
+      "contexts": [
+        "vessel"
+      ]
+    },
+    {
+      "id": "HEPATIC_STEATOSIS",
+      "name": "Hepatic fat accumulation and fibrosis",
+      "contexts": [
+        "liver"
+      ]
+    },
+    {
+      "id": "GUT_BARRIER",
+      "name": "Intestinal epithelial barrier integrity",
+      "contexts": [
+        "gut"
+      ]
+    },
+    {
+      "id": "DRUSEN_FORMATION",
+      "name": "Sub-RPE drusen deposition",
+      "contexts": [
+        "retina",
+        "eye"
+      ]
+    }
+  ],
+  "drugs": [
+    {
+      "id": "evolocumab",
+      "name": "Evolocumab",
+      "targets": [
+        "PCSK9"
+      ],
+      "modality": "antibody",
+      "status": "approved",
+      "first_approval": 2015
+    },
+    {
+      "id": "inclisiran",
+      "name": "Inclisiran",
+      "targets": [
+        "PCSK9"
+      ],
+      "modality": "oligonucleotide",
+      "status": "approved",
+      "first_approval": 2020
+    },
+    {
+      "id": "evinacumab",
+      "name": "Evinacumab",
+      "targets": [
+        "ANGPTL3"
+      ],
+      "modality": "antibody",
+      "status": "approved",
+      "first_approval": 2021
+    },
+    {
+      "id": "ezetimibe",
+      "name": "Ezetimibe",
+      "targets": [
+        "NPC1L1"
+      ],
+      "modality": "small_molecule",
+      "status": "approved",
+      "first_approval": 2002
+    },
+    {
+      "id": "atorvastatin",
+      "name": "Atorvastatin",
+      "targets": [
+        "HMGCR"
+      ],
+      "modality": "small_molecule",
+      "status": "approved",
+      "first_approval": 1996
+    },
+    {
+      "id": "torcetrapib",
+      "name": "Torcetrapib",
+      "targets": [
+        "CETP"
+      ],
+      "modality": "small_molecule",
+      "status": "failed",
+      "failed_year": 2006
+    },
+    {
+      "id": "ustekinumab",
+      "name": "Ustekinumab",
+      "targets": [
+        "IL12B"
+      ],
+      "modality": "antibody",
+      "status": "approved",
+      "first_approval": 2009
+    },
+    {
+      "id": "risankizumab",
+      "name": "Risankizumab",
+      "targets": [
+        "IL23A"
+      ],
+      "modality": "antibody",
+      "status": "approved",
+      "first_approval": 2019
+    },
+    {
+      "id": "deucravacitinib",
+      "name": "Deucravacitinib",
+      "targets": [
+        "TYK2"
+      ],
+      "modality": "small_molecule",
+      "status": "approved",
+      "first_approval": 2022
+    },
+    {
+      "id": "tocilizumab",
+      "name": "Tocilizumab",
+      "targets": [
+        "IL6R"
+      ],
+      "modality": "antibody",
+      "status": "approved",
+      "first_approval": 2010
+    },
+    {
+      "id": "secukinumab",
+      "name": "Secukinumab",
+      "targets": [
+        "IL17A"
+      ],
+      "modality": "antibody",
+      "status": "approved",
+      "first_approval": 2015
+    },
+    {
+      "id": "romosozumab",
+      "name": "Romosozumab",
+      "targets": [
+        "SOST"
+      ],
+      "modality": "antibody",
+      "status": "approved",
+      "first_approval": 2019
+    },
+    {
+      "id": "denosumab",
+      "name": "Denosumab",
+      "targets": [
+        "TNFSF11"
+      ],
+      "modality": "antibody",
+      "status": "approved",
+      "first_approval": 2010
+    },
+    {
+      "id": "semaglutide",
+      "name": "Semaglutide",
+      "targets": [
+        "GLP1R"
+      ],
+      "modality": "peptide",
+      "status": "approved",
+      "first_approval": 2017
+    },
+    {
+      "id": "tirzepatide",
+      "name": "Tirzepatide",
+      "targets": [
+        "GLP1R",
+        "GIPR"
+      ],
+      "modality": "peptide",
+      "status": "approved",
+      "first_approval": 2022
+    },
+    {
+      "id": "pegcetacoplan",
+      "name": "Pegcetacoplan",
+      "targets": [
+        "C3"
+      ],
+      "modality": "peptide",
+      "status": "approved",
+      "first_approval": 2023
+    },
+    {
+      "id": "verubecestat",
+      "name": "Verubecestat",
+      "targets": [
+        "BACE1"
+      ],
+      "modality": "small_molecule",
+      "status": "failed",
+      "failed_year": 2018
+    },
+    {
+      "id": "baricitinib",
+      "name": "Baricitinib",
+      "targets": [
+        "JAK1",
+        "JAK2",
+        "AAK1"
+      ],
+      "modality": "small_molecule",
+      "status": "approved",
+      "first_approval": 2018
+    },
+    {
+      "id": "ripasudil",
+      "name": "Ripasudil",
+      "targets": [
+        "ROCK1",
+        "ROCK2"
+      ],
+      "modality": "small_molecule",
+      "status": "approved",
+      "first_approval": 2014
+    },
+    {
+      "id": "netarsudil",
+      "name": "Netarsudil",
+      "targets": [
+        "ROCK1",
+        "ROCK2"
+      ],
+      "modality": "small_molecule",
+      "status": "approved",
+      "first_approval": 2017
+    }
+  ],
+  "edges": [
+    {
+      "from": "PCSK9",
+      "to": "LDLR_RECYCLING",
+      "type": "member",
+      "year": 2003,
+      "polarity": -1
+    },
+    {
+      "from": "HMGCR",
+      "to": "LDLR_RECYCLING",
+      "type": "member",
+      "year": 1980,
+      "polarity": -1
+    },
+    {
+      "from": "NPC1L1",
+      "to": "LDLR_RECYCLING",
+      "type": "member",
+      "year": 2004,
+      "polarity": -1
+    },
+    {
+      "from": "ASGR1",
+      "to": "LDLR_RECYCLING",
+      "type": "member",
+      "year": 2016,
+      "polarity": -1
+    },
+    {
+      "from": "LDLR_RECYCLING",
+      "to": "ASCVD",
+      "type": "prevents",
+      "year": 1985,
+      "polarity": -1
+    },
+    {
+      "from": "LDLR_RECYCLING",
+      "to": "HYPERCHOL",
+      "type": "prevents",
+      "year": 1985,
+      "polarity": -1
+    },
+    {
+      "from": "ANGPTL3",
+      "to": "TRL_METABOLISM",
+      "type": "member",
+      "year": 2002
+    },
+    {
+      "from": "APOC3",
+      "to": "TRL_METABOLISM",
+      "type": "member",
+      "year": 1990
+    },
+    {
+      "from": "LPA",
+      "to": "TRL_METABOLISM",
+      "type": "member",
+      "year": 1987
+    },
+    {
+      "from": "CETP",
+      "to": "TRL_METABOLISM",
+      "type": "member",
+      "year": 1993
+    },
+    {
+      "from": "TRL_METABOLISM",
+      "to": "ASCVD",
+      "type": "drives",
+      "year": 2008
+    },
+    {
+      "from": "IL23A",
+      "to": "IL23_TH17",
+      "type": "member",
+      "year": 2003
+    },
+    {
+      "from": "IL12B",
+      "to": "IL23_TH17",
+      "type": "member",
+      "year": 2003
+    },
+    {
+      "from": "IL23R",
+      "to": "IL23_TH17",
+      "type": "member",
+      "year": 2006
+    },
+    {
+      "from": "IL17A",
+      "to": "IL23_TH17",
+      "type": "downstream",
+      "year": 2006
+    },
+    {
+      "from": "TYK2",
+      "to": "IL23_TH17",
+      "type": "transduces",
+      "year": 2006
+    },
+    {
+      "from": "TYK2",
+      "to": "JAK_STAT",
+      "type": "member",
+      "year": 1993
+    },
+    {
+      "from": "JAK1",
+      "to": "JAK_STAT",
+      "type": "member",
+      "year": 1993
+    },
+    {
+      "from": "JAK2",
+      "to": "JAK_STAT",
+      "type": "member",
+      "year": 1993
+    },
+    {
+      "from": "IL6R",
+      "to": "JAK_STAT",
+      "type": "upstream",
+      "year": 1994
+    },
+    {
+      "from": "IL6R",
+      "to": "IL6_TRANS",
+      "type": "member",
+      "year": 1997
+    },
+    {
+      "from": "IL23_TH17",
+      "to": "CROHN",
+      "type": "drives",
+      "year": 2006
+    },
+    {
+      "from": "IL23_TH17",
+      "to": "PSORIASIS",
+      "type": "drives",
+      "year": 2006
+    },
+    {
+      "from": "IL23_TH17",
+      "to": "UC",
+      "type": "drives",
+      "year": 2009
+    },
+    {
+      "from": "JAK_STAT",
+      "to": "RA",
+      "type": "drives",
+      "year": 2010
+    },
+    {
+      "from": "JAK_STAT",
+      "to": "UC",
+      "type": "drives",
+      "year": 2015
+    },
+    {
+      "from": "IL6_TRANS",
+      "to": "RA",
+      "type": "drives",
+      "year": 2005
+    },
+    {
+      "from": "IL6_TRANS",
+      "to": "ASCVD",
+      "type": "drives",
+      "year": 2012
+    },
+    {
+      "from": "LRRK2",
+      "to": "LYSOSOME_AUTOPHAGY",
+      "type": "member",
+      "year": 2010
+    },
+    {
+      "from": "GBA1",
+      "to": "LYSOSOME_AUTOPHAGY",
+      "type": "member",
+      "year": 2009
+    },
+    {
+      "from": "SNCA",
+      "to": "LYSOSOME_AUTOPHAGY",
+      "type": "substrate",
+      "year": 2010
+    },
+    {
+      "from": "LYSOSOME_AUTOPHAGY",
+      "to": "PD",
+      "type": "drives",
+      "year": 2010
+    },
+    {
+      "from": "TREM2",
+      "to": "PHAGOCYTOSIS",
+      "type": "member",
+      "year": 2013
+    },
+    {
+      "from": "MERTK",
+      "to": "PHAGOCYTOSIS",
+      "type": "member",
+      "year": 2001
+    },
+    {
+      "from": "ROCK1",
+      "to": "ACTIN_ROCK",
+      "type": "member",
+      "year": 1996
+    },
+    {
+      "from": "ROCK2",
+      "to": "ACTIN_ROCK",
+      "type": "member",
+      "year": 1996
+    },
+    {
+      "from": "ACTIN_ROCK",
+      "to": "PHAGOCYTOSIS",
+      "type": "regulates",
+      "year": 2004,
+      "note": "Rho/ROCK signalling constrains the actin remodelling that engulfment requires; ROCK inhibition enhances phagocytic capacity in several cell types.",
+      "polarity": -1
+    },
+    {
+      "from": "PHAGOCYTOSIS",
+      "to": "MICROGLIAL_CLEARANCE",
+      "type": "instance",
+      "year": 2013
+    },
+    {
+      "from": "PHAGOCYTOSIS",
+      "to": "RPE_PHAGOCYTOSIS",
+      "type": "instance",
+      "year": 1976
+    },
+    {
+      "from": "MICROGLIAL_CLEARANCE",
+      "to": "AD",
+      "type": "prevents",
+      "year": 2013,
+      "polarity": -1
+    },
+    {
+      "from": "RPE_PHAGOCYTOSIS",
+      "to": "DRY_AMD",
+      "type": "prevents",
+      "year": 2008,
+      "note": "Failure of daily RPE phagocytosis of shed photoreceptor outer segments causes debris accumulation and drusen, the defining lesion of dry AMD.",
+      "polarity": -1
+    },
+    {
+      "from": "RPE_PHAGOCYTOSIS",
+      "to": "DRUSEN_FORMATION",
+      "type": "prevents",
+      "year": 2008,
+      "polarity": -1
+    },
+    {
+      "from": "DRUSEN_FORMATION",
+      "to": "DRY_AMD",
+      "type": "drives",
+      "year": 2001
+    },
+    {
+      "from": "ACTIN_ROCK",
+      "to": "GLAUCOMA",
+      "type": "drives",
+      "year": 2010
+    },
+    {
+      "from": "SOST",
+      "to": "WNT_OSTEOBLAST",
+      "type": "inhibits",
+      "year": 2005,
+      "polarity": -1
+    },
+    {
+      "from": "WNT_OSTEOBLAST",
+      "to": "BONE_FORMATION",
+      "type": "drives",
+      "year": 2005
+    },
+    {
+      "from": "WNT_OSTEOBLAST",
+      "to": "VASCULAR_CALCIFICATION",
+      "type": "modulates",
+      "year": 2012
+    },
+    {
+      "from": "BONE_FORMATION",
+      "to": "OSTEOPOROSIS",
+      "type": "prevents",
+      "year": 2000,
+      "polarity": -1
+    },
+    {
+      "from": "VASCULAR_CALCIFICATION",
+      "to": "ASCVD",
+      "type": "drives",
+      "year": 2005
+    },
+    {
+      "from": "TNFSF11",
+      "to": "BONE_FORMATION",
+      "type": "opposes",
+      "year": 1999,
+      "polarity": -1
+    },
+    {
+      "from": "AAK1",
+      "to": "CLATHRIN_ENDOCYTOSIS",
+      "type": "member",
+      "year": 2002
+    },
+    {
+      "from": "CLATHRIN_ENDOCYTOSIS",
+      "to": "VIRAL_ENTRY",
+      "type": "enables",
+      "year": 2010
+    },
+    {
+      "from": "VIRAL_ENTRY",
+      "to": "COVID19",
+      "type": "drives",
+      "year": 2020
+    },
+    {
+      "from": "JAK_STAT",
+      "to": "CYTOKINE_STORM",
+      "type": "drives",
+      "year": 2020
+    },
+    {
+      "from": "CYTOKINE_STORM",
+      "to": "COVID19",
+      "type": "drives",
+      "year": 2020
+    },
+    {
+      "from": "NLRP3",
+      "to": "INFLAMMASOME",
+      "type": "member",
+      "year": 2004
+    },
+    {
+      "from": "INFLAMMASOME",
+      "to": "ASCVD",
+      "type": "drives",
+      "year": 2017
+    },
+    {
+      "from": "INFLAMMASOME",
+      "to": "AD",
+      "type": "drives",
+      "year": 2013
+    },
+    {
+      "from": "INFLAMMASOME",
+      "to": "MASH",
+      "type": "drives",
+      "year": 2015
+    },
+    {
+      "from": "C3",
+      "to": "COMPLEMENT_ALT",
+      "type": "member",
+      "year": 1980
+    },
+    {
+      "from": "CFH",
+      "to": "COMPLEMENT_ALT",
+      "type": "inhibits",
+      "year": 2005,
+      "polarity": -1
+    },
+    {
+      "from": "COMPLEMENT_ALT",
+      "to": "DRUSEN_FORMATION",
+      "type": "drives",
+      "year": 2005
+    },
+    {
+      "from": "COMPLEMENT_ALT",
+      "to": "DRY_AMD",
+      "type": "drives",
+      "year": 2005
+    },
+    {
+      "from": "GLP1R",
+      "to": "INCRETIN",
+      "type": "member",
+      "year": 1993
+    },
+    {
+      "from": "GIPR",
+      "to": "INCRETIN",
+      "type": "member",
+      "year": 1993
+    },
+    {
+      "from": "INCRETIN",
+      "to": "T2D",
+      "type": "modulates",
+      "year": 2005
+    },
+    {
+      "from": "INCRETIN",
+      "to": "OBESITY",
+      "type": "modulates",
+      "year": 2014
+    },
+    {
+      "from": "PNPLA3",
+      "to": "HEPATIC_LIPID",
+      "type": "member",
+      "year": 2008
+    },
+    {
+      "from": "HSD17B13",
+      "to": "HEPATIC_LIPID",
+      "type": "member",
+      "year": 2018
+    },
+    {
+      "from": "INHBE",
+      "to": "HEPATIC_LIPID",
+      "type": "regulates",
+      "year": 2022
+    },
+    {
+      "from": "HEPATIC_LIPID",
+      "to": "HEPATIC_STEATOSIS",
+      "type": "drives",
+      "year": 2008
+    },
+    {
+      "from": "HEPATIC_STEATOSIS",
+      "to": "MASH",
+      "type": "drives",
+      "year": 2008
+    },
+    {
+      "from": "SLC30A8",
+      "to": "INCRETIN",
+      "type": "adjacent",
+      "year": 2014
+    },
+    {
+      "from": "PDE10A",
+      "to": "JAK_STAT",
+      "type": "adjacent",
+      "year": 2019
+    },
+    {
+      "from": "IL23_TH17",
+      "to": "GUT_BARRIER",
+      "type": "modulates",
+      "year": 2012,
+      "polarity": -1
+    },
+    {
+      "from": "GUT_BARRIER",
+      "to": "CROHN",
+      "type": "prevents",
+      "year": 2012,
+      "polarity": -1
+    },
+    {
+      "from": "GUT_BARRIER",
+      "to": "UC",
+      "type": "prevents",
+      "year": 2012,
+      "polarity": -1
+    }
+  ]
+}

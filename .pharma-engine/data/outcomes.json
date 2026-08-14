@@ -1,0 +1,37 @@
+{
+  "_comment": "Ground truth for the retrospective backtest. Each programme records the year its mechanism entered clinical development and what eventually happened. The backtest re-runs the engine with all evidence dated on or after `entry_year` hidden, so the engine sees only what was knowable at the time. `label` is 1 if the mechanism reached approval in that indication, 0 if it failed for efficacy or on-target safety. Programmes still running are excluded from scoring and reported separately.",
+
+  "programmes": [
+    {"id": "evolocumab-ascvd", "target": "PCSK9", "disease": "ASCVD", "entry_year": 2012, "outcome": "approved", "label": 1,
+     "note": "Approved 2015; cardiovascular outcome benefit confirmed 2017."},
+    {"id": "evinacumab-hyperchol", "target": "ANGPTL3", "disease": "HYPERCHOL", "entry_year": 2016, "outcome": "approved", "label": 1},
+    {"id": "ezetimibe-ascvd", "target": "NPC1L1", "disease": "ASCVD", "entry_year": 1998, "outcome": "approved", "label": 1,
+     "note": "Approved 2002 on LDL-C; outcome benefit only demonstrated in 2015."},
+    {"id": "torcetrapib-ascvd", "target": "CETP", "disease": "ASCVD", "entry_year": 2001, "outcome": "failed_efficacy_and_safety", "label": 0,
+     "note": "Terminated 2006 for excess mortality. The HDL-raising rationale was correlative throughout."},
+    {"id": "ustekinumab-crohn", "target": "IL12B", "disease": "CROHN", "entry_year": 2007, "outcome": "approved", "label": 1},
+    {"id": "risankizumab-psoriasis", "target": "IL23A", "disease": "PSORIASIS", "entry_year": 2015, "outcome": "approved", "label": 1},
+    {"id": "deucravacitinib-psoriasis", "target": "TYK2", "disease": "PSORIASIS", "entry_year": 2017, "outcome": "approved", "label": 1},
+    {"id": "tocilizumab-ra", "target": "IL6R", "disease": "RA", "entry_year": 2003, "outcome": "approved", "label": 1},
+    {"id": "secukinumab-psoriasis", "target": "IL17A", "disease": "PSORIASIS", "entry_year": 2010, "outcome": "approved", "label": 1},
+    {"id": "secukinumab-crohn", "target": "IL17A", "disease": "CROHN", "entry_year": 2010, "outcome": "failed_harm", "label": 0,
+     "note": "Stopped early for lack of efficacy and disease worsening. Pathway-inference evidence only, in the wrong tissue context."},
+    {"id": "romosozumab-osteoporosis", "target": "SOST", "disease": "OSTEOPOROSIS", "entry_year": 2010, "outcome": "approved_with_safety_warning", "label": 1,
+     "note": "Approved 2019 with a boxed cardiovascular warning -- the engine should flag the vascular path even while scoring efficacy high."},
+    {"id": "denosumab-osteoporosis", "target": "TNFSF11", "disease": "OSTEOPOROSIS", "entry_year": 2004, "outcome": "approved", "label": 1},
+    {"id": "semaglutide-t2d", "target": "GLP1R", "disease": "T2D", "entry_year": 2008, "outcome": "approved", "label": 1},
+    {"id": "verubecestat-ad", "target": "BACE1", "disease": "AD", "entry_year": 2013, "outcome": "failed_harm", "label": 0,
+     "note": "Genetic support was real and correctly directioned; the programme still failed. The engine is expected to score this above the other failures, and the backtest reports that honestly rather than hiding it."},
+    {"id": "pegcetacoplan-amd", "target": "C3", "disease": "DRY_AMD", "entry_year": 2016, "outcome": "approved", "label": 1,
+     "note": "Approved 2023 on an anatomical endpoint only."},
+    {"id": "ripasudil-glaucoma", "target": "ROCK1", "disease": "GLAUCOMA", "entry_year": 2009, "outcome": "approved", "label": 1},
+    {"id": "upadacitinib-uc", "target": "JAK1", "disease": "UC", "entry_year": 2016, "outcome": "approved", "label": 1},
+    {"id": "infliximab-crohn", "target": "TNF", "disease": "CROHN", "entry_year": 1993, "outcome": "approved", "label": 1},
+    {"id": "tnf-alzheimers", "target": "TNF", "disease": "AD", "entry_year": 2010, "outcome": "failed_efficacy", "label": 0,
+     "note": "Repeated attempts at TNF blockade in Alzheimer's on expression-correlative and literature evidence."},
+    {"id": "biib122-pd", "target": "LRRK2", "disease": "PD", "entry_year": 2020, "outcome": "ongoing", "label": null},
+    {"id": "pelacarsen-ascvd", "target": "LPA", "disease": "ASCVD", "entry_year": 2019, "outcome": "ongoing", "label": null},
+    {"id": "hsd17b13-mash", "target": "HSD17B13", "disease": "MASH", "entry_year": 2021, "outcome": "ongoing", "label": null},
+    {"id": "trem2-ad", "target": "TREM2", "disease": "AD", "entry_year": 2019, "outcome": "ongoing", "label": null}
+  ]
+}

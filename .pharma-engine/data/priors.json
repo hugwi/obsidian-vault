@@ -1,0 +1,209 @@
+{
+  "_comment": "Calibration constants. Every number here is either taken from a published estimate (cited) or is an explicit modelling assumption (marked assumption: true). Nothing is tuned to make the demo look good; the backtest is what checks them.",
+
+  "base_rates": {
+    "p_approval_from_phase1": 0.10,
+    "p_phase1_success": 0.47,
+    "p_phase2_success": 0.28,
+    "p_phase3_success": 0.55,
+    "citation": "Phase-transition probabilities from 2025 analyses of >20,000 clinical development programmes; overall Phase I -> approval stabilised near 5-10%. Phase II is the dominant hurdle at ~28%.",
+    "notes": "The engine's prior is p_approval_from_phase1: the question it answers is 'if this mechanism entered the clinic, would it get through', not 'will this molecule work'."
+  },
+
+  "failure_attribution": {
+    "efficacy": 0.45,
+    "toxicity": 0.30,
+    "drug_like_properties": 0.12,
+    "commercial_strategic": 0.10,
+    "citation": "Lack of clinical efficacy 40-50%, unmanageable toxicity ~30%, poor drug-like properties 10-15%, commercial/strategic ~10%.",
+    "design_consequence": "Three quarters of failure is biology (efficacy + on-target toxicity), not chemistry. So the engine scores the mechanism hypothesis, not the molecule."
+  },
+
+  "lr_cap": {
+    "value": 26.0,
+    "assumption": true,
+    "rationale": "Total likelihood ratio is capped so that no accumulation of correlated evidence can push a mechanism past ~74% posterior from a 10% prior. Even mechanisms with textbook-perfect human genetics (PCSK9) fail for reasons outside the evidence model: formulation, competitive landscape, trial execution. An uncapped multiplicative model is the classic way these systems become confidently wrong."
+  },
+
+  "within_group_damping": {
+    "value": 0.35,
+    "assumption": true,
+    "rationale": "Evidence classes inside one independence group are correlated (a GWAS hit and a coding-variant burden test read the same human genetic signal). The strongest class in a group counts in full; the rest are damped to 35%. Naive summation over correlated evidence is the single largest source of overconfidence in existing target-scoring tools."
+  },
+
+  "harmonic_normaliser": {
+    "value": 1.6449,
+    "citation": "Open Targets normalises its harmonic sum by the maximum theoretical harmonic sum (~1.644, the limit of sum 1/i^2). Reused here so within-class aggregation behaves the same way researchers already expect from the Platform."
+  },
+
+  "evidence_classes": {
+    "human_genetics_causal": {
+      "label": "Human genetics, causal-grade",
+      "group": "human_genetics",
+      "max_lr": 2.6,
+      "description": "Coding or Mendelian variant with clear gene assignment and a known direction of effect in humans.",
+      "citation": "Minikel et al. 2024 (Nature) refined Nelson et al. 2015: mechanisms with genetic support are ~2.6x more likely to be approved; support from severe Mendelian disorders and protein-altering variants is the strongest subclass.",
+      "acquisition": {
+        "name": "Targeted human genetic association (biobank / burden test)",
+        "cost_usd": 40000,
+        "weeks": 10,
+        "sensitivity": 0.55,
+        "specificity": 0.90,
+        "description": "Rare-variant burden and coding-variant association against the indication phenotype in an existing biobank. Cheap because the cohorts already exist; the cost is analyst time and access."
+      }
+    },
+    "human_genetics_gwas": {
+      "label": "Human genetics, common variant",
+      "group": "human_genetics",
+      "max_lr": 1.7,
+      "description": "GWAS association at the locus without confident causal-gene assignment.",
+      "citation": "Genetic support is materially weaker where the causal gene is ambiguous; non-coding association alone does not carry the full ~2x effect.",
+      "acquisition": {
+        "name": "GWAS locus-to-gene fine-mapping",
+        "cost_usd": 15000,
+        "weeks": 6,
+        "sensitivity": 0.60,
+        "specificity": 0.65,
+        "description": "Statistical fine-mapping plus colocalisation with eQTL/pQTL to assign the causal gene at an associated locus."
+      }
+    },
+    "human_perturbation": {
+      "label": "Human perturbation (drug, MR, or natural experiment)",
+      "group": "human_perturbation",
+      "max_lr": 3.2,
+      "description": "The target has actually been modulated in humans -- an approved or investigational drug, or Mendelian randomisation using a variant that proxies modulation -- and the phenotype moved.",
+      "citation": "Mendelian randomisation proxies the effect of perturbing a drug target and is used both for efficacy prediction and for anticipating on-target adverse events (e.g. IL-6 signalling inhibition predicts infection and dermatitis risk).",
+      "acquisition": {
+        "name": "Mendelian randomisation with a cis-pQTL instrument",
+        "cost_usd": 25000,
+        "weeks": 8,
+        "sensitivity": 0.65,
+        "specificity": 0.85,
+        "description": "Use a cis-acting variant that changes target level/activity as an instrument for lifelong modulation, tested against the indication and against the full phenome for safety."
+      }
+    },
+    "perturbation_biology": {
+      "label": "Perturbation in a human disease-relevant system",
+      "group": "experimental_biology",
+      "max_lr": 1.9,
+      "description": "CRISPR knockout/knockdown or a tool compound in human primary cells or organoids modelling the tissue where the pathology lives.",
+      "citation": "Genome-wide CRISPR knockout screens in disease-relevant human models are integrated as a distinct evidence type by Open Targets (e.g. Project Score across 300 cancer models).",
+      "acquisition": {
+        "name": "CRISPR perturbation in patient-derived cells",
+        "cost_usd": 120000,
+        "weeks": 16,
+        "sensitivity": 0.75,
+        "specificity": 0.70,
+        "description": "Knockout/knockdown plus rescue in the human cell type carrying the pathology, read out on a disease-proximal phenotype rather than a marker."
+      }
+    },
+    "model_organism": {
+      "label": "Model organism phenotype",
+      "group": "experimental_biology",
+      "max_lr": 1.35,
+      "description": "Knockout or transgenic phenotype in mouse or another model organism.",
+      "citation": "Animal-model evidence is a standard Open Targets datatype but has the weakest translational record of the experimental classes; poor predictive models in discovery and preclinical research are a named driver of attrition.",
+      "acquisition": {
+        "name": "Mouse knockout / conditional model",
+        "cost_usd": 250000,
+        "weeks": 52,
+        "sensitivity": 0.70,
+        "specificity": 0.45,
+        "description": "Expensive, slow, and the low specificity is the point: many targets give a mouse phenotype and no human effect."
+      }
+    },
+    "expression_correlative": {
+      "label": "Expression / abundance correlation",
+      "group": "correlative",
+      "max_lr": 1.25,
+      "description": "The target is differentially expressed or abundant in patient tissue.",
+      "citation": "Differential expression is an Open Targets datatype but is correlative: disease changes expression at least as often as expression changes disease.",
+      "acquisition": {
+        "name": "Single-cell / bulk differential expression in patient tissue",
+        "cost_usd": 60000,
+        "weeks": 12,
+        "sensitivity": 0.80,
+        "specificity": 0.30,
+        "description": "High sensitivity, very low specificity. Useful for localisation and for choosing the cell type to perturb -- almost useless as proof the target is causal."
+      }
+    },
+    "pathway_inference": {
+      "label": "Pathway / network inference",
+      "group": "correlative",
+      "max_lr": 1.2,
+      "description": "The target sits in a pathway that is itself linked to the disease, without direct target-disease evidence.",
+      "citation": "Pathway and systems-biology inference is integrated as evidence by Open Targets; it is also the mechanism by which literature-based discovery proposes new links (Swanson's ABC model).",
+      "acquisition": {
+        "name": "Pathway-level functional readout",
+        "cost_usd": 45000,
+        "weeks": 10,
+        "sensitivity": 0.65,
+        "specificity": 0.40,
+        "description": "Confirm the target actually moves the pathway node the inference depends on, in a human system."
+      }
+    },
+    "literature_cooccurrence": {
+      "label": "Literature co-occurrence",
+      "group": "correlative",
+      "max_lr": 1.12,
+      "description": "Target and disease are discussed together in the literature.",
+      "citation": "Literature evidence is an Open Targets datatype, but co-mention is dominated by how well studied a gene already is, so it systematically re-ranks the crowded targets to the top.",
+      "acquisition": {
+        "name": "Systematic literature triage",
+        "cost_usd": 8000,
+        "weeks": 3,
+        "sensitivity": 0.85,
+        "specificity": 0.15,
+        "description": "Included so the planner can price it and then, correctly, almost never recommend it."
+      }
+    },
+    "clinical_precedent": {
+      "label": "Clinical precedent in a related indication",
+      "group": "human_perturbation",
+      "max_lr": 1.9,
+      "description": "A modulator of this target has shown efficacy in humans in a different but mechanistically related disease.",
+      "citation": "Precedent transfers when the mechanism is shared and the tissue context matches; it does not transfer across tissue context (IL-17 blockade is effective in psoriasis and worsened Crohn's disease).",
+      "acquisition": {
+        "name": "Proof-of-mechanism study in the new indication",
+        "cost_usd": 3000000,
+        "weeks": 78,
+        "sensitivity": 0.80,
+        "specificity": 0.80,
+        "description": "A small biomarker-driven human study with the existing molecule. Expensive but nearly decisive."
+      }
+    }
+  },
+
+  "penalties": {
+    "direction_conflict": {
+      "factor": 0.35,
+      "assumption": true,
+      "rationale": "When atoms disagree about whether to inhibit or activate, the class is heavily discounted and the hypothesis is flagged as not-yet-actionable. A direction conflict is not a small uncertainty -- it means half the evidence argues for the opposite molecule."
+    },
+    "context_mismatch": {
+      "factor": 0.55,
+      "assumption": true,
+      "rationale": "Evidence generated in a tissue that is not where the pathology lives is downweighted. Named after the IL-17 case: strong, replicated, correct biology in skin, and harm in gut."
+    },
+    "refuting_atom": {
+      "factor": 1.0,
+      "assumption": true,
+      "rationale": "Atoms marked refutes:true contribute a negative log-LR of equal magnitude. Failed replications and negative clinical readouts have to be able to move the score down, or the ledger only ever accumulates."
+    }
+  },
+
+  "tractability_weights": {
+    "small_molecule": 1.0,
+    "antibody": 0.95,
+    "oligonucleotide": 0.85,
+    "degrader": 0.7,
+    "gene_therapy": 0.5,
+    "note": "Weights reflect development risk per modality, not chemistry difficulty. Under 5% of the human proteome has been successfully drugged, and Target 2035 exists precisely because most proteins still lack a chemical or biological probe -- so tractability is reported as a separate coordinate, never folded into the probability that the biology is right."
+  },
+
+  "novelty": {
+    "cooccurrence_saturation": 40,
+    "assumption": true,
+    "rationale": "Novelty is 1 - (co-mentions / saturation), floored at 0. A target-disease pair with 40+ co-mentions is not a new idea; the value of the engine there is arbitration, not discovery."
+  }
+}
