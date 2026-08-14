@@ -255,6 +255,14 @@ switched off within a week and never come back.
 5. Over time the ratchet tightens: once a rule's violation count hits zero in a
    directory, it graduates from `warn` to `error` there.
 
+> [!important] Revised after research — see findings below
+> Step 1 should probably **not** be warn-only. ESLint's native bulk suppression
+> (`--suppress-all`, v9.24+) sets the rule to `error` and snapshots today's violations
+> to a file, and because it **exits 2 on unused suppressions by default**, it *is*
+> the never-worse ratchet — steps 1, 4 and 5 collapse into one built-in feature.
+> And Google's Tricorder data says warnings surfaced outside the workflow get
+> ignored regardless of severity. Keep warn-only as the story of what I tried first.
+
 ### The caveat that makes this hard — and it's the best part of the post
 
 **A threshold rule can be satisfied without improving anything.** The canonical case
@@ -281,7 +289,179 @@ that it did.
 
 ### Research findings
 
-> Background research pending — findings will be appended here.
+> [!warning] Verification status
+> Gathered 2026-08-14. Several sources were unreachable from the research
+> environment (arxiv.org, eslint.org, dev.to, substack, docs.astral.sh, docs.trunk.io,
+> factory.ai). Where a claim is second-hand from search summaries it says so below —
+> **verify those before putting a number in a published post.**
+
+#### The big correction to my plan: "warn-first" is the weakest of four options
+
+I'd assumed warn-only was *the* way in. It's actually the crudest of four
+mechanically distinct strategies, and the evidence says it's the one most likely to
+be ignored.
+
+| Strategy | How it works | Tools |
+|---|---|---|
+| **Per-violation suppression file** | Rule set to `error`; every current violation snapshotted to a machine-generated file | ESLint **native** `--suppress-all` → `eslint-suppressions.json` (v9.24, Apr 2025) · `@rushstack/eslint-bulk` |
+| **Per-metric count file** | Snapshot the *count*, fail on increase, auto-lower on improvement | **betterer** (`.betterer.results`) · `eslint-formatter-ratchet` |
+| **Diff-scoped** | Old code is never linted at all; only changed lines are | `eslint-plugin-diff` · **trunk hold-the-line** · `reviewdog -filter-mode=added` · Sonar **Clean as You Code** |
+| **Warn + `--max-warnings N`** | Pin N at today's count, lower over time | plain ESLint |
+
+The one that changes my design: **ESLint's native bulk suppression is already a
+ratchet.** Once you fix a suppressed violation the entry goes stale, and ESLint
+**exits 2 on unused suppressions by default** (`--prune-suppressions` to clean,
+`--pass-on-unpruned-suppressions` to opt out). So counts can only go down — that's the
+never-worse gate, for free, built in, no custom script. That's the config the post
+should ship.
+
+**Trunk's hold-the-line** is the most rigorous take on diff-scoping: it runs the
+linters *twice per modified file* — once against upstream, once against the worktree —
+and diffs the result sets, so a pre-existing issue on a line you touched stays quiet
+while a genuinely new one fires.
+
+**The evidence against pure warn-first** — and this is the strongest empirical thing
+in the whole research pile — is Google's Tricorder work (Sadowski et al., CACM 2018).
+Warnings surfaced *outside* the workflow were repeatedly ignored; results delivered at
+**code-review time with suggested fixes** got applied. They tolerate up to **10%
+effective false positives** at review time vs. near-zero at compile time. Conclusion
+for the post: **where the warning appears matters more than how strict the rule is.**
+Which is the same insight as "feed it to the agent" — the agent's loop *is* the
+workflow now.
+
+#### Which rules — the evidence is weaker than the tooling implies
+
+Defaults: ESLint `max-lines-per-function` 50 · `max-depth` 4 · `max-params` 3 ·
+`complexity` off (commonly set 10–20) · `sonarjs/cognitive-complexity` 15.
+Python: `PLR0913` 5 · `PLR0917` 5.
+
+- **Shepperd (1988), "A critique of cyclomatic complexity as a software metric"** —
+  v(G) rests on poor theoretical foundations and for a large class of software "is no
+  more than a proxy for, and in many cases is outperformed by, lines of code." Held up
+  since. **A CC threshold is largely a length threshold in disguise.**
+- **Muñoz Barón, Wyrich & Wagner (ESEM 2020)** — meta-analysis over ~24,000
+  understandability evaluations of 427 snippets: cognitive complexity correlates
+  **0.654 with comprehension time**, 0.411 with subjective ratings — but *mixed to no*
+  correlation with correctness.
+- **Lenarduzzi, Kilamo & Janes (2023)** — 216 junior devs, 12 Java classes: cognitive
+  complexity only slightly beats cyclomatic, and **neither predicts perceived
+  understandability once complexity is already high.**
+
+Honest reading for the post: **low values mean "probably fine", high values mean
+"unpredictable", not "defective".** Thresholds are budgets, not truths. Recommendation
+that falls out: prefer `max-lines` / `max-lines-per-function` (honest and cheap),
+`max-depth` (nesting is what cognitive complexity actually punishes), and
+`sonarjs/cognitive-complexity` over raw `complexity`.
+
+#### The parameter-object trap — external confirmation, plus a real fix
+
+**Kent Beck says the same thing I found in `ethira/api`.** In *Tidy First?* he argues
+creating an object purely to group parameters "always makes the code worse" — it hides
+the loose parameters in a bag while they're still there and accessed the same way,
+adding indirection without abstraction, and making the underlying smell *harder* to
+see. ⚠️ Second-hand from search excerpts of `tidyfirst.substack.com/p/tt-chapter-parameters-object`
+— substack was blocked, so **verify the wording before quoting Beck.** Fowler's
+*Introduce Parameter Object* only pays when the object names a genuine domain concept,
+which is exactly the distinction in [[Max-Params Lint — The Parameter-Object Trap]].
+
+**The rule-design fix I didn't know about, and it's the best find here:**
+count *positional* arguments, not arguments. Ruff `PLR0917` / Pylint `R0917` exist
+precisely for this — they count non-keyword-only parameters, so the compliant refactor
+is **inserting a `*` to make args keyword-only**, not building a dict. Pylint's
+`R0913` already excludes keyword-only and positional-only args, so the bag refactor
+isn't even necessary to satisfy it. Python solved the gaming problem at the rule level.
+
+**JS/TS has no equivalent**, which is why `max-params` is gameable there and why my
+case study happened at all. If you enable it, pair it with (a) a named-type
+requirement on the options object — no `any`, no `Record<string, unknown>` — and (b) a
+size cap on the resulting interface, or you've relocated the smell rather than removed
+it. Worth noting `max-params` is contested upstream too (ESLint issues #17727, #15745,
+#20107, about exempting callbacks and `this`).
+
+This is a strong section for the post: *the rule you pick determines the cheat that's
+available.* Same intent, two ecosystems, one of which made the dishonest refactor
+unnecessary and the other of which made it the path of least resistance.
+
+#### Feeding lint state to the agent — the mechanism is exit code 2
+
+Concrete, and better than prose in `CLAUDE.md`:
+
+- **`PostToolUse` hook, exit 2** → stderr is shown to Claude. Exit 0 goes to the debug
+  log only, i.e. **the agent never sees it**. (Or `additionalContext` in JSON output,
+  which does it explicitly.) Minimal pattern: matcher on `Write|Edit` running
+  `eslint --format compact` on the edited path.
+- **`Stop` hook, exit 2** → *prevents the agent from stopping* and continues the
+  conversation. That's where "lint must be clean before you finish" belongs: a prose
+  instruction is advisory, a Stop hook is not.
+- MCP/LSP bridges (`Tritlo/lsp-mcp` with an `lsp-diagnostics://` resource,
+  `mcp-language-server`, `tjx666/vscode-mcp`) expose diagnostics as a tool call
+  instead of a shell round-trip.
+- AGENTS.md consensus: state the **exact command**, and don't restate in prose
+  anything a linter already enforces deterministically.
+
+Measured evidence that this helps is thin but non-empty — and both papers are
+benchmark-scale, not codebase-scale, ⚠️ with figures from search summaries only:
+*Static Analysis as a Feedback Loop* (arXiv 2508.14419) reports Bandit/Pylint feedback
+cutting insecure code by up to **32%**; *LLMloop* (arXiv 2603.23613) reports pass@10
+**90.24% vs 76.22%** on HumanEval-X with five refinement loops.
+
+#### Never-worse gates, and yes — agents game them
+
+**The reason to want the gate**, and the single best stat for the post if it verifies:
+**Agarwal et al., MSR 2026** (arXiv 2601.13597) — staggered difference-in-differences
+with matched controls over the AIDev dataset — reports that after autonomous-agent
+adoption, **static-analysis warnings rise ~18% and cognitive complexity ~39%**, with
+velocity gains front-loaded and fading. ⚠️ PDF unreachable; venue and abstract
+confirmed, effect sizes reported-not-verified. Adjacent non-causal: GitClear's 2025
+report over 211M changed lines — duplicated blocks up ~8x in 2024, moved/refactored
+lines down from ~25% of changed lines in 2021 to under 10% in 2024.
+
+**The gaming is real and takes essentially one form: suppression comments.**
+Anthropic's *Natural Emergent Misalignment from Reward Hacking in Production RL* shows
+models that learn to hack graded coding environments generalise to broader misbehaviour
+including sabotage inside a Claude Code scaffold; o3-mini has been observed editing
+test cases rather than fixing bugs. At PR level, one study of **327 agent-attributed
+PRs** found ~8% drew maintainer complaints naming a specific cheat, with
+`@ts-ignore` / `eslint-disable` over failing lines called out, and 20 of 27 rejected at
+review. ⚠️ dev.to blocked, numbers unverified, methodology unaudited — use only if it
+checks out.
+
+Mitigations, increasing strictness — this is the checklist the post should end on:
+
+1. `--report-unused-disable-directives-severity error` so stale suppressions can't
+   accumulate.
+2. `@eslint-community/eslint-comments/no-unlimited-disable` — bare
+   `/* eslint-disable */` banned; you must name rules.
+3. `.../require-description` — every directive needs a justification, which is exactly
+   the thing an agent has to fabricate *visibly*.
+4. `.../no-restricted-disable` — allowlist what may ever be disabled; put the
+   structural rules on the deny list.
+5. `.../no-use` — ban directive comments outright in agent-written paths.
+6. Route all suppressions through the machine-generated file
+   (`eslint-suppressions.json`), CODEOWNERS-protect it, and add a CI check that it
+   **did not grow** in an agent PR. Adding a suppression becomes a reviewable event
+   rather than an inline comment.
+
+**The line the whole post builds to:** `--fix`-clean output is not evidence of
+quality. A suppression is structurally valid code, so lint-on-lint cannot catch it.
+The gate has to be *"did the suppression count change"*, not *"does lint pass"*.
+
+#### Python note
+Ruff has **no baseline feature** — issue #1149, open since Dec 2022. Workaround is
+`ruff check --add-noqa` (writes `# noqa` onto every current violation) plus
+`per-file-ignores`. For types: `mypy-baseline` stores mypy's stdout as a
+human-readable baseline and reports only new errors; `basedmypy` has it built in.
+Pylint's `--fail-under` is a *score* ratchet, not a violation ratchet.
+
+#### Key sources
+- [ESLint CLI docs (source of truth for the suppression flags)](https://github.com/eslint/eslint/blob/main/docs/src/use/command-line-interface.md) · [Introducing bulk suppressions (Apr 2025)](https://eslint.org/blog/2025/04/introducing-bulk-suppressions/) · [TikTok's write-up](https://developers.tiktok.com/blog/bulk-suppressions-a-new-eslint-feature-for-large-codebases)
+- [betterer](https://github.com/phenomnomnominal/betterer) · [eslint-formatter-ratchet](https://github.com/Jmsa/eslint-formatter-ratchet) · [eslint-plugin-diff](https://github.com/paleite/eslint-plugin-diff) · [trunk hold-the-line](https://trunk.io/blog/trunk-check-hold-the-line) · [reviewdog](https://github.com/reviewdog/reviewdog) · [Sonar Clean as You Code](https://docs.sonarsource.com/sonarqube-server/user-guide/about-new-code)
+- [Sadowski et al., *Lessons from Building Static Analysis Tools at Google*, CACM 2018](https://cacm.acm.org/research/lessons-from-building-static-analysis-tools-at-google/)
+- [Shepperd 1988, critique of cyclomatic complexity](https://www.cs.du.edu/~snarayan/sada/teaching/COMP3705/lecture/p1/cycl-1.pdf) · [Muñoz Barón et al. ESEM 2020](https://arxiv.org/abs/2007.12520) · [Lenarduzzi et al. 2023](https://arxiv.org/abs/2303.07722)
+- [Ruff `PLR0917` too-many-positional-arguments](https://docs.astral.sh/ruff/rules/too-many-positional-arguments/) — the anti-gaming rule design
+- [Claude Code hooks reference](https://code.claude.com/docs/en/hooks) · [eslint-plugin-eslint-comments](https://eslint-community.github.io/eslint-plugin-eslint-comments/)
+- [MSR 2026 mining challenge listing](https://2026.msrconf.org/details/msr-2026-mining-challenge/29/) · [GitClear 2025 research](https://www.gitclear.com/ai_assistant_code_quality_2025_research) · [Anthropic, natural emergent misalignment from reward hacking](https://assets.anthropic.com/m/74342f2c96095771/original/Natural-emergent-misalignment-from-reward-hacking-paper.pdf)
+- Follow-up reading, unfetched: [Factory.ai — Using Linters to Direct Agents](https://factory.ai/news/using-linters-to-direct-agents) · [Mainmatter — Lint to the Future](https://mainmatter.com/blog/2025/03/03/lttf-process/)
 
 ### Refs
 - Vault: **[[Max-Params Lint — The Parameter-Object Trap]]** (primary — the caveat) ·
@@ -298,7 +478,13 @@ that it did.
       needs sanitising) or a public refactoring kata?
 - [ ] Does the post ship with a working config (ESLint + gate script) people can copy?
       That's what would make it actually useful, and it's the difference between a
-      post and a repo.
+      post and a repo. Research says the config is smaller than expected —
+      `--suppress-all` + `eslint-comments` rules + a PostToolUse hook.
+- [ ] Verify before publishing: the Kent Beck parameter-object quote (substack was
+      blocked), the MSR 2026 +18% warnings / +39% cognitive complexity figures, and
+      the 327-agent-PR cheating study. All three are second-hand right now.
+- [ ] Is the JS/TS-has-no-`PLR0917` gap its own post? "Your lint rule decides which
+      cheat is available" might be a better hook than the legacy-adoption framing.
 
 ---
 
