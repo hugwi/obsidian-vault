@@ -1,0 +1,110 @@
+/* Mise — design tokens.
+   Visual world: a night kitchen seen through glass. Warm near-black ground, one
+   ember accent reserved for primary action and current selection, and a glass
+   shell whose translucency is the material of the UI — not a decoration on it. */
+
+:root {
+  /* ---- Ground -------------------------------------------------------------
+     Warm near-black, not #000. The scene behind the glass supplies the light,
+     so the page ground stays a shade the 3D render can sit inside. */
+  --ground: #0a0907;
+  --ground-raised: #131110;
+  --ground-sunken: #050404;
+
+  /* ---- Ink ----------------------------------------------------------------
+     Secondary ink is tinted from the ground's hue, never gray. Both clear
+     4.5:1 on --ground. */
+  --ink: #f7f2ec; /* 17.8:1 */
+  --ink-2: #c3b5a8; /* 9.1:1  */
+  --ink-3: #8d8177; /* 4.6:1  */
+
+  /* ---- Ember --------------------------------------------------------------
+     The single accent. Primary actions, current selection, live state. Never
+     decoration, never a full-saturation inactive state. */
+  --ember: #ff8b3d;
+  --ember-bright: #ffa869;
+  --ember-deep: #c25415;
+  --ember-ink: #2a1102; /* sits on --ember at 8.9:1 */
+
+  /* Supporting hues carry meaning only: heat, freshness, timing. */
+  --sage: #9fc08a;
+  --plum: #b58ac0;
+
+  /* ---- Glass --------------------------------------------------------------
+     Three depths of the same material. Tint, blur and saturation move together
+     so a panel reads as thicker glass rather than a different colour. */
+  --glass-1-tint: rgb(255 250 244 / 0.05);
+  --glass-2-tint: rgb(255 250 244 / 0.075);
+  --glass-3-tint: rgb(255 250 244 / 0.11);
+  --glass-blur-1: 14px;
+  --glass-blur-2: 26px;
+  --glass-blur-3: 40px;
+  --glass-sat: 165%;
+
+  /* The specular edge: bright along the top lip, fading by the equator. This is
+     what makes the material read as a lens instead of a translucent rectangle. */
+  --glass-specular: rgb(255 252 248 / 0.34);
+  --glass-edge: rgb(255 246 236 / 0.11);
+
+  /* Depth carries an offset and a soft blur — never a zero-offset halo. */
+  --lift-1: 0 2px 8px -2px rgb(0 0 0 / 0.55);
+  --lift-2: 0 14px 34px -10px rgb(0 0 0 / 0.66);
+  --lift-3: 0 32px 72px -20px rgb(0 0 0 / 0.78);
+
+  /* ---- Type ---------------------------------------------------------------
+     Fraunces carries the editorial voice: dish names, the billboard, the reel.
+     Geist carries every label, control, number and step — the Operate surface
+     stays on one workhorse family with a fixed rem scale. */
+  --face-display: 'Fraunces Variable', 'Fraunces', Georgia, serif;
+  --face-ui: 'Geist Variable', 'Geist', ui-sans-serif, sans-serif;
+
+  --step--1: 0.8125rem;
+  --step-0: 0.9375rem;
+  --step-1: 1.0625rem;
+  --step-2: 1.1875rem;
+  --step-3: 1.375rem;
+  --step-4: 1.625rem;
+  --step-5: 2.125rem;
+  --display-1: 3rem;
+  --display-2: 4.25rem;
+  --display-3: 5.5rem; /* under the 6rem ceiling */
+
+  /* ---- Rhythm -------------------------------------------------------------- */
+  --s-1: 0.25rem;
+  --s-2: 0.5rem;
+  --s-3: 0.75rem;
+  --s-4: 1rem;
+  --s-5: 1.5rem;
+  --s-6: 2rem;
+  --s-7: 3rem;
+  --s-8: 4.5rem;
+
+  --r-sm: 10px;
+  --r-md: 16px;
+  --r-lg: 24px;
+  --r-xl: 34px;
+  --r-pill: 999px;
+
+  /* ---- Motion -------------------------------------------------------------
+     Exponential ease-out from an already-visible default. Exits run faster
+     than entrances. */
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in: cubic-bezier(0.55, 0, 1, 0.45);
+  --t-feedback: 140ms;
+  --t-state: 220ms;
+  --t-view: 420ms;
+  --t-focal: 760ms;
+
+  --rail: clamp(1rem, 4vw, 3.5rem);
+}
+
+/* Reduced motion: less travel, not less meaning. Opacity, colour and state
+   changes survive so feedback stays legible. */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --t-feedback: 1ms;
+    --t-state: 90ms;
+    --t-view: 120ms;
+    --t-focal: 140ms;
+  }
+}

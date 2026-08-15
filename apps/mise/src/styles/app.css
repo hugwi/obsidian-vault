@@ -1,0 +1,666 @@
+/* Layout.
+
+   The scene is the page; the glass sits on top of it. Panels take pointer
+   events, the space between them does not, so the arc stays draggable
+   everywhere it is visible. */
+
+.app {
+  position: relative;
+  height: 100%;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) clamp(320px, 26vw, 400px);
+  gap: var(--s-5);
+  padding: var(--rail);
+  padding-top: calc(var(--rail) * 0.7);
+  /* clip, not hidden: the scrim and the arc may bleed past the padding without
+     ever turning the page into a horizontal scroller. */
+  overflow: clip;
+}
+
+.scene {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+}
+
+.scene canvas {
+  touch-action: pan-y;
+}
+
+.scene__fallback {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(60vw 50vh at 50% 62%, rgb(255 139 61 / 0.1), transparent 70%);
+}
+
+.brand {
+  position: fixed;
+  top: calc(var(--rail) * 0.7);
+  left: var(--rail);
+  z-index: 3;
+  display: flex;
+  align-items: baseline;
+  gap: var(--s-3);
+  pointer-events: none;
+}
+
+.brand__mark {
+  font-family: var(--face-display);
+  font-size: var(--step-4);
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  font-variation-settings: 'SOFT' 20, 'WONK' 1, 'opsz' 40;
+}
+
+.brand__sub {
+  font-size: var(--step--1);
+  color: var(--ink-3);
+  letter-spacing: 0.02em;
+}
+
+.stage {
+  position: relative;
+  z-index: 2;
+  grid-column: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: var(--s-4);
+  min-height: 0;
+  pointer-events: none;
+}
+
+.stage > * {
+  pointer-events: auto;
+}
+
+/* A scrim under the billboard only — the top two-thirds of the arc stays clear.
+   Fixed and full-bleed: anchored to the left column it left a hard vertical seam
+   down the middle of the scene. */
+.stage::before {
+  content: '';
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 58%;
+  z-index: -1;
+  background: linear-gradient(to top, rgb(10 9 7 / 0.94) 2%, rgb(10 9 7 / 0.6) 34%, transparent 88%);
+  pointer-events: none;
+}
+
+/* ---- Billboard ------------------------------------------------------------ */
+
+.billboard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--s-3);
+  max-width: 40ch;
+  view-transition-name: billboard;
+}
+
+.billboard__filter {
+  margin-bottom: var(--s-1);
+}
+
+.billboard__name {
+  font-size: clamp(2.25rem, 4.4vw, 4.25rem);
+  margin: 0;
+}
+
+.billboard__name[data-entering] {
+  animation: name-in var(--t-focal) var(--ease);
+}
+
+/* The one authored entrance: a dish name is uncovered from below as the plate
+   lands at centre, so the title and the arc arrive together.
+
+   It runs from an already-visible default and carries no fill mode on purpose.
+   A keyframe that starts at `opacity: 0` with `both` hides the headline for as
+   long as the animation fails to advance — and a heavy WebGL canvas can stall a
+   compositor animation at time zero indefinitely. The reveal is a bonus; the
+   headline is not allowed to depend on it. */
+@keyframes name-in {
+  from {
+    transform: translateY(0.14em);
+    clip-path: inset(0 0 100% 0);
+    filter: blur(6px);
+  }
+  to {
+    transform: none;
+    clip-path: inset(-30% -30% -30% -30%);
+    filter: blur(0);
+  }
+}
+
+.billboard__line {
+  color: var(--ink-2);
+  font-size: var(--step-2);
+  margin: 0;
+}
+
+.billboard__meta {
+  display: flex;
+  gap: var(--s-5);
+  margin: var(--s-2) 0 var(--s-1);
+  color: var(--ink-2);
+}
+
+.billboard__meta div {
+  display: flex;
+  align-items: center;
+  gap: var(--s-2);
+}
+
+.billboard__meta dt {
+  display: flex;
+  color: var(--ink-3);
+}
+
+.billboard__meta dd {
+  margin: 0;
+  font-weight: 500;
+}
+
+.billboard__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-3);
+  margin-top: var(--s-2);
+}
+
+.billboard--empty {
+  max-width: 52ch;
+  padding: var(--s-6);
+  gap: var(--s-4);
+}
+
+.billboard--empty h2 {
+  font-size: var(--step-5);
+}
+
+.billboard--empty p {
+  color: var(--ink-2);
+  margin: 0;
+}
+
+/* ---- Rail ----------------------------------------------------------------- */
+
+.rail {
+  display: flex;
+  align-items: center;
+  gap: var(--s-2);
+  padding: var(--s-2);
+  border-radius: var(--r-pill);
+}
+
+.rail__step {
+  flex: none;
+  padding: 0.5rem;
+  border-radius: var(--r-pill);
+}
+
+.rail__list {
+  display: flex;
+  gap: var(--s-1);
+  overflow-x: auto;
+  scroll-snap-type: x proximity;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  scrollbar-width: none;
+}
+
+.rail__list::-webkit-scrollbar {
+  display: none;
+}
+
+.rail__item {
+  display: flex;
+  align-items: baseline;
+  gap: var(--s-2);
+  padding: 0.4375rem 0.875rem;
+  border: 0;
+  border-radius: var(--r-pill);
+  background: transparent;
+  color: var(--ink-3);
+  font-size: var(--step--1);
+  white-space: nowrap;
+  cursor: pointer;
+  scroll-snap-align: center;
+  transition:
+    color var(--t-state) var(--ease),
+    background-color var(--t-state) var(--ease);
+}
+
+.rail__item:hover {
+  color: var(--ink);
+  background: var(--glass-1-tint);
+}
+
+.rail__item[aria-current='true'] {
+  color: var(--ember-bright);
+  background: rgb(255 139 61 / 0.13);
+}
+
+.rail__item-time {
+  color: var(--ink-3);
+  font-size: var(--step--1);
+}
+
+.rail__item[aria-current='true'] .rail__item-time {
+  color: rgb(255 168 105 / 0.75);
+}
+
+/* ---- Cook ----------------------------------------------------------------- */
+
+.cook {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(230px, 0.6fr);
+  gap: var(--s-4);
+  align-items: stretch;
+  min-height: 0;
+  max-height: 100%;
+  view-transition-name: cook;
+}
+
+.cook__method {
+  padding: var(--s-5);
+  min-height: 0;
+  overflow-y: auto;
+  /* Setting only overflow-y makes overflow-x scrollable too, which let the
+     entrance transform push the step number and first letters out of the pane. */
+  overflow-x: clip;
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-4);
+}
+
+.cook__head {
+  display: flex;
+  align-items: center;
+  gap: var(--s-3);
+}
+
+.cook__dish {
+  font-size: var(--step-3);
+  font-family: var(--face-display);
+  color: var(--ink-2);
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.cook__bar {
+  height: 3px;
+  border-radius: var(--r-pill);
+  background: rgb(255 246 236 / 0.12);
+  overflow: hidden;
+}
+
+.cook__bar span {
+  display: block;
+  height: 100%;
+  background: var(--ember);
+  transform-origin: left;
+  transition: transform var(--t-view) var(--ease);
+}
+
+.cook__progress-copy {
+  margin: var(--s-2) 0 0;
+  font-size: var(--step--1);
+  color: var(--ink-3);
+}
+
+/* Same rule as the headline: the animation is attached only for the entrance
+   window, so a stalled one cannot leave the step clipped. */
+.cook__step[data-entering] {
+  animation: step-in var(--t-view) var(--ease);
+}
+
+/* Vertical, deliberately: a horizontal entrance inside a scrollable pane is what
+   pushed the step out of its own container. */
+@keyframes step-in {
+  from {
+    transform: translateY(0.5rem);
+    opacity: 0.55;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.cook__step-meta {
+  display: flex;
+  align-items: center;
+  gap: var(--s-4);
+  color: var(--ink-3);
+  font-size: var(--step--1);
+  margin-bottom: var(--s-3);
+}
+
+.cook__step-n {
+  color: var(--ember);
+  font-weight: 600;
+  letter-spacing: 0.06em;
+}
+
+.cook__step-time,
+.cook__step-heat {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s-2);
+}
+
+.cook__step-heat {
+  color: var(--ember);
+}
+
+.cook__step-title {
+  font-size: var(--step-5);
+  margin-bottom: var(--s-3);
+}
+
+.cook__step-body {
+  font-size: var(--step-2);
+  color: var(--ink-2);
+  margin: 0;
+}
+
+.cook__nav {
+  display: flex;
+  gap: var(--s-3);
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.cook__pairing {
+  margin: 0;
+  padding-top: var(--s-3);
+  border-top: 1px solid var(--glass-edge);
+  font-family: var(--face-display);
+  font-size: var(--step-2);
+  color: var(--ink-2);
+  font-variation-settings: 'SOFT' 20, 'WONK' 1;
+}
+
+.cook__mise {
+  padding: var(--s-5);
+  min-height: 0;
+  overflow-y: auto;
+  overflow-x: clip;
+}
+
+.cook__servings {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s-3);
+  flex-wrap: wrap;
+  margin-bottom: var(--s-4);
+}
+
+.cook__servings h3 {
+  font-family: var(--face-display);
+  font-size: var(--step-2);
+  letter-spacing: -0.02em;
+}
+
+.cook__stepper {
+  display: flex;
+  align-items: center;
+  gap: var(--s-1);
+}
+
+.cook__servings-count {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s-2);
+  min-width: 3.25rem;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.cook__ingredients {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-3);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.cook__ingredients li {
+  display: grid;
+  grid-template-columns: 5.75rem minmax(0, 1fr);
+  gap: var(--s-3);
+  align-items: baseline;
+  font-size: var(--step--1);
+}
+
+.cook__qty {
+  color: var(--ember-bright);
+  font-weight: 500;
+  text-align: right;
+  transition: color var(--t-state) var(--ease);
+}
+
+.cook__item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.cook__note {
+  color: var(--ink-3);
+}
+
+.reel {
+  grid-column: 1 / -1;
+  padding: var(--s-3);
+}
+
+.reel__skeleton {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
+
+/* ---- Companion ------------------------------------------------------------ */
+
+.companion {
+  position: relative;
+  z-index: 2;
+  grid-column: 2;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  padding: var(--s-4);
+  gap: var(--s-3);
+  view-transition-name: companion;
+}
+
+.companion__head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--s-3);
+  padding-bottom: var(--s-3);
+  border-bottom: 1px solid var(--glass-edge);
+}
+
+.companion__title {
+  font-family: var(--face-display);
+  font-size: var(--step-2);
+  letter-spacing: -0.025em;
+}
+
+.companion__state {
+  font-size: var(--step--1);
+  color: var(--ink-3);
+}
+
+.companion__log {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: var(--s-3);
+  padding-right: var(--s-1);
+}
+
+.bubble p {
+  margin: 0;
+}
+
+.bubble--mise {
+  color: var(--ink);
+  font-size: var(--step-0);
+}
+
+.bubble__who {
+  display: block;
+  font-size: var(--step--1);
+  color: var(--ember);
+  letter-spacing: 0.04em;
+  margin-bottom: 2px;
+}
+
+.bubble--you {
+  align-self: flex-end;
+  max-width: 90%;
+  padding: var(--s-2) var(--s-3);
+  border-radius: var(--r-md) var(--r-md) var(--s-1) var(--r-md);
+  background: var(--glass-3-tint);
+  border: 1px solid var(--glass-edge);
+  color: var(--ink-2);
+  font-size: var(--step--1);
+}
+
+.companion__suggestions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-2);
+}
+
+.companion__compose {
+  display: flex;
+  gap: var(--s-2);
+  align-items: center;
+}
+
+.companion__input {
+  flex: 1;
+  min-width: 0;
+  padding: 0.625rem 0.875rem;
+  border-radius: var(--r-pill);
+  border: 1px solid var(--glass-edge);
+  background: var(--glass-1-tint);
+  font-size: var(--step-0);
+  transition:
+    border-color var(--t-state) var(--ease),
+    background-color var(--t-state) var(--ease);
+}
+
+.companion__input::placeholder {
+  color: var(--ink-3);
+}
+
+.companion__input:focus {
+  outline: none;
+  border-color: rgb(255 139 61 / 0.5);
+  background: var(--glass-2-tint);
+}
+
+.companion__input:focus-visible {
+  outline: 2px solid var(--ember-bright);
+  outline-offset: 2px;
+}
+
+.companion__send {
+  flex: none;
+  padding: 0.625rem;
+}
+
+/* ---- Narrow --------------------------------------------------------------- */
+
+/* Stacked on a narrow screen the panes sit directly over the lit dish instead of
+   below it, so the reading glass has to carry more of its own ground. */
+@media (max-width: 1040px) {
+  .glass--dense {
+    background:
+      linear-gradient(rgb(10 9 7 / 0.86), rgb(10 9 7 / 0.86)),
+      var(--glass-3-tint);
+  }
+
+  .app {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: minmax(0, 1fr) auto;
+    gap: var(--s-3);
+  }
+
+  .stage,
+  .companion {
+    grid-column: 1;
+  }
+
+  .companion {
+    max-height: 42vh;
+  }
+
+  .cook {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .billboard__name {
+    font-size: clamp(2rem, 8vw, 3.25rem);
+  }
+}
+
+@media (max-width: 640px) {
+  .brand__sub {
+    display: none;
+  }
+
+  /* At the stove on a phone every row counts, and the wordmark was sitting on
+     top of the method panel's own header. */
+  .app--cook .brand {
+    display: none;
+  }
+
+  .companion {
+    max-height: 38vh;
+  }
+
+  .cook__step-title {
+    font-size: var(--step-4);
+  }
+
+  .cook__step-body {
+    font-size: var(--step-1);
+  }
+}
+
+/* View transitions: the two surfaces cross-fade rather than cut. */
+@media (prefers-reduced-motion: no-preference) {
+  ::view-transition-old(billboard),
+  ::view-transition-new(billboard),
+  ::view-transition-old(cook),
+  ::view-transition-new(cook) {
+    animation-duration: var(--t-view);
+    animation-timing-function: var(--ease);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .billboard__name,
+  .cook__step {
+    animation: none;
+  }
+}

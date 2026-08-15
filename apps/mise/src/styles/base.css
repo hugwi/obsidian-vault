@@ -1,0 +1,143 @@
+/* Reset kept to what the app actually needs, plus the browser surfaces that
+   ship with no design system of their own: selection, caret, scrollbars, focus
+   ring, underline offset, and the numerals in anything measured. */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+ul,
+ol,
+dl,
+dd {
+  margin: 0;
+}
+
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  background: var(--ground);
+  color: var(--ink);
+  font-family: var(--face-ui);
+  font-size: var(--step-0);
+  line-height: 1.55;
+  font-synthesis-weight: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden;
+}
+
+/* Ambient warmth under the canvas so the glass has something to refract even
+   before the 3D scene resolves. */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background:
+    radial-gradient(85vw 60vh at 18% 8%, rgb(255 139 61 / 0.16), transparent 62%),
+    radial-gradient(70vw 55vh at 88% 92%, rgb(181 138 192 / 0.1), transparent 60%),
+    var(--ground);
+  pointer-events: none;
+}
+
+img,
+svg,
+canvas {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--face-display);
+  font-weight: 600;
+  line-height: 1.02;
+  letter-spacing: -0.032em;
+  text-wrap: balance;
+  font-variation-settings: 'SOFT' 12, 'WONK' 1, 'opsz' 120;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+/* Prose measure. Data and compact UI opt out deliberately. */
+.measure {
+  max-width: 68ch;
+}
+
+/* ---- Browser surfaces ---------------------------------------------------- */
+
+::selection {
+  background: var(--ember);
+  color: var(--ember-ink);
+}
+
+:root {
+  caret-color: var(--ember);
+  accent-color: var(--ember);
+  scrollbar-color: rgb(255 139 61 / 0.34) transparent;
+  scrollbar-width: thin;
+}
+
+:focus-visible {
+  outline: 2px solid var(--ember-bright);
+  outline-offset: 3px;
+  border-radius: var(--r-sm);
+}
+
+a {
+  color: var(--ember-bright);
+  text-underline-offset: 0.22em;
+  text-decoration-thickness: from-font;
+}
+
+/* Anything measured — grams, minutes, servings, step counts — runs on lining
+   tabular figures so columns of numbers do not jitter as they count. */
+.tnum {
+  font-variant-numeric: tabular-nums lining-nums;
+  font-feature-settings: 'tnum' 1;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
