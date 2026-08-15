@@ -21,7 +21,7 @@ the direction you would have to push the target, the on-target safety that
 implies, and the cheapest experiment that could kill it.
 
 Code: `.pharma-engine/` (dot-prefixed so Obsidian does not index it, like
-`.multilabel.py`). Python 3.11, standard library only, 43 tests.
+`.multilabel.py`). Python 3.11, standard library only, 79 tests.
 
 ## Outcome
 
@@ -38,6 +38,8 @@ and evaluated it against real historical outcomes.
 - [x] Experiment planner: expected information gain per dollar, named kill criterion
 - [x] Retrospective backtest and blind rediscovery
 - [x] Findings written up in the vault
+- [x] Ingestion agents — extractor + adversarial critic, validated at a hard trust boundary
+- [x] Discovery loop — agent chooses and reads, engine scores and stops it
 - [ ] Replace the curated snapshot with live Open Targets / Europe PMC / ChEMBL pulls
 - [ ] Backtest against a full unselected programme cohort rather than 23 curated ones
 
@@ -77,6 +79,28 @@ a design decision:
 
 Detail: [[Target-hypothesis engine — architecture]] · [[Evidence classes in target validation]]
 
+## The agent layer
+
+The engine scores mechanisms; it does not read papers, and 110 hand-curated atoms
+do not scale. Two agents sit around it under one rule: **judgement to the model,
+arithmetic to the engine.** Scoring is out of their reach, so the same evidence
+always produces the same posterior.
+
+- **Ingestion** — an extractor proposes typed atoms against a fixed schema; a
+  separately-prompted critic argues against each one and can veto it. On the
+  selonsertib Phase 3 failure the extractor said `direction: inhibit` and the
+  critic corrected it to `unclear` — a failed trial does not establish a
+  direction of effect — and flagged it `refutes: true`.
+- **Discovery loop** — choose → plan → gather → rescore → continue or stop. It
+  cannot talk itself into a target; it can only find evidence and let the engine
+  rescore. A run on NLRP3 stopped itself after one iteration because a mouse
+  study did not move the number.
+- **Trust boundary** — untrusted documents pass through a validator, not a
+  sterner prompt. A test simulates a fully compromised extractor obeying an
+  injected instruction and asserts nothing reaches the ledger.
+
+Detail and the two bugs the live loop found: [[Agent layer for the target-hypothesis engine]]
+
 ## Does it work
 
 **Blind rediscovery — both hit rank 1.**
@@ -107,6 +131,8 @@ than priced, because quantifying it would mean inventing a number.
       by the egress policy in the build environment, not by anything in the design
 - [ ] Add an evidence class for intervention timing / degree of engagement, which
       is the named blind spot above
+- [ ] Point the ingestion agents at real full texts rather than the eight-document
+      corpus — the pipeline is the same, the corpus is the stub
 - [ ] Backtest against an unselected cohort so calibration means something
 - [ ] Consider a patient-stratification axis — biomarker selection is the largest
       published effect size in the whole picture and the engine currently ignores it
@@ -115,6 +141,11 @@ than priced, because quantifying it would mean inventing a number.
 
 - 2026-08-14 — Research, design, prototype, evaluation and vault write-up.
   43 tests passing. Both rediscovery cases recovered at rank 1.
+- 2026-08-15 — Agent layer: ingestion (extractor + critic) and the discovery
+  loop, running against a live model via `claude -p`. 79 tests. Running the loop
+  found two real bugs — atoms leaking between hypotheses in `score_pair`, and
+  corpus relevance matching on class keywords alone — both fixed with
+  regression tests.
 
 ---
 

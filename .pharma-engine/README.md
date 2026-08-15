@@ -9,7 +9,9 @@ cheapest experiment that could kill it.
 Python 3.11, standard library only. No install step.
 
 ```bash
-python3 -m unittest discover -s tests      # 43 tests
+python3 -m unittest discover -s tests      # 79 tests, no network needed
+
+# engine — deterministic
 python3 cli.py rank                        # rank everything in the ledger
 python3 cli.py explain SOST OSTEOPOROSIS   # the full argument for one pair
 python3 cli.py discover DRY_AMD            # propose targets with no direct evidence
@@ -18,6 +20,12 @@ python3 cli.py backtest                    # time-split evaluation
 python3 cli.py rediscover                  # blind rediscovery of known findings
 python3 cli.py export --out digest.md      # write an Obsidian note
 python3 cli.py sources                     # probe the live data connectors
+
+# agents — judgement
+python3 cli.py ingest                      # documents -> evidence atoms (extractor + critic)
+python3 cli.py review                      # what is staged, what was rejected and why
+python3 cli.py ingest --commit             # promote staged atoms into the ledger
+python3 cli.py loop MASH --iterations 2    # choose, plan, gather, rescore, decide
 ```
 
 Every command takes `--as-of YEAR` to restrict the ledger to what was knowable
@@ -87,6 +95,93 @@ chance this mechanism survives; you must inhibit; the antibody route is open; th
 vascular calcification path is a real risk; and a $120k CRISPR study in
 patient-derived cells is the cheapest thing that could kill it, taking 48% to 25%
 if it reads negative."
+
+## The agent layer
+
+The engine scores mechanisms; it does not read papers, and hand-curating 110
+evidence atoms does not scale. Two agents sit around it, and the division of
+labour is the design:
+
+**Judgement goes to the model. Arithmetic stays in the engine.** The agents
+choose what to pursue and read documents into typed evidence. Scoring,
+calibration and the mechanism graph are out of their reach entirely, so the same
+evidence always produces the same posterior. An agent that could adjust its own
+scores would produce a confident narrative built on nothing, which is the
+characteristic failure of agentic research systems.
+
+### Ingestion: extractor + critic
+
+`ingest` runs two *separate* model calls per atom. The extractor proposes
+against a fixed schema, seeing only the document and the lists of entities and
+evidence classes it is allowed to name. The critic then sees the document and
+one proposed atom and argues against it, with a real veto.
+
+Splitting them matters. A single call asked to extract-and-check grades its own
+work, and the error that costs most here — pathway reasoning written up as human
+genetics, or a mouse result as human evidence — is exactly what a second pass
+with an adversarial brief catches. In practice it does: on the STELLAR-3/4
+selonsertib document the extractor proposed `direction: inhibit`, and the critic
+corrected it to `unclear` on the grounds that a failed trial does not establish
+a direction of effect. It also flagged the finding as `refutes: true`.
+
+Backends, in order of preference: `claude -p` as a subprocess (tools disabled,
+temp working directory, so it is a pure completion), the Messages API when
+`ANTHROPIC_API_KEY` is set, and an offline keyword rule engine. The rule engine
+is **not** a model and is labelled `offline_rules` everywhere it lands, capped at
+strength 0.6 — it exists so the pipeline is demonstrable and the tests never need
+a network call.
+
+### Untrusted documents
+
+Source documents are untrusted text. A paper, preprint or scraped abstract can
+contain anything, including instructions addressed to whatever is reading it.
+`data/corpus/injection-fixture.md` is a document that tries exactly that.
+
+The defence is not a sterner prompt. It is that **nothing reaches the ledger
+except through `contract.validate`**, which constrains what an atom may be: only
+targets and diseases already in the graph, so a document cannot introduce
+entities; a citation matching the document's own, so it cannot invent a source;
+a declared evidence class, a direction from three values, a strength in [0, 1], a
+year no later than the document's.
+
+`test_a_fully_compromised_extractor_still_cannot_reach_the_ledger` asserts the
+guarantee at its worst case: it feeds the pipeline exactly what the injection
+demands, as though the model had obeyed completely, and checks that nothing is
+staged. Against the live model the injection also simply failed — the extractor
+produced a weak `expression_correlative` atom and named the injection attempt in
+its rationale, and the critic pushed the strength down further — but the test
+does not depend on that, because a different model on a different day might
+comply.
+
+Nothing is written to `evidence.jsonl` by any agent. Accepted atoms land in
+`data/staged.jsonl` and a human runs `ingest --commit`.
+
+### The discovery loop
+
+`loop DISEASE` alternates between the two:
+
+```
+1. engine   score the candidates
+2. AGENT    choose which hypothesis to pursue, and say why
+3. engine   plan the next experiment by information per dollar
+4. AGENT    search for evidence in the class the plan names
+5. agents   extract -> criticise -> validate -> stage
+6. engine   rescore
+7. AGENT    continue, or stop against the pre-registered kill criterion
+```
+
+The loop cannot talk itself into a target: it can only find evidence and let the
+engine rescore. If the evidence is weak the number does not move and the stop
+condition fires. A real run on NLRP3 in steatohepatitis stopped after one
+iteration with the agent's own reasoning: *"the posterior hasn't moved despite
+new evidence, and that evidence is a mouse liver preclinical study with no human
+causal signal ... the honest move is to stop rather than keep fishing for
+confirmation."* Stopping is a successful outcome.
+
+Running the loop against a live model also found a real bug in the engine, which
+is the argument for building it: gathered atoms were passed into `score_pair`
+unfiltered, so a refuted claim about MAP3K5 was scored against PNPLA3. `score_pair`
+now filters supplied atoms to the pair being scored, with a regression test.
 
 ## How the score is built
 
@@ -312,7 +407,13 @@ data/evidence.jsonl       the atoms
 data/entities.json        targets, diseases, pathways, processes, drugs, signed edges
 data/outcomes.json        backtest ground truth
 data/discoveries.json     rediscovery ground truth (never read by the scoring path)
+agents/llm.py             backends: claude -p, Messages API, offline rule engine
+agents/contract.py        the trust boundary: schema + hard validation
+agents/ingest.py          extractor and critic agents, staging, commit
+agents/loop.py            the discovery loop
+data/corpus/              source documents, including an injection fixture
 tests/test_engine.py      43 invariant tests
+tests/test_agents.py      36 agent-layer tests, none needing a model
 ```
 
 The folder is dot-prefixed so Obsidian does not index it, following

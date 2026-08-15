@@ -230,7 +230,12 @@ def score_pair(
     path: list[str] | None = None,
     saturation: str = "noisy_or",
 ) -> Hypothesis:
-    atoms = ledger.atoms_for(target, disease) + list(extra_atoms or [])
+    # Injected atoms are filtered to this pair rather than trusted. An atom
+    # carries its own subject and object, and a caller assembling a batch --
+    # the ingestion loop does exactly this -- must not be able to score a
+    # refuted claim about one target against a different one.
+    supplied = [a for a in (extra_atoms or []) if a.target == target and a.disease == disease]
+    atoms = ledger.atoms_for(target, disease) + supplied
     prior = ledger.priors["base_rates"]["p_approval_from_phase1"]
 
     direction, _contest, flags = resolve_direction(atoms, ledger)

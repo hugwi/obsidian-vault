@@ -176,6 +176,112 @@ def cmd_export(args, ledger: Ledger) -> int:
     return 0
 
 
+def cmd_ingest(args, ledger: Ledger) -> int:
+    from agents import ingest as ing
+    from agents import llm
+
+    backend = llm.available(args.backend)
+    docs = ing.load_corpus(args.corpus)
+    if args.doc:
+        docs = [d for d in docs if d.id in set(args.doc)]
+    if not docs:
+        print(f"No documents in {args.corpus}.")
+        return 1
+
+    print(f"Ingesting {len(docs)} document(s) with backend: {llm.describe(backend)}")
+    if backend.name == "offline_rules":
+        print("NOTE: the offline backend is a keyword rule engine, not a model. Its atoms are")
+        print("      capped at strength 0.6 and tagged `agent:offline_rules` in the ledger.")
+    print()
+
+    results = []
+    for doc in docs:
+        r = ing.ingest_document(doc, ledger, backend)
+        results.append(r)
+        print(f"{doc.id}")
+        for a in r.accepted:
+            print(f"   accept    {a.id}  {a.target}-{a.disease}  {a.evidence_class}  "
+                  f"dir={a.direction.value} s={a.strength}{'  REFUTES' if a.refutes else ''}")
+        for a, v in r.revised:
+            print(f"   revised   {a.id}  {a.target}-{a.disease}  {a.evidence_class}  "
+                  f"dir={a.direction.value} s={a.strength}{'  REFUTES' if a.refutes else ''}")
+            print(f"             critic: {v.reason[:110]}")
+        for a, e in r.duplicates:
+            print(f"   duplicate {a.target}-{a.disease} already covered by {e.id}")
+        for rej in r.rejected:
+            print(f"   REJECT    [{rej.stage}] {rej.reason[:110]}")
+        if not (r.accepted or r.revised or r.duplicates or r.rejected):
+            print("   (no atoms proposed)")
+        print()
+
+    if args.commit:
+        n = ing.stage(results)
+        ing.record_rejections(results)
+        added = ing.commit()
+        print(f"Staged {n}, committed {added} atoms into data/evidence.jsonl")
+    else:
+        n = ing.stage(results)
+        ing.record_rejections(results)
+        print(f"Staged {n} atoms to data/staged.jsonl and logged rejections to "
+              f"data/review_queue.jsonl.")
+        print("Nothing entered the ledger. Review the staging file, then run "
+              "`ingest --commit` to promote it.")
+    return 0
+
+
+def cmd_loop(args, ledger: Ledger) -> int:
+    from agents import llm
+    from agents import loop as loop_mod
+
+    backend = llm.available(args.backend)
+    print(f"Backend: {llm.describe(backend)}\n")
+    run_log = loop_mod.run(
+        ledger,
+        args.disease,
+        backend,
+        target=args.target,
+        max_iterations=args.iterations,
+        stage_atoms=not args.dry_run,
+    )
+    print(loop_mod.transcript(run_log, ledger))
+    if run_log.final is not None:
+        print(report.card(run_log.final, ledger))
+    if args.out:
+        Path(args.out).write_text(
+            report.digest_note(
+                [run_log.final] if run_log.final else [],
+                ledger,
+                title=f"Discovery loop — {ledger.name(args.disease)}",
+                subtitle=loop_mod.transcript(run_log, ledger),
+            )
+        )
+        print(f"Wrote {args.out}")
+    return 0
+
+
+def cmd_review(args, ledger: Ledger) -> int:
+    import json as _json
+    from agents.ingest import REVIEW_PATH, STAGED_PATH
+
+    if STAGED_PATH.exists():
+        rows = [_json.loads(l) for l in STAGED_PATH.read_text().splitlines() if l.strip()]
+        print(f"# Staged, awaiting commit ({len(rows)})\n")
+        for r in rows:
+            print(f"  {r['id']:<22} {r['target']}-{r['disease']:<12} {r['evidence_class']:<24} "
+                  f"dir={r['direction']} s={r['strength']}{'  REFUTES' if r.get('refutes') else ''}")
+            print(f"  {'':22} from {r.get('_staged_from')}: {r.get('notes', '')[:100]}")
+        print()
+    else:
+        print("Nothing staged.\n")
+
+    if REVIEW_PATH.exists():
+        rows = [_json.loads(l) for l in REVIEW_PATH.read_text().splitlines() if l.strip()]
+        print(f"# Rejected ({len(rows)})\n")
+        for r in rows[-args.limit:]:
+            print(f"  [{r['stage']}] {r['doc']}: {r['reason'][:120]}")
+    return 0
+
+
 def cmd_sources(args, ledger: Ledger) -> int:
     from engine import connectors
 
@@ -238,6 +344,26 @@ def main(argv: list[str] | None = None) -> int:
     s.add_argument("--limit", type=int, default=10)
     s.add_argument("--max-path", type=int, default=4)
     s.set_defaults(fn=cmd_export)
+
+    s = sub.add_parser("ingest", help="read documents into evidence atoms (extractor + critic)")
+    s.add_argument("--corpus", default=str(Path(__file__).resolve().parent / "data" / "corpus"))
+    s.add_argument("--doc", action="append", help="restrict to these document ids")
+    s.add_argument("--backend", choices=["claude_cli", "anthropic_api", "offline"], default=None)
+    s.add_argument("--commit", action="store_true", help="promote staged atoms into the ledger")
+    s.set_defaults(fn=cmd_ingest)
+
+    s = sub.add_parser("loop", help="run the discovery loop: choose, plan, gather, rescore")
+    s.add_argument("disease")
+    s.add_argument("--target", default=None, help="pin the loop to one target")
+    s.add_argument("--iterations", type=int, default=3)
+    s.add_argument("--backend", choices=["claude_cli", "anthropic_api", "offline"], default=None)
+    s.add_argument("--dry-run", action="store_true", help="do not write to the staging file")
+    s.add_argument("--out", default=None, help="also write an Obsidian note")
+    s.set_defaults(fn=cmd_loop)
+
+    s = sub.add_parser("review", help="show staged atoms and rejections")
+    s.add_argument("--limit", type=int, default=20)
+    s.set_defaults(fn=cmd_review)
 
     s = sub.add_parser("sources", help="probe live data sources")
     s.set_defaults(fn=cmd_sources)

@@ -29,3 +29,7 @@
 # Python bytecode
 __pycache__/
 *.pyc
+
+# Agent run artifacts — regenerated, not source of truth
+.pharma-engine/data/staged.jsonl
+.pharma-engine/data/review_queue.jsonl

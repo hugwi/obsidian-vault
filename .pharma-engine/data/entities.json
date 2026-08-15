@@ -612,6 +612,20 @@
         "small_molecule": 0.4,
         "oligonucleotide": 0.6
       }
+    },
+    {
+      "id": "MAP3K5",
+      "name": "Apoptosis signal-regulating kinase 1 (ASK1)",
+      "family": "kinase",
+      "contexts": [
+        "liver",
+        "immune"
+      ],
+      "constraint": 0.5,
+      "tractability": {
+        "small_molecule": 0.9,
+        "antibody": 0.05
+      }
     }
   ],
   "diseases": [
@@ -1642,6 +1656,13 @@
       "type": "prevents",
       "year": 2012,
       "polarity": -1
+    },
+    {
+      "from": "MAP3K5",
+      "to": "HEPATIC_STEATOSIS",
+      "type": "modulates",
+      "year": 2015,
+      "note": "Stress-kinase signalling modulates the injury and fibrosis response in steatohepatitis."
     }
   ]
 }
