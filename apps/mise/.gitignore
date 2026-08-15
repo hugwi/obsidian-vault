@@ -4,3 +4,4 @@ out/
 .remotion/
 *.local
 *.tsbuildinfo
+dist-single/
