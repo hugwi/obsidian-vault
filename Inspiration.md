@@ -21,6 +21,9 @@ library costs one image request per card instead of one video stream per card.
 
 > Renderer: `Templates/Scripts/remote-media/view.js` · Full table: [[Inspiration.base]]
 
+> Techniques rather than visuals: [[Trend - UI & UX Techniques]] — running synthesis of
+> emerging UI/UX patterns, platform primitives, accessibility and performance findings.
+
 ## 🖼 Everything
 ![[Inspiration.base#🖼 Gallery]]
 
