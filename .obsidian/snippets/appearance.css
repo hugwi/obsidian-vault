@@ -1,0 +1,6 @@
+/* Font + foreground color overrides */
+:root {
+  --font-interface: "Atkinson Hyperlegible Next", sans-serif;
+  --font-text: "Atkinson Hyperlegible Next", sans-serif;
+  --text-normal: #7b776e;
+}
