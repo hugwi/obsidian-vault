@@ -88,6 +88,12 @@ The one way to break this is to empty `noteContentFormat`. Keep a body in it.
 - Summary is placed first in the note body; raw content follows below it.
 - The filter chains (`strip_tags|strip_md|replace:...`) force clean ASCII
   plain-text and bullet lists so frontmatter/body stay tidy.
+- Every `noteNameFormat` must use Web Clipper's `safe_name` filter for every
+  title-derived component. This is required for Android sync: generated filenames
+  must not contain `" * / : < > ? \\ |`, emoji, or unusual Unicode punctuation.
+  Keep the original unsanitized title in the note body/properties, not the filename.
+  If adding a template, use `safe_name` on each title/author/snippet component and
+  keep the result reasonably short.
 
 ## Per-platform notes
 

@@ -36,5 +36,5 @@
     "https://pin.it",
     "schema:@VideoObject"
   ],
-  "noteContentFormat": "# {{title}}\n\n```dataviewjs\nawait dv.view(\"Templates/Scripts/remote-video\");\n```\n\n[Open original source]({{url}})\n\n## Notes\n\n- \n\n## Why I saved this\n\n- \n"
+  "noteContentFormat": "# {{title}}\n\n```dataviewjs\nawait dv.view(\"Templates/Scripts/remote-media\");\n```\n\n[Open original source]({{url}})\n\n## Notes\n\n- \n\n## Why I saved this\n\n- \n"
 }

@@ -2,7 +2,7 @@
   "schemaVersion": "0.1.0",
   "name": "YouTube - Summary",
   "behavior": "create",
-  "noteNameFormat": "{{schema:@VideoObject:uploadDate|date:\"YYYY-MM-DD\"}} - {{schema:@VideoObject:author}} - {{title|safe_name}}",
+  "noteNameFormat": "{{schema:@VideoObject:uploadDate|date:\"YYYY-MM-DD\"}} - {{schema:@VideoObject:author|safe_name}} - {{title|safe_name}}",
   "path": "Inbox/Videos",
   "context": "{{schema:@VideoObject:description}}\n\n{{selectorHtml:ytd-transcript-segment-list-renderer, #segments-container|remove_html:(\"ytd-transcript-section-header-renderer\")|strip_tags|join:\" \"|replace:\"/\\s+/g\":\" \"|slice:0,16000|trim}}",
   "properties": [

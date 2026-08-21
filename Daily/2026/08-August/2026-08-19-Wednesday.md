@@ -9,17 +9,24 @@ tags:: [[+Daily Notes]]
 
 ---
 
-# 🔥 Todo 
+# 🔥 Todo
 - [ ] concrete delivery for implementing AI transformations - How do you structure them
-- [ ] Help Leon with AI pitch. 
+- [ ] Help Leon with AI pitch.
 	- [x] Proposed to meet ✅ 2026-06-30
 	- [x] First draft done ✅ 2026-06-30
-- [ ] AI Govenrnacne
+- [ ] AI Governance
 	- [x] Written message ✅ 2026-07-01
 	- [ ] Waiting for answer
 	- [ ] Create AI governance placeholder
 - [ ] check mentor transfer
 	- [ ] Boka möte Jakub
+- [ ] Reviewing Erik progress LAF
+	- [ ] Reach out to Carl
+	- [ ] Write LAF progression
+- [ ] Reviewing Samuel progress LAF
+	- [ ] Reach out to Linnea
+	- [ ] Write LAF progression
+- [ ] x
 
 ---
 
@@ -29,16 +36,16 @@ tags:: [[+Daily Notes]]
 ---
 ### Notes created today
 ```dataview
-LIST  
-WHERE file.cday = this.file.day  
-SORT file.time asc  
+LIST
+WHERE file.cday = this.file.day
+SORT file.time asc
 ```
 
 ### Notes last touched today
 ```dataview
-LIST  
-WHERE file.mday = this.file.day  
-SORT file.mtime asc  
+LIST
+WHERE file.mday = this.file.day
+SORT file.mtime asc
 ```
 
 https://github.com/github/spec-kit/discussions/152#discussioncomment-18080849
