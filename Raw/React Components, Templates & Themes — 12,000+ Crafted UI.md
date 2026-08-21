@@ -2,7 +2,7 @@
 type: "inspiration"
 title: "React Components, Templates & Themes — 12,000+ Crafted UI"
 categories:
-  - "[[Clippings]]"
+  - "[[Raw]]"
 project:
 domain: "design"
 source_url: "https://21st.dev/?q=motion+&preview=%2F%40prashantsom75%2Fcomponents%2Fscroll-morph-hero"

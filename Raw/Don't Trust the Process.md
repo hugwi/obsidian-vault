@@ -1,6 +1,6 @@
 ---
 categories:
-  - "[[Clippings]]"
+  - "[[Raw]]"
 domain: [design, product-business]
 tags:
   - product

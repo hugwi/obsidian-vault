@@ -1,6 +1,6 @@
 ---
 categories:
-  - "[[Clippings]]"
+  - "[[Raw]]"
 domain: [ai-agents]
 tags:
   - media-gen

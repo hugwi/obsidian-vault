@@ -1,6 +1,6 @@
 ---
 categories:
-  - "[[Clippings]]"
+  - "[[Raw]]"
 domain: [agentic-engineering, design, knowledge-management]
 tags:
   - metrics

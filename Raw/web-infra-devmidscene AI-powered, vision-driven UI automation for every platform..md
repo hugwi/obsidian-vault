@@ -1,6 +1,6 @@
 ---
 categories:
-  - "[[Clippings]]"
+  - "[[Raw]]"
 domain: [agentic-engineering, ai-agents, software-engineering]
 tags:
   - computer-use

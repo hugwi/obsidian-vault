@@ -1,6 +1,6 @@
 ---
 categories:
-  - "[[Clippings]]"
+  - "[[Raw]]"
 domain: [agentic-engineering, software-engineering]
 tags:
   - harness

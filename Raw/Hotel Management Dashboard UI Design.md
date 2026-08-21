@@ -2,7 +2,7 @@
 type: "inspiration"
 title: "Hotel Management Dashboard UI Design"
 categories:
-  - "[[Clippings]]"
+  - "[[Raw]]"
 project:
 domain: "design"
 source_url: "https://dribbble.com/shots/27072001-Hotel-Management-Dashboard-UI-Design"

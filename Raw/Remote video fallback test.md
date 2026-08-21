@@ -2,7 +2,7 @@
 type: inspiration
 title: Remote video fallback test
 categories:
-  - "[[Clippings]]"
+  - "[[Raw]]"
 domain: design
 source_url: https://dribbble.com/shots/popular
 platform: dribbble.com

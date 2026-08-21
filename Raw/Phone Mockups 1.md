@@ -2,7 +2,7 @@
 type: "inspiration"
 title: "Phone Mockups 1 | Community Components"
 categories:
-  - "[[Clippings]]"
+  - "[[Raw]]"
 project:
 domain: "design"
 source_url: "https://21st.dev/@solaceui/components/phone-mockups-1"

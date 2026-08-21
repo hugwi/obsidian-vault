@@ -2,7 +2,7 @@
 type: inspiration
 title: Landing Page for Yoga Platform
 categories:
-  - "[[Clippings]]"
+  - "[[Raw]]"
 domain: design
 source_url: https://dribbble.com/shots/24325045-Landing-Page-for-Yoga-Platform
 platform: dribbble.com

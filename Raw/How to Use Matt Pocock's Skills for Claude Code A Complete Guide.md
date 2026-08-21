@@ -1,6 +1,6 @@
 ---
 categories:
-  - "[[Clippings]]"
+  - "[[Raw]]"
 title: "How to Use Matt Pocock's Skills for Claude Code: A Complete Guide"
 source: "https://tosea.ai/blog/matt-pocock-skills-claude-code-guide"
 author:

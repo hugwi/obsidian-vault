@@ -1,6 +1,6 @@
 ---
 categories:
-  - "[[Clippings]]"
+  - "[[Raw]]"
 title: "How to use QuickAdd for Obsidian - with examples"
 source: "https://www.youtube.com/watch?v=gYK3VDQsZJo"
 author:

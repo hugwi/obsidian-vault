@@ -1,6 +1,6 @@
 ---
 categories:
-  - "[[Clippings]]"
+  - "[[Raw]]"
 title: "penpot/penpot: Penpot: The open-source design tool for design and code collaboration"
 source: "https://github.com/penpot/penpot"
 author:

@@ -2,7 +2,7 @@
 type: "inspiration"
 title: "Financial Dashboard - B2B Sales Pipeline & Revenue Tracking"
 categories:
-  - "[[Clippings]]"
+  - "[[Raw]]"
 domain: "design"
 source_url: "https://dribbble.com/shots/27606181-Financial-Dashboard-B2B-Sales-Pipeline-Revenue-Tracking"
 platform: "dribbble.com"

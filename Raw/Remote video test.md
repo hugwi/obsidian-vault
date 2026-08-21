@@ -2,7 +2,7 @@
 type: inspiration
 title: Remote video test
 categories:
-  - "[[Clippings]]"
+  - "[[Raw]]"
 domain: design
 source_url: https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/
 platform: commondatastorage.googleapis.com

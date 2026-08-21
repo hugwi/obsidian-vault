@@ -1,6 +1,6 @@
 ---
 categories:
-  - "[[Clippings]]"
+  - "[[Raw]]"
 title: "Visual Plans"
 source: "https://www.agent-native.com/docs/template-plan"
 author:

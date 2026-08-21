@@ -1,6 +1,6 @@
 ---
 categories:
-  - "[[Clippings]]"
+  - "[[Raw]]"
 title: "tursodatabase/turso: Turso is an in-process SQL database, compatible with SQLite."
 source: "https://github.com/tursodatabase/turso"
 author:

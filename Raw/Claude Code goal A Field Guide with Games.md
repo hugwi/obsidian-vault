@@ -1,6 +1,6 @@
 ---
 categories:
-  - "[[Clippings]]"
+  - "[[Raw]]"
 title: "Claude Code /goal: A Field Guide with Games"
 source: "https://medium.com/@jason.croucher/claude-code-goal-a-field-guide-with-games-f6f3b617ce5b"
 author:

@@ -1,6 +1,6 @@
 ---
 categories:
-  - "[[Clippings]]"
+  - "[[Raw]]"
 title: "The Humans in the Loop Deep Dive: Making AI Agents Mainstream with Dexter Horthy"
 source: "https://thehumansintheloop.substack.com/p/making-agents-mainstream-for-dev-with-dexter-horthy"
 author:

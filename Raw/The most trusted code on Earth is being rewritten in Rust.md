@@ -1,6 +1,6 @@
 ---
 categories:
-  - "[[Clippings]]"
+  - "[[Raw]]"
 title: "The most trusted code on Earth is being rewritten in Rust"
 source: "https://www.youtube.com/watch?v=Sntj4HmuykI"
 author:

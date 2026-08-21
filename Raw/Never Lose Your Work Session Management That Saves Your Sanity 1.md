@@ -1,6 +1,6 @@
 ---
 categories:
-  - "[[Clippings]]"
+  - "[[Raw]]"
 title: "Never Lose Your Work: Session Management That Saves Your Sanity"
 source: "https://dev.to/rajeshroyal/never-lose-your-work-session-management-that-saves-your-sanity-4dp8"
 author:

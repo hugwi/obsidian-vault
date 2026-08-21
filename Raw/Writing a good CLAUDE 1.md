@@ -1,6 +1,6 @@
 ---
 categories:
-  - "[[Clippings]]"
+  - "[[Raw]]"
 title: "Writing a good CLAUDE.md"
 source: "https://www.hlyr.dev/blog/writing-a-good-claude-md"
 author:

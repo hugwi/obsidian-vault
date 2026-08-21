@@ -1,6 +1,6 @@
 ---
 categories:
-  - "[[Clippings]]"
+  - "[[Raw]]"
 title: "Advanced Context Engineering for Coding Agents"
 source: "https://www.gethumanlayer.com/blog/advanced-context-engineering"
 author:

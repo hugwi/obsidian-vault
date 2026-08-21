@@ -1,6 +1,6 @@
 ---
 categories:
-  - "[[Clippings]]"
+  - "[[Raw]]"
 title: "Code Surgery: How AI Assistants Make Precise Edits to Your Files"
 source: "https://fabianhertwig.com/blog/coding-assistants-file-edits/"
 author:
