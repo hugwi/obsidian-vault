@@ -16,7 +16,7 @@ below is a live view grouped by sub-theme. Mark a note `read: true` to track pro
 
 > What to build now: [[Agentic Engineering — Implementation Guide]]
 > Current-trend landscape & sources: [[Agentic Engineering — Trends 2026]]
-> Raw article list: [[Clippings.base]] · taxonomy notes: [[_clusters_view]]
+> Raw article list: [[Raw.base]] · taxonomy notes: [[_clusters_view]]
 
 ## 🧠 Context engineering · 42
 > context-window · compaction-caching · retrieval-rag · cost-tokens · system-prompt-rules · memory-persistence

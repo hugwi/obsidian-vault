@@ -66,10 +66,10 @@ views:
       - file.name
       - created
   - type: table
-    name: Clippings
+    name: Raw
     filters:
       and:
-        - categories.contains(link("Clippings"))
+        - categories.contains(link("Raw"))
     order:
       - file.name
       - source

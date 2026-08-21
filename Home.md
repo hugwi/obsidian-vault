@@ -24,7 +24,7 @@ date_created: 2026-04-08
 
 ## Inbox — Process Weekly
 
-→ `Inbox/Web Clippings/` — clipped articles from Firefox
+→ `Inbox/Web Raw/` — clipped articles from Firefox
 → `Inbox/Quick Notes/` — unprocessed quick captures
 
 ---

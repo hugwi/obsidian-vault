@@ -21,7 +21,7 @@ const vaultRoot = () => process.env.OBSIDIAN_VAULT_PATH ||
 
 // Folders with no project notes in them. Skipping them keeps a 900-note vault fast
 // enough that Raycast feels instant.
-const SKIP = new Set(["Attachments", "Templates", "Daily", "Clippings", "node_modules"]);
+const SKIP = new Set(["Attachments", "Templates", "Daily", "Raw", "node_modules"]);
 
 // A deliberately small YAML subset: scalars and block lists, which is all this vault's
 // frontmatter uses. Enough for `categories`, `project` and `status`; a full parser

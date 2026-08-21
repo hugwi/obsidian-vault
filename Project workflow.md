@@ -39,7 +39,7 @@ A note with no `status` counts as active.
 
 Two ways, both of which leave the source note where it is:
 
-1. **`project: "[[Ethira]]"`** on any note — a clipping in `Clippings/`, a person in
+1. **`project: "[[Ethira]]"`** on any note — a clipping in `Raw/`, a person in
    `References/`, a resource at the root. The note keeps its own `categories`; the
    property is purely a "this belongs to that project" pointer. Use
    `project: ethira/api` to scope it to a slice — the parent project still shows it.
@@ -47,7 +47,7 @@ Two ways, both of which leave the source note where it is:
    `[[Ethira]]` in today's daily note and it lands under *Recent mentions*.
 
 Nothing moves folders. A clipping that becomes your own thinking gets rewritten into
-a new note at the root — that is the only case where a file leaves `Clippings/`.
+a new note at the root — that is the only case where a file leaves `Raw/`.
 
 ## Capture into it
 

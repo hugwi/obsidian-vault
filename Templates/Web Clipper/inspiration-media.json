@@ -3,7 +3,7 @@
   "name": "Inspiration - Media",
   "behavior": "create",
   "noteNameFormat": "{{title|safe_name|replace:\"  Community Components\":\"\"}}",
-  "path": "Clippings",
+  "path": "Raw",
   "context": "",
   "properties": [
     {
@@ -18,7 +18,7 @@
     },
     {
       "name": "categories",
-      "value": "[[Clippings]]",
+      "value": "[[Raw]]",
       "type": "multitext"
     },
     {

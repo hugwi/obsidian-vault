@@ -21,7 +21,7 @@ and **open questions** — the things I still have to decide before drafting.
 > [!note] Conventions
 > Long-form goes on the blog, the short provocation goes on LinkedIn and links back.
 > Anything I clip as raw material for one of these gets `project: "[[Blog ideas]]"` so it
-> lands on the desk below without leaving `Clippings/`. See [[Project workflow]].
+> lands on the desk below without leaving `Raw/`. See [[Project workflow]].
 
 **Done when:**
 - [ ] Idea 1 — AI UX/UI slop + slop-voting + [[Netlight]] audit offer, published

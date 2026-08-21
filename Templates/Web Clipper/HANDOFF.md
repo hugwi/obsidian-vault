@@ -10,7 +10,7 @@ below is closed.
 
 ## What we are building
 
-Save web-design inspiration (Dribbble, Pinterest, 21st.dev) into `Clippings/` with the
+Save web-design inspiration (Dribbble, Pinterest, 21st.dev) into `Raw/` with the
 Obsidian Web Clipper alone, storing **remote URLs only**.
 
 **Hard constraint, in force since the original brief — do not relax it:**
@@ -139,7 +139,7 @@ down the candidate list on load error.
 
 ## Loose ends, none blocking
 
-- Three test notes in `Clippings/` can be deleted: `Remote video test.md`,
+- Three test notes in `Raw/` can be deleted: `Remote video test.md`,
   `Remote video fallback test.md`. (`Landing Page for Yoga Platform.md` is a real clip
   worth keeping.)
 - Seven existing Readwise design clippings could be backfilled with

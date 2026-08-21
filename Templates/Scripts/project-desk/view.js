@@ -8,7 +8,7 @@
 //
 // A note joins a project by carrying `project: "[[Name]]"` — that works on *any*
 // note regardless of its `categories`, which is the whole point: a clipping stays a
-// clipping in `Clippings/` and still shows up here as raw material. Wikilinking the
+// clipping in `Raw/` and still shows up here as raw material. Wikilinking the
 // project note from anywhere also counts, so a passing mention in a daily note is
 // picked up without bookkeeping.
 
@@ -208,7 +208,7 @@ function renderBoard() {
     const rows = (pages) => pages.map((page) => {
         const material = materialFor(page.file.name, page);
         const own = material.filter((item) => hasCategory(item, "Projects"));
-        const raw = material.filter((item) => hasCategory(item, "Clippings"));
+        const raw = material.filter((item) => hasCategory(item, "Raw"));
         const next = openTasks([page, ...own])[0];
 
         return [
@@ -276,7 +276,7 @@ function renderDesk(project) {
 
     const material = materialFor(project, projectPage);
     const own = material.filter((page) => hasCategory(page, "Projects"));
-    const clippings = material.filter((page) => hasCategory(page, "Clippings"));
+    const clippings = material.filter((page) => hasCategory(page, "Raw"));
     const resources = material.filter((page) => hasCategory(page, "Resources"));
     const areas = material.filter((page) => hasCategory(page, "Areas"));
     const people = material.filter((page) => hasCategory(page, "People"));

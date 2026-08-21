@@ -109,8 +109,8 @@ const VAULT = [
     },
     {
         name: "Harness engineering",
-        folder: "Clippings",
-        categories: [makeLink("Clippings")],
+        folder: "Raw",
+        categories: [makeLink("Raw")],
         project: makeLink("Ethira"),
         action: "implement",
         rating: 6,
@@ -119,8 +119,8 @@ const VAULT = [
     },
     {
         name: "A brief history of ralph",
-        folder: "Clippings",
-        categories: [makeLink("Clippings")],
+        folder: "Raw",
+        categories: [makeLink("Raw")],
         project: makeLink("Ethira"),
     },
     {

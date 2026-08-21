@@ -74,14 +74,14 @@ not register until you do.
    never built).
 6. **Clipper.** Re-import all six JSONs into the browser extension — it keeps its own
    copy, so the repo change alone does nothing. Clip something; confirm it lands in
-   `Clippings/` with `categories`, `read: false`, `rating`, `action: review`, `project`.
+   `Raw/` with `categories`, `read: false`, `rating`, `action: review`, `project`.
 
 ## Constraints — do not relax these
 
 - **Never move a file to attach it to a project.** The `project:` property is the whole
-  mechanism; a clipping stays in `Clippings/` and keeps `categories: "[[Clippings]]"`.
-- **The folder does not file anything — the property does.** A note in `Clippings/`
-  without `categories: "[[Clippings]]"` is invisible to every view. This is why the five
+  mechanism; a clipping stays in `Raw/` and keeps `categories: "[[Raw]]"`.
+- **The folder does not file anything — the property does.** A note in `Raw/`
+  without `categories: "[[Raw]]"` is invisible to every view. This is why the five
   `*-summary.json` clipper templates got `categories` when they were repointed, not just
   a new `path`.
 - **Do not fork `logInsertion` or `isProjectHub`.** The Raycast scripts `require()` them
@@ -111,7 +111,7 @@ in prose in `Project workflow.md`.
 
 ## Open items, none blocking
 
-- **`Home.md` is stale** — describes `Inbox/Web Clippings/` and `MOC-*` notes that no
+- **`Home.md` is stale** — describes `Inbox/Web Raw/` and `MOC-*` notes that no
   longer exist, and its hand-maintained Active Projects table duplicates the board.
   Offered, never done.
 - **Clipper filenames** still carry date prefixes (`2026-08-04 - Title`) while the 444

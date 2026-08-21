@@ -14,7 +14,7 @@ Visual overview of every clipping with `type: inspiration` — web design saved 
 21st.dev, Dribbble, Pinterest and anywhere else that exposes an image or a video.
 
 Clips are captured with the **Inspiration - Media** Web Clipper template
-(`Templates/Web Clipper/inspiration-media.json`) and land in `Clippings/`. Each note
+(`Templates/Web Clipper/inspiration-media.json`) and land in `Raw/`. Each note
 stores remote URLs only — nothing is downloaded into the vault. Open a note to play
 its video; the gallery below deliberately shows thumbnails only, so browsing the
 library costs one image request per card instead of one video stream per card.

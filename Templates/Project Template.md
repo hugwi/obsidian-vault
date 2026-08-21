@@ -40,4 +40,4 @@ await dv.view("Templates/Scripts/project-desk");
 
 <!-- Everything above the desk you write; everything in it is gathered. A note joins
      this project by carrying `project: "[[This project]]"` — including clippings,
-     which stay in `Clippings/`. Wikilinking this note also counts. -->
+     which stay in `Raw/`. Wikilinking this note also counts. -->

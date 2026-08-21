@@ -75,7 +75,7 @@ directory scan does not mistake it for a command.
 - **Do not capture into a note you are actively editing in Obsidian.** Obsidian reloads
   external changes, but a pending in-app save can overwrite an append made seconds
   earlier. In practice you are in another app, which is the point.
-- **`findHubs` skips `Attachments/`, `Templates/`, `Daily/` and `Clippings/`** for speed.
+- **`findHubs` skips `Attachments/`, `Templates/`, `Daily/` and `Raw/`** for speed.
   Project notes live at the vault root, so this is free — but a project note filed inside
   one of those folders would be invisible to Raycast.
 

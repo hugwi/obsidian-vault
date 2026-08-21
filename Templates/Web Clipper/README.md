@@ -8,15 +8,15 @@ is a no-AI visual clipper.
 
 | Template | Triggers on | Saves to |
 |---|---|---|
-| `inspiration-media.json` | 21st.dev, dribbble.com, pinterest.* (+ subdomains), pin.it | `Clippings` |
-| `youtube-summary.json` | youtube.com/watch, youtu.be | `Clippings` |
-| `medium-summary.json` | medium.com (+ subdomains) | `Clippings` |
-| `article-summary.json` | any page with `schema:@Article` / `@NewsArticle` | `Clippings` |
-| `reddit-summary.json` | reddit.com/r/ | `Clippings` |
-| `x-summary.json` | x.com, twitter.com | `Clippings` |
+| `inspiration-media.json` | 21st.dev, dribbble.com, pinterest.* (+ subdomains), pin.it | `Raw` |
+| `youtube-summary.json` | youtube.com/watch, youtu.be | `Raw` |
+| `medium-summary.json` | medium.com (+ subdomains) | `Raw` |
+| `article-summary.json` | any page with `schema:@Article` / `@NewsArticle` | `Raw` |
+| `reddit-summary.json` | reddit.com/r/ | `Raw` |
+| `x-summary.json` | x.com, twitter.com | `Raw` |
 
-All six save to `Clippings/` and write the same triage frontmatter, so a clip is usable
-from `Clippings.base` the moment it lands: `categories: "[[Clippings]]"` (the folder alone
+All six save to `Raw/` and write the same triage frontmatter, so a clip is usable
+from `Raw.base` the moment it lands: `categories: "[[Raw]]"` (the folder alone
 means nothing in this vault — the property is what files it), `created`, `domain`,
 `project`, `read: false`, `rating`, `action: review`. The five `*-summary.json` ones used
 to save to `Inbox/Articles` / `Inbox/Videos` — folders that no longer exist — and set
@@ -65,15 +65,15 @@ only — so do not adopt that pattern here.
 
 ### Templater does not interfere
 
-`Clippings/` has a Templater folder template (`Templates/Clipping Template.md`) and
+`Raw/` has a Templater folder template (`Templates/Raw Template.md`) and
 `trigger_on_file_creation` is on, which looks like it would overwrite every clip. It does
 not. Templater's creation handler measures the body length after the frontmatter and only
 applies a folder template when that is **zero**; a file that arrives with a body instead
 gets scanned for `<% %>` commands and is otherwise left alone. Every template here writes
 a body (heading, summary blocks or `dataviewjs`, source link, notes sections), and none of
-those bodies contain Templater syntax. The 378 Readwise notes already in `Clippings/`
+those bodies contain Templater syntax. The 378 Readwise notes already in `Raw/`
 confirm the same behaviour in practice — none of them carry the folder template's markers.
-This matters more now that all six templates land in `Clippings/`, not just the visual one.
+This matters more now that all six templates land in `Raw/`, not just the visual one.
 
 The one way to break this is to empty `noteContentFormat`. Keep a body in it.
 
@@ -132,7 +132,7 @@ or focus (e.g. "5 bullet action items", "ELI5 paragraph"). Keep the trailing
 
 ## `inspiration-media.json` — design inspiration
 
-Saves web-design inspiration to `Clippings/` as **metadata + remote URLs only**. No AI,
+Saves web-design inspiration to `Raw/` as **metadata + remote URLs only**. No AI,
 no Interpreter needed, and **no MP4 is ever written into the vault**.
 
 It scrapes the page for a playable video in this order and stores whatever it finds:

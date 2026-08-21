@@ -50,7 +50,7 @@ write("Datahub.md", project("Datahub", "status: someday"));
 write("PII.md", '---\ncategories:\n  - "[[Projects]]"\n---\n\nNo project property at all.\n');
 // Belongs to Ethira, so it is not a project itself.
 write("adr-tool-routing.md", project("Ethira"));
-write("Clippings/Some clip.md", '---\ncategories:\n  - "[[Clippings]]"\nproject: "[[Ethira]]"\n---\n');
+write("Raw/Some clip.md", '---\ncategories:\n  - "[[Raw]]"\nproject: "[[Ethira]]"\n---\n');
 write("Templates/Project Template.md", project("Project Template"));
 
 const hubs = vault.findHubs(root);

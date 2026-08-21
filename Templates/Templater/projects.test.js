@@ -37,7 +37,7 @@ const VAULT = [
     { name: "PII", categories: ["[[Projects]]"] },
     // Points at another project: a note *inside* Ethira, not a project.
     { name: "adr-tool-routing", categories: ["[[Projects]]"], project: "[[Ethira]]" },
-    { name: "Harness engineering", folder: "Clippings", categories: ["[[Clippings]]"] },
+    { name: "Harness engineering", folder: "Raw", categories: ["[[Raw]]"] },
     { name: "Project Template", folder: "Templates", categories: ["[[Projects]]"] },
 ].map(makeFile);
 
