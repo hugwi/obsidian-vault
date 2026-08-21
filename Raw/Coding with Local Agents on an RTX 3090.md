@@ -156,6 +156,162 @@ I’ve also modified a few other sampling parameters based on recommendations fo
 
 I also switched to the `Qwen3.6-27B-MTP-GGUF` model, which includes the smaller MTP model needed for the parallel token prediction. And I switched to the `UD-Q4_K_XL` quantization format, because guessing which quantization format to use is half the fun of self-hosting models.
 
+## Local Fleet Update — August 2026
+
+The machine described in this note has moved beyond the original single-model
+Qwen 3.6 setup. It now uses `llama-swap` in front of several `llama-server`
+instances. Only one large model occupies the RTX 3090 at a time; requesting a
+different model stops the current container and starts the requested one.
+
+The default local coding model is now **Qwen 3.8 27B UD-Q4_K_XL**, served as
+`local-coder`. Its measured configuration is:
+
+```text
+weights:              Qwen3.8-27B-UD-Q4_K_XL.gguf (17.56 GB)
+server:               llama.cpp / llama-server
+context:              131,072 tokens
+KV cache:             Q4_0 for K and V
+GPU layers:           99 (full offload)
+speculative decoding: embedded MTP, draft length 2
+reasoning budget:     2,048 tokens by default
+measured decode:      49.13 tokens/s (SPEED-Bench coding, n=12)
+MTP acceptance:       70.2%
+measured peak VRAM:   20,586 MiB
+```
+
+### Weight memory is not total inference memory
+
+The model file is only one consumer of VRAM. A useful approximation is:
+
+```text
+total VRAM = weights + KV cache + recurrent state + compute workspace
+             + speculative drafter/MTP state + runtime overhead
+```
+
+**Weight quantization** compresses the learned parameters. It answers: “How
+much memory is needed to store what the model knows?” **KV-cache quantization**
+compresses the attention state created while processing the current prompt and
+conversation. It answers: “How much memory is needed to remember this active
+sequence?” They are independent choices.
+
+The KV cache stores key and value vectors used by attention so the server does
+not recompute the whole prefix for every generated token. Its size grows roughly
+linearly with:
+
+```text
+number of cached tokens × KV heads × head dimension × attention layers
+× bytes per KV element × active sequences
+```
+
+This is why a 10 GB weight file can still nearly fill a 24 GB GPU at long
+context. Smaller weights create headroom, but a 128K FP16 KV cache can consume
+that headroom again. Conversely, the current 17.56 GB Qwen GGUF fits a 128K
+context because its K and V caches are separately compressed to Q4_0 and the
+server runs only one sequence (`--parallel 1`). Context and concurrency spend
+the same memory pool: four simultaneous 32K conversations can cost roughly as
+much cache memory as one 128K conversation, before runtime overhead.
+
+Qwen 3.8 is a hybrid architecture: 16 of its 64 layers use full attention and
+the other 48 use gated-delta/recurrent state. The recurrent part has a mostly
+fixed per-sequence cost, while the full-attention KV cache grows with context.
+That makes long context cheaper than it would be in a conventional 64-layer
+full-attention model, but it does not make context free.
+
+### Quantization levels: Q8, Q4, and W2 are different products
+
+The number in a quantization name is a useful direction, not a complete quality
+or size specification. Metadata, scales, tensors left at higher precision, and
+mixed per-tensor rules mean actual bits per weight and file sizes differ from
+the label.
+
+| Format | What it means in practice | 27B-class weight size | RTX 3090 role |
+| --- | --- | ---: | --- |
+| BF16 | Original 16-bit weights | ~55 GB | Does not fit on one 24 GB card |
+| FP8 / Q8 | Roughly 8-bit weights; high-fidelity reference | ~28–36 GB depending on format | Weights alone exceed VRAM; requires CPU offload or multiple GPUs |
+| Q6 | Higher-fidelity GGUF compromise | ~22–25 GB | Leaves too little room for useful long-context cache |
+| Q4_K_M / UD-Q4_K_XL | Mixed 4-bit GGUF with important tensors kept higher | ~15–18 GB | Current sweet spot for a 27B model plus long Q4 KV cache |
+| Q3 | More aggressive GGUF | ~12–14 GB | More context headroom, but greater quality risk |
+| Q2 / IQ2 | Very aggressive generic GGUF | ~9–11 GB | Fits easily, but generic 2-bit quants often degrade sharply |
+| Escha W2 | Custom learned mixed 2/3-bit format, 2.469 bits/weight | 10.15 GB | Promising quality, but needs Escha's custom SGLang runtime |
+
+**Q8 is valuable as a quality reference, not as the practical single-3090
+configuration.** Q8/FP8 usually retains nearly all of the source model, but the
+weights do not leave enough VRAM for a useful KV cache on a 24 GB card. CPU
+offload would make it run, but PCIe transfers normally reduce interactive coding
+speed. Two GPUs could hold it, but that changes the system and power budget.
+
+The `K_M`, `K_XL`, `UD`, and `IQ` parts matter. A dynamic quantizer can keep
+error-sensitive tensors at more bits and compress tolerant tensors harder. Two
+files both advertised as “4-bit” can therefore differ in size, speed, MTP
+contents, and benchmark quality. The earlier Qwen 3.6 comparison exposed this
+directly: its plain `Q4_K_M` included the MTP head, while its `UD-Q4_K_XL` file
+did not. Always inspect model metadata and benchmark the exact file rather than
+reasoning from the label alone.
+
+### Escha W2: why 10.15 GB can still use about 22 GB
+
+`Qwen3.8-27B-Escha-W2` is not a normal `Q2_K` GGUF. Escha uses a learned custom
+format: mixed 2/3-bit projections averaging 2.469 bits per weight, INT8 embedding
+and output head, and selected FP16 tensors. It is served by an Escha-specific
+SGLang wheel with custom CUDA kernels. The current release cannot simply replace
+the GGUF path in `llama-server`.
+
+The early result “~100% FP8 benchmark performance” means **approximately the
+same benchmark quality**, not 100% of FP8 inference speed. It covers eight early
+benchmarks and should not yet be treated as proof of identical behavior across
+large repositories, tool use, obscure languages, or long agent sessions.
+
+On a 24 GB card, Escha reports:
+
+| Escha W2 configuration | Context/purpose | Peak VRAM or result |
+| --- | --- | --- |
+| Shipped default | 64K, single user | ~18.3 GB; 40.7 tok/s reported on RTX 3090 |
+| Tuned long context | 128K, one stream | ~21.8 GB allocation |
+| Measured 120K prompt | 128K recipe | ~22.1 GB peak |
+| Practical maximum | ~147K | ~22.7 GB with little safety margin |
+
+The apparent paradox is therefore expected:
+
+```text
+Escha W2: 10.15 GB weights + larger FP16 KV/state/workspace ≈ 22 GB
+Our Q4 XL: 17.56 GB weights + compressed Q4 KV/workspace ≈ 20.6 GB
+```
+
+The smaller model file can use *more total VRAM* because the two deployments use
+different cache precision and different runtimes. An apples-to-apples comparison
+must hold context length, KV precision, concurrency, speculative decoding, and
+runtime constant—not just the weight file.
+
+### Current model trade-offs on this RTX 3090
+
+| Model | Configured context | Best use | Main trade-off |
+| --- | ---: | --- | --- |
+| **Qwen 3.8 27B UD-Q4_K_XL + MTP** | 128K | Default local coder; strongest current Qwen option | ~20.6 GB VRAM; one active stream; 2,048-token reasoning cap prevents overthinking |
+| Qwen 3.6 27B Q4_K_M + MTP | 128K with Q4 KV | Proven rollback; high MTP acceptance | Slightly older model; best tested `-ngl 99` config was 48.60 tok/s |
+| Qwen 3.6 27B UD-Q4_K_XL | 128K | Quant-matched baseline | This exact file has no MTP head and decoded at only 29.60 tok/s |
+| Gemma 4 31B Q4_K_M | 64K | Dense planner alternative | Shorter context and no measured MTP advantage here |
+| Gemma 4 26B MoE Q5_K_M + external MTP | 128K | Builder/throughput alternative | Separate draft model and more moving parts |
+| Gemma 4 E4B Q4_K_M | 128K | Small, fast general model | Lower effective capability than the dense 27B/31B choices |
+| Gemma 4 12B Q4_K_M | 256K | Maximum configured context, cheaper utility work | Smaller model; long context does not compensate for weaker reasoning |
+| **Escha Qwen 3.8 W2** | 64K default; 128K tuned | Experimental high-quality 2-bit deployment; possible concurrency headroom | Custom SGLang stack; early quality evidence; reported 3090 single-stream speed is below our measured MTP setup |
+| Qwen 3.8 FP8/Q8 | Architecture supports long context, hardware does not fit it cleanly | Quality baseline or multi-GPU experiment | ~28–36 GB weights before KV cache; unsuitable for one 24 GB 3090 without offload |
+
+The current recommendation is to keep **Qwen 3.8 UD-Q4_K_XL + MTP + Q4 KV** as
+the production local coder. It delivered 49.13 tok/s on the local coding
+benchmark and already fits 128K with safe VRAM headroom. Escha W2 is worth an
+A/B test once its runtime is mature or its promised GGUF support arrives, but
+its current advantage is weight compression—not a demonstrated improvement in
+single-user coding speed or total 128K VRAM use on this machine.
+
+Sources for this update:
+
+- [Qwen3.8-27B official model](https://huggingface.co/Qwen/Qwen3.8-27B)
+- [Escha W2 announcement](https://www.reddit.com/r/Qwen_AI/comments/1vtpqdr/2bit_qwen3827b_1015gb_100_fp8_benchmark/)
+- [Escha W2 model card](https://huggingface.co/EschaLabs/Qwen3.8-27B-Escha-W2)
+- [llama.cpp](https://github.com/ggml-org/llama.cpp)
+
+Related: [[MOC - LLM Foundations]] · [[How to Run Local LLMs with Claude Code (01knfghh056rdn8jn8dnjkffy7)]] · [[Tested MTP with llama.cpp and Qwen3.6-27B on RTX 3090  rLocalLLM]]
+
 ## Is it Worth It?
 
 What does an RTX machine cost these days?
