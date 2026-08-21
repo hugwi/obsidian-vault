@@ -1,6 +1,6 @@
 filters:
   and:
-    - categories.contains(link("Clippings"))
+    - categories.contains(link("Raw"))
     - '!file.name.contains("Template")'
 properties:
   file.name:

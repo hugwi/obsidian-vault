@@ -8,7 +8,7 @@ obsidian-vault/
 ├── Categories/    → one hub note per category; each embeds its `.base` (navigation hubs)
 ├── (root)         → your own notes: projects, areas, resources, captures, evergreen
 ├── References/    → notes ABOUT external people/things (colleagues, contacts, companies)
-├── Clippings/     → articles written by others (web clips + Readwise highlights)
+├── Raw/           → articles written by others (web clips + Readwise highlights)
 ├── Attachments/   → images, PDFs, audio, recordings
 ├── Daily/         → daily notes, nested YYYY/MM-MMMM/YYYY-MM-DD-dddd.md (core plugin)
 ├── Templates/     → note templates + Templates/Bases/ (per-category .base files)
@@ -39,7 +39,7 @@ embeds a `.base` listing its members; `Vault.base` also turns each into a view:
 | `"[[Areas]]"` | `domain:` engineering/career/clients/finance/health/interests/personal |
 | `"[[Resources]]"` | `domain:` engineering/compliance |
 | `"[[People]]"` | (lives in `References/`) |
-| `"[[Clippings]]"` | (lives in `Clippings/`) |
+| `"[[Raw]]"` | (lives in `Raw/`) |
 | `"[[Inbox]]"` | unprocessed captures (at root) |
 | `"[[Archive]]"` | inactive/completed |
 | `"[[Daily]]"` | (lives in `Daily/`) |
@@ -48,8 +48,8 @@ embeds a `.base` listing its members; `Vault.base` also turns each into a view:
 
 ### Processing inbox
 When asked to "process inbox":
-1. Review notes with `categories: [inbox]` (at root) and files in `Clippings/`
-2. Set the right `categories`/`domain` (move clips out of `Clippings/` only if they become your own note)
+1. Review notes with `categories: [inbox]` (at root) and files in `Raw/`
+2. Set the right `categories`/`domain` (move clips out of `Raw/` only if they become your own note)
 3. Suggest `[[wikilinks]]` to related notes
 4. Update `status:` frontmatter `inbox` → `processed` where present
 
@@ -60,7 +60,7 @@ progress measured in **intermediate packets** (own notes carrying the project's
 `project:`). `status: pursue` is the "want to pursue, not started" shelf.
 
 **`project:` attaches any note to a project without moving or recategorising it** —
-a clipping keeps `categories: "[[Clippings]]"` and stays in `Clippings/` while showing
+a clipping keeps `categories: "[[Raw]]"` and stays in `Raw/` while showing
 up as that project's raw material. `project: name/slice` scopes to a sub-area of
 `name`. A plain `[[wikilink]]` to the project note counts too (that is how daily notes
 land on the desk). When asked to attach material to a project, add the `project:`
@@ -87,12 +87,12 @@ project** command (Cmd+P → "project"); every clipping template now ships an em
 - Open the relevant hub in `Categories/` to see all notes of that type
 
 ### Adding new notes
-Place at root (or `References/` for a person, `Clippings/` for others' articles). Frontmatter:
+Place at root (or `References/` for a person, `Raw/` for others' articles). Frontmatter:
 ```yaml
 ---
 created: YYYY-MM-DD
 categories:
-  - "[[Projects]]"   # or [[Areas]] | [[Resources]] | [[People]] | [[Inbox]] | [[Clippings]] | [[Archive]] | [[Daily]]
+  - "[[Projects]]"   # or [[Areas]] | [[Resources]] | [[People]] | [[Inbox]] | [[Raw]] | [[Archive]] | [[Daily]]
 domain: engineering   # if areas/resources: engineering|career|clients|finance|health|interests|compliance|personal
 project: "[[Name]]"   # if projects
 tags: [lowercase-hyphenated]
@@ -110,8 +110,8 @@ Do **not** add a redundant `title:` — the filename is the title.
 | Meeting notes (client/work) | root | `"[[Areas]]"` + `domain: clients` |
 | Career & growth notes | root | `"[[Areas]]"` + `domain: career` |
 | People/contacts | `References/` | `"[[People]]"` |
-| Web clips (unprocessed) | `Clippings/` | `"[[Clippings]]"` |
-| Clip that belongs to a project | stays in `Clippings/` | `"[[Clippings]]"` + `project:` |
+| Web clips (unprocessed) | `Raw/` | `"[[Raw]]"` |
+| Clip that belongs to a project | stays in `Raw/` | `"[[Raw]]"` + `project:` |
 | Quick ideas | root | `"[[Inbox]]"` |
 | Personal life | root | `"[[Areas]]"` + `domain: personal/finance/health/interests` |
 
@@ -124,17 +124,17 @@ Do **not** add a redundant `title:` — the filename is the title.
 - **Project workflow**: `Project workflow.md` (root) + `Templates/Project Template.md`
 - **Design inspiration**: `Inspiration.md` (root) + `Templates/Bases/Inspiration.base`
 
-## Clippings triage props
-Every note in `Clippings/` carries two extra props for triage:
+## Raw triage props
+Every note in `Raw/` carries two extra props for triage:
 - `rating:` — 1–7 (number), how valuable the content is
 - `action:` — one of `review` (todo, look at it) · `implement` (will build) · `insight` (good, not implementing)
-Browse via `Clippings.base` (📋 To review / 🔨 To implement / 💡 Insights / ⭐ Top rated)
+Browse via `Raw.base` (📋 To review / 🔨 To implement / 💡 Insights / ⭐ Top rated)
 and `Agentic Engineering.base` (same action views + ⭐ Top rated).
 
 ## Inspiration clippings (`type: inspiration`)
 Web-design inspiration from 21st.dev / Dribbble / Pinterest etc. is captured by the
 **Inspiration - Media** Web Clipper template (`Templates/Web Clipper/inspiration-media.json`)
-into `Clippings/`. These notes store **remote URLs only — never download the media**.
+into `Raw/`. These notes store **remote URLs only — never download the media**.
 - Video props, checked in this order by the renderer: `media_url_secure` → `media_url` →
   `media_url_twitter` → `media_url_schema` → `media_url_source` → `media_url_video`;
   `source_url` is also used when it ends in `.mp4`/`.webm`/`.mov`/`.m4v`.
@@ -152,7 +152,7 @@ into `Clippings/`. These notes store **remote URLs only — never download the m
   desktop Electron/Chromium, yes on Obsidian iOS/WKWebView). The clipping browser is
   irrelevant — the renderer runs in Obsidian, not the browser.
 - Plus `type: inspiration`, `platform:`, `thumbnail_url:`, `saved_at:` (alongside the usual
-  `categories: "[[Clippings]]"`, `created:`, `rating:`, `action:`).
+  `categories: "[[Raw]]"`, `created:`, `rating:`, `action:`).
 - Default tags: `inspiration`, `web-design`, `ui`, `ux`. Add finer ones by hand
   (`animation`, `navigation`, `mobile`, `landing-page`, `typography`, `dashboard`,
   `interaction-design`).
