@@ -2,7 +2,7 @@
   "schemaVersion": "0.1.0",
   "name": "YouTube - Summary",
   "behavior": "create",
-  "noteNameFormat": "{{schema:@VideoObject:uploadDate|date:\"YYYY-MM-DD\"}} - {{schema:@VideoObject:author}} - {{title|safe_name}}",
+  "noteNameFormat": "{{schema:@VideoObject:uploadDate|date:\"YYYY-MM-DD\"}} - {{schema:@VideoObject:author|safe_name}} - {{title|safe_name}}",
   "path": "Raw",
   "context": "{{schema:@VideoObject:description}}\n\n{{selectorHtml:ytd-transcript-segment-list-renderer, #segments-container|remove_html:(\"ytd-transcript-section-header-renderer\")|strip_tags|join:\" \"|replace:\"/\\s+/g\":\" \"|slice:0,16000|trim}}",
   "properties": [
@@ -12,7 +12,7 @@
     { "name": "project", "value": "", "type": "text" },
     { "name": "domain", "value": "", "type": "text" },
     { "name": "platform", "value": "youtube", "type": "text" },
-    { "name": "channel", "value": "{{schema:@VideoObject:author}}", "type": "text" },
+    { "name": "channel", "value": "{{schema:@VideoObject:author|safe_name}}", "type": "text" },
     { "name": "url", "value": "{{url}}", "type": "text" },
     { "name": "published", "value": "{{schema:@VideoObject:uploadDate|date:\"YYYY-MM-DD\"}}", "type": "date" },
     { "name": "created", "value": "{{date|date:\"YYYY-MM-DD\"}}", "type": "date" },
