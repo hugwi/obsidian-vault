@@ -20,7 +20,7 @@ Data engineer är svårt i AVA
 
 https://netlight365beta.sharepoint.com/sites/AVALand/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FAVALand%2FShared%20Documents%2F04%20AVA%20Plan%20%28AVA%20vision%29%2FTemplates%2FAVA%20Plan%20%2D%20Print%20out%20Template%2Epdf&parent=%2Fsites%2FAVALand%2FShared%20Documents%2F04%20AVA%20Plan%20%28AVA%20vision%29%2FTemplates
 ---
-Samuel börjar på 23 Februari (nästa måndag)
+Person S börjar på 23 Februari (nästa måndag)
 Examen årsskiftet 
 Mediateknik 
 Data case - Linnea thorsstens och granbom 
@@ -201,7 +201,7 @@ I think the time we spent was very positive, you were very nice person to work w
 
   
 
-# [[Albin]] 
+# [[A]] 
 
 Stark teknisk på A nivå - problemlösare, stark teknisk kommunikation
 Inga problem att ta ses data Engineer roll även om det inte är hans styrka 
@@ -231,26 +231,26 @@ så hittills har han gjort ett bra jobb och ett bra intryck! men viktigt **för 
 --- 
 ## Summary 
 
-S received robust feedback emphasizing technical strengths, communication, and proactive engagement, with extra emphasis from **Albin** and **AH** who highlighted S's ambition, adaptability, business sense, and creative drive.
+S received robust feedback emphasizing technical strengths, communication, and proactive engagement, with extra emphasis from **A** and **AH** who highlighted S's ambition, adaptability, business sense, and creative drive.
 
 ### Styrkor och observationer
 
 - **Teknisk kompetens & problemlösning**
     
-    - S visade stark teknisk problemlösning på A-nivå, utmanade sig själv och löste komplexa uppgifter även utanför sin komfortzon [Albin].
-        - _"Stark teknisk på A nivå - problemlösare, stark teknisk kommunikation."_ /Albin
-        - _"Inga problem att ta ses data Engineer roll även om det inte är hans styrka."_ /Albin
+    - S visade stark teknisk problemlösning på A-nivå, utmanade sig själv och löste komplexa uppgifter även utanför sin komfortzon [A].
+        - _"Stark teknisk på A nivå - problemlösare, stark teknisk kommunikation."_ /A
+        - _"Inga problem att ta ses data Engineer roll även om det inte är hans styrka."_ /A
 - **Initiativ, nyfikenhet och kreativitet**
     
-    - S var driven, tog ansvar och sökte sig till utmaningar som inte var bekväma; han utmanade sig själv och bidrog med många idéer [Albin].
-        - _"Styrkor - nyfiken och driven, utmanar sig själv. Sökt till nåt som inte är bekväm. Många ideer."_ /Albin
+    - S var driven, tog ansvar och sökte sig till utmaningar som inte var bekväma; han utmanade sig själv och bidrog med många idéer [A].
+        - _"Styrkor - nyfiken och driven, utmanar sig själv. Sökt till nåt som inte är bekväm. Många ideer."_ /A
     - AH noterade att S tog fullt ägandeskap och ledde sitt arbete framåt i projektet, och lät integrationen gå smidigt.
         - _"I quickly got confident that S was in control and enabled the integration to move along smoothly."_ /AH
         - _"I felt like I could leave the snowflake integration up to him entirely, something that I appreciated greatly when I had a lot to do myself."_ /AH
 - **Affärssinne och teamcohesion**
     
-    - S visade starkt affärssinne, ambition att skapa sammanhållning i teamet och lita på sin egen förmåga att driva projekt – inte bara vara “kodapa” utan skapa affärsvärde [Albin].
-        - _"Stark business dense och creativity. Lita på sig själv, sitta i framsätet o driva projekt. Hamna inte bara som data Engineer. Har ambitioner att skapa sammanhållning, jobba ihop."_ /Albin
+    - S visade starkt affärssinne, ambition att skapa sammanhållning i teamet och lita på sin egen förmåga att driva projekt – inte bara vara “kodapa” utan skapa affärsvärde [A].
+        - _"Stark business dense och creativity. Lita på sig själv, sitta i framsätet o driva projekt. Hamna inte bara som data Engineer. Har ambitioner att skapa sammanhållning, jobba ihop."_ /A
     - AH betonade S:s förmåga att proaktivt involvera rätt personer och bidra till ett hållbart projektflöde.
         - _"He made sure to discuss with and involve the right team members at the right time in the development."_ /AH
 - **Kommunikation och överlämning**
@@ -263,8 +263,8 @@ S received robust feedback emphasizing technical strengths, communication, and p
 
 - **Proaktivitet och kreativa lösningar**
     
-    - S kan bli ännu mer kreativ och proaktiv i att hitta lösningar när hinder uppstår, samt våga vara mer assertiv i att driva projekt framåt istället för att vänta på andra [Albin, AH].
-        - _"Otålig - vill framåt. Lita på sig själv, sitta i framsätet o driva projekt."_ /Albin
+    - S kan bli ännu mer kreativ och proaktiv i att hitta lösningar när hinder uppstår, samt våga vara mer assertiv i att driva projekt framåt istället för att vänta på andra [A, AH].
+        - _"Otålig - vill framåt. Lita på sig själv, sitta i framsätet o driva projekt."_ /A
         - _"More creative and proactive in unblocking myself...coming to conversations with more concrete solution proposals, not just problem statements."_ /CH
 - **Tydliggöra problem för stakeholders**
     
@@ -274,7 +274,7 @@ S received robust feedback emphasizing technical strengths, communication, and p
 - ! men viktigt **för honom att han vågar fråga om hjälp och använder sitt netlight nätverk tror jag!
 ### Sammanfattning
 
-**Albin** och **AH** gav särskilt starka omdömen om S:s tekniska och affärsmässiga utveckling, den självgående personligheten, modet att söka utmaningar och skapande av teamcohesion och affärsvärde. S förväntas fortsätta att driva projekt, vara fortsatt proaktiv och använda sin kreativitet och starka kommunikation för att ta ännu större ansvar och skapa effekt både tekniskt och affärsmässigt.
+**A** och **AH** gav särskilt starka omdömen om S:s tekniska och affärsmässiga utveckling, den självgående personligheten, modet att söka utmaningar och skapande av teamcohesion och affärsvärde. S förväntas fortsätta att driva projekt, vara fortsatt proaktiv och använda sin kreativitet och starka kommunikation för att ta ännu större ansvar och skapa effekt både tekniskt och affärsmässigt.
 
 -- 
 # Carl
@@ -286,7 +286,7 @@ Skötte kommunikation bra så jag ftta vad som stod stilla
 Använder stakeholder för att unblovka man
 Junior frustration, blev lite frustrerad det är techs fel
 
-# Albin 
+# A 
 
 Stark teknisk på A nivå - problemlösare, stark teknisk kommunikation
 Inga problem att ta ses data Engineer roll även om det inte är hans styrka 
@@ -307,13 +307,13 @@ På Scania måstean ta ägandeskap själv , du har inte produkt hjälp
 
 # Half time feedback
 
-Även om Samuel ersatte en senior konsult hos kunden har han levererat självständigt och tagit initiativ. Han tog ledning i Snowflake-integrationen, höll arbetet igång och gjorde ett starkt första intryck. Han löste svåra tekniska uppgifter, tog på sig Data Engineer-uppgifter även om det inte är hans huvudområde, och höll alla uppdaterade med tydliga dagliga standups och bra dokumentation. Han lyfter också rätt personer vid rätt tillfälle för att hålla ett jämnt flöde i arbetet.
+Även om Person S ersatte en senior konsult hos kunden har han levererat självständigt och tagit initiativ. Han tog ledning i Snowflake-integrationen, höll arbetet igång och gjorde ett starkt första intryck. Han löste svåra tekniska uppgifter, tog på sig Data Engineer-uppgifter även om det inte är hans huvudområde, och höll alla uppdaterade med tydliga dagliga standups och bra dokumentation. Han lyfter också rätt personer vid rätt tillfälle för att hålla ett jämnt flöde i arbetet.
 
-Kreativitet  
-Samuel tar gärna initiativ och söker utmaningar, även när de är nya och obekväma. Han drev Snowflake-integrationen framåt så att andra kunde fokusera på sitt. Hans DC, Albin, lyfter att Samuel är nyfiken, driven och kommer med många idéer och att han aktivt utmanar sig själv.
+Kreativitet  l
+Person S tar gärna initiativ och söker utmaningar, även när de är nya och obekväma. Han drev Snowflake-integrationen framåt så att andra kunde fokusera på sitt. Hans DC, A, lyfter att Person S är nyfiken, driven och kommer med många idéer och att han aktivt utmanar sig själv.
 
 Kompetens  
-Samuel visar stark teknisk problemlösning och tydlig teknisk kommunikation. Han lär sig snabbt, hanterar press och levererar stabilt. Han tog Data Engineer-rollen när det behövdes, trots att det inte är hans styrka, och gjorde det bra. Hans kommunikation är tydlig och konsekvent: han ger kontinuerliga uppdateringar i dagliga standups och dokumenterar väl. Hans sätt att kommunicera sticker ut och gör arbetet lätt att följa och lämna över.
+Person S visar stark teknisk problemlösning och tydlig teknisk kommunikation. Han lär sig snabbt, hanterar press och levererar stabilt. Han tog Data Engineer-rollen när det behövdes, trots att det inte är hans styrka, och gjorde det bra. Hans kommunikation är tydlig och konsekvent: han ger kontinuerliga uppdateringar i dagliga standups och dokumenterar väl. Hans sätt att kommunicera sticker ut och gör arbetet lätt att följa och lämna över.
 
 Affärssinne  
-Samuel tar plats i framsätet, väljer rätt saker att göra och driver arbetet mot tydliga mål. Han vill skapa sammanhållning i teamet och ser till att involvera rätt personer vid rätt tid, vilket ger ett jämnt och hållbart tempo. Albin beskriver också att Samuel har starkt affärssinne och kreativitet, litar på sin förmåga och inte fastnar i en snäv roll, utan hjälper teamet att lyckas tillsammans.
+Person S tar plats i framsätet, väljer rätt saker att göra och driver arbetet mot tydliga mål. Han vill skapa sammanhållning i teamet och ser till att involvera rätt personer vid rätt tid, vilket ger ett jämnt och hållbart tempo. A beskriver också att Person S har starkt affärssinne och kreativitet, litar på sin förmåga och inte fastnar i en snäv roll, utan hjälper teamet att lyckas tillsammans.
