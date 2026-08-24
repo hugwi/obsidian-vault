@@ -1,0 +1,126 @@
+---
+title: "netdata/skills: Agent Skills for setting up, instrumenting, and troubleshooting infrastructure with Netdata."
+source: "https://github.com/netdata/skills"
+author:
+published:
+created: 2026-08-21
+description: "Agent Skills for setting up, instrumenting, and troubleshooting infrastructure with Netdata. - netdata/skills"
+tags:
+  - "clippings"
+---
+## netdata/skills
+
+Agent Skills for setting up, instrumenting, and troubleshooting infrastructure with Netdata.
+
+## What this is
+
+A collection of Anthropic-format Agent Skills, delivered in the open [agentskills.io](https://agentskills.io/) layout, that teaches AI coding agents how to work with Netdata. Skills are portable across Claude Code, Cursor, Windsurf, Codex, Copilot, Cline, Zed, Gemini CLI, and Continue.dev.
+
+Each skill is a pair of files: a `SKILL.md` that the agent loads when a user's request matches the skill's `description`, and a set of `rules/*.md` files the skill references for deeper content. The skill bodies are operator documentation, not marketing copy.
+
+## Install
+
+The repo ships a `.claude-plugin/plugin.json` manifest and a `.claude-plugin/marketplace.json` declaration, so it installs into Claude Code via the plugin marketplace mechanism with no extra glue.
+
+### Claude Code
+
+```bash
+/plugin marketplace add netdata/skills
+/plugin install netdata-skills@netdata-skills
+```
+
+Restart the session (or `/plugin reload`) and the 54 skills activate automatically when a prompt matches a `description`.
+
+### Verify the install worked
+
+Start a fresh Claude Code session and paste:
+
+> Set up Netdata to receive OTLP metrics from my services.
+
+The agent should load `netdata-otel-setup` and walk you through `otel.yaml`. If it does, every other skill is reachable the same way.
+
+For a broader round-trip — real Netdata container, real instrumented app, real MCP probe — run `bash tests/e2e/run-e2e.sh nodejs`; green means the skill teaches a working pattern.
+
+### Other agents
+
+The pack is cross-client: `AGENTS.md` at the repo root covers Cursor, Codex, Gemini CLI, Copilot, Zed, Continue.dev, and OpenCode. Per-client paths are in [`docs/installation.md`](https://github.com/netdata/skills/blob/master/docs/installation.md).
+
+## Skills
+
+### Tier 1 (foundational)
+
+| Skill | When it fires |
+| --- | --- |
+| [`netdata-otel-setup`](https://github.com/netdata/skills/blob/master/skills/netdata-otel-setup) | enabling OTLP on Netdata, editing `otel.yaml`, mapping metrics to charts |
+| [`netdata-instrumentation`](https://github.com/netdata/skills/blob/master/skills/netdata-instrumentation) | adding OpenTelemetry SDKs to Node.js, Python, Java, Go,.NET, Ruby, PHP |
+| [`netdata-collector-config`](https://github.com/netdata/skills/blob/master/skills/netdata-collector-config) | building OTel Collector pipelines (DaemonSet, gateway, Operator) into Netdata |
+| [`netdata-mcp-integration`](https://github.com/netdata/skills/blob/master/skills/netdata-mcp-integration) | connecting Claude Code, Cursor, Codex, Gemini CLI to Netdata via MCP |
+| [`netdata-migration`](https://github.com/netdata/skills/blob/master/skills/netdata-migration) | migrating from Datadog, New Relic, Dynatrace, or Prometheus |
+| [`netdata-config-from-requirements`](https://github.com/netdata/skills/blob/master/skills/netdata-config-from-requirements) | producing a config bundle from a customer requirements doc (no code access) |
+
+### Tier 2 (troubleshooting, 49 skills)
+
+One skill per technology, generated from the Netdata operator playbooks:
+
+ActiveMQ, Apache HTTPD, Apache Pulsar, BIND DNS, Cassandra, Ceph, ClickHouse, CockroachDB, Consul, CoreDNS, Docker Engine, Elasticsearch, Envoy, Fluentd, HAProxy, Kafka, Kubernetes (API server, cluster state, kube-proxy, kubelet), Logstash, LVM, Memcached, Microsoft SQL Server, MongoDB, MySQL, NATS, nginx, Nvidia DCGM, Nvidia GPU, NVMe, Oracle Database, PgBouncer, PHP-FPM, Postfix, PostgreSQL, ProxySQL, RabbitMQ, Redis, SMART disk, Tomcat, Traefik, uWSGI, Varnish, VMware vCSA/vSphere, ZFS, ZooKeeper.
+
+Each triggers on the matching technology plus common failure archetypes (connection exhaustion, replication lag, memory pressure, etc.), then routes the agent through MCP queries against the signals the playbook identifies.
+
+## How it works
+
+1. Agent loads the repository.
+2. User types a prompt.
+3. Agent reads each `SKILL.md` 's frontmatter `description` and matches against the prompt.
+4. If a skill matches, the agent loads the body and follows the `Step-by-step`, consulting `rules/*.md` as referenced.
+5. Where relevant, the agent queries the user's Netdata via MCP to verify state or cross-reference signals.
+
+### Example prompts
+
+Tier 1 triggers (one per foundational skill):
+
+- *Enable OTLP gRPC ingestion on my Netdata agent, configure TLS, and write a sample otel.yaml that accepts metrics and logs.* → `netdata-otel-setup`
+- *Instrument my Python Flask service with OpenTelemetry so Netdata collects its metrics and logs.* → `netdata-instrumentation`
+- *Build an OpenTelemetry Collector DaemonSet pipeline that forwards Kubernetes node telemetry to Netdata.* → `netdata-collector-config`
+- *Connect Claude Code to my Netdata agent via MCP so I can query live telemetry in this session.* → `netdata-mcp-integration`
+- *We are moving off Datadog to Netdata. Map our current APM and infrastructure config to the Netdata equivalent.* → `netdata-migration`
+- *Here is a prospect's requirements doc. Produce the otel.yaml, Collector values, per-language handoff snippets, and a verification runbook we can send back.* → `netdata-config-from-requirements`
+
+Tier 2 troubleshooting triggers (symptom-first, pick the right technology skill automatically):
+
+- *PostgreSQL p99 latency has been climbing all morning. Use Netdata to figure out what changed.*
+- *Our Redis cluster is dropping client connections under load. Diagnose it via Netdata.*
+- *Kafka consumer lag is stuck on partition 7. Walk through the playbook.*
+- *NGINX is returning 502s intermittently. Correlate upstream health with request rate.*
+
+Composed prompts (multiple skills fire in sequence):
+
+- *Stand up Netdata OTLP ingestion, instrument our Node.js checkout service, then verify via MCP that metrics arrived.* → `netdata-otel-setup` + `netdata-instrumentation` + `netdata-mcp-integration`
+- *Migrate our Kubernetes telemetry pipeline from Prometheus remote-write to Netdata, keeping the same dashboards.* → `netdata-migration` + `netdata-collector-config`
+
+None of these are memorised templates. The agent matches on prompt intent; rephrase freely. Shorter is usually better for the trigger match; details land inside the conversation once the skill is loaded.
+
+## Tested end-to-end
+
+The repo ships a real E2E harness. `bash tests/e2e/run-e2e.sh nodejs` starts Netdata in Docker, runs a real instrumented Express app, generates traffic, and verifies via MCP that Netdata received the metrics. Python is covered by `bash tests/e2e/run-e2e.sh python`.
+
+Both were green at v0.1.0 on the build machine. The Node.js `instrument.js` fixture matches the content of [`skills/netdata-instrumentation/rules/nodejs.md`](https://github.com/netdata/skills/blob/master/skills/netdata-instrumentation/rules/nodejs.md) byte for byte: the skill teaches exactly what the test runs.
+
+See [`tests/e2e/README.md`](https://github.com/netdata/skills/blob/master/tests/e2e/README.md) for how to reproduce the harness.
+
+## CI usage
+
+`.github/workflows/validate.yml` runs on every PR (static validation, link check). Validation covers every `SKILL.md` and every `rules/*.md` file, and enforces that Tier 2 troubleshooting skills cite real Netdata contexts from the matching collector's `metadata.yaml`.
+
+`.github/workflows/e2e.yml` runs on main-branch pushes and nightly (the full Docker-in-CI E2E). Both the Node.js and Python jobs run to completion; either failing blocks the pipeline.
+
+For a project-level PR review pattern using `claude -p` with this skill pack loaded, see [`docs/ci-recipes.md`](https://github.com/netdata/skills/blob/master/docs/ci-recipes.md).
+
+## Contributing
+
+See [`CONTRIBUTING.md`](https://github.com/netdata/skills/blob/master/CONTRIBUTING.md). In short: the validator gates every PR; fixture changes and rule changes ship together; accuracy first, brevity second, style third.
+
+Issues: use the templates under [`.github/ISSUE_TEMPLATE/`](https://github.com/netdata/skills/blob/master/.github/ISSUE_TEMPLATE). Skill corrections (out-of-date fact, wrong command) are the most welcome category.
+
+## License
+
+Apache-2.0. See [LICENSE](https://github.com/netdata/skills/blob/master/LICENSE).
