@@ -46,16 +46,18 @@ views:
       - rating
       - action
       - source
+    columnSize:
+      file.name: 500
   - type: cards
     name: 🖼 Inspiration
     filters:
       and:
         - type == "inspiration"
-    image: thumbnail_url
     order:
       - file.name
       - platform
       - rating
+    image: thumbnail_url
   - type: table
     name: 🎨 Craft references
     filters:
@@ -67,6 +69,8 @@ views:
       - rating
       - action
       - source
+    columnSize:
+      file.name: 555
   - type: table
     name: 🔨 To implement
     filters:
@@ -81,13 +85,13 @@ views:
     filters:
       and:
         - rating >= 5
-    sort:
-      - property: rating
-        direction: DESC
     order:
       - file.name
       - rating
       - action
+    sort:
+      - property: rating
+        direction: DESC
   - type: table
     name: All design notes
     order:
