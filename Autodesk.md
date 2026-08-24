@@ -35,6 +35,9 @@ DM me by Monday the 24th if you are interested. Questions are just as welcome, a
 
 ![[Recording 20260824130653.m4a]]
 
-Interrim för guru
+head of engineering Interrim för guru
 Site analysiss är PHD 
 AI PM hos oss som blir tillgänglig oktober
+Finns det dedikerade resurser redan?  
+Inte formal design 
+annat team i usa hade jobbat med spec driven development
