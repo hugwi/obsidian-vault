@@ -36,12 +36,51 @@ the [[Netlight]] UX/UI audit offer are the live projects this material feeds.
 
 ---
 
+## 0. The two source articles
+
+Almost everything below traces back to these two. They are the primary sources for
+this note **and** for [[Designing with Agents — A Working Method]]. Read them first;
+both are unpacked step by step in §4.
+
+**[[7 Claude Code Design Skills That Follow a Real Design Process]]** — Julian
+Oczkowski, 29 years across Adobe/IBM/Danone as IC, design manager and dev team lead.
+Readwise clip, 2026-06-23. **A process**: seven sequential Claude Code skills
+(`npx skills add julianoczkowski/designer-skills`), Grill Me through Design Review.
+The line worth stealing whole: *AI is not replacing the tool, it is replacing the
+process* — prompt-and-pray gives you **faster chaos**.
+
+**[[Turn Claude Into A Design GENIUS In 3 Simple Steps]]** — `@devanshsharma6865`,
+YouTube transcript, 2026-07-23. **A taste-and-iteration loop**: cultivate a personal
+taste library → pick flexible skills and MCPs (where Impeccable comes from, §1) → run
+the anti-one-shot 5 → 3 → tweak-bar sequence. Its diagnosis is the sharper one — the
+failure is not technical, it is *generic*.
+
+### Why both, and where they disagree
+
+They are not two versions of the same advice, and the gap between them is the point.
+
+| | 7 skills | 3 steps |
+|---|---|---|
+| Shape | Sequential gates, one path | Parallel variants, then converge |
+| Fixes slop by | Removing the freedom to invent | Supplying taste worth imitating |
+| Weak spot | Nothing supplies the taste the brief asks for | No requirements gate before building |
+| Design review | Step 7, automated via Playwright MCP | The tweak bar, human-driven |
+
+Each covers the other's gap, which is why [[Designing with Agents — A Working Method]]
+merges them instead of picking one: the seven-step spine (§B), with the 5 → 3 → tweak
+funnel dropped in where the build step sits (§C).
+
+---
+
 ## 1. Impeccable — the front-end design skill
 
 Source: [[Turn Claude Into A Design GENIUS In 3 Simple Steps]] (step 2).
 
-- `impeccable.style` · open source · ~50k GitHub stars · now packaged as part of
-  GitHub's AI tooling. Ships a CLI.
+- `impeccable.style` · open source (Apache-2.0) · `pbakaus/impeccable`. Ships a CLI.
+  > **Verified against the installed package, 2026-08-24** — the clip's figures have
+  > aged. Now **61.9k stars**, version **4.1.1**, and **59** detector rules rather than
+  > the 46 slop patterns quoted below. The 23 commands and seven axes still hold.
+  > Install: `npx impeccable install` (needs Node ≥ 22.12), then `/impeccable init`.
 - **One skill, 23 commands** that transform existing UI rather than generate it:
   `bolder` ("pushes safe designs towards impact without sliding into chaos"),
   `overdrive`, `clarify`, plus critique/polish/quieter variants.
@@ -167,6 +206,9 @@ prompt-and-pray gives you **faster chaos**.
 
 **The four things every design prompt carries**: aesthetic · reference image or URL ·
 intent (what/why/who/desired action) · guardrails (never purple gradients, never Inter).
+
+> Both processes above are compared side by side in §0 — they solve different halves of
+> the problem, and the method note runs them merged rather than choosing.
 
 ---
 
