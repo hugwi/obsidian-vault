@@ -1,9 +1,11 @@
 ---
 categories:
   - "[[Raw]]"
-created: 2026-06-23
-rating: 
-action: 
+created: "2026-06-23"
+rating:
+action:
+tags:
+  - "clip/video"
 ---
 # To people who are *good* at reviewing code (or claim...
 

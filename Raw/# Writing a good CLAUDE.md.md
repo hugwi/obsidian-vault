@@ -1,18 +1,19 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - context-management
-  - spec-driven
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: context-engineering
+  - "context-management"
+  - "spec-driven"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "context-engineering"
 subtheme:
-  - system-prompt-rules
-  - compaction-caching
+  - "system-prompt-rules"
+  - "compaction-caching"
 ---
 
 # # Writing a good CLAUDE.md

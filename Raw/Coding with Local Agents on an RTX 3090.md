@@ -3,11 +3,14 @@ title: "Coding with Local Agents on an RTX 3090"
 source: "https://praeclarum.org/2026/05/05/coding-with-local-agents.html"
 author:
   - "[[praeclarum.org]]"
-published: 2026-05-05
-created: 2026-07-13
+published: "2026-05-05"
+created: "2026-07-13"
 description: "TL;DR Running coding agents on local machines has never been easier. This article gives easy setup instructions for running Qwen 3.6 27B on an RTX 3090 in Li..."
 tags:
   - "clippings"
+  - "agents"
+  - "clip/video"
+  - "local-llm"
 ---
 **TL;DR** Running coding agents on local machines has never been easier. This article gives easy setup instructions for running Qwen 3.6 27B on an RTX 3090 in Linux. I then show how to use the model in VS Code using the LLM Gateway extension. By the end of this guide, you’ll be free of service providers and able to run a variety of OSS models.
 

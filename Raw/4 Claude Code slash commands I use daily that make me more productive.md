@@ -1,18 +1,19 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, knowledge-management]
+domain: "[agentic-engineering, knowledge-management]"
 tags:
-  - claude-code
-  - productivity
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: multi-agent-orchestration
+  - "claude-code"
+  - "productivity"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "multi-agent-orchestration"
 subtheme:
-  - coordinator-patterns
-  - parallel-fan-out
+  - "coordinator-patterns"
+  - "parallel-fan-out"
 ---
 
 # 4 Claude Code slash commands I use daily that make me more productive

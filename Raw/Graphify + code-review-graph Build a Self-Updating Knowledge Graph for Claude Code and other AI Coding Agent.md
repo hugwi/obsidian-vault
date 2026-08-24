@@ -1,18 +1,19 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - code-intelligence
-  - context-management
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: context-engineering
+  - "code-intelligence"
+  - "context-management"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "context-engineering"
 subtheme:
-  - context-window
-  - compaction-caching
+  - "context-window"
+  - "compaction-caching"
 ---
 
 # Graphify + code-review-graph: Build a Self-Updating Knowledge Graph for Claude Code and other AI Coding Agent

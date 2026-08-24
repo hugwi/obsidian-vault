@@ -1,19 +1,20 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - code-quality
-  - metrics
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: quality-gates
+  - "code-quality"
+  - "metrics"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "quality-gates"
 subtheme:
-  - automated-tests
-  - verification-loops
-  - code-review-gates
+  - "automated-tests"
+  - "verification-loops"
+  - "code-review-gates"
 ---
 
 # Strengthening the Inner Developer Loop: Turn AI Into a Reliable Engineering Partner

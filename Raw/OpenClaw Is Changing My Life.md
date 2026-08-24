@@ -1,17 +1,18 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents]
+domain: "[agentic-engineering, ai-agents]"
 tags:
-  - harness
-  - tools
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: multi-agent-orchestration
+  - "harness"
+  - "tools"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "multi-agent-orchestration"
 subtheme:
-  - coordinator-patterns
+  - "coordinator-patterns"
 ---
 
 # OpenClaw Is Changing My Life

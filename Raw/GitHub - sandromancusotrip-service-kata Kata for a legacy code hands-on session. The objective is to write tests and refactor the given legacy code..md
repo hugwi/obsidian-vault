@@ -1,13 +1,14 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [software-engineering]
+domain: "[software-engineering]"
 tags:
-  - patterns
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "patterns"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # GitHub - sandromancuso/trip-service-kata: Kata for a legacy code hands-on session. The objective is to write tests and refactor the given legacy code.

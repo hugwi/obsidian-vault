@@ -1,9 +1,11 @@
 ---
 categories:
   - "[[Raw]]"
-created: 2026-06-23
-rating: 
-action: 
+created: "2026-06-23"
+rating:
+action:
+tags:
+  - "clip/video"
 ---
 # Using Claude Code: The Unreasonable Effectiveness of HTML
 

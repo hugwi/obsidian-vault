@@ -1,18 +1,19 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - efficiency
-  - skills
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: multi-agent-orchestration
+  - "efficiency"
+  - "skills"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "multi-agent-orchestration"
 subtheme:
-  - skill-tool-extension
-  - coordinator-patterns
+  - "skill-tool-extension"
+  - "coordinator-patterns"
 ---
 
 # Stop Building Subagents. Start Writing Skills.

@@ -1,13 +1,14 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [product-business]
+domain: "[product-business]"
 tags:
-  - startup
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "startup"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # Wasserman, Noam - The Founder's Dilemmas_ Anticipating and Avoiding the Pitfalls That Can Sink a Startup.pdf

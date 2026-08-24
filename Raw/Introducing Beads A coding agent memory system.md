@@ -1,16 +1,17 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - memory
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: workflow-phases-gates
+  - "memory"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "workflow-phases-gates"
 subtheme:
-  - durable-execution
+  - "durable-execution"
 ---
 
 # Introducing Beads: A coding agent memory system

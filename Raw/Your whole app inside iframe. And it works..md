@@ -1,18 +1,19 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, software-engineering]
+domain: "[agentic-engineering, software-engineering]"
 tags:
-  - security
-  - spec-driven
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: work-breakdown-specs
+  - "security"
+  - "spec-driven"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "work-breakdown-specs"
 subtheme:
-  - architecture-design
-  - spec-driven
+  - "architecture-design"
+  - "spec-driven"
 ---
 
 # Your whole app inside iframe. And it works.

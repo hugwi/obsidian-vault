@@ -1,20 +1,36 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents]
+domain: "[agentic-engineering, ai-agents]"
 tags:
-  - code-quality
-  - context-management
-  - tools
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: context-engineering
+  - "code-quality"
+  - "context-management"
+  - "tools"
+  - "agents"
+  - "anthropic"
+  - "claude-code"
+  - "clip/video"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "hardware"
+  - "harness-engineering"
+  - "local-llm"
+  - "mcp"
+  - "openai"
+  - "security"
+  - "skills"
+  - "web-design"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "context-engineering"
 subtheme:
-  - context-window
-  - system-prompt-rules
-  - memory-persistence
+  - "context-window"
+  - "system-prompt-rules"
+  - "memory-persistence"
+summary: "**Birgitta Böckeler**: I was here at QCon, so about a year ago. I gave a talk with the title, From Autocomplete to Agents. I tried to just give a bit of the lay of the land of where we are in terms of AI coding, because as Blanca said, everybody's a bit overwhelmed, including me, even though I have time to look into this topic full time."
 ---
 
 # State of Play: AI Coding Assistants

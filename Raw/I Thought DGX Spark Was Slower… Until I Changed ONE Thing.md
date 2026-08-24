@@ -1,13 +1,14 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [ai-agents]
+domain: "[ai-agents]"
 tags:
-  - models
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "models"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # I Thought DGX Spark Was Slower… Until I Changed ONE Thing

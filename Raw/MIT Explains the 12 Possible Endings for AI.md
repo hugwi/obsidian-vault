@@ -1,13 +1,14 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [product-business]
+domain: "[product-business]"
 tags:
-  - ai-industry
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "ai-industry"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # MIT Explains the 12 Possible Endings for AI

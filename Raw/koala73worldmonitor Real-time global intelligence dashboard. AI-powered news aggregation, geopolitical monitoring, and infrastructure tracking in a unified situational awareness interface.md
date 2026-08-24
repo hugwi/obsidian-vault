@@ -5,12 +5,13 @@ title: "koala73/worldmonitor: Real-time global intelligence dashboard. AI-powere
 source: "https://github.com/koala73/worldmonitor"
 author:
 published:
-created: 2026-06-21
-rating: 
-action: 
+created: "2026-06-21"
+rating:
+action:
 description: "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface - koala73/worldmonitor"
 tags:
   - "clippings"
+  - "clip/video"
 ---
 ## World Monitor
 

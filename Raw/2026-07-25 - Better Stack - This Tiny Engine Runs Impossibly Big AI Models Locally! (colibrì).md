@@ -1,0 +1,64 @@
+---
+title: "This Tiny Engine Runs Impossibly Big AI Models Locally! (colibrì)"
+source: "youtube"
+url: "https://www.youtube.com/watch?v=3OqZHYNKc9A"
+author: "Better Stack"
+published: "2026-07-25"
+created: "2026-08-24"
+duration: "0:11:35"
+categories:
+  - "[[Raw]]"
+action: "review"
+read: "false"
+rating:
+tags:
+  - "clip/video"
+  - "claude-code"
+  - "business"
+  - "context-engineering"
+  - "evaluation"
+  - "hardware"
+  - "local-llm"
+  - "video-gen"
+summary: "This is a 744 billion parameter language model, the GLM 5.2. For context, that is the same size class as the Frontier models running in data centers full of GPUs. Now, what if you could run that model locally on your consumer hardware?"
+---
+
+# This Tiny Engine Runs Impossibly Big AI Models Locally! (colibrì)
+
+![This Tiny Engine Runs Impossibly Big AI Models Locally! (colibrì)](https://www.youtube.com/embed/3OqZHYNKc9A)
+
+## Description
+
+Can you really run a 744-billion-parameter frontier AI model on consumer hardware? In this video we test Colibrì - a tiny pure-C engine that streams the massive GLM-5.2 model off your SSD on two very different machines, a MacBook and an RTX 5090 workstation. The results reveal a surprising truth about what's actually holding local AI back, and it isn't your GPU.
+
+🔗 Relevant Links
+colibrì: https://justvugg.github.io/colibri/
+
+❤️ More about us
+Radically better observability stack: https://betterstack.com/
+Written tutorials: https://betterstack.com/community/
+Example projects: https://github.com/BetterStackHQ
+
+📱 Socials
+Twitter: https://twitter.com/betterstackhq
+Instagram: https://www.instagram.com/betterstackhq/
+TikTok: https://www.tiktok.com/@betterstack
+LinkedIn: https://www.linkedin.com/company/betterstack
+
+📌 Chapters:
+0:00 Running a 744B model on a laptop?!
+0:51 Why giant models don't fit
+1:17 How it works: Mixture of Experts
+2:06 Streaming the model off your SSD
+2:48 The tricks: caching, speculative decoding & quality
+3:57 The real bottleneck: finding free space
+5:05 Test 1: MacBook M2 Max
+6:17 Why it's so slow (reading the profiler)
+7:24 Test 2: RTX 5090 workstation
+9:10 The twist: it's the RAM, not the GPU
+10:08 The reality check
+10:48 Final thoughts
+
+## Transcript
+
+This is a 744 billion parameter language model, the GLM 5.2. For context, that is the same size class as the Frontier models running in data centers full of GPUs. Now, what if you could run that model locally on your consumer hardware? It sounds almost impossible, but this developer, Vincenzo Fornaro, just made a tool called Colibri that lets you do just that. Now, how is that even possible? How did Vincenzo pull it off? And how does it even work? Well, those are all good questions that we're going to explore in this video, and we're going to test it out on two separate hardware setups to see how powerful it actually is. It's going to be a lot of fun, so let's dive into it. So, normally to run a 700 billion parameter model, you'd need to fit all its weights into memory at once. And at an integer four quantization, 744 billion parameters is still hundreds of gigabytes. That's why big models live on these big servers, and the hardware to hold them is expensive and specialized. So, the obvious question is, how do you run something that doesn't fit? Well, the trick starts with the model's architecture. GLM 5.2 is a mixture of experts model. We've talked a lot about mixture of experts models on this channel before, but in case you need a refresher, it basically works like this. Instead of one giant dense network, it's split into thousands of smaller specialist sub-networks called experts. And for any given token, the model only uses a tiny fraction of those experts. Out of 744 billion total parameters, only 40 billion are actually active per token. And that's roughly 5%. So, even though the whole model is huge, the amount of work and the amount of memory you actually need at any instant is much smaller. And Colibri is built entirely around exploiting this gap. Colibri treats your machine storage as one big memory hierarchy. Your GPUs VRAM, your system RAM, and your NVMe SSDs layered like a cache. The model's dense components, the parts used on every token, are actually small, about 17 billion parameters, and that's under 10 gigabytes at integer four quantization. And those stay resident in RAM the whole time. The experts, those live on your SSD. When the model needs a specific expert for a token, Colibri streams just that expert off disk, uses it, and caches it. And the whole thing is written in pure C with zero external dependencies. And that is the part that makes it so lean. Now, streaming a model off a hard drive sounds like it should either be painfully slow or Lucy. Well, Colibri has a few tricks to fight both of these issues. First, it has a learning cache. The engine records which experts your prompts actually route to in a file next to the model. At startup, it automatically pins the hottest, most used experts into spare RAM. So, the more you use it for a particular kind of task, the better it caches for that task. Second, there's speculative decoding. The model has a native multi-token prediction head that guesses several tokens ahead, so it can generate faster than one token at a time. And third, and this is an important one, it preserves quality. The forward pass is validated to be token exact against a reference transformers implementation. In plain terms, Vincenzo checked that this streaming quantized version produces the same outputs as the full precision reference. And it also uses a compressed attention cache, the MLA attention that shrinks the KV cache by about 57 times, which is a big part of why the memory footprint stays so small. Now, the biggest bottleneck for testing this tool is finding free space, and I mean literally. GLM 5.2 is about 357 GB, and to test it out properly, I would have to free up almost half of my MacBook's SSD space, which I can't do. So, before you even think about RAM and GPUs, the first wall you're probably going to hit is this. Do you even have room for such a thing? So, since I didn't have the extra 357 GB internally, I grabbed an external drive, a Samsung portable SSD with a roughly 1 GB per second transfer speed, and I put the model on this drive instead. And I want to flag this now because it matters. That decision actually impacted my whole first test. An external drive over USB is a lot slower than a drive built into your machine. We're talking maybe 1 GB per second versus seven or more internally. And remember, Kolibri's whole trick is constantly streaming pieces of the model off the disk. So, if the disk is slow, everything is slow. So, hold that thought because we're about to see exactly what I mean. So, my first test was on my MacBook with an M2 Max chip, 32 GB of RAM, and the model running externally off that SSD drive. I kept it simple and asked it, "What is the capital of Belgium?" And here's the good news. It works. It actually answers me. It tells me the capital is Brussels, correctly, running a 744 billion parameter model on a laptop. So, that part is genuinely impressive. The not-so-good news is the speed. I waited over 2 minutes just to get the first word out of it. 2 minutes. And once it got going, it was crawling along at about 10th of a token per second. For context, a token is roughly a word or a chunk of a word. So, we're talking one word every 10 seconds. And to be fair, this was a cold start. The first question, nothing was cached yet, so it had to go fetch every piece of the model off that drive from scratch. And Colibri does keep the most used pieces in memory as you go, so it warms up and speeds up a bit with use. But as you'll see, this only helps if you've got the RAM to hold them. And on my Mac, I really don't. Now, here's the part I really like. Colibri has this profiling screen that breaks down where all that time actually went. The time the computer spent actually thinking or doing the math versus the time spent just sitting there waiting for the next piece of the model to load off the drive. So, on the Mac, the whole turn took about 158 seconds. And of those 158 seconds, roughly 145 of them, over 80%, was pure waiting. Waiting on the disk. The actual math or the real thinking part took only about 7 seconds in total. So, 7 seconds of work and 2 and 1/2 minutes of standing in line. So, what's really going on here? Well, the M2 Max is a very fast CPU chip. That is not the problem. The problem is that the model is so big that it doesn't fit in the Mac's 32 GB of RAM. So, it has to keep running back to the disk to grab whatever piece it needs next. And in my case, the disk is a slow external drive, which I was forced to use because I ran out of space. So, the computer spends most of the time waiting and barely any time actually working on the request. Okay, so in the second test, let's give it a proper machine. So, second test is my beefy workstation. It has an RTX 5090, 64 GB of RAM. And this time, I loaded the model on a fast internal drive. Luckily, on this machine, I actually had 350 GB of spare space to load it up on the internal disk. And this time I asked something with a bit more meat to it. Explain quantum entanglement in simple terms. And the answer was actually great. It gave me this clean little explanation with magical coins. So, it was genuinely a useful output. And speed-wise, it hit about 0.8 tokens a second. And the first word showed up in around 17 seconds instead of the whole 2 minutes. So, roughly eight times faster than on my Mac. And again, let's look at the profiling screen because it tells the same story but from the other side. Remember on the Mac, over 80% of the time was just waiting on the disk? Well, on this beefy workstation, the waiting drops to about 48%. Basically, cut in half. And for the first time, you see that the machine is actually spending real chunks of the time doing math instead of just waiting around. So, the compute really improved here. So, why is this one much better? Well, it would be tempting to say, "Well, obviously, because it has an RTX 5090 on it." But that's not really the reason. You see, the reason is that this machine has twice the RAM and it was on a faster internal drive. So, a much bigger portion of the model can actually just sit in memory ready to go. Less running back to the disk, less waiting, and more actual work getting done. So, the 5090 was actually off in the corner barely breaking a sweat at this point. And that's the thing I did not expect going into this experiment. You'd assume that the graphics card is what makes or breaks this, right? Well, it isn't. The single biggest thing holding these models back on normal hardware is actually memory. How much of the model you can keep in RAM at once so you're not constantly waiting on the drive, which is honestly kind of a rough conclusion right now because if If shopped for RAM lately, you know it has gotten really expensive. So, no wonder all of these hyperscalers are buying up all the RAM they can get their hands on. So, basically, it's not the flashy graphics card that gets you there, it's the RAM. So, can you run a 744 billion parameter Frontier model on consumer hardware? Yes, full stop. I did it twice on a laptop and on my desktop, and both of them gave me real correct answers. A couple of years ago, that would have sounded absurd, but Vincenzo genuinely pulled it off. But, the honest truth is that running it and running it well are two very different things. If you look at Vincenzo's own benchmarks on the Calibri site, the setups that actually get usable speeds are still serious machines. The fastest configs are things like a six-GPU rig or a dual Xeon server with a full terabyte of RAM. And notice that the terabyte of RAM server with no fancy GPU at all beats a single RTX 5090 by a mile. So, it all comes back to the memory, folks. So, the dream of a Frontier model humming along on an average laptop isn't quite here yet, but we are very, very close. So, there you have it, folks. Those were all of my highlights I got while testing Calibri, but I'm curious to know if you guys have tried it or if you have found other clever ways of running Frontier models on consumer hardware. I'm really curious to know your thoughts, so let us know your thoughts in the comments down below. And folks, if you like these types of technical breakdowns, please let me know by smashing that like button underneath the video. And also, don't forget to subscribe to our channel. This has been Andras from Better Stack, and I will see you in the next videos. >> [music] [music] [music]

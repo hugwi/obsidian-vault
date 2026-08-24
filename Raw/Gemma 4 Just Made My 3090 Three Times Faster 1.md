@@ -3,11 +3,12 @@ title: "Gemma 4 Just Made My 3090 Three Times Faster"
 source: "https://buttondown.com/insiderllm/archive/gemma-4-just-made-my-3090-three-times-faster/"
 author:
   - "[[insiderllm team]]"
-published: 2026-05-12
-created: 2026-07-27
+published: "2026-05-12"
+created: "2026-07-27"
 description: "I ran Gemma 4 on my own RTX 3090 today. Three times faster than Qwen 3.6 on the same hardware, same build. The numbers below, plus the flag combination that..."
 tags:
   - "clippings"
+  - "clip/video"
 ---
 I ran Gemma 4 on my own RTX 3090 today. Three times faster than Qwen 3.6 on the same hardware, same build. The numbers below, plus the flag combination that almost broke my bench.
 

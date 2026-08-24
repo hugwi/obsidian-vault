@@ -1,18 +1,19 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - code-quality
-  - testing
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: quality-gates
+  - "code-quality"
+  - "testing"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "quality-gates"
 subtheme:
-  - automated-tests
-  - verification-loops
+  - "automated-tests"
+  - "verification-loops"
 ---
 
 # Keep your coding agent on task with mutation testing

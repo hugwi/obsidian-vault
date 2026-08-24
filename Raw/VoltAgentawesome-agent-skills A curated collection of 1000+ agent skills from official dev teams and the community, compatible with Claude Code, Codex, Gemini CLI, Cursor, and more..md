@@ -1,17 +1,18 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents]
+domain: "[agentic-engineering, ai-agents]"
 tags:
-  - skills
-  - tools
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: multi-agent-orchestration
+  - "skills"
+  - "tools"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "multi-agent-orchestration"
 subtheme:
-  - skill-tool-extension
+  - "skill-tool-extension"
 ---
 
 # VoltAgent/awesome-agent-skills: A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.

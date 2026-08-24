@@ -1,17 +1,18 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents]
+domain: "[agentic-engineering, ai-agents]"
 tags:
-  - computer-use
-  - efficiency
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: context-engineering
+  - "computer-use"
+  - "efficiency"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "context-engineering"
 subtheme:
-  - cost-tokens
+  - "cost-tokens"
 ---
 
 # Computer use is 45x More Expensive Than Structured APIs

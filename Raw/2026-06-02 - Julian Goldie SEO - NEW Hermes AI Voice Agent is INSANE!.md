@@ -1,0 +1,65 @@
+---
+title: "NEW Hermes AI Voice Agent is INSANE!"
+source: "youtube"
+url: "https://www.youtube.com/watch?v=oVQkh6-krb8"
+author: "Julian Goldie SEO"
+published: "2026-06-02"
+created: "2026-08-24"
+duration: "0:07:29"
+categories:
+  - "[[Raw]]"
+action: "review"
+read: "false"
+rating:
+tags:
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+  - "local-llm"
+  - "video-gen"
+  - "voice-ai"
+  - "web-design"
+summary: "Today, I'm going to show you a powerful way to create a voice agent. And this is using Hermes agent so that we can just talk to it. And this is built into a whole agent operating system."
+---
+
+# NEW Hermes AI Voice Agent is INSANE!
+
+![NEW Hermes AI Voice Agent is INSANE!](https://www.youtube.com/embed/oVQkh6-krb8)
+
+## Description
+
+If you want my setup/Agent Operating System, join the AI Profit Boardroom: https://www.skool.com/ai-profit-lab-7462/about
+
+Want to make money and save time with AI? Join here: https://www.skool.com/ai-profit-lab-7462/about
+
+Video notes + links to the tools 👉 https://www.skool.com/ai-profit-lab-7462/about
+
+Get a FREE AI Course + Community + 1,000 AI Agents 👉 https://www.skool.com/ai-seo-with-julian-goldie-1553/about
+
+Get a FREE AI SEO Strategy Session → https://go.juliangoldie.com/strategy-session?utm=julian
+
+Get 200+ Free AI SEO Prompts → https://go.juliangoldie.com/chat-gpt-prompts
+
+Get out SEO link building book here 👉 https://go.juliangoldie.com/opt-in?utm=julian
+
+Build a Real-Time Voice AI Agent with Hermes + Minimax (Agent OS Demo)
+
+The video demonstrates creating and using a real-time voice agent with the Hermes Agent inside an agent operating system, showing how to talk to it hands-free, switch voices and accents, and also chat via text. The presenter tests Hermes with tasks like telling a joke, suggesting an automation (summarizing daily notes), and teaching basic Japanese phrases, then explains that Minimax M3 powers the agent with a million-token context window, fast conversational responses, strong coding ability, and multimodal image/video generation. The system runs locally with access to the user’s agents and workspace history, and can be embedded for use cases like customer support, sales and team training, or website receptionist workflows. The presenter compares Minimax with alternatives like Grok (noting Twitter search) and promotes accessing the full agent OS and tutorials via the AI Profit Boardroom.
+
+00:00 Voice Agent Overview
+00:12 Live Demo Conversation
+00:44 Minimax Features Tour
+01:34 Why Voice Agents Win
+02:22 Real World Use Cases
+02:43 Agent OS Studio Workflow
+03:32 Local Setup and M3 Brain
+04:21 Open Source Multimodal Power
+05:06 Accent and Voice Modes
+05:35 Workspace and Model Comparison
+06:23 Get the Agent OS
+06:51 Community and Final Goodbye
+
+## Transcript
+
+Today, I'm going to show you a powerful way to create a voice agent. And this is using Hermes agent so that we can just talk to it. And this is built into a whole agent operating system. So, let me show you exactly how this works. We talk to the agent here. We're just going to click like so, and we can switch between different voices as well. So, let's just try Alpha now. Hey, are you Hermes agent? >> I'm Hermes, MiniMax's AI assistant. What can I do for you? >> Tell me a joke. >> Why did the scarecrow win an award? Because he was outstanding in his field. >> What's the most interesting thing you can automate for me? >> I will summarize your daily notes into a single to-do page with a single command. >> Teach me Japanese. And just teach me a few basic conversational words in Japanese. >> Sure. Konnichiwa, hello. Arigato, thank you. Sumimasen, excuse me. Hai, yes. Iie, no. Onegaishimasu, please. >> So, you can see the whole process here. It's pretty easy to use. The cool thing with MiniMax in particular when you're using Hermes agent is that you can chat with it. It's very powerful model, million token context window. You can also generate images, you can create videos, and you don't just have to use a live voice. So, you could actually create different voice notes. You can see you can switch between different voices here. You can also try different scripts. You can type in the prompt or whatever you want, and then you can view what you've created previously too inside this agent operating system. Now, if we look at what Hermit what Hermes can do with MiniMax, it's pretty powerful stuff. And bear in mind, we just got MiniMax to build this whole thing. We didn't actually I didn't code any of this myself. I just explained the features I want, and Hermes plus MiniMax combined went off and built it out for us. So, it's a very, very intelligent and powerful model. And the cool thing about this is you don't need to type to AI. You can just talk to it. It talks back to you. And you basically have AI agent that you can talk to in real time and have a real conversation with. And so, this is very different from just having a normal AI agent because the difference here is that number one, you can talk to it unlike most AI agents. You can talk back and forth with it. But at the same time, sometimes you might use something like, for example, ChatGPT, but the problem with ChatGPT is it's not an agent, right? It's really just a chat that you're going back and forth with. The difference between this is you're controlling your AI agent with the talk mode. So, you don't have to prompt it, you can have a conversation. You just tap once, so Hermes agent voice listens, and then it thinks with a frontier AI model, replies out loud in a sort of natural-sounding voice, then listens again. And you don't need to keep tapping, either, which is pretty cool. And you think about the ways you could embed that that could be, for example, on your website answering customer questions. It could be training your team, training your sales team, for example, you've got a sales team SOP, and they need to follow a script. It could be, for example, even training your customer service team, or having like a an AI agent that's receptionist for your website. So, there's all sorts of crazy stuff you could do with this, and it was very easy to build. Now, if we talk about like the old way versus the new way, the old way is you would have like, you know, assistant that could set timers and nothing else, and then say, "Sorry, I can't help with anything else." You'd be typing prompts, copying and pasting, messing around with like 10 different tabs as well. So, for example, you might be using Hermes inside the terminal, but inside an agent operating system, you've got all of your agents together, and then it's the same with, for example, Open Claw. We can just go into the studio here, and we can have a conversation with Open Claw whenever we want as well. So, that's a great thing about having a studio like this is you can just have everything in one place. Also, you don't need to be a coder to build this out like the old way is you need a team of developers and engineers to build this out. Now, you can just do it yourself. So, this is like having a frontier reasoning model that you can talk to you like a person that actually thinks. And you can speak to it purely through voice, or you can chat with it. You can also see all the stuff that you previously built. You might also say, "Okay, voice agents aren't that useful." But this is connected to Hermes agent, bear in mind. So, with Hermes agent connected, you can control your agent with your voice, and that is really powerful. You don't have to be technical to use this as well, cuz you just tap this, and then you can get straight into it, and it can run on your own system. It's actually running locally for me, so it's got access to all my agents and all of my setup. Additionally, it's hands-free. It's got the actual brain plugged in and one of the best brains in the world, which is M3 from MiniMax. Pretty fast on conversational speed. It flows naturally and it's running locally, so it's just on your machine ready to go with one system and every agent plugged in. And you might be saying, "Why would you use MiniMax for this?" Well, the voice is only as good as the mind behind it. So, Hermes runs on MiniMax M3 for me. That's what I like to use right now and this is a new model that just dropped. It's a genuinely frontier model. Bear in mind, like it's going to be open source. They're going to release it open source, which means you can run it free locally, too. It'll be released on Hugging Face. And it doesn't just chat. It reasons across a million types of context. You can write amazing code. I mean, check out this website itself was actually built with video and images and everything else directly inside this website using MiniMax, too. So, we built the whole thing in MiniMax. So, you can write code. It's natively multimodal. It can generate images, cinematic videos from the same brain that's talking to you. And this way, this is why this feels less like a voice assistant more like talking to the future. So, you've got one model, but then everything else is combined. Now, the way that I did this is I have the coding plan with MiniMax and then I plugged it into the system. But again, it will be free and open source in the future, too. Talk to me with an American accent. Well, hey there, partner. How y'all doing today, buddy? But you can switch between like tone of voice as well, which is pretty interesting. Can you talk to me like you are from Manchester in England? Hey up, duck. Fancy a brew while we have a proper chinwag about this voice malarkey, yeah? So, you get the point. And then you can also sweep it switch here. So, I've not tried this one. There's a presenter mode, too. Let's try that. Hey, how you doing? >> All right, love. Really good, thanks. How's it going your end? You keep it >> But it's pretty interesting. And then the thing that I like inside the Agent OS system is a with the workspace, we can store everything we've created. So, any sort of notes that we've created, we can check them back here. The same, for example, if we go to Open Claw, we can see like everything that we previously done and we can just go back and and search that too. The only benefit that I've seen between like MiniMax versus using for example Grok, a wolf, whether that's with Open Claw or with Hermes is that you get the voice, but you also get the live Twitter search. So they can actually search Twitter for you as well, which makes Open Claw or Hermes with an intelligent model like Grok pretty powerful for research. But if you want it more for like generative videos and images, I'd actually go with MiniMax M3. And I think MiniMax M3 is is a really cool powerful models so far from what I've seen. So, thanks so much for watching. If you want to get the full Agent Operating System including everything plugged in like you can see, you can actually get the zip file with, you know, the studio, the voice agent, the chat, you can see your sessions, check the workspace, see everything you built with building gold mode. And then we've added loads of other AI agents in here as well including a video agent and an SEO agent. We've linked notebook LM2 and we've done an amazing Kanban board too. You get that all inside the AI Profit Boardroom. Link in the comments description go to the aiprofitboardroom.com. This is an amazing community where you can learn AI automation, but also you can get access to the Agent Operating System and we add new daily tutorials. So you can see for example, we've already created tutorial on how to use MiniMax M3 with Hermes, how to use Step 3.7 Flash for free with Hermes agent, how to link Hermes and Obsidian together. So if you want to get all this stuff, it's inside the AI Profit Boardroom. And you also get four weekly coaching calls so you can ask questions real time, share your screen, etc. You can meet people in your local area from the map too so you can meet people in your city who are using AI agents just like you. Plus you can ask questions and there's always people online so you can ask questions 24/7 and connect with me too. Thanks for watching. See you on the next one. Cheers. Bye-bye.

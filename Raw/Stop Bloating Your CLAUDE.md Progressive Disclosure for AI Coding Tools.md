@@ -1,18 +1,19 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - context-management
-  - efficiency
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: context-engineering
+  - "context-management"
+  - "efficiency"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "context-engineering"
 subtheme:
-  - context-window
-  - compaction-caching
+  - "context-window"
+  - "compaction-caching"
 ---
 
 # Stop Bloating Your CLAUDE.md: Progressive Disclosure for AI Coding Tools

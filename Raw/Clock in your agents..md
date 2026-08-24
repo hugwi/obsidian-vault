@@ -1,19 +1,20 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents]
+domain: "[agentic-engineering, ai-agents]"
 tags:
-  - harness
-  - metrics
-  - orchestration
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: multi-agent-orchestration
+  - "harness"
+  - "metrics"
+  - "orchestration"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "multi-agent-orchestration"
 subtheme:
-  - coordinator-patterns
-  - parallel-fan-out
+  - "coordinator-patterns"
+  - "parallel-fan-out"
 ---
 
 # Clock in your agents.

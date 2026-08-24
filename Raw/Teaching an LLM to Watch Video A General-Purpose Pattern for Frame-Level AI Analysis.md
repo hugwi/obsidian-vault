@@ -3,11 +3,13 @@ title: "Teaching an LLM to Watch Video: A General-Purpose Pattern for Frame-Leve
 source: "https://dev.to/littler00t/teaching-an-llm-to-watch-video-a-general-purpose-pattern-for-frame-level-ai-analysis-2phm"
 author:
   - "[[dev.to]]"
-published: 2026-02-28
-created: 2026-08-01
+published: "2026-02-28"
+created: "2026-08-01"
 description: "How a personal frustration with workout form turned into a reusable MCP server for video... Tagged with ai, mcp, llm, openai."
 tags:
   - "clippings"
+  - "clip/video"
+  - "video-gen"
 ---
 *How a personal frustration with workout form turned into a reusable MCP server for video intelligence*
 

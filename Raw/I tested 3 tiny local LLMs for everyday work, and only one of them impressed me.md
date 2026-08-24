@@ -1,17 +1,18 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents]
+domain: "[agentic-engineering, ai-agents]"
 tags:
-  - evals
-  - models
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: agents-models
+  - "evals"
+  - "models"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "agents-models"
 subtheme:
-  - model-comparison
+  - "model-comparison"
 ---
 
 # I tested 3 tiny local LLMs for everyday work, and only one of them impressed me

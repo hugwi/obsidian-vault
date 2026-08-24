@@ -3,10 +3,13 @@ title: "PunithVT/ai-avatar-system: 🎭 AI Avatar / digital human platform — u
 source: "https://github.com/PunithVT/ai-avatar-system"
 author:
 published:
-created: 2026-08-01
+created: "2026-08-01"
 description: "🎭 AI Avatar / digital human platform — upload a photo, clone a voice, talk to any face in real time with lip-sync video. Open-source, self-hosted. Claude · Whisper · Chatterbox · MuseTalk. - PunithVT/ai-avatar-system"
 tags:
   - "clippings"
+  - "clip/video"
+  - "video-gen"
+  - "voice-ai"
 ---
 ## 🎭 AvatarAI — Real-Time AI Avatar Platform
 

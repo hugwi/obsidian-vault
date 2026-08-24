@@ -1,16 +1,17 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - testing
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: quality-gates
+  - "testing"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "quality-gates"
 subtheme:
-  - automated-tests
+  - "automated-tests"
 ---
 
 # GitHub - keploy/keploy: Shadow Test generation for Developers. Generate tests and stubs for your application that actually work!

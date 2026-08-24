@@ -1,18 +1,19 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents]
+domain: "[agentic-engineering, ai-agents]"
 tags:
-  - efficiency
-  - tools
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: workflow-phases-gates
+  - "efficiency"
+  - "tools"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "workflow-phases-gates"
 subtheme:
-  - harness-loops
-  - plan-phase
+  - "harness-loops"
+  - "plan-phase"
 ---
 
 # I built a coding agent that gets 87% on benchmarks with a 4B parameter model, here's how

@@ -1,19 +1,20 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - code-quality
-  - code-review
-  - metrics
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: comprehension-maintainability
+  - "code-quality"
+  - "code-review"
+  - "metrics"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "comprehension-maintainability"
 subtheme:
-  - code-navigation
-  - diff-review-undo
+  - "code-navigation"
+  - "diff-review-undo"
 ---
 
 # Visualize TypeScript Dependencies of Changed Files in a Pull Request Using dependency-cruiser-report-action

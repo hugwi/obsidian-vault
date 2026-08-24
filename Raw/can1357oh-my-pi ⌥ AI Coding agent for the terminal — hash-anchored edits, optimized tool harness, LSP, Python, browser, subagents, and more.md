@@ -1,18 +1,19 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents]
+domain: "[agentic-engineering, ai-agents]"
 tags:
-  - computer-use
-  - harness
-  - memory
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: workflow-phases-gates
+  - "computer-use"
+  - "harness"
+  - "memory"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "workflow-phases-gates"
 subtheme:
-  - harness-loops
+  - "harness-loops"
 ---
 
 # can1357/oh-my-pi: ⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more

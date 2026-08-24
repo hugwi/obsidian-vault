@@ -1,13 +1,14 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [software-engineering]
+domain: "[software-engineering]"
 tags:
-  - frontend
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "frontend"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # Improving Performance with HTTP Streaming

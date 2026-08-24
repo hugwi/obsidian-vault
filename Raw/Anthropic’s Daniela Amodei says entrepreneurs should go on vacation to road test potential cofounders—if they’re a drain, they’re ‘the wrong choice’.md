@@ -1,13 +1,14 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [product-business]
+domain: "[product-business]"
 tags:
-  - startup
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "startup"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # Anthropic’s Daniela Amodei says entrepreneurs should go on vacation to road test potential cofounders—if they’re a drain, they’re ‘the wrong choice’

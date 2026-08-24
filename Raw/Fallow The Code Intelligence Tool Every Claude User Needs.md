@@ -1,19 +1,20 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents]
+domain: "[agentic-engineering, ai-agents]"
 tags:
-  - code-intelligence
-  - code-quality
-  - tools
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: comprehension-maintainability
+  - "code-intelligence"
+  - "code-quality"
+  - "tools"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "comprehension-maintainability"
 subtheme:
-  - code-navigation
-  - comprehension-debt
+  - "code-navigation"
+  - "comprehension-debt"
 ---
 
 # Fallow: The Code Intelligence Tool Every Claude User Needs

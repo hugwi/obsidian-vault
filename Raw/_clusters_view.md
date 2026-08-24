@@ -1,10 +1,12 @@
 ---
 categories:
   - "[[Raw]]"
-created: 2026-06-23
-rating: 
-action: 
-tags: [readwise, clusters]
+created: "2026-06-23"
+rating:
+action:
+tags:
+  - "[readwise, clusters]"
+  - "clip/video"
 ---
 
 # Readwise — Domain & Tag Clusters

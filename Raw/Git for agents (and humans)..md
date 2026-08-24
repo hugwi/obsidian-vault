@@ -1,19 +1,20 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - efficiency
-  - metrics
-  - workflow-git
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: productivity-measurement
+  - "efficiency"
+  - "metrics"
+  - "workflow-git"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "productivity-measurement"
 subtheme:
-  - observability-traces
-  - cost-optimization
+  - "observability-traces"
+  - "cost-optimization"
 ---
 
 # Git for agents (and humans).

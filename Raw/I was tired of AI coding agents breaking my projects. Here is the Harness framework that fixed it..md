@@ -1,17 +1,18 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - context-management
-  - harness
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: workflow-phases-gates
+  - "context-management"
+  - "harness"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "workflow-phases-gates"
 subtheme:
-  - harness-loops
+  - "harness-loops"
 ---
 
 # I was tired of AI coding agents breaking my projects. Here is the "Harness" framework that fixed it.

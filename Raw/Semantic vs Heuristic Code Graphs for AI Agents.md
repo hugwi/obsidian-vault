@@ -1,18 +1,19 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - code-intelligence
-  - context-management
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: context-engineering
+  - "code-intelligence"
+  - "context-management"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "context-engineering"
 subtheme:
-  - retrieval-rag
-  - compaction-caching
+  - "retrieval-rag"
+  - "compaction-caching"
 ---
 
 # Semantic vs Heuristic Code Graphs for AI Agents

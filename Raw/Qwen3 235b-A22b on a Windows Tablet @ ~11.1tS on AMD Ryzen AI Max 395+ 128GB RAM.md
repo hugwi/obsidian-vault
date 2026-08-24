@@ -1,13 +1,14 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [ai-agents]
+domain: "[ai-agents]"
 tags:
-  - models
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "models"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # Qwen3 235b-A22b on a Windows Tablet @ ~11.1t/S on AMD Ryzen AI Max 395+ 128GB RAM

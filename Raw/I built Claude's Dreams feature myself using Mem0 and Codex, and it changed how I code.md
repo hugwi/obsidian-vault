@@ -1,16 +1,17 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - memory
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: context-engineering
+  - "memory"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "context-engineering"
 subtheme:
-  - memory-persistence
+  - "memory-persistence"
 ---
 
 # I built Claude's Dreams feature myself using Mem0 and Codex, and it changed how I code

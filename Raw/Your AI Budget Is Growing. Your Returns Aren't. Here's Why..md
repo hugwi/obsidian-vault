@@ -1,19 +1,20 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - efficiency
-  - metrics
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: productivity-measurement
+  - "efficiency"
+  - "metrics"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "productivity-measurement"
 subtheme:
-  - dora-delivery-metrics
-  - roi-adoption
-  - cost-optimization
+  - "dora-delivery-metrics"
+  - "roi-adoption"
+  - "cost-optimization"
 ---
 
 # Your AI Budget Is Growing. Your Returns Aren't. Here's Why.

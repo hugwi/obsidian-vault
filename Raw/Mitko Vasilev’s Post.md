@@ -1,14 +1,15 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [product-business, software-engineering]
+domain: "[product-business, software-engineering]"
 tags:
-  - ai-industry
-  - security
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "ai-industry"
+  - "security"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # Mitko Vasilev’s Post

@@ -3,11 +3,15 @@ title: "🎙️ Building a Local Voice-Controlled AI Agent"
 source: "https://dev.to/akshat_saxena_53bee826693/building-a-local-voice-controlled-ai-agent-4967"
 author:
   - "[[dev.to]]"
-published: 2026-04-15
-created: 2026-06-29
+published: "2026-04-15"
+created: "2026-06-29"
 description: "I Built a Voice-Controlled AI Agent That Runs Locally — Here's Everything I Learned   From raw audio... Tagged with python, ai, rag, webdev."
 tags:
   - "clippings"
+  - "agents"
+  - "clip/video"
+  - "local-llm"
+  - "voice-ai"
 ---
 **I Built a Voice-Controlled AI Agent That Runs Locally — Here's Everything I Learned**
 

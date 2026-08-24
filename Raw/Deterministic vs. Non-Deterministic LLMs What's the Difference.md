@@ -1,17 +1,18 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents]
+domain: "[agentic-engineering, ai-agents]"
 tags:
-  - evals
-  - models
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: agents-models
+  - "evals"
+  - "models"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "agents-models"
 subtheme:
-  - model-comparison
+  - "model-comparison"
 ---
 
 # Deterministic vs. Non-Deterministic LLMs: What's the Difference?

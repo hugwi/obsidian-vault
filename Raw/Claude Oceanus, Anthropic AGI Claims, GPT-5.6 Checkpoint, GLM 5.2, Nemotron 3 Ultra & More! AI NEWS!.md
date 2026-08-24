@@ -1,14 +1,15 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [ai-agents, product-business]
+domain: "[ai-agents, product-business]"
 tags:
-  - ai-industry
-  - models
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "ai-industry"
+  - "models"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # Claude Oceanus, Anthropic AGI Claims, GPT-5.6 Checkpoint, GLM 5.2, Nemotron 3 Ultra & More! AI NEWS!

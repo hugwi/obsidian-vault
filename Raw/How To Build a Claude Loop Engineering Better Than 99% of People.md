@@ -4,13 +4,14 @@ categories:
 title: "How To Build a Claude Loop Engineering Better Than 99% of People"
 source: "https://freedium-mirror.cfd/https://medium.com/@GaoDalie_AI/how-to-build-a-claude-loop-engineering-better-than-99-of-people-3ab8701d176c"
 author:
-published: 2026-06-02
-created: 2026-06-15
-rating: 
-action: 
+published: "2026-06-02"
+created: "2026-06-15"
+rating:
+action:
 description: "I’m no longer prompting Claude. I’m just running a loop that prompts him and then thinks about what to do next. My job is to write loops."
 tags:
   - "to-process"
+  - "clip/video"
 ---
 ![Post cover image](https://freedium-mirror.cfd/img/700/1*z-VXxpR7mPlT_NbvCtnDnA.png)
 

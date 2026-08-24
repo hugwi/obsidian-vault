@@ -1,17 +1,18 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - claude-code
-  - spec-driven
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: workflow-phases-gates
+  - "claude-code"
+  - "spec-driven"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "workflow-phases-gates"
 subtheme:
-  - durable-execution
+  - "durable-execution"
 ---
 
 # 5 ways of using Claude Code remotely - and when to use which

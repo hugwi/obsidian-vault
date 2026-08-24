@@ -1,19 +1,20 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents, software-engineering]
+domain: "[agentic-engineering, ai-agents, software-engineering]"
 tags:
-  - computer-use
-  - efficiency
-  - frontend
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: multi-agent-orchestration
+  - "computer-use"
+  - "efficiency"
+  - "frontend"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "multi-agent-orchestration"
 subtheme:
-  - environment-isolation
-  - skill-tool-extension
+  - "environment-isolation"
+  - "skill-tool-extension"
 ---
 
 # web-infra-dev/midscene: AI-powered, vision-driven UI automation for every platform.

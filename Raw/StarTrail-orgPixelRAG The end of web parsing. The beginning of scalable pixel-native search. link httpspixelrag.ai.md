@@ -3,10 +3,11 @@ title: "StarTrail-org/PixelRAG: The end of web parsing. The beginning of scalabl
 source: "https://github.com/StarTrail-org/PixelRAG"
 author:
 published:
-created: 2026-08-01
+created: "2026-08-01"
 description: "The end of web parsing. The beginning of scalable pixel-native search. link: https://pixelrag.ai/ - StarTrail-org/PixelRAG"
 tags:
   - "clippings"
+  - "clip/video"
 ---
 [![PixelRAG — Visual Retrieval-Augmented Generation](https://github.com/StarTrail-org/PixelRAG/raw/main/docs/assets/banner.png)](https://github.com/StarTrail-org/PixelRAG/blob/main/docs/assets/banner.png)
 

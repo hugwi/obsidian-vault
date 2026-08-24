@@ -1,18 +1,19 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, knowledge-management]
+domain: "[agentic-engineering, knowledge-management]"
 tags:
-  - metrics
-  - productivity
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: productivity-measurement
+  - "metrics"
+  - "productivity"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "productivity-measurement"
 subtheme:
-  - dora-delivery-metrics
-  - observability-traces
+  - "dora-delivery-metrics"
+  - "observability-traces"
 ---
 
 # Quantifying Productivity

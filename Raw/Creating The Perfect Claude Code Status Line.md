@@ -1,17 +1,18 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - claude-code
-  - metrics
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: productivity-measurement
+  - "claude-code"
+  - "metrics"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "productivity-measurement"
 subtheme:
-  - observability-traces
+  - "observability-traces"
 ---
 
 # Creating The Perfect Claude Code Status Line

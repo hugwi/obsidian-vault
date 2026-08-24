@@ -1,14 +1,15 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, personal]
+domain: "[agentic-engineering, personal]"
 tags:
-  - health
-  - spec-driven
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "health"
+  - "spec-driven"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # (Recorded during Xian Goh’s falling workshop during the

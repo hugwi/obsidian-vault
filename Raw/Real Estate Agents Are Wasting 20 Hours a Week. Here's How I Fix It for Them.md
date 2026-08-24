@@ -1,13 +1,14 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [knowledge-management]
+domain: "[knowledge-management]"
 tags:
-  - productivity
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "productivity"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # Real Estate Agents Are Wasting 20 Hours a Week. Here's How I Fix It for Them

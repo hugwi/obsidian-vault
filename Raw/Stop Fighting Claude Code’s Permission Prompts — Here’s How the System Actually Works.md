@@ -1,17 +1,18 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, software-engineering]
+domain: "[agentic-engineering, software-engineering]"
 tags:
-  - claude-code
-  - security
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: workflow-phases-gates
+  - "claude-code"
+  - "security"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "workflow-phases-gates"
 subtheme:
-  - human-in-loop
+  - "human-in-loop"
 ---
 
 # Stop Fighting Claude Code’s Permission Prompts — Here’s How the System Actually Works

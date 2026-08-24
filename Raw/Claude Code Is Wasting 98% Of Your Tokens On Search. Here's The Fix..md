@@ -1,18 +1,19 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - code-intelligence
-  - efficiency
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: context-engineering
+  - "code-intelligence"
+  - "efficiency"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "context-engineering"
 subtheme:
-  - cost-tokens
-  - retrieval-rag
+  - "cost-tokens"
+  - "retrieval-rag"
 ---
 
 # Claude Code Is Wasting 98% Of Your Tokens On Search. Here's The Fix.

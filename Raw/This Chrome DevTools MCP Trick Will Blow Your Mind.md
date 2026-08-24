@@ -1,14 +1,15 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [ai-agents]
+domain: "[ai-agents]"
 tags:
-  - computer-use
-  - mcp
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "computer-use"
+  - "mcp"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # This Chrome DevTools MCP Trick Will Blow Your Mind

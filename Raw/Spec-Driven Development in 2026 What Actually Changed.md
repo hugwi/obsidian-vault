@@ -1,15 +1,27 @@
 ---
 title: "Spec-Driven Development in 2026: What Actually Changed"
-source: https://www.youtube.com/watch?v=b6cbxSaa4U4
+source: "https://www.youtube.com/watch?v=b6cbxSaa4U4"
 author:
   - "[[@peterjordanson4201]]"
-published: 2026-04-22
-created: 2026-06-30
-description: One spec-driven framework grew 863% in six months. Another in the same category grew 18%. This is the honest six-month update on OpenSpec, BMAD, Spec Kit, Ag...
+published: "2026-04-22"
+created: "2026-06-30"
+description: "One spec-driven framework grew 863% in six months. Another in the same category grew 18%. This is the honest six-month update on OpenSpec, BMAD, Spec Kit, Ag..."
 tags:
-  - clippings
-  - agentic-engineering
-  - spec-driven-development
+  - "clippings"
+  - "agentic-engineering"
+  - "spec-driven-development"
+  - "agents"
+  - "anthropic"
+  - "business"
+  - "claude-code"
+  - "clip/video"
+  - "context-engineering"
+  - "microsoft"
+  - "skills"
+  - "video-gen"
+summary: "### Hook — +863% vs +18
+
+**0:00** · One framework grew 863% over the last six months. **0:05** · Another one in the same category grew 18. **0:08** · Last October I made a video comparing three spec-driven development frameworks — BMAD, Spec Kit, and OpenSpec."
 ---
 ![](https://www.youtube.com/watch?v=b6cbxSaa4U4)
 

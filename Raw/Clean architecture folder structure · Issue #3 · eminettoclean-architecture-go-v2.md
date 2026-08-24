@@ -1,14 +1,19 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [software-engineering]
+domain: "[software-engineering]"
 tags:
-  - architecture
-  - patterns
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "architecture"
+  - "patterns"
+  - "clip/video"
+  - "context-engineering"
+  - "engineering"
+  - "video-gen"
+  - "youtube-strategy"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # Clean architecture folder structure · Issue #3 · eminetto/clean-architecture-go-v2

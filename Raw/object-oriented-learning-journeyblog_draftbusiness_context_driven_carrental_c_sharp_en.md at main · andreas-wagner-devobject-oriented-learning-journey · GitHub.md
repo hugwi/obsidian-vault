@@ -1,18 +1,19 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, software-engineering]
+domain: "[agentic-engineering, software-engineering]"
 tags:
-  - architecture
-  - context-management
-  - ddd
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: work-breakdown-specs
+  - "architecture"
+  - "context-management"
+  - "ddd"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "work-breakdown-specs"
 subtheme:
-  - architecture-design
+  - "architecture-design"
 ---
 
 # object-oriented-learning-journey/blog/_draft/business_context_driven_carrental_c_sharp_en.md at main · andreas-wagner-dev/object-oriented-learning-journey · GitHub

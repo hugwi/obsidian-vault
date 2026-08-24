@@ -3,10 +3,13 @@ title: "I created the cheapest AI voice agent possible ($0.28 per hour)"
 source: "https://freedium-mirror.cfd/https://medium.com/@jordan_gibbs/i-created-the-cheapest-ai-voice-agent-possible-0-28-per-hour-e896f9e5b0c9"
 author:
 published:
-created: 2026-07-13
+created: "2026-07-13"
 description: "30x cheaper than Elevenlabs and OpenAI. Code Included!"
 tags:
   - "clippings"
+  - "agents"
+  - "clip/video"
+  - "voice-ai"
 ---
 ![Post cover image](https://freedium-mirror.cfd/img/700/1*Xw3CNLxo5MgHt7FxZx605g.png)
 

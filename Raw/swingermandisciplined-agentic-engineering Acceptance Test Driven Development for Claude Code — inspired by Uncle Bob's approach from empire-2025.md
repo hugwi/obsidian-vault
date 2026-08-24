@@ -1,23 +1,24 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, software-engineering]
+domain: "[agentic-engineering, software-engineering]"
 tags:
-  - claude-code
-  - code-quality
-  - code-review
-  - harness
-  - patterns
-  - spec-driven
-  - testing
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: quality-gates
+  - "claude-code"
+  - "code-quality"
+  - "code-review"
+  - "harness"
+  - "patterns"
+  - "spec-driven"
+  - "testing"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "quality-gates"
 subtheme:
-  - automated-tests
-  - verification-loops
+  - "automated-tests"
+  - "verification-loops"
 ---
 
 # swingerman/disciplined-agentic-engineering: Acceptance Test Driven Development for Claude Code — inspired by Uncle Bob's approach from empire-2025

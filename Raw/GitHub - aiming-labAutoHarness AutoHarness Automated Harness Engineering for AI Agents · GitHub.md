@@ -1,17 +1,18 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - efficiency
-  - harness
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: workflow-phases-gates
+  - "efficiency"
+  - "harness"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "workflow-phases-gates"
 subtheme:
-  - harness-loops
+  - "harness-loops"
 ---
 
 # GitHub - aiming-lab/AutoHarness: AutoHarness: Automated Harness Engineering for AI Agents · GitHub

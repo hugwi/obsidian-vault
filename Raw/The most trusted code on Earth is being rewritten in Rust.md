@@ -5,13 +5,20 @@ title: "The most trusted code on Earth is being rewritten in Rust"
 source: "https://www.youtube.com/watch?v=Sntj4HmuykI"
 author:
   - "[[@joshuayoes2763]]"
-published: 2026-06-19
-created: 2026-06-23
-rating: 
-action: 
+published: "2026-06-19"
+created: "2026-06-23"
+rating:
+action:
 description: "Junie is the #1 coding agent on SWE-Rebench and it'll save you a bunch of tokens - https://jb.gg/Fireship-Junie-GAUse code: FIRESHIP20 to to get 20 free AI c..."
 tags:
   - "clippings"
+  - "agents"
+  - "clip/video"
+  - "context-engineering"
+  - "engineering"
+  - "security"
+  - "video-gen"
+summary: "**0:00** · It was the year 2000. An application developer named D. Richard Hipp was working on damage control software for US Navy guided missile destroyers."
 ---
 ![](https://www.youtube.com/watch?v=Sntj4HmuykI)
 

@@ -1,13 +1,14 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [ai-agents]
+domain: "[ai-agents]"
 tags:
-  - tools
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "tools"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # disler/pi-vs-claude-code: Comparison between open source PI agent and closed source Claude Code agent

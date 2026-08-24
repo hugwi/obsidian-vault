@@ -1,17 +1,18 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - context-management
-  - harness
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: context-engineering
+  - "context-management"
+  - "harness"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "context-engineering"
 subtheme:
-  - retrieval-rag
+  - "retrieval-rag"
 ---
 
 # vercel-labs/opensrc: Fetch source code for npm packages to give AI coding agents deeper context

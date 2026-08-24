@@ -1,20 +1,21 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - efficiency
-  - evals
-  - skills
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: quality-gates
+  - "efficiency"
+  - "evals"
+  - "skills"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "quality-gates"
 subtheme:
-  - evals
-  - code-review-gates
-  - verification-loops
+  - "evals"
+  - "code-review-gates"
+  - "verification-loops"
 ---
 
 # What Makes a Good Agent Skill (And How to Know Before You Deploy It)

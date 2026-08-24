@@ -1,14 +1,15 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [product-business, software-engineering]
+domain: "[product-business, software-engineering]"
 tags:
-  - ddd
-  - product
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "ddd"
+  - "product"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # Domain-Driven Design (DDD) Explained for Business Analysts: A Step-by-Step Guide

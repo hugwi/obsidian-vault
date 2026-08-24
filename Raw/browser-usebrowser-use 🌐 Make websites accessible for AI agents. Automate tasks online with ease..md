@@ -1,18 +1,19 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents, software-engineering]
+domain: "[agentic-engineering, ai-agents, software-engineering]"
 tags:
-  - computer-use
-  - frontend
-  - harness
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: multi-agent-orchestration
+  - "computer-use"
+  - "frontend"
+  - "harness"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "multi-agent-orchestration"
 subtheme:
-  - skill-tool-extension
+  - "skill-tool-extension"
 ---
 
 # browser-use/browser-use: 🌐 Make websites accessible for AI agents. Automate tasks online with ease.

@@ -5,13 +5,15 @@ title: "Claude Code /goal: A Field Guide with Games"
 source: "https://medium.com/@jason.croucher/claude-code-goal-a-field-guide-with-games-f6f3b617ce5b"
 author:
   - "[[Jason Croucher]]"
-published: 2026-05-18
-created: 2026-06-15
-rating: 
-action: 
+published: "2026-05-18"
+created: "2026-06-15"
+rating:
+action:
 description: "/goal sets a completion condition, and Claude Code keeps working across turns on its own until a separate model decides the condition is met"
 tags:
   - "to-process"
+  - "claude-code"
+  - "clip/video"
 ---
 ![](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*kET80LKtdLoseKNTjA0ZVQ.png)
 

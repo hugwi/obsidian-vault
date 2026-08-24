@@ -1,18 +1,19 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, software-engineering]
+domain: "[agentic-engineering, software-engineering]"
 tags:
-  - claude-code
-  - security
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: agents-models
+  - "claude-code"
+  - "security"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "agents-models"
 subtheme:
-  - coding-agent-platforms
-  - extended-thinking-reasoning
+  - "coding-agent-platforms"
+  - "extended-thinking-reasoning"
 ---
 
 # Diving into Claude Code's Source Code Leak

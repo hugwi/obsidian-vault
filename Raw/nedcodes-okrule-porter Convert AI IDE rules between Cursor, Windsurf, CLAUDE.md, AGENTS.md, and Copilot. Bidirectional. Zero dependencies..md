@@ -1,18 +1,19 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents]
+domain: "[agentic-engineering, ai-agents]"
 tags:
-  - context-management
-  - harness
-  - tools
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: context-engineering
+  - "context-management"
+  - "harness"
+  - "tools"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "context-engineering"
 subtheme:
-  - system-prompt-rules
+  - "system-prompt-rules"
 ---
 
 # nedcodes-ok/rule-porter: Convert AI IDE rules between Cursor, Windsurf, CLAUDE.md, AGENTS.md, and Copilot. Bidirectional. Zero dependencies.

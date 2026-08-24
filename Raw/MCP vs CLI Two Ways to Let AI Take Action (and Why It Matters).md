@@ -1,13 +1,14 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [ai-agents]
+domain: "[ai-agents]"
 tags:
-  - mcp
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "mcp"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # MCP vs CLI: Two Ways to Let AI Take Action (and Why It Matters)

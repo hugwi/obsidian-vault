@@ -1,13 +1,14 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [ai-agents]
+domain: "[ai-agents]"
 tags:
-  - computer-use
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "computer-use"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # Scrapling: The Web Scraper That Repairs Itself

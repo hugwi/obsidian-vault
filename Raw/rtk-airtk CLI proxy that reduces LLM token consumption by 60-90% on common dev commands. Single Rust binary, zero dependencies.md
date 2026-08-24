@@ -1,18 +1,19 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - context-management
-  - efficiency
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: context-engineering
+  - "context-management"
+  - "efficiency"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "context-engineering"
 subtheme:
-  - cost-tokens
-  - compaction-caching
+  - "cost-tokens"
+  - "compaction-caching"
 ---
 
 # rtk-ai/rtk: CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies

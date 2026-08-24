@@ -1,13 +1,14 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [data-engineering]
+domain: "[data-engineering]"
 tags:
-  - governance
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "governance"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # My MDM Framework

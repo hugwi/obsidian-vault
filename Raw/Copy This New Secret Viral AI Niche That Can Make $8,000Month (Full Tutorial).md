@@ -3,11 +3,12 @@ title: "Copy This New Secret Viral AI Niche That Can Make $8,000/Month (Full Tut
 source: "https://www.youtube.com/watch?app=desktop&v=co5eo2JSI-A"
 author:
   - "[[@AzerSedio]]"
-published: 2026-08-01
-created: 2026-08-01
+published: "2026-08-01"
+created: "2026-08-01"
 description:
 tags:
   - "clippings"
+  - "clip/video"
 ---
 This AI niche is getting millions of views with intense wildlife animal encounters that people simply can't stop watching. And yes, it can generate up to $8,000 per month. And today, I'll show you exactly how to create these videos using free AI tools.
 

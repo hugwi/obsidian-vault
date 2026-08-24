@@ -1,18 +1,19 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, product-business]
+domain: "[agentic-engineering, product-business]"
 tags:
-  - ai-industry
-  - human-factors
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: industry-product
+  - "ai-industry"
+  - "human-factors"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "industry-product"
 subtheme:
-  - market-landscape
-  - careers-talent
+  - "market-landscape"
+  - "careers-talent"
 ---
 
 # Microsoft accidentally told the truth about AI

@@ -1,13 +1,14 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [ai-agents]
+domain: "[ai-agents]"
 tags:
-  - voice
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "voice"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # Your voice is the only AI moat that compounds. Here is how to clone it into Claude in a weekend

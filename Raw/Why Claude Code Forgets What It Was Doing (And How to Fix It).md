@@ -1,20 +1,21 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - claude-code
-  - context-management
-  - memory
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: context-engineering
+  - "claude-code"
+  - "context-management"
+  - "memory"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "context-engineering"
 subtheme:
-  - context-window
-  - memory-persistence
-  - cost-tokens
+  - "context-window"
+  - "memory-persistence"
+  - "cost-tokens"
 ---
 
 # Why Claude Code Forgets What It Was Doing (And How to Fix It)

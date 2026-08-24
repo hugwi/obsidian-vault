@@ -5,13 +5,15 @@ title: "The Humans in the Loop Deep Dive: Making AI Agents Mainstream with Dexte
 source: "https://thehumansintheloop.substack.com/p/making-agents-mainstream-for-dev-with-dexter-horthy"
 author:
   - "[[The Humans In The Loop]]"
-published: 2026-03-26
-created: 2026-06-24
-rating: 
-action: 
+published: "2026-03-26"
+created: "2026-06-24"
+rating:
+action:
 description: "A Special-Edition Interview on What's Needed to Drive Mainstream Agentic Adoption"
 tags:
   - "clippings"
+  - "agents"
+  - "clip/video"
 ---
 *This special edition of The Humans in the Loop features an in-depth interview on a specific topic for builders working in AI. If you have thoughts or feedback on this format, please feel free to email [andrew@heavybit.com](mailto:andrew@heavybit.com).*
 

@@ -1,19 +1,20 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents]
+domain: "[agentic-engineering, ai-agents]"
 tags:
-  - code-quality
-  - efficiency
-  - tools
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: context-engineering
+  - "code-quality"
+  - "efficiency"
+  - "tools"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "context-engineering"
 subtheme:
-  - cost-tokens
-  - compaction-caching
+  - "cost-tokens"
+  - "compaction-caching"
 ---
 
 # GitHub - dirac-run/dirac: Open Source Coding Agent singularly focused efficiency. Reduces API costs by 50-80% vs other agent AND improves the code quality at the same time. Uses Hash Anchored edits, massively parallel operations, AST manipulation and many many other optimizations. https://dirac.run/ · GitHub

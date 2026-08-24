@@ -1,13 +1,14 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [knowledge-management]
+domain: "[knowledge-management]"
 tags:
-  - productivity
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "productivity"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # Slack Reminders for Assigned Reviewers with Pending Questionnaire Work

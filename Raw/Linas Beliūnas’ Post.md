@@ -1,14 +1,15 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [product-business]
+domain: "[product-business]"
 tags:
-  - ai-industry
-  - startup
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "ai-industry"
+  - "startup"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # Linas Beliūnas’ Post

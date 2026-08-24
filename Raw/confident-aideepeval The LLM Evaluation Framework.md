@@ -1,18 +1,19 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - evals
-  - testing
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: quality-gates
+  - "evals"
+  - "testing"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "quality-gates"
 subtheme:
-  - evals
-  - automated-tests
+  - "evals"
+  - "automated-tests"
 ---
 
 # confident-ai/deepeval: The LLM Evaluation Framework

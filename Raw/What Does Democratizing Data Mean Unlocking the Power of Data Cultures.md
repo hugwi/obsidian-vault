@@ -1,14 +1,15 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [data-engineering]
+domain: "[data-engineering]"
 tags:
-  - governance
-  - pipelines
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "governance"
+  - "pipelines"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # What Does Democratizing Data Mean? Unlocking the Power of Data Cultures

@@ -1,15 +1,16 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [software-engineering]
+domain: "[software-engineering]"
 tags:
-  - architecture
-  - ddd
-  - patterns
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "architecture"
+  - "ddd"
+  - "patterns"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # Domain-Driven Design: Tackling Complexity In The Heart Of Software

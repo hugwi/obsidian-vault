@@ -1,9 +1,11 @@
 ---
 categories:
   - "[[Raw]]"
-created: 2026-06-23
-rating: 
-action: 
+created: "2026-06-23"
+rating:
+action:
+tags:
+  - "clip/video"
 ---
 # I stole this idea and now use it with every...
 

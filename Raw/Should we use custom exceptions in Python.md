@@ -1,18 +1,19 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, software-engineering]
+domain: "[agentic-engineering, software-engineering]"
 tags:
-  - code-quality
-  - patterns
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: comprehension-maintainability
+  - "code-quality"
+  - "patterns"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "comprehension-maintainability"
 subtheme:
-  - code-navigation
-  - type-safety
+  - "code-navigation"
+  - "type-safety"
 ---
 
 # Should we use custom exceptions in Python?

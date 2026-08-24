@@ -2,11 +2,13 @@
 title: "The AI-Native SDLC playbook | Claude by Anthropic"
 source: "https://claude.com/blog/the-ai-native-sdlc-playbook"
 author:
-published: Aug 21
-created: 2026-08-24
+published: "Aug 21"
+created: "2026-08-24"
 description: "How to transform your software development lifecycle with AI—stage by stage."
 tags:
   - "clippings"
+  - "anthropic"
+  - "clip/video"
 ---
 ## Code is no longer the bottleneck
 

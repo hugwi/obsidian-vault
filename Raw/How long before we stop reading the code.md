@@ -1,18 +1,19 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - code-review
-  - human-factors
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: comprehension-maintainability
+  - "code-review"
+  - "human-factors"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "comprehension-maintainability"
 subtheme:
-  - comprehension-debt
-  - code-disposability
+  - "comprehension-debt"
+  - "code-disposability"
 ---
 
 # How long before we stop reading the code?

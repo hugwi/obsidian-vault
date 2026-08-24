@@ -1,18 +1,19 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - claude-code
-  - spec-driven
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: context-engineering
+  - "claude-code"
+  - "spec-driven"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "context-engineering"
 subtheme:
-  - retrieval-rag
-  - compaction-caching
+  - "retrieval-rag"
+  - "compaction-caching"
 ---
 
 # Benchmarking semantic code retrieval on Claude Code — Kuba Rogut, Turbopuffer

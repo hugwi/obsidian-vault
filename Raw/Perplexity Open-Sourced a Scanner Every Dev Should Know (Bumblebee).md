@@ -1,18 +1,19 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, software-engineering]
+domain: "[agentic-engineering, software-engineering]"
 tags:
-  - code-quality
-  - security
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: quality-gates
+  - "code-quality"
+  - "security"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "quality-gates"
 subtheme:
-  - security-scanning
-  - verification-loops
+  - "security-scanning"
+  - "verification-loops"
 ---
 
 # Perplexity Open-Sourced a Scanner Every Dev Should Know (Bumblebee)

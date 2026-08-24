@@ -1,20 +1,21 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - code-quality
-  - evals
-  - testing
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: quality-gates
+  - "code-quality"
+  - "evals"
+  - "testing"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "quality-gates"
 subtheme:
-  - automated-tests
-  - evals
-  - verification-loops
+  - "automated-tests"
+  - "evals"
+  - "verification-loops"
 ---
 
 # Writing tests with Claude Code - part 1 - initial results

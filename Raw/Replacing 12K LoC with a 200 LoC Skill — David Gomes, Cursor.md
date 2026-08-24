@@ -1,19 +1,20 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents]
+domain: "[agentic-engineering, ai-agents]"
 tags:
-  - code-quality
-  - skills
-  - tools
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: multi-agent-orchestration
+  - "code-quality"
+  - "skills"
+  - "tools"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "multi-agent-orchestration"
 subtheme:
-  - skill-tool-extension
-  - parallel-fan-out
+  - "skill-tool-extension"
+  - "parallel-fan-out"
 ---
 
 # Replacing 12K LoC with a 200 LoC Skill — David Gomes, Cursor

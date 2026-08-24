@@ -1,19 +1,20 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, software-engineering]
+domain: "[agentic-engineering, software-engineering]"
 tags:
-  - claude-code
-  - frontend
-  - skills
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: work-breakdown-specs
+  - "claude-code"
+  - "frontend"
+  - "skills"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "work-breakdown-specs"
 subtheme:
-  - spec-driven
-  - contracts-schemas
+  - "spec-driven"
+  - "contracts-schemas"
 ---
 
 # Claude Code: Skills, Plugins, and the JSONC Design Spec Trick That Changed My Workflow

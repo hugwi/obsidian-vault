@@ -1,19 +1,20 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents]
+domain: "[agentic-engineering, ai-agents]"
 tags:
-  - harness
-  - skills
-  - tools
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: multi-agent-orchestration
+  - "harness"
+  - "skills"
+  - "tools"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "multi-agent-orchestration"
 subtheme:
-  - skill-tool-extension
-  - coordinator-patterns
+  - "skill-tool-extension"
+  - "coordinator-patterns"
 ---
 
 # Multica: The Open Source Tool That Makes Claude Code 10x Better

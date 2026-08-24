@@ -5,13 +5,14 @@ title: "Writing a good CLAUDE.md"
 source: "https://www.hlyr.dev/blog/writing-a-good-claude-md"
 author:
   - "[[Kyle]]"
-published: 2025-11-25
-created: 2026-06-24
-rating: 
-action: 
+published: "2025-11-25"
+created: "2026-06-24"
+rating:
+action:
 description: "`CLAUDE.md` is a high-leverage configuration point for Claude Code. Learning how to write a good `CLAUDE.md` (or `AGENTS.md`) is a key skill for agent-enabled software engineering."
 tags:
   - "clippings"
+  - "clip/video"
 ---
 *Note: this post is also applicable to `AGENTS.md`*, the open-source equivalent of `CLAUDE.md` for agents and harnesses like OpenCode, Zed, Cursor and Codex.
 

@@ -1,13 +1,14 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [ai-agents]
+domain: "[ai-agents]"
 tags:
-  - voice
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "voice"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # How to Get Clawdbot Set Up in an Afternoon

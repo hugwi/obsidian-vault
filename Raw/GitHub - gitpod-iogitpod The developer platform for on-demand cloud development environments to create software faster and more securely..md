@@ -1,16 +1,17 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - claude-code
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: multi-agent-orchestration
+  - "claude-code"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "multi-agent-orchestration"
 subtheme:
-  - environment-isolation
+  - "environment-isolation"
 ---
 
 # GitHub - gitpod-io/gitpod: The developer platform for on-demand cloud development environments to create software faster and more securely.

@@ -1,14 +1,15 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [knowledge-management]
+domain: "[knowledge-management]"
 tags:
-  - pkm
-  - productivity
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "pkm"
+  - "productivity"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # Never Forget A Task or To-Do Again - Obsidian Reminders

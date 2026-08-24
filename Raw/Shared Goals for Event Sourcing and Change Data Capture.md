@@ -1,13 +1,14 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [data-engineering]
+domain: "[data-engineering]"
 tags:
-  - pipelines
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "pipelines"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # Shared Goals for Event Sourcing and Change Data Capture

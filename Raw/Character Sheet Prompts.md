@@ -3,10 +3,11 @@ title: "Character Sheet Prompts"
 source: "https://organic-slayer-d96.notion.site/Character-Sheet-Prompts-2f50c243208080a2b31bebeef4d6ce4e"
 author:
 published:
-created: 2026-08-06
+created: "2026-08-06"
 description: "A collaborative AI workspace, built on your company context. Build and orchestrate agents right alongside your team's projects, meetings, and connected apps."
 tags:
   - "clippings"
+  - "clip/video"
 ---
 ## ✅ REVISED PROMPTS
 

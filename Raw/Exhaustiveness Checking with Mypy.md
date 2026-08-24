@@ -1,18 +1,19 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, software-engineering]
+domain: "[agentic-engineering, software-engineering]"
 tags:
-  - code-quality
-  - patterns
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: quality-gates
+  - "code-quality"
+  - "patterns"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "quality-gates"
 subtheme:
-  - automated-tests
-  - verification-loops
+  - "automated-tests"
+  - "verification-loops"
 ---
 
 # Exhaustiveness Checking with Mypy

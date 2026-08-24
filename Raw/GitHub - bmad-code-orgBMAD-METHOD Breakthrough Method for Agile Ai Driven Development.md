@@ -1,18 +1,19 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents]
+domain: "[agentic-engineering, ai-agents]"
 tags:
-  - orchestration
-  - spec-driven
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: workflow-phases-gates
+  - "orchestration"
+  - "spec-driven"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "workflow-phases-gates"
 subtheme:
-  - plan-phase
-  - harness-loops
+  - "plan-phase"
+  - "harness-loops"
 ---
 
 # GitHub - bmad-code-org/BMAD-METHOD: Breakthrough Method for Agile Ai Driven Development

@@ -1,18 +1,19 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - code-intelligence
-  - efficiency
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: context-engineering
+  - "code-intelligence"
+  - "efficiency"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "context-engineering"
 subtheme:
-  - compaction-caching
-  - cost-tokens
+  - "compaction-caching"
+  - "cost-tokens"
 ---
 
 # This Tool Fixes AI Coding at Scale with 70x Fewer Tokens (Graphify)

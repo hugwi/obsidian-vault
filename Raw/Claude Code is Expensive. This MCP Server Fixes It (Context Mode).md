@@ -1,18 +1,19 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents]
+domain: "[agentic-engineering, ai-agents]"
 tags:
-  - efficiency
-  - mcp
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: context-engineering
+  - "efficiency"
+  - "mcp"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "context-engineering"
 subtheme:
-  - cost-tokens
-  - compaction-caching
+  - "cost-tokens"
+  - "compaction-caching"
 ---
 
 # Claude Code is Expensive. This MCP Server Fixes It (Context Mode)

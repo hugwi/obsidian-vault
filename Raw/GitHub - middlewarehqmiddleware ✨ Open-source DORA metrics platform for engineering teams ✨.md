@@ -1,16 +1,17 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - metrics
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: productivity-measurement
+  - "metrics"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "productivity-measurement"
 subtheme:
-  - dora-delivery-metrics
+  - "dora-delivery-metrics"
 ---
 
 # GitHub - middlewarehq/middleware: ✨ Open-source DORA metrics platform for engineering teams ✨

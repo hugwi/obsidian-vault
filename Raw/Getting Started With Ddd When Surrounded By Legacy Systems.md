@@ -1,14 +1,15 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [software-engineering]
+domain: "[software-engineering]"
 tags:
-  - architecture
-  - ddd
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "architecture"
+  - "ddd"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # Getting Started With Ddd When Surrounded By Legacy Systems

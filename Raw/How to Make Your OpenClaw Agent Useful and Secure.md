@@ -1,19 +1,20 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents]
+domain: "[agentic-engineering, ai-agents]"
 tags:
-  - context-management
-  - memory
-  - tools
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: context-engineering
+  - "context-management"
+  - "memory"
+  - "tools"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "context-engineering"
 subtheme:
-  - memory-persistence
-  - system-prompt-rules
+  - "memory-persistence"
+  - "system-prompt-rules"
 ---
 
 # How to Make Your OpenClaw Agent Useful and Secure

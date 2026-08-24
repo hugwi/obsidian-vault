@@ -1,19 +1,20 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - harness
-  - human-factors
-  - metrics
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: multi-agent-orchestration
+  - "harness"
+  - "human-factors"
+  - "metrics"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "multi-agent-orchestration"
 subtheme:
-  - environment-isolation
-  - coordinator-patterns
+  - "environment-isolation"
+  - "coordinator-patterns"
 ---
 
 # The hidden technical debt of agentic engineering

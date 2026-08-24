@@ -1,19 +1,20 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - context-management
-  - efficiency
-  - human-factors
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: context-engineering
+  - "context-management"
+  - "efficiency"
+  - "human-factors"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "context-engineering"
 subtheme:
-  - memory-persistence
-  - compaction-caching
+  - "memory-persistence"
+  - "compaction-caching"
 ---
 
 # Claude Saves Tokens, Forgets Everything

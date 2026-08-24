@@ -3,12 +3,16 @@ title: "Fully local voice dictation for Pi coding agent : r/PiCodingAgent"
 source: "https://www.reddit.com/r/PiCodingAgent/comments/1ta97mk/fully_local_voice_dictation_for_pi_coding_agent/"
 author:
   - "[[reddit.com]]"
-published: 2026-05-11
-created: 2026-06-29
+published: "2026-05-11"
+created: "2026-06-29"
 description:
 tags:
   - "clippings"
   - "pi-voice"
+  - "agents"
+  - "clip/video"
+  - "local-llm"
+  - "voice-ai"
 ---
 ## Fully local voice dictation for Pi coding agent: no cloud, no API keys
 

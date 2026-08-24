@@ -1,19 +1,20 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - claude-code
-  - harness
-  - workflow-git
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: multi-agent-orchestration
+  - "claude-code"
+  - "harness"
+  - "workflow-git"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "multi-agent-orchestration"
 subtheme:
-  - environment-isolation
-  - skill-tool-extension
+  - "environment-isolation"
+  - "skill-tool-extension"
 ---
 
 # Working on Multiple Branches Without Losing My Mind

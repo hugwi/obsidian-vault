@@ -1,17 +1,18 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents]
+domain: "[agentic-engineering, ai-agents]"
 tags:
-  - claude-code
-  - computer-use
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: human-ux-frontend
+  - "claude-code"
+  - "computer-use"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "human-ux-frontend"
 subtheme:
-  - browser-automation
+  - "browser-automation"
 ---
 
 # Let Claude use your computer from the CLI
