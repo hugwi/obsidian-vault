@@ -30,3 +30,11 @@ Roughly 20%. Enough to get somewhere between sessions without pulling you out of
 A spread across teams, so what the group builds fits more than one codebase.  
   
 DM me by Monday the 24th if you are interested. Questions are just as welcome, as is pushback on the whole idea or thoughts on what it should look like instead
+
+
+
+![[Recording 20260824130653.m4a]]
+
+Interrim för guru
+Site analysiss är PHD 
+AI PM hos oss som blir tillgänglig oktober
