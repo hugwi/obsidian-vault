@@ -1,19 +1,28 @@
 ---
 title: "Claude Fable 5 + New Design Skill = Beautiful $10,000 Websites"
-source: youtube
-url: https://www.youtube.com/watch?v=_2FlJYE4p3Q
+source: "youtube"
+url: "https://www.youtube.com/watch?v=_2FlJYE4p3Q"
 author: "Jack Roberts"
-published: 2026-07-17
-created: 2026-08-24
+published: "2026-07-17"
+created: "2026-08-24"
 duration: "0:13:12"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "business"
+  - "context-engineering"
+  - "skills"
+  - "video-gen"
+  - "web-design"
+  - "youtube-strategy"
+summary: "Fable 5 is the world's best design agent. It builds beautiful, stunning websites that sell for thousands of dollars. And I just found a new skill that lets you build beautiful websites in one shot whilst also keeping your costs low."
 ---
 
 # Claude Fable 5 + New Design Skill = Beautiful $10,000 Websites

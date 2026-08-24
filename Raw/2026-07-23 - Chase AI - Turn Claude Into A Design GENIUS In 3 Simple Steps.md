@@ -1,19 +1,26 @@
 ---
 title: "Turn Claude Into A Design GENIUS In 3 Simple Steps"
-source: youtube
-url: https://www.youtube.com/watch?v=7FU98O0JLHs
+source: "youtube"
+url: "https://www.youtube.com/watch?v=7FU98O0JLHs"
 author: "Chase AI"
-published: 2026-07-23
-created: 2026-08-24
+published: "2026-07-23"
+created: "2026-08-24"
 duration: "0:22:59"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "anthropic"
+  - "business"
+  - "mcp"
+  - "skills"
+  - "video-gen"
+  - "web-design"
+summary: "I'm going to teach you how to defeat the monster known as AI slop in three simple steps. Now, AI slop has taken a number of forms over the years, and it wasn't too long ago that it looked something like this. A generic SaaS template with Inter font everywhere and blue purple gradients."
 ---
 
 # Turn Claude Into A Design GENIUS In 3 Simple Steps

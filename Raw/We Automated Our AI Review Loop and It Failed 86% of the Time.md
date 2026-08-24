@@ -1,20 +1,21 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents]
+domain: "[agentic-engineering, ai-agents]"
 tags:
-  - code-review
-  - harness
-  - orchestration
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: workflow-phases-gates
+  - "code-review"
+  - "harness"
+  - "orchestration"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "workflow-phases-gates"
 subtheme:
-  - human-in-loop
-  - harness-loops
-  - durable-execution
+  - "human-in-loop"
+  - "harness-loops"
+  - "durable-execution"
 ---
 
 # We Automated Our AI Review Loop and It Failed 86% of the Time

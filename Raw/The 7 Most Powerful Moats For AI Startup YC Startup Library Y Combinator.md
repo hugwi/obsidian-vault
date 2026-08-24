@@ -1,14 +1,27 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [product-business]
+domain: "[product-business]"
 tags:
-  - ai-industry
-  - startup
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "ai-industry"
+  - "startup"
+  - "agents"
+  - "anthropic"
+  - "business"
+  - "claude-code"
+  - "clip/video"
+  - "context-engineering"
+  - "evaluation"
+  - "google"
+  - "local-llm"
+  - "openai"
+  - "voice-ai"
+  - "web-design"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+summary: "Host: This idea of moats is so pervasive and so important. Host: It is interesting how moats have just become much more discussed by aspiring startup founders now than they were pre-AI. Host: What is going to prevent you from being basically subject to infinite competition?"
 ---
 
 # The 7 Most Powerful Moats For AI Startup  : YC Startup Library | Y Combinator

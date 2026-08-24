@@ -1,19 +1,20 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents]
+domain: "[agentic-engineering, ai-agents]"
 tags:
-  - harness
-  - orchestration
-  - tools
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: multi-agent-orchestration
+  - "harness"
+  - "orchestration"
+  - "tools"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "multi-agent-orchestration"
 subtheme:
-  - coordinator-patterns
-  - parallel-fan-out
+  - "coordinator-patterns"
+  - "parallel-fan-out"
 ---
 
 # Pi to Pi: Two-Way Agent Orchestration with the Pi Coding Agent

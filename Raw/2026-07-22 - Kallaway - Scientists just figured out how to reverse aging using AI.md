@@ -1,19 +1,21 @@
 ---
 title: "Scientists just figured out how to reverse aging using AI."
-source: youtube
-url: https://www.youtube.com/watch?v=C68pV8nExyI
+source: "youtube"
+url: "https://www.youtube.com/watch?v=C68pV8nExyI"
 author: "Kallaway"
-published: 2026-07-22
-created: 2026-08-24
+published: "2026-07-22"
+created: "2026-08-24"
 duration: "0:01:34"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "openai"
+summary: "Scientists just figured out how to reverse aging with AI. And this is a massive breakthrough. We can now reprogram any human cell [music] back to age 20."
 ---
 
 # Scientists just figured out how to reverse aging using AI.

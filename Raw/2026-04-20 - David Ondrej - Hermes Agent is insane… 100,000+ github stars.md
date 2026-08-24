@@ -1,19 +1,32 @@
 ---
 title: "Hermes Agent is insane… 100,000+ github stars"
-source: youtube
-url: https://www.youtube.com/watch?v=4Sln_6K2z8c
+source: "youtube"
+url: "https://www.youtube.com/watch?v=4Sln_6K2z8c"
 author: "David Ondrej"
-published: 2026-04-20
-created: 2026-08-24
+published: "2026-04-20"
+created: "2026-08-24"
 duration: "0:32:44"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "business"
+  - "engineering"
+  - "google"
+  - "harness-engineering"
+  - "local-llm"
+  - "openai"
+  - "skills"
+  - "video-gen"
+  - "web-design"
+  - "youtube-strategy"
+summary: "My name is David Andre and this video is the clearest explanation on the internet on what Hermes Agent is, what it does, and how to use it. First off, you have to realize that this is becoming the fastest growing and most popular AI agent in the world. Just look at this trajectory of GitHub stars."
 ---
 
 # Hermes Agent is insane… 100,000+ github stars

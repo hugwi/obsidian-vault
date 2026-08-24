@@ -1,19 +1,26 @@
 ---
 title: "Software Engineering Is Becoming Plan and Review — Louis Knight-Webb, Vibe Kanban"
-source: youtube
-url: https://www.youtube.com/watch?v=W76woOYHlvY
+source: "youtube"
+url: "https://www.youtube.com/watch?v=W76woOYHlvY"
 author: "AI Engineer"
-published: 2026-05-02
-created: 2026-08-24
+published: "2026-05-02"
+created: "2026-08-24"
 duration: "0:20:23"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "business"
+  - "context-engineering"
+  - "mcp"
+  - "video-gen"
+  - "web-design"
+summary: "Um this I've This is So, the the title of this is is about planning and review, but I think the real point behind this is like basically what are we all going to do after AI continues to get really, really good. I'm the founder of a startup called Vibe Canvas, and I also started the London chapter of AI Tinkers, uh which is great community um if you're in London looking for events. And you should listen to me because I have done some stuff like get on the SweeBench verified leaderboard ahead of Open AI."
 ---
 
 # Software Engineering Is Becoming Plan and Review — Louis Knight-Webb, Vibe Kanban

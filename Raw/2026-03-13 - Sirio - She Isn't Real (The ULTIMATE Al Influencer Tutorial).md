@@ -1,19 +1,30 @@
 ---
 title: "She Isn't Real (The ULTIMATE Al Influencer Tutorial)"
-source: youtube
-url: https://www.youtube.com/watch?v=PD7LRblgDv8
+source: "youtube"
+url: "https://www.youtube.com/watch?v=PD7LRblgDv8"
 author: "Sirio"
-published: 2026-03-13
-created: 2026-08-24
+published: "2026-03-13"
+created: "2026-08-24"
 duration: "0:20:10"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "engineering"
+  - "google"
+  - "hardware"
+  - "local-llm"
+  - "nvidia"
+  - "video-gen"
+  - "voice-ai"
+  - "web-design"
+  - "youtube-strategy"
+summary: "Today, I'll show you the new way of creating consistent AI influencers that not only look, but also sound real. >> Hey guys, so I need to spill the tea because I cannot hold this any longer. >> Oh my god, this movie is fire, bestie."
 ---
 
 # She Isn't Real (The ULTIMATE Al Influencer Tutorial)

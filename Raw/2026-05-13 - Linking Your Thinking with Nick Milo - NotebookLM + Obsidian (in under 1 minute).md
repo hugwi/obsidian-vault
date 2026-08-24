@@ -1,19 +1,24 @@
 ---
 title: "NotebookLM + Obsidian (in under 1 minute)"
-source: youtube
-url: https://www.youtube.com/watch?v=Lt0Zuyy2Ecw
+source: "youtube"
+url: "https://www.youtube.com/watch?v=Lt0Zuyy2Ecw"
 author: "Linking Your Thinking with Nick Milo"
-published: 2026-05-13
-created: 2026-08-24
+published: "2026-05-13"
+created: "2026-08-24"
 duration: "0:00:59"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "context-engineering"
+  - "video-gen"
+  - "web-design"
+  - "youtube-strategy"
+summary: "How I'm using Notebook LM and why it's become a great companion to my thinking in Obsidian. Create a notebook for each topic you're investigating. On the left are your sources, in the middle you chat with them, and then on the right you create outputs like mind maps, podcasts, and slide decks."
 ---
 
 # NotebookLM + Obsidian (in under 1 minute)

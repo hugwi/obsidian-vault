@@ -1,19 +1,27 @@
 ---
 title: "Agent OS v3: Leaner & Smarter for Building in 2026"
-source: youtube
-url: https://www.youtube.com/watch?v=mcxgLB5-eZc
+source: "youtube"
+url: "https://www.youtube.com/watch?v=mcxgLB5-eZc"
 author: "Brian Casel"
-published: 2026-01-22
-created: 2026-08-24
+published: "2026-01-22"
+created: "2026-08-24"
 duration: "0:23:53"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+  - "local-llm"
+  - "security"
+  - "skills"
+  - "video-gen"
+  - "web-design"
+summary: "Working on legacy code bases is proving to be one of the harder challenges in AI powered development in 2026. Your agents can read every file in your project, but they don't understand why you built things the way that you did. The reasoning behind your conventions, the patterns that your team refined over the years, the architectural decisions that shape everything."
 ---
 
 # Agent OS v3: Leaner & Smarter for Building in 2026

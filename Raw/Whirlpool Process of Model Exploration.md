@@ -1,14 +1,15 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [software-engineering]
+domain: "[software-engineering]"
 tags:
-  - ddd
-  - patterns
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "ddd"
+  - "patterns"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # Whirlpool Process of Model Exploration

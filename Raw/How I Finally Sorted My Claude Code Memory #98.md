@@ -1,18 +1,19 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - claude-code
-  - memory
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: context-engineering
+  - "claude-code"
+  - "memory"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "context-engineering"
 subtheme:
-  - memory-persistence
-  - system-prompt-rules
+  - "memory-persistence"
+  - "system-prompt-rules"
 ---
 
 # How I Finally Sorted My Claude Code Memory | #98

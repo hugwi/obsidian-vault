@@ -1,19 +1,21 @@
 ---
 title: "YC CEO Turned Claude Code Into a Full Team"
-source: youtube
-url: https://www.youtube.com/watch?v=RMkff2_2ZZo
+source: "youtube"
+url: "https://www.youtube.com/watch?v=RMkff2_2ZZo"
 author: "Ikjot Juneja"
-published: 2026-05-24
-created: 2026-08-24
+published: "2026-05-24"
+created: "2026-08-24"
 duration: "0:00:33"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+summary: "CloudCode is powerful, but right now it's just one developer. This turns it into an entire team. The CEO of Y Combinator built it, open-sourced it, and you can install the whole thing in one command."
 ---
 
 # YC CEO Turned Claude Code Into a Full Team

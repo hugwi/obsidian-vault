@@ -1,15 +1,16 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [design, knowledge-management]
+domain: "[design, knowledge-management]"
 tags:
-  - pkm
-  - productivity
-  - ux-ui
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "pkm"
+  - "productivity"
+  - "ux-ui"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # A Live Workshop That Teaches You How to Build A Future-Proof PKM System

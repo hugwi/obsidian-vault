@@ -1,19 +1,23 @@
 ---
 title: "The AI Bubble Survives on $1.65 Trillion in Hidden Debt"
-source: youtube
-url: https://www.youtube.com/watch?v=HXlcMbxzz0U
+source: "youtube"
+url: "https://www.youtube.com/watch?v=HXlcMbxzz0U"
 author: "Casual Finance"
-published: 2026-08-01
-created: 2026-08-24
+published: "2026-08-01"
+created: "2026-08-24"
 duration: "0:14:54"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "nvidia"
+  - "video-gen"
+  - "voice-ai"
+summary: "In fact, you've probably seen so many of them that the numbers have stopped meaning anything. Every week it's another hundred billion, another mega campus, another record. The numbers have gotten so big, they've stopped registering at all."
 ---
 
 # The AI Bubble Survives on $1.65 Trillion in Hidden Debt

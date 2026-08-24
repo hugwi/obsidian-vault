@@ -1,13 +1,14 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [ai-agents]
+domain: "[ai-agents]"
 tags:
-  - computer-use
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "computer-use"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # GitHub - EvolvingSoftware/screen-pipe: Record your screen & mic 24/7 and connect it to LLMs. Inspired by adept.ai, rewind.ai, Apple Shortcut. Written in Rust. Free. You own your data.

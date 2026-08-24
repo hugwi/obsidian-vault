@@ -1,19 +1,28 @@
 ---
 title: "No Vibes Allowed: Solving Hard Problems in Complex Codebases – Dex Horthy, HumanLayer"
-source: youtube
-url: https://www.youtube.com/watch?v=rmvDxxNubIg
+source: "youtube"
+url: "https://www.youtube.com/watch?v=rmvDxxNubIg"
 author: "AI Engineer"
-published: 2025-12-02
-created: 2026-08-24
+published: "2025-12-02"
+created: "2026-08-24"
 duration: "0:20:31"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+  - "engineering"
+  - "harness-engineering"
+  - "mcp"
+  - "skills"
+  - "web-design"
+  - "youtube-strategy"
+summary: "Uh, as they did in the great intro, I've been hacking on agents for a while. Um, our talk 12 factor agents at AI engineer in June was one of the top talks of all time. Uh, I think top eight or something."
 ---
 
 # No Vibes Allowed: Solving Hard Problems in Complex Codebases – Dex Horthy, HumanLayer

@@ -1,19 +1,21 @@
 ---
 title: "AI Skills Gap: CEOs Panic Over Employee AI Adoption!  #ai #entrepreneur #newtech #businesstips"
-source: youtube
-url: https://www.youtube.com/watch?v=yk9nwRvRA28
+source: "youtube"
+url: "https://www.youtube.com/watch?v=yk9nwRvRA28"
 author: "Ai Gains "
-published: 2026-06-12
-created: 2026-08-24
+published: "2026-06-12"
+created: "2026-08-24"
 duration: "0:00:30"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "skills"
+summary: "There's another stat that's really interesting, and I need to show it to you guys because it's like a big gap that is causing a lot of panic amongst CEOs right now. But, the same CEOs are saying that 86% of their employees do actually have the skills to use AI, or at least could pick them up with just a little bit of training. 86% have the skills, but 25% actually use them."
 ---
 
 # AI Skills Gap: CEOs Panic Over Employee AI Adoption!  #ai #entrepreneur #newtech #businesstips

@@ -1,19 +1,22 @@
 ---
 title: "How To Make Free AI Videos In 2026 (complete guide)"
-source: youtube
-url: https://www.youtube.com/watch?v=hrwO990F2ew
+source: "youtube"
+url: "https://www.youtube.com/watch?v=hrwO990F2ew"
 author: "Skai Generated"
-published: 2026-07-12
-created: 2026-08-24
+published: "2026-07-12"
+created: "2026-08-24"
 duration: "0:10:01"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "google"
+  - "video-gen"
+summary: "This entire [music] scene was made with 100% free AI tools. No annoying subscriptions or having to budget any credits. And honestly, this would have been impossible a year ago."
 ---
 
 # How To Make Free AI Videos In 2026 (complete guide)

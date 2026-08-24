@@ -1,19 +1,25 @@
 ---
 title: "The most trusted code on Earth is being rewritten in Rust"
-source: youtube
-url: https://www.youtube.com/watch?v=Sntj4HmuykI
+source: "youtube"
+url: "https://www.youtube.com/watch?v=Sntj4HmuykI"
 author: "Fireship"
-published: 2026-06-19
-created: 2026-08-24
+published: "2026-06-19"
+created: "2026-08-24"
 duration: "0:05:19"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+  - "engineering"
+  - "security"
+  - "video-gen"
+summary: "An application developer named D. Richard Hipp was working on damage control software for US Navy guided missile destroyers. Yes, a terrorist attack was about to change the world as we knew it, but the bigger problem was that the app Hipp was building relied on a SQL database, and whenever the database server went down, his app would, too."
 ---
 
 # The most trusted code on Earth is being rewritten in Rust

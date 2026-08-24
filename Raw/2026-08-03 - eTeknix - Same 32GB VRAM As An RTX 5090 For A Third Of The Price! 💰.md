@@ -1,19 +1,23 @@
 ---
 title: "Same 32GB VRAM As An RTX 5090 For A Third Of The Price! 💰"
-source: youtube
-url: https://www.youtube.com/watch?v=rgjeBXe9cTs
+source: "youtube"
+url: "https://www.youtube.com/watch?v=rgjeBXe9cTs"
 author: "eTeknix"
-published: 2026-08-03
-created: 2026-08-24
+published: "2026-08-03"
+created: "2026-08-24"
 duration: "0:01:52"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "context-engineering"
+  - "hardware"
+  - "local-llm"
+summary: "This GPU from AMD has the same 32 GB VRAM as an RTX 5090, but instead of costing a $4,500 scalper premium, it costs just a third of that, around $1,350. Now, [snorts] before you try shoving this into your next 4K gaming build, there is a massive catch, as this is the Radeon AI Pro R9700, and it's, well, officially an enterprise workstation card built for developers to run massive local language models without paying hourly cloud server fees. But the crazy part is that underneath that professional branding, this is essentially just a consumer Radeon RX 9700 XT."
 ---
 
 # Same 32GB VRAM As An RTX 5090 For A Third Of The Price! 💰

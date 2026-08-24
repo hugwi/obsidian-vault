@@ -1,19 +1,35 @@
 ---
 title: "It’s Broken… The Codex vs Claude Code Debate Is Finally Over"
-source: youtube
-url: https://www.youtube.com/watch?v=8ImlAQOyVTs
+source: "youtube"
+url: "https://www.youtube.com/watch?v=8ImlAQOyVTs"
 author: "AI LABS"
-published: 2026-05-02
-created: 2026-08-24
+published: "2026-05-02"
+created: "2026-08-24"
 duration: "0:15:52"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "business"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "harness-engineering"
+  - "local-llm"
+  - "mcp"
+  - "openai"
+  - "security"
+  - "skills"
+  - "video-gen"
+  - "web-design"
+  - "youtube-strategy"
+summary: "For a long time, everyone's go-to model for coding was Claude. Not only because it performed well, but because there weren't other options on the same tier. Then GPT models stepped up and closed the gap, especially with the release of GPT 5.5, which brought it down to almost none."
 ---
 
 # It’s Broken… The Codex vs Claude Code Debate Is Finally Over

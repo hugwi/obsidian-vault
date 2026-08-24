@@ -1,19 +1,25 @@
 ---
 title: "\"Software Fundamentals Matter More Than Ever\" — Matt Pocock"
-source: youtube
-url: https://www.youtube.com/watch?v=v4F1gFy-hqg
+source: "youtube"
+url: "https://www.youtube.com/watch?v=v4F1gFy-hqg"
 author: "AI Engineer"
-published: 2026-04-23
-created: 2026-08-24
+published: "2026-04-23"
+created: "2026-08-24"
 duration: "0:18:26"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "engineering"
+  - "hardware"
+  - "skills"
+  - "youtube-strategy"
+summary: "Having a good conference so far? Are you having a good conference so far? I have a message for you that I hope will be um a comforting message for folks who believe that uh their skill set is no longer worth anything in this new age, which is I believe that software fundamentals matter now more than they actually ever have."
 ---
 
 # "Software Fundamentals Matter More Than Ever" — Matt Pocock

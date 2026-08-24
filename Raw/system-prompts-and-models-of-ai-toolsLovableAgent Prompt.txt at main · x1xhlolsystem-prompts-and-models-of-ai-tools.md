@@ -1,18 +1,19 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents, design]
+domain: "[agentic-engineering, ai-agents, design]"
 tags:
-  - harness
-  - tools
-  - ux-ui
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: agents-models
+  - "harness"
+  - "tools"
+  - "ux-ui"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "agents-models"
 subtheme:
-  - coding-agent-platforms
+  - "coding-agent-platforms"
 ---
 
 # system-prompts-and-models-of-ai-tools/Lovable/Agent Prompt.txt at main · x1xhlol/system-prompts-and-models-of-ai-tools

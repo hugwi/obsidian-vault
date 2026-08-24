@@ -1,19 +1,21 @@
 ---
 title: "I won first place in a special Claude hackathon in NYC"
-source: youtube
-url: https://www.youtube.com/watch?v=wsj3H8bIO_o
+source: "youtube"
+url: "https://www.youtube.com/watch?v=wsj3H8bIO_o"
 author: "mixikid"
-published: 2026-04-22
-created: 2026-08-24
+published: "2026-04-22"
+created: "2026-08-24"
 duration: "0:00:59"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "web-design"
+summary: "Clod invited me to compete in a special hackathon in New York City and I won first place. The day started off in the Asian Art Department in the Met where competitors had to find a way to make art more immersive for museum visitors. My idea was to allow users to upload photos to a website and then turn the instruments in the painting into virtual playable versions."
 ---
 
 # I won first place in a special Claude hackathon in NYC

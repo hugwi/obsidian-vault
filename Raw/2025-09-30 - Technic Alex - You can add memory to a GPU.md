@@ -1,19 +1,25 @@
 ---
 title: "You can add memory to a GPU"
-source: youtube
-url: https://www.youtube.com/watch?v=a4ePX1TTd5I
+source: "youtube"
+url: "https://www.youtube.com/watch?v=a4ePX1TTd5I"
 author: "Technic Alex"
-published: 2025-09-30
-created: 2026-08-24
+published: "2025-09-30"
+created: "2026-08-24"
 duration: "0:01:02"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "context-engineering"
+  - "hardware"
+  - "nvidia"
+  - "skills"
+  - "video-gen"
+summary: "And while this video is a joke, you can actually add more RAM to a graphics card. Chinese modders have figured out how to take graphics cards like the RTX 4090 with 24 GB of memory and turn them into 48 GB cards, with some modders pushing the RTX 5090s all the way to 128 GB. The process involves completely desoldering the GPU chip and all the memory modules from the original card, then mounting everything onto a custom PCB that accepts memory chips on both sides."
 ---
 
 # You can add memory to a GPU

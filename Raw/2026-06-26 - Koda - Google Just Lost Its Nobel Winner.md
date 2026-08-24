@@ -1,19 +1,23 @@
 ---
 title: "Google Just Lost Its Nobel Winner"
-source: youtube
-url: https://www.youtube.com/watch?v=ilTt5yD7Lc8
+source: "youtube"
+url: "https://www.youtube.com/watch?v=ilTt5yD7Lc8"
 author: "Koda"
-published: 2026-06-26
-created: 2026-08-24
+published: "2026-06-26"
+created: "2026-08-24"
 duration: "0:01:00"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "anthropic"
+  - "google"
+  - "openai"
+summary: "A Nobel Prize winner just left Google and almost no one's talking about why it matters. John Jumper taught AI to fold proteins. Nearly 9 years building DeepMind and on Friday he left for Anthropic and he wasn't alone."
 ---
 
 # Google Just Lost Its Nobel Winner

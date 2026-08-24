@@ -1,19 +1,23 @@
 ---
 title: "Make the Most Realistic AI Videos Possible (Step-by-Step Tutorial)"
-source: youtube
-url: https://www.youtube.com/watch?v=httdmxu0N7k
+source: "youtube"
+url: "https://www.youtube.com/watch?v=httdmxu0N7k"
 author: "Curious Refuge"
-published: 2025-08-29
-created: 2026-08-24
+published: "2025-08-29"
+created: "2026-08-24"
 duration: "0:19:14"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "google"
+  - "video-gen"
+  - "youtube-strategy"
+summary: "AI video tools are now more realistic than ever before. But if you're only using one tool to generate your footage, it's not going to look realistic. We've tested all of the creative AI tools on the market to give you what we believe to be the very best workflow for getting maximum quality."
 ---
 
 # Make the Most Realistic AI Videos Possible (Step-by-Step Tutorial)

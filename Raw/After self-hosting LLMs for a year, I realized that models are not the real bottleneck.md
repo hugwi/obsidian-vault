@@ -1,13 +1,14 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [ai-agents]
+domain: "[ai-agents]"
 tags:
-  - models
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "models"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # After self-hosting LLMs for a year, I realized that models are not the real bottleneck

@@ -1,19 +1,23 @@
 ---
 title: "How I made an AI influencer with ComfyUI WAN 2.2"
-source: youtube
-url: https://www.youtube.com/watch?v=qz_v-ZPlQSw
+source: "youtube"
+url: "https://www.youtube.com/watch?v=qz_v-ZPlQSw"
 author: "Tensor Works"
-published: 2026-05-01
-created: 2026-08-24
+published: "2026-05-01"
+created: "2026-08-24"
 duration: "0:01:55"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "hardware"
+  - "video-gen"
+  - "youtube-strategy"
+summary: "Can you tell which one is real? Because neither of them actually are. Both videos were generated using a Comfy UI workflow I built called Ultimate Motion."
 ---
 
 # How I made an AI influencer with ComfyUI WAN 2.2

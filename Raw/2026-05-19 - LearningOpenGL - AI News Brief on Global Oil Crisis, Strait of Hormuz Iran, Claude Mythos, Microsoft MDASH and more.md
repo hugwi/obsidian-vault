@@ -1,19 +1,26 @@
 ---
 title: "AI News Brief on Global Oil Crisis, Strait of Hormuz Iran, Claude Mythos, Microsoft MDASH and more"
-source: youtube
-url: https://www.youtube.com/watch?v=1JH6KHjTfS0
+source: "youtube"
+url: "https://www.youtube.com/watch?v=1JH6KHjTfS0"
 author: "LearningOpenGL"
-published: 2026-05-19
-created: 2026-08-24
+published: "2026-05-19"
+created: "2026-08-24"
 duration: "0:13:46"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "engineering"
+  - "evaluation"
+  - "google"
+  - "microsoft"
+  - "video-gen"
+summary: "I should have music or something. Let's just have it turned it down. Let's go adjust the music to turn it down."
 ---
 
 # AI News Brief on Global Oil Crisis, Strait of Hormuz Iran, Claude Mythos, Microsoft MDASH and more

@@ -1,19 +1,28 @@
 ---
 title: "You Can't Compete on Cheap Models Anymore"
-source: youtube
-url: https://www.youtube.com/watch?v=1cSNE-ZkDLQ
+source: "youtube"
+url: "https://www.youtube.com/watch?v=1cSNE-ZkDLQ"
 author: "AI News & Strategy Daily | Nate B Jones"
-published: 2026-07-05
-created: 2026-08-24
+published: "2026-07-05"
+created: "2026-08-24"
 duration: "0:15:39"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "anthropic"
+  - "apple"
+  - "context-engineering"
+  - "evaluation"
+  - "google"
+  - "harness-engineering"
+  - "security"
+  - "video-gen"
+summary: "Here's something strange that everyone using AI is noticing right around the same time. You can produce more than ever and yet somehow everything's starting to feel the same. Your output, your competitors output, half of what's in your feed all looks really similar, right?"
 ---
 
 # You Can't Compete on Cheap Models Anymore

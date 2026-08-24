@@ -1,19 +1,26 @@
 ---
 title: "NEW Hermes AI Voice Agent is INSANE!"
-source: youtube
-url: https://www.youtube.com/watch?v=oVQkh6-krb8
+source: "youtube"
+url: "https://www.youtube.com/watch?v=oVQkh6-krb8"
 author: "Julian Goldie SEO"
-published: 2026-06-02
-created: 2026-08-24
+published: "2026-06-02"
+created: "2026-08-24"
 duration: "0:07:29"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+  - "local-llm"
+  - "video-gen"
+  - "voice-ai"
+  - "web-design"
+summary: "Today, I'm going to show you a powerful way to create a voice agent. And this is using Hermes agent so that we can just talk to it. And this is built into a whole agent operating system."
 ---
 
 # NEW Hermes AI Voice Agent is INSANE!

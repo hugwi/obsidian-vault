@@ -1,19 +1,31 @@
 ---
 title: "Your Attention Is the Bottleneck, Not Your Agents — Zack Proser, WorkOS"
-source: youtube
-url: https://www.youtube.com/watch?v=so9l_MwS2yg
+source: "youtube"
+url: "https://www.youtube.com/watch?v=so9l_MwS2yg"
 author: "AI Engineer"
-published: 2026-06-11
-created: 2026-08-24
+published: "2026-06-11"
+created: "2026-08-24"
 duration: "0:25:17"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "harness-engineering"
+  - "local-llm"
+  - "mcp"
+  - "openai"
+  - "skills"
+  - "voice-ai"
+summary: "Uh WorkOS is um provides drop-in APIs that allow you to take your software and go upmarket and sell larger deals to enterprises. Uh but what I'm going to talk about now is um sort of the way that I'm finding to try and maintain balance with all the insane new tools that we're getting every day. And like adrenaline dumping constantly."
 ---
 
 # Your Attention Is the Bottleneck, Not Your Agents — Zack Proser, WorkOS

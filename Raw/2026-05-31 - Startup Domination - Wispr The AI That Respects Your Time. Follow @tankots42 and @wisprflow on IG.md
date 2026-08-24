@@ -1,19 +1,21 @@
 ---
 title: "Wispr The AI That Respects Your Time. Follow @tankots42 and @wisprflow on IG."
-source: youtube
-url: https://www.youtube.com/watch?v=ZqtcPs2DOHI
+source: "youtube"
+url: "https://www.youtube.com/watch?v=ZqtcPs2DOHI"
 author: "Startup Domination"
-published: 2026-05-31
-created: 2026-08-24
+published: "2026-05-31"
+created: "2026-08-24"
 duration: "0:00:36"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "voice-ai"
+summary: "We will have a personality for Whisper. In terms of custom personalities, that is not I would say the main thing that matters. The main thing that matters is [music] as a user, you need to feel that Whisper respects you, respects your time, and you need to feel like you respect Whisper."
 ---
 
 # Wispr The AI That Respects Your Time. Follow @tankots42 and @wisprflow on IG.

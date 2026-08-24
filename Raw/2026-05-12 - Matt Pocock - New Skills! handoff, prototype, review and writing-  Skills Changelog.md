@@ -1,19 +1,26 @@
 ---
 title: "New Skills! /handoff, /prototype, /review and /writing-* | Skills Changelog"
-source: youtube
-url: https://www.youtube.com/watch?v=DNqsMXH6Eog
+source: "youtube"
+url: "https://www.youtube.com/watch?v=DNqsMXH6Eog"
 author: "Matt Pocock"
-published: 2026-05-12
-created: 2026-08-24
+published: "2026-05-12"
+created: "2026-08-24"
 duration: "0:12:46"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "evaluation"
+  - "skills"
+  - "video-gen"
+summary: "The skills repo continues to go absolutely freaking nuts, cresting 70k stars just the last couple of days. And of course, I have continued working on it, so there is plenty more to look at in this week's change log. The big news is that I have added two brand new skills."
 ---
 
 # New Skills! /handoff, /prototype, /review and /writing-* | Skills Changelog

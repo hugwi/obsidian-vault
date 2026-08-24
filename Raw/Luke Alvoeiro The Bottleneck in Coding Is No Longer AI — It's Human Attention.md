@@ -1,18 +1,19 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - harness
-  - human-factors
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: multi-agent-orchestration
+  - "harness"
+  - "human-factors"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "multi-agent-orchestration"
 subtheme:
-  - coordinator-patterns
-  - parallel-fan-out
+  - "coordinator-patterns"
+  - "parallel-fan-out"
 ---
 
 # Luke Alvoeiro: The Bottleneck in Coding Is No Longer AI — It's Human Attention

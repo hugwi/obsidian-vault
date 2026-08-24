@@ -1,19 +1,30 @@
 ---
 title: "They Ignored My Tool Stack and Built Something Better--The 4 Patterns That Work"
-source: youtube
-url: https://www.youtube.com/watch?v=_gPODg6br5w
+source: "youtube"
+url: "https://www.youtube.com/watch?v=_gPODg6br5w"
 author: "AI News & Strategy Daily | Nate B Jones"
-published: 2026-01-19
-created: 2026-08-24
+published: "2026-01-19"
+created: "2026-08-24"
 duration: "0:26:05"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "google"
+  - "local-llm"
+  - "skills"
+  - "video-gen"
+  - "voice-ai"
+summary: "There are four principles that separate people who successfully build AI systems from people who get stuck and then just give up. And I didn't learn these from a textbook. And I'm also not making them up."
 ---
 
 # They Ignored My Tool Stack and Built Something Better--The 4 Patterns That Work

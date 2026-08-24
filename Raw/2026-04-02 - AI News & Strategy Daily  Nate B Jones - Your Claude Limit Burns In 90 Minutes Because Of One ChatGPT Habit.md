@@ -1,19 +1,34 @@
 ---
 title: "Your Claude Limit Burns In 90 Minutes Because Of One ChatGPT Habit."
-source: youtube
-url: https://www.youtube.com/watch?v=5ztI_dbj6ek
+source: "youtube"
+url: "https://www.youtube.com/watch?v=5ztI_dbj6ek"
 author: "AI News & Strategy Daily | Nate B Jones"
-published: 2026-04-02
-created: 2026-08-24
+published: "2026-04-02"
+created: "2026-08-24"
 duration: "0:26:35"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "apple"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "google"
+  - "hardware"
+  - "local-llm"
+  - "mcp"
+  - "nvidia"
+  - "security"
+  - "skills"
+  - "video-gen"
+summary: "The next generation models is likely to drop in the next one to two months. I'm talking about Claude Mythos. I'm talking about whatever chat GPT drops next."
 ---
 
 # Your Claude Limit Burns In 90 Minutes Because Of One ChatGPT Habit.

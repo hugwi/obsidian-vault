@@ -1,19 +1,26 @@
 ---
 title: "The 1-Bit Trick That Makes Giant Models Tiny #ai #tech #shorts"
-source: youtube
-url: https://www.youtube.com/watch?v=inu3Ob1-yTY
+source: "youtube"
+url: "https://www.youtube.com/watch?v=inu3Ob1-yTY"
 author: "DIY Smart Code"
-published: 2026-07-14
-created: 2026-08-24
+published: "2026-07-14"
+created: "2026-08-24"
 duration: "0:02:02"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "apple"
+  - "context-engineering"
+  - "evaluation"
+  - "hardware"
+  - "local-llm"
+summary: "A 27-billion parameter model running on an iPhone. A Caltech spin-off called PrismML just pulled it off. Not with normal compression, but with patented math."
 ---
 
 # The 1-Bit Trick That Makes Giant Models Tiny #ai #tech #shorts

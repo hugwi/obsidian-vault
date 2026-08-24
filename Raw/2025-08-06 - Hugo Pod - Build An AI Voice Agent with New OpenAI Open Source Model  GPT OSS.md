@@ -1,19 +1,25 @@
 ---
 title: "Build An AI Voice Agent with New OpenAI Open Source Model | GPT OSS"
-source: youtube
-url: https://www.youtube.com/watch?v=Bleq8n6uwnQ
+source: "youtube"
+url: "https://www.youtube.com/watch?v=Bleq8n6uwnQ"
 author: "Hugo Pod"
-published: 2025-08-06
-created: 2026-08-24
+published: "2025-08-06"
+created: "2026-08-24"
 duration: "0:13:58"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "engineering"
+  - "openai"
+  - "video-gen"
+  - "voice-ai"
+summary: "So just yesterday at the time of recording this video, OpenAI released their first open source models since GPT2 uh they released two variants GPT OSS 120 bill and OSS 20 bill. So a larger and a smaller parameter model. And in this video I'm going to show you how to build a fully functioning AI voice agent with these new open source models from start to finish."
 ---
 
 # Build An AI Voice Agent with New OpenAI Open Source Model | GPT OSS

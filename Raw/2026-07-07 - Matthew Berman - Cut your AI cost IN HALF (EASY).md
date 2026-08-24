@@ -1,19 +1,29 @@
 ---
 title: "Cut your AI cost IN HALF (EASY)"
-source: youtube
-url: https://www.youtube.com/watch?v=1KKB_UiW6ls
+source: "youtube"
+url: "https://www.youtube.com/watch?v=1KKB_UiW6ls"
 author: "Matthew Berman"
-published: 2026-07-07
-created: 2026-08-24
+published: "2026-07-07"
+created: "2026-08-24"
 duration: "0:18:34"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "harness-engineering"
+  - "openai"
+  - "security"
+  - "skills"
+  - "video-gen"
+  - "web-design"
+summary: "I know this very well, but I am here to help you. Turns out there's actually a very straightforward and simple way to save 90 plus percent on your AI bill, and I'm going to show you how to do it. That is what we're going to be talking about today."
 ---
 
 # Cut your AI cost IN HALF (EASY)

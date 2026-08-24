@@ -1,19 +1,23 @@
 ---
 title: "DeepSeek V4 Flash is INSANE"
-source: youtube
-url: https://www.youtube.com/watch?v=I_ap_mlJBqg
+source: "youtube"
+url: "https://www.youtube.com/watch?v=I_ap_mlJBqg"
 author: "David Ondrej"
-published: 2026-08-04
-created: 2026-08-24
+published: "2026-08-04"
+created: "2026-08-24"
 duration: "0:01:11"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "anthropic"
+  - "evaluation"
+  - "local-llm"
+summary: "What do you think about Dipsy before flash release? >> I think it's a insane model. Like the performance is literally better than models that are 10 times bigger and it's like 274 billion parameters and you can run it on a single DGX park."
 ---
 
 # DeepSeek V4 Flash is INSANE

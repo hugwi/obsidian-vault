@@ -1,18 +1,19 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents]
+domain: "[agentic-engineering, ai-agents]"
 tags:
-  - claude-code
-  - metrics
-  - tools
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: human-ux-frontend
+  - "claude-code"
+  - "metrics"
+  - "tools"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "human-ux-frontend"
 subtheme:
-  - ide-chat-ux
+  - "ide-chat-ux"
 ---
 
 # Running AI Coding Agents From My Phone (it’s getting out of hand)

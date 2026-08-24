@@ -1,19 +1,26 @@
 ---
 title: "I Cloned a $17M Startup in 1 Day 🤯 #coding #programming #reactjs #aiworkflow #tldraw #comfyui"
-source: youtube
-url: https://www.youtube.com/watch?v=AYIDokK2nRI
+source: "youtube"
+url: "https://www.youtube.com/watch?v=AYIDokK2nRI"
 author: "tldraw"
-published: 2025-12-10
-created: 2026-08-24
+published: "2025-12-10"
+created: "2026-08-24"
 duration: "0:01:20"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "business"
+  - "video-gen"
+summary: "I cloned the functionality of a $17 
+million startup in a single day. The startup is called ComfyUI, and it's an 
+amazing tool for building generative media pipelines. Instead of using it, 
+I wanted something that was smaller and purpose built for creating and animating 
+assets for a video game that I'm creating."
 ---
 
 # I Cloned a $17M Startup in 1 Day 🤯 #coding #programming #reactjs #aiworkflow #tldraw #comfyui

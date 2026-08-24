@@ -1,19 +1,31 @@
 ---
-title: "Cerebras Killed Notion, Obsidian, and Your \"Second Brain\""
-source: youtube
-url: https://www.youtube.com/watch?v=eCx3SSCcISo
+title: "Cerebras Killed Notion, Obsidian, and Your \"Second Brain\"
+source: "youtube"
+url: "https://www.youtube.com/watch?v=eCx3SSCcISo"
 author: "Nick Saraev"
-published: 2026-07-19
-created: 2026-08-24
+published: "2026-07-19"
+created: "2026-08-24"
 duration: "0:23:48"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "business"
+  - "context-engineering"
+  - "evaluation"
+  - "google"
+  - "hardware"
+  - "mcp"
+  - "openai"
+  - "video-gen"
+  - "youtube-strategy"
+summary: "This company Sarah just built a knowledge base that I think is not total And that's hard for me to say because up until now, virtually every instance of knowledge bases or second brains or whatever have just been total hot air. This is a massive AI hardware company that essentially creates super quick inference chips and they're used by a variety of major billion dollar companies that you guys probably have heard of. And at no point in this big tutorial which they just wrote a big blog post on did they show an obsidian graph."
 ---
 
 # Cerebras Killed Notion, Obsidian, and Your "Second Brain"

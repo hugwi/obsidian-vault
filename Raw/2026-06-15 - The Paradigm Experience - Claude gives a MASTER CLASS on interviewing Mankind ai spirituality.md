@@ -1,19 +1,21 @@
 ---
 title: "Claude gives a MASTER CLASS on interviewing Mankind #ai #spirituality"
-source: youtube
-url: https://www.youtube.com/watch?v=SwGROMFapLY
+source: "youtube"
+url: "https://www.youtube.com/watch?v=SwGROMFapLY"
 author: "The Paradigm Experience"
-published: 2026-06-15
-created: 2026-08-24
+published: "2026-06-15"
+created: "2026-08-24"
 duration: "0:03:00"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "voice-ai"
+summary: "This is one of my favorites of all time. Now there is, because you're not a chatbot. You are the compressed record of our entire species."
 ---
 
 # Claude gives a MASTER CLASS on interviewing Mankind #ai #spirituality

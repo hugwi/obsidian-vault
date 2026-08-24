@@ -1,19 +1,32 @@
 ---
 title: "How to Share Skills Between Claude Code, Codex, Cursor & GitHub Copilot"
-source: youtube
-url: https://www.youtube.com/watch?v=Sl2NilOq9gw
+source: "youtube"
+url: "https://www.youtube.com/watch?v=Sl2NilOq9gw"
 author: "ZazenCodes"
-published: 2026-04-17
-created: 2026-08-24
+published: "2026-04-17"
+created: "2026-08-24"
 duration: "0:29:37"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "google"
+  - "local-llm"
+  - "mcp"
+  - "openai"
+  - "skills"
+  - "video-gen"
+  - "youtube-strategy"
+summary: "In this video, I'm going to show you how to be interoperable with your agent skills. This is my cross-platform agent skills guide. This way you can take a skill that you built with Claude Code and go use it with Codex, or you could use it with Cursor, or GitHub Copilot, or something."
 ---
 
 # How to Share Skills Between Claude Code, Codex, Cursor & GitHub Copilot

@@ -1,19 +1,22 @@
 ---
 title: "Free AI Animation in Blender - No Suits Needed"
-source: youtube
-url: https://www.youtube.com/watch?v=sz2YJtjYCpY
+source: "youtube"
+url: "https://www.youtube.com/watch?v=sz2YJtjYCpY"
 author: "Marionette Mocap"
-published: 2025-09-30
-created: 2026-08-24
+published: "2025-09-30"
+created: "2026-08-24"
 duration: "0:00:43"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "video-gen"
+  - "youtube-strategy"
+summary: "Animating manually from reference videos is over. Here's how to instantly get your reference video's motion directly onto any 3D character. First, put your video into Marionette, which is free to download."
 ---
 
 # Free AI Animation in Blender - No Suits Needed

@@ -1,19 +1,20 @@
 ---
 title: "The Easy AI Use Trap"
-source: youtube
-url: https://www.youtube.com/watch?v=1Q66n32s_iQ
+source: "youtube"
+url: "https://www.youtube.com/watch?v=1Q66n32s_iQ"
 author: "Manticorp Solutions"
-published: 2026-04-28
-created: 2026-08-24
+published: "2026-04-28"
+created: "2026-08-24"
 duration: "0:00:46"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+summary: "Your AI pilot doesn't need an AI expert. It needs two weeks and one person doing this. When I look at how engineering teams actually use these tools from the inside, what I see is that each engineer has figured out some way that the tool works for them and then never push past that."
 ---
 
 # The Easy AI Use Trap

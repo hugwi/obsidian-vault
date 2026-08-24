@@ -1,19 +1,28 @@
 ---
 title: "Everything we knew about software has changed — Theo Browne, @t3dotgg ​"
-source: youtube
-url: https://www.youtube.com/watch?v=xUnRQ9vLXxo
+source: "youtube"
+url: "https://www.youtube.com/watch?v=xUnRQ9vLXxo"
 author: "AI Engineer"
-published: 2026-07-08
-created: 2026-08-24
+published: "2026-07-08"
+created: "2026-08-24"
 duration: "0:16:01"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "apple"
+  - "business"
+  - "context-engineering"
+  - "engineering"
+  - "video-gen"
+  - "youtube-strategy"
+summary: "Fantastic to see you guys here. I still can't believe they're letting me take a stage at something like this, a YouTuber apparently, but can't wait to share a bit about how I've been thinking because if I'm being real, kind of going through some AI psychosis. Who here would classify how they feel right now as some form of AI psychosis?"
 ---
 
 # Everything we knew about software has changed — Theo Browne, @t3dotgg ​

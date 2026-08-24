@@ -1,19 +1,25 @@
 ---
 title: "Make your AI agents 3x faster with one line #gemma #aiagents"
-source: youtube
-url: https://www.youtube.com/watch?v=e3e_pSgH1q4
+source: "youtube"
+url: "https://www.youtube.com/watch?v=e3e_pSgH1q4"
 author: "DIY Smart Code"
-published: 2026-06-04
-created: 2026-08-24
+published: "2026-06-04"
+created: "2026-08-24"
 duration: "0:01:47"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "google"
+  - "hardware"
+  - "local-llm"
+  - "skills"
+summary: "Google Gemini just posted this, and it's not a new model. The first iteration of Gemini skills is officially out. A way to teach your agent how to use Gemini, installed in one line."
 ---
 
 # Make your AI agents 3x faster with one line #gemma #aiagents

@@ -28,8 +28,8 @@ media_url_image_generic:
 media_url_image_meta: " https://21st.dev/opengraph-image.png  "
 live_preview_url: "https://cdn.21st.dev/jatin-yadav05/vapour-text-effect/default/bundle.1747562393197.html?theme=dark&dark=true"
 demo_code_url: "https://cdn.21st.dev/jatin-yadav05/vapour-text-effect/default/code.demo.1747562393197.tsx"
-saved_at: 2026-08-05
-created: 2026-08-05
+saved_at: "2026-08-05"
+created: "2026-08-05"
 source: "web-clipper"
 rating:
 action: "review"
@@ -38,6 +38,7 @@ tags:
   - "web-design"
   - "ui"
   - "ux"
+  - "clip/video"
 ---
 # React Components, Templates & Themes — 12,000+ Crafted UI
 

@@ -1,19 +1,32 @@
 ---
 title: "Playwright Myths Busted: Speed, Flakiness, Production Monitoring & AI Test Generation"
-source: youtube
-url: https://www.youtube.com/watch?v=kFv0bRH78xM
+source: "youtube"
+url: "https://www.youtube.com/watch?v=kFv0bRH78xM"
 author: "Checkly"
-published: 2026-04-01
-created: 2026-08-24
+published: "2026-04-01"
+created: "2026-08-24"
 duration: "0:55:57"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "engineering"
+  - "google"
+  - "local-llm"
+  - "mcp"
+  - "microsoft"
+  - "skills"
+  - "video-gen"
+  - "web-design"
+  - "youtube-strategy"
+summary: "Playwright and end-to-end testing myth myths that keep showing up. Uh let's do some housekeeping first. Yes, you will receive a summary of today."
 ---
 
 # Playwright Myths Busted: Speed, Flakiness, Production Monitoring & AI Test Generation

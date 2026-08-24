@@ -1,19 +1,28 @@
 ---
 title: "1,000+ Tokens/Sec: Google Just Shattered the AI Speed Limit (DiffusionGemma)"
-source: youtube
-url: https://www.youtube.com/watch?v=Dxn3BcSgsMY
+source: "youtube"
+url: "https://www.youtube.com/watch?v=Dxn3BcSgsMY"
 author: "Better Stack"
-published: 2026-06-13
-created: 2026-08-24
+published: "2026-06-13"
+created: "2026-08-24"
 duration: "0:12:39"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "business"
+  - "context-engineering"
+  - "evaluation"
+  - "google"
+  - "hardware"
+  - "local-llm"
+  - "video-gen"
+summary: "Google has been on fire lately. Last week I did a video on their groundbreaking encoder-free Gemma 4 model, and this week they dropped another shockingly innovative model. It's called Diffusion Gemma, and this model is blazingly fast."
 ---
 
 # 1,000+ Tokens/Sec: Google Just Shattered the AI Speed Limit (DiffusionGemma)

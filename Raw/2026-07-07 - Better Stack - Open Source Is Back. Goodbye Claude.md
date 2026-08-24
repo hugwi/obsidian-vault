@@ -1,19 +1,29 @@
 ---
 title: "Open Source Is Back. Goodbye Claude."
-source: youtube
-url: https://www.youtube.com/watch?v=wOfm7x0i3sw
+source: "youtube"
+url: "https://www.youtube.com/watch?v=wOfm7x0i3sw"
 author: "Better Stack"
-published: 2026-07-07
-created: 2026-08-24
+published: "2026-07-07"
+created: "2026-08-24"
 duration: "0:07:06"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "evaluation"
+  - "google"
+  - "harness-engineering"
+  - "local-llm"
+  - "openai"
+  - "security"
+summary: "Open code is an open source coding agent that just crossed 180,000 stars on GitHub and it's a direct replacement for tools like Claude code without the glitchy UI and expensive subscriptions. You'll get access to hundreds of models including free and local models, which is pretty cool. Today, we're going to pull apart open code and we're going to compare it to some of the paid alternatives and test whether free and open source really holds up when you're trying to push to production."
 ---
 
 # Open Source Is Back. Goodbye Claude.

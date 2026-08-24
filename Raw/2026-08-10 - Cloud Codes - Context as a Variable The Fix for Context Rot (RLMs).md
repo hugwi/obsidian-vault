@@ -1,19 +1,30 @@
 ---
 title: "Context as a Variable: The Fix for Context Rot (RLMs)"
-source: youtube
-url: https://www.youtube.com/watch?v=k2rkLm1eA9k
+source: "youtube"
+url: "https://www.youtube.com/watch?v=k2rkLm1eA9k"
 author: "Cloud Codes"
-published: 2026-08-10
-created: 2026-08-24
+published: "2026-08-10"
+created: "2026-08-24"
 duration: "0:11:49"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "harness-engineering"
+  - "security"
+  - "skills"
+  - "video-gen"
+  - "youtube-strategy"
+summary: "4 days ago, a repository that had been sitting on GitHub since May went to number one on trending. 10,000 stars on it now, nearly 1,000 forks, and an MIT license, so you can read every line of it. There are no weights anywhere in it."
 ---
 
 # Context as a Variable: The Fix for Context Rot (RLMs)

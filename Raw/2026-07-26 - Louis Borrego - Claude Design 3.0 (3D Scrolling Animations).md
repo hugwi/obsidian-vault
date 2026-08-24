@@ -1,19 +1,24 @@
 ---
 title: "Claude Design 3.0 (3D Scrolling Animations)"
-source: youtube
-url: https://www.youtube.com/watch?v=3eExfC63uSc
+source: "youtube"
+url: "https://www.youtube.com/watch?v=3eExfC63uSc"
 author: "Louis Borrego"
-published: 2026-07-26
-created: 2026-08-24
+published: "2026-07-26"
+created: "2026-08-24"
 duration: "0:04:59"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "anthropic"
+  - "skills"
+  - "video-gen"
+  - "web-design"
+summary: "I'm going to try to do in like three minutes to kind of show you how to how to do as quickly as as possible basically. Uh, but this is a great start because it really gives you an amazing template to start from. Click copy and let's go to a new one."
 ---
 
 # Claude Design 3.0 (3D Scrolling Animations)

@@ -1,19 +1,26 @@
 ---
 title: "Claude Code + Figma MCP Is The Greatest AI Design System I've Ever Used!"
-source: youtube
-url: https://www.youtube.com/watch?v=mBJNfze9H0I
+source: "youtube"
+url: "https://www.youtube.com/watch?v=mBJNfze9H0I"
 author: "WorldofAI"
-published: 2026-02-19
-created: 2026-08-24
+published: "2026-02-19"
+created: "2026-08-24"
 duration: "0:10:08"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "local-llm"
+  - "mcp"
+  - "video-gen"
+  - "web-design"
+  - "youtube-strategy"
+summary: "Enthropic has officially filled one of the biggest gaps in AI powered front-end development with the new bridge between Claude Code and Figma. You can now push what you're building in Claude Code directly into Figma. Thanks to the latest updates to the Figma MCP server, you can now build fully working prototypes in code, then instantly send it to Figma canvas to explore multiple versions visually."
 ---
 
 # Claude Code + Figma MCP Is The Greatest AI Design System I've Ever Used!

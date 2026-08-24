@@ -1,15 +1,16 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [ai-agents, software-engineering]
+domain: "[ai-agents, software-engineering]"
 tags:
-  - computer-use
-  - mcp
-  - security
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "computer-use"
+  - "mcp"
+  - "security"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # WebMCP — The Web Just Got a Bit Smarter (Whether It Wanted To or Not)

@@ -1,19 +1,21 @@
 ---
 title: "Claude Built This Website?"
-source: youtube
-url: https://www.youtube.com/watch?v=zf9k6oB-740
+source: "youtube"
+url: "https://www.youtube.com/watch?v=zf9k6oB-740"
 author: "Code with Me "
-published: 2026-07-07
-created: 2026-08-24
+published: "2026-07-07"
+created: "2026-08-24"
 duration: "0:00:17"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "web-design"
+summary: "Telling all the bluebirds [music] the billing coo birds >> [music] >> to do"
 ---
 
 # Claude Built This Website?

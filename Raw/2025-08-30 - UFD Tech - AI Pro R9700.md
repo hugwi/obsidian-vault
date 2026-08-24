@@ -1,19 +1,23 @@
 ---
 title: "AI Pro R9700"
-source: youtube
-url: https://www.youtube.com/watch?v=hTYYbFIs66o
+source: "youtube"
+url: "https://www.youtube.com/watch?v=hTYYbFIs66o"
 author: "UFD Tech"
-published: 2025-08-30
-created: 2026-08-24
+published: "2025-08-30"
+created: "2026-08-24"
 duration: "0:00:56"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "hardware"
+  - "local-llm"
+  - "nvidia"
+summary: "I bought the AMD graphics card that you never will and I need your help. While this is one of the best generations of cards that Mr. Micro Devices has come out with in a long time, they're still hard to get at a reasonable price, but that goes doubly so for this guy."
 ---
 
 # AI Pro R9700

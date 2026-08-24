@@ -1,9 +1,11 @@
 ---
 categories:
   - "[[Raw]]"
-created: 2026-06-23
-rating: 
-action: 
+created: "2026-06-23"
+rating:
+action:
+tags:
+  - "clip/video"
 ---
 # Now you can track your @opencode and @claudeai CLI coding...
 

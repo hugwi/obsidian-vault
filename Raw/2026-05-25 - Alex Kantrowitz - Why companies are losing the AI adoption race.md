@@ -1,19 +1,20 @@
 ---
 title: "Why companies are losing the AI adoption race?"
-source: youtube
-url: https://www.youtube.com/watch?v=ifaHUn8BViQ
+source: "youtube"
+url: "https://www.youtube.com/watch?v=ifaHUn8BViQ"
 author: "Alex Kantrowitz"
-published: 2026-05-25
-created: 2026-08-24
+published: "2026-05-25"
+created: "2026-08-24"
 duration: "0:01:04"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+summary: "Uh, I don't know how many companies are doing this token waxing thing. I've I've heard of it as a trend, you know, a little bit. There There was this old uh Harvard Business Review article from the '90s."
 ---
 
 # Why companies are losing the AI adoption race?

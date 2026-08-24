@@ -3,10 +3,12 @@ title: "PrimeIntellect-ai/prime-agent: A self-improving RLM agent for coding wor
 source: "https://github.com/PrimeIntellect-ai/prime-agent"
 author:
 published:
-created: 2026-08-24
+created: "2026-08-24"
 description: "A self-improving RLM agent for coding workflows and long-running autonomous tasks. - PrimeIntellect-ai/prime-agent"
 tags:
   - "raw"
+  - "agents"
+  - "clip/video"
 ---
 [![Prime Intellect](https://github.com/user-attachments/assets/6414bc9b-126b-41ca-9307-9e982430cde8)](https://primeintellect.ai/)
 

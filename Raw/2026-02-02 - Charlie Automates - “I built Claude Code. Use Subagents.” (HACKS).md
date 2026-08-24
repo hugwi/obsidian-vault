@@ -1,19 +1,22 @@
 ---
 title: "“I built Claude Code. Use Subagents.” (HACKS)"
-source: youtube
-url: https://www.youtube.com/watch?v=Nn0OyCWer1k
+source: "youtube"
+url: "https://www.youtube.com/watch?v=Nn0OyCWer1k"
 author: "Charlie Automates"
-published: 2026-02-02
-created: 2026-08-24
+published: "2026-02-02"
+created: "2026-08-24"
 duration: "0:01:51"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+summary: "If you are using Claude code and you're not intentionally using sub agents, you're leaving about 99% of its power on the table. Claude code will naturally use sub agents as you ask it to do things. However, learning how to use them intentionally in your workflows is going to make you a better Claude code operator in general."
 ---
 
 # “I built Claude Code. Use Subagents.” (HACKS)

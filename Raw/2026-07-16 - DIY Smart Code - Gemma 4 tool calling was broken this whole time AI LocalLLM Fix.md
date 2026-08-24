@@ -1,19 +1,24 @@
 ---
 title: "Gemma 4 tool calling was broken this whole time #AI #LocalLLM #Fix"
-source: youtube
-url: https://www.youtube.com/watch?v=yGTLgQ6pX48
+source: "youtube"
+url: "https://www.youtube.com/watch?v=yGTLgQ6pX48"
 author: "DIY Smart Code"
-published: 2026-07-16
-created: 2026-08-24
+published: "2026-07-16"
+created: "2026-08-24"
 duration: "0:00:59"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "google"
+  - "hardware"
+  - "local-llm"
+summary: "Google Gemini just posted this. Big fixes are rolling out to Gemini 4. And if the model kept fumbling your tool calls, it was not your prompt."
 ---
 
 # Gemma 4 tool calling was broken this whole time #AI #LocalLLM #Fix

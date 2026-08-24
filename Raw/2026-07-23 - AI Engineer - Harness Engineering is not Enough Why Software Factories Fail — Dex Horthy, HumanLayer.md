@@ -1,19 +1,30 @@
 ---
 title: "Harness Engineering is not Enough: Why Software Factories Fail — Dex Horthy, HumanLayer"
-source: youtube
-url: https://www.youtube.com/watch?v=Ib5GBkD555M
+source: "youtube"
+url: "https://www.youtube.com/watch?v=Ib5GBkD555M"
 author: "AI Engineer"
-published: 2026-07-23
-created: 2026-08-24
+published: "2026-07-23"
+created: "2026-08-24"
 duration: "0:19:17"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "apple"
+  - "context-engineering"
+  - "evaluation"
+  - "harness-engineering"
+  - "microsoft"
+  - "openai"
+  - "skills"
+  - "web-design"
+  - "youtube-strategy"
+summary: "[music] >> What's up everybody? Guys, give it up for all the great speakers today so far. Um >> [applause] >> All right, this is Harness Engineering is not enough and why software factories fail."
 ---
 
 # Harness Engineering is not Enough: Why Software Factories Fail — Dex Horthy, HumanLayer

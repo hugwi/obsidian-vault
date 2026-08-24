@@ -1,19 +1,22 @@
 ---
 title: "/handoff + /teach is awesome for learning while coding"
-source: youtube
-url: https://www.youtube.com/watch?v=8WLi98SEdeU
+source: "youtube"
+url: "https://www.youtube.com/watch?v=8WLi98SEdeU"
 author: "Matt Pocock"
-published: 2026-07-15
-created: 2026-08-24
+published: "2026-07-15"
+created: "2026-08-24"
 duration: "0:01:18"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "skills"
+summary: "Yeah, I actually answered this question the other day, which is what do I do if I'm being grilled about something that I don't understand? You're in a grilling session, you're working with the agent to plan something, and you realize, "Okay, I don't understand this." Well, you can use my handoff skill to hand off to a teaching agent to go to a separate session to try to understand it. Then you pick up the handoff doc with the teach skill in your teaching workspace."
 ---
 
 # /handoff + /teach is awesome for learning while coding

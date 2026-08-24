@@ -1,19 +1,33 @@
 ---
 title: "Practical AI Coding Agent Evaluation with SWE-bench, TeamCity, and Juni | Ernst Haagsman"
-source: youtube
-url: https://www.youtube.com/watch?v=_FUj6gSHbCU
+source: "youtube"
+url: "https://www.youtube.com/watch?v=_FUj6gSHbCU"
 author: "DataTalksClub ⬛"
-published: 2026-04-29
-created: 2026-08-24
+published: "2026-04-29"
+created: "2026-08-24"
 duration: "1:27:18"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "business"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "google"
+  - "harness-engineering"
+  - "local-llm"
+  - "security"
+  - "skills"
+  - "voice-ai"
+  - "web-design"
+summary: "Today we are going to talk about SWE bench. So for me I have heard this thing so many times. So every time a new model is released and you harness is released, you see that that somebody is coming up with a claim now we are the best on this benchmark."
 ---
 
 # Practical AI Coding Agent Evaluation with SWE-bench, TeamCity, and Juni | Ernst Haagsman

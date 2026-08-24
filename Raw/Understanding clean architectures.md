@@ -1,14 +1,15 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [software-engineering]
+domain: "[software-engineering]"
 tags:
-  - architecture
-  - patterns
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "architecture"
+  - "patterns"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # Understanding clean architectures

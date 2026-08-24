@@ -1,13 +1,14 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [design]
+domain: "[design]"
 tags:
-  - ux-ui
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "ux-ui"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # Every UI/UX Concept Explained in Under 10 Minutes

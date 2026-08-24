@@ -1,20 +1,21 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents]
+domain: "[agentic-engineering, ai-agents]"
 tags:
-  - code-quality
-  - harness
-  - human-factors
-  - tools
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: comprehension-maintainability
+  - "code-quality"
+  - "harness"
+  - "human-factors"
+  - "tools"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "comprehension-maintainability"
 subtheme:
-  - code-disposability
-  - comprehension-debt
+  - "code-disposability"
+  - "comprehension-debt"
 ---
 
 # Vibe coding and agentic engineering are getting closer than I’d like

@@ -1,19 +1,32 @@
 ---
 title: "What Karpathy Joining Anthropic Actually Means For Claude"
-source: youtube
-url: https://www.youtube.com/watch?v=brB-hSiV2iU
+source: "youtube"
+url: "https://www.youtube.com/watch?v=brB-hSiV2iU"
 author: "Nate Herk | AI Automation"
-published: 2026-05-19
-created: 2026-08-24
+published: "2026-05-19"
+created: "2026-08-24"
 duration: "0:16:24"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "harness-engineering"
+  - "mcp"
+  - "openai"
+  - "skills"
+  - "video-gen"
+  - "voice-ai"
+  - "youtube-strategy"
+summary: "All right, so today's May 19th, and a few hours ago this tweet just went up. It was Andrej Karpathy announcing that he has joined Anthropic. And if you don't know who that is, this is one of the most important people in modern AI."
 ---
 
 # What Karpathy Joining Anthropic Actually Means For Claude

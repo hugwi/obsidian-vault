@@ -1,18 +1,19 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - claude-code
-  - harness
-  - workflow-git
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: workflow-phases-gates
+  - "claude-code"
+  - "harness"
+  - "workflow-git"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "workflow-phases-gates"
 subtheme:
-  - plan-phase
+  - "plan-phase"
 ---
 
 # Parallel AI Coding with Git Worktrees and Custom Claude Code Commands

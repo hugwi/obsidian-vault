@@ -1,19 +1,27 @@
 ---
 title: "Fallow: The Code Intelligence Tool Every Claude User Needs"
-source: youtube
-url: https://www.youtube.com/watch?v=-lCfwIoDXq8
+source: "youtube"
+url: "https://www.youtube.com/watch?v=-lCfwIoDXq8"
 author: "Better Stack"
-published: 2026-05-01
-created: 2026-08-24
+published: "2026-05-01"
+created: "2026-08-24"
 duration: "0:06:02"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+  - "engineering"
+  - "local-llm"
+  - "mcp"
+  - "skills"
+  - "video-gen"
+summary: "This is Follow, a code-based intelligence tool for TypeScript and JavaScript that analyzes your entire code base for dead code, duplication, unnecessary complexity, and much more, meaning there's no need to use a combination of nip, JSCPD, and ESLint just to stop your agents from shipping bad code. It's built in Rust and supports over 90 plugins, meaning it will work out of the box with most frameworks and popular packages. But, the fact that it only supports JavaScript and TypeScript make it less appealing for AI-assisted coders."
 ---
 
 # Fallow: The Code Intelligence Tool Every Claude User Needs

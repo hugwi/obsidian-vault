@@ -1,19 +1,27 @@
 ---
 title: "The #1 Claude Code Design Skill Just Got a HUGE Upgrade"
-source: youtube
-url: https://www.youtube.com/watch?v=RVeCbPg0liw
+source: "youtube"
+url: "https://www.youtube.com/watch?v=RVeCbPg0liw"
 author: "Chase AI"
-published: 2026-08-04
-created: 2026-08-24
+published: "2026-08-04"
+created: "2026-08-24"
 duration: "0:15:26"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "google"
+  - "local-llm"
+  - "mcp"
+  - "skills"
+  - "video-gen"
+  - "web-design"
+summary: "There are a million and one skills and plugins that claim to solve Claude's front-end design problem. But as someone who has tested literally hundreds of them, there is one that stands above the rest and it just got a huge upgrade. Now, I'm talking about Impeccable 4.0 and it is the king of giving Claude code the power to create front-end designs and web designs that actually look good and give you control while you do it."
 ---
 
 # The #1 Claude Code Design Skill Just Got a HUGE Upgrade

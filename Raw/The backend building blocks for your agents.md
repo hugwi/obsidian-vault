@@ -1,17 +1,18 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - code-quality
-  - harness
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: work-breakdown-specs
+  - "code-quality"
+  - "harness"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "work-breakdown-specs"
 subtheme:
-  - contracts-schemas
+  - "contracts-schemas"
 ---
 
 # The backend building blocks for your agents

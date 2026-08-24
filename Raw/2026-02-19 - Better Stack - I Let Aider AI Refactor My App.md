@@ -1,19 +1,24 @@
 ---
 title: "I Let Aider AI Refactor My App"
-source: youtube
-url: https://www.youtube.com/watch?v=cTSvN0YLMgw
+source: "youtube"
+url: "https://www.youtube.com/watch?v=cTSvN0YLMgw"
 author: "Better Stack"
-published: 2026-02-19
-created: 2026-08-24
+published: "2026-02-19"
+created: "2026-08-24"
 duration: "0:04:44"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "engineering"
+  - "local-llm"
+  - "openai"
+  - "video-gen"
+summary: "This is Aider, an open-source AI pair programmer that lives in your terminal. And unlike Copilot, it's not autocomplete. It edits your repo directly using a structured file map built with a tree-sitter."
 ---
 
 # I Let Aider AI Refactor My App

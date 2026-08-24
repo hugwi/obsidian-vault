@@ -1,18 +1,19 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents]
+domain: "[agentic-engineering, ai-agents]"
 tags:
-  - spec-driven
-  - tools
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: workflow-phases-gates
+  - "spec-driven"
+  - "tools"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "workflow-phases-gates"
 subtheme:
-  - plan-phase
-  - harness-loops
+  - "plan-phase"
+  - "harness-loops"
 ---
 
 # GitHub - gsemet/Craftsman: Craftsman is an powerful generic coding Agent for GitHub Copilot. It provides a Plan agent that does extensive interview to understand the need and a Ralph implementation loop to implement most plan in a single premium request. · GitHub

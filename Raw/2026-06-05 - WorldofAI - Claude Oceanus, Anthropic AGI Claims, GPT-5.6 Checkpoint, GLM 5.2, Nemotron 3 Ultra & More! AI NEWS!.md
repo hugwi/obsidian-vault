@@ -1,19 +1,31 @@
 ---
 title: "Claude Oceanus, Anthropic AGI Claims, GPT-5.6 Checkpoint, GLM 5.2, Nemotron 3 Ultra & More! AI NEWS!"
-source: youtube
-url: https://www.youtube.com/watch?v=h6_v1IBqmNI
+source: "youtube"
+url: "https://www.youtube.com/watch?v=h6_v1IBqmNI"
 author: "WorldofAI"
-published: 2026-06-05
-created: 2026-08-24
+published: "2026-06-05"
+created: "2026-08-24"
 duration: "0:17:40"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "google"
+  - "local-llm"
+  - "nvidia"
+  - "openai"
+  - "video-gen"
+  - "youtube-strategy"
+summary: "It's honestly never a dull day in the AI space because just today we've gotten some absolutely massive updates. We have the new Mythos preview leaks showing off some insane outputs. We also have leaked pricing and overall quality-wise it looks honestly incredible."
 ---
 
 # Claude Oceanus, Anthropic AGI Claims, GPT-5.6 Checkpoint, GLM 5.2, Nemotron 3 Ultra & More! AI NEWS!

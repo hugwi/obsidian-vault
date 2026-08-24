@@ -1,19 +1,20 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - harness
-  - spec-driven
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: work-breakdown-specs
+  - "harness"
+  - "spec-driven"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "work-breakdown-specs"
 subtheme:
-  - spec-driven
-  - architecture-design
-  - prds-requirements
+  - "spec-driven"
+  - "architecture-design"
+  - "prds-requirements"
 ---
 
 # Understanding Spec-Driven-Development: Kiro, spec-kit, and Tessl

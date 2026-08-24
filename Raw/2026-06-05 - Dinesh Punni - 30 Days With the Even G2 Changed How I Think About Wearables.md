@@ -1,19 +1,25 @@
 ---
 title: "30 Days With the Even G2 Changed How I Think About Wearables"
-source: youtube
-url: https://www.youtube.com/watch?v=Ae9LtSTmTY4
+source: "youtube"
+url: "https://www.youtube.com/watch?v=Ae9LtSTmTY4"
 author: "Dinesh Punni"
-published: 2026-06-05
-created: 2026-08-24
+published: "2026-06-05"
+created: "2026-08-24"
 duration: "0:10:14"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "apple"
+  - "google"
+  - "video-gen"
+  - "web-design"
+  - "youtube-strategy"
+summary: "I used the Even Reality G2 every single day for 30 days through work, meetings, gym sessions, basically as a personal companion for my own life. And here is what I actually observed with these glasses. The hardware is great, but what really matters is something else."
 ---
 
 # 30 Days With the Even G2 Changed How I Think About Wearables

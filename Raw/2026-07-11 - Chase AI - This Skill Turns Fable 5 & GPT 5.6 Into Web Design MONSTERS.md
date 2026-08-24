@@ -1,19 +1,27 @@
 ---
 title: "This Skill Turns Fable 5 & GPT 5.6 Into Web Design MONSTERS"
-source: youtube
-url: https://www.youtube.com/watch?v=KBH8P0z2AL8
+source: "youtube"
+url: "https://www.youtube.com/watch?v=KBH8P0z2AL8"
 author: "Chase AI"
-published: 2026-07-11
-created: 2026-08-24
+published: "2026-07-11"
+created: "2026-08-24"
 duration: "0:09:49"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "local-llm"
+  - "mcp"
+  - "skills"
+  - "video-gen"
+  - "web-design"
+summary: "This entire website was one-shot by Claude Fable 5 in a single skill. It's not just one scroll animations, it's several scroll animations that have been clipped together to give you a smooth, high-quality, coherent experience. This is an extremely premium product and I'm going to show you the skill that lets you do all of this."
 ---
 
 # This Skill Turns Fable 5 & GPT 5.6 Into Web Design MONSTERS

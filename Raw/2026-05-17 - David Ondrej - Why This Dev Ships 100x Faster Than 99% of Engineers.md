@@ -1,19 +1,34 @@
 ---
 title: "Why This Dev Ships 100x Faster Than 99% of Engineers"
-source: youtube
-url: https://www.youtube.com/watch?v=PzVV4X37ihg
+source: "youtube"
+url: "https://www.youtube.com/watch?v=PzVV4X37ihg"
 author: "David Ondrej"
-published: 2026-05-17
-created: 2026-08-24
+published: "2026-05-17"
+created: "2026-08-24"
 duration: "0:53:52"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "business"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "google"
+  - "harness-engineering"
+  - "local-llm"
+  - "openai"
+  - "skills"
+  - "video-gen"
+  - "voice-ai"
+  - "youtube-strategy"
+summary: "Agentic engineering is the future. In 2026, the people who ship 100x faster aren't typing prompts into a chatbot. They're running multiple agent harnesses in parallel."
 ---
 
 # Why This Dev Ships 100x Faster Than 99% of Engineers

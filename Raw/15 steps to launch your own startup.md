@@ -1,19 +1,20 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, design, product-business]
+domain: "[agentic-engineering, design, product-business]"
 tags:
-  - skills
-  - startup
-  - ux-ui
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: industry-product
+  - "skills"
+  - "startup"
+  - "ux-ui"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "industry-product"
 subtheme:
-  - careers-talent
-  - enterprise-adoption
+  - "careers-talent"
+  - "enterprise-adoption"
 ---
 
 # 15 steps to launch your own startup

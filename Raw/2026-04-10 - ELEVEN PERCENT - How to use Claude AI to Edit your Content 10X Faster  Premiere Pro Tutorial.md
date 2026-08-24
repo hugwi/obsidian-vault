@@ -1,19 +1,25 @@
 ---
 title: "How to use Claude AI to Edit your Content 10X Faster | Premiere Pro Tutorial"
-source: youtube
-url: https://www.youtube.com/watch?v=ShDALXMWTqk
+source: "youtube"
+url: "https://www.youtube.com/watch?v=ShDALXMWTqk"
 author: "ELEVEN PERCENT"
-published: 2026-04-10
-created: 2026-08-24
+published: "2026-04-10"
+created: "2026-08-24"
 duration: "0:04:51"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "anthropic"
+  - "context-engineering"
+  - "video-gen"
+  - "voice-ai"
+  - "youtube-strategy"
+summary: "Look, if you hate how long editing videos takes whether you're editing YouTube videos, TikToks, short-form podcast clips, or explainer videos, well, this free-to-try AI cloud plugin for Premiere will automatically edit your videos for you cutting out all the bad takes and repeats using a singular prompt. In this video, I'm going to be teaching you what it is, how to use it, and how to edit your content 10 times faster using AI inside Premiere Pro. And then, um from there, [clears throat] you can go ahead and download the creator mode plugin."
 ---
 
 # How to use Claude AI to Edit your Content 10X Faster | Premiere Pro Tutorial

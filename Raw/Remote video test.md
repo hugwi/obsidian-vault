@@ -1,23 +1,25 @@
 ---
-type: inspiration
-title: Remote video test
+type: "inspiration"
+title: "Remote video test"
 categories:
   - "[[Raw]]"
-domain: design
-source_url: https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/
-platform: commondatastorage.googleapis.com
-thumbnail_url: https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg
-media_url: https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4
-saved_at: 2026-08-02
-created: 2026-08-02
-source: web-clipper
-rating: 
-action: review
+domain: "design"
+source_url: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/"
+platform: "commondatastorage.googleapis.com"
+thumbnail_url: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg"
+media_url: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+saved_at: "2026-08-02"
+created: "2026-08-02"
+source: "web-clipper"
+rating:
+action: "review"
 tags:
-  - inspiration
-  - web-design
-  - ui
-  - ux
+  - "inspiration"
+  - "web-design"
+  - "ui"
+  - "ux"
+  - "clip/video"
+  - "video-gen"
 ---
 
 # Remote video test

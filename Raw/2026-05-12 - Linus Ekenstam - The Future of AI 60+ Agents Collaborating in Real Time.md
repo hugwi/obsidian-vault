@@ -1,19 +1,22 @@
 ---
 title: "The Future of AI: 60+ Agents Collaborating in Real Time."
-source: youtube
-url: https://www.youtube.com/watch?v=KwBMkjn4Z6I
+source: "youtube"
+url: "https://www.youtube.com/watch?v=KwBMkjn4Z6I"
 author: "Linus Ekenstam"
-published: 2026-05-12
-created: 2026-08-24
+published: "2026-05-12"
+created: "2026-08-24"
 duration: "0:00:43"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+summary: "This project is literally ranked number one on GitHub right now, and almost nobody is talking about it yet. It's called Rooflow, and it launches 60 plus AI agents that all work together to complete tasks. Not one AI, but an entire AI team."
 ---
 
 # The Future of AI: 60+ Agents Collaborating in Real Time.

@@ -1,19 +1,32 @@
 ---
 title: "Apple Just Killed AI Subscriptions Forever (Mac Mini M5)"
-source: youtube
-url: https://www.youtube.com/watch?v=XVwMi_UOfsQ
+source: "youtube"
+url: "https://www.youtube.com/watch?v=XVwMi_UOfsQ"
 author: "AI Master"
-published: 2026-07-21
-created: 2026-08-24
+published: "2026-07-21"
+created: "2026-08-24"
 duration: "0:17:35"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "apple"
+  - "business"
+  - "context-engineering"
+  - "evaluation"
+  - "google"
+  - "hardware"
+  - "local-llm"
+  - "nvidia"
+  - "video-gen"
+  - "voice-ai"
+summary: "Last time we cracked open a $2,000 AMD box and killed a chat GPT subscription with it. Today I'm swapping it for this, the Mac Mini M4 Pro. Same promise, different silicon, and honestly, a completely different verdict."
 ---
 
 # Apple Just Killed AI Subscriptions Forever (Mac Mini M5)

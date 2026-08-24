@@ -1,14 +1,15 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [ai-agents]
+domain: "[ai-agents]"
 tags:
-  - models
-  - voice
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "models"
+  - "voice"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # speaches-ai/speaches

@@ -1,19 +1,20 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents, design]
+domain: "[agentic-engineering, ai-agents, design]"
 tags:
-  - harness
-  - orchestration
-  - skills
-  - ux-ui
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: workflow-phases-gates
+  - "harness"
+  - "orchestration"
+  - "skills"
+  - "ux-ui"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "workflow-phases-gates"
 subtheme:
-  - harness-loops
+  - "harness-loops"
 ---
 
 # # Skill Issue: Harness Engineering for Coding Agents

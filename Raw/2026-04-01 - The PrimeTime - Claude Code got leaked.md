@@ -1,19 +1,27 @@
 ---
 title: "Claude Code got leaked"
-source: youtube
-url: https://www.youtube.com/watch?v=GdgRpiQRsis
+source: "youtube"
+url: "https://www.youtube.com/watch?v=GdgRpiQRsis"
 author: "The PrimeTime"
-published: 2026-04-01
-created: 2026-08-24
+published: "2026-04-01"
+created: "2026-08-24"
 duration: "0:11:59"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "engineering"
+  - "mcp"
+  - "skills"
+  - "video-gen"
+summary: "Coding has largely been solved. Well, I mean, it's been largely solved thanks to Anthropic for releasing open source all of Claude code. Again, yes, this is actually the second time that Anthropic just published all of it."
 ---
 
 # Claude Code got leaked

@@ -1,19 +1,23 @@
 ---
 title: "People Are Cancelling Claude Over This!"
-source: youtube
-url: https://www.youtube.com/watch?v=q4_-y67JGCU
+source: "youtube"
+url: "https://www.youtube.com/watch?v=q4_-y67JGCU"
 author: "Aevy TV"
-published: 2026-08-12
-created: 2026-08-24
+published: "2026-08-12"
+created: "2026-08-24"
 duration: "0:01:36"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "anthropic"
+  - "business"
+  - "video-gen"
+summary: "Claude just pissed off half the internet yet again. [music] And it is not because they are destroying books this time. A lot of people seem to be canceling their subscription plans because of what just went down."
 ---
 
 # People Are Cancelling Claude Over This!

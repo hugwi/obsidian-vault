@@ -1,19 +1,22 @@
 ---
 title: "LLM-as-a-judge for LLM evaluation #ai #coding #chatgpt"
-source: youtube
-url: https://www.youtube.com/watch?v=u7ON4vytFbs
+source: "youtube"
+url: "https://www.youtube.com/watch?v=u7ON4vytFbs"
 author: "Elvis Saravia"
-published: 2024-11-17
-created: 2026-08-24
+published: "2024-11-17"
+created: "2026-08-24"
 duration: "0:00:59"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "evaluation"
+  - "youtube-strategy"
+summary: "We are going to show you how to evaluate using LLM asset judge metrics using Opic. All right, so we're going to run the first set of lines of code here, which is just in the usual imports. And again, we're performing tracing for our application."
 ---
 
 # LLM-as-a-judge for LLM evaluation #ai #coding #chatgpt

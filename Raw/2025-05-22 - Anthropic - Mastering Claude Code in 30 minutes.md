@@ -1,19 +1,26 @@
 ---
 title: "Mastering Claude Code in 30 minutes"
-source: youtube
-url: https://www.youtube.com/watch?v=6eBSHbLKuN0
+source: "youtube"
+url: "https://www.youtube.com/watch?v=6eBSHbLKuN0"
 author: "Anthropic"
-published: 2025-05-22
-created: 2026-08-24
+published: "2025-05-22"
+created: "2026-08-24"
 duration: "0:28:07"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "local-llm"
+  - "mcp"
+  - "security"
+summary: "I'm a member of technical staff here at Anthropic and I created quad code and here to talk to you a little bit about some practical tips and tricks for using quad code. Um it's going to be very practical. I'm not going to go too much into the history or the theory or anything like this."
 ---
 
 # Mastering Claude Code in 30 minutes

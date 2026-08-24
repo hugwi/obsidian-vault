@@ -1,14 +1,17 @@
 ---
 title: "coleam00/ai-transformation-workshop: Workshop materials and demo app for 'Principles of Agentic Engineering' by Cole Medin — the AI layer concept, the PIV loop, and 15 reusable Claude Code commands you can drop into any project."
-source: https://github.com/coleam00/ai-transformation-workshop/blob/main/CLAUDE.md
-author: coleam00
+source: "https://github.com/coleam00/ai-transformation-workshop/blob/main/CLAUDE.md"
+author: "coleam00"
 published:
-created: 2026-06-25
-description: Workshop materials and demo app for 'Principles of Agentic Engineering' by Cole Medin — the AI layer concept, the PIV loop, and 15 reusable Claude Code commands you can drop into any project. - coleam00/ai-transformation-workshop
+created: "2026-06-25"
+description: "Workshop materials and demo app for 'Principles of Agentic Engineering' by Cole Medin — the AI layer concept, the PIV loop, and 15 reusable Claude Code commands you can drop into any project. - coleam00/ai-transformation-workshop"
 tags:
-  - clippings
-  - agentic-engineering
-  - workshop
+  - "clippings"
+  - "agentic-engineering"
+  - "workshop"
+  - "agents"
+  - "claude-code"
+  - "clip/video"
 ---
 ## CLAUDE.md
 

@@ -1,19 +1,26 @@
 ---
 title: "Qwen 3.6 27B Just Tied Claude Opus On Your Laptop!"
-source: youtube
-url: https://www.youtube.com/watch?v=U5Z_0ULr5To
+source: "youtube"
+url: "https://www.youtube.com/watch?v=U5Z_0ULr5To"
 author: "DIY Smart Code"
-published: 2026-04-22
-created: 2026-08-24
+published: "2026-04-22"
+created: "2026-08-24"
 duration: "0:02:25"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "local-llm"
+  - "skills"
+  - "video-gen"
+summary: "27-billion dense model just tied Claude Opus 4.5. Qwen 3.6 27B dropped today from the Alibaba Qwen team. And this is the number that broke the internet."
 ---
 
 # Qwen 3.6 27B Just Tied Claude Opus On Your Laptop!

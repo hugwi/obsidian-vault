@@ -1,14 +1,15 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [ai-agents]
+domain: "[ai-agents]"
 tags:
-  - models
-  - tools
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "models"
+  - "tools"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # How to Run Local LLMs with Claude Code

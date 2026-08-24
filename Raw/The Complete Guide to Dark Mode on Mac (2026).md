@@ -3,11 +3,12 @@ title: "The Complete Guide to Dark Mode on Mac (2026)"
 source: "https://www.theodorehq.com/solace/blog/posts/complete-guide-dark-mode-mac"
 author:
   - "[[THEODOREHQ]]"
-published: 2026-04-03
-created: 2026-08-19
+published: "2026-04-03"
+created: "2026-08-19"
 description: "Everything about dark mode on Mac - how to enable it, schedule it, fix it, use it per-app, and automate it. The definitive guide to Mac dark mode in 2026."
 tags:
   - "clippings"
+  - "clip/video"
 ---
 ## What Is Dark Mode on Mac?
 

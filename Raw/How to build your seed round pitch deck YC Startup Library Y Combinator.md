@@ -1,14 +1,15 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [product-business]
+domain: "[product-business]"
 tags:
-  - product
-  - startup
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "product"
+  - "startup"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # How to build your seed round pitch deck  : YC Startup Library | Y Combinator

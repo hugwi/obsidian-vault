@@ -1,19 +1,25 @@
 ---
 title: "The Ultimate AI Influencer Tutorial: 100% Character Consistency"
-source: youtube
-url: https://www.youtube.com/watch?v=i-m5imAgAQo
+source: "youtube"
+url: "https://www.youtube.com/watch?v=i-m5imAgAQo"
 author: "AI Samson"
-published: 2026-07-14
-created: 2026-08-24
+published: "2026-07-14"
+created: "2026-08-24"
 duration: "0:09:41"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "business"
+  - "skills"
+  - "video-gen"
+  - "voice-ai"
+  - "youtube-strategy"
+summary: "I'll show you every step in real time, so you can build yours right alongside me. By the end, your influencer will walk, talk, and look 100% consistent in every single shot. Step one is to design their identity."
 ---
 
 # The Ultimate AI Influencer Tutorial: 100% Character Consistency

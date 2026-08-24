@@ -3,13 +3,16 @@ title: "Building the Agent Harness: Subdirectory CLAUDE.md Files"
 source: "https://dev.to/tacoda/building-the-agent-harness-subdirectory-claudemd-files-dcl"
 author:
   - "[[dev.to]]"
-published: 2026-04-08
-created: 2026-06-25
-rating: 
-action: 
+published: "2026-04-08"
+created: "2026-06-25"
+rating:
+action:
 description: "The technical deep-dive on the harness system. Why one big instruction file doesn't scale, how subdirectory CLAUDE.md files scope guidance, and what goes in each one. Tagged with ai, architecture, programming, claude."
 tags:
   - "clippings"
+  - "agents"
+  - "clip/video"
+  - "harness-engineering"
 ---
 ## One Big File Doesn't Scale
 

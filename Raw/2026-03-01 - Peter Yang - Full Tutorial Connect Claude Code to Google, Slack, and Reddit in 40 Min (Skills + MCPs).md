@@ -1,19 +1,32 @@
 ---
 title: "Full Tutorial: Connect Claude Code to Google, Slack, and Reddit in 40 Min (Skills + MCPs)"
-source: youtube
-url: https://www.youtube.com/watch?v=1B3Ffo8snfY
+source: "youtube"
+url: "https://www.youtube.com/watch?v=1B3Ffo8snfY"
 author: "Peter Yang"
-published: 2026-03-01
-created: 2026-08-24
+published: "2026-03-01"
+created: "2026-08-24"
 duration: "0:42:38"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "google"
+  - "local-llm"
+  - "mcp"
+  - "security"
+  - "skills"
+  - "video-gen"
+  - "web-design"
+summary: "I just try to live in cloud good all day if I can. When you start your day, you say, "Hey Claude, help me prep for the day. Here's all the things for the meeting."
 ---
 
 # Full Tutorial: Connect Claude Code to Google, Slack, and Reddit in 40 Min (Skills + MCPs)

@@ -1,18 +1,19 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, design]
+domain: "[agentic-engineering, design]"
 tags:
-  - metrics
-  - ux-ui
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: workflow-phases-gates
+  - "metrics"
+  - "ux-ui"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "workflow-phases-gates"
 subtheme:
-  - event-driven
-  - harness-loops
+  - "event-driven"
+  - "harness-loops"
 ---
 
 # A wild month in the cyber industry

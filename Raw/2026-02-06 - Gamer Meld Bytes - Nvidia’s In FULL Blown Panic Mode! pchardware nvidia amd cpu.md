@@ -1,19 +1,26 @@
 ---
 title: "Nvidia’s In FULL Blown Panic Mode! #pchardware #nvidia #amd #cpu"
-source: youtube
-url: https://www.youtube.com/watch?v=lIZQQbBe0ao
+source: "youtube"
+url: "https://www.youtube.com/watch?v=lIZQQbBe0ao"
 author: "Gamer Meld Bytes"
-published: 2026-02-06
-created: 2026-08-24
+published: "2026-02-06"
+created: "2026-08-24"
 duration: "0:02:03"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "context-engineering"
+  - "hardware"
+  - "nvidia"
+  - "openai"
+  - "video-gen"
+  - "voice-ai"
+summary: "Nvidia is in fullblown panic mode. If you remember, not too long ago, AMD made a pretty massive deal with OpenAI for their future chips. Later on, AMD CEO actually claimed that many companies are making similar deals."
 ---
 
 # Nvidia’s In FULL Blown Panic Mode! #pchardware #nvidia #amd #cpu

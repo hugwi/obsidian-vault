@@ -1,19 +1,27 @@
 ---
 title: "Beyond Components: Designing Generative UI for MCP Apps — Ruben Casas, Postman"
-source: youtube
-url: https://www.youtube.com/watch?v=hCMrEfPG2Yg
+source: "youtube"
+url: "https://www.youtube.com/watch?v=hCMrEfPG2Yg"
 author: "AI Engineer"
-published: 2026-06-03
-created: 2026-08-24
+published: "2026-06-03"
+created: "2026-08-24"
 duration: "0:16:58"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "business"
+  - "engineering"
+  - "mcp"
+  - "video-gen"
+  - "web-design"
+summary: "And but this is going to be a very interesting talk that combines the the previous two talks into the future. And that's what I want to talk about today. You have to ask reply in code blocks."
 ---
 
 # Beyond Components: Designing Generative UI for MCP Apps — Ruben Casas, Postman

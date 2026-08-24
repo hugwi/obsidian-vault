@@ -1,19 +1,32 @@
 ---
 title: "Want to Run AI Agents Locally? Here is The Bare Minimum Setup/Build"
-source: youtube
-url: https://www.youtube.com/watch?v=P-Fmo_CCIbY
+source: "youtube"
+url: "https://www.youtube.com/watch?v=P-Fmo_CCIbY"
 author: "Daniel Jindoo "
-published: 2026-03-03
-created: 2026-08-24
+published: "2026-03-03"
+created: "2026-08-24"
 duration: "0:16:17"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "apple"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "hardware"
+  - "local-llm"
+  - "nvidia"
+  - "video-gen"
+  - "voice-ai"
+  - "web-design"
+  - "youtube-strategy"
+summary: "There's one number on the stats of your graphics card that matters more than everything else combined for local AI agents. And it's not the one you think most people build their AI computer the same way. They would build the gaming PC faster processor, bigger graphics cards and just more power."
 ---
 
 # Want to Run AI Agents Locally? Here is The Bare Minimum Setup/Build

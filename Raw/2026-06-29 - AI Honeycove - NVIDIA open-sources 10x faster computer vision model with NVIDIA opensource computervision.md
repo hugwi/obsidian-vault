@@ -1,19 +1,21 @@
 ---
 title: "NVIDIA open-sources 10x faster computer vision model with #NVIDIA #opensource #computervision"
-source: youtube
-url: https://www.youtube.com/watch?v=BhIVDXpBHMs
+source: "youtube"
+url: "https://www.youtube.com/watch?v=BhIVDXpBHMs"
 author: "AI Honeycove"
-published: 2026-06-29
-created: 2026-08-24
+published: "2026-06-29"
+created: "2026-08-24"
 duration: "0:00:33"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "nvidia"
+summary: "Nvidia just open-sourced a computer vision model that's 10 times faster than top models, and it's kind of insane. Most vision models today predict bounding boxes step-by-step, corner-by-corner, token-by-token, but this one changes that. It uses something called parallel box decoding."
 ---
 
 # NVIDIA open-sources 10x faster computer vision model with #NVIDIA #opensource #computervision

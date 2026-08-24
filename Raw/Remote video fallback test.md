@@ -1,29 +1,31 @@
 ---
-type: inspiration
-title: Remote video fallback test
+type: "inspiration"
+title: "Remote video fallback test"
 categories:
   - "[[Raw]]"
-domain: design
-source_url: https://dribbble.com/shots/popular
-platform: dribbble.com
-thumbnail_url: 
-media_url_image: 
-media_url_secure: 
-media_url: 
-media_url_twitter: 
-media_url_schema: 
-media_url_source: 
-media_url_video: 
-saved_at: 2026-08-02
-created: 2026-08-02
-source: web-clipper
-rating: 
-action: review
+domain: "design"
+source_url: "https://dribbble.com/shots/popular"
+platform: "dribbble.com"
+thumbnail_url:
+media_url_image:
+media_url_secure:
+media_url:
+media_url_twitter:
+media_url_schema:
+media_url_source:
+media_url_video:
+saved_at: "2026-08-02"
+created: "2026-08-02"
+source: "web-clipper"
+rating:
+action: "review"
 tags:
-  - inspiration
-  - web-design
-  - ui
-  - ux
+  - "inspiration"
+  - "web-design"
+  - "ui"
+  - "ux"
+  - "clip/video"
+  - "video-gen"
 ---
 
 # Remote video fallback test

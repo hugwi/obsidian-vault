@@ -1,19 +1,30 @@
 ---
 title: "AI-Driven Application Monitoring with Checkly and Claude Code"
-source: youtube
-url: https://www.youtube.com/watch?v=TGKqKWfzQnM
+source: "youtube"
+url: "https://www.youtube.com/watch?v=TGKqKWfzQnM"
 author: "Checkly"
-published: 2025-08-19
-created: 2026-08-24
+published: "2025-08-19"
+created: "2026-08-24"
 duration: "0:57:23"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "engineering"
+  - "local-llm"
+  - "mcp"
+  - "microsoft"
+  - "video-gen"
+  - "voice-ai"
+  - "web-design"
+summary: "Stefan, um, welcome everyone and again, thank you for attending uh, today's webinar on AIdriven application monitoring. We're just going to be prompting today. Um, with us today, I have Stefan Udis, our developer relations at Czechley."
 ---
 
 # AI-Driven Application Monitoring with Checkly and Claude Code

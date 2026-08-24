@@ -1,19 +1,23 @@
 ---
 title: "OpenAI Just Made Rust Impossible to Ignore #openai #rust #programming"
-source: youtube
-url: https://www.youtube.com/watch?v=FwJC0BD3yqM
+source: "youtube"
+url: "https://www.youtube.com/watch?v=FwJC0BD3yqM"
 author: "Better Stack"
-published: 2026-06-20
-created: 2026-08-24
+published: "2026-06-20"
+created: "2026-08-24"
 duration: "0:01:28"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "context-engineering"
+  - "engineering"
+  - "openai"
+summary: "Open AI just put $600,000 behind Rust. They've officially joined the Rust Foundation as a platinum member. What what's more interesting is really what this is saying about where AI infrastructure is going."
 ---
 
 # OpenAI Just Made Rust Impossible to Ignore #openai #rust #programming

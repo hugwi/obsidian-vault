@@ -1,19 +1,23 @@
 ---
 title: "OpenSrc from Vercel Makes Context7 Look Useless"
-source: youtube
-url: https://www.youtube.com/watch?v=JZuqvZL-qBc
+source: "youtube"
+url: "https://www.youtube.com/watch?v=JZuqvZL-qBc"
 author: "Better Stack"
-published: 2026-02-26
-created: 2026-08-24
+published: "2026-02-26"
+created: "2026-08-24"
 duration: "0:00:48"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+  - "mcp"
+summary: "Context 7 is a popular MCP server giving AI agents documentation about developer tools, but a lot of people don't know that they still have released something that's much better. Meet Open Source, a tool that downloads a whole repo into your project instead of looking for documentation because sometimes it's better for your coding agents to understand implementation details. You choose a project, it gets downloaded, and then when your [music] agent actually has to use it, it can search through the code using Open Source."
 ---
 
 # OpenSrc from Vercel Makes Context7 Look Useless

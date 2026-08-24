@@ -1,13 +1,14 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [personal]
+domain: "[personal]"
 tags:
-  - health
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "health"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # Medical Research at the Johns Hopkins Arthritis Center

@@ -1,19 +1,33 @@
 ---
 title: "What AI augmentation means for technical leaders – Birgitta Boeckeler"
-source: youtube
-url: https://www.youtube.com/watch?v=qB7rsbDfmQg
+source: "youtube"
+url: "https://www.youtube.com/watch?v=qB7rsbDfmQg"
 author: "Adaptive Organizations meet Architecture"
-published: 2026-03-21
-created: 2026-08-24
+published: "2026-03-21"
+created: "2026-08-24"
 duration: "0:42:23"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "hardware"
+  - "harness-engineering"
+  - "local-llm"
+  - "mcp"
+  - "openai"
+  - "security"
+  - "skills"
+  - "web-design"
+summary: "Um yes, so the reason that I talk about this a lot is that at the moment I have a full-time role at uh ThoughtWorks, my employer, a consulting company, to just be like a kind of like an advocate for the topic of using AI on software delivery teams to deliver software. Um it's it's about more than just using it for the coding, but obviously the coding is the area where all of the um the energy is happening right now. And I've done a lot of these like kind of state of play of AI coding at conferences over the past 2 and 1/2 years."
 ---
 
 # What AI augmentation means for technical leaders – Birgitta Boeckeler

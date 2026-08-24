@@ -1,19 +1,31 @@
 ---
 title: "Learn 90% Of Pi Agent in Under 17 Minutes"
-source: youtube
-url: https://www.youtube.com/watch?v=8Dt0HM8HIq4
+source: "youtube"
+url: "https://www.youtube.com/watch?v=8Dt0HM8HIq4"
 author: "Brandon Melville"
-published: 2026-05-15
-created: 2026-08-24
+published: "2026-05-15"
+created: "2026-08-24"
 duration: "0:16:49"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "engineering"
+  - "harness-engineering"
+  - "local-llm"
+  - "mcp"
+  - "openai"
+  - "security"
+  - "skills"
+  - "video-gen"
+summary: "This is Pi, the minimal terminal coding harness. While every other company is trying to release as many new features as possible, Pi has decided to go the opposite direction and give you the bare minimum. And this has been the result, getting over 45.5 thousand stars on GitHub and getting right now over 2 and 1/2 million weekly downloads on NPM."
 ---
 
 # Learn 90% Of Pi Agent in Under 17 Minutes

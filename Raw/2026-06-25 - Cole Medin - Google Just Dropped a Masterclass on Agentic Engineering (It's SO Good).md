@@ -1,19 +1,30 @@
 ---
 title: "Google Just Dropped a Masterclass on Agentic Engineering (It's SO Good)"
-source: youtube
-url: https://www.youtube.com/watch?v=zbmuiaPuiNM
+source: "youtube"
+url: "https://www.youtube.com/watch?v=zbmuiaPuiNM"
 author: "Cole Medin"
-published: 2026-06-25
-created: 2026-08-24
+published: "2026-06-25"
+created: "2026-08-24"
 duration: "0:21:55"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "google"
+  - "harness-engineering"
+  - "mcp"
+  - "skills"
+  - "video-gen"
+summary: "It's a highle overview of pretty much everything that I teach on my channel. In fact, a couple of people actually sent this to me last week, and they said, "Hey, Cole, this literally looks like it could have been written by you. It's the cleanest packaging I've seen for everything that the industry is converging on right now as far as best practices and terminology for AI coding."
 ---
 
 # Google Just Dropped a Masterclass on Agentic Engineering (It's SO Good)

@@ -1,9 +1,11 @@
 ---
 categories:
   - "[[Raw]]"
-created: 2026-06-23
-rating: 
-action: 
+created: "2026-06-23"
+rating:
+action:
+tags:
+  - "clip/video"
 ---
 # I told Claude Code to build me an executive assistant. This is what my work as CTO looks like now
 

@@ -1,19 +1,25 @@
 ---
 title: "I Tried Running a Company Made of AI Agents"
-source: youtube
-url: https://www.youtube.com/watch?v=xZ7OmRz2i7o
+source: "youtube"
+url: "https://www.youtube.com/watch?v=xZ7OmRz2i7o"
 author: "Better Stack"
-published: 2026-05-12
-created: 2026-08-24
+published: "2026-05-12"
+created: "2026-08-24"
 duration: "0:07:27"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "business"
+  - "local-llm"
+  - "skills"
+  - "video-gen"
+summary: "I gave three AI agents the same repo and together they formed a company. One tried to build the feature, one rewrote the architecture, and one opened and dealt with all the tickets. With no structure, every multi-agent setup slowly turns into confusion and racks up the bill."
 ---
 
 # I Tried Running a Company Made of AI Agents

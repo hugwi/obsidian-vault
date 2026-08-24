@@ -1,19 +1,25 @@
 ---
 title: "Engineering voice agents: Latency, quality, and scale — Rishabh Bhargava, Together AI"
-source: youtube
-url: https://www.youtube.com/watch?v=N7b1PJc7SFc
+source: "youtube"
+url: "https://www.youtube.com/watch?v=N7b1PJc7SFc"
 author: "AI Engineer"
-published: 2026-05-31
-created: 2026-08-24
+published: "2026-05-31"
+created: "2026-08-24"
 duration: "0:24:35"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "evaluation"
+  - "nvidia"
+  - "openai"
+  - "voice-ai"
+summary: "Well, folks, thanks for being here. Excited to chat more about how to engineer voice agents, you know, high quality, low latency at scale. First, maybe a little bit about me."
 ---
 
 # Engineering voice agents: Latency, quality, and scale — Rishabh Bhargava, Together AI

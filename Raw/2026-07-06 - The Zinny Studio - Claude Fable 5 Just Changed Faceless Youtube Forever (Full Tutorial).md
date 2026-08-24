@@ -1,19 +1,28 @@
 ---
 title: "Claude Fable 5 Just Changed Faceless Youtube Forever (Full Tutorial)"
-source: youtube
-url: https://www.youtube.com/watch?v=jrolxMpzrxI
+source: "youtube"
+url: "https://www.youtube.com/watch?v=jrolxMpzrxI"
 author: "The Zinny Studio"
-published: 2026-07-06
-created: 2026-08-24
+published: "2026-07-06"
+created: "2026-08-24"
 duration: "0:16:39"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "anthropic"
+  - "google"
+  - "local-llm"
+  - "mcp"
+  - "skills"
+  - "video-gen"
+  - "voice-ai"
+  - "youtube-strategy"
+summary: "This faceless channel is 6 weeks old and has gained 42,000 subscribers, 4.8 million views, and one video sitting at 1.4 million alone. And here's the part that actually got me. It's stick figures drawn like a kid did them."
 ---
 
 # Claude Fable 5 Just Changed Faceless Youtube Forever (Full Tutorial)

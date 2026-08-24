@@ -1,19 +1,25 @@
 ---
 title: "How I Vibe Code Technical Videos With Claude Code and Remotion"
-source: youtube
-url: https://www.youtube.com/watch?v=z7Bkf3Vc63U
+source: "youtube"
+url: "https://www.youtube.com/watch?v=z7Bkf3Vc63U"
 author: "John Hartquist"
-published: 2025-12-06
-created: 2026-08-24
+published: "2025-12-06"
+created: "2026-08-24"
 duration: "0:08:06"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "anthropic"
+  - "engineering"
+  - "mcp"
+  - "video-gen"
+  - "voice-ai"
+summary: "In this video, I'm going to show you how I create and edit videos with natural language using Claude Code and Remotion. If you've ever tried creating videos, even simple ones, you know the pain. Scrubbing through timeline footage, slicing out the awkward pauses, gathering all the assets, sequencing them in the right place, exporting."
 ---
 
 # How I Vibe Code Technical Videos With Claude Code and Remotion

@@ -1,19 +1,26 @@
 ---
 title: "GPT-5.6 vs Claude Fable 5: It Wasn’t Close"
-source: youtube
-url: https://www.youtube.com/watch?v=TbQJiWVcAbI
+source: "youtube"
+url: "https://www.youtube.com/watch?v=TbQJiWVcAbI"
 author: "RemakeBench"
-published: 2026-07-11
-created: 2026-08-24
+published: "2026-07-11"
+created: "2026-08-24"
 duration: "0:08:13"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "google"
+  - "harness-engineering"
+  - "video-gen"
+  - "web-design"
+summary: "GPT 5.6 has finally been released to the public after being in [music] beta access to certain enterprise customers for weeks. Many developers have been stress testing it with one developer letting GPT [music] 5.6 run for almost a whole week straight to generate an interactive environment. We'll be going through 10 game builds that I found most [music] interesting to see how it fares against Fable 5."
 ---
 
 # GPT-5.6 vs Claude Fable 5: It Wasn’t Close

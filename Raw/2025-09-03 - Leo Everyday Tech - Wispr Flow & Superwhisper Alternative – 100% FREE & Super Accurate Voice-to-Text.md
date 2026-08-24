@@ -1,19 +1,26 @@
 ---
 title: "Wispr Flow & Superwhisper Alternative – 100% FREE & Super Accurate Voice-to-Text"
-source: youtube
-url: https://www.youtube.com/watch?v=27f_QNYAqDs
+source: "youtube"
+url: "https://www.youtube.com/watch?v=27f_QNYAqDs"
 author: "Leo Everyday Tech"
-published: 2025-09-03
-created: 2026-08-24
+published: "2025-09-03"
+created: "2026-08-24"
 duration: "0:06:20"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "engineering"
+  - "local-llm"
+  - "openai"
+  - "security"
+  - "video-gen"
+  - "voice-ai"
+summary: "Being able to express our thoughts directly in natural language is definitely much faster than typing. This is also a prerequisite for vital coding. The tool I'm introducing today is quite remarkable."
 ---
 
 # Wispr Flow & Superwhisper Alternative – 100% FREE & Super Accurate Voice-to-Text

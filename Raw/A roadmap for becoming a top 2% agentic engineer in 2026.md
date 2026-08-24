@@ -1,14 +1,15 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [ai-agents, design]
+domain: "[ai-agents, design]"
 tags:
-  - orchestration
-  - ux-ui
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "orchestration"
+  - "ux-ui"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # A roadmap for becoming a top 2% agentic engineer in 2026

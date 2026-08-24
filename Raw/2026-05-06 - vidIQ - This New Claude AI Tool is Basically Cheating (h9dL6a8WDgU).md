@@ -1,19 +1,26 @@
 ---
 title: "This New Claude AI Tool is Basically Cheating"
-source: youtube
-url: https://www.youtube.com/watch?v=h9dL6a8WDgU
+source: "youtube"
+url: "https://www.youtube.com/watch?v=h9dL6a8WDgU"
 author: "vidIQ"
-published: 2026-05-06
-created: 2026-08-24
+published: "2026-05-06"
+created: "2026-08-24"
 duration: "0:10:29"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "context-engineering"
+  - "mcp"
+  - "skills"
+  - "video-gen"
+  - "web-design"
+  - "youtube-strategy"
+summary: "This is Claude AI and we've just directly connected it to the YouTube algorithm and your channel. With vidIQ's new plugin, AI models like Claude can audit your channel, search YouTube, spot outliers, and reverse-engineer viral videos. That is the type of research that took hours, but now can be done by any creator of any skill level in a matter [music] of seconds."
 ---
 
 # This New Claude AI Tool is Basically Cheating

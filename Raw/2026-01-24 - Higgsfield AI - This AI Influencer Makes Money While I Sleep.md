@@ -1,19 +1,24 @@
 ---
 title: "This AI Influencer Makes Money While I Sleep"
-source: youtube
-url: https://www.youtube.com/watch?v=6j8-F7GE2UE
+source: "youtube"
+url: "https://www.youtube.com/watch?v=6j8-F7GE2UE"
 author: "Higgsfield AI"
-published: 2026-01-24
-created: 2026-08-24
+published: "2026-01-24"
+created: "2026-08-24"
 duration: "0:11:08"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "business"
+  - "engineering"
+  - "video-gen"
+  - "youtube-strategy"
+summary: "One day I woke up in a world of influencers. At first, I was scared, but then I realized this isn't the future. This is the world we already live in."
 ---
 
 # This AI Influencer Makes Money While I Sleep

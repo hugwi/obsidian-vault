@@ -1,19 +1,30 @@
 ---
 title: "You NEED to STOP Using Meta Right NOW. The Collapse JUST Began."
-source: youtube
-url: https://www.youtube.com/watch?v=PtOmjej-YDE
+source: "youtube"
+url: "https://www.youtube.com/watch?v=PtOmjej-YDE"
 author: "The Infographics Show"
-published: 2026-08-18
-created: 2026-08-24
+published: "2026-08-18"
+created: "2026-08-24"
 duration: "0:21:44"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "business"
+  - "context-engineering"
+  - "hardware"
+  - "local-llm"
+  - "video-gen"
+  - "web-design"
+  - "youtube-strategy"
+summary: "In his 20s, he was the 
+untouchable God of social media, a tech industry rockstar who turned 
+everything he touched into gold. But Mark Zuckerberg’s luck has turned. Now 42, he lost over $70 billion dollars 
+on a bad bet that the Metaverse would be the future."
 ---
 
 # You NEED to STOP Using Meta Right NOW. The Collapse JUST Began.

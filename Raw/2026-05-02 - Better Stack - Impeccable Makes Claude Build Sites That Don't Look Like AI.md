@@ -1,19 +1,27 @@
 ---
 title: "Impeccable Makes Claude Build Sites That Don't Look Like AI"
-source: youtube
-url: https://www.youtube.com/watch?v=Ln11hm7jieM
+source: "youtube"
+url: "https://www.youtube.com/watch?v=Ln11hm7jieM"
 author: "Better Stack"
-published: 2026-05-02
-created: 2026-08-24
+published: "2026-05-02"
+created: "2026-08-24"
 duration: "0:07:58"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "harness-engineering"
+  - "openai"
+  - "skills"
+  - "video-gen"
+  - "web-design"
+  - "youtube-strategy"
+summary: "This is impeccable, a design quality tool chain that gives your harness the deep design knowledge it needs to create amazing looking websites by spotting 37 design anti-patterns to stop your AI from producing that same generic design that you've seen so many times. It even has the ability for humans to make very precise design tweaks in the browser. But, is this another hyped up AI tool that gives you markdown files and burns your tokens, or is it actually useful?"
 ---
 
 # Impeccable Makes Claude Build Sites That Don't Look Like AI

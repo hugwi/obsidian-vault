@@ -1,19 +1,28 @@
 ---
 title: "How I Make Money with Nano Banana, VEO 3.1 and Suno AI - Insane Result!"
-source: youtube
-url: https://www.youtube.com/watch?v=jEHzJXUsDAU
+source: "youtube"
+url: "https://www.youtube.com/watch?v=jEHzJXUsDAU"
 author: "Earnings Blueprint"
-published: 2025-11-19
-created: 2026-08-24
+published: "2025-11-19"
+created: "2026-08-24"
 duration: "0:15:09"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "google"
+  - "local-llm"
+  - "video-gen"
+  - "voice-ai"
+  - "youtube-strategy"
+summary: "The kids’ music video you just watched 
+was created using Nano Banana, VEO 3.1, and Suno AI — three game-changing AI tools 
+that, when combined, become an unstoppable creative powerhouse. In this video, I’ll show you 
+exactly how to use their full power and make your own masterpiece from start to finish. But you might be wondering — why should I even bother making these kinds of videos?"
 ---
 
 # How I Make Money with Nano Banana, VEO 3.1 and Suno AI - Insane Result!

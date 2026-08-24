@@ -1,19 +1,33 @@
 ---
 title: "Claude Code Just Killed YouTube (And Nobody's Ready)"
-source: youtube
-url: https://www.youtube.com/watch?v=1wBQ6bH95F4
+source: "youtube"
+url: "https://www.youtube.com/watch?v=1wBQ6bH95F4"
 author: "Thinkverse AI"
-published: 2026-05-23
-created: 2026-08-24
+published: "2026-05-23"
+created: "2026-08-24"
 duration: "0:17:00"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "anthropic"
+  - "engineering"
+  - "google"
+  - "hardware"
+  - "mcp"
+  - "microsoft"
+  - "nvidia"
+  - "openai"
+  - "security"
+  - "skills"
+  - "video-gen"
+  - "voice-ai"
+  - "youtube-strategy"
+summary: "A guy in a hoodie sitting in a Brooklyn apartment just used Claude code to build a fully automated YouTube channel. No editor, no script writer, no coding background. He built the whole thing in a week and a half."
 ---
 
 # Claude Code Just Killed YouTube (And Nobody's Ready)

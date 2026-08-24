@@ -1,19 +1,23 @@
 ---
 title: "Anthropic launches Claude Tag for Slack"
-source: youtube
-url: https://www.youtube.com/watch?v=a6BdZdBXfUU
+source: "youtube"
+url: "https://www.youtube.com/watch?v=a6BdZdBXfUU"
 author: "Deepify AI"
-published: 2026-06-24
-created: 2026-08-24
+published: "2026-06-24"
+created: "2026-08-24"
 duration: "0:00:35"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+summary: "Anthropic just changed the game for teams on Slack with the launch of Claude tag. You can now tag at Claude directly in your channels to delegate [music] complex tasks, allowing your team to stay focused on high-level work. It's powered by Opus 4.8 [music] and gives administrators granular control over the specific tools, >> [music] >> data, and memory Claude can access in each channel."
 ---
 
 # Anthropic launches Claude Tag for Slack

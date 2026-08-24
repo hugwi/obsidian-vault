@@ -1,19 +1,21 @@
 ---
 title: "You HAVE to know this TypeScript pattern"
-source: youtube
-url: https://www.youtube.com/watch?v=HDaPLwZWguo
+source: "youtube"
+url: "https://www.youtube.com/watch?v=HDaPLwZWguo"
 author: "Matt Pocock"
-published: 2025-06-13
-created: 2026-08-24
+published: "2025-06-13"
+created: "2026-08-24"
 duration: "0:01:45"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "engineering"
+summary: "is a TypeScript pattern you absolutely have to know about. Let's imagine we have an interface here called state where we have a status property, an error property, and a data property. We can use this setup to model several different states our application can be in."
 ---
 
 # You HAVE to know this TypeScript pattern

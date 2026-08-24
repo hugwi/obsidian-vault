@@ -1,19 +1,24 @@
 ---
 title: "The ONLY way To Create Realistic AI Avatars that look & Sound like You"
-source: youtube
-url: https://www.youtube.com/watch?v=s2HM4W1QCTw
+source: "youtube"
+url: "https://www.youtube.com/watch?v=s2HM4W1QCTw"
 author: "Dan Kieft"
-published: 2026-03-27
-created: 2026-08-24
+published: "2026-03-27"
+created: "2026-08-24"
 duration: "0:19:51"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "video-gen"
+  - "voice-ai"
+  - "web-design"
+  - "youtube-strategy"
+summary: "I'm going to show you how to generate AI avatars that look and sound exactly like you. No matter the clothes that you're wearing, the camera angles you're using, or the background that you're in, you will remain completely unchanged. And if you're wondering how I made my AI avatar, well, you're in the right place because here's exactly how I did it."
 ---
 
 # The ONLY way To Create Realistic AI Avatars that look & Sound like You

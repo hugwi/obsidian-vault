@@ -1,17 +1,18 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents]
+domain: "[agentic-engineering, ai-agents]"
 tags:
-  - efficiency
-  - tools
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: human-ux-frontend
+  - "efficiency"
+  - "tools"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "human-ux-frontend"
 subtheme:
-  - design-systems-ui
+  - "design-systems-ui"
 ---
 
 # Claude Code Just Killed $10,000 Websites (Here’s Proof)

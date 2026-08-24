@@ -1,19 +1,27 @@
 ---
 title: "Anthropic's CCA Exam as a Field-Guide for Agentic Engineering — Frank Coyle, UC Berkeley"
-source: youtube
-url: https://www.youtube.com/watch?v=Z-c11pV_uvU
+source: "youtube"
+url: "https://www.youtube.com/watch?v=Z-c11pV_uvU"
 author: "AI Engineer"
-published: 2026-08-08
-created: 2026-08-24
+published: "2026-08-08"
+created: "2026-08-24"
 duration: "0:20:08"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "mcp"
+  - "security"
+  - "web-design"
+  - "youtube-strategy"
+summary: "[music] >> Okay, I'm getting rolling and uh welcome aboard. We just had a little technical issues, but uh we resolved them. Uh I am a computer science guy."
 ---
 
 # Anthropic's CCA Exam as a Field-Guide for Agentic Engineering — Frank Coyle, UC Berkeley

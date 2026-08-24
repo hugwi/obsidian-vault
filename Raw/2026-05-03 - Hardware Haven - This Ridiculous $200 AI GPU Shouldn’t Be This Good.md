@@ -1,19 +1,27 @@
 ---
 title: "This Ridiculous $200 AI GPU Shouldn’t Be This Good"
-source: youtube
-url: https://www.youtube.com/watch?v=7DAPd5MGodY
+source: "youtube"
+url: "https://www.youtube.com/watch?v=7DAPd5MGodY"
 author: "Hardware Haven"
-published: 2026-05-03
-created: 2026-08-24
+published: "2026-05-03"
+created: "2026-08-24"
 duration: "0:17:52"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "evaluation"
+  - "hardware"
+  - "local-llm"
+  - "nvidia"
+  - "video-gen"
+  - "voice-ai"
+  - "youtube-strategy"
+summary: "This contraption here is probably the strangest GPU you've ever seen. But despite its appearance, it actually ended up being a really great value. When I was running some local LLMs, this ugly duckling managed to outperform a much newer card while actually drawing less power."
 ---
 
 # This Ridiculous $200 AI GPU Shouldn’t Be This Good

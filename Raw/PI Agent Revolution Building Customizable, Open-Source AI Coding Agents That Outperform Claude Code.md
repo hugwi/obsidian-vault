@@ -1,19 +1,20 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents]
+domain: "[agentic-engineering, ai-agents]"
 tags:
-  - code-quality
-  - harness
-  - tools
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: quality-gates
+  - "code-quality"
+  - "harness"
+  - "tools"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "quality-gates"
 subtheme:
-  - code-review-gates
-  - verification-loops
+  - "code-review-gates"
+  - "verification-loops"
 ---
 
 # PI Agent Revolution: Building Customizable, Open-Source AI Coding Agents That Outperform Claude Code

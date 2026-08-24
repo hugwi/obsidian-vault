@@ -1,18 +1,19 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, design, software-engineering]
+domain: "[agentic-engineering, design, software-engineering]"
 tags:
-  - frontend
-  - skills
-  - ux-ui
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: human-ux-frontend
+  - "frontend"
+  - "skills"
+  - "ux-ui"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "human-ux-frontend"
 subtheme:
-  - design-systems-ui
+  - "design-systems-ui"
 ---
 
 # Top 8 Claude Skills for UI/UX Engineers

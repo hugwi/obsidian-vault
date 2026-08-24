@@ -1,19 +1,24 @@
 ---
 title: "AMD's new AI PC #amd #lisasu #gpu"
-source: youtube
-url: https://www.youtube.com/watch?v=V-0JaW7cnow
+source: "youtube"
+url: "https://www.youtube.com/watch?v=V-0JaW7cnow"
 author: "Value Signals"
-published: 2026-06-20
-created: 2026-08-24
+published: "2026-06-20"
+created: "2026-08-24"
 duration: "0:00:42"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+  - "hardware"
+  - "local-llm"
+summary: "[applause and music] >> Now, I would say this is pretty beautiful. This is the smallest AI development system in the world. Capable of running models with up to 200 billion parameters locally, not connected [music] to anything."
 ---
 
 # AMD's new AI PC #amd #lisasu #gpu

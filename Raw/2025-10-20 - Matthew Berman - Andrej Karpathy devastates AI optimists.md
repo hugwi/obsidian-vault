@@ -1,19 +1,29 @@
 ---
 title: "Andrej Karpathy devastates AI optimists..."
-source: youtube
-url: https://www.youtube.com/watch?v=CRRjFHytZ6Y
+source: "youtube"
+url: "https://www.youtube.com/watch?v=CRRjFHytZ6Y"
 author: "Matthew Berman"
-published: 2025-10-20
-created: 2026-08-24
+published: "2025-10-20"
+created: "2026-08-24"
 duration: "0:19:38"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+  - "evaluation"
+  - "google"
+  - "hardware"
+  - "nvidia"
+  - "openai"
+  - "video-gen"
+  - "youtube-strategy"
+summary: "Andrei Karpathy, one of the most important figures in artificial intelligence, says we're 10 years away from AGI. He was just on Dwarkesh's podcast, and it was really an incredible discussion between the two, but I actually found his follow-up post on X to be just as interesting, and that's what we're going to go over today. He clarifies many of the points he made on the Dwarkesh podcast and even goes a little bit further."
 ---
 
 # Andrej Karpathy devastates AI optimists...

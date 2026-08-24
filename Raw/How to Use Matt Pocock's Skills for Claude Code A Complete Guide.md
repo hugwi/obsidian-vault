@@ -5,13 +5,16 @@ title: "How to Use Matt Pocock's Skills for Claude Code: A Complete Guide"
 source: "https://tosea.ai/blog/matt-pocock-skills-claude-code-guide"
 author:
   - "[[Tosea.ai Team]]"
-published: 2026-04-26
-created: 2026-06-21
-rating: 
-action: 
+published: "2026-04-26"
+created: "2026-06-21"
+rating:
+action:
 description: "A practical guide to Matt Pocock's mattpocock/skills repository — the .claude directory that makes Claude Code follow team conventions for PRDs, TDD, refactors, and git safety."
 tags:
   - "clippings"
+  - "claude-code"
+  - "clip/video"
+  - "skills"
 ---
 Every engineer who has used [Claude Code](https://tosea.ai/blog/claude-code-complete-guide-2026) for more than a week has run into the same friction. The tool is genuinely capable. But it does not know how your team works. It does not know that you write tests before implementation, which git operations should require human approval, your codebase's architectural patterns, or your team's conventions for breaking down work. Every session starts from scratch.
 

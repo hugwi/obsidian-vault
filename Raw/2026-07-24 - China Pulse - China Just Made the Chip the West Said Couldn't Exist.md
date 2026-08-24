@@ -1,19 +1,24 @@
 ---
 title: "China Just Made the Chip the West Said Couldn't Exist"
-source: youtube
-url: https://www.youtube.com/watch?v=CC15fKd466s
+source: "youtube"
+url: "https://www.youtube.com/watch?v=CC15fKd466s"
 author: "China Pulse"
-published: 2026-07-24
-created: 2026-08-24
+published: "2026-07-24"
+created: "2026-08-24"
 duration: "0:16:38"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "apple"
+  - "context-engineering"
+  - "hardware"
+  - "nvidia"
+summary: "Huawei says it can build a chip that matches the most advanced processors on Earth without buying a single machine that makes them. The machine it can't buy costs around $200 million. >> [music] >> It weighs about as much as two full-size passenger jets, and the US government made sure Huawei would never get one."
 ---
 
 # China Just Made the Chip the West Said Couldn't Exist

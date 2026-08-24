@@ -1,19 +1,34 @@
 ---
 title: "What the hell happened with AGI timelines in 2026?"
-source: youtube
-url: https://www.youtube.com/watch?v=31Uhv12ZLHU
+source: "youtube"
+url: "https://www.youtube.com/watch?v=31Uhv12ZLHU"
 author: "80,000 Hours"
-published: 2026-08-04
-created: 2026-08-24
+published: "2026-08-04"
+created: "2026-08-24"
 duration: "0:49:28"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "evaluation"
+  - "hardware"
+  - "nvidia"
+  - "openai"
+  - "skills"
+  - "video-gen"
+  - "youtube-strategy"
+summary: "Rob Wiblin: Earlier this year I put out what might 
+just be the worst-timed thing I’ve ever published. I set out to explain why everyone was again 
+feeling bearish about AI, and people’s timelines to AGI [artificial general intelligence] 
+were getting longer and longer. Just as I was wrapping up the research for it, everything 
+changed."
 ---
 
 # What the hell happened with AGI timelines in 2026?

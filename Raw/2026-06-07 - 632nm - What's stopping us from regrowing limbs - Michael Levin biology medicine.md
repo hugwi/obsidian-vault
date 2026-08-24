@@ -1,19 +1,20 @@
 ---
 title: "What's stopping us from regrowing limbs? - Michael Levin #biology #medicine"
-source: youtube
-url: https://www.youtube.com/watch?v=GIIxFCOCV6o
+source: "youtube"
+url: "https://www.youtube.com/watch?v=GIIxFCOCV6o"
 author: "632nm"
-published: 2026-06-07
-created: 2026-08-24
+published: "2026-06-07"
+created: "2026-08-24"
 duration: "0:00:44"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+summary: "When you have an amputation as a mouse, you don't have time to try to regenerate. You're going to bleed out, you're going to get infected, you're going to try to crawl it's load-bearing, so you're going [music] to try to put weight on it and rub it into the forest floor. The best thing you can do at that point is scar and hope that you live."
 ---
 
 # What's stopping us from regrowing limbs? - Michael Levin #biology #medicine

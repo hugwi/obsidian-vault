@@ -1,19 +1,21 @@
 ---
 title: "Do This Before AI Writes Any Code #aicoding #claude #vibecoding"
-source: youtube
-url: https://www.youtube.com/watch?v=MV-Mw5npOJk
+source: "youtube"
+url: "https://www.youtube.com/watch?v=MV-Mw5npOJk"
 author: "Better Stack"
-published: 2026-06-05
-created: 2026-08-24
+published: "2026-06-05"
+created: "2026-08-24"
 duration: "0:01:47"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+summary: "Everyone is vibe coding with AI right now, but here's the part nobody talks about. It feels great for the first 10 minutes, we know that, and eventually your code base turns into nothing. You describe the feature, the AI starts writing code, it looks good, it even feels like you're moving fast, but then state starts leaking off, flows break, and somehow the AI has created 17 versions of the same object."
 ---
 
 # Do This Before AI Writes Any Code #aicoding #claude #vibecoding

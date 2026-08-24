@@ -1,19 +1,32 @@
 ---
 title: "Deepseek Harness: Not What You Think"
-source: youtube
-url: https://www.youtube.com/watch?v=y0BW4hpMpyM
+source: "youtube"
+url: "https://www.youtube.com/watch?v=y0BW4hpMpyM"
 author: "Kai"
-published: 2026-08-21
-created: 2026-08-24
+published: "2026-08-21"
+created: "2026-08-24"
 duration: "0:14:42"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "google"
+  - "harness-engineering"
+  - "local-llm"
+  - "openai"
+  - "security"
+  - "skills"
+  - "video-gen"
+summary: "Last week I spent 3 hours convincing myself that a Chinese AI lab had just built the most capable coding model on the planet. I had the benchmark open, I had the GitHub tab pinned, and then I actually read the footnote. One footnote, buried under a table."
 ---
 
 # Deepseek Harness: Not What You Think

@@ -1,18 +1,19 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, design]
+domain: "[agentic-engineering, design]"
 tags:
-  - claude-code
-  - ux-ui
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: agents-models
+  - "claude-code"
+  - "ux-ui"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "agents-models"
 subtheme:
-  - coding-agent-platforms
-  - multi-provider-sdk
+  - "coding-agent-platforms"
+  - "multi-provider-sdk"
 ---
 
 # Anthropic's Boris Cherny: Why Coding Is Solved, and What Comes Next

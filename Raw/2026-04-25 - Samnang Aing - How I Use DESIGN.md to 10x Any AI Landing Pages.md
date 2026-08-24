@@ -1,19 +1,28 @@
 ---
 title: "How I Use DESIGN.md to 10x Any AI Landing Pages"
-source: youtube
-url: https://www.youtube.com/watch?v=nqb7buEpRbE
+source: "youtube"
+url: "https://www.youtube.com/watch?v=nqb7buEpRbE"
 author: "Samnang Aing"
-published: 2026-04-25
-created: 2026-08-24
+published: "2026-04-25"
+created: "2026-08-24"
 duration: "0:18:48"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "business"
+  - "context-engineering"
+  - "google"
+  - "local-llm"
+  - "skills"
+  - "video-gen"
+  - "voice-ai"
+  - "web-design"
+summary: "[music] >> A lot of AI landing pages still look generic for one simple reason. Workflow starts with no visual direction. Most people are still doing the same thing."
 ---
 
 # How I Use DESIGN.md to 10x Any AI Landing Pages

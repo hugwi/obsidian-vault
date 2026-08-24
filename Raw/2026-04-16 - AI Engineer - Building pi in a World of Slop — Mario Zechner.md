@@ -1,19 +1,32 @@
 ---
 title: "Building pi in a World of Slop — Mario Zechner"
-source: youtube
-url: https://www.youtube.com/watch?v=RjfbvDXpFls
+source: "youtube"
+url: "https://www.youtube.com/watch?v=RjfbvDXpFls"
 author: "AI Engineer"
-published: 2026-04-16
-created: 2026-08-24
+published: "2026-04-16"
+created: "2026-08-24"
 duration: "0:18:25"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "business"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "harness-engineering"
+  - "local-llm"
+  - "mcp"
+  - "skills"
+  - "voice-ai"
+  - "web-design"
+summary: "I built pie in a world of slop and this is a tragedy tragedy in three acts. Just to talk about this real quick. Bunch of people on the internet gave me money for ad space on my torso and all of that goes to a charity."
 ---
 
 # Building pi in a World of Slop — Mario Zechner

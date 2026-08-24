@@ -1,19 +1,23 @@
 ---
 title: "Claude Code Just Killed $10,000 Websites (Here’s Proof)"
-source: youtube
-url: https://www.youtube.com/watch?v=M9qgd_KJkWc
+source: "youtube"
+url: "https://www.youtube.com/watch?v=M9qgd_KJkWc"
 author: "Duncan Rogoff | Learn Claude Code"
-published: 2026-04-21
-created: 2026-08-24
+published: "2026-04-21"
+created: "2026-08-24"
 duration: "0:00:43"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "skills"
+  - "video-gen"
+  - "web-design"
+summary: "Cloud Code just made $10,000 websites irrelevant. Anyone can now build beautiful, fully animated websites by pasting a single line of code. First, install Cloud Code from the provided URL and copy the command into your terminal."
 ---
 
 # Claude Code Just Killed $10,000 Websites (Here’s Proof)

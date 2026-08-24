@@ -1,18 +1,19 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents]
+domain: "[agentic-engineering, ai-agents]"
 tags:
-  - claude-code
-  - computer-use
-  - harness
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: workflow-phases-gates
+  - "claude-code"
+  - "computer-use"
+  - "harness"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "workflow-phases-gates"
 subtheme:
-  - durable-execution
+  - "durable-execution"
 ---
 
 # When Claude Code's Browser Plugin Wasn't Enough: A Journey to Reliable Browser Automation with…

@@ -1,19 +1,24 @@
 ---
 title: "This One Prompt Fixes AI Character Consistency (Use This)"
-source: youtube
-url: https://www.youtube.com/watch?v=G01kghX152g
+source: "youtube"
+url: "https://www.youtube.com/watch?v=G01kghX152g"
 author: "AI Samson"
-published: 2026-02-27
-created: 2026-08-24
+published: "2026-02-27"
+created: "2026-08-24"
 duration: "0:13:43"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "business"
+  - "google"
+  - "video-gen"
+  - "youtube-strategy"
+summary: "This one prompt just changed the way that I create consistent characters with AI forever. I stress tested this across a number of complex use cases like facial tattoos and strange scars as well as very specific piercings. And the results were truly incredible."
 ---
 
 # This One Prompt Fixes AI Character Consistency (Use This)

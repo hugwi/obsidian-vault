@@ -1,19 +1,21 @@
 ---
 title: "How Do You Review a 180,000-Line Claude Code Pull Request?"
-source: youtube
-url: https://www.youtube.com/watch?v=y6UcEZajAFs
+source: "youtube"
+url: "https://www.youtube.com/watch?v=y6UcEZajAFs"
 author: "Speedify"
-published: 2026-04-13
-created: 2026-08-24
+published: "2026-04-13"
+created: "2026-08-24"
 duration: "0:01:25"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "openai"
+summary: "I don't want to admit this, but I actually had a single PR that was 180,000 lines of code. We had a giant code base built on an old version of Angular, and Claude updated to latest version of Angular, and it needed to change basically every line of code. Claude and OpenAI's Codex are putting into our code bases a lot of garbage."
 ---
 
 # How Do You Review a 180,000-Line Claude Code Pull Request?

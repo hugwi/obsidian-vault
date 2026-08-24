@@ -1,19 +1,26 @@
 ---
 title: "Germany's New Photonic NPU Just Made NVIDIA’s Billion Dollar GPUs Look Like TRASH!"
-source: youtube
-url: https://www.youtube.com/watch?v=yCqrv0SM02o
+source: "youtube"
+url: "https://www.youtube.com/watch?v=yCqrv0SM02o"
 author: "Evolving AI"
-published: 2026-04-19
-created: 2026-08-24
+published: "2026-04-19"
+created: "2026-08-24"
 duration: "0:12:02"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "hardware"
+  - "nvidia"
+  - "video-gen"
+summary: "What if I told you that there's a chip out there that doesn't even use electricity to compute? No transistors flipping on and off. No heat sinks the size of a car radiator."
 ---
 
 # Germany's New Photonic NPU Just Made NVIDIA’s Billion Dollar GPUs Look Like TRASH!

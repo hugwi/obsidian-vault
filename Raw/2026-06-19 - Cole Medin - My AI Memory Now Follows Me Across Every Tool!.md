@@ -1,19 +1,23 @@
 ---
 title: "My AI Memory Now Follows Me Across Every Tool!"
-source: youtube
-url: https://www.youtube.com/watch?v=JETG-4MmihY
+source: "youtube"
+url: "https://www.youtube.com/watch?v=JETG-4MmihY"
 author: "Cole Medin"
-published: 2026-06-19
-created: 2026-08-24
+published: "2026-06-19"
+created: "2026-08-24"
 duration: "0:02:51"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+  - "mcp"
+summary: "Claude Code through my second brain knows everything about me and the projects that I'm working on. The memory system here makes me so productive, but the problem is I'm not just using Claude Code anymore. I'm still using it, but I'm also using Codex and Pi."
 ---
 
 # My AI Memory Now Follows Me Across Every Tool!

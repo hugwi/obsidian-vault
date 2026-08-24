@@ -1,19 +1,27 @@
 ---
 title: "How To Beat The New YouTube Algorithm With Claude AI In 20 Minutes"
-source: youtube
-url: https://www.youtube.com/watch?v=-0f-IpXfJpg
+source: "youtube"
+url: "https://www.youtube.com/watch?v=-0f-IpXfJpg"
 author: "Shane Hummus"
-published: 2026-06-14
-created: 2026-08-24
+published: "2026-06-14"
+created: "2026-08-24"
 duration: "0:22:52"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "anthropic"
+  - "business"
+  - "engineering"
+  - "skills"
+  - "video-gen"
+  - "voice-ai"
+  - "youtube-strategy"
+summary: "A hundred eighty-five thousand a month, eighty-thousand dollars in a month, half a million dollars in a month. These are three real YouTube channels in my community and not one of them had over two hundred thousand subscribers when they made this amount of money in a single month. And by the end of this video, I'm going to show you how to beat the new YouTube algorithm using Claude AI in about five extra minutes of real work per video so that you can pull numbers like that, too."
 ---
 
 # How To Beat The New YouTube Algorithm With Claude AI In 20 Minutes

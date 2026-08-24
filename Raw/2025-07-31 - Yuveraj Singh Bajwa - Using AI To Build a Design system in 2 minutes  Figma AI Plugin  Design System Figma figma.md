@@ -1,19 +1,22 @@
 ---
 title: "Using AI To Build a Design system in 2 minutes | Figma AI Plugin | Design System Figma #figma"
-source: youtube
-url: https://www.youtube.com/watch?v=iHGXwjm9COI
+source: "youtube"
+url: "https://www.youtube.com/watch?v=iHGXwjm9COI"
 author: "Yuveraj Singh Bajwa"
-published: 2025-07-31
-created: 2026-08-24
+published: "2025-07-31"
+created: "2026-08-24"
 duration: "0:00:29"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "video-gen"
+  - "web-design"
+summary: "The lights, your face, your eyes exploding like fire. Your body while you're pushing on me. We'll be dancing till the morning."
 ---
 
 # Using AI To Build a Design system in 2 minutes | Figma AI Plugin | Design System Figma #figma

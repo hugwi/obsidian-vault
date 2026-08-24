@@ -1,19 +1,23 @@
 ---
 title: "These AI Glasses Let Me Code Anywhere"
-source: youtube
-url: https://www.youtube.com/watch?v=Uh7JoAGTfHc
+source: "youtube"
+url: "https://www.youtube.com/watch?v=Uh7JoAGTfHc"
 author: "Mile High Engineer"
-published: 2026-01-20
-created: 2026-08-24
+published: "2026-01-20"
+created: "2026-08-24"
 duration: "0:07:08"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "video-gen"
+  - "voice-ai"
+summary: "I'd love to tell you that the inspiration for this project was some grand vision for how we'll interact with coding agents in the future, but honestly, it was her. I recently worked on a really interesting software project with a tight timeline. She didn't care if I was in a flow or not."
 ---
 
 # These AI Glasses Let Me Code Anywhere

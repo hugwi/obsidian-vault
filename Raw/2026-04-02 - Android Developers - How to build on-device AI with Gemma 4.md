@@ -1,19 +1,27 @@
 ---
 title: "How to build on-device AI with Gemma 4"
-source: youtube
-url: https://www.youtube.com/watch?v=iB5POKmXfWY
+source: "youtube"
+url: "https://www.youtube.com/watch?v=iB5POKmXfWY"
 author: "Android Developers"
-published: 2026-04-02
-created: 2026-08-24
+published: "2026-04-02"
+created: "2026-08-24"
 duration: "0:00:51"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "google"
+summary: "[MUSIC PLAYING] SPEAKER: Google's newest
+and most capable open model, Gemma 4, is available today. On Android, it will
+come in two sizes, an incredibly fast 2B model
+and a powerful 4B one. With Gemma 4, we bring
+state-of-the-art advanced reasoning directly
+to Android devices, so you can build innovative new
+features with powerful AI that stays on device."
 ---
 
 # How to build on-device AI with Gemma 4

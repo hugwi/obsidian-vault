@@ -1,19 +1,26 @@
 ---
 title: "Self Driving Products: Product Signals to Pull Requests — Joshua Snyder, PostHog"
-source: youtube
-url: https://www.youtube.com/watch?v=zMiSRliEzv4
+source: "youtube"
+url: "https://www.youtube.com/watch?v=zMiSRliEzv4"
 author: "AI Engineer"
-published: 2026-06-10
-created: 2026-08-24
+published: "2026-06-10"
+created: "2026-08-24"
 duration: "0:15:39"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+  - "evaluation"
+  - "local-llm"
+  - "mcp"
+  - "web-design"
+summary: "If you haven't heard of us, you might know us because of some hedgehogs or you might have seen our founder James posting some funny things on LinkedIn. I'm going to be talking today about what if your product built itself? And the pipeline that we're currently working on which we're trying to turn observability data instead of something that you read and that you interpret based on dashboards, we're trying to turn turn that into something that submits pull requests for you."
 ---
 
 # Self Driving Products: Product Signals to Pull Requests — Joshua Snyder, PostHog

@@ -1,19 +1,23 @@
 ---
 title: "turned Opus 4.8 into its engineer 😳 #chatgpt  #technews #openai"
-source: youtube
-url: https://www.youtube.com/watch?v=gQM7wnZdtVo
+source: "youtube"
+url: "https://www.youtube.com/watch?v=gQM7wnZdtVo"
 author: "Akshay Bavkar"
-published: 2026-06-02
-created: 2026-08-24
+published: "2026-06-02"
+created: "2026-08-24"
 duration: "0:00:27"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "anthropic"
+  - "openai"
+  - "video-gen"
+summary: "This guy bought a $31 toy drone and turned Plaud Opus 4.8 into its engineer. He plugged it into a laptop, explained the control logic in plain English, and let Opus build the entire flight interface. Within a few hours, the drone had calibration, live controls, and even a browser-based cockpit controlling it in real time."
 ---
 
 # turned Opus 4.8 into its engineer 😳 #chatgpt  #technews #openai

@@ -1,19 +1,24 @@
 ---
 title: "My agent hallucinated - what do I do?"
-source: youtube
-url: https://www.youtube.com/watch?v=H-JHumbpORI
+source: "youtube"
+url: "https://www.youtube.com/watch?v=H-JHumbpORI"
 author: "Matt Pocock"
-published: 2026-07-15
-created: 2026-08-24
+published: "2026-07-15"
+created: "2026-08-24"
 duration: "0:01:32"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+  - "engineering"
+  - "skills"
+summary: "They're probably inherent to LLMs. Well, let's say you have some kind of coding hallucination and what you first need to say is was the information available to the LLM in its context window. People think that LLMs are kind of like databases where they store information and retrieve, but that's absolutely not right."
 ---
 
 # My agent hallucinated - what do I do?

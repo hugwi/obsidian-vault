@@ -1,16 +1,17 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - metrics
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: industry-product
+  - "metrics"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "industry-product"
 subtheme:
-  - market-landscape
+  - "market-landscape"
 ---
 
 # Best AI News Aggregators in 2026: 7 Tools Compared

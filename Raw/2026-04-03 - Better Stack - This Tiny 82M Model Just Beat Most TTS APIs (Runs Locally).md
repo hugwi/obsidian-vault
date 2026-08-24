@@ -1,19 +1,29 @@
 ---
 title: "This Tiny 82M Model Just Beat Most TTS APIs (Runs Locally)"
-source: youtube
-url: https://www.youtube.com/watch?v=bdf6BxyxCnQ
+source: "youtube"
+url: "https://www.youtube.com/watch?v=bdf6BxyxCnQ"
 author: "Better Stack"
-published: 2026-04-03
-created: 2026-08-24
+published: "2026-04-03"
+created: "2026-08-24"
 duration: "0:05:41"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "apple"
+  - "context-engineering"
+  - "engineering"
+  - "hardware"
+  - "local-llm"
+  - "openai"
+  - "video-gen"
+  - "voice-ai"
+summary: "An 82 million parameter model just beat much larger TTS systems and it runs locally on a laptop faster than most paid APIs. Last month I paid for a cloud TTS but still got some lag. How are some of these open-source models beating this?"
 ---
 
 # This Tiny 82M Model Just Beat Most TTS APIs (Runs Locally)

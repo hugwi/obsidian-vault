@@ -1,19 +1,21 @@
 ---
 title: "Your research workflow just became obsolete. Meet the open-source game changer."
-source: youtube
-url: https://www.youtube.com/watch?v=TXwPVXFcgTU
+source: "youtube"
+url: "https://www.youtube.com/watch?v=TXwPVXFcgTU"
 author: "Juxhin Radhima"
-published: 2026-04-28
-created: 2026-08-24
+published: "2026-04-28"
+created: "2026-08-24"
 duration: "0:00:50"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "business"
+summary: "Stop paying for AI subscriptions. This new open-source AI just made expensive research tools completely obsolete, and it's 100% free. It's called Auto Research Claw, and it's a fully autonomous pipeline that takes a single idea and turns it into a conference-ready research paper."
 ---
 
 # Your research workflow just became obsolete. Meet the open-source game changer.

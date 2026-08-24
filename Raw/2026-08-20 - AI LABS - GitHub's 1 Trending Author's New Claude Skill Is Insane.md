@@ -1,19 +1,26 @@
 ---
 title: "GitHub's #1 Trending Author's New Claude Skill Is Insane"
-source: youtube
-url: https://www.youtube.com/watch?v=c47uqR7XB_c
+source: "youtube"
+url: "https://www.youtube.com/watch?v=c47uqR7XB_c"
 author: "AI LABS"
-published: 2026-08-20
-created: 2026-08-24
+published: "2026-08-20"
+created: "2026-08-24"
 duration: "0:12:54"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "engineering"
+  - "skills"
+  - "video-gen"
+summary: "There's a fundamental problem with AI models. Whenever you give them tasks, they never take ownership of that task, and this is why we always have to review the agent's output because we cannot trust it. But this laziness problem just got solved."
 ---
 
 # GitHub's #1 Trending Author's New Claude Skill Is Insane

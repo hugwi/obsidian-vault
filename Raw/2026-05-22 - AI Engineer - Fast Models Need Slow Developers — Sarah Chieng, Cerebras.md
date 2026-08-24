@@ -1,19 +1,29 @@
 ---
 title: "Fast Models Need Slow Developers — Sarah Chieng, Cerebras"
-source: youtube
-url: https://www.youtube.com/watch?v=TeGsFFNqRLA
+source: "youtube"
+url: "https://www.youtube.com/watch?v=TeGsFFNqRLA"
 author: "AI Engineer"
-published: 2026-05-22
-created: 2026-08-24
+published: "2026-05-22"
+created: "2026-08-24"
 duration: "0:18:01"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "engineering"
+  - "hardware"
+  - "nvidia"
+  - "openai"
+  - "security"
+  - "skills"
+summary: "And so, we we're all familiar with it. We do things like write massive prompts and try to one-shot. We'll make huge commits, or we'll have our 10 agents all on the screen at the same time combobulating, cogitating, thinking."
 ---
 
 # Fast Models Need Slow Developers — Sarah Chieng, Cerebras

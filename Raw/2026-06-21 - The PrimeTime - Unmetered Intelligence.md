@@ -1,19 +1,22 @@
 ---
 title: "Unmetered Intelligence"
-source: youtube
-url: https://www.youtube.com/watch?v=EvjQZMoSAu4
+source: "youtube"
+url: "https://www.youtube.com/watch?v=EvjQZMoSAu4"
 author: "The PrimeTime"
-published: 2026-06-21
-created: 2026-08-24
+published: "2026-06-21"
+created: "2026-08-24"
 duration: "0:01:09"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "microsoft"
+  - "openai"
+summary: "We see a future where intelligence is a utility like electricity or water and people buy it from us um on a meter and use it for whatever they want to use it for. >> All right, did everyone hear that? They're going to be buying intelligence."
 ---
 
 # Unmetered Intelligence

@@ -1,19 +1,30 @@
 ---
 title: "Spec-Driven Development in 2026: What Actually Changed"
-source: youtube
-url: https://www.youtube.com/watch?v=b6cbxSaa4U4
+source: "youtube"
+url: "https://www.youtube.com/watch?v=b6cbxSaa4U4"
 author: "The Gray Cat"
-published: 2026-04-22
-created: 2026-08-24
+published: "2026-04-22"
+created: "2026-08-24"
 duration: "0:23:07"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "business"
+  - "context-engineering"
+  - "engineering"
+  - "mcp"
+  - "microsoft"
+  - "skills"
+  - "video-gen"
+  - "youtube-strategy"
+summary: "One framework grew 863% over the last six months. Another one in the same category grew 18. Last October I made a video comparing three spec-driven development frameworks — BMAD, Spec Kit, and OpenSpec."
 ---
 
 # Spec-Driven Development in 2026: What Actually Changed

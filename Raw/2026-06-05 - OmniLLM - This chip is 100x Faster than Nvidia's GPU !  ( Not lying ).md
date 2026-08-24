@@ -1,19 +1,28 @@
 ---
 title: "This chip is 100x Faster than Nvidia's GPU !  ( Not lying )"
-source: youtube
-url: https://www.youtube.com/watch?v=YSBR_G_9fCE
+source: "youtube"
+url: "https://www.youtube.com/watch?v=YSBR_G_9fCE"
 author: "OmniLLM"
-published: 2026-06-05
-created: 2026-08-24
+published: "2026-06-05"
+created: "2026-08-24"
 duration: "0:05:50"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "business"
+  - "context-engineering"
+  - "hardware"
+  - "local-llm"
+  - "nvidia"
+  - "video-gen"
+  - "voice-ai"
+summary: "Nvidia controls roughly 90% of the AI chip market. Governments are literally stockpiling their hardware as a matter of national security. Instead, they paid $20 billion to license the technology, and I'm not even joking."
 ---
 
 # This chip is 100x Faster than Nvidia's GPU !  ( Not lying )

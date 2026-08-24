@@ -1,19 +1,27 @@
 ---
 title: "How This Tiny $8 Chip Runs an LLM With Almost No RAM"
-source: youtube
-url: https://www.youtube.com/watch?v=0qXVMt3pIjU
+source: "youtube"
+url: "https://www.youtube.com/watch?v=0qXVMt3pIjU"
 author: "Better Stack"
-published: 2026-07-31
-created: 2026-08-24
+published: "2026-07-31"
+created: "2026-08-24"
 duration: "0:08:14"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "context-engineering"
+  - "engineering"
+  - "google"
+  - "hardware"
+  - "local-llm"
+  - "microsoft"
+  - "video-gen"
+summary: "This is a 28.9 million parameter language model generating text right now one word at a time on a chip that costs about $8. There's no Wi-Fi, nothing is being sent to a server. Everything is happening inside an ESP32-S3, a microcontroller with less RAM than a computer from the '90s."
 ---
 
 # How This Tiny $8 Chip Runs an LLM With Almost No RAM

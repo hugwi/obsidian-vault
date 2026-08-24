@@ -1,21 +1,22 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents, personal, product-business]
+domain: "[agentic-engineering, ai-agents, personal, product-business]"
 tags:
-  - harness
-  - health
-  - mcp
-  - memory
-  - startup
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: multi-agent-orchestration
+  - "harness"
+  - "health"
+  - "mcp"
+  - "memory"
+  - "startup"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "multi-agent-orchestration"
 subtheme:
-  - coordinator-patterns
-  - skill-tool-extension
+  - "coordinator-patterns"
+  - "skill-tool-extension"
 ---
 
 # stride-nyc/ohl-agent: ReAct agent with MCP for OneHealthLink agent escalation

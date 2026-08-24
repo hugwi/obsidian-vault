@@ -1,19 +1,28 @@
 ---
 title: "NVIDIA Monopoly is DEAD | OPEN-SOURCE Chips Are HERE!"
-source: youtube
-url: https://www.youtube.com/watch?v=nvPqHoVSenE
+source: "youtube"
+url: "https://www.youtube.com/watch?v=nvPqHoVSenE"
 author: "Hefty LLM"
-published: 2026-05-26
-created: 2026-08-24
+published: "2026-05-26"
+created: "2026-08-24"
 duration: "0:08:49"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "apple"
+  - "context-engineering"
+  - "evaluation"
+  - "hardware"
+  - "local-llm"
+  - "nvidia"
+  - "openai"
+  - "video-gen"
+summary: "Just 2 weeks ago, the man behind the iPhone chips, the PlayStation, and the entire comeback of AMD stood on a stage and said, "Whatever Nvidia does, we'll do the opposite." This is Jim Keller. He spent the last 4 years building a chip that runs entirely on open-source architecture, and it beats Nvidia's best inference system while it costs five times less to run. [music] So, if he actually built a better and cheaper AI chip, why have you never heard of it?"
 ---
 
 # NVIDIA Monopoly is DEAD | OPEN-SOURCE Chips Are HERE!

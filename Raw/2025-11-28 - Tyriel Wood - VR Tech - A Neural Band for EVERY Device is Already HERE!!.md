@@ -1,19 +1,23 @@
 ---
 title: "A Neural Band for EVERY Device is Already HERE!!"
-source: youtube
-url: https://www.youtube.com/watch?v=59P41RG8d7w
+source: "youtube"
+url: "https://www.youtube.com/watch?v=59P41RG8d7w"
 author: "Tyriel Wood - VR Tech"
-published: 2025-11-28
-created: 2026-08-24
+published: "2025-11-28"
+created: "2026-08-24"
 duration: "0:12:42"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "apple"
+  - "video-gen"
+  - "youtube-strategy"
+summary: "This is the Mudra Link, a simple band that can connect with any device out there to control and interact with them using and reading your brain signals. If it feels like magic, it's because it is. The idea became particularly popular lately with announcement [music] of the Meta Ribbon display."
 ---
 
 # A Neural Band for EVERY Device is Already HERE!!

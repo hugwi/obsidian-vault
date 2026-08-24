@@ -3,11 +3,13 @@ title: "renjfk/opencode-voice: Speech-to-text and text-to-speech plugin for Open
 source: "https://github.com/renjfk/opencode-voice"
 author:
 published:
-created: 2026-06-29
+created: "2026-06-29"
 description: "Speech-to-text and text-to-speech plugin for OpenCode - renjfk/opencode-voice"
 tags:
   - "clippings"
   - "voice"
+  - "clip/video"
+  - "voice-ai"
 ---
 ## opencode-voice
 

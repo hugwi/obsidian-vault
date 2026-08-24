@@ -1,19 +1,29 @@
 ---
 title: "Claude Code's entire source code was leaked"
-source: youtube
-url: https://www.youtube.com/watch?v=LCjkmbHOtys
+source: "youtube"
+url: "https://www.youtube.com/watch?v=LCjkmbHOtys"
 author: "NeetCode"
-published: 2026-04-01
-created: 2026-08-24
+published: "2026-04-01"
+created: "2026-08-24"
 duration: "0:20:39"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "engineering"
+  - "harness-engineering"
+  - "local-llm"
+  - "openai"
+  - "video-gen"
+  - "youtube-strategy"
+summary: "There is a new open source coding agent in town and it's not open code, it's not Codex, it's actually Claude code and it wasn't on purpose, but just today, the day before April Fools, Anthropic was making their daily updates to Claude code. There was a small mistake that was made which was basically that they accidentally included site maps in their project and I'll speak a little bit about what that actually means, but the genie was out of the bottle and we know how the internet works. Once something is out there, it's kind of hard to take it back and Anthropic is doing their best because if you try to download the code, it is not available and that's been happening and it's been getting fixed."
 ---
 
 # Claude Code's entire source code was leaked

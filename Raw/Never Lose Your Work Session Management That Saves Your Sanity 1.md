@@ -5,13 +5,14 @@ title: "Never Lose Your Work: Session Management That Saves Your Sanity"
 source: "https://dev.to/rajeshroyal/never-lose-your-work-session-management-that-saves-your-sanity-4dp8"
 author:
   - "[[dev.to]]"
-published: 2026-01-08
-created: 2026-06-16
-rating: 
-action: 
+published: "2026-01-08"
+created: "2026-06-16"
+rating:
+action:
 description: "Restore your last session instantly, or pick up any past conversation right where you left... Tagged with tutorial, claudecode, productivity, beginners."
 tags:
   - "to-process"
+  - "clip/video"
 ---
 *Restore your last session instantly, or pick up any past conversation right where you left off*
 

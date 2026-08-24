@@ -1,19 +1,32 @@
 ---
 title: "Deepseek drops another HUGE breakthrough"
-source: youtube
-url: https://www.youtube.com/watch?v=J0D7qV3nl7w
+source: "youtube"
+url: "https://www.youtube.com/watch?v=J0D7qV3nl7w"
 author: "AI Search"
-published: 2026-07-03
-created: 2026-08-24
+published: "2026-07-03"
+created: "2026-08-24"
 duration: "0:25:21"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "hardware"
+  - "local-llm"
+  - "mcp"
+  - "nvidia"
+  - "openai"
+  - "video-gen"
+  - "youtube-strategy"
+summary: "If you've been working with AI models, especially with agents that are doing some really challenging or long tasks, they take quite a while to process and generate your answer. It sometimes takes a painfully long time to wait for it to generate a response or finish a task. But what if that wait basically disappeared?"
 ---
 
 # Deepseek drops another HUGE breakthrough

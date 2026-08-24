@@ -1,19 +1,29 @@
 ---
 title: "Harnesses in AI: A Deep Dive — Tejas Kumar, IBM"
-source: youtube
-url: https://www.youtube.com/watch?v=C_GG5g38vLU
+source: "youtube"
+url: "https://www.youtube.com/watch?v=C_GG5g38vLU"
 author: "AI Engineer"
-published: 2026-05-17
-created: 2026-08-24
+published: "2026-05-17"
+created: "2026-08-24"
 duration: "0:20:26"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "google"
+  - "harness-engineering"
+  - "mcp"
+  - "openai"
+  - "voice-ai"
+  - "youtube-strategy"
+summary: "I'm I'll be your first speaker this afternoon. Tejas, that's pronounced like Tejas. Don't worry, I'm not Hopefully my my joy in AI is and I've had the privilege of working at a number of different places over my career in one form or the other."
 ---
 
 # Harnesses in AI: A Deep Dive — Tejas Kumar, IBM

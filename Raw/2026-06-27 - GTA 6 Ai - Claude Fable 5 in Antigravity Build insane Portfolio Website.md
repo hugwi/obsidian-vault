@@ -1,19 +1,21 @@
 ---
 title: "Claude Fable 5 in Antigravity Build insane Portfolio Website"
-source: youtube
-url: https://www.youtube.com/watch?v=gVxN-F22N6o
+source: "youtube"
+url: "https://www.youtube.com/watch?v=gVxN-F22N6o"
 author: "GTA 6 Ai"
-published: 2026-06-27
-created: 2026-08-24
+published: "2026-06-27"
+created: "2026-08-24"
 duration: "0:00:08"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "anthropic"
+  - "web-design"
 ---
 
 # Claude Fable 5 in Antigravity Build insane Portfolio Website

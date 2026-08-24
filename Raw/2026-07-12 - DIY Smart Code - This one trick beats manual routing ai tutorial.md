@@ -1,19 +1,23 @@
 ---
 title: "This one trick beats manual routing #ai #tutorial"
-source: youtube
-url: https://www.youtube.com/watch?v=4sFJx-edk04
+source: "youtube"
+url: "https://www.youtube.com/watch?v=4sFJx-edk04"
 author: "DIY Smart Code"
-published: 2026-07-12
-created: 2026-08-24
+published: "2026-07-12"
+created: "2026-08-24"
 duration: "0:01:52"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "local-llm"
+summary: "On Open Router, one slug picks it for you. Point your prompt at it, and it chooses the best model for that exact request. No model roulette, no guessing."
 ---
 
 # This one trick beats manual routing #ai #tutorial

@@ -1,13 +1,14 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [product-business]
+domain: "[product-business]"
 tags:
-  - product
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "product"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # The Weekly

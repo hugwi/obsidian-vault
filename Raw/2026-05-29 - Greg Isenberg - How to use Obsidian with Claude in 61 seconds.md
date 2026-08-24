@@ -1,19 +1,27 @@
 ---
 title: "How to use Obsidian with Claude in 61 seconds"
-source: youtube
-url: https://www.youtube.com/watch?v=2VSmDS3ALnw
+source: "youtube"
+url: "https://www.youtube.com/watch?v=2VSmDS3ALnw"
 author: "Greg Isenberg"
-published: 2026-05-29
-created: 2026-08-24
+published: "2026-05-29"
+created: "2026-08-24"
 duration: "0:01:01"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "business"
+  - "context-engineering"
+  - "mcp"
+  - "skills"
+  - "web-design"
+  - "youtube-strategy"
+summary: "Obsidian can keep you from getting fired, even when the entire economy is spiraling. And the best sidekick you can pair it with is Claude. There are three levels to this."
 ---
 
 # How to use Obsidian with Claude in 61 seconds

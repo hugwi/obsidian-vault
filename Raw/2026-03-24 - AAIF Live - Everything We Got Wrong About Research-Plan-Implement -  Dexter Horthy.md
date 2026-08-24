@@ -1,19 +1,27 @@
 ---
 title: "Everything We Got Wrong About Research-Plan-Implement -  Dexter Horthy"
-source: youtube
-url: https://www.youtube.com/watch?v=YwZR6tc7qYg
+source: "youtube"
+url: "https://www.youtube.com/watch?v=YwZR6tc7qYg"
 author: "AAIF Live"
-published: 2026-03-24
-created: 2026-08-24
+published: "2026-03-24"
+created: "2026-08-24"
 duration: "0:26:46"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "business"
+  - "context-engineering"
+  - "evaluation"
+  - "mcp"
+  - "skills"
+summary: "All right, before I bring up Dex, I got to say I met James and James, yeah, can you stand up real fast? James told me this morning that he is going We can't see the QR code. He's going to be having dinner tonight and everybody's invited."
 ---
 
 # Everything We Got Wrong About Research-Plan-Implement -  Dexter Horthy

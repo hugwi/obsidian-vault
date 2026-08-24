@@ -1,19 +1,21 @@
 ---
 title: "7 Tools to reverse engineer any binary #shorts"
-source: youtube
-url: https://www.youtube.com/watch?v=Ib2SxsFZhOA
+source: "youtube"
+url: "https://www.youtube.com/watch?v=Ib2SxsFZhOA"
 author: "Kerem Tech"
-published: 2026-05-29
-created: 2026-08-24
+published: "2026-05-29"
+created: "2026-08-24"
 duration: "0:00:07"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "context-engineering"
+  - "video-gen"
 ---
 
 # 7 Tools to reverse engineer any binary #shorts

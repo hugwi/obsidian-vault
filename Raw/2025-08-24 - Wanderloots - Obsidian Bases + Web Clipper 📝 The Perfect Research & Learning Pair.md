@@ -1,19 +1,29 @@
 ---
 title: "Obsidian Bases + Web Clipper 📝 The Perfect Research & Learning Pair"
-source: youtube
-url: https://www.youtube.com/watch?v=AvliytN6xKU
+source: "youtube"
+url: "https://www.youtube.com/watch?v=AvliytN6xKU"
 author: "Wanderloots"
-published: 2025-08-24
-created: 2026-08-24
+published: "2025-08-24"
+created: "2026-08-24"
 duration: "0:42:35"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "google"
+  - "local-llm"
+  - "openai"
+  - "video-gen"
+  - "web-design"
+  - "youtube-strategy"
+summary: "We consume more information than ever before, which means we need better systems than we've ever had to organize that information in a usable way. One of the best ways to deal with information overload is the code method. Capture, organize, distill, express."
 ---
 
 # Obsidian Bases + Web Clipper 📝 The Perfect Research & Learning Pair

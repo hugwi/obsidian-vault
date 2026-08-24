@@ -1,19 +1,32 @@
 ---
 title: "Smartphone makers are panicking..."
-source: youtube
-url: https://www.youtube.com/watch?v=BPnIYS35Fhk
+source: "youtube"
+url: "https://www.youtube.com/watch?v=BPnIYS35Fhk"
 author: "The Infographics Show"
-published: 2026-08-22
-created: 2026-08-24
+published: "2026-08-22"
+created: "2026-08-24"
 duration: "0:14:58"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "context-engineering"
+  - "evaluation"
+  - "google"
+  - "hardware"
+  - "local-llm"
+  - "microsoft"
+  - "nvidia"
+  - "openai"
+  - "video-gen"
+  - "web-design"
+summary: "Your 8GB RAM laptop is already on borrowed time. By the end of 2026, it could struggle to run the basic security systems of 
+a modern operating system. Not because it’s broken, but because 
+the rules of computing are changing."
 ---
 
 # Smartphone makers are panicking...

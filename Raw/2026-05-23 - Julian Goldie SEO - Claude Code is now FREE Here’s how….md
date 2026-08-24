@@ -1,19 +1,24 @@
 ---
 title: "Claude Code is now FREE: Here’s how…"
-source: youtube
-url: https://www.youtube.com/watch?v=zk2zhWzcGUw
+source: "youtube"
+url: "https://www.youtube.com/watch?v=zk2zhWzcGUw"
 author: "Julian Goldie SEO"
-published: 2026-05-23
-created: 2026-08-24
+published: "2026-05-23"
+created: "2026-08-24"
 duration: "0:00:48"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+  - "harness-engineering"
+  - "video-gen"
+summary: "You can now run Claude Code for free. With 1 million tokens of context, there's an open source version of Claude Code that routes to any AI model you want, including free ones. The free model it runs on is called Owl Alpha, 1 million token context window, built specifically for AI agents, free on open router."
 ---
 
 # Claude Code is now FREE: Here’s how…

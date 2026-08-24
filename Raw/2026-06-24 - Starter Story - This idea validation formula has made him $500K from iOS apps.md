@@ -1,19 +1,20 @@
 ---
 title: "This idea validation formula has made him $500K from iOS apps"
-source: youtube
-url: https://www.youtube.com/watch?v=EiyU4z0OOcc
+source: "youtube"
+url: "https://www.youtube.com/watch?v=EiyU4z0OOcc"
 author: "Starter Story"
-published: 2026-06-24
-created: 2026-08-24
+published: "2026-06-24"
+created: "2026-08-24"
 duration: "0:00:36"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+summary: "I've done this four times [music] and made over $500,000. Step one is spotting trends in the App Store. And how you do that is actually pretty simple."
 ---
 
 # This idea validation formula has made him $500K from iOS apps

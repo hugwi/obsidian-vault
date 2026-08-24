@@ -1,21 +1,22 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, design]
+domain: "[agentic-engineering, design]"
 tags:
-  - claude-code
-  - harness
-  - metrics
-  - ux-ui
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: workflow-phases-gates
+  - "claude-code"
+  - "harness"
+  - "metrics"
+  - "ux-ui"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "workflow-phases-gates"
 subtheme:
-  - harness-loops
-  - plan-phase
-  - durable-execution
+  - "harness-loops"
+  - "plan-phase"
+  - "durable-execution"
 ---
 
 # Building Claude Code with Harness Engineering

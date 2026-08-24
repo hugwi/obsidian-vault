@@ -1,19 +1,28 @@
 ---
 title: "Your AI Agent Is Missing Half the Internet… Until Now (Agent-Reach)"
-source: youtube
-url: https://www.youtube.com/watch?v=aanqEqQwjNU
+source: "youtube"
+url: "https://www.youtube.com/watch?v=aanqEqQwjNU"
 author: "Better Stack"
-published: 2026-06-18
-created: 2026-08-24
+published: "2026-06-18"
+created: "2026-08-24"
 duration: "0:06:15"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+  - "engineering"
+  - "security"
+  - "skills"
+  - "video-gen"
+  - "web-design"
+  - "youtube-strategy"
+summary: "I ran into this problem last week. I had my agent that obviously could edit code, run commands, and inspect the file. All of these are normal coding agent stuff."
 ---
 
 # Your AI Agent Is Missing Half the Internet… Until Now (Agent-Reach)

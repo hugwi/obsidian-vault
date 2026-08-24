@@ -1,14 +1,15 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [product-business, software-engineering]
+domain: "[product-business, software-engineering]"
 tags:
-  - patterns
-  - product
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "patterns"
+  - "product"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # Why is estimation part of refinement and not sprint planning?

@@ -1,19 +1,22 @@
 ---
 title: "Can You Actually Run DeepSeek V4 Pro For Free With Ads?"
-source: youtube
-url: https://www.youtube.com/watch?v=9e6ghZm3Oxo
+source: "youtube"
+url: "https://www.youtube.com/watch?v=9e6ghZm3Oxo"
 author: "Better Stack"
-published: 2026-08-17
-created: 2026-08-24
+published: "2026-08-17"
+created: "2026-08-24"
 duration: "0:01:22"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "local-llm"
+summary: "But, does that math actually pay off? 1 hour of real agentic coding with the agent rereading your files every turn can easily burn 2 million tokens. That's roughly a dollar an hour in raw compute just for one individual using it."
 ---
 
 # Can You Actually Run DeepSeek V4 Pro For Free With Ads?

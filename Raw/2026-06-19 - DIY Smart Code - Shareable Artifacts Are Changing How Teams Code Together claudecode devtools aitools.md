@@ -1,19 +1,23 @@
 ---
 title: "Shareable Artifacts Are Changing How Teams Code Together #claudecode #devtools #aitools"
-source: youtube
-url: https://www.youtube.com/watch?v=UbteGRZG-_E
+source: "youtube"
+url: "https://www.youtube.com/watch?v=UbteGRZG-_E"
 author: "DIY Smart Code"
-published: 2026-06-19
-created: 2026-08-24
+published: "2026-06-19"
+created: "2026-08-24"
 duration: "0:01:08"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+summary: "Cloud Code just shipped artifacts, shareable visual pages that your coding session builds for you. Watch what one actually looks like. Ask for one inside your session and you get a real web page, a pull request walk-through, a system explainer, a data dashboard, or a release checklist."
 ---
 
 # Shareable Artifacts Are Changing How Teams Code Together #claudecode #devtools #aitools

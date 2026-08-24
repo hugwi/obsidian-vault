@@ -1,19 +1,22 @@
 ---
 title: "GenericAgent: A Self-Evolving AI Agent Built in Just 3,000 Lines of Code"
-source: youtube
-url: https://www.youtube.com/watch?v=DP9CMg6fdBw
+source: "youtube"
+url: "https://www.youtube.com/watch?v=DP9CMg6fdBw"
 author: "Hungry Labs"
-published: 2026-04-17
-created: 2026-08-24
+published: "2026-04-17"
+created: "2026-08-24"
 duration: "0:00:21"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "skills"
+summary: "Generic agent, [music] self-evolving AI agent in 3,000 lines, trending on GitHub. Nine tools, >> [music] >> browser, terminal, files, keyboard, mouse, your phone. Every task becomes a reusable skill, >> [music] >> builds its own skill tree, 30K tokens per task."
 ---
 
 # GenericAgent: A Self-Evolving AI Agent Built in Just 3,000 Lines of Code

@@ -1,19 +1,27 @@
 ---
 title: "Anthropic is starting to panic…"
-source: youtube
-url: https://www.youtube.com/watch?v=0pgCBV8CTZY
+source: "youtube"
+url: "https://www.youtube.com/watch?v=0pgCBV8CTZY"
 author: "Fireship"
-published: 2026-06-09
-created: 2026-08-24
+published: "2026-06-09"
+created: "2026-08-24"
 duration: "0:05:03"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "anthropic"
+  - "engineering"
+  - "evaluation"
+  - "openai"
+  - "skills"
+  - "video-gen"
+  - "youtube-strategy"
+summary: "Last week, Anthropic officially became the apex alpha company of the artificial intelligence race with a valuation exceeding OpenAI as they filed to go public with their trillion-dollar IPO later this year. If you're a software engineer, this comes as no surprise because Claude has been the best AI programmer for years now. But despite the billions of dollars flowing into this company right now, they also just proposed something that sounds insane."
 ---
 
 # Anthropic is starting to panic…

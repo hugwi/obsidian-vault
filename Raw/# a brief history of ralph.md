@@ -1,21 +1,22 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, design, knowledge-management]
+domain: "[agentic-engineering, design, knowledge-management]"
 tags:
-  - context-management
-  - productivity
-  - skills
-  - spec-driven
-  - ux-ui
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: workflow-phases-gates
+  - "context-management"
+  - "productivity"
+  - "skills"
+  - "spec-driven"
+  - "ux-ui"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "workflow-phases-gates"
 subtheme:
-  - plan-phase
-  - harness-loops
+  - "plan-phase"
+  - "harness-loops"
 ---
 
 # # a brief history of ralph

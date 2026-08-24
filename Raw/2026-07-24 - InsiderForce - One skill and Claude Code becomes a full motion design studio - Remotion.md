@@ -1,19 +1,22 @@
 ---
 title: "One skill and Claude Code becomes a full motion design studio - Remotion"
-source: youtube
-url: https://www.youtube.com/watch?v=AAtagrbBOto
+source: "youtube"
+url: "https://www.youtube.com/watch?v=AAtagrbBOto"
 author: "InsiderForce"
-published: 2026-07-24
-created: 2026-08-24
+published: "2026-07-24"
+created: "2026-08-24"
 duration: "0:01:06"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "skills"
+  - "video-gen"
+summary: "Claude code can now create stunning animations. All you need is one skill to unlock it and Claude code becomes your own personal motion design studio. Save this before you forget and spend another week trying to figure out motion design software on your own."
 ---
 
 # One skill and Claude Code becomes a full motion design studio - Remotion

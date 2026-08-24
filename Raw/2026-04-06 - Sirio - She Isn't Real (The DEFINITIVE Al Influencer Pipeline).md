@@ -1,19 +1,28 @@
 ---
 title: "She Isn't Real (The DEFINITIVE Al Influencer Pipeline)"
-source: youtube
-url: https://www.youtube.com/watch?v=mCavxK7UJ84
+source: "youtube"
+url: "https://www.youtube.com/watch?v=mCavxK7UJ84"
 author: "Sirio"
-published: 2026-04-06
-created: 2026-08-24
+published: "2026-04-06"
+created: "2026-08-24"
 duration: "0:17:39"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "business"
+  - "context-engineering"
+  - "hardware"
+  - "video-gen"
+  - "voice-ai"
+  - "web-design"
+  - "youtube-strategy"
+summary: "Today, I'll show you the new and best way of creating consistent AI influencers that not only look real, but also can hold your product and lip-sync to your voice. And this thing has 20 g of protein. This is probably one of the better protein bars I've seen."
 ---
 
 # She Isn't Real (The DEFINITIVE Al Influencer Pipeline)

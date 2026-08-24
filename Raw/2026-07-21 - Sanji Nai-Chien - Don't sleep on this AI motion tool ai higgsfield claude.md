@@ -1,19 +1,22 @@
 ---
 title: "Don't sleep on this AI motion tool #ai #higgsfield #claude"
-source: youtube
-url: https://www.youtube.com/watch?v=Lt1jJmG3l_k
+source: "youtube"
+url: "https://www.youtube.com/watch?v=Lt1jJmG3l_k"
 author: "Sanji Nai-Chien"
-published: 2026-07-21
-created: 2026-08-24
+published: "2026-07-21"
+created: "2026-08-24"
 duration: "0:01:03"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "mcp"
+  - "video-gen"
+summary: "Claude can now generate entire motion graphics videos, and I don't think people realize how fast motion design is changing. Everything that you're seeing on screen right now was generated inside Claude in just a couple of minutes. That's way faster than traditional motion graphics workflows."
 ---
 
 # Don't sleep on this AI motion tool #ai #higgsfield #claude

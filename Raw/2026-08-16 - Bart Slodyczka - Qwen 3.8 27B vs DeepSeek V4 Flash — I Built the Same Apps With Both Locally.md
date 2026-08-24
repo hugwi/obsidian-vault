@@ -1,19 +1,26 @@
 ---
 title: "Qwen 3.8 27B vs DeepSeek V4 Flash — I Built the Same Apps With Both Locally"
-source: youtube
-url: https://www.youtube.com/watch?v=4eBxA6UGXAo
+source: "youtube"
+url: "https://www.youtube.com/watch?v=4eBxA6UGXAo"
 author: "Bart Slodyczka"
-published: 2026-08-16
-created: 2026-08-24
+published: "2026-08-16"
+created: "2026-08-24"
 duration: "0:18:24"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "google"
+  - "harness-engineering"
+  - "local-llm"
+  - "video-gen"
+  - "youtube-strategy"
+summary: "I've got both these models downloaded and running on my Mac Studio, so this is going to be an at-home test. And I've already created three different tests of various difficulties. We're going to be using a free weather API."
 ---
 
 # Qwen 3.8 27B vs DeepSeek V4 Flash — I Built the Same Apps With Both Locally

@@ -3,10 +3,16 @@ title: "AgriciDaniel/claude-youtube: Claude Code skill for YouTube creators — 
 source: "https://github.com/AgriciDaniel/claude-youtube"
 author:
 published:
-created: 2026-08-02
+created: "2026-08-02"
 description: "Claude Code skill for YouTube creators — channel audits, video SEO, retention scripts, thumbnails, content strategy, Shorts optimization, analytics, monetization, and more. - AgriciDaniel/claude-youtube"
 tags:
   - "clippings"
+  - "business"
+  - "claude-code"
+  - "clip/video"
+  - "skills"
+  - "video-gen"
+  - "youtube-strategy"
 ---
 ## claude-youtube
 

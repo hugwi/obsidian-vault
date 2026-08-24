@@ -1,19 +1,22 @@
 ---
 title: "Top 3 Claude Code Skills for Non-Designers"
-source: youtube
-url: https://www.youtube.com/watch?v=bAhPV1Sl-rg
+source: "youtube"
+url: "https://www.youtube.com/watch?v=bAhPV1Sl-rg"
 author: "Yury AI"
-published: 2026-04-16
-created: 2026-08-24
+published: "2026-04-16"
+created: "2026-08-24"
 duration: "0:00:45"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "skills"
+  - "video-gen"
+summary: "Top three Claude code skills that turn non-designers into designers. The biggest problem with vibe coding is that everything comes out flat and lifeless. One command and Claude starts adding real motion, proper easing, and animations that actually make sense."
 ---
 
 # Top 3 Claude Code Skills for Non-Designers

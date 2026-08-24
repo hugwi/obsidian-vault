@@ -1,19 +1,22 @@
 ---
 title: "Why Anthropic Dropped Markdown for HTML"
-source: youtube
-url: https://www.youtube.com/watch?v=LdANq-lrcPI
+source: "youtube"
+url: "https://www.youtube.com/watch?v=LdANq-lrcPI"
 author: "Better Stack"
-published: 2026-05-18
-created: 2026-08-24
+published: "2026-05-18"
+created: "2026-08-24"
 duration: "0:01:09"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+summary: "Everyone thinks markdown is best for AI, but the Claude code team have pretty much stopped using markdown in favor of HTML. Farek from Anthropic says markdown breaks down once your agent starts doing serious work. If it writes a spec that's more than 100 lines, it becomes a wall of text that nobody wants to read."
 ---
 
 # Why Anthropic Dropped Markdown for HTML

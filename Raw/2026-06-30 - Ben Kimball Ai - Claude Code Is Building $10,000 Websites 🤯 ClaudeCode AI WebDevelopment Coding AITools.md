@@ -1,19 +1,22 @@
 ---
 title: "Claude Code Is Building $10,000 Websites 🤯 #ClaudeCode #AI #WebDevelopment #Coding #AITools"
-source: youtube
-url: https://www.youtube.com/watch?v=mJRThwn4V6U
+source: "youtube"
+url: "https://www.youtube.com/watch?v=mJRThwn4V6U"
 author: "Ben Kimball Ai"
-published: 2026-06-30
-created: 2026-08-24
+published: "2026-06-30"
+created: "2026-08-24"
 duration: "0:00:35"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "video-gen"
+  - "web-design"
+summary: "Claude Code can generate $10,000 websites and it just takes one line of code. Go to the URL and copy the line into your terminal. Second, install Framer Motion for animations."
 ---
 
 # Claude Code Is Building $10,000 Websites 🤯 #ClaudeCode #AI #WebDevelopment #Coding #AITools

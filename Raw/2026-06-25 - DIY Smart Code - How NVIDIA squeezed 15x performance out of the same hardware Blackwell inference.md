@@ -1,19 +1,26 @@
 ---
 title: "How NVIDIA squeezed 15x performance out of the same hardware #Blackwell #inference"
-source: youtube
-url: https://www.youtube.com/watch?v=_thteJ-pfYE
+source: "youtube"
+url: "https://www.youtube.com/watch?v=_thteJ-pfYE"
 author: "DIY Smart Code"
-published: 2026-06-25
-created: 2026-08-24
+published: "2026-06-25"
+created: "2026-08-24"
 duration: "0:02:33"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+  - "evaluation"
+  - "hardware"
+  - "local-llm"
+  - "nvidia"
+summary: "Nvidia just dropped a chart that's blowing up on X. Up to 15 times higher inference throughput on the exact same hardware. The trick is a tiny open source model called D flash."
 ---
 
 # How NVIDIA squeezed 15x performance out of the same hardware #Blackwell #inference

@@ -1,19 +1,30 @@
 ---
 title: "Andrej Karpathy's Math Proves Agent Skills Will Fail. Here's What to Build Instead."
-source: youtube
-url: https://www.youtube.com/watch?v=I2K81s0OQto
+source: "youtube"
+url: "https://www.youtube.com/watch?v=I2K81s0OQto"
 author: "The AI Automators"
-published: 2026-03-21
-created: 2026-08-24
+published: "2026-03-21"
+created: "2026-08-24"
 duration: "0:19:26"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "business"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "harness-engineering"
+  - "skills"
+  - "video-gen"
+  - "youtube-strategy"
+summary: "A lot of people are banking on 2026 to be the year where AI gets real work done and delivers real business value. And I'm not talking about small stuff like writing blog posts or drafting social media content. I'm talking about an AI system that can successfully execute complex workflows that really impact the bottom line."
 ---
 
 # Andrej Karpathy's Math Proves Agent Skills Will Fail. Here's What to Build Instead.

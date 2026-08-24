@@ -1,19 +1,20 @@
 ---
 title: "GPT 5.6 SOL vs Claude Fable 5"
-source: youtube
-url: https://www.youtube.com/watch?v=yicC4V-AJXo
+source: "youtube"
+url: "https://www.youtube.com/watch?v=yicC4V-AJXo"
 author: "Francesco Cozzupoli (Fenice Art)"
-published: 2026-07-31
-created: 2026-08-24
+published: "2026-07-31"
+created: "2026-08-24"
 duration: "0:00:15"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "anthropic"
 ---
 
 # GPT 5.6 SOL vs Claude Fable 5

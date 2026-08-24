@@ -1,19 +1,22 @@
 ---
 title: "The AI Operating System for Companies"
-source: youtube
-url: https://www.youtube.com/watch?v=K46ZNekw2Tk
+source: "youtube"
+url: "https://www.youtube.com/watch?v=K46ZNekw2Tk"
 author: "Y Combinator"
-published: 2026-05-04
-created: 2026-08-24
+published: "2026-05-04"
+created: "2026-08-24"
 duration: "0:01:20"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+summary: "The best AI native companies we're seeing have figured out something most haven't. They've made their entire company queryable. Every meeting recorded, every ticket tracked, every customer interaction captured, all legible to an AI layer that learns from it."
 ---
 
 # The AI Operating System for Companies

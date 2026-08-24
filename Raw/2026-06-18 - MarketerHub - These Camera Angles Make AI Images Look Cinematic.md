@@ -1,19 +1,20 @@
 ---
 title: "These Camera Angles Make AI Images Look Cinematic"
-source: youtube
-url: https://www.youtube.com/watch?v=TkN-oX7phvw
+source: "youtube"
+url: "https://www.youtube.com/watch?v=TkN-oX7phvw"
 author: "MarketerHub"
-published: 2026-06-18
-created: 2026-08-24
+published: "2026-06-18"
+created: "2026-08-24"
 duration: "0:00:38"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+summary: "Most AI designs still look normal. The reason usually isn't the AI, it's the camera angle. The best designers aren't generating images from normal perspectives anymore."
 ---
 
 # These Camera Angles Make AI Images Look Cinematic

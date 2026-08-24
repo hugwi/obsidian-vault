@@ -1,19 +1,28 @@
 ---
 title: "Paperclip: Open Source Human Control Plane for AI Labor — Dotta Bippa"
-source: youtube
-url: https://www.youtube.com/watch?v=h403btjldDQ
+source: "youtube"
+url: "https://www.youtube.com/watch?v=h403btjldDQ"
 author: "AI Engineer"
-published: 2026-04-15
-created: 2026-08-24
+published: "2026-04-15"
+created: "2026-08-24"
 duration: "0:24:34"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "business"
+  - "context-engineering"
+  - "harness-engineering"
+  - "mcp"
+  - "skills"
+  - "video-gen"
+  - "web-design"
+summary: "Welcome to getting started with Paperclip and I'm Doda, your host and the creator of Paperclip and I'm so excited to show you how to get started with this brand new open-source agent orchestrator. I'm going to walk you through your first steps of how to get Paperclip started, what it looks like when you have a huge organization, and some of my best advanced tips for working with AI agents and so you can create your own uh zero-human company. Now, the tagline that we have for Paperclip is that it's for open-source orchestration for zero-human companies."
 ---
 
 # Paperclip: Open Source Human Control Plane for AI Labor — Dotta Bippa

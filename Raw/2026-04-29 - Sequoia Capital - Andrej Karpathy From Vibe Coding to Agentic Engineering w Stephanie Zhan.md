@@ -1,19 +1,33 @@
 ---
 title: "Andrej Karpathy: From Vibe Coding to Agentic Engineering w/ Stephanie Zhan"
-source: youtube
-url: https://www.youtube.com/watch?v=96jN2OCOfLs
+source: "youtube"
+url: "https://www.youtube.com/watch?v=96jN2OCOfLs"
 author: "Sequoia Capital"
-published: 2026-04-29
-created: 2026-08-24
+published: "2026-04-29"
+created: "2026-08-24"
 duration: "0:29:49"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "business"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "google"
+  - "local-llm"
+  - "openai"
+  - "security"
+  - "skills"
+  - "video-gen"
+  - "web-design"
+summary: "We're so excited for our very first special guest. He has helped build modern AI, then explain modern AI, and then occasionally rename modern AI. He actually helped co-found OpenAI right inside of this office, was the one who actually got autopilot working at Tesla back in the day."
 ---
 
 # Andrej Karpathy: From Vibe Coding to Agentic Engineering w/ Stephanie Zhan

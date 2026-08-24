@@ -1,21 +1,22 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - claude-code
-  - code-intelligence
-  - code-review
-  - context-management
-  - spec-driven
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: context-engineering
+  - "claude-code"
+  - "code-intelligence"
+  - "code-review"
+  - "context-management"
+  - "spec-driven"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "context-engineering"
 subtheme:
-  - retrieval-rag
-  - cost-tokens
+  - "retrieval-rag"
+  - "cost-tokens"
 ---
 
 # tirth8205/code-review-graph: Local knowledge graph for Claude Code. Builds a persistent map of your codebase so Claude reads only what matters — 6.8× fewer tokens on reviews and up to 49× on daily coding tasks.

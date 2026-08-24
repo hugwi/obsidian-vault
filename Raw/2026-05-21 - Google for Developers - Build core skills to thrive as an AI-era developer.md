@@ -1,19 +1,31 @@
 ---
 title: "Build core skills to thrive as an AI-era developer"
-source: youtube
-url: https://www.youtube.com/watch?v=q_Jq4IgYImk
+source: "youtube"
+url: "https://www.youtube.com/watch?v=q_Jq4IgYImk"
 author: "Google for Developers"
-published: 2026-05-21
-created: 2026-08-24
+published: "2026-05-21"
+created: "2026-08-24"
 duration: "0:44:18"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "google"
+  - "harness-engineering"
+  - "skills"
+  - "voice-ai"
+  - "youtube-strategy"
+summary: "[MUSIC PLAYING] ANDREW MACVEAN: Hi, everyone. OK, well, we're
+Andrew and Nicole. We're both leads on the
+Developer Intelligence Team here at Google."
 ---
 
 # Build core skills to thrive as an AI-era developer

@@ -1,19 +1,23 @@
 ---
 title: "Why 5 Million People Are OBSESSED With Excalidraw"
-source: youtube
-url: https://www.youtube.com/watch?v=CkoGWHyLTsk
+source: "youtube"
+url: "https://www.youtube.com/watch?v=CkoGWHyLTsk"
 author: "Karlos Obsidian Tutorials"
-published: 2026-02-23
-created: 2026-08-24
+published: "2026-02-23"
+created: "2026-08-24"
 duration: "0:39:14"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "video-gen"
+  - "web-design"
+  - "youtube-strategy"
+summary: "5 million users added Excaliraw to their Obsidian vault. It's by far the most downloaded plug-in of all time, and it makes total sense. Da Vinci's notebooks weren't essays, they were diagrams."
 ---
 
 # Why 5 Million People Are OBSESSED With Excalidraw

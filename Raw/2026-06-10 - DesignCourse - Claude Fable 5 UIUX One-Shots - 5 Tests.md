@@ -1,19 +1,29 @@
 ---
 title: "Claude Fable 5 UI/UX One-Shots - 5 Tests"
-source: youtube
-url: https://www.youtube.com/watch?v=tSg3FAdWvzI
+source: "youtube"
+url: "https://www.youtube.com/watch?v=tSg3FAdWvzI"
 author: "DesignCourse"
-published: 2026-06-10
-created: 2026-08-24
+published: "2026-06-10"
+created: "2026-08-24"
 duration: "0:08:21"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "business"
+  - "context-engineering"
+  - "engineering"
+  - "local-llm"
+  - "mcp"
+  - "video-gen"
+  - "web-design"
+summary: "Oh, that's a nice little Oh, oh, okay. Fable 5 is here and I have to say I just concluded and I watched all the demos that it just generated, these five demos I'm about to show you and it is, I have to say, insane. Okay, so for the very first prompt we have design and build a modern awards worthy winning landing page for a fictional UI UX design portfolio."
 ---
 
 # Claude Fable 5 UI/UX One-Shots - 5 Tests

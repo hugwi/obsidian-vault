@@ -1,19 +1,28 @@
 ---
 title: "Ship working code while you sleep with the Ralph Wiggum technique"
-source: youtube
-url: https://www.youtube.com/watch?v=_IK18goX4X8
+source: "youtube"
+url: "https://www.youtube.com/watch?v=_IK18goX4X8"
 author: "Matt Pocock"
-published: 2026-01-05
-created: 2026-08-24
+published: "2026-01-05"
+created: "2026-08-24"
 duration: "0:16:23"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "engineering"
+  - "harness-engineering"
+  - "local-llm"
+  - "mcp"
+  - "video-gen"
+summary: "I'm going to do something I don't usually do for these videos and give it a pretty hypy intro. One of the dreams of coding agents is that you can wake up in the morning to working code that your coding agent has worked through your backlog and has just spit out a whole bunch of code for you to review and it works. Now, people have been trying to make this work for a while with agent swarms and meshes and orchestrators."
 ---
 
 # Ship working code while you sleep with the Ralph Wiggum technique

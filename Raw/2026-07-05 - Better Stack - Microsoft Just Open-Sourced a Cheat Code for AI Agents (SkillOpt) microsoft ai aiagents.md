@@ -1,19 +1,26 @@
 ---
 title: "Microsoft Just Open-Sourced a Cheat Code for AI Agents (SkillOpt) #microsoft #ai #aiagents"
-source: youtube
-url: https://www.youtube.com/watch?v=jjze-8Wia38
+source: "youtube"
+url: "https://www.youtube.com/watch?v=jjze-8Wia38"
 author: "Better Stack"
-published: 2026-07-05
-created: 2026-08-24
+published: "2026-07-05"
+created: "2026-08-24"
 duration: "0:02:40"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "evaluation"
+  - "hardware"
+  - "harness-engineering"
+  - "microsoft"
+  - "skills"
+summary: "Microsoft Research just open-sourced a tool called Skill Opt that makes AI agents measurably smarter, and it does this without retraining the model or fine-tuning weights or even touching the prompt by hand. What they trained instead was a markdown file. Right now, if you want an AI agent to perform better on a task, you basically got two options."
 ---
 
 # Microsoft Just Open-Sourced a Cheat Code for AI Agents (SkillOpt) #microsoft #ai #aiagents

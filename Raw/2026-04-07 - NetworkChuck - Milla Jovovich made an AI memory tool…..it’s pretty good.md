@@ -1,19 +1,25 @@
 ---
 title: "Milla Jovovich made an AI memory tool…..it’s pretty good"
-source: youtube
-url: https://www.youtube.com/watch?v=kerRwLePW7I
+source: "youtube"
+url: "https://www.youtube.com/watch?v=kerRwLePW7I"
 author: "NetworkChuck"
-published: 2026-04-07
-created: 2026-08-24
+published: "2026-04-07"
+created: "2026-08-24"
 duration: "0:02:58"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+  - "evaluation"
+  - "mcp"
+  - "video-gen"
+summary: "Milla Jovovich just made a memory tool for AI. Yes, that Milla Jovovich, The Fifth Element, Resident Evil, Zoolander. She designed it with her friend Ben."
 ---
 
 # Milla Jovovich made an AI memory tool…..it’s pretty good

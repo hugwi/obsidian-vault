@@ -1,19 +1,21 @@
 ---
 title: "Install a full Social Media team inside Claude Code in less than 2 minutes"
-source: youtube
-url: https://www.youtube.com/watch?v=0d8YpQ86Q9c
+source: "youtube"
+url: "https://www.youtube.com/watch?v=0d8YpQ86Q9c"
 author: "The AI Impact | No BS  A.I Tips - Daily"
-published: 2026-04-17
-created: 2026-08-24
+published: "2026-04-17"
+created: "2026-08-24"
 duration: "0:01:04"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "voice-ai"
+summary: "Here's how you can turn Cloud into a full social media team. Here's how the full system works. First, you've got your social media manager who controls the entire workflow for you."
 ---
 
 # Install a full Social Media team inside Claude Code in less than 2 minutes

@@ -1,19 +1,30 @@
 ---
 title: "This Shouldn’t Be Able to Run 120B Locally"
-source: youtube
-url: https://www.youtube.com/watch?v=RkzCAaIV_cQ
+source: "youtube"
+url: "https://www.youtube.com/watch?v=RkzCAaIV_cQ"
 author: "Alex Ziskind"
-published: 2026-03-23
-created: 2026-08-24
+published: "2026-03-23"
+created: "2026-08-24"
 duration: "0:12:13"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "apple"
+  - "context-engineering"
+  - "engineering"
+  - "hardware"
+  - "local-llm"
+  - "openai"
+  - "video-gen"
+  - "web-design"
+  - "youtube-strategy"
+summary: "If you want to carry a local and private 120 billion parameter large language model, you might need something like this. Big expensive GPUs and computers. But, what if I told you that 120 billion parameters can fit in your pocket?"
 ---
 
 # This Shouldn’t Be Able to Run 120B Locally

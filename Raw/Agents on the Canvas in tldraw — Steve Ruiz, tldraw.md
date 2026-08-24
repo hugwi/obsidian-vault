@@ -1,18 +1,19 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, design]
+domain: "[agentic-engineering, design]"
 tags:
-  - skills
-  - ux-ui
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: human-ux-frontend
+  - "skills"
+  - "ux-ui"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "human-ux-frontend"
 subtheme:
-  - design-systems-ui
-  - browser-automation
+  - "design-systems-ui"
+  - "browser-automation"
 ---
 
 # Agents on the Canvas in tldraw — Steve Ruiz, tldraw

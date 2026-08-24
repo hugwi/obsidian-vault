@@ -1,19 +1,25 @@
 ---
 title: "The new MCP standard is here #claudeai #mcp"
-source: youtube
-url: https://www.youtube.com/watch?v=OsEAEdxONlw
+source: "youtube"
+url: "https://www.youtube.com/watch?v=OsEAEdxONlw"
 author: "DIY Smart Code"
-published: 2026-07-29
-created: 2026-08-24
+published: "2026-07-29"
+created: "2026-08-24"
 duration: "0:01:30"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "mcp"
+  - "web-design"
+summary: "MCP just got a new spec, and the core change is that it stops holding state. Until now, MCP was a bidirectional stateful protocol. The protocol carried session state between client and server."
 ---
 
 # The new MCP standard is here #claudeai #mcp

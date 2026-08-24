@@ -1,21 +1,22 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents, design]
+domain: "[agentic-engineering, ai-agents, design]"
 tags:
-  - claude-code
-  - orchestration
-  - skills
-  - ux-ui
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: multi-agent-orchestration
+  - "claude-code"
+  - "orchestration"
+  - "skills"
+  - "ux-ui"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "multi-agent-orchestration"
 subtheme:
-  - skill-tool-extension
-  - coordinator-patterns
-  - parallel-fan-out
+  - "skill-tool-extension"
+  - "coordinator-patterns"
+  - "parallel-fan-out"
 ---
 
 # Built a multi-agent skill for Claude Code - routes tasks to 6 different AI models based on what each does best

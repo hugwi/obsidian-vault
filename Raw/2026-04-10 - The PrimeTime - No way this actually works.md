@@ -1,19 +1,24 @@
 ---
 title: "No way this actually works"
-source: youtube
-url: https://www.youtube.com/watch?v=L29q2LRiMRc
+source: "youtube"
+url: "https://www.youtube.com/watch?v=L29q2LRiMRc"
 author: "The PrimeTime"
-published: 2026-04-10
-created: 2026-08-24
+published: "2026-04-10"
+created: "2026-08-24"
 duration: "0:06:58"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "engineering"
+  - "skills"
+  - "video-gen"
+summary: "Now, I know a lot of you have recently been hitting some limits when it comes to using Claude code. The conventional wisdom, of course, is that you're holding it wrong, but actually it turns out there's a better way to save on tokens. The solution I honestly I didn't believe it, but it actually works."
 ---
 
 # No way this actually works

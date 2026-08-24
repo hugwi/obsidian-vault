@@ -1,19 +1,24 @@
 ---
 title: "The DARKEST Attack on Titan Sequel Theory you will ever see"
-source: youtube
-url: https://www.youtube.com/watch?v=NaORRY93M3g
+source: "youtube"
+url: "https://www.youtube.com/watch?v=NaORRY93M3g"
 author: "AttackOnTimeline"
-published: 2026-05-31
-created: 2026-08-24
+published: "2026-05-31"
+created: "2026-08-24"
 duration: "0:09:11"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "context-engineering"
+  - "video-gen"
+summary: "What if the hallucinia never actually died? At the 
+end of Attack on Titan, the power of the Titans disappears [music] and the world moves on. But 
+what if Aaron Joerger never actually died?"
 ---
 
 # The DARKEST Attack on Titan Sequel Theory you will ever see

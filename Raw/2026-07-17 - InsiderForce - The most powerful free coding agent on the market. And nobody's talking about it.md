@@ -1,19 +1,24 @@
 ---
 title: "The most powerful free coding agent on the market. And nobody's talking about it."
-source: youtube
-url: https://www.youtube.com/watch?v=enFgYQvI1dM
+source: "youtube"
+url: "https://www.youtube.com/watch?v=enFgYQvI1dM"
 author: "InsiderForce"
-published: 2026-07-17
-created: 2026-08-24
+published: "2026-07-17"
+created: "2026-08-24"
 duration: "0:01:19"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+  - "engineering"
+  - "harness-engineering"
+summary: "One developer built something that beats all of them and made it completely free and open source. [music] The tool is called J code and there is one thing you need to know before anything else. Every coding agent has a middle layer between you and the AI."
 ---
 
 # The most powerful free coding agent on the market. And nobody's talking about it.

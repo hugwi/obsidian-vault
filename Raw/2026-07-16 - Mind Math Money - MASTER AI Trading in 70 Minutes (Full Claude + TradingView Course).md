@@ -1,19 +1,28 @@
 ---
 title: "MASTER AI Trading in 70 Minutes (Full Claude + TradingView Course)"
-source: youtube
-url: https://www.youtube.com/watch?v=54i7wfbuCQA
+source: "youtube"
+url: "https://www.youtube.com/watch?v=54i7wfbuCQA"
 author: "Mind Math Money"
-published: 2026-07-16
-created: 2026-08-24
+published: "2026-07-16"
+created: "2026-08-24"
 duration: "1:10:16"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "anthropic"
+  - "engineering"
+  - "evaluation"
+  - "mcp"
+  - "skills"
+  - "video-gen"
+  - "voice-ai"
+  - "youtube-strategy"
+summary: "In this free video course, you will learn everything you need to know about AI trading for stocks, crypto, forex, or any other financial market. By the end of this course, you will not only be able to analyze any chart using AI directly in Trading View, but you will also be able to build, back test, and automate your very own trading strategy step by step. And before we begin here, I want to say something."
 ---
 
 # MASTER AI Trading in 70 Minutes (Full Claude + TradingView Course)

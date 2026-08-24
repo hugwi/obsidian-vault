@@ -1,19 +1,27 @@
 ---
 title: "Small Channels: Do THIS and the Algorithm Will LOVE You!"
-source: youtube
-url: https://www.youtube.com/watch?v=YDWNiGGw71s
+source: "youtube"
+url: "https://www.youtube.com/watch?v=YDWNiGGw71s"
 author: "Marcus Jones"
-published: 2024-10-24
-created: 2026-08-24
+published: "2024-10-24"
+created: "2026-08-24"
 duration: "0:19:31"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "business"
+  - "engineering"
+  - "google"
+  - "video-gen"
+  - "voice-ai"
+  - "web-design"
+  - "youtube-strategy"
+summary: "Today, I want to show you how I went from getting less views than a Minecraft let's player to now the algorithm literally sending me 1 to 2,000 views every single hour. And in turn, that blew up my subs, helped make a bunch of money, help me monetize not just this channel, but a bunch of different channels as well. Some of them with literally one video."
 ---
 
 # Small Channels: Do THIS and the Algorithm Will LOVE You!

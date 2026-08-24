@@ -1,19 +1,30 @@
 ---
 title: "Rethinking AI Agents: The Rise of Harness Engineering"
-source: youtube
-url: https://www.youtube.com/watch?v=Xxuxg8PcBvc
+source: "youtube"
+url: "https://www.youtube.com/watch?v=Xxuxg8PcBvc"
 author: "PY"
-published: 2026-04-14
-created: 2026-08-24
+published: "2026-04-14"
+created: "2026-08-24"
 duration: "0:11:45"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "google"
+  - "harness-engineering"
+  - "openai"
+  - "security"
+  - "skills"
+summary: "Six times the performance difference. Stanford researchers found that the orchestration code wrapping a language model now drives more performance variation than the model itself. By modifying only harness infrastructure, their coding agent jumped from outside the top 30 to rank five on Terminal Bench 2."
 ---
 
 # Rethinking AI Agents: The Rise of Harness Engineering

@@ -1,19 +1,23 @@
 ---
 title: "Don't know which model to choose? *taps the graph*"
-source: youtube
-url: https://www.youtube.com/watch?v=SF1Ab0Y-9BY
+source: "youtube"
+url: "https://www.youtube.com/watch?v=SF1Ab0Y-9BY"
 author: "Matt Pocock"
-published: 2026-07-15
-created: 2026-08-24
+published: "2026-07-15"
+created: "2026-08-24"
 duration: "0:01:37"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "anthropic"
+  - "evaluation"
+  - "skills"
+summary: "If you ever wanted to compare models or compare effort levels of the same model, then this is such a banger of a graph. This is how different models at different effort levels perform on the deep SWE benchmark. And along the bottom here, we have the average cost per task."
 ---
 
 # Don't know which model to choose? *taps the graph*

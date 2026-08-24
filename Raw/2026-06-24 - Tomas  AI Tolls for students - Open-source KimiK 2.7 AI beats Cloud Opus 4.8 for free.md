@@ -1,19 +1,26 @@
 ---
 title: "Open-source KimiK 2.7 AI beats Cloud Opus 4.8 for free"
-source: youtube
-url: https://www.youtube.com/watch?v=Z-xoh9glQwE
+source: "youtube"
+url: "https://www.youtube.com/watch?v=Z-xoh9glQwE"
 author: "Tomas | AI Tolls for students "
-published: 2026-06-24
-created: 2026-08-24
+published: "2026-06-24"
+created: "2026-08-24"
 duration: "0:01:20"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "google"
+  - "local-llm"
+  - "nvidia"
+  - "video-gen"
+summary: "China just dropped the world's most capable open-source coding AI that beats Claude [music] Opus 4 for free. While this new AI lets you create unlimited fully interactive 3D worlds you can explore in real time. Everything that happened in AI this week in under 60 seconds."
 ---
 
 # Open-source KimiK 2.7 AI beats Cloud Opus 4.8 for free

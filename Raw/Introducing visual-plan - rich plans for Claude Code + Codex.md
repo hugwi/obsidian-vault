@@ -1,17 +1,18 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - skills
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: human-ux-frontend
+  - "skills"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "human-ux-frontend"
 subtheme:
-  - design-systems-ui
-  - ide-chat-ux
+  - "design-systems-ui"
+  - "ide-chat-ux"
 ---
 
 # Introducing /visual-plan - rich plans for Claude Code + Codex

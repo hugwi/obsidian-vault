@@ -28,8 +28,8 @@ media_url_image_generic: "[\"https://www.google.com/s2/favicons?domain=solaceui.
 media_url_image_meta: " https://21st.dev/api/og/component/solaceui/phone-mockups-1  "
 live_preview_url: "https://cdn.21st.dev/solaceui/phone-mockups-1/default/bundle.1784362075658-c03c5c99-8dec-49d7-889f-89acd3cfa2a0.html?theme=light"
 demo_code_url: "https://cdn.21st.dev/solaceui/phone-mockups-1/default/code.demo.1784362075658-c03c5c99-8dec-49d7-889f-89acd3cfa2a0.tsx"
-saved_at: 2026-08-05
-created: 2026-08-05
+saved_at: "2026-08-05"
+created: "2026-08-05"
 source: "web-clipper"
 rating:
 action: "review"
@@ -38,6 +38,7 @@ tags:
   - "web-design"
   - "ui"
   - "ux"
+  - "clip/video"
 ---
 # Phone Mockups 1 | Community Components
 

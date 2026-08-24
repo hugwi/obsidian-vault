@@ -1,18 +1,19 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, knowledge-management]
+domain: "[agentic-engineering, knowledge-management]"
 tags:
-  - claude-code
-  - pkm
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: context-engineering
+  - "claude-code"
+  - "pkm"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "context-engineering"
 subtheme:
-  - memory-persistence
-  - context-window
+  - "memory-persistence"
+  - "context-window"
 ---
 
 # My Claude Code Now Has Its Own Second Brain in Obsidian

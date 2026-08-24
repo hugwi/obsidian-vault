@@ -1,19 +1,26 @@
 ---
 title: "Claude Code + Google Stitch + MotionSites = $15K Animated Sites"
-source: youtube
-url: https://www.youtube.com/watch?v=sko781GfOOc
+source: "youtube"
+url: "https://www.youtube.com/watch?v=sko781GfOOc"
 author: "Nick Automates"
-published: 2026-05-06
-created: 2026-08-24
+published: "2026-05-06"
+created: "2026-08-24"
 duration: "0:00:45"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "context-engineering"
+  - "google"
+  - "mcp"
+  - "skills"
+  - "video-gen"
+  - "web-design"
+summary: "Claude code is great at coding, but it usually struggles with front-end design. [music] First, go to Stitch and describe your app idea in plain English. Just drop in some reference images from Pinterest or Dribbble, and it'll generate [music] a clean UI with all the screens and a complete design system for you."
 ---
 
 # Claude Code + Google Stitch + MotionSites = $15K Animated Sites

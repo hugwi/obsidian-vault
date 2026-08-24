@@ -1,19 +1,25 @@
 ---
 title: "Why Claude Code Forgets What It Was Doing (And How to Fix It)"
-source: youtube
-url: https://www.youtube.com/watch?v=Nnf-iOXwsxc
+source: "youtube"
+url: "https://www.youtube.com/watch?v=Nnf-iOXwsxc"
 author: "Edward Blake"
-published: 2026-05-08
-created: 2026-08-24
+published: "2026-05-08"
+created: "2026-08-24"
 duration: "0:13:45"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "anthropic"
+  - "context-engineering"
+  - "mcp"
+  - "video-gen"
+  - "youtube-strategy"
+summary: "Every Cloud session has a finite context window. At some point in a long session, it fills up. When it does, Cloud account runs compaction."
 ---
 
 # Why Claude Code Forgets What It Was Doing (And How to Fix It)

@@ -1,19 +1,26 @@
 ---
 title: "Claude Code + Nano Banana MCP = a FIRED Graphic Designer"
-source: youtube
-url: https://www.youtube.com/watch?v=v3G0wW_Vasw
+source: "youtube"
+url: "https://www.youtube.com/watch?v=v3G0wW_Vasw"
 author: "Charlie Automates"
-published: 2026-03-30
-created: 2026-08-24
+published: "2026-03-30"
+created: "2026-08-24"
 duration: "0:01:12"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+  - "google"
+  - "mcp"
+  - "video-gen"
+  - "youtube-strategy"
+summary: "If you're using Claude code, and you have not yet set up the Nano banana MCP server, let me put you on to the sauce that'll 20 times your graphic design game. This thumbnail took me 10 minutes to create, and this ad creative only 2 minutes. The Nano banana MCP server allows Claude to use Google Gemini's image generation tools."
 ---
 
 # Claude Code + Nano Banana MCP = a FIRED Graphic Designer

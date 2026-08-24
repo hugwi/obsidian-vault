@@ -1,19 +1,26 @@
 ---
 title: "How to double your AI GPU efficiency #dev #ai #optimization"
-source: youtube
-url: https://www.youtube.com/watch?v=YumKNyazapY
+source: "youtube"
+url: "https://www.youtube.com/watch?v=YumKNyazapY"
 author: "DIY Smart Code"
-published: 2026-07-23
-created: 2026-08-24
+published: "2026-07-23"
+created: "2026-08-24"
 duration: "0:01:07"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "engineering"
+  - "hardware"
+  - "openai"
+  - "video-gen"
+  - "web-design"
+summary: "Every call your AI agent makes, ships your prompts to a frontier lab. Superlinked's fix is called SIE. One open-source cluster that runs every model your agent needs inside your own cloud."
 ---
 
 # How to double your AI GPU efficiency #dev #ai #optimization

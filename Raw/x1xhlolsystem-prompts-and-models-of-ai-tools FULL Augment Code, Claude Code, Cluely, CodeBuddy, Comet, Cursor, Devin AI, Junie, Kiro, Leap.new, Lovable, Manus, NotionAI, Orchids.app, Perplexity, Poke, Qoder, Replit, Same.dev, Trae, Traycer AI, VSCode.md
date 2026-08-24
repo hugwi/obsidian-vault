@@ -1,20 +1,21 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents, product-business, software-engineering]
+domain: "[agentic-engineering, ai-agents, product-business, software-engineering]"
 tags:
-  - claude-code
-  - security
-  - spec-driven
-  - startup
-  - tools
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: agents-models
+  - "claude-code"
+  - "security"
+  - "spec-driven"
+  - "startup"
+  - "tools"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "agents-models"
 subtheme:
-  - model-comparison
+  - "model-comparison"
 ---
 
 # x1xhlol/system-prompts-and-models-of-ai-tools: FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts...

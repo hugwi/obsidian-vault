@@ -1,19 +1,29 @@
 ---
 title: "The 7 Most Powerful Moats For AI Startups"
-source: youtube
-url: https://www.youtube.com/watch?v=bxBzsSsqQAM
+source: "youtube"
+url: "https://www.youtube.com/watch?v=bxBzsSsqQAM"
 author: "Y Combinator"
-published: 2025-10-03
-created: 2026-08-24
+published: "2025-10-03"
+created: "2026-08-24"
 duration: "0:45:06"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "business"
+  - "context-engineering"
+  - "evaluation"
+  - "google"
+  - "openai"
+  - "voice-ai"
+  - "web-design"
+summary: "This idea of motes is so pervasive and so important. >> It is interesting how motes have just become much more discussed by aspiring startup founders now than they were so pre-AI. What is going to prevent you from being basically subject to infinite competition?"
 ---
 
 # The 7 Most Powerful Moats For AI Startups

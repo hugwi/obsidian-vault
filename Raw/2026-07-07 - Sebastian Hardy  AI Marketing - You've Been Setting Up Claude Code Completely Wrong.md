@@ -1,19 +1,25 @@
 ---
 title: "You've Been Setting Up Claude Code Completely Wrong"
-source: youtube
-url: https://www.youtube.com/watch?v=MGaayMDMxGA
+source: "youtube"
+url: "https://www.youtube.com/watch?v=MGaayMDMxGA"
 author: "Sebastian Hardy | AI Marketing"
-published: 2026-07-07
-created: 2026-08-24
+published: "2026-07-07"
+created: "2026-08-24"
 duration: "0:00:42"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "google"
+  - "mcp"
+  - "skills"
+summary: "Most people are using Claude Code completely wrong. The reason most setups end up bloated is people bolt on tools their project never asked for and that clutter quietly makes your assistant slower and dumber. You install it once, then just ask it to look at your project and it reads your entire code base like an expert before it tells you the best hooks, the best skills, the best sub agents, and the right servers to connect the tools you actually need."
 ---
 
 # You've Been Setting Up Claude Code Completely Wrong

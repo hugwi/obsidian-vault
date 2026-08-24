@@ -3,11 +3,22 @@ title: "Turn Claude Into A Design GENIUS In 3 Simple Steps"
 source: "https://www.youtube.com/watch?v=7FU98O0JLHs"
 author:
   - "[[@devanshsharma6865]]"
-published: 2026-07-23
-created: 2026-08-01
+published: "2026-07-23"
+created: "2026-08-01"
 description: "🟡Higgsfield: https://higgsfield.ai/s/mcp-chase-h-ai-ohgbot ⚡Master Claude Code: https://www.skool.com/chase-ai🔥FREE community: https://www.skool.com/chase-..."
 tags:
   - "clippings"
+  - "anthropic"
+  - "business"
+  - "claude-code"
+  - "clip/video"
+  - "mcp"
+  - "skills"
+  - "video-gen"
+  - "web-design"
+summary: "### Intro
+
+**0:00** · I'm going to teach you how to defeat the monster known as AI slop in three simple steps. Now, AI slop has taken a number of forms over the years, and it wasn't too long ago that it looked something like this. A generic SaaS template with Inter font everywhere and blue purple gradients."
 ---
 ![](https://www.youtube.com/watch?v=7FU98O0JLHs)
 

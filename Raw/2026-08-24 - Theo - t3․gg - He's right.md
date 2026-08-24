@@ -1,19 +1,27 @@
 ---
 title: "He's right."
-source: youtube
-url: https://www.youtube.com/watch?v=0wemf5SZkW4
+source: "youtube"
+url: "https://www.youtube.com/watch?v=0wemf5SZkW4"
 author: "Theo - t3․gg"
-published: 2026-08-24
-created: 2026-08-24
+published: "2026-08-24"
+created: "2026-08-24"
 duration: "0:33:48"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "engineering"
+  - "google"
+  - "local-llm"
+  - "video-gen"
+  - "web-design"
+summary: "Oh boy, it's been a bit since a Boris tweet annoyed people as much as this one. I miss the days where he would just randomly post about how Cloud Code has replaced all of their engineers and everyone would get mad. But at the same time, a lot of the things he said before now kind of seem right."
 ---
 
 # He's right.

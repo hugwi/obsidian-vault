@@ -1,21 +1,22 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, design]
+domain: "[agentic-engineering, design]"
 tags:
-  - claude-code
-  - efficiency
-  - metrics
-  - skills
-  - ux-ui
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: productivity-measurement
+  - "claude-code"
+  - "efficiency"
+  - "metrics"
+  - "skills"
+  - "ux-ui"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "productivity-measurement"
 subtheme:
-  - cost-optimization
-  - technical-debt
+  - "cost-optimization"
+  - "technical-debt"
 ---
 
 # 3 New Claude Code Repos Will 100x Your Next Project

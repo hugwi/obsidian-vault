@@ -1,18 +1,19 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - code-quality
-  - human-factors
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: comprehension-maintainability
+  - "code-quality"
+  - "human-factors"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "comprehension-maintainability"
 subtheme:
-  - comprehension-debt
-  - diff-review-undo
+  - "comprehension-debt"
+  - "diff-review-undo"
 ---
 
 # Managing Comprehension Debt: How to Stop Shipping AI Code You Don’t Understand

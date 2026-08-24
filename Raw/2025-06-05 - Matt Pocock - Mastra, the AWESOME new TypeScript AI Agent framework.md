@@ -1,19 +1,25 @@
 ---
 title: "Mastra, the AWESOME new TypeScript AI Agent framework"
-source: youtube
-url: https://www.youtube.com/watch?v=8iNgc1-PwMk
+source: "youtube"
+url: "https://www.youtube.com/watch?v=8iNgc1-PwMk"
 author: "Matt Pocock"
-published: 2025-06-05
-created: 2026-08-24
+published: "2025-06-05"
+created: "2026-08-24"
 duration: "0:00:58"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "local-llm"
+summary: "There's this amazing language that you can use for creating AI agents. It is yeah it's still TypeScript. One of the players in the emerging TypeScript AI ecosystem is Mastra."
 ---
 
 # Mastra, the AWESOME new TypeScript AI Agent framework

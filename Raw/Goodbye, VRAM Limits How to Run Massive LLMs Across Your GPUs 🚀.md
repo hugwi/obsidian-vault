@@ -1,13 +1,14 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [ai-agents]
+domain: "[ai-agents]"
 tags:
-  - models
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "models"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # Goodbye, VRAM Limits: How to Run Massive LLMs Across Your GPUs 🚀

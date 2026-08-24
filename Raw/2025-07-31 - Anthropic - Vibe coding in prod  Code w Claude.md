@@ -1,19 +1,29 @@
 ---
 title: "Vibe coding in prod | Code w/ Claude"
-source: youtube
-url: https://www.youtube.com/watch?v=fHWFF_pnqDk
+source: "youtube"
+url: "https://www.youtube.com/watch?v=fHWFF_pnqDk"
 author: "Anthropic"
-published: 2025-07-31
-created: 2026-08-24
+published: "2025-07-31"
+created: "2026-08-24"
 duration: "0:31:17"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "engineering"
+  - "security"
+  - "video-gen"
+summary: "I'm here to talk 
+about everyone's uh favorite subject, vibe coding. Uh and somewhat uh controversially, 
+how to vibe code in prod responsibly. So let's uh let's talk about vibe coding and like 
+uh what this even is."
 ---
 
 # Vibe coding in prod | Code w/ Claude

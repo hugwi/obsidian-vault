@@ -1,19 +1,32 @@
 ---
 title: "Every Claude Code Memory System Compared (So You Don't Have To)"
-source: youtube
-url: https://www.youtube.com/watch?v=UHVFcUzAGlM
+source: "youtube"
+url: "https://www.youtube.com/watch?v=UHVFcUzAGlM"
 author: "Simon Scrapes"
-published: 2026-04-23
-created: 2026-08-24
+published: "2026-04-23"
+created: "2026-08-24"
 duration: "0:41:21"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "evaluation"
+  - "local-llm"
+  - "mcp"
+  - "security"
+  - "skills"
+  - "video-gen"
+  - "voice-ai"
+  - "web-design"
+  - "youtube-strategy"
+summary: "Right now, if you search for the best Claude code memory system, you get absolutely buried. Mem zero, Carpathia's Obsidian Wiki, Open Claude Hermes, Mem Palace, Light Rag, Claude Mem, Claude Mem. It's getting ridiculous to keep up with it."
 ---
 
 # Every Claude Code Memory System Compared (So You Don't Have To)

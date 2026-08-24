@@ -1,14 +1,15 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [design, software-engineering]
+domain: "[design, software-engineering]"
 tags:
-  - patterns
-  - ux-ui
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "patterns"
+  - "ux-ui"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # Adapter and Facade Patterns

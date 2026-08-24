@@ -1,17 +1,18 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents]
+domain: "[agentic-engineering, ai-agents]"
 tags:
-  - efficiency
-  - models
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: industry-product
+  - "efficiency"
+  - "models"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "industry-product"
 subtheme:
-  - market-landscape
+  - "market-landscape"
 ---
 
 # Don’t buy GPUs for AI

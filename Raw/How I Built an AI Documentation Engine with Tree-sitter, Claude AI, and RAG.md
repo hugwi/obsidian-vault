@@ -1,18 +1,19 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - code-intelligence
-  - skills
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: context-engineering
+  - "code-intelligence"
+  - "skills"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "context-engineering"
 subtheme:
-  - retrieval-rag
-  - compaction-caching
+  - "retrieval-rag"
+  - "compaction-caching"
 ---
 
 # How I Built an AI Documentation Engine with Tree-sitter, Claude AI, and RAG

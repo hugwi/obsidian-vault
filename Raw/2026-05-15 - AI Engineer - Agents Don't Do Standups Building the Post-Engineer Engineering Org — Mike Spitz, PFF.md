@@ -1,19 +1,23 @@
 ---
 title: "Agents Don't Do Standups: Building the Post-Engineer Engineering Org — Mike Spitz, PFF"
-source: youtube
-url: https://www.youtube.com/watch?v=VMemhtlsoNk
+source: "youtube"
+url: "https://www.youtube.com/watch?v=VMemhtlsoNk"
 author: "AI Engineer"
-published: 2026-05-15
-created: 2026-08-24
+published: "2026-05-15"
+created: "2026-08-24"
 duration: "0:17:49"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "engineering"
+  - "skills"
+summary: "I'm here to speak about the host engineering org and a case study we've been doing at PFF started in January and we finished it in March. We help NFL and NCAA teams figure out what they should be doing and we also have a consistent We also have a consumer arm which does fantasy football, sport betting and for those of you who know American football there's a draft happening end of the month and so allows people to basically play as one of these teams. We're fully distributed engineering team."
 ---
 
 # Agents Don't Do Standups: Building the Post-Engineer Engineering Org — Mike Spitz, PFF

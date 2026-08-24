@@ -1,19 +1,29 @@
 ---
 title: "How far are we from \"Her\"?"
-source: youtube
-url: https://www.youtube.com/watch?v=kOD9rMhn4f4
+source: "youtube"
+url: "https://www.youtube.com/watch?v=kOD9rMhn4f4"
 author: "Julia Turc"
-published: 2026-07-24
-created: 2026-08-24
+published: "2026-07-24"
+created: "2026-08-24"
 duration: "0:21:29"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "evaluation"
+  - "google"
+  - "hardware"
+  - "nvidia"
+  - "openai"
+  - "video-gen"
+  - "voice-ai"
+  - "youtube-strategy"
+summary: "Do you remember the movie Her from 2013? It's about Theodore, an introvert who falls in love with his AI assistant, Samantha. >> Hey, where'd you get that name from?"
 ---
 
 # How far are we from "Her"?

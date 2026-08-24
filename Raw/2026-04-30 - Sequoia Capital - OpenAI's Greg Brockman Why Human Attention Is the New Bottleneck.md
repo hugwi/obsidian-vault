@@ -1,19 +1,31 @@
 ---
 title: "OpenAI's Greg Brockman: Why Human Attention Is the New Bottleneck"
-source: youtube
-url: https://www.youtube.com/watch?v=bBS93A0BeNI
+source: "youtube"
+url: "https://www.youtube.com/watch?v=bBS93A0BeNI"
 author: "Sequoia Capital"
-published: 2026-04-30
-created: 2026-08-24
+published: "2026-04-30"
+created: "2026-08-24"
 duration: "0:28:26"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "business"
+  - "context-engineering"
+  - "engineering"
+  - "hardware"
+  - "harness-engineering"
+  - "openai"
+  - "security"
+  - "skills"
+  - "voice-ai"
+  - "youtube-strategy"
+summary: "Um I don't think we ever charged you for rent. But, uh Greg, you've been part of like two really spectacular companies, Stripe as employee number four, and then the first CTO. I just recently heard that they process 1.6 billion, sorry, 1.6% of the global GDP."
 ---
 
 # OpenAI's Greg Brockman: Why Human Attention Is the New Bottleneck

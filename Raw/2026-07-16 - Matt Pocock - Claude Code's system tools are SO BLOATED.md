@@ -1,19 +1,24 @@
 ---
 title: "Claude Code's system tools are SO BLOATED"
-source: youtube
-url: https://www.youtube.com/watch?v=oLx4yCbeklQ
+source: "youtube"
+url: "https://www.youtube.com/watch?v=oLx4yCbeklQ"
 author: "Matt Pocock"
-published: 2026-07-16
-created: 2026-08-24
+published: "2026-07-16"
+created: "2026-08-24"
 duration: "0:01:38"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "harness-engineering"
+  - "skills"
+  - "video-gen"
+summary: "Most harnesses, but especially Claude Code, ship with a ton of bloat in the system prompt. There is very likely thousands and thousands of tokens of stuff you're not using in your system prompt. And that is about, you know, 8,000, 10,000 tokens per request."
 ---
 
 # Claude Code's system tools are SO BLOATED

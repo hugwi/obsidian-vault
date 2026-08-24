@@ -1,19 +1,27 @@
 ---
 title: "How Lovable self-improves every hour — Benjamin Verbeek, Lovable"
-source: youtube
-url: https://www.youtube.com/watch?v=KA5kPbdkK2E
+source: "youtube"
+url: "https://www.youtube.com/watch?v=KA5kPbdkK2E"
 author: "AI Engineer"
-published: 2026-06-02
-created: 2026-08-24
+published: "2026-06-02"
+created: "2026-08-24"
 duration: "0:19:04"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "business"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "video-gen"
+  - "web-design"
+summary: "Do we have any Lovable users in here? A warm welcome to to this talk on how Lovable is improving every hour, including this hour as I'm speaking. I'm a member of technical staff of Lovable."
 ---
 
 # How Lovable self-improves every hour — Benjamin Verbeek, Lovable

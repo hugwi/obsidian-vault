@@ -1,19 +1,30 @@
 ---
 title: "Kimi K3 Designs Websites That Feel Like MOVIES For Just $1"
-source: youtube
-url: https://www.youtube.com/watch?v=0zlwXSVmoeg
+source: "youtube"
+url: "https://www.youtube.com/watch?v=0zlwXSVmoeg"
 author: "Nick Saraev"
-published: 2026-07-22
-created: 2026-08-24
+published: "2026-07-22"
+created: "2026-08-24"
 duration: "0:21:39"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "business"
+  - "context-engineering"
+  - "google"
+  - "mcp"
+  - "openai"
+  - "video-gen"
+  - "web-design"
+  - "youtube-strategy"
+summary: "And in this video, I'm going to show you everything that you need to do in order to create these sorts of cinematic journey experiences and then host them on a website. In addition to showing you guys what to do, I'm also going to give you all of the prompts that are in so you guys have everything that you need to do to just copy and paste this, whether it is to KimmyK3, ChatGPT, Claude, or another frontier model. Well, one thing that you can't really tell is right now I'm scrolling up and down."
 ---
 
 # Kimi K3 Designs Websites That Feel Like MOVIES For Just $1

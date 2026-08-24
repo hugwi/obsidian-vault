@@ -1,19 +1,25 @@
 ---
 title: "Interactive HTML Slides... Are they the future? (Interactive & NO CODING)"
-source: youtube
-url: https://www.youtube.com/watch?v=Z8ZpXM8P9hQ
+source: "youtube"
+url: "https://www.youtube.com/watch?v=Z8ZpXM8P9hQ"
 author: "Slides by Sander"
-published: 2026-03-07
-created: 2026-08-24
+published: "2026-03-07"
+created: "2026-08-24"
 duration: "0:06:42"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "business"
+  - "google"
+  - "local-llm"
+  - "video-gen"
+  - "web-design"
+summary: "Most of us make our presentations in tools like PowerPoint, Canva, Google Slides, or Keynote. These are like [music] the industry standard tools. But there is a whole set of presentations that could be way more creative."
 ---
 
 # Interactive HTML Slides... Are they the future? (Interactive & NO CODING)

@@ -1,19 +1,20 @@
 ---
 title: "I tested 100 Claude prompts. Only these 5 mattered."
-source: youtube
-url: https://www.youtube.com/watch?v=fdqcMMFll3c
+source: "youtube"
+url: "https://www.youtube.com/watch?v=fdqcMMFll3c"
 author: "Alexander Petkov"
-published: 2026-05-15
-created: 2026-08-24
+published: "2026-05-15"
+created: "2026-08-24"
 duration: "0:00:44"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+summary: "Here are five secret codes for Claude. Just put this before your prompt and Claude is going to mimic your writing style so that the output actually sounds human. Just put this at the end of your prompt and Claude is going to see through the surface of your question to point out what is really going on."
 ---
 
 # I tested 100 Claude prompts. Only these 5 mattered.

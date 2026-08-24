@@ -1,19 +1,22 @@
 ---
 title: "Your AI Websites All Look The Same… Here’s The Fix | Claude Code + Impeccable levels up your design"
-source: youtube
-url: https://www.youtube.com/watch?v=Kb13KVVBTgA
+source: "youtube"
+url: "https://www.youtube.com/watch?v=Kb13KVVBTgA"
 author: "Poshan Pandey"
-published: 2026-06-23
-created: 2026-08-24
+published: "2026-06-23"
+created: "2026-08-24"
 duration: "0:01:35"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "web-design"
+summary: "Your AI built website has a problem. [music] It looks like every other AI built website. The same purple gradient, the same Inter font, the same floating cards, the same hero section with three random icons, the same clean modern SAS look."
 ---
 
 # Your AI Websites All Look The Same… Here’s The Fix | Claude Code + Impeccable levels up your design

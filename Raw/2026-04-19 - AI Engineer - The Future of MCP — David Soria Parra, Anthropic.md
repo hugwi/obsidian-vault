@@ -1,19 +1,31 @@
 ---
 title: "The Future of MCP — David Soria Parra, Anthropic"
-source: youtube
-url: https://www.youtube.com/watch?v=v3Fr2JR47KA
+source: "youtube"
+url: "https://www.youtube.com/watch?v=v3Fr2JR47KA"
 author: "AI Engineer"
-published: 2026-04-19
-created: 2026-08-24
+published: "2026-04-19"
+created: "2026-08-24"
 duration: "0:18:45"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "engineering"
+  - "google"
+  - "harness-engineering"
+  - "local-llm"
+  - "mcp"
+  - "openai"
+  - "skills"
+  - "web-design"
+summary: "That's an agent shipping its own interface not through like a plugin, not through an SDK, not rendered on the fly by the model on the client side, or hardcoded into the product. That is something that is served over an MCP server, and you can take the server, put it into cloud, you can put it into ChatGPT, you can put it into VS Code Cursor, and it will just work. And that I think it's kind of cool because for doing that, you need something that a lot of things that we're want in the ecosystem do not offer."
 ---
 
 # The Future of MCP — David Soria Parra, Anthropic

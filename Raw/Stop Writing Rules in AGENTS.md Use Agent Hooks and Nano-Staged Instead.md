@@ -1,20 +1,21 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - code-quality
-  - context-management
-  - harness
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: workflow-phases-gates
+  - "code-quality"
+  - "context-management"
+  - "harness"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "workflow-phases-gates"
 subtheme:
-  - harness-loops
-  - plan-phase
-  - event-driven
+  - "harness-loops"
+  - "plan-phase"
+  - "event-driven"
 ---
 
 # Stop Writing Rules in AGENTS.md: Use Agent Hooks and Nano-Staged Instead

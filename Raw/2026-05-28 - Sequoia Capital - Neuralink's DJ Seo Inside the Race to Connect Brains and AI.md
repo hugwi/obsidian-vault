@@ -1,19 +1,25 @@
 ---
 title: "Neuralink's DJ Seo: Inside the Race to Connect Brains and AI"
-source: youtube
-url: https://www.youtube.com/watch?v=by7Y9KoErTw
+source: "youtube"
+url: "https://www.youtube.com/watch?v=by7Y9KoErTw"
 author: "Sequoia Capital"
-published: 2026-05-28
-created: 2026-08-24
+published: "2026-05-28"
+created: "2026-08-24"
 duration: "0:24:59"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "hardware"
+  - "security"
+  - "video-gen"
+  - "voice-ai"
+  - "youtube-strategy"
+summary: "Okay, guys, this one needs really no introduction. We've got our brilliant partner Shawn Maguire, president of Neuralink DJ. >> [applause] >> We're actually going to stay on the side cuz we're going to play a 2-minute video just showing how badass DJ and his team are."
 ---
 
 # Neuralink's DJ Seo: Inside the Race to Connect Brains and AI

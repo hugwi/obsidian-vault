@@ -1,16 +1,17 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - spec-driven
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: industry-product
+  - "spec-driven"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "industry-product"
 subtheme:
-  - careers-talent
+  - "careers-talent"
 ---
 
 # 5 Things I Learned About Being a Technical Lead

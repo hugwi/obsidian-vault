@@ -1,19 +1,29 @@
 ---
 title: "MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps"
-source: youtube
-url: https://www.youtube.com/watch?v=o-zkvb0iFDQ
+source: "youtube"
+url: "https://www.youtube.com/watch?v=o-zkvb0iFDQ"
 author: "AI Engineer"
-published: 2026-05-06
-created: 2026-08-24
+published: "2026-05-06"
+created: "2026-08-24"
 duration: "0:22:20"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "google"
+  - "mcp"
+  - "microsoft"
+  - "openai"
+  - "skills"
+  - "web-design"
+summary: "We built this talk well not really yesterday we built this talk this morning and it might already be out of date. I'm the creator of MCPUI, co-creator of MCP apps and maintainer. Also creator of Agent Craft if you were on the previous session."
 ---
 
 # MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps

@@ -1,20 +1,21 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, knowledge-management]
+domain: "[agentic-engineering, knowledge-management]"
 tags:
-  - claude-code
-  - productivity
-  - spec-driven
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: context-engineering
+  - "claude-code"
+  - "productivity"
+  - "spec-driven"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "context-engineering"
 subtheme:
-  - context-window
-  - compaction-caching
-  - cost-tokens
+  - "context-window"
+  - "compaction-caching"
+  - "cost-tokens"
 ---
 
 # 25 Claude Code Tips from 11 Months of Intense Use

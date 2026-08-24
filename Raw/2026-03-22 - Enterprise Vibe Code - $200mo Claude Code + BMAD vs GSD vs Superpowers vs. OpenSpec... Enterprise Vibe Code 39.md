@@ -1,19 +1,34 @@
 ---
 title: "$200/mo Claude Code + BMAD vs GSD vs Superpowers vs. OpenSpec... Enterprise Vibe Code 39"
-source: youtube
-url: https://www.youtube.com/watch?v=ySzhUkGbh_M
+source: "youtube"
+url: "https://www.youtube.com/watch?v=ySzhUkGbh_M"
 author: "Enterprise Vibe Code"
-published: 2026-03-22
-created: 2026-08-24
+published: "2026-03-22"
+created: "2026-08-24"
 duration: "5:30:43"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "business"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "google"
+  - "local-llm"
+  - "security"
+  - "skills"
+  - "video-gen"
+  - "voice-ai"
+  - "web-design"
+  - "youtube-strategy"
+summary: "Or wherever wherever you're at. Yeah, it's amazing what um it's amazing the power of the internet, right? like it's uh I don't know like I can just talk to somebody on the other side of the world and you're kind of I don't know you're here watching and it's I don't know just kind of crazy to me that there's a thousand people who who wanted to listen in on what I have to say."
 ---
 
 # $200/mo Claude Code + BMAD vs GSD vs Superpowers vs. OpenSpec... Enterprise Vibe Code 39

@@ -1,19 +1,27 @@
 ---
 title: "How to Run Kimi K3 for FREE!"
-source: youtube
-url: https://www.youtube.com/watch?v=mh47Se22pQ8
+source: "youtube"
+url: "https://www.youtube.com/watch?v=mh47Se22pQ8"
 author: "Julian Goldie SEO"
-published: 2026-07-18
-created: 2026-08-24
+published: "2026-07-18"
+created: "2026-08-24"
 duration: "0:03:48"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "local-llm"
+  - "skills"
+  - "video-gen"
+  - "web-design"
+summary: "Today I want to show you how to use Kimi K3, the most powerful open-source model ever, for free. I'm going to sign out of my main account just to show you that it is free. Then, if you try to use it, it's going to ask you to sign in."
 ---
 
 # How to Run Kimi K3 for FREE!

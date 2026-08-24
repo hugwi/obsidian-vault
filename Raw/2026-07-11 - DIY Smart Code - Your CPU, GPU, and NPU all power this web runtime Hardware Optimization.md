@@ -1,19 +1,25 @@
 ---
 title: "Your CPU, GPU, and NPU all power this web runtime #Hardware #Optimization"
-source: youtube
-url: https://www.youtube.com/watch?v=s1fSu2PKAGQ
+source: "youtube"
+url: "https://www.youtube.com/watch?v=s1fSu2PKAGQ"
 author: "DIY Smart Code"
-published: 2026-07-11
-created: 2026-08-24
+published: "2026-07-11"
+created: "2026-08-24"
 duration: "0:01:00"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "evaluation"
+  - "google"
+  - "hardware"
+  - "local-llm"
+summary: "Google for developers just dropped this. Meet Light the DJ S, the new Edge AI runtime for the web. It runs real machine learning models fully inside your browser."
 ---
 
 # Your CPU, GPU, and NPU all power this web runtime #Hardware #Optimization

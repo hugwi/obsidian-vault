@@ -1,19 +1,21 @@
 ---
 title: "Client Wants Animation Changes? Don't Touch the Keyframes Yet!"
-source: youtube
-url: https://www.youtube.com/watch?v=laOhI_1bdRw
+source: "youtube"
+url: "https://www.youtube.com/watch?v=laOhI_1bdRw"
 author: "VFX Grace"
-published: 2026-07-29
-created: 2026-08-24
+published: "2026-07-29"
+created: "2026-08-24"
 duration: "0:00:43"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "video-gen"
+summary: "The animation is already finished, but the client suddenly wants a different version. With hundreds of keyframes already in place, directly editing the original animation can easily mess up the existing motion. Blender's NLA editor allows you to layer new animation on top of your existing motion."
 ---
 
 # Client Wants Animation Changes? Don't Touch the Keyframes Yet!

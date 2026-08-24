@@ -1,19 +1,30 @@
 ---
 title: "Stop Prompting Claude. Use Karpathy's Method Instead."
-source: youtube
-url: https://www.youtube.com/watch?v=7zZy1QTvokM
+source: "youtube"
+url: "https://www.youtube.com/watch?v=7zZy1QTvokM"
 author: "Austin Marchese"
-published: 2026-06-09
-created: 2026-08-24
+published: "2026-06-09"
+created: "2026-08-24"
 duration: "0:13:18"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "business"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "openai"
+  - "security"
+  - "skills"
+  - "video-gen"
+  - "youtube-strategy"
+summary: "I just listened to Andrej Karpathy speak at AISN 2026, and I learned something that I wasn't expecting. Almost everyone is prompting Claude wrong. And it turns out that Karpathy's method for building 10 times faster can be broken down into three simple layers."
 ---
 
 # Stop Prompting Claude. Use Karpathy's Method Instead.

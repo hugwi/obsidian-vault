@@ -1,19 +1,27 @@
 ---
 title: "Stop Using Claude Code CLI. Use THIS Instead! (Oh-My-Pi)"
-source: youtube
-url: https://www.youtube.com/watch?v=8ukl-0tlVgM
+source: "youtube"
+url: "https://www.youtube.com/watch?v=8ukl-0tlVgM"
 author: "Better Stack"
-published: 2026-05-30
-created: 2026-08-24
+published: "2026-05-30"
+created: "2026-08-24"
 duration: "0:05:06"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "harness-engineering"
+  - "video-gen"
+summary: "It's a new AI agent harness built on top of the popular Pi framework, but supercharged with all sorts of goodies and useful features that makes this one of the most powerful AI agent harnesses I've ever used. [music] In this video, we'll take a look at Oh My Pi, see how it works, and check out all the cool features it offers. Now, if you've used other terminal AI tools like Claude Code CLI or standard LLM wrappers, you know how usually it goes."
 ---
 
 # Stop Using Claude Code CLI. Use THIS Instead! (Oh-My-Pi)

@@ -1,19 +1,25 @@
 ---
 title: "The Multi-Agent Architecture That Actually Ships — Luke Alvoeiro, Factory"
-source: youtube
-url: https://www.youtube.com/watch?v=ow1we5PzK-o
+source: "youtube"
+url: "https://www.youtube.com/watch?v=ow1we5PzK-o"
 author: "AI Engineer"
-published: 2026-05-06
-created: 2026-08-24
+published: "2026-05-06"
+created: "2026-08-24"
 duration: "0:18:30"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+  - "harness-engineering"
+  - "skills"
+  - "voice-ai"
+summary: "My name is Luke and my goal is that 20 minutes from now you'll be able to assemble agent teams that can complete tasks orders of magnitude harder than what you can complete with a single agent today. So I come from a background in dev tools. About 2 and 1/2 years ago I started a project at Block which is where I was working at the time."
 ---
 
 # The Multi-Agent Architecture That Actually Ships — Luke Alvoeiro, Factory

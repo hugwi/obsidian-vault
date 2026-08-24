@@ -1,19 +1,29 @@
 ---
 title: "What Is Your Job Now, Farhan Thawar | Compile 26"
-source: youtube
-url: https://www.youtube.com/watch?v=ByOF8qByGHU
+source: "youtube"
+url: "https://www.youtube.com/watch?v=ByOF8qByGHU"
 author: "Cursor"
-published: 2026-06-24
-created: 2026-08-24
+published: "2026-06-24"
+created: "2026-08-24"
 duration: "0:26:40"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "engineering"
+summary: "I'm the head of
+engineering at Shopify, and I want to spend some time thinking
+through this question, which is with AI coming and doing so many
+parts of the jobs of engineers, I want to explore what is our job now? Because really,
+things have really changed, especially for engineering, but across all of R&D and
+even actually for other disciplines as well. And so I want to explore this
+question."
 ---
 
 # What Is Your Job Now, Farhan Thawar | Compile 26

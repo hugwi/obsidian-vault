@@ -1,19 +1,20 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, software-engineering]
+domain: "[agentic-engineering, software-engineering]"
 tags:
-  - claude-code
-  - frontend
-  - testing
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: quality-gates
+  - "claude-code"
+  - "frontend"
+  - "testing"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "quality-gates"
 subtheme:
-  - automated-tests
-  - verification-loops
+  - "automated-tests"
+  - "verification-loops"
 ---
 
 # firstloophq/claude-code-test-runner: An automated E2E natural language test runner built on Claude Code

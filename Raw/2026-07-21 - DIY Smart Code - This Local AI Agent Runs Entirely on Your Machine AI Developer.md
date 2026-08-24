@@ -1,19 +1,24 @@
 ---
 title: "This Local AI Agent Runs Entirely on Your Machine #AI #Developer"
-source: youtube
-url: https://www.youtube.com/watch?v=buhA8sYVgRY
+source: "youtube"
+url: "https://www.youtube.com/watch?v=buhA8sYVgRY"
 author: "DIY Smart Code"
-published: 2026-07-21
-created: 2026-08-24
+published: "2026-07-21"
+created: "2026-08-24"
 duration: "0:01:58"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "apple"
+  - "local-llm"
+  - "voice-ai"
+summary: "Local models finally got good enough to code for real and LM Studio shipped the agent that gives them hands on your machine. That's Gemma 4 12B writing a working game, zero cloud. But the community fired back with four questions the blog won't answer."
 ---
 
 # This Local AI Agent Runs Entirely on Your Machine #AI #Developer

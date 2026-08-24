@@ -1,19 +1,24 @@
 ---
 title: "Top 3 Web Design Tools For Claude Code"
-source: youtube
-url: https://www.youtube.com/watch?v=EcxdMHpJGA4
+source: "youtube"
+url: "https://www.youtube.com/watch?v=EcxdMHpJGA4"
 author: "Charlie Automates"
-published: 2026-03-24
-created: 2026-08-24
+published: "2026-03-24"
+created: "2026-08-24"
 duration: "0:00:08"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "business"
+  - "google"
+  - "skills"
+  - "web-design"
 ---
 
 # Top 3 Web Design Tools For Claude Code

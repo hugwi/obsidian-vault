@@ -1,19 +1,25 @@
 ---
 title: "Ornith 1.0 Beats Claude Opus 4.7 — and It's Free #aimodel #coding"
-source: youtube
-url: https://www.youtube.com/watch?v=8Cw1jX6o9w0
+source: "youtube"
+url: "https://www.youtube.com/watch?v=8Cw1jX6o9w0"
 author: "DIY Smart Code"
-published: 2026-06-28
-created: 2026-08-24
+published: "2026-06-28"
+created: "2026-08-24"
 duration: "0:02:13"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "evaluation"
+  - "harness-engineering"
+  - "local-llm"
+summary: "An open source model just matched Claude Opus on coding. And you can download it tonight. And the team says it taught itself how to code."
 ---
 
 # Ornith 1.0 Beats Claude Opus 4.7 — and It's Free #aimodel #coding

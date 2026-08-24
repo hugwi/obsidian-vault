@@ -1,19 +1,33 @@
 ---
 title: "How to Make Claude Code Your AI Engineering Team"
-source: youtube
-url: https://www.youtube.com/watch?v=wkv2ifxPpF8
+source: "youtube"
+url: "https://www.youtube.com/watch?v=wkv2ifxPpF8"
 author: "Y Combinator"
-published: 2026-04-23
-created: 2026-08-24
+published: "2026-04-23"
+created: "2026-08-24"
 duration: "0:21:49"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "business"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "google"
+  - "harness-engineering"
+  - "mcp"
+  - "openai"
+  - "skills"
+  - "video-gen"
+  - "web-design"
+summary: "Hi, I'm Garry, president and CEO of Y Combinator. I'm also an engineer who spent the first decade of my career building software full-time. I studied computer systems engineering at Stanford, then was employee number 10 at Palantir, where I was an engineer, designer, and product manager all at once."
 ---
 
 # How to Make Claude Code Your AI Engineering Team

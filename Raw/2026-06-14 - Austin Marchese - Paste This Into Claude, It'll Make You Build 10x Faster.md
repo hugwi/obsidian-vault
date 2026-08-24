@@ -1,19 +1,32 @@
 ---
 title: "Paste This Into Claude, It'll Make You Build 10x Faster."
-source: youtube
-url: https://www.youtube.com/watch?v=TP73qyFWDcY
+source: "youtube"
+url: "https://www.youtube.com/watch?v=TP73qyFWDcY"
 author: "Austin Marchese"
-published: 2026-06-14
-created: 2026-08-24
+published: "2026-06-14"
+created: "2026-08-24"
 duration: "0:15:12"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "business"
+  - "context-engineering"
+  - "engineering"
+  - "mcp"
+  - "security"
+  - "skills"
+  - "video-gen"
+  - "voice-ai"
+  - "web-design"
+  - "youtube-strategy"
+summary: "Today we're talking about how to actually build 10 times faster with Claude Code. Most people think it's better prompts, a smarter model, or installing more plugins. But none of that is the actual unlock."
 ---
 
 # Paste This Into Claude, It'll Make You Build 10x Faster.

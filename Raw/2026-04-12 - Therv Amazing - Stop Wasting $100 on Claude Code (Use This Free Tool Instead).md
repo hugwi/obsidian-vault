@@ -1,19 +1,20 @@
 ---
 title: "Stop Wasting $100 on Claude Code (Use This Free Tool Instead)"
-source: youtube
-url: https://www.youtube.com/watch?v=35kBvORKNoc
+source: "youtube"
+url: "https://www.youtube.com/watch?v=35kBvORKNoc"
 author: "Therv Amazing "
-published: 2026-04-12
-created: 2026-08-24
+published: "2026-04-12"
+created: "2026-08-24"
 duration: "0:00:36"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "video-gen"
 ---
 
 # Stop Wasting $100 on Claude Code (Use This Free Tool Instead)

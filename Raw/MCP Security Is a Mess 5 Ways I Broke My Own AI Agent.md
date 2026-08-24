@@ -1,14 +1,15 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [ai-agents, software-engineering]
+domain: "[ai-agents, software-engineering]"
 tags:
-  - mcp
-  - security
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "mcp"
+  - "security"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # MCP Security Is a Mess: 5 Ways I Broke My Own AI Agent

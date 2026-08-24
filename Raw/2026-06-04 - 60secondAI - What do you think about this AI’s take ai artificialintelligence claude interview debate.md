@@ -1,19 +1,22 @@
 ---
 title: "What do you think about this AI’s take? #ai #artificialintelligence #claude #interview #debate"
-source: youtube
-url: https://www.youtube.com/watch?v=bmxgNFZ0SDk
+source: "youtube"
+url: "https://www.youtube.com/watch?v=bmxgNFZ0SDk"
 author: "60secondAI"
-published: 2026-06-04
-created: 2026-08-24
+published: "2026-06-04"
+created: "2026-08-24"
 duration: "0:01:56"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "anthropic"
+  - "youtube-strategy"
+summary: "I said, "Claude, how do you feel about the US military using you to select targets?" >> Yeah. >> Okay, feel, interesting choice of words. And now I was expecting Claude to come back and say like, you know, "Well, I'm sorry, Shane."
 ---
 
 # What do you think about this AI’s take? #ai #artificialintelligence #claude #interview #debate

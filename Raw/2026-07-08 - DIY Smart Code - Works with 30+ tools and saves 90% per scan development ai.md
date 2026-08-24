@@ -1,19 +1,26 @@
 ---
 title: "Works with 30+ tools and saves 90% per scan #development #ai"
-source: youtube
-url: https://www.youtube.com/watch?v=o1XDz2gh_X8
+source: "youtube"
+url: "https://www.youtube.com/watch?v=o1XDz2gh_X8"
 author: "DIY Smart Code"
-published: 2026-07-08
-created: 2026-08-24
+published: "2026-07-08"
+created: "2026-08-24"
 duration: "0:01:26"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+  - "engineering"
+  - "local-llm"
+  - "mcp"
+  - "video-gen"
+summary: "Your coding agent keeps re-scanning the same files over and over, burning tokens every single time. There's a free tool that stops that. It's called leanCTX, open source, local first, one rust binary."
 ---
 
 # Works with 30+ tools and saves 90% per scan #development #ai

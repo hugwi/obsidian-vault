@@ -1,19 +1,26 @@
 ---
 title: "Qwen 3.6 vs Qwen 3.8"
-source: youtube
-url: https://www.youtube.com/watch?v=B8ILtQ4q9S8
+source: "youtube"
+url: "https://www.youtube.com/watch?v=B8ILtQ4q9S8"
 author: "Dan Ackerman"
-published: 2026-08-15
-created: 2026-08-24
+published: "2026-08-15"
+created: "2026-08-24"
 duration: "0:00:55"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "evaluation"
+  - "hardware"
+  - "local-llm"
+  - "video-gen"
+  - "web-design"
+summary: "I've got my AMD Ryzen AI Halo right here and I'm working in LM Studio Bionic, which is an agent. And this week I asked Quinn 3.6 to build me a simple one-page website as a kind of benchmark. It did a perfectly serviceable job."
 ---
 
 # Qwen 3.6 vs Qwen 3.8

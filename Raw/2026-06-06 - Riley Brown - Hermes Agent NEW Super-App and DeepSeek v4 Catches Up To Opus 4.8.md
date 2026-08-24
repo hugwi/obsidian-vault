@@ -1,19 +1,32 @@
 ---
 title: "Hermes Agent NEW Super-App and DeepSeek v4 Catches Up To Opus 4.8?"
-source: youtube
-url: https://www.youtube.com/watch?v=DbeFq_uoaRs
+source: "youtube"
+url: "https://www.youtube.com/watch?v=DbeFq_uoaRs"
 author: "Riley Brown"
-published: 2026-06-06
-created: 2026-08-24
+published: "2026-06-06"
+created: "2026-08-24"
 duration: "0:24:34"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "apple"
+  - "business"
+  - "context-engineering"
+  - "local-llm"
+  - "microsoft"
+  - "openai"
+  - "skills"
+  - "video-gen"
+  - "web-design"
+  - "youtube-strategy"
+summary: "What an insane week in the world of AI agents. Both Codex and Cursor are adding full vibe coding features and many are saying that it is the Replit and lovable killer. Apple is also turning iMessage into an agent store."
 ---
 
 # Hermes Agent NEW Super-App and DeepSeek v4 Catches Up To Opus 4.8?

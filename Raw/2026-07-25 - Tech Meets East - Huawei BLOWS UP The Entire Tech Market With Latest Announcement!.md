@@ -1,19 +1,30 @@
 ---
 title: "Huawei BLOWS UP The Entire Tech Market With Latest Announcement!"
-source: youtube
-url: https://www.youtube.com/watch?v=GfKGKSpZIQU
+source: "youtube"
+url: "https://www.youtube.com/watch?v=GfKGKSpZIQU"
 author: "Tech Meets East"
-published: 2026-07-25
-created: 2026-08-24
+published: "2026-07-25"
+created: "2026-08-24"
 duration: "0:16:25"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "anthropic"
+  - "apple"
+  - "business"
+  - "evaluation"
+  - "google"
+  - "hardware"
+  - "nvidia"
+  - "openai"
+  - "video-gen"
+  - "web-design"
+summary: "Huawei just announced something that has Silicon Valley, Washington, and Brussels reading the same memo in a cold sweat. It is not a new phone or a faster chip. It is a complete vertically integrated AI computing platform built entirely from Chinese designed silicon with no Nvidia, no TSMC, and no American intellectual property anywhere in the stack."
 ---
 
 # Huawei BLOWS UP The Entire Tech Market With Latest Announcement!

@@ -1,19 +1,28 @@
 ---
 title: "Paste This Into Claude, Never Hit a Token Limit Again"
-source: youtube
-url: https://www.youtube.com/watch?v=Y8vAQ1FgNbM
+source: "youtube"
+url: "https://www.youtube.com/watch?v=Y8vAQ1FgNbM"
 author: "AI News & Strategy Daily | Nate B Jones"
-published: 2026-07-29
-created: 2026-08-24
+published: "2026-07-29"
+created: "2026-08-24"
 duration: "0:20:16"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "apple"
+  - "context-engineering"
+  - "local-llm"
+  - "openai"
+  - "skills"
+  - "video-gen"
+summary: "You keep running out of Claude or Codex or or chat GPT or Kimmy or whatever you want and you don't do anything unreasonable to run out of tokens. You asked a handful of questions and it told you to come back in 3 hours or 5 hours or next week. On one working day, my tracker recorded 3.77 billion tokens moving through my Codex workspace."
 ---
 
 # Paste This Into Claude, Never Hit a Token Limit Again

@@ -1,19 +1,25 @@
 ---
 title: "5 SaaS UI/UX mistakes that SCREAM you Vibe Code"
-source: youtube
-url: https://www.youtube.com/watch?v=PDcQJOPby1k
+source: "youtube"
+url: "https://www.youtube.com/watch?v=PDcQJOPby1k"
 author: "Kole Jain"
-published: 2026-02-12
-created: 2026-08-24
+published: "2026-02-12"
+created: "2026-08-24"
 duration: "0:06:32"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "business"
+  - "engineering"
+  - "hardware"
+  - "video-gen"
+  - "web-design"
+summary: "Head over to cursor replet or builder to whip something up. It works great, but it doesn't look very good. The first problem is pretty painfully obvious."
 ---
 
 # 5 SaaS UI/UX mistakes that SCREAM you Vibe Code

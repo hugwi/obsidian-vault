@@ -1,19 +1,22 @@
 ---
 title: "This change makes /grill-me SO MUCH BETTER"
-source: youtube
-url: https://www.youtube.com/watch?v=tLyfDIt9wHg
+source: "youtube"
+url: "https://www.youtube.com/watch?v=tLyfDIt9wHg"
 author: "Matt Pocock"
-published: 2026-07-17
-created: 2026-08-24
+published: "2026-07-17"
+created: "2026-08-24"
 duration: "0:02:05"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "context-engineering"
+  - "skills"
+summary: "Yeah, I'm pretty sure that in the next version of my skills, uh Grill Me is going to change significantly and it's going to grill or instead of grilling one question at a time, it's going to grill in batches. Grill Me had this really weird failure mode where when you got to the end of a grilling session, it would basically just ask you a bunch of questions in a row that were all yeses. Yes, I agree with your recommendation."
 ---
 
 # This change makes /grill-me SO MUCH BETTER

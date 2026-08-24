@@ -1,19 +1,34 @@
 ---
 title: "DGX Spark vs Mac Studio vs RTX 5090: I Tried All Three For Local AI"
-source: youtube
-url: https://www.youtube.com/watch?v=iUSdS-6uwr4
+source: "youtube"
+url: "https://www.youtube.com/watch?v=iUSdS-6uwr4"
 author: "AI News & Strategy Daily | Nate B Jones"
-published: 2026-05-01
-created: 2026-08-24
+published: "2026-05-01"
+created: "2026-08-24"
 duration: "0:32:35"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "apple"
+  - "context-engineering"
+  - "evaluation"
+  - "google"
+  - "hardware"
+  - "harness-engineering"
+  - "local-llm"
+  - "mcp"
+  - "nvidia"
+  - "openai"
+  - "security"
+  - "video-gen"
+  - "voice-ai"
+summary: "The strangest thing about AI right now is that it's making the computer on your desk important again. For the last 15 years, the story of personal computing was basically the story of the computer disappearing. Your files moved into someone else's cloud, your apps became browser tabs, your storage became a sink of some sort, your OS became a launcher for other people's infrastructure."
 ---
 
 # DGX Spark vs Mac Studio vs RTX 5090: I Tried All Three For Local AI

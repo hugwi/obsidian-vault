@@ -1,19 +1,29 @@
 ---
 title: "From 200 to 1,142 Tokens/sec: Tuning Llama.cpp Prefill on an RTX 3060"
-source: youtube
-url: https://www.youtube.com/watch?v=0AqpaFm11oI
+source: "youtube"
+url: "https://www.youtube.com/watch?v=0AqpaFm11oI"
 author: "Codacus"
-published: 2026-05-30
-created: 2026-08-24
+published: "2026-05-30"
+created: "2026-08-24"
 duration: "0:16:56"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "hardware"
+  - "harness-engineering"
+  - "local-llm"
+  - "mcp"
+  - "video-gen"
+summary: "Can we run a mid-tier coding agent on a budget GPU without having to wait for the apocalypse for it to finish the job? They have to process a lot of documents, content, files, and very large instruction sets in the system prompt. And not only once, but multiple times."
 ---
 
 # From 200 to 1,142 Tokens/sec: Tuning Llama.cpp Prefill on an RTX 3060

@@ -1,19 +1,39 @@
 ---
 title: "Why You Should Switch to DeepSeek V4 Flash Right Now (+14 AI Updates)"
-source: youtube
-url: https://www.youtube.com/watch?v=A-2WKQxhI_8
+source: "youtube"
+url: "https://www.youtube.com/watch?v=A-2WKQxhI_8"
 author: "Vaibhav Sisinty"
-published: 2026-08-09
-created: 2026-08-24
+published: "2026-08-09"
+created: "2026-08-24"
 duration: "0:21:47"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "business"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "google"
+  - "hardware"
+  - "local-llm"
+  - "mcp"
+  - "microsoft"
+  - "nvidia"
+  - "openai"
+  - "security"
+  - "skills"
+  - "video-gen"
+  - "voice-ai"
+  - "web-design"
+  - "youtube-strategy"
+summary: "Zuckerberg got tired of watching Sam Altman and Sundar Pichai dominate [music] AI. It's called Muse Code, and it can make software, 3D models, and entire [music] games for you. But, that's not even the biggest story this week."
 ---
 
 # Why You Should Switch to DeepSeek V4 Flash Right Now (+14 AI Updates)

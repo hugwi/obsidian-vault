@@ -1,19 +1,26 @@
 ---
 title: "Markdown Can't Do This (HTML Can) #html #markdown #webdevelopment"
-source: youtube
-url: https://www.youtube.com/watch?v=3DGN5kuG2xQ
+source: "youtube"
+url: "https://www.youtube.com/watch?v=3DGN5kuG2xQ"
 author: "DIY Smart Code"
-published: 2026-05-09
-created: 2026-08-24
+published: "2026-05-09"
+created: "2026-08-24"
 duration: "0:00:58"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "mcp"
+  - "video-gen"
+  - "web-design"
+summary: "Mark down is dying, and the people killing it built good code. Last week, Zach Rick from Entropic dropped a thesis that broke the dev internet. His claim, Mark down is the wrong format."
 ---
 
 # Markdown Can't Do This (HTML Can) #html #markdown #webdevelopment

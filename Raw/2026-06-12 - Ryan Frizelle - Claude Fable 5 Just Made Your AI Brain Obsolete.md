@@ -1,19 +1,23 @@
 ---
 title: "Claude Fable 5 Just Made Your AI Brain Obsolete"
-source: youtube
-url: https://www.youtube.com/watch?v=ulyOzhZRjCk
+source: "youtube"
+url: "https://www.youtube.com/watch?v=ulyOzhZRjCk"
 author: "Ryan Frizelle"
-published: 2026-06-12
-created: 2026-08-24
+published: "2026-06-12"
+created: "2026-08-24"
 duration: "0:01:00"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "anthropic"
+  - "context-engineering"
+  - "video-gen"
+summary: "Claude's Fable 5 update just made all of your AI brains obsolete. In a new video released by Claude with Boris Cherny, who invented Claude Code, him and his team were saying that more context now with AI is actually worse. Previously, I had a lot of context with a lot of great information all tied into my AI, but then I removed a lot of the information and context, and my results were actually a lot better."
 ---
 
 # Claude Fable 5 Just Made Your AI Brain Obsolete

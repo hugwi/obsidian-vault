@@ -1,19 +1,28 @@
 ---
 title: "Figma & Claude Just Changed UI Design Forever"
-source: youtube
-url: https://www.youtube.com/watch?v=Xcgr-7LpzDM
+source: "youtube"
+url: "https://www.youtube.com/watch?v=Xcgr-7LpzDM"
 author: "Sergei Chyrkov"
-published: 2026-03-26
-created: 2026-08-24
+published: "2026-03-26"
+created: "2026-08-24"
 duration: "0:17:43"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "local-llm"
+  - "mcp"
+  - "skills"
+  - "video-gen"
+  - "web-design"
+summary: "Figma just changed the game again. You can now 
+generate full UI designs directly inside your canvas using AI. You 
+can use your actual design systems to generate layouts that already match your product."
 ---
 
 # Figma & Claude Just Changed UI Design Forever

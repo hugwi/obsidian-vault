@@ -1,19 +1,32 @@
 ---
 title: "Inference, Diffusion, World Models, and More | YC Paper Club"
-source: youtube
-url: https://www.youtube.com/watch?v=wE1ZgJdt4uM
+source: "youtube"
+url: "https://www.youtube.com/watch?v=wE1ZgJdt4uM"
 author: "Y Combinator"
-published: 2026-05-28
-created: 2026-08-24
+published: "2026-05-28"
+created: "2026-08-24"
 duration: "1:07:18"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "business"
+  - "context-engineering"
+  - "evaluation"
+  - "google"
+  - "hardware"
+  - "local-llm"
+  - "openai"
+  - "skills"
+  - "video-gen"
+  - "youtube-strategy"
+summary: "Welcome to the first ever YC paper club. This is like a very exciting thing. [applause] Absolutely thrilled with the response."
 ---
 
 # Inference, Diffusion, World Models, and More | YC Paper Club

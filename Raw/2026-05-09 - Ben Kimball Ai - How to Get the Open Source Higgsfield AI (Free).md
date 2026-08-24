@@ -1,19 +1,29 @@
 ---
 title: "How to Get the Open Source Higgsfield AI (Free)"
-source: youtube
-url: https://www.youtube.com/watch?v=4D7YDhsV-jM
+source: "youtube"
+url: "https://www.youtube.com/watch?v=4D7YDhsV-jM"
 author: "Ben Kimball Ai"
-published: 2026-05-09
-created: 2026-08-24
+published: "2026-05-09"
+created: "2026-08-24"
 duration: "0:14:21"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+  - "google"
+  - "hardware"
+  - "local-llm"
+  - "mcp"
+  - "video-gen"
+  - "voice-ai"
+  - "web-design"
+summary: "Okay, so today I'm going to show you guys how to get the open-source Higgsfield. There are several ways you can do it, but this is kind of how it looks when you get it going. This is the whole system right here."
 ---
 
 # How to Get the Open Source Higgsfield AI (Free)

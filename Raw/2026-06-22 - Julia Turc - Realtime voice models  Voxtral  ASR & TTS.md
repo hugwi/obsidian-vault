@@ -1,19 +1,32 @@
 ---
 title: "Realtime voice models | Voxtral | ASR & TTS"
-source: youtube
-url: https://www.youtube.com/watch?v=hyhANozV9Nw
+source: "youtube"
+url: "https://www.youtube.com/watch?v=hyhANozV9Nw"
 author: "Julia Turc"
-published: 2026-06-22
-created: 2026-08-24
+published: "2026-06-22"
+created: "2026-08-24"
 duration: "0:26:37"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+  - "engineering"
+  - "google"
+  - "hardware"
+  - "nvidia"
+  - "openai"
+  - "video-gen"
+  - "voice-ai"
+  - "youtube-strategy"
+summary: "Voice agents are in their Renaissance era. We're moving away from clunky
+interactions with Alexa and Siri towards more natural real-time conversations. Could you order my usual
+margarita from Luigi's?"
 ---
 
 # Realtime voice models | Voxtral | ASR & TTS

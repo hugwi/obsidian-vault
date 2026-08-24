@@ -1,19 +1,40 @@
 ---
 title: "Coding Agents: AI Driven Dev Conference"
-source: youtube
-url: https://www.youtube.com/watch?v=99Kxkemj1g8
+source: "youtube"
+url: "https://www.youtube.com/watch?v=99Kxkemj1g8"
 author: "AAIF Live"
-published: 2026-03-04
-created: 2026-08-24
+published: "2026-03-04"
+created: "2026-08-24"
 duration: "6:45:26"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "apple"
+  - "business"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "google"
+  - "hardware"
+  - "harness-engineering"
+  - "local-llm"
+  - "mcp"
+  - "microsoft"
+  - "openai"
+  - "security"
+  - "skills"
+  - "video-gen"
+  - "voice-ai"
+  - "web-design"
+  - "youtube-strategy"
+summary: "You know, we didn't pray to the demo gods or the uh registration gods, apparently. And they did not take pity upon us. You all got your name tags or some of you got your name tags."
 ---
 
 # Coding Agents: AI Driven Dev Conference

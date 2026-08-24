@@ -1,19 +1,25 @@
 ---
 title: "15 NEW Faceless Niches Blowing Up in The First 30 Days!"
-source: youtube
-url: https://www.youtube.com/watch?v=wFMcUFY_9J4
+source: "youtube"
+url: "https://www.youtube.com/watch?v=wFMcUFY_9J4"
 author: "One Person Business"
-published: 2026-06-12
-created: 2026-08-24
+published: "2026-06-12"
+created: "2026-08-24"
 duration: "0:12:47"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "business"
+  - "skills"
+  - "video-gen"
+  - "voice-ai"
+  - "youtube-strategy"
+summary: "This faceless channel started 30 days ago and they already got almost 14 million views. Now, this is how much I got paid for the same amount of views. And he's not the only one because of this new AI algorithm that is favoring small and new channels, a lot of people are now blowing up in their first 30 days."
 ---
 
 # 15 NEW Faceless Niches Blowing Up in The First 30 Days!

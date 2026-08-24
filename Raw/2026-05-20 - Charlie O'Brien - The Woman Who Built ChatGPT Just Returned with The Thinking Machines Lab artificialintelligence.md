@@ -1,19 +1,25 @@
 ---
 title: "The Woman Who Built ChatGPT Just Returned with The Thinking Machines Lab #artificialintelligence"
-source: youtube
-url: https://www.youtube.com/watch?v=1IVDAVZa-YA
+source: "youtube"
+url: "https://www.youtube.com/watch?v=1IVDAVZa-YA"
 author: "Charlie O'Brien"
-published: 2026-05-20
-created: 2026-08-24
+published: "2026-05-20"
+created: "2026-08-24"
 duration: "0:01:33"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "business"
+  - "google"
+  - "openai"
+  - "video-gen"
+  - "voice-ai"
+summary: "In 2024, she walked away, raised $2 billion, and took open AI's co-founder with her, and disappeared for a year. And this Sunday, she came back with an AI that watches you through your camera and tells you >> Hey, I need your help with something today. >> $2 billion in a year of silence for a talking assistant?"
 ---
 
 # The Woman Who Built ChatGPT Just Returned with The Thinking Machines Lab #artificialintelligence

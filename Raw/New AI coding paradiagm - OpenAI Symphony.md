@@ -1,20 +1,21 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents]
+domain: "[agentic-engineering, ai-agents]"
 tags:
-  - harness
-  - tools
-  - workflow-git
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: workflow-phases-gates
+  - "harness"
+  - "tools"
+  - "workflow-git"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "workflow-phases-gates"
 subtheme:
-  - plan-phase
-  - harness-loops
-  - event-driven
+  - "plan-phase"
+  - "harness-loops"
+  - "event-driven"
 ---
 
 # New AI coding paradiagm - OpenAI Symphony

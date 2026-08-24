@@ -1,19 +1,24 @@
 ---
 title: "Claude Code + Google Stitch = New Web Design Meta"
-source: youtube
-url: https://www.youtube.com/watch?v=X-MjFf3Rs74
+source: "youtube"
+url: "https://www.youtube.com/watch?v=X-MjFf3Rs74"
 author: "Charlie Automates"
-published: 2026-03-24
-created: 2026-08-24
+published: "2026-03-24"
+created: "2026-08-24"
 duration: "0:00:42"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "google"
+  - "web-design"
+  - "youtube-strategy"
+summary: "Claude Code plus Google Stitch just dropped and it is easily 100 times better than Figma for web design, actually making Figma completely useless now. And here's how to set it up in 30 seconds. First, come to Pinterest and look up landing page examples."
 ---
 
 # Claude Code + Google Stitch = New Web Design Meta

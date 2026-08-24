@@ -1,19 +1,31 @@
 ---
 title: "Stop babysitting your agents... — Brandon Waselnuk, Unblocked"
-source: youtube
-url: https://www.youtube.com/watch?v=BiG2ssibKGc
+source: "youtube"
+url: "https://www.youtube.com/watch?v=BiG2ssibKGc"
 author: "AI Engineer"
-published: 2026-05-26
-created: 2026-08-24
+published: "2026-05-26"
+created: "2026-08-24"
 duration: "0:18:54"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "business"
+  - "context-engineering"
+  - "evaluation"
+  - "harness-engineering"
+  - "mcp"
+  - "microsoft"
+  - "security"
+  - "skills"
+  - "youtube-strategy"
+summary: "Uh and my goal is to make it so that you don't have to babysit your agents anymore. Um I'm sure we all have a different take on what that means. What I think of is care and feeding."
 ---
 
 # Stop babysitting your agents... — Brandon Waselnuk, Unblocked

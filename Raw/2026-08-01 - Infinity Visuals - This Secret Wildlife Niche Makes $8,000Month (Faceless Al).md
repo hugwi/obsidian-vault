@@ -1,19 +1,25 @@
 ---
 title: "This Secret Wildlife Niche Makes $8,000/Month (Faceless Al)"
-source: youtube
-url: https://www.youtube.com/watch?v=co5eo2JSI-A
+source: "youtube"
+url: "https://www.youtube.com/watch?v=co5eo2JSI-A"
 author: "Infinity Visuals"
-published: 2026-08-01
-created: 2026-08-24
+published: "2026-08-01"
+created: "2026-08-24"
 duration: "0:04:14"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "business"
+  - "google"
+  - "skills"
+  - "video-gen"
+  - "youtube-strategy"
+summary: "This AI niche is getting millions of views with intense wildlife animal encounters that people simply can't stop watching. And yes, it can generate up to $8,000 per month. And today, I'll show you exactly how to create these videos using free AI tools."
 ---
 
 # This Secret Wildlife Niche Makes $8,000/Month (Faceless Al)

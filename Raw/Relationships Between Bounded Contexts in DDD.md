@@ -1,13 +1,14 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [software-engineering]
+domain: "[software-engineering]"
 tags:
-  - ddd
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "ddd"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # Relationships Between Bounded Contexts in DDD

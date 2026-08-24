@@ -1,19 +1,25 @@
 ---
 title: "Harvard just discovered what AI actually is"
-source: youtube
-url: https://www.youtube.com/watch?v=nDL3Ch7Nz8c
+source: "youtube"
+url: "https://www.youtube.com/watch?v=nDL3Ch7Nz8c"
 author: "Mo Bitar"
-published: 2026-04-14
-created: 2026-08-24
+published: "2026-04-14"
+created: "2026-08-24"
 duration: "0:07:52"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "business"
+  - "context-engineering"
+  - "video-gen"
+  - "youtube-strategy"
+summary: "And this man is on Slack at some ungodly hour having what can only be described as a rich person meltdown. He's telling his colleagues he feels dragged around. He's calling a contract he signed a pushover deal because a few years back he bought a little game studio called Unknown Worlds, the makers of Subnautica, and he promised the founders $250 million if their next game hits certain targets."
 ---
 
 # Harvard just discovered what AI actually is

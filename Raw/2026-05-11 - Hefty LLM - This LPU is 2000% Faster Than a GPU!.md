@@ -1,19 +1,28 @@
 ---
 title: "This LPU is 2000% Faster Than a GPU!"
-source: youtube
-url: https://www.youtube.com/watch?v=5s5qnEVe34k
+source: "youtube"
+url: "https://www.youtube.com/watch?v=5s5qnEVe34k"
 author: "Hefty LLM"
-published: 2026-05-11
-created: 2026-08-24
+published: "2026-05-11"
+created: "2026-08-24"
 duration: "0:06:13"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "business"
+  - "context-engineering"
+  - "engineering"
+  - "hardware"
+  - "nvidia"
+  - "openai"
+  - "security"
+  - "video-gen"
+summary: "When a startup built a chip that can run AI 20 times faster than Nvidia's best GPUs, that too while using 10 times less power doing it, Nvidia didn't try to beat it. Instead, they paid $20 to make it disappear. Nvidia controls roughly 90% of the AI chip market."
 ---
 
 # This LPU is 2000% Faster Than a GPU!

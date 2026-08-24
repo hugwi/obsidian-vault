@@ -1,19 +1,20 @@
 ---
 title: "Run Claude Code FREE W/ Unlimited Usage"
-source: youtube
-url: https://www.youtube.com/watch?v=QIevCKcRbUs
+source: "youtube"
+url: "https://www.youtube.com/watch?v=QIevCKcRbUs"
 author: "Charlie Automates"
-published: 2026-07-21
-created: 2026-08-24
+published: "2026-07-21"
+created: "2026-08-24"
 duration: "0:01:03"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+summary: "Claude Code just became completely free. I can't believe I'm even saying this, but unlimited usage in one install. Now, when I boot open Claude Code, I have an option here called auto coding free."
 ---
 
 # Run Claude Code FREE W/ Unlimited Usage

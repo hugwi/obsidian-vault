@@ -1,19 +1,20 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, design, product-business]
+domain: "[agentic-engineering, design, product-business]"
 tags:
-  - context-management
-  - startup
-  - ux-ui
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: context-engineering
+  - "context-management"
+  - "startup"
+  - "ux-ui"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "context-engineering"
 subtheme:
-  - retrieval-rag
-  - context-window
+  - "retrieval-rag"
+  - "context-window"
 ---
 
 # AI’s trillion-dollar opportunity: Context graphs

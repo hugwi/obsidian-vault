@@ -1,19 +1,32 @@
 ---
 title: "Every Tech Bubble Obeyed the Same Rule. AI Is Next."
-source: youtube
-url: https://www.youtube.com/watch?v=KJxfSIvv920
+source: "youtube"
+url: "https://www.youtube.com/watch?v=KJxfSIvv920"
 author: "Universal Resilience with JT Yu"
-published: 2026-08-14
-created: 2026-08-24
+published: "2026-08-14"
+created: "2026-08-24"
 duration: "0:23:20"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "engineering"
+  - "harness-engineering"
+  - "microsoft"
+  - "openai"
+  - "video-gen"
+  - "web-design"
+  - "youtube-strategy"
+summary: "Airships were once seen as the 
+future of long-distance travel. But when that bubble burst, the 
+technology was largely abandoned. Railroads also went through a bubble that wiped 
+out investors across Britain."
 ---
 
 # Every Tech Bubble Obeyed the Same Rule. AI Is Next.

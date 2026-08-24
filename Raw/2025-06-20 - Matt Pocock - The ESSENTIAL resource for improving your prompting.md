@@ -1,19 +1,22 @@
 ---
 title: "The ESSENTIAL resource for improving your prompting"
-source: youtube
-url: https://www.youtube.com/watch?v=fhCEwk7NmC0
+source: "youtube"
+url: "https://www.youtube.com/watch?v=fhCEwk7NmC0"
 author: "Matt Pocock"
-published: 2025-06-20
-created: 2026-08-24
+published: "2025-06-20"
+created: "2026-08-24"
 duration: "0:01:03"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "context-engineering"
+  - "engineering"
+summary: "This is the best most useful introduction to prompt engineering that I have ever found. And if you think prompt engineering that is rubbish, that is not a real thing. Then I promise you this resource will change your mind."
 ---
 
 # The ESSENTIAL resource for improving your prompting

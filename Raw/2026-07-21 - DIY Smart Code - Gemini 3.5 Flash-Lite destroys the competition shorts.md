@@ -1,19 +1,24 @@
 ---
 title: "Gemini 3.5 Flash-Lite destroys the competition #shorts"
-source: youtube
-url: https://www.youtube.com/watch?v=u5zaXlR7dgg
+source: "youtube"
+url: "https://www.youtube.com/watch?v=u5zaXlR7dgg"
 author: "DIY Smart Code"
-published: 2026-07-21
-created: 2026-08-24
+published: "2026-07-21"
+created: "2026-08-24"
 duration: "0:02:46"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "engineering"
+  - "evaluation"
+  - "google"
+summary: "Google's 30-cent Gemini just beat their bigger model. And the strongest one in this drop is the one you can't touch. First, this post and what the cheap one just did."
 ---
 
 # Gemini 3.5 Flash-Lite destroys the competition #shorts

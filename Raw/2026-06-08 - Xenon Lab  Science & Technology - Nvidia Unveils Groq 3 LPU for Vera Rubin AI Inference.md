@@ -1,19 +1,24 @@
 ---
 title: "Nvidia Unveils Groq 3 LPU for Vera Rubin AI Inference"
-source: youtube
-url: https://www.youtube.com/watch?v=FwBlWOX2rHQ
+source: "youtube"
+url: "https://www.youtube.com/watch?v=FwBlWOX2rHQ"
 author: "Xenon Lab | Science & Technology"
-published: 2026-06-08
-created: 2026-08-24
+published: "2026-06-08"
+created: "2026-08-24"
 duration: "0:01:25"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+  - "hardware"
+  - "nvidia"
+summary: "500 megabytes of memory that's faster than hundreds of gigabytes. Sounds strange, but that's exactly what Nvidia's new AI processor does. Hi, this is Dmitri from Xenon Lab."
 ---
 
 # Nvidia Unveils Groq 3 LPU for Vera Rubin AI Inference

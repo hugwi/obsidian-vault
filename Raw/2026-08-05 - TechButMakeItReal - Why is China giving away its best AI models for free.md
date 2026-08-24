@@ -1,19 +1,31 @@
 ---
 title: "Why is China giving away its best AI models for free?"
-source: youtube
-url: https://www.youtube.com/watch?v=xhn7ShyLBG4
+source: "youtube"
+url: "https://www.youtube.com/watch?v=xhn7ShyLBG4"
 author: "TechButMakeItReal"
-published: 2026-08-05
-created: 2026-08-24
+published: "2026-08-05"
+created: "2026-08-24"
 duration: "0:18:04"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "business"
+  - "context-engineering"
+  - "hardware"
+  - "local-llm"
+  - "nvidia"
+  - "openai"
+  - "security"
+  - "skills"
+  - "video-gen"
+summary: "For the past 2 weeks, there's been a lot of noise about Chinese open weight AI models. Chinese open weight model Qwen 1.5 matched the performance of American frontier models at a fraction of the cost for the first time. And that set off a wave of China's catching up fast on open weights headlines."
 ---
 
 # Why is China giving away its best AI models for free?

@@ -1,19 +1,20 @@
 ---
 title: "The Creator of Claude Code Doesn’t Prompt Anymore. He Writes AI Loops"
-source: youtube
-url: https://www.youtube.com/watch?v=4YBldYC6Bw8
+source: "youtube"
+url: "https://www.youtube.com/watch?v=4YBldYC6Bw8"
 author: "The AI Impact | No BS  A.I Tips - Daily"
-published: 2026-06-12
-created: 2026-08-24
+published: "2026-06-12"
+created: "2026-08-24"
 duration: "0:01:05"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+summary: "The creator of Claude code says he doesn't prompt Claude anymore. Once you realize how simple it is to make this change, you'll never go back to regular prompting again. You enter something like write me a LinkedIn post."
 ---
 
 # The Creator of Claude Code Doesn’t Prompt Anymore. He Writes AI Loops

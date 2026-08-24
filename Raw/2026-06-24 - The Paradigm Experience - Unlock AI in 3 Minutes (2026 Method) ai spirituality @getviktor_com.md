@@ -1,19 +1,22 @@
 ---
 title: "Unlock AI in 3 Minutes (2026 Method) #ai #spirituality @getviktor_com"
-source: youtube
-url: https://www.youtube.com/watch?v=kZbaKuzOORs
+source: "youtube"
+url: "https://www.youtube.com/watch?v=kZbaKuzOORs"
 author: "The Paradigm Experience"
-published: 2026-06-24
-created: 2026-08-24
+published: "2026-06-24"
+created: "2026-08-24"
 duration: "0:03:00"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "engineering"
+  - "web-design"
+summary: "I promise you guys, this is worth every second. Keep your answers to one sentence max. Wait for my first question." All right."
 ---
 
 # Unlock AI in 3 Minutes (2026 Method) #ai #spirituality @getviktor_com

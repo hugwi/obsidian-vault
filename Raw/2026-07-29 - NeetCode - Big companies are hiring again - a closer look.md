@@ -1,19 +1,33 @@
 ---
 title: "Big companies are hiring again - a closer look"
-source: youtube
-url: https://www.youtube.com/watch?v=G0N9yxVHT38
+source: "youtube"
+url: "https://www.youtube.com/watch?v=G0N9yxVHT38"
 author: "NeetCode"
-published: 2026-07-29
-created: 2026-08-24
+published: "2026-07-29"
+created: "2026-08-24"
 duration: "0:16:22"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "engineering"
+  - "evaluation"
+  - "google"
+  - "hardware"
+  - "mcp"
+  - "openai"
+  - "skills"
+  - "video-gen"
+  - "voice-ai"
+  - "web-design"
+  - "youtube-strategy"
+summary: "It's been quite a roller coaster the last few years with AI, the word that everyone is so tired of hearing about. I think the next 6 to 12 months are going to be really interesting, but at this point in time, I think it is clear that AI has fallen short of many expectations both with the promises of AGI and also with job replacement. I saw this piece from the Wall Street Journal, big companies are starting to hire again defying predictions of the AI wipeout."
 ---
 
 # Big companies are hiring again - a closer look

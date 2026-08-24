@@ -1,19 +1,24 @@
 ---
 title: "Turn Claude Code Into a Dev Team in 5 Min"
-source: youtube
-url: https://www.youtube.com/watch?v=pR2nuRcLqbI
+source: "youtube"
+url: "https://www.youtube.com/watch?v=pR2nuRcLqbI"
 author: "Yury AI"
-published: 2026-04-06
-created: 2026-08-24
+published: "2026-04-06"
+created: "2026-08-24"
 duration: "0:00:54"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "skills"
+summary: "How to turn Claude code into a team of six developers in five minutes. Claude stops jumping into code and actually plans, writes tests, [music] and reviews its own work first. 277,000 installs built by Anthropic."
 ---
 
 # Turn Claude Code Into a Dev Team in 5 Min

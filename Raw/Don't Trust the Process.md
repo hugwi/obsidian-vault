@@ -1,14 +1,15 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [design, product-business]
+domain: "[design, product-business]"
 tags:
-  - product
-  - ux-ui
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "product"
+  - "ux-ui"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # Don't "Trust the Process"

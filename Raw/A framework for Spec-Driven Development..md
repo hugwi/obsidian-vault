@@ -1,20 +1,21 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, knowledge-management]
+domain: "[agentic-engineering, knowledge-management]"
 tags:
-  - productivity
-  - skills
-  - spec-driven
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: work-breakdown-specs
+  - "productivity"
+  - "skills"
+  - "spec-driven"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "work-breakdown-specs"
 subtheme:
-  - spec-driven
-  - task-decomposition
-  - architecture-design
+  - "spec-driven"
+  - "task-decomposition"
+  - "architecture-design"
 ---
 
 # A framework for Spec-Driven Development.

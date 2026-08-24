@@ -1,19 +1,24 @@
 ---
 title: "This Markdown Criticism Has Developers Divided #shorts #tech"
-source: youtube
-url: https://www.youtube.com/watch?v=DgDK5KWtJAw
+source: "youtube"
+url: "https://www.youtube.com/watch?v=DgDK5KWtJAw"
 author: "DIY Smart Code"
-published: 2026-05-18
-created: 2026-08-24
+published: "2026-05-18"
+created: "2026-08-24"
 duration: "0:01:33"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "video-gen"
+summary: "The Markdown versus HTML debate, it is still going. One post, 7 days, and the dev internet went to war. Tariq, the engineer from Anthropic, dropped a thesis."
 ---
 
 # This Markdown Criticism Has Developers Divided #shorts #tech

@@ -1,19 +1,23 @@
 ---
 title: "Run HUGE AI Models on Your LAPTOP?!"
-source: youtube
-url: https://www.youtube.com/watch?v=DF0R_yzHXsU
+source: "youtube"
+url: "https://www.youtube.com/watch?v=DF0R_yzHXsU"
 author: "Agentic Amit"
-published: 2025-10-13
-created: 2026-08-24
+published: "2025-10-13"
+created: "2026-08-24"
 duration: "0:01:06"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "engineering"
+  - "hardware"
+  - "local-llm"
+summary: "new AI Python framework might just unlock a huge amount of possibilities for developers in the near future. OLM seems to be changing the game when it comes to processing and using LLMs locally on a computer with minimal resources. The reason this is important is because we can take open models and fine-tune models and run them on commodity hardware that we have access to."
 ---
 
 # Run HUGE AI Models on Your LAPTOP?!

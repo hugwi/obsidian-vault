@@ -1,19 +1,25 @@
 ---
 title: "Karpathy's Skill Just Fixed Claude Code's Biggest Problem"
-source: youtube
-url: https://www.youtube.com/watch?v=EsgUfrwsV5A
+source: "youtube"
+url: "https://www.youtube.com/watch?v=EsgUfrwsV5A"
 author: "Eric Tech"
-published: 2026-05-17
-created: 2026-08-24
+published: "2026-05-17"
+created: "2026-08-24"
 duration: "0:11:03"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "microsoft"
+  - "openai"
+  - "skills"
+  - "video-gen"
+summary: "In this video, we're going to go over this Andrej Karpathy skills, which got over 100,000 stars on GitHub. And this skill is derived from this expose that Andrej Karpathy has wrote. And if you don't know what Andrej Karpathy is, he is previously a director of AI at Tesla and a founding team at OpenAI."
 ---
 
 # Karpathy's Skill Just Fixed Claude Code's Biggest Problem

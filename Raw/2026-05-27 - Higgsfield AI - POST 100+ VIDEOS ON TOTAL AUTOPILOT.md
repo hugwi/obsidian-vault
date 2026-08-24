@@ -1,19 +1,24 @@
 ---
 title: "POST 100+ VIDEOS ON TOTAL AUTOPILOT"
-source: youtube
-url: https://www.youtube.com/watch?v=JaEpj9OB3Ek
+source: "youtube"
+url: "https://www.youtube.com/watch?v=JaEpj9OB3Ek"
 author: "Higgsfield AI"
-published: 2026-05-27
-created: 2026-08-24
+published: "2026-05-27"
+created: "2026-08-24"
 duration: "0:00:52"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "mcp"
+  - "skills"
+  - "video-gen"
+summary: "You can now make Instagram run itself. Stories, posts, reels created and posted on autopilot. I drop a product image and ask it to create a full month of content."
 ---
 
 # POST 100+ VIDEOS ON TOTAL AUTOPILOT

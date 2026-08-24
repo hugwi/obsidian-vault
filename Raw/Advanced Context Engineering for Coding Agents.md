@@ -5,13 +5,16 @@ title: "Advanced Context Engineering for Coding Agents"
 source: "https://www.gethumanlayer.com/blog/advanced-context-engineering"
 author:
   - "[[Dex]]"
-published: 2025-08-29
-created: 2026-06-24
-rating: 
-action: 
+published: "2025-08-29"
+created: "2026-06-24"
+rating:
+action:
 description: "How do we get AI coding agents to solve hard problems in complex, brownfield codebases?"
 tags:
   - "clippings"
+  - "agents"
+  - "clip/video"
+  - "context-engineering"
 ---
 ## \## Getting AI to Work in Complex Codebases
 

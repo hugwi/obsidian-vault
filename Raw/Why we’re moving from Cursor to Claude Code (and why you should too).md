@@ -1,18 +1,19 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents]
+domain: "[agentic-engineering, ai-agents]"
 tags:
-  - claude-code
-  - tools
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: agents-models
+  - "claude-code"
+  - "tools"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "agents-models"
 subtheme:
-  - coding-agent-platforms
-  - model-comparison
+  - "coding-agent-platforms"
+  - "model-comparison"
 ---
 
 # Why we’re moving from Cursor to Claude Code (and why you should too)

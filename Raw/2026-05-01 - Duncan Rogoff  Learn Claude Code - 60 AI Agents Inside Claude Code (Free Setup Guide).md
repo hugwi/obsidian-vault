@@ -1,19 +1,22 @@
 ---
 title: "60 AI Agents Inside Claude Code (Free Setup Guide)"
-source: youtube
-url: https://www.youtube.com/watch?v=DuDrHzaBQ3k
+source: "youtube"
+url: "https://www.youtube.com/watch?v=DuDrHzaBQ3k"
 author: "Duncan Rogoff | Learn Claude Code"
-published: 2026-05-01
-created: 2026-08-24
+published: "2026-05-01"
+created: "2026-08-24"
 duration: "0:00:53"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+summary: "This thing is ranked number one on GitHub right now. It's completely free and almost nobody has set this up yet. It's called Rufflow and basically what it does is it spins up 60 plus AI agents that all work together to build whatever you want and they actually get better after every single run."
 ---
 
 # 60 AI Agents Inside Claude Code (Free Setup Guide)

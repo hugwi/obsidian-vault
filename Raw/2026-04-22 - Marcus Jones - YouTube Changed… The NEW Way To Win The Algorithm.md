@@ -1,19 +1,24 @@
 ---
 title: "YouTube Changed… The NEW Way To Win The Algorithm"
-source: youtube
-url: https://www.youtube.com/watch?v=-A4q0gGF0pM
+source: "youtube"
+url: "https://www.youtube.com/watch?v=-A4q0gGF0pM"
 author: "Marcus Jones"
-published: 2026-04-22
-created: 2026-08-24
+published: "2026-04-22"
+created: "2026-08-24"
 duration: "0:13:35"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "anthropic"
+  - "google"
+  - "video-gen"
+  - "youtube-strategy"
+summary: "The old YouTube growth strategies aren't working the way they used to. Some creators are getting many tens of thousands of views by ranking their videos not in YouTube search, but within AI platforms. Video ideas that used to crush are getting banned left and right."
 ---
 
 # YouTube Changed… The NEW Way To Win The Algorithm

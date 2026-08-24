@@ -1,19 +1,32 @@
 ---
 title: "Pi to Pi: Two-Way Agent Orchestration with the Pi Coding Agent"
-source: youtube
-url: https://www.youtube.com/watch?v=PIdETjcXNIk
+source: "youtube"
+url: "https://www.youtube.com/watch?v=PIdETjcXNIk"
 author: "IndyDevDan"
-published: 2026-05-18
-created: 2026-08-24
+published: "2026-05-18"
+created: "2026-08-24"
 duration: "0:34:52"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "business"
+  - "context-engineering"
+  - "engineering"
+  - "google"
+  - "harness-engineering"
+  - "local-llm"
+  - "nvidia"
+  - "openai"
+  - "skills"
+  - "video-gen"
+summary: "I have a simple question for you. What's better than one GPT 5.5 Pi coding agent? You guessed it, two GPT 5.5 Pi coding agents."
 ---
 
 # Pi to Pi: Two-Way Agent Orchestration with the Pi Coding Agent

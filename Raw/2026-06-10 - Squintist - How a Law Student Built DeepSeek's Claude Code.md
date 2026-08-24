@@ -1,19 +1,29 @@
 ---
 title: "How a Law Student Built DeepSeek's Claude Code"
-source: youtube
-url: https://www.youtube.com/watch?v=AsRSstoOL5U
+source: "youtube"
+url: "https://www.youtube.com/watch?v=AsRSstoOL5U"
 author: "Squintist"
-published: 2026-06-10
-created: 2026-08-24
+published: "2026-06-10"
+created: "2026-08-24"
 duration: "0:11:37"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "engineering"
+  - "evaluation"
+  - "harness-engineering"
+  - "local-llm"
+  - "microsoft"
+  - "skills"
+  - "video-gen"
+summary: "May 2026, a university hall in Hangzhou, China. There's a stage, a banner that reads Whale Bros fan meet and greet, and a line of developers waiting to get a photo with the guest of honor, a 32-year-old American named Hunter Bown. Hunter is not a famous engineer."
 ---
 
 # How a Law Student Built DeepSeek's Claude Code

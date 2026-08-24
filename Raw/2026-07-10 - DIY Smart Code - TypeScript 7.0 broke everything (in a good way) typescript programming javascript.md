@@ -1,19 +1,24 @@
 ---
 title: "TypeScript 7.0 broke everything (in a good way) #typescript #programming #javascript"
-source: youtube
-url: https://www.youtube.com/watch?v=YpbldAJTrME
+source: "youtube"
+url: "https://www.youtube.com/watch?v=YpbldAJTrME"
 author: "DIY Smart Code"
-published: 2026-07-10
-created: 2026-08-24
+published: "2026-07-10"
+created: "2026-08-24"
 duration: "0:01:40"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+  - "engineering"
+  - "microsoft"
+summary: "TypeScript just shipped the biggest release in its history. 1.5 million views in a single day. TypeScript 7 is a ground-up rewrite."
 ---
 
 # TypeScript 7.0 broke everything (in a good way) #typescript #programming #javascript

@@ -1,13 +1,14 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [personal]
+domain: "[personal]"
 tags:
-  - real-estate
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "real-estate"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # For Those Who Left Six-Figure Jobs to Become Real Estate Agents, Was It Worth It or Do You Regret It?

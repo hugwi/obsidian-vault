@@ -1,19 +1,23 @@
 ---
 title: "5 Claude Code Skills That Turn It Into a Full-Stack AI Agent"
-source: youtube
-url: https://www.youtube.com/watch?v=pFZOX58plTw
+source: "youtube"
+url: "https://www.youtube.com/watch?v=pFZOX58plTw"
 author: "Valeri Does AI"
-published: 2026-05-25
-created: 2026-08-24
+published: "2026-05-25"
+created: "2026-08-24"
 duration: "0:00:46"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "mcp"
+  - "skills"
+summary: "If you're still using Claude code without these five skills, you're literally using 10% of what it can do. And honestly, once you install them, you'll never code the same way again. You paste in any API doc and Claude builds you a full MCP server."
 ---
 
 # 5 Claude Code Skills That Turn It Into a Full-Stack AI Agent

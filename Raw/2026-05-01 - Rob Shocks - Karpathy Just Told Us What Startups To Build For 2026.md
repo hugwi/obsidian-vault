@@ -1,19 +1,31 @@
 ---
 title: "Karpathy Just Told Us What Startups To Build For 2026"
-source: youtube
-url: https://www.youtube.com/watch?v=rsaaVXg28-8
+source: "youtube"
+url: "https://www.youtube.com/watch?v=rsaaVXg28-8"
 author: "Rob Shocks"
-published: 2026-05-01
-created: 2026-08-24
+published: "2026-05-01"
+created: "2026-08-24"
 duration: "0:14:07"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "business"
+  - "context-engineering"
+  - "engineering"
+  - "harness-engineering"
+  - "mcp"
+  - "openai"
+  - "skills"
+  - "video-gen"
+  - "web-design"
+  - "youtube-strategy"
+summary: "He just told us, "If you're still building apps the way you were last year, he's got bad news for us." So, he just gave a brilliant talk. I've spent hours breaking it down to help you understand how it may affect what you build as a developer, founder, or software company. Thanks to monday.com for sponsoring this video."
 ---
 
 # Karpathy Just Told Us What Startups To Build For 2026

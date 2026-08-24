@@ -1,19 +1,22 @@
 ---
 title: "Claude Wrote 50 Features. None of Them Worked Together"
-source: youtube
-url: https://www.youtube.com/watch?v=c-fqGHGh5_o
+source: "youtube"
+url: "https://www.youtube.com/watch?v=c-fqGHGh5_o"
 author: "Better Stack"
-published: 2026-05-18
-created: 2026-08-24
+published: "2026-05-18"
+created: "2026-08-24"
 duration: "0:01:29"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "hardware"
+  - "nvidia"
+summary: "Everyone is shipping at 10x speed because of five coding, but one developer found hand coding much better [clears throat] because of three big mistakes AI kept making over and over again. Shiv Bosal built K10s, a GPU aware Kubernetes dashboard like K9s, but for people running Nvidia clusters. He five coded the whole thing with Claude over seven months and each feature landed clean in a single session, but it all collapsed the moment he tried to use everything together."
 ---
 
 # Claude Wrote 50 Features. None of Them Worked Together

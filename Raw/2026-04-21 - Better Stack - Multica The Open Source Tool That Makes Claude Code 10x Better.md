@@ -1,19 +1,28 @@
 ---
 title: "Multica: The Open Source Tool That Makes Claude Code 10x Better"
-source: youtube
-url: https://www.youtube.com/watch?v=WdGSXQPwwmo
+source: "youtube"
+url: "https://www.youtube.com/watch?v=WdGSXQPwwmo"
 author: "Better Stack"
-published: 2026-04-21
-created: 2026-08-24
+published: "2026-04-21"
+created: "2026-08-24"
 duration: "0:09:57"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "engineering"
+  - "harness-engineering"
+  - "local-llm"
+  - "skills"
+  - "video-gen"
+  - "youtube-strategy"
+summary: "Okay, Multimodal claims to be the tool that can turn your agents into real teammates. They can alert you if they need your help, schedule recurring tasks, and you can talk directly to your agent. But, is this open-source version of Claude routines and managed [music] agents actually worth your time?"
 ---
 
 # Multica: The Open Source Tool That Makes Claude Code 10x Better

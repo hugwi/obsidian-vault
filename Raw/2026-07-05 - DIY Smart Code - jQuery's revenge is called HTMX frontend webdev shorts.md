@@ -1,19 +1,23 @@
 ---
 title: "jQuery's revenge is called HTMX #frontend #webdev #shorts"
-source: youtube
-url: https://www.youtube.com/watch?v=A9nSfCFgQ3U
+source: "youtube"
+url: "https://www.youtube.com/watch?v=A9nSfCFgQ3U"
 author: "DIY Smart Code"
-published: 2026-07-05
-created: 2026-08-24
+published: "2026-07-05"
+created: "2026-08-24"
 duration: "0:01:08"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+  - "video-gen"
+summary: "React isn't the only way to build a modern web app anymore. This is HTMX, and one company rewrote their React app with it and deleted 67% of their code. React plus React DOM ship before your app does anything."
 ---
 
 # jQuery's revenge is called HTMX #frontend #webdev #shorts

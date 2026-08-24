@@ -1,19 +1,25 @@
 ---
 title: "The Rise of Generative UI for Developers (CopilotKit)"
-source: youtube
-url: https://www.youtube.com/watch?v=kVL_7csy_ZM
+source: "youtube"
+url: "https://www.youtube.com/watch?v=kVL_7csy_ZM"
 author: "Better Stack"
-published: 2026-06-12
-created: 2026-08-24
+published: "2026-06-12"
+created: "2026-08-24"
 duration: "0:07:33"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "business"
+  - "context-engineering"
+  - "local-llm"
+  - "video-gen"
+summary: "Most AI features and apps have the same problem. They look good, but really they're just a chat box slapped to the side of the screen. You ask for something, it gives you markdown, maybe a table, maybe even a few paragraphs explaining the work you still have to do."
 ---
 
 # The Rise of Generative UI for Developers (CopilotKit)

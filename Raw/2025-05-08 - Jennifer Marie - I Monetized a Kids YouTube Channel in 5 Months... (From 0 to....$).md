@@ -1,19 +1,26 @@
 ---
 title: "I Monetized a Kids YouTube Channel in 5 Months... (From 0 to....$?)"
-source: youtube
-url: https://www.youtube.com/watch?v=sZXHSXuJciw
+source: "youtube"
+url: "https://www.youtube.com/watch?v=sZXHSXuJciw"
 author: "Jennifer Marie"
-published: 2025-05-08
-created: 2026-08-24
+published: "2025-05-08"
+created: "2026-08-24"
 duration: "0:12:38"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "business"
+  - "engineering"
+  - "video-gen"
+  - "voice-ai"
+  - "youtube-strategy"
+summary: "Welcome back to my channel, Jennifer Marie, where I teach you different 
+ways to make money online and how to become a work from home freelancer. Excuse the noise in the background. It just started thundering and pouring rain as soon as I pressed record."
 ---
 
 # I Monetized a Kids YouTube Channel in 5 Months... (From 0 to....$?)

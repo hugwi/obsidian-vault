@@ -1,19 +1,21 @@
 ---
 title: "unclecode/crawl4ai"
-source: youtube
-url: https://www.youtube.com/watch?v=BE3fo7I5Bo0
+source: "youtube"
+url: "https://www.youtube.com/watch?v=BE3fo7I5Bo0"
 author: "The AI Roundups"
-published: 2026-07-10
-created: 2026-08-24
+published: "2026-07-10"
+created: "2026-08-24"
 duration: "0:00:19"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "engineering"
+summary: "It grabs web data, turns it into markdown, extract product prices easily, run deep crawls, too. Subscribe to our channel and comment your thoughts."
 ---
 
 # unclecode/crawl4ai

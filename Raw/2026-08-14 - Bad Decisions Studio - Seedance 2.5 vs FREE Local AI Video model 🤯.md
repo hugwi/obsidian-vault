@@ -1,19 +1,35 @@
 ---
 title: "Seedance 2.5 vs FREE Local AI Video model 🤯"
-source: youtube
-url: https://www.youtube.com/watch?v=9oTUnPoyLhI
+source: "youtube"
+url: "https://www.youtube.com/watch?v=9oTUnPoyLhI"
 author: "Bad Decisions Studio "
-published: 2026-08-14
-created: 2026-08-24
+published: "2026-08-14"
+created: "2026-08-24"
 duration: "1:12:21"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "apple"
+  - "context-engineering"
+  - "evaluation"
+  - "google"
+  - "hardware"
+  - "local-llm"
+  - "mcp"
+  - "nvidia"
+  - "openai"
+  - "skills"
+  - "video-gen"
+  - "web-design"
+  - "youtube-strategy"
+summary: "Welcome back to the bad decisions but bad [laughter] decisions show. I can Welcome back to the bad decisions show. >> It's Friday and we are back with another episode."
 ---
 
 # Seedance 2.5 vs FREE Local AI Video model 🤯

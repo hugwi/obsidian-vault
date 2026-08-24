@@ -1,19 +1,28 @@
 ---
 title: "Are we really doing this again"
-source: youtube
-url: https://www.youtube.com/watch?v=vM6DNlsdpsg
+source: "youtube"
+url: "https://www.youtube.com/watch?v=vM6DNlsdpsg"
 author: "NeetCode"
-published: 2026-06-23
-created: 2026-08-24
+published: "2026-06-23"
+created: "2026-08-24"
 duration: "0:21:59"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "engineering"
+  - "google"
+  - "openai"
+  - "skills"
+  - "youtube-strategy"
+summary: "I guess I'm losing it again, guys, because I really just don't get it. I'm trying my absolute best to keep up with what's going on, and I just don't get it. You might remember that not too long ago, the creator of Claude code, Boris, said that coding is largely solved."
 ---
 
 # Are we really doing this again

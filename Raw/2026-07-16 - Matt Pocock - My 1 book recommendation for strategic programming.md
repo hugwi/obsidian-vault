@@ -1,19 +1,21 @@
 ---
 title: "My #1 book recommendation for strategic programming"
-source: youtube
-url: https://www.youtube.com/watch?v=t34UuBxB2YQ
+source: "youtube"
+url: "https://www.youtube.com/watch?v=t34UuBxB2YQ"
 author: "Matt Pocock"
-published: 2026-07-16
-created: 2026-08-24
+published: "2026-07-16"
+created: "2026-08-24"
 duration: "0:01:05"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "skills"
+summary: "AI has eaten day-to-day coding and the kind of tactical programming. How do you learn the long-term view? How do you learn to see ahead in a codebase to prepare AI for working in your codebase effectively?" And the thing I recommend is to go back to these old books."
 ---
 
 # My #1 book recommendation for strategic programming

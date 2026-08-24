@@ -1,19 +1,22 @@
 ---
 title: "Claude + Obsidian + Graphify = New Meta"
-source: youtube
-url: https://www.youtube.com/watch?v=nnUmwYksgFA
+source: "youtube"
+url: "https://www.youtube.com/watch?v=nnUmwYksgFA"
 author: "Charlie Automates"
-published: 2026-04-08
-created: 2026-08-24
+published: "2026-04-08"
+created: "2026-08-24"
 duration: "0:01:00"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "video-gen"
+summary: "If you're using Claude code, and you think it actually knows your business, it's just pretending to. Every time you start a new session with Claude, it re-reads your files from [music] scratch. We're looking at hundreds of tokens that are wasted for Claude to just remember what it already knew."
 ---
 
 # Claude + Obsidian + Graphify = New Meta

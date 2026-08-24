@@ -1,19 +1,23 @@
 ---
 title: "Convert Dribbble Designs Into Elementor WordPress in Minutes (Claude AI + ClonewebX Workflow)"
-source: youtube
-url: https://www.youtube.com/watch?v=PL4yByFn9iE
+source: "youtube"
+url: "https://www.youtube.com/watch?v=PL4yByFn9iE"
 author: "Softlite"
-published: 2026-06-12
-created: 2026-08-24
+published: "2026-06-12"
+created: "2026-08-24"
 duration: "0:04:54"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "business"
+  - "video-gen"
+  - "web-design"
+summary: "What if you could take any design from Dribbble, turn it into a professional AI generated website with Claude Design, and then instantly convert the entire thing [music] into fully editable Elementor widgets? Today, I'll show you one of the most powerful AI web design workflows available right now. First, [music] head over to Dribbble."
 ---
 
 # Convert Dribbble Designs Into Elementor WordPress in Minutes (Claude AI + ClonewebX Workflow)

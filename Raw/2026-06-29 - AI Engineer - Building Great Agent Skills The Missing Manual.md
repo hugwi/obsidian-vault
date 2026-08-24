@@ -1,19 +1,26 @@
 ---
 title: "Building Great Agent Skills: The Missing Manual"
-source: youtube
-url: https://www.youtube.com/watch?v=UNzCG3lw6O0
+source: "youtube"
+url: "https://www.youtube.com/watch?v=UNzCG3lw6O0"
 author: "AI Engineer"
-published: 2026-06-29
-created: 2026-08-24
+published: "2026-06-29"
+created: "2026-08-24"
 duration: "0:20:43"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+  - "evaluation"
+  - "harness-engineering"
+  - "local-llm"
+  - "skills"
+summary: "Hello friends, I was dearly hoping to be able to come to the Air Engineer World's Fair, but family matters have intruded and I'm not able to make it. However, I will not be leaving you empty-handed. I'm going to give you the talk that I would have given in San Francisco."
 ---
 
 # Building Great Agent Skills: The Missing Manual

@@ -1,19 +1,24 @@
 ---
 title: "I Tried Faceless YouTube Automation for 30 Days Realistic Results"
-source: youtube
-url: https://www.youtube.com/watch?v=2n2P-rpql34
+source: "youtube"
+url: "https://www.youtube.com/watch?v=2n2P-rpql34"
 author: "Stickman Matt"
-published: 2026-02-14
-created: 2026-08-24
+published: "2026-02-14"
+created: "2026-08-24"
 duration: "0:10:25"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "business"
+  - "video-gen"
+  - "voice-ai"
+  - "youtube-strategy"
+summary: "All right, so main channel Matt dared me to run a completely automated, faceless YouTube channel for 30 days and document everything, the revenue, the views, the time invested, all of it. And I said, Matt, people are going to call this fake. And he said, "Then show them the receipts." So that's exactly what I'm doing."
 ---
 
 # I Tried Faceless YouTube Automation for 30 Days Realistic Results

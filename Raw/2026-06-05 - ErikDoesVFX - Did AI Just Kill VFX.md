@@ -1,19 +1,24 @@
 ---
 title: "Did AI Just Kill VFX?"
-source: youtube
-url: https://www.youtube.com/watch?v=eIq1uw8q3dE
+source: "youtube"
+url: "https://www.youtube.com/watch?v=eIq1uw8q3dE"
 author: "ErikDoesVFX"
-published: 2026-06-05
-created: 2026-08-24
+published: "2026-06-05"
+created: "2026-08-24"
 duration: "0:17:06"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "engineering"
+  - "skills"
+  - "video-gen"
+summary: "Kong Skull Island has a hilarious scene where a heroic sacrifice goes wrong and turns into one of the best looking CGI explosions I've ever seen. But, in the age of AI, do we even need VFX anymore? Well, I'm going to find out by making a version with AI as well and compare the results."
 ---
 
 # Did AI Just Kill VFX?

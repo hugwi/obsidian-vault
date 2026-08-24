@@ -1,19 +1,25 @@
 ---
 title: "Everything You Need To Know About Graphify For Claude Code"
-source: youtube
-url: https://www.youtube.com/watch?v=A6lwT0Vd0fE
+source: "youtube"
+url: "https://www.youtube.com/watch?v=A6lwT0Vd0fE"
 author: "Charlie Automates"
-published: 2026-04-08
-created: 2026-08-24
+published: "2026-04-08"
+created: "2026-08-24"
 duration: "0:02:06"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+  - "openai"
+  - "video-gen"
+  - "web-design"
+summary: "Here's everything you need to know about the new Graphify plugin for Claude Code. Graphify will create a knowledge graph for you from all of your PDFs, markdown, screenshots, every single asset you have available. And this is the knowledge graph it set up for me about an hour ago."
 ---
 
 # Everything You Need To Know About Graphify For Claude Code

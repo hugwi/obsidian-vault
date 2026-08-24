@@ -1,19 +1,32 @@
 ---
 title: "$10,000 Mac Studio vs. $10 AI Agent"
-source: youtube
-url: https://www.youtube.com/watch?v=hxDe1j_IcSQ
+source: "youtube"
+url: "https://www.youtube.com/watch?v=hxDe1j_IcSQ"
 author: "Alex Ziskind"
-published: 2026-01-24
-created: 2026-08-24
+published: "2026-01-24"
+created: "2026-08-24"
 duration: "0:16:40"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "apple"
+  - "context-engineering"
+  - "engineering"
+  - "hardware"
+  - "local-llm"
+  - "mcp"
+  - "openai"
+  - "video-gen"
+  - "web-design"
+  - "youtube-strategy"
+summary: "I have this 512 GB Mac Studio to be the ultimate local LLM coding monster, but can it beat the state-of-the-art cloud-based Abacus AI deep agent? We're going to find out who actually nails coding a web app. It's local hardware versus cloud deathmatch."
 ---
 
 # $10,000 Mac Studio vs. $10 AI Agent

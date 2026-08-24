@@ -1,19 +1,24 @@
 ---
 title: "This NEW AI AGENT is INSANE! 🤯"
-source: youtube
-url: https://www.youtube.com/watch?v=IErHhAEWqRg
+source: "youtube"
+url: "https://www.youtube.com/watch?v=IErHhAEWqRg"
 author: "Julian Goldie SEO"
-published: 2026-06-30
-created: 2026-08-24
+published: "2026-06-30"
+created: "2026-08-24"
 duration: "0:00:48"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "video-gen"
+summary: "A free open-source AI just beat Claude Opus 4.7. Ornith 1.0 just dropped from Deep Reinforce. Free open-source, MIT licensed, on SWE-Bench verified."
 ---
 
 # This NEW AI AGENT is INSANE! 🤯

@@ -1,19 +1,32 @@
 ---
 title: "Claude Certified Architect Exam – Full 1-Hour Audio Study Guide (Pass First Try)"
-source: youtube
-url: https://www.youtube.com/watch?v=BTqqFA3jZoY
+source: "youtube"
+url: "https://www.youtube.com/watch?v=BTqqFA3jZoY"
 author: "Program Strategy HQ | AI Native Engineering"
-published: 2026-03-26
-created: 2026-08-24
+published: "2026-03-26"
+created: "2026-08-24"
 duration: "1:00:11"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "local-llm"
+  - "mcp"
+  - "security"
+  - "skills"
+  - "voice-ai"
+  - "web-design"
+  - "youtube-strategy"
+summary: "Imagine handing an AI the keys to your entire production database and just uh telling it fix the bugs. You grab a coffee, you come back 10 minutes later and the AI hasn't just fixed the bugs, it's um it's written a thousand lines of test code. It actually debated the merits of microservice architecture with a sub agent, it spawned itself, and it submitted a flawless pull request."
 ---
 
 # Claude Certified Architect Exam – Full 1-Hour Audio Study Guide (Pass First Try)

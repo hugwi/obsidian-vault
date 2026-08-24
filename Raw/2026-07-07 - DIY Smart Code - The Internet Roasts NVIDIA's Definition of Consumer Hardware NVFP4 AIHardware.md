@@ -1,19 +1,24 @@
 ---
 title: "The Internet Roasts NVIDIA's Definition of Consumer Hardware #NVFP4 #AIHardware"
-source: youtube
-url: https://www.youtube.com/watch?v=rvd7Jfd34oE
+source: "youtube"
+url: "https://www.youtube.com/watch?v=rvd7Jfd34oE"
 author: "DIY Smart Code"
-published: 2026-07-07
-created: 2026-08-24
+published: "2026-07-07"
+created: "2026-08-24"
 duration: "0:01:19"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "evaluation"
+  - "hardware"
+  - "nvidia"
+summary: "An account called Hugging Models just said you can run a massive GLM-5 model on consumer hardware. Nvidia's own card tells a very different story. NVFP4 is Nvidia's own quantization trick."
 ---
 
 # The Internet Roasts NVIDIA's Definition of Consumer Hardware #NVFP4 #AIHardware

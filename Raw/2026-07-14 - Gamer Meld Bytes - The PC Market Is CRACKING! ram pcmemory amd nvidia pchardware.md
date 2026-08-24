@@ -1,19 +1,23 @@
 ---
 title: "The PC Market Is CRACKING! #ram #pcmemory #amd #nvidia #pchardware"
-source: youtube
-url: https://www.youtube.com/watch?v=EE1joWyFqoI
+source: "youtube"
+url: "https://www.youtube.com/watch?v=EE1joWyFqoI"
 author: "Gamer Meld Bytes"
-published: 2026-07-14
-created: 2026-08-24
+published: "2026-07-14"
+created: "2026-08-24"
 duration: "0:01:58"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "context-engineering"
+  - "hardware"
+  - "nvidia"
+summary: "The entire PC market is beginning to crack, and believe it or not, it's actually something that I predicted just last month. If you remember not too long ago during AMD's Q1 earnings call, the company announced a prediction for the second half of this year. Specifically due to quote higher memory and component costs, they expect gaming revenue to decline by more than 20% compared to the first half."
 ---
 
 # The PC Market Is CRACKING! #ram #pcmemory #amd #nvidia #pchardware

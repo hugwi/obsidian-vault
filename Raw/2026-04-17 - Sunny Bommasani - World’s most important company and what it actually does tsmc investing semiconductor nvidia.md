@@ -1,19 +1,26 @@
 ---
 title: "World’s most important company and what it actually does #tsmc #investing #semiconductor #nvidia"
-source: youtube
-url: https://www.youtube.com/watch?v=nn8suerhX8U
+source: "youtube"
+url: "https://www.youtube.com/watch?v=nn8suerhX8U"
 author: "Sunny Bommasani"
-published: 2026-04-17
-created: 2026-08-24
+published: "2026-04-17"
+created: "2026-08-24"
 duration: "0:02:41"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "apple"
+  - "context-engineering"
+  - "engineering"
+  - "hardware"
+  - "nvidia"
+  - "video-gen"
+summary: "What's the most important company in the world? Both these companies would lose trillions of valuation without this name. That's Taiwan Semiconductor Manufacturing Company, TSMC."
 ---
 
 # World’s most important company and what it actually does #tsmc #investing #semiconductor #nvidia

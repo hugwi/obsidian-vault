@@ -1,21 +1,22 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents]
+domain: "[agentic-engineering, ai-agents]"
 tags:
-  - code-quality
-  - context-management
-  - harness
-  - orchestration
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: context-engineering
+  - "code-quality"
+  - "context-management"
+  - "harness"
+  - "orchestration"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "context-engineering"
 subtheme:
-  - system-prompt-rules
-  - cost-tokens
-  - compaction-caching
+  - "system-prompt-rules"
+  - "cost-tokens"
+  - "compaction-caching"
 ---
 
 # What AI augmentation means for technical leaders – Birgitta Boeckeler

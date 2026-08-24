@@ -1,19 +1,29 @@
 ---
 title: "Every company should have a Brain — Garry Tan, Y Combinator"
-source: youtube
-url: https://www.youtube.com/watch?v=eBUyTS7SzV4
+source: "youtube"
+url: "https://www.youtube.com/watch?v=eBUyTS7SzV4"
 author: "AI Engineer"
-published: 2026-07-17
-created: 2026-08-24
+published: "2026-07-17"
+created: "2026-08-24"
 duration: "0:21:08"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "business"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "harness-engineering"
+  - "local-llm"
+  - "security"
+  - "skills"
+summary: "Are we ready for the revolution? Okay, Theo just asked the right question. I'm going to answer it from the other side of the table."
 ---
 
 # Every company should have a Brain — Garry Tan, Y Combinator

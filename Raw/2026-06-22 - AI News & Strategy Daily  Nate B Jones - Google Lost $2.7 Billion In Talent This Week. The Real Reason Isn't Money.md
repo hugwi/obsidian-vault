@@ -1,19 +1,29 @@
 ---
 title: "Google Lost $2.7 Billion In Talent This Week. The Real Reason Isn't Money."
-source: youtube
-url: https://www.youtube.com/watch?v=h1MxhfZSTjo
+source: "youtube"
+url: "https://www.youtube.com/watch?v=h1MxhfZSTjo"
 author: "AI News & Strategy Daily | Nate B Jones"
-published: 2026-06-22
-created: 2026-08-24
+published: "2026-06-22"
+created: "2026-08-24"
 duration: "0:08:22"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "anthropic"
+  - "apple"
+  - "context-engineering"
+  - "evaluation"
+  - "google"
+  - "hardware"
+  - "harness-engineering"
+  - "openai"
+  - "video-gen"
+summary: "What if I told you that Anthropic is the one that's actually ahead and that Anthropic has had the better month than OpenAI? I know that sounds insane because they've had their model banned. But, I'm going to explain why and I'm also going to explain why maybe maybe maybe none of it matters as much as we think and we should be looking outside the two major model makers for the energy in the AI space."
 ---
 
 # Google Lost $2.7 Billion In Talent This Week. The Real Reason Isn't Money.

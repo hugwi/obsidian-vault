@@ -3,10 +3,11 @@ title: "Luke Smith's Webpage"
 source: "https://lukesmith.xyz/"
 author:
 published:
-created: 2026-07-14
+created: "2026-07-14"
 description: "Luke Smith's webpage with links to his videos and software projects and many written articles and personal pages."
 tags:
   - "clippings"
+  - "clip/video"
 ---
 ![/pix/amanet.jpg](https://lukesmith.xyz/pix/amanet.jpg)
 

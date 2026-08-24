@@ -1,19 +1,30 @@
 ---
 title: "Claude HTML Slides = The NEW Powerpoint Killer (Full Tutorial)"
-source: youtube
-url: https://www.youtube.com/watch?v=t2ELuj2prA0
+source: "youtube"
+url: "https://www.youtube.com/watch?v=t2ELuj2prA0"
 author: "Jay E | RoboNuggets"
-published: 2026-04-24
-created: 2026-08-24
+published: "2026-04-24"
+created: "2026-08-24"
 duration: "0:12:16"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "apple"
+  - "context-engineering"
+  - "local-llm"
+  - "mcp"
+  - "skills"
+  - "video-gen"
+  - "web-design"
+  - "youtube-strategy"
+summary: "Creating HTML slides is now one of my favorite ways to use Claude. I can automatically generate slides like these that have beautiful animations, visual components that make sense for your brand, or even dynamic charts that reflect actual data. >> [music] >> So, to give you a preview of these HTML presentations, so you can see for this one we use this exact same system to create these learning materials for our in-person training events."
 ---
 
 # Claude HTML Slides = The NEW Powerpoint Killer (Full Tutorial)

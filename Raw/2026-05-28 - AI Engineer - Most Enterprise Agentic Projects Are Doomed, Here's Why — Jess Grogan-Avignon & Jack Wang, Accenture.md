@@ -1,19 +1,27 @@
 ---
 title: "Most Enterprise Agentic Projects Are Doomed, Here's Why — Jess Grogan-Avignon & Jack Wang, Accenture"
-source: youtube
-url: https://www.youtube.com/watch?v=AGkzpxMdPn8
+source: "youtube"
+url: "https://www.youtube.com/watch?v=AGkzpxMdPn8"
 author: "AI Engineer"
-published: 2026-05-28
-created: 2026-08-24
+published: "2026-05-28"
+created: "2026-08-24"
 duration: "0:20:34"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "google"
+  - "skills"
+summary: "And we're very excited to be here today. And when you operate at that scale, actions have consequences. And so, over time these organizations have built structures for this reality."
 ---
 
 # Most Enterprise Agentic Projects Are Doomed, Here's Why — Jess Grogan-Avignon & Jack Wang, Accenture

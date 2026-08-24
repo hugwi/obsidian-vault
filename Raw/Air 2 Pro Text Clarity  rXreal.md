@@ -3,11 +3,12 @@ title: "Air 2 Pro Text Clarity : r/Xreal"
 source: "https://www.reddit.com/r/Xreal/comments/1d3520s/air_2_pro_text_clarity/"
 author:
   - "[[reddit.com]]"
-published: 2024-05-29
-created: 2026-08-07
+published: "2024-05-29"
+created: "2026-08-07"
 description: "exactly the problem i have with i need to push glasses to sit well enough and see the full picture"
 tags:
   - "clippings"
+  - "clip/video"
 ---
 Yesterday I got the Air 2 Pro. Connected and boom, huge picture, impressive.
 

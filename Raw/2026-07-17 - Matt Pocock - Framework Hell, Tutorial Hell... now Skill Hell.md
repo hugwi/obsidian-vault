@@ -1,19 +1,23 @@
 ---
 title: "Framework Hell, Tutorial Hell... now Skill Hell"
-source: youtube
-url: https://www.youtube.com/watch?v=32LyZyFQhCQ
+source: "youtube"
+url: "https://www.youtube.com/watch?v=32LyZyFQhCQ"
 author: "Matt Pocock"
-published: 2026-07-17
-created: 2026-08-24
+published: "2026-07-17"
+created: "2026-08-24"
 duration: "0:01:30"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+  - "skills"
+summary: "Yeah, devs seem to be pretty good at finding different types of hell. We had framework hell, that was one. Skill hell is where you try all these different frameworks like GSD and Spec kits and all this B mad and stuff and you just try to cludge them all together into something that works and it doesn't."
 ---
 
 # Framework Hell, Tutorial Hell... now Skill Hell

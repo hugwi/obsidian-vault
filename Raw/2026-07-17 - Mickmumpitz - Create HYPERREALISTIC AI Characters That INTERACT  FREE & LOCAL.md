@@ -1,19 +1,25 @@
 ---
 title: "Create HYPERREALISTIC AI Characters That INTERACT | FREE & LOCAL"
-source: youtube
-url: https://www.youtube.com/watch?v=ghFYDG0DF1w
+source: "youtube"
+url: "https://www.youtube.com/watch?v=ghFYDG0DF1w"
 author: "Mickmumpitz"
-published: 2026-07-17
-created: 2026-08-24
+published: "2026-07-17"
+created: "2026-08-24"
 duration: "0:34:28"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "hardware"
+  - "local-llm"
+  - "video-gen"
+  - "web-design"
+  - "youtube-strategy"
+summary: "You can now create a whole cast of AI characters and make them act and interact in the same scene. Thanks to a brand new generation of open models that are far more photorealistic than ever, rivaling and in my opinion even surpassing close source tools like ChatGPT and even Nano Banana Pro. They work in any style and are super controllable."
 ---
 
 # Create HYPERREALISTIC AI Characters That INTERACT | FREE & LOCAL

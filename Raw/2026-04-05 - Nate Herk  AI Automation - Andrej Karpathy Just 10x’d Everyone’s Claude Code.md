@@ -1,19 +1,30 @@
 ---
 title: "Andrej Karpathy Just 10x’d Everyone’s Claude Code"
-source: youtube
-url: https://www.youtube.com/watch?v=sboNwYmH3AY
+source: "youtube"
+url: "https://www.youtube.com/watch?v=sboNwYmH3AY"
 author: "Nate Herk | AI Automation"
-published: 2026-04-05
-created: 2026-08-24
+published: "2026-04-05"
+created: "2026-08-24"
 duration: "0:17:46"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+  - "mcp"
+  - "openai"
+  - "security"
+  - "skills"
+  - "video-gen"
+  - "voice-ai"
+  - "web-design"
+  - "youtube-strategy"
+summary: "What you're looking at right here is 36 of my most recent YouTube videos organized into an actual knowledge system that makes sense. And in today's video, I'm going to show you how you can set this up in 5 minutes. You can see here how we have these different nodes and different patterns emerging."
 ---
 
 # Andrej Karpathy Just 10x’d Everyone’s Claude Code

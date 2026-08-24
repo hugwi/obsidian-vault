@@ -1,19 +1,27 @@
 ---
 title: "How I Find Faceless YouTube Niches That Make $10-50k/mo"
-source: youtube
-url: https://www.youtube.com/watch?v=iDyJgUEQq4c
+source: "youtube"
+url: "https://www.youtube.com/watch?v=iDyJgUEQq4c"
 author: "Tim Danilov Biz"
-published: 2026-06-21
-created: 2026-08-24
+published: "2026-06-21"
+created: "2026-08-24"
 duration: "0:30:33"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "business"
+  - "mcp"
+  - "video-gen"
+  - "voice-ai"
+  - "web-design"
+  - "youtube-strategy"
+summary: "In October 2025, my flagship YouTube channel made me $56,000. I scaled it to over a million followers in less than 8 months. Then, to prove it wasn't luck, we started another channel with a client of mine and scaled it to a million subscribers and $58,000 a month in about [music] 7 months."
 ---
 
 # How I Find Faceless YouTube Niches That Make $10-50k/mo

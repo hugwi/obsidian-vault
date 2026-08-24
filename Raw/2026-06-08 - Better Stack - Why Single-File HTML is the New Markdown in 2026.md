@@ -1,19 +1,24 @@
 ---
 title: "Why Single-File HTML is the New Markdown in 2026"
-source: youtube
-url: https://www.youtube.com/watch?v=6ToqW2iGNsA
+source: "youtube"
+url: "https://www.youtube.com/watch?v=6ToqW2iGNsA"
 author: "Better Stack"
-published: 2026-06-08
-created: 2026-08-24
+published: "2026-06-08"
+created: "2026-08-24"
 duration: "0:01:54"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "skills"
+  - "video-gen"
+  - "web-design"
+summary: "For the last 10 years, we've been treating markdown as the gold standard for content delivery. But the team behind the super popular open design project, which Richard recently did a full deep dive on, just developed a new tool called HTML anything that makes the case that markdown is dead and the actual gold standard of the agent era should be a single file HTML. And I kind of agree because the problem with markdown is that it's visually flat and terrible for multiple publishing platforms."
 ---
 
 # Why Single-File HTML is the New Markdown in 2026

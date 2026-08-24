@@ -1,19 +1,29 @@
 ---
 title: "Yann LeCun's $1B Bet Against LLMs [Part 1]"
-source: youtube
-url: https://www.youtube.com/watch?v=kYkIdXwW2AE
+source: "youtube"
+url: "https://www.youtube.com/watch?v=kYkIdXwW2AE"
 author: "Welch Labs"
-published: 2026-05-02
-created: 2026-08-24
+published: "2026-05-02"
+created: "2026-08-24"
 duration: "0:37:24"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "evaluation"
+  - "google"
+  - "hardware"
+  - "nvidia"
+  - "openai"
+  - "skills"
+  - "video-gen"
+  - "youtube-strategy"
+summary: "Okay, then let me make a controversial statement that again is going to get me a lot of friends in Silicon Valley. Um >> AI legend Yann LeCun has raised a billion dollars to pursue an alternative approach to AI. Unlike large language models, LeCun's approach is not rooted in language and is not generative."
 ---
 
 # Yann LeCun's $1B Bet Against LLMs [Part 1]

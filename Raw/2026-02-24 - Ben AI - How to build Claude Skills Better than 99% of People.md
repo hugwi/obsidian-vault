@@ -1,19 +1,31 @@
 ---
 title: "How to build Claude Skills Better than 99% of People"
-source: youtube
-url: https://www.youtube.com/watch?v=X3uum6W2xEI
+source: "youtube"
+url: "https://www.youtube.com/watch?v=X3uum6W2xEI"
 author: "Ben AI"
-published: 2026-02-24
-created: 2026-08-24
+published: "2026-02-24"
+created: "2026-08-24"
 duration: "0:18:36"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "business"
+  - "context-engineering"
+  - "engineering"
+  - "google"
+  - "mcp"
+  - "openai"
+  - "skills"
+  - "video-gen"
+  - "voice-ai"
+  - "youtube-strategy"
+summary: "With AI agents on cloud code, co-work and codeex becoming more powerful by the day. Building good skills will be one of the most important things to get good at in 2026. Building agent skills allows anyone to automate any workflow by simply prompting it and can even become self-improving."
 ---
 
 # How to build Claude Skills Better than 99% of People

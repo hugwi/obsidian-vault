@@ -1,19 +1,20 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - context-management
-  - harness
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: context-engineering
+  - "context-management"
+  - "harness"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "context-engineering"
 subtheme:
-  - context-window
-  - retrieval-rag
-  - compaction-caching
+  - "context-window"
+  - "retrieval-rag"
+  - "compaction-caching"
 ---
 
 # Stop babysitting your agents... — Brandon Walsenuk, Unblocked

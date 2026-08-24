@@ -1,17 +1,18 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents]
+domain: "[agentic-engineering, ai-agents]"
 tags:
-  - efficiency
-  - voice
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: agents-models
+  - "efficiency"
+  - "voice"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "agents-models"
 subtheme:
-  - multi-provider-sdk
+  - "multi-provider-sdk"
 ---
 
 # Open source voice ai that scales linearly in production at 1/10th of Vapi's cost

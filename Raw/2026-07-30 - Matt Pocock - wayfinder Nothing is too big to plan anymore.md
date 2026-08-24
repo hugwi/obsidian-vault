@@ -1,19 +1,25 @@
 ---
 title: "/wayfinder: Nothing is too big to plan anymore"
-source: youtube
-url: https://www.youtube.com/watch?v=F3lL98Pj90o
+source: "youtube"
+url: "https://www.youtube.com/watch?v=F3lL98Pj90o"
 author: "Matt Pocock"
-published: 2026-07-30
-created: 2026-08-24
+published: "2026-07-30"
+created: "2026-08-24"
 duration: "0:15:09"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+  - "harness-engineering"
+  - "skills"
+  - "video-gen"
+summary: "I think I figured out a way to plan any size of work with an agent. The existing planning tools that I was using and playing around with, even ones that I've created, felt too constrained, too tied to a single session. I felt like I wasn't able to be ambitious enough, and because of that, I was kind of constraining the stuff I was building to fit AI, which doesn't feel right."
 ---
 
 # /wayfinder: Nothing is too big to plan anymore

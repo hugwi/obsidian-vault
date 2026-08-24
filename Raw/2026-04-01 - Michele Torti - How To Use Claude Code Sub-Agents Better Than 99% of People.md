@@ -1,19 +1,29 @@
 ---
 title: "How To Use Claude Code Sub-Agents Better Than 99% of People"
-source: youtube
-url: https://www.youtube.com/watch?v=6mG6tS6WG00
+source: "youtube"
+url: "https://www.youtube.com/watch?v=6mG6tS6WG00"
 author: "Michele Torti"
-published: 2026-04-01
-created: 2026-08-24
+published: "2026-04-01"
+created: "2026-08-24"
 duration: "0:18:45"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "engineering"
+  - "security"
+  - "skills"
+  - "video-gen"
+  - "voice-ai"
+  - "youtube-strategy"
+summary: "What if instead of asking Claude to do everything in one conversation, you had a team of agents that write your client emails, one that researches your content, one that preps you for every Zoom call, all running in the background while you're focusing on something else? And what if the team gets smarter every single time that you use it? Your clients, your preferences, your projects, so you don't have to repeat things twice."
 ---
 
 # How To Use Claude Code Sub-Agents Better Than 99% of People

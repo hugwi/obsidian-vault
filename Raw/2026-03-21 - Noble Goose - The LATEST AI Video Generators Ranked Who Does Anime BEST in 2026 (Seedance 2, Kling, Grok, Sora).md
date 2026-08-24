@@ -1,19 +1,24 @@
 ---
 title: "The LATEST AI Video Generators Ranked: Who Does Anime BEST in 2026? (Seedance 2, Kling, Grok, Sora)"
-source: youtube
-url: https://www.youtube.com/watch?v=BGN0ZAKqR1w
+source: "youtube"
+url: "https://www.youtube.com/watch?v=BGN0ZAKqR1w"
 author: "Noble Goose"
-published: 2026-03-21
-created: 2026-08-24
+published: "2026-03-21"
+created: "2026-08-24"
 duration: "0:14:52"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "google"
+  - "openai"
+  - "video-gen"
+  - "youtube-strategy"
+summary: "Today, we are going to be ranking seven of the most advanced AI video generation platforms on the planet to answer the burning question, which one does anime the best? We're going to be testing three separate images ranging from easy to hard and ranking each platform based on prompt adherence, animation quality, and overall value. Okay, so the first image that we're going to be testing is these two schoolgirls."
 ---
 
 # The LATEST AI Video Generators Ranked: Who Does Anime BEST in 2026? (Seedance 2, Kling, Grok, Sora)

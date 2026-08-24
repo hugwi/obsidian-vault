@@ -1,19 +1,32 @@
 ---
 title: "Yann LeCun's $1B Bet Against LLMs [Part 2]"
-source: youtube
-url: https://www.youtube.com/watch?v=v_jDvpEGTIg
+source: "youtube"
+url: "https://www.youtube.com/watch?v=v_jDvpEGTIg"
 author: "Welch Labs"
-published: 2026-05-30
-created: 2026-08-24
+published: "2026-05-30"
+created: "2026-08-24"
 duration: "0:40:57"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "apple"
+  - "business"
+  - "evaluation"
+  - "google"
+  - "hardware"
+  - "openai"
+  - "security"
+  - "skills"
+  - "video-gen"
+  - "web-design"
+  - "youtube-strategy"
+summary: "This video is sponsored by KiwiCo. The startup Physical Intelligence built some of the most impressive robot brains ever demonstrated. Here's their PIO7 model peeling a zucchini, folding a pinwheel, and taking out the trash."
 ---
 
 # Yann LeCun's $1B Bet Against LLMs [Part 2]

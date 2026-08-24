@@ -1,19 +1,23 @@
 ---
 title: "Introducing /visual-plan - rich plans for Claude Code + Codex"
-source: youtube
-url: https://www.youtube.com/watch?v=NE0aBuQF0HA
+source: "youtube"
+url: "https://www.youtube.com/watch?v=NE0aBuQF0HA"
 author: "Steve (Builder.io)"
-published: 2026-06-16
-created: 2026-08-24
+published: "2026-06-16"
+created: "2026-08-24"
 duration: "0:04:26"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "engineering"
+  - "skills"
+summary: "Plan mode in Claude code is incredible, but I always find my eyes glazing over this huge markdown essay in my terminal. And I've realized after I implement things that I totally miss some important small details that were not clear to me at first because it was just too much stuff to read, honestly. I've been experimenting with this new skill I made called visual plan."
 ---
 
 # Introducing /visual-plan - rich plans for Claude Code + Codex

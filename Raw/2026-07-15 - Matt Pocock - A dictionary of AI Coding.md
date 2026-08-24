@@ -1,19 +1,25 @@
 ---
 title: "A dictionary of AI Coding"
-source: youtube
-url: https://www.youtube.com/watch?v=CE57AICfAew
+source: "youtube"
+url: "https://www.youtube.com/watch?v=CE57AICfAew"
 author: "Matt Pocock"
-published: 2026-07-15
-created: 2026-08-24
+published: "2026-07-15"
+created: "2026-08-24"
 duration: "0:00:50"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+  - "harness-engineering"
+  - "skills"
+  - "video-gen"
+summary: "There's something I hate more than anything in the world, and that is when people make something that is actually simple feel confusing for their benefit. You see this all the time in finance, in crypto especially, and now it's coming to AI coding. Or rather, it's been here from day one, right?"
 ---
 
 # A dictionary of AI Coding

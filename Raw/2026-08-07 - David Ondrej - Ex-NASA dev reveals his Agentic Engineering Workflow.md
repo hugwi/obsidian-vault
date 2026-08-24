@@ -1,19 +1,34 @@
 ---
 title: "Ex-NASA dev reveals his Agentic Engineering Workflow"
-source: youtube
-url: https://www.youtube.com/watch?v=xgkjtF89-44
+source: "youtube"
+url: "https://www.youtube.com/watch?v=xgkjtF89-44"
 author: "David Ondrej"
-published: 2026-08-07
-created: 2026-08-24
+published: "2026-08-07"
+created: "2026-08-24"
 duration: "0:58:37"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "business"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "google"
+  - "harness-engineering"
+  - "mcp"
+  - "openai"
+  - "skills"
+  - "video-gen"
+  - "web-design"
+  - "youtube-strategy"
+summary: "Stop playing with your coding agents and get back to work. They can solve problems really, really well, but they're not going to be able to write maintainable code without you in the loop helping. The thing that I think most people skip is actually what I call like program design."
 ---
 
 # Ex-NASA dev reveals his Agentic Engineering Workflow

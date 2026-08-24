@@ -1,19 +1,29 @@
 ---
 title: "Don't Ship Skills Without Evals — Philipp Schmid, Google DeepMind"
-source: youtube
-url: https://www.youtube.com/watch?v=0vphxNt4wyk
+source: "youtube"
+url: "https://www.youtube.com/watch?v=0vphxNt4wyk"
 author: "AI Engineer"
-published: 2026-07-14
-created: 2026-08-24
+published: "2026-07-14"
+created: "2026-08-24"
 duration: "0:21:45"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "business"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "google"
+  - "harness-engineering"
+  - "skills"
+  - "web-design"
+summary: "[music] >> Yes, so hi everyone. I'm part of the Google DeepMind team mostly working on Gemini API and agents. And we are going to talk about why you should not ship skills without eval."
 ---
 
 # Don't Ship Skills Without Evals — Philipp Schmid, Google DeepMind

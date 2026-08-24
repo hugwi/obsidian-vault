@@ -1,19 +1,27 @@
 ---
 title: "\"The engineer of the future is the person who is able to choose what is worth doing.\" — Addy Osmani"
-source: youtube
-url: https://www.youtube.com/watch?v=n97BCfyFIvw
+source: "youtube"
+url: "https://www.youtube.com/watch?v=n97BCfyFIvw"
 author: "AI Engineer"
-published: 2026-07-14
-created: 2026-08-24
+published: "2026-07-14"
+created: "2026-08-24"
 duration: "0:18:26"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "harness-engineering"
+  - "skills"
+  - "youtube-strategy"
+summary: "And um today I want to talk to you about really uh what it takes to keep the human in the loop where engineering is concerned. I really want to start with a human side before we talk about the architecture here. I think that the engineer of the future is going to be really defined by the person who is able to choose what is worth doing."
 ---
 
 # "The engineer of the future is the person who is able to choose what is worth doing." — Addy Osmani

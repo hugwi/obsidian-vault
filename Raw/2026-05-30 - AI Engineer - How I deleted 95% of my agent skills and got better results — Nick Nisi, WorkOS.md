@@ -1,19 +1,28 @@
 ---
 title: "How I deleted 95% of my agent skills and got better results — Nick Nisi, WorkOS"
-source: youtube
-url: https://www.youtube.com/watch?v=vy7o1g2iHY8
+source: "youtube"
+url: "https://www.youtube.com/watch?v=vy7o1g2iHY8"
 author: "AI Engineer"
-published: 2026-05-30
-created: 2026-08-24
+published: "2026-05-30"
+created: "2026-08-24"
 duration: "0:17:42"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "harness-engineering"
+  - "skills"
+  - "video-gen"
+  - "youtube-strategy"
+summary: "[music] >> All right, good morning everyone. Uh welcome to my talk building AI systems that ship. I'm Nick Nisi and I work at WorkOS."
 ---
 
 # How I deleted 95% of my agent skills and got better results — Nick Nisi, WorkOS

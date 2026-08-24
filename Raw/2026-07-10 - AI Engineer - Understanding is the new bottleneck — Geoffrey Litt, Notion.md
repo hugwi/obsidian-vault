@@ -1,19 +1,26 @@
 ---
 title: "Understanding is the new bottleneck — Geoffrey Litt, Notion"
-source: youtube
-url: https://www.youtube.com/watch?v=WkBPX-oDMnA
+source: "youtube"
+url: "https://www.youtube.com/watch?v=WkBPX-oDMnA"
 author: "AI Engineer"
-published: 2026-07-10
-created: 2026-08-24
+published: "2026-07-10"
+created: "2026-08-24"
 duration: "0:19:33"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "local-llm"
+  - "skills"
+  - "video-gen"
+  - "web-design"
+  - "youtube-strategy"
+summary: "Yeah, thank you for coming to the design engineering track at AI. Yeah, I think this is going to be a great track, so get excited. I'm a design engineer at Notion currently."
 ---
 
 # Understanding is the new bottleneck — Geoffrey Litt, Notion

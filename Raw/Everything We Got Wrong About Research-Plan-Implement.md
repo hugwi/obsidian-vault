@@ -3,13 +3,22 @@ title: "Everything We Got Wrong About Research-Plan-Implement"
 source: "https://www.youtube.com/watch?v=UNzCG3lw6O0"
 author:
   - "[[@RogerValor]]"
-published: 2026-06-29
-created: 2026-07-01
+published: "2026-06-29"
+created: "2026-07-01"
 description: "Dexter Horthy (HumanLayer) Keynote at the Coding Agents Conference at the Computer History Museum, March 3rd, 2026.Abstract // RPI was supposed to fix AI cod..."
 tags:
   - "clippings"
   - "skills"
   - "agentic-engineering"
+  - "agents"
+  - "clip/video"
+  - "context-engineering"
+  - "evaluation"
+  - "harness-engineering"
+  - "local-llm"
+summary: "### Introduction to the talk and the concept of "skill hell"
+
+**0:00** · Hello friends. I was dearly hoping to be able to come to the AI engineer World's Fair, but family matters have intruded and I'm not able to make it. However, I will not be leaving you empty-handed."
 ---
 ![](https://www.youtube.com/watch?v=UNzCG3lw6O0)
 

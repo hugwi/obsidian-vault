@@ -1,19 +1,23 @@
 ---
 title: "Do you even need human review?"
-source: youtube
-url: https://www.youtube.com/watch?v=Yn8h5Ip-L9c
+source: "youtube"
+url: "https://www.youtube.com/watch?v=Yn8h5Ip-L9c"
 author: "Matt Pocock"
-published: 2026-07-20
-created: 2026-08-24
+published: "2026-07-20"
+created: "2026-08-24"
 duration: "0:01:59"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "context-engineering"
+  - "mcp"
+  - "skills"
+summary: "Everyone's obsessed with automating work with engineers. And the way you do it best is to figure out where you need human review. Let's say you have a process that looks like this."
 ---
 
 # Do you even need human review?

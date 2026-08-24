@@ -1,20 +1,21 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents]
+domain: "[agentic-engineering, ai-agents]"
 tags:
-  - harness
-  - orchestration
-  - spec-driven
-  - testing
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: multi-agent-orchestration
+  - "harness"
+  - "orchestration"
+  - "spec-driven"
+  - "testing"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "multi-agent-orchestration"
 subtheme:
-  - coordinator-patterns
-  - skill-tool-extension
+  - "coordinator-patterns"
+  - "skill-tool-extension"
 ---
 
 # dynaptik/crispy: CRISPY (how QRSPI sounds to me phonetically) is a multi-agent orchestration plugin for agentic AI coding. It implements an 8-phase state machine based on the QRSPI methodology (Question, Research, Structure, Plan, Implement).

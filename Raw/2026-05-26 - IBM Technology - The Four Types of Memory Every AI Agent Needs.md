@@ -1,19 +1,24 @@
 ---
 title: "The Four Types of Memory Every AI Agent Needs"
-source: youtube
-url: https://www.youtube.com/watch?v=BacJ6sEhqMo
+source: "youtube"
+url: "https://www.youtube.com/watch?v=BacJ6sEhqMo"
 author: "IBM Technology"
-published: 2026-05-26
-created: 2026-08-24
+published: "2026-05-26"
+created: "2026-08-24"
 duration: "0:10:40"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+  - "engineering"
+  - "skills"
+summary: "AI agents have different ways to remember stuff and each serves a different purpose. So let's take a look at the four main types of AI agent memory from some pretty foundational stuff to what I think are some quite interesting emerging areas. And I think it's really, first of all, worth considering how we do it."
 ---
 
 # The Four Types of Memory Every AI Agent Needs

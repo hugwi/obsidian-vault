@@ -1,19 +1,22 @@
 ---
 title: "How the CEO of Obsidian Takes his Notes (Underrated Genius)"
-source: youtube
-url: https://www.youtube.com/watch?v=Dq3R3uS0sQ4
+source: "youtube"
+url: "https://www.youtube.com/watch?v=Dq3R3uS0sQ4"
 author: "Karlos Obsidian Tutorials"
-published: 2025-12-05
-created: 2026-08-24
+published: "2025-12-05"
+created: "2026-08-24"
 duration: "0:32:18"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "video-gen"
+  - "web-design"
+summary: "Two years ago, a simple template was posted on Reddit. The author was Stefango, also known as Kipano. Obsidian being a fantastic free note-taking app already boasting lots of community contributions, this wasn't anything unusual."
 ---
 
 # How the CEO of Obsidian Takes his Notes (Underrated Genius)

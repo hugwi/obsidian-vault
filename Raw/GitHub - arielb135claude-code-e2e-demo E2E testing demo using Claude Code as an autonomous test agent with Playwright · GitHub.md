@@ -1,18 +1,19 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents]
+domain: "[agentic-engineering, ai-agents]"
 tags:
-  - testing
-  - tools
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: quality-gates
+  - "testing"
+  - "tools"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "quality-gates"
 subtheme:
-  - automated-tests
-  - verification-loops
+  - "automated-tests"
+  - "verification-loops"
 ---
 
 # GitHub - arielb135/claude-code-e2e-demo: E2E testing demo using Claude Code as an autonomous test agent with Playwright · GitHub

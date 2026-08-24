@@ -1,14 +1,15 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [ai-agents]
+domain: "[ai-agents]"
 tags:
-  - orchestration
-  - tools
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "orchestration"
+  - "tools"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # GitHub - shep-ai/cli: Multi-Session SDLC Control Center for AI Coding Agents · GitHub

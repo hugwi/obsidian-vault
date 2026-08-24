@@ -1,19 +1,23 @@
 ---
 title: "Revolutionize Your Content Creation with Claude and Remotion #AIContent #MarketingTips"
-source: youtube
-url: https://www.youtube.com/watch?v=JynmC3-tRc8
+source: "youtube"
+url: "https://www.youtube.com/watch?v=JynmC3-tRc8"
 author: "Charlie Automates"
-published: 2026-04-27
-created: 2026-08-24
+published: "2026-04-27"
+created: "2026-08-24"
 duration: "0:00:41"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "video-gen"
+  - "web-design"
+summary: "If you are using Claude code and you're not creating marketing videos like the one you see to my right, then you probably haven't heard about Remotion yet. All I had to do was give Claude access to Remotion, give it my website link, and it created this video for me in under a minute. Head over to remotion.dev and then you'll see this little command right here."
 ---
 
 # Revolutionize Your Content Creation with Claude and Remotion #AIContent #MarketingTips

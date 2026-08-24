@@ -1,19 +1,20 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - code-review
-  - harness
-  - metrics
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: workflow-phases-gates
+  - "code-review"
+  - "harness"
+  - "metrics"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "workflow-phases-gates"
 subtheme:
-  - durable-execution
-  - harness-loops
+  - "durable-execution"
+  - "harness-loops"
 ---
 
 # davebcn87/pi-autoresearch: Autonomous experiment loop extension for pi

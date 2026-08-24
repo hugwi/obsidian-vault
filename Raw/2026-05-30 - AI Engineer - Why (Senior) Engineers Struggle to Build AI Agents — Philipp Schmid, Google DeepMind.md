@@ -1,19 +1,26 @@
 ---
 title: "Why (Senior) Engineers Struggle to Build AI Agents — Philipp Schmid, Google DeepMind"
-source: youtube
-url: https://www.youtube.com/watch?v=3_gYbhABcAE
+source: "youtube"
+url: "https://www.youtube.com/watch?v=3_gYbhABcAE"
 author: "AI Engineer"
-published: 2026-05-30
-created: 2026-08-24
+published: "2026-05-30"
+created: "2026-08-24"
 duration: "0:10:39"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "google"
+  - "video-gen"
+summary: "I work at DeepMind everything related to agents on Gemini or Gemini API. So if you have some questions afterwards, some concerns, some bugs, some issue, please let me know. We're going to talk today 10 minutes about why engineers struggle to build agents and I see this every day internally at Google but also externally at Google and I brought five example on like what's really different to how we built traditional software a few years ago and to now how we build agents."
 ---
 
 # Why (Senior) Engineers Struggle to Build AI Agents — Philipp Schmid, Google DeepMind

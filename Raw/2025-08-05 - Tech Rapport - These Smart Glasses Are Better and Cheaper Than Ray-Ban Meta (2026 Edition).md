@@ -1,19 +1,24 @@
 ---
 title: "These Smart Glasses Are Better and Cheaper Than Ray-Ban Meta (2026 Edition)"
-source: youtube
-url: https://www.youtube.com/watch?v=G7e4B3pMiPA
+source: "youtube"
+url: "https://www.youtube.com/watch?v=G7e4B3pMiPA"
 author: "Tech Rapport"
-published: 2025-08-05
-created: 2026-08-24
+published: "2025-08-05"
+created: "2026-08-24"
 duration: "0:10:53"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "google"
+  - "video-gen"
+  - "voice-ai"
+  - "youtube-strategy"
+summary: "Ray-B band meta glasses are cool, but they're not the only smart glasses on the block anymore. In fact, a lot of them are cheaper, smarter, and in some cases, actually more useful. You don't need to spend over $300 just to ask your sunglasses and play Spotify or snap a photo."
 ---
 
 # These Smart Glasses Are Better and Cheaper Than Ray-Ban Meta (2026 Edition)

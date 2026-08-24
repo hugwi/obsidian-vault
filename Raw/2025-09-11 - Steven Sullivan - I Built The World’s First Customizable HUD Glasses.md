@@ -1,19 +1,26 @@
 ---
 title: "I Built The World’s First Customizable HUD Glasses"
-source: youtube
-url: https://www.youtube.com/watch?v=DOaMIVAJ8CY
+source: "youtube"
+url: "https://www.youtube.com/watch?v=DOaMIVAJ8CY"
 author: "Steven Sullivan"
-published: 2025-09-11
-created: 2026-08-24
+published: "2025-09-11"
+created: "2026-08-24"
 duration: "0:16:46"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "apple"
+  - "google"
+  - "security"
+  - "video-gen"
+  - "voice-ai"
+  - "youtube-strategy"
+summary: "What if you could have a real life video game HUD? Fully customizable, any elements that you want. For your health, you could have how many steps you've taken out through the day."
 ---
 
 # I Built The World’s First Customizable HUD Glasses

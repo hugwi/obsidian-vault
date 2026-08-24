@@ -1,19 +1,28 @@
 ---
 title: "it’s boring, but it’s what bursts the ai bubble"
-source: youtube
-url: https://www.youtube.com/watch?v=CxclJzssUoc
+source: "youtube"
+url: "https://www.youtube.com/watch?v=CxclJzssUoc"
 author: "Casual Finance"
-published: 2026-08-10
-created: 2026-08-24
+published: "2026-08-10"
+created: "2026-08-24"
 duration: "0:17:58"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "anthropic"
+  - "context-engineering"
+  - "hardware"
+  - "local-llm"
+  - "nvidia"
+  - "video-gen"
+  - "voice-ai"
+  - "web-design"
+summary: "The single biggest threat to America isn't the national debt. It's not the Strait of Hormuz, and it's not even the AI bubble itself. It's energy, but not energy in the way you're probably thinking."
 ---
 
 # it’s boring, but it’s what bursts the ai bubble

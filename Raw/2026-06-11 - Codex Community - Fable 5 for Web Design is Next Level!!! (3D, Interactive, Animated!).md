@@ -1,19 +1,25 @@
 ---
 title: "Fable 5 for Web Design is Next Level!!! (3D, Interactive, Animated!)"
-source: youtube
-url: https://www.youtube.com/watch?v=4OuUnuhuRqI
+source: "youtube"
+url: "https://www.youtube.com/watch?v=4OuUnuhuRqI"
 author: "Codex Community"
-published: 2026-06-11
-created: 2026-08-24
+published: "2026-06-11"
+created: "2026-08-24"
 duration: "0:05:14"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "skills"
+  - "video-gen"
+  - "web-design"
+summary: "Fable 5 has dropped, the newest model from Anthropic, and I want to test how it goes for web design. On Twitter, I'm already seeing people do some amazing things, like have it play Pokémon from start to end, finishing the game, or playing Monopoly, or rebuilding Lovable from scratch, or even building entire 3D models and interactive websites like this. For this video, I want to see how it performs at building websites from scratch, redesigning them, or making them interactive and award-winning."
 ---
 
 # Fable 5 for Web Design is Next Level!!! (3D, Interactive, Animated!)

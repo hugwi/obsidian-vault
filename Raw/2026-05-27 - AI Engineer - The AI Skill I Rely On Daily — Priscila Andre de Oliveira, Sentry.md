@@ -1,19 +1,27 @@
 ---
 title: "The AI Skill I Rely On Daily — Priscila Andre de Oliveira, Sentry"
-source: youtube
-url: https://www.youtube.com/watch?v=li0SaBt9RDM
+source: "youtube"
+url: "https://www.youtube.com/watch?v=li0SaBt9RDM"
 author: "AI Engineer"
-published: 2026-05-27
-created: 2026-08-24
+published: "2026-05-27"
+created: "2026-08-24"
 duration: "0:17:04"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "business"
+  - "context-engineering"
+  - "engineering"
+  - "local-llm"
+  - "skills"
+summary: "Uh today I'm going to share with you how I use AI at Sentry and this queue I use the most in my day-to-day work. Um so but before we dive into that, let me tell you who I am. I'm a Brazilian-based in Vienna, Austria."
 ---
 
 # The AI Skill I Rely On Daily — Priscila Andre de Oliveira, Sentry

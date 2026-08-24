@@ -1,19 +1,28 @@
 ---
 title: "192GB of VRAM in One PC… The Cheap Way"
-source: youtube
-url: https://www.youtube.com/watch?v=c6u87wtQzTw
+source: "youtube"
+url: "https://www.youtube.com/watch?v=c6u87wtQzTw"
 author: "Alex Ziskind"
-published: 2026-07-15
-created: 2026-08-24
+published: "2026-07-15"
+created: "2026-08-24"
 duration: "0:15:34"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "apple"
+  - "context-engineering"
+  - "hardware"
+  - "local-llm"
+  - "nvidia"
+  - "video-gen"
+  - "voice-ai"
+  - "youtube-strategy"
+summary: "When you want to run large language models locally, it comes down to VRAM. More of it means you can fit bigger models, more context, more users at once. This RTX Pro 4000 GPU is $2,500 and it gives you 24 gigs of VRAM."
 ---
 
 # 192GB of VRAM in One PC… The Cheap Way

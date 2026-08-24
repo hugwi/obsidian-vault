@@ -1,19 +1,23 @@
 ---
 title: "ElevenLabs is in trouble? 🛑 #QwenAudio #AI"
-source: youtube
-url: https://www.youtube.com/watch?v=DkKexmP2pq4
+source: "youtube"
+url: "https://www.youtube.com/watch?v=DkKexmP2pq4"
 author: "DIY Smart Code"
-published: 2026-07-23
-created: 2026-08-24
+published: "2026-07-23"
+created: "2026-08-24"
 duration: "0:01:00"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "local-llm"
+  - "voice-ai"
+summary: "Alibaba's Qwen Audio 3.0 TTS just hit number one on the artificial analysis speech arena leaderboard with an Elo rating around 1200. It introduces 86 fine-grained inline tags like bracket whisper, bracket angry, and bracket laughs. Plus natural language direction like sound more mysterious."
 ---
 
 # ElevenLabs is in trouble? 🛑 #QwenAudio #AI

@@ -1,19 +1,22 @@
 ---
 title: "Even Realities Have an App Store. Nobody's Building for It."
-source: youtube
-url: https://www.youtube.com/watch?v=4-odTTRyK-c
+source: "youtube"
+url: "https://www.youtube.com/watch?v=4-odTTRyK-c"
 author: "Dinesh Punni"
-published: 2026-06-06
-created: 2026-08-24
+published: "2026-06-06"
+created: "2026-08-24"
 duration: "0:01:04"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "apple"
+  - "video-gen"
+summary: "There's like 30, 40 plus apps on top of those already, maybe even more by the time of recording. And you can basically do whatever you want, which is amazing. Like I again, on the Meta Ray-Bans, I built a test app already."
 ---
 
 # Even Realities Have an App Store. Nobody's Building for It.

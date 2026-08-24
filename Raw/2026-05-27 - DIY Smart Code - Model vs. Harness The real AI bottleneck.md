@@ -1,19 +1,28 @@
 ---
 title: "Model vs. Harness: The real AI bottleneck"
-source: youtube
-url: https://www.youtube.com/watch?v=WwuUuLsmOWw
+source: "youtube"
+url: "https://www.youtube.com/watch?v=WwuUuLsmOWw"
 author: "DIY Smart Code"
-published: 2026-05-27
-created: 2026-08-24
+published: "2026-05-27"
+created: "2026-08-24"
 duration: "0:01:58"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "harness-engineering"
+  - "openai"
+  - "security"
+  - "skills"
+  - "video-gen"
+summary: "Everyone's chasing the next frontier model. But if you're shipping agents in 2026, the bottleneck isn't the brain. Agent equals model plus harness."
 ---
 
 # Model vs. Harness: The real AI bottleneck

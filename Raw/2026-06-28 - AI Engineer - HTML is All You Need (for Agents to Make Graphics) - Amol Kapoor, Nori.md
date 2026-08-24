@@ -1,19 +1,25 @@
 ---
 title: "HTML is All You Need (for Agents to Make Graphics) - Amol Kapoor, Nori"
-source: youtube
-url: https://www.youtube.com/watch?v=JRTAtZ5iBkU
+source: "youtube"
+url: "https://www.youtube.com/watch?v=JRTAtZ5iBkU"
 author: "AI Engineer"
-published: 2026-06-28
-created: 2026-08-24
+published: "2026-06-28"
+created: "2026-08-24"
 duration: "0:07:00"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "evaluation"
+  - "mcp"
+  - "video-gen"
+  - "web-design"
+summary: "[music] >> Hi, I'm Amol, CEO of Nori Atentic. >> [music] >> We deploy an AI employee that understands your company, your code, docs, Slack, [music] and other kinds of data. We spend a lot of time thinking about how coding agents really work."
 ---
 
 # HTML is All You Need (for Agents to Make Graphics) - Amol Kapoor, Nori

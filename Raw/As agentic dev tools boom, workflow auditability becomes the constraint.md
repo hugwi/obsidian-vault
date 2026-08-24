@@ -1,19 +1,20 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, design, knowledge-management]
+domain: "[agentic-engineering, design, knowledge-management]"
 tags:
-  - metrics
-  - productivity
-  - ux-ui
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: workflow-phases-gates
+  - "metrics"
+  - "productivity"
+  - "ux-ui"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "workflow-phases-gates"
 subtheme:
-  - harness-loops
-  - event-driven
+  - "harness-loops"
+  - "event-driven"
 ---
 
 # As agentic dev tools boom, workflow auditability becomes the constraint

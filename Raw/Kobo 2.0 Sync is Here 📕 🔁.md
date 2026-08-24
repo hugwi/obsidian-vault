@@ -1,13 +1,14 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [knowledge-management]
+domain: "[knowledge-management]"
 tags:
-  - pkm
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "pkm"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # Kobo 2.0 Sync is Here 📕 🔁

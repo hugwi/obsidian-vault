@@ -1,19 +1,22 @@
 ---
 title: "Most SLEPT ON GitHub Repo For Claude Code"
-source: youtube
-url: https://www.youtube.com/watch?v=FzwlOwxbmU8
+source: "youtube"
+url: "https://www.youtube.com/watch?v=FzwlOwxbmU8"
 author: "Charlie Automates"
-published: 2026-07-06
-created: 2026-08-24
+published: "2026-07-06"
+created: "2026-08-24"
 duration: "0:01:03"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "local-llm"
+summary: "This free tool can turn any Claude code project into a brain that anybody can understand. It is quite literally the number one repo of the day with over 200,000 people currently using it to turn their code bases into an interactive knowledge base that can help you learn what the heck is going on. This is by far the most underrated tool of 2026 so far because most of us are building applications with Claude code and have no idea how they're even built."
 ---
 
 # Most SLEPT ON GitHub Repo For Claude Code

@@ -1,19 +1,26 @@
 ---
 title: "Building an Autonomous Engineering Org - Angie Jones, Agentic AI Foundation"
-source: youtube
-url: https://www.youtube.com/watch?v=whue9_YquGA
+source: "youtube"
+url: "https://www.youtube.com/watch?v=whue9_YquGA"
 author: "AI Engineer"
-published: 2026-06-28
-created: 2026-08-24
+published: "2026-06-28"
+created: "2026-08-24"
 duration: "0:17:36"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "engineering"
+  - "mcp"
+  - "skills"
+summary: "And this is a challenge that most tech companies are actively trying to solve or will be in the very near future. Our agentic coding journey started very early. We were building Goose, our internal coding agent, even before the LLM supported tool calling."
 ---
 
 # Building an Autonomous Engineering Org - Angie Jones, Agentic AI Foundation

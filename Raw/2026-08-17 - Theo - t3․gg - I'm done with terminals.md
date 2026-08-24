@@ -1,19 +1,30 @@
 ---
 title: "I'm done with terminals"
-source: youtube
-url: https://www.youtube.com/watch?v=dLhcLqoff6k
+source: "youtube"
+url: "https://www.youtube.com/watch?v=dLhcLqoff6k"
 author: "Theo - t3․gg"
-published: 2026-08-17
-created: 2026-08-24
+published: "2026-08-17"
+created: "2026-08-24"
 duration: "0:31:17"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "engineering"
+  - "google"
+  - "harness-engineering"
+  - "local-llm"
+  - "microsoft"
+  - "openai"
+  - "video-gen"
+  - "web-design"
+summary: "This is a video I never wanted to make, but the more I think about it, the more I feel like I kind of have to because if I'm being realistic with you guys, I've always been a terminal first person. I know, I know I'm the vibe coding soy boy JavaScript guy that's always plugging things in VS Code and invested in a VS Code fork, but I am not that at heart. I do like being able to scroll around code and click and select things with a trackpad or a mouse, but generally for my day-to-day work, I was always in a terminal."
 ---
 
 # I'm done with terminals

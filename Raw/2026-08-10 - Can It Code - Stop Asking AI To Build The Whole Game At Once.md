@@ -1,19 +1,22 @@
 ---
 title: "Stop Asking AI To Build The Whole Game At Once"
-source: youtube
-url: https://www.youtube.com/watch?v=mjg_JUMar04
+source: "youtube"
+url: "https://www.youtube.com/watch?v=mjg_JUMar04"
 author: "Can It Code?"
-published: 2026-08-10
-created: 2026-08-24
+published: "2026-08-10"
+created: "2026-08-24"
 duration: "0:06:50"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "anthropic"
+  - "video-gen"
+summary: "This video will be different, because in this one, I'm gonna show you how I built this. And I want to show you the whole process how I usually work with AI models. Fable 5, Opus 5, GPT-5.6 Sol, and Kimi K3."
 ---
 
 # Stop Asking AI To Build The Whole Game At Once

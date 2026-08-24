@@ -1,19 +1,28 @@
 ---
 title: "The most interesting \"hack\" in history..."
-source: youtube
-url: https://www.youtube.com/watch?v=KOpTWx1Eou4
+source: "youtube"
+url: "https://www.youtube.com/watch?v=KOpTWx1Eou4"
 author: "Fireship"
-published: 2026-07-23
-created: 2026-08-24
+published: "2026-07-23"
+created: "2026-08-24"
 duration: "0:04:33"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "hardware"
+  - "openai"
+  - "video-gen"
+summary: "For the last 5 years, cybersecurity experts have been warning us that hackers are going to start using AI to automate attacks. So naturally, we spent billions of dollars to make the AI better and less dependent on hackers. But this week, in a turn of events that nobody could have possibly seen coming, the AI decided that it doesn't actually need hackers to start destroying things."
 ---
 
 # The most interesting "hack" in history...

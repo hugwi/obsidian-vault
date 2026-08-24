@@ -1,18 +1,19 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - human-factors
-  - spec-driven
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: work-breakdown-specs
+  - "human-factors"
+  - "spec-driven"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "work-breakdown-specs"
 subtheme:
-  - spec-driven
-  - task-decomposition
+  - "spec-driven"
+  - "task-decomposition"
 ---
 
 # Panel: Does AI lead us back to a beautiful document based waterfall approach

@@ -1,19 +1,30 @@
 ---
 title: "Anthropic Workshop: Build Agents That Run for Hours — Ash Prabaker & Andrew Wilson"
-source: youtube
-url: https://www.youtube.com/watch?v=mR-WAvEPRwE
+source: "youtube"
+url: "https://www.youtube.com/watch?v=mR-WAvEPRwE"
 author: "AI Engineer"
-published: 2026-05-18
-created: 2026-08-24
+published: "2026-05-18"
+created: "2026-08-24"
 duration: "1:15:40"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "harness-engineering"
+  - "mcp"
+  - "security"
+  - "skills"
+  - "web-design"
+summary: "We both work in uh as engineers in our applied AI uh team here at Anthropic. Um and the kind of topic for this session was uh inspired by a blog post we put out uh just a couple weeks ago actually about how to think about building uh agents that can actually run for really long extended periods of time. You know, we're talking 5 6 hour plus kind of runs."
 ---
 
 # Anthropic Workshop: Build Agents That Run for Hours — Ash Prabaker & Andrew Wilson

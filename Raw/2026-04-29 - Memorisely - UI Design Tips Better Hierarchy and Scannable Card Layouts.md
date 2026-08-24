@@ -1,19 +1,21 @@
 ---
 title: "UI Design Tips: Better Hierarchy and Scannable Card Layouts"
-source: youtube
-url: https://www.youtube.com/watch?v=OcibTxoU6Us
+source: "youtube"
+url: "https://www.youtube.com/watch?v=OcibTxoU6Us"
 author: "Memorisely"
-published: 2026-04-29
-created: 2026-08-24
+published: "2026-04-29"
+created: "2026-08-24"
 duration: "0:00:29"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "video-gen"
+summary: "How do you go from this UI to this UI? And why do these design decisions matter? Well, if we bring back that original design, the first step we can do is save users time by creating scannable labels."
 ---
 
 # UI Design Tips: Better Hierarchy and Scannable Card Layouts

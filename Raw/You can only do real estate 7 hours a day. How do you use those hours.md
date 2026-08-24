@@ -1,13 +1,14 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [personal]
+domain: "[personal]"
 tags:
-  - real-estate
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "real-estate"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # You can only do real estate 7 hours a day. How do you use those hours?

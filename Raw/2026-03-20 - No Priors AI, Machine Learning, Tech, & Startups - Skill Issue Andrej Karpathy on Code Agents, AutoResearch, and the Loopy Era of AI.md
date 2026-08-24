@@ -1,19 +1,35 @@
 ---
 title: "Skill Issue: Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of AI"
-source: youtube
-url: https://www.youtube.com/watch?v=kwSVtQ7dziU
+source: "youtube"
+url: "https://www.youtube.com/watch?v=kwSVtQ7dziU"
 author: "No Priors: AI, Machine Learning, Tech, & Startups"
-published: 2026-03-20
-created: 2026-08-24
+published: "2026-03-20"
+created: "2026-08-24"
 duration: "1:06:31"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "apple"
+  - "business"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "hardware"
+  - "harness-engineering"
+  - "local-llm"
+  - "openai"
+  - "skills"
+  - "video-gen"
+  - "voice-ai"
+  - "youtube-strategy"
+summary: "Code's not even the right verb anymore, right? [laughter] But I have to express my will to my agents for 16 hours a day. [music] How can I have not just a single session of Claude code or Codex or some of these agent harnesses?"
 ---
 
 # Skill Issue: Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of AI

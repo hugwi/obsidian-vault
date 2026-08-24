@@ -1,19 +1,28 @@
 ---
 title: "Developers Might Finally Have a Local TTS Model That Doesn’t Suck"
-source: youtube
-url: https://www.youtube.com/watch?v=pbsTTxKTuts
+source: "youtube"
+url: "https://www.youtube.com/watch?v=pbsTTxKTuts"
 author: "Better Stack"
-published: 2026-05-22
-created: 2026-08-24
+published: "2026-05-22"
+created: "2026-08-24"
 duration: "0:07:58"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "engineering"
+  - "evaluation"
+  - "hardware"
+  - "local-llm"
+  - "openai"
+  - "video-gen"
+  - "voice-ai"
+summary: "It's a local text-to-speech model that gets surprisingly close to 11 Labs for a lot of developer use cases. Except, it runs on your machine, works offline, and costs nothing every time your app says a sentence. There's no API key, no cloud request, no GPU."
 ---
 
 # Developers Might Finally Have a Local TTS Model That Doesn’t Suck

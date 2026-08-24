@@ -1,19 +1,26 @@
 ---
 title: "I BLEW UP a YouTube Channel in 7 Days with AI"
-source: youtube
-url: https://www.youtube.com/watch?v=1r0eyM7suUg
+source: "youtube"
+url: "https://www.youtube.com/watch?v=1r0eyM7suUg"
 author: "Jack Craig"
-published: 2025-11-21
-created: 2026-08-24
+published: "2025-11-21"
+created: "2026-08-24"
 duration: "0:31:06"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "business"
+  - "google"
+  - "hardware"
+  - "video-gen"
+  - "web-design"
+  - "youtube-strategy"
+summary: "This is my AI YouTube channel that went viral in just seven days and I want you to start doing the same. So in this video I'm opening a brand new channel and I will go viral in 7 days using AI so you can replicate the entire process and start getting results for yourself. But for this to happen we need to start today selecting the [music] niche."
 ---
 
 # I BLEW UP a YouTube Channel in 7 Days with AI

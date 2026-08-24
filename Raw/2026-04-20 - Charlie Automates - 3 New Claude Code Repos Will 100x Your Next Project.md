@@ -1,19 +1,27 @@
 ---
 title: "3 New Claude Code Repos Will 100x Your Next Project"
-source: youtube
-url: https://www.youtube.com/watch?v=zV5Y5bbkpV8
+source: "youtube"
+url: "https://www.youtube.com/watch?v=zV5Y5bbkpV8"
 author: "Charlie Automates"
-published: 2026-04-20
-created: 2026-08-24
+published: "2026-04-20"
+created: "2026-08-24"
 duration: "0:01:51"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "google"
+  - "mcp"
+  - "skills"
+  - "video-gen"
+  - "voice-ai"
+  - "web-design"
+summary: "If you were using Claude code, let me drop the sauce on three repos that you needed download it like yesterday. Caveman is a plugin that can help you reduce your token usage by 75%. Caveman will save you tokens by taking these bloated responses you get from Claude and simplifying them just like this."
 ---
 
 # 3 New Claude Code Repos Will 100x Your Next Project

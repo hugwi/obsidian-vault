@@ -1,22 +1,23 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, product-business]
+domain: "[agentic-engineering, product-business]"
 tags:
-  - code-quality
-  - code-review
-  - human-factors
-  - metrics
-  - spec-driven
-  - startup
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: quality-gates
+  - "code-quality"
+  - "code-review"
+  - "human-factors"
+  - "metrics"
+  - "spec-driven"
+  - "startup"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "quality-gates"
 subtheme:
-  - code-review-gates
-  - verification-loops
+  - "code-review-gates"
+  - "verification-loops"
 ---
 
 # code-quality-metrics/measuring-ai-code-drift-using-github-metrics.md at main · stride-nyc/code-quality-metrics

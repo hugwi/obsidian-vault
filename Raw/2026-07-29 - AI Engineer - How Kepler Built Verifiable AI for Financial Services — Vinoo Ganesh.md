@@ -1,19 +1,25 @@
 ---
 title: "How Kepler Built Verifiable AI for Financial Services — Vinoo Ganesh"
-source: youtube
-url: https://www.youtube.com/watch?v=Tt2kX2sgQio
+source: "youtube"
+url: "https://www.youtube.com/watch?v=Tt2kX2sgQio"
 author: "AI Engineer"
-published: 2026-07-29
-created: 2026-08-24
+published: "2026-07-29"
+created: "2026-08-24"
 duration: "0:22:29"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "anthropic"
+  - "business"
+  - "engineering"
+  - "evaluation"
+  - "openai"
+summary: "[music] >> Hey everyone, thank you for being here. My name is Venu Ganesh and I'm the CEO and co-founder of Kepler. Today, I'm going to talk to you about how we built verifiable AI for financial services."
 ---
 
 # How Kepler Built Verifiable AI for Financial Services — Vinoo Ganesh

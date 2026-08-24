@@ -1,19 +1,22 @@
 ---
 title: "Designing a Living Hero Section (UI/UX × 3D × Motion) in Figma and Blender"
-source: youtube
-url: https://www.youtube.com/watch?v=q1QQN08ZK6I
+source: "youtube"
+url: "https://www.youtube.com/watch?v=q1QQN08ZK6I"
 author: "Andrii Bachinskyi"
-published: 2026-02-13
-created: 2026-08-24
+published: "2026-02-13"
+created: "2026-08-24"
 duration: "0:01:00"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "video-gen"
+  - "web-design"
+summary: "created this design and want to show you how. We jump into Figma and create a frame, add background elements and the top headline. Next, we build blocks with benefits, a short description, and the join the club button."
 ---
 
 # Designing a Living Hero Section (UI/UX × 3D × Motion) in Figma and Blender

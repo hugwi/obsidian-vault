@@ -1,19 +1,25 @@
 ---
 title: "Will fine-tuned local models outperform bloated SOTA models?"
-source: youtube
-url: https://www.youtube.com/watch?v=5RNTpFokRnQ
+source: "youtube"
+url: "https://www.youtube.com/watch?v=5RNTpFokRnQ"
 author: "Startup Engineering Daily"
-published: 2026-04-29
-created: 2026-08-24
+published: "2026-04-29"
+created: "2026-08-24"
 duration: "0:01:58"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "apple"
+  - "business"
+  - "google"
+  - "harness-engineering"
+  - "local-llm"
+summary: "Okay, and then kind of similar to the last story, I just like this tweet from Mitchell Hashimoto, who is the founder of HashiCorp, where he says he's someone that still likes tab complete models. I personally don't like the tab complete models. I like when AI writes all the code for me and then I can review it offhand, but I do understand why people would want to move slower and be able to review line by line."
 ---
 
 # Will fine-tuned local models outperform bloated SOTA models?

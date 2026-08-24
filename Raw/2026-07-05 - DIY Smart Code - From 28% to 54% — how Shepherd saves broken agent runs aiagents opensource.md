@@ -1,19 +1,23 @@
 ---
 title: "From 28% to 54% — how Shepherd saves broken agent runs #aiagents #opensource"
-source: youtube
-url: https://www.youtube.com/watch?v=gA2xz5uQm-4
+source: "youtube"
+url: "https://www.youtube.com/watch?v=gA2xz5uQm-4"
 author: "DIY Smart Code"
-published: 2026-07-05
-created: 2026-08-24
+published: "2026-07-05"
+created: "2026-08-24"
 duration: "0:02:38"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+  - "engineering"
+summary: "Stanford just built Git for coding agents. It fixes the most expensive problem in agent coding. Your agent runs 10 steps, then makes one bad edit."
 ---
 
 # From 28% to 54% — how Shepherd saves broken agent runs #aiagents #opensource

@@ -1,19 +1,27 @@
 ---
 title: "Headroom: The Netflix Tool That Makes AI Agents 10x Cheaper"
-source: youtube
-url: https://www.youtube.com/watch?v=KqdRWE1en8k
+source: "youtube"
+url: "https://www.youtube.com/watch?v=KqdRWE1en8k"
 author: "Better Stack"
-published: 2026-06-08
-created: 2026-08-24
+published: "2026-06-08"
+created: "2026-08-24"
 duration: "0:07:03"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "engineering"
+  - "harness-engineering"
+  - "local-llm"
+  - "video-gen"
+summary: "This is Headroom, an open-source tool that compresses everything your AI agent reads. And the clever part is it's reversible, so the model can ask for the full information back whenever actually needs it. But compression usually means you lose something."
 ---
 
 # Headroom: The Netflix Tool That Makes AI Agents 10x Cheaper

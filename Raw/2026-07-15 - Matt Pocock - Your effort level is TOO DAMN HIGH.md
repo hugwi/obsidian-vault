@@ -1,19 +1,24 @@
 ---
 title: "Your effort level is TOO DAMN HIGH"
-source: youtube
-url: https://www.youtube.com/watch?v=iQb3F9UzBR4
+source: "youtube"
+url: "https://www.youtube.com/watch?v=iQb3F9UzBR4"
 author: "Matt Pocock"
-published: 2026-07-15
-created: 2026-08-24
+published: "2026-07-15"
+created: "2026-08-24"
 duration: "0:01:17"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "evaluation"
+  - "skills"
+summary: "Pretty much everyone can get, um, better bang for your buck by using a lower effort level. Lower effort basically means fewer tokens spent on exploration. Exploration is a task that you don't really need effort for."
 ---
 
 # Your effort level is TOO DAMN HIGH

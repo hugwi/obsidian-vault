@@ -1,19 +1,29 @@
 ---
 title: "Anthropic Just Fixed Graph Engineering's Greatest Flaw"
-source: youtube
-url: https://www.youtube.com/watch?v=H7t3uUp3HVw
+source: "youtube"
+url: "https://www.youtube.com/watch?v=H7t3uUp3HVw"
 author: "AI LABS"
-published: 2026-07-29
-created: 2026-08-24
+published: "2026-07-29"
+created: "2026-08-24"
 duration: "0:14:07"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "engineering"
+  - "google"
+  - "skills"
+  - "video-gen"
+  - "web-design"
+  - "youtube-strategy"
+summary: "There's a new term going around called graph engineering and everyone on X is talking about it. Before graphs, it was all loop engineering where you hand the agent a goal and it works toward it on its own. But with graphs, the work gets done faster and covers way more ground at once than a loop ever could."
 ---
 
 # Anthropic Just Fixed Graph Engineering's Greatest Flaw

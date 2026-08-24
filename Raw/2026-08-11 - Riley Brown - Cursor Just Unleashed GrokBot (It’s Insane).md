@@ -1,19 +1,26 @@
 ---
 title: "Cursor Just Unleashed GrokBot (It’s Insane)"
-source: youtube
-url: https://www.youtube.com/watch?v=8Yf9IoXkROM
+source: "youtube"
+url: "https://www.youtube.com/watch?v=8Yf9IoXkROM"
 author: "Riley Brown"
-published: 2026-08-11
-created: 2026-08-24
+published: "2026-08-11"
+created: "2026-08-24"
 duration: "0:20:02"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "local-llm"
+  - "skills"
+  - "video-gen"
+  - "voice-ai"
+  - "web-design"
+summary: "We have some breaking news in the world of AI agents. Cursor just released a new product called Grokbot, and it's aimed directly at Claude Co-work and GPT work. It's a new agent platform that feels like you're messaging a team of AI agents, and it lets you connect these agents to all of your different tools, and it even lets you fully control a working computer in the cloud."
 ---
 
 # Cursor Just Unleashed GrokBot (It’s Insane)

@@ -1,14 +1,15 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [software-engineering]
+domain: "[software-engineering]"
 tags:
-  - frontend
-  - security
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "frontend"
+  - "security"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # truecourse-ai/truecourse: AI-powered architecture analysis and code intelligence. Detects circular deps, layer violations, dead modules, and more. Web UI + CLI.

@@ -1,22 +1,23 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents, design, knowledge-management]
+domain: "[agentic-engineering, ai-agents, design, knowledge-management]"
 tags:
-  - harness
-  - orchestration
-  - productivity
-  - skills
-  - spec-driven
-  - ux-ui
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: multi-agent-orchestration
+  - "harness"
+  - "orchestration"
+  - "productivity"
+  - "skills"
+  - "spec-driven"
+  - "ux-ui"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "multi-agent-orchestration"
 subtheme:
-  - sub-agents
-  - coordinator-patterns
+  - "sub-agents"
+  - "coordinator-patterns"
 ---
 
 # Andrej Karpathy's Math Proves Agent Skills Will Fail. Here's What to Build Instead.

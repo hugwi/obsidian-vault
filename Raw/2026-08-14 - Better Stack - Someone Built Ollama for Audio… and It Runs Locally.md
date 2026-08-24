@@ -1,19 +1,28 @@
 ---
 title: "Someone Built Ollama for Audio… and It Runs Locally"
-source: youtube
-url: https://www.youtube.com/watch?v=CvZuuKkT3Sw
+source: "youtube"
+url: "https://www.youtube.com/watch?v=CvZuuKkT3Sw"
 author: "Better Stack"
-published: 2026-08-14
-created: 2026-08-24
+published: "2026-08-14"
+created: "2026-08-24"
 duration: "0:05:48"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "apple"
+  - "context-engineering"
+  - "engineering"
+  - "local-llm"
+  - "nvidia"
+  - "openai"
+  - "video-gen"
+  - "voice-ai"
+summary: "Somebody is quietly trying to do for audio what llama.cpp did for chat bots. Run every model on your own machine. This is audio.cpp and it's doing just that."
 ---
 
 # Someone Built Ollama for Audio… and It Runs Locally

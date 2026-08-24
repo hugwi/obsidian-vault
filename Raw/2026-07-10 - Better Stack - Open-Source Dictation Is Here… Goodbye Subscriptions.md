@@ -1,19 +1,26 @@
 ---
 title: "Open-Source Dictation Is Here… Goodbye Subscriptions"
-source: youtube
-url: https://www.youtube.com/watch?v=mIL4sZa8M0E
+source: "youtube"
+url: "https://www.youtube.com/watch?v=mIL4sZa8M0E"
 author: "Better Stack"
-published: 2026-07-10
-created: 2026-08-24
+published: "2026-07-10"
+created: "2026-08-24"
 duration: "0:04:33"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "apple"
+  - "hardware"
+  - "local-llm"
+  - "security"
+  - "video-gen"
+  - "voice-ai"
+summary: "Just to talk to your computer instead of typing it all out, you end up with another subscription to something like Whisper Flow. You'd think the free thing we already have on Mac would be good enough, but it's not. It runs completely on your own machine and it's growing in popularity as a strong competitor to Whisper Flow and all the others."
 ---
 
 # Open-Source Dictation Is Here… Goodbye Subscriptions

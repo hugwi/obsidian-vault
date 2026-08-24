@@ -1,19 +1,27 @@
 ---
 title: "The AI bubble is getting expensive fast - what do you think?"
-source: youtube
-url: https://www.youtube.com/watch?v=sM9BIzLP1Qo
+source: "youtube"
+url: "https://www.youtube.com/watch?v=sM9BIzLP1Qo"
 author: "DIY Smart Code"
-published: 2026-05-14
-created: 2026-08-24
+published: "2026-05-14"
+created: "2026-08-24"
 duration: "0:02:55"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "business"
+  - "hardware"
+  - "nvidia"
+  - "video-gen"
+  - "voice-ai"
+summary: "That's a real Anthropic invoice from Swan AI posted by their CEO on LinkedIn and covered by Business Insider. In February, their Anthropic bill was about $27,000, then roughly 51,000, then 113,000 by the next invoice. For a four-person team, that works out to roughly $28,000 per employee per month just on one AI provider."
 ---
 
 # The AI bubble is getting expensive fast - what do you think?

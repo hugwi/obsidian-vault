@@ -1,19 +1,27 @@
 ---
 title: "Advanced Context Engineering for Agents"
-source: youtube
-url: https://www.youtube.com/watch?v=IS_y40zY-hc
+source: "youtube"
+url: "https://www.youtube.com/watch?v=IS_y40zY-hc"
 author: "YC Root Access"
-published: 2025-08-25
-created: 2026-08-24
+published: "2025-08-25"
+created: "2026-08-24"
 duration: "0:14:37"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "business"
+  - "context-engineering"
+  - "engineering"
+  - "mcp"
+  - "openai"
+  - "video-gen"
+summary: "I'm the founder of a company called Human Layer. Apparently we're all YC founders on stage today. Um I'll give you a little itty bitty history of context engineering in the term."
 ---
 
 # Advanced Context Engineering for Agents

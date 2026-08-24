@@ -1,19 +1,32 @@
 ---
 title: "How I Build Insane Three.js Websites With Claude Opus 5"
-source: youtube
-url: https://www.youtube.com/watch?v=G-F5Qvy-7KM
+source: "youtube"
+url: "https://www.youtube.com/watch?v=G-F5Qvy-7KM"
 author: "DesignCode"
-published: 2026-08-14
-created: 2026-08-24
+published: "2026-08-14"
+created: "2026-08-24"
 duration: "0:40:11"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "apple"
+  - "context-engineering"
+  - "engineering"
+  - "harness-engineering"
+  - "local-llm"
+  - "mcp"
+  - "security"
+  - "skills"
+  - "video-gen"
+  - "web-design"
+summary: "Things have changed so much with how we build landing page nowadays. If you're not using Cloud Code or CodeX for building landing pages, you are missing out. And especially today, I want to show you how to build something like this, which is using 3 GS and essentially the whole thing is less than 1 meg in term of file size."
 ---
 
 # How I Build Insane Three.js Websites With Claude Opus 5

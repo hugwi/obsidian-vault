@@ -1,19 +1,29 @@
 ---
 title: "How I Turned Pi Into the Ultimate Coding Agent"
-source: youtube
-url: https://www.youtube.com/watch?v=6xXjHM3V1zM
+source: "youtube"
+url: "https://www.youtube.com/watch?v=6xXjHM3V1zM"
 author: "Ben Davis"
-published: 2026-05-15
-created: 2026-08-24
+published: "2026-05-15"
+created: "2026-08-24"
 duration: "0:21:26"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+  - "engineering"
+  - "harness-engineering"
+  - "local-llm"
+  - "mcp"
+  - "openai"
+  - "skills"
+  - "video-gen"
+summary: "A couple weeks ago I put out a video about Pi. This was kind of a first impressions video where I talked about the SDK a ton, some brief thoughts on the TUI and actual coding agent part of it, but I hadn't used it all that much and I didn't really have too much to say about it. I wanted to make a follow-up video because I have been using it a ton."
 ---
 
 # How I Turned Pi Into the Ultimate Coding Agent

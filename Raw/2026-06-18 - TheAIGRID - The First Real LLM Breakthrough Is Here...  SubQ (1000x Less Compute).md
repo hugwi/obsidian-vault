@@ -1,19 +1,26 @@
 ---
 title: "The First Real LLM Breakthrough Is Here...  SubQ (1000x Less Compute)"
-source: youtube
-url: https://www.youtube.com/watch?v=uzkTAT81FxA
+source: "youtube"
+url: "https://www.youtube.com/watch?v=uzkTAT81FxA"
 author: "TheAIGRID"
-published: 2026-06-18
-created: 2026-08-24
+published: "2026-06-18"
+created: "2026-08-24"
 duration: "0:10:41"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "evaluation"
+  - "video-gen"
+  - "youtube-strategy"
+summary: ">> Today, we're announcing a major architectural breakthrough. The world's first fully sub-quadratic LLM. SubQ has a 12 million token context window and frontier-level intelligence."
 ---
 
 # The First Real LLM Breakthrough Is Here...  SubQ (1000x Less Compute)

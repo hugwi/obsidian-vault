@@ -1,17 +1,18 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents]
+domain: "[agentic-engineering, ai-agents]"
 tags:
-  - efficiency
-  - tools
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: agents-models
+  - "efficiency"
+  - "tools"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "agents-models"
 subtheme:
-  - model-comparison
+  - "model-comparison"
 ---
 
 # OpenCode has been a gamechanger!

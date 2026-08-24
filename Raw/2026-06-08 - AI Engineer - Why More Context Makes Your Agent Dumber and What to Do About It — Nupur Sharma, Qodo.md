@@ -1,19 +1,25 @@
 ---
 title: "Why More Context Makes Your Agent Dumber and What to Do About It — Nupur Sharma, Qodo"
-source: youtube
-url: https://www.youtube.com/watch?v=EcqMYoIV57A
+source: "youtube"
+url: "https://www.youtube.com/watch?v=EcqMYoIV57A"
 author: "AI Engineer"
-published: 2026-06-08
-created: 2026-08-24
+published: "2026-06-08"
+created: "2026-08-24"
 duration: "0:26:27"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "evaluation"
+  - "mcp"
+summary: "Uh at Kodo we do agentic reviews. Uh I have a background in dev sec ops. So I'm coming from an industry where everything was deterministic."
 ---
 
 # Why More Context Makes Your Agent Dumber and What to Do About It — Nupur Sharma, Qodo

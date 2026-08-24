@@ -1,19 +1,27 @@
 ---
 title: "One Developer Just Made NVIDIA Optional"
-source: youtube
-url: https://www.youtube.com/watch?v=raUm7RAS7Qs
+source: "youtube"
+url: "https://www.youtube.com/watch?v=raUm7RAS7Qs"
 author: "TheVibeFounder"
-published: 2026-07-13
-created: 2026-08-24
+published: "2026-07-13"
+created: "2026-08-24"
 duration: "0:01:08"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "context-engineering"
+  - "engineering"
+  - "hardware"
+  - "local-llm"
+  - "nvidia"
+  - "openai"
+  - "video-gen"
+summary: "Nvidia CEO [music] did not sleep last night. Because one developer in Italy just proved you do not need his GPUs. He took GLM 5.2, the 744 billion parameter model that beats the ones you pay for, and ran it on [music] a laptop with 25 gigs of RAM."
 ---
 
 # One Developer Just Made NVIDIA Optional

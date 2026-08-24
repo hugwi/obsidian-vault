@@ -1,21 +1,22 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, design]
+domain: "[agentic-engineering, design]"
 tags:
-  - context-management
-  - skills
-  - spec-driven
-  - ux-ui
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: context-engineering
+  - "context-management"
+  - "skills"
+  - "spec-driven"
+  - "ux-ui"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "context-engineering"
 subtheme:
-  - system-prompt-rules
-  - compaction-caching
-  - memory-persistence
+  - "system-prompt-rules"
+  - "compaction-caching"
+  - "memory-persistence"
 ---
 
 # CLAUDE.md Writing Guide: Context Engineering for AI CLI Tools

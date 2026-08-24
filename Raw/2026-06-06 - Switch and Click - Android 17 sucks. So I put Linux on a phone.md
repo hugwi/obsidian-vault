@@ -1,19 +1,30 @@
 ---
 title: "Android 17 sucks. So I put Linux on a phone."
-source: youtube
-url: https://www.youtube.com/watch?v=wTK6TS3pXgc
+source: "youtube"
+url: "https://www.youtube.com/watch?v=wTK6TS3pXgc"
 author: "Switch and Click"
-published: 2026-06-06
-created: 2026-08-24
+published: "2026-06-06"
+created: "2026-08-24"
 duration: "0:14:23"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "apple"
+  - "context-engineering"
+  - "engineering"
+  - "google"
+  - "hardware"
+  - "security"
+  - "skills"
+  - "video-gen"
+  - "web-design"
+  - "youtube-strategy"
+summary: "There's one thing I can't stand about software updates nowadays, and it's the unrelenting slog of AI in absolutely everything. We're not actually getting better things anymore. It's just unnecessarily jammed in AI."
 ---
 
 # Android 17 sucks. So I put Linux on a phone.

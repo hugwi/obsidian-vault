@@ -1,19 +1,22 @@
 ---
 title: "Google has silently released 15 AI tools that are completely free and can save you $1000 every month"
-source: youtube
-url: https://www.youtube.com/watch?v=gTMFKLnC0So
+source: "youtube"
+url: "https://www.youtube.com/watch?v=gTMFKLnC0So"
 author: "Nick Automates"
-published: 2026-07-26
-created: 2026-08-24
+published: "2026-07-26"
+created: "2026-08-24"
 duration: "0:00:40"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "google"
+  - "web-design"
+summary: "Google just released 15 AI tools that are completely free and can save you thousands of dollars every single month. It's their free AI marketing tool that generates entire social media content for your brand from just a website [music] link. It turns your normal prompts into beautiful modern UI designs for your apps and your websites."
 ---
 
 # Google has silently released 15 AI tools that are completely free and can save you $1000 every month

@@ -1,19 +1,24 @@
 ---
 title: "I Made the Same Anime Fight Scene in Every AI Video Generator"
-source: youtube
-url: https://www.youtube.com/watch?v=6YLUAaM69CY
+source: "youtube"
+url: "https://www.youtube.com/watch?v=6YLUAaM69CY"
 author: "Noble Goose"
-published: 2026-05-30
-created: 2026-08-24
+published: "2026-05-30"
+created: "2026-08-24"
 duration: "0:11:36"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "google"
+  - "local-llm"
+  - "video-gen"
+  - "voice-ai"
+summary: "The anime fight scene, the most iconic part of any beloved series. But so far, AI has struggled to make anything but pure slop when you ask for an epic clash. Today, we see if that's changed."
 ---
 
 # I Made the Same Anime Fight Scene in Every AI Video Generator

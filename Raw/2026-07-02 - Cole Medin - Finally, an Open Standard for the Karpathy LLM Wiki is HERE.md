@@ -1,19 +1,30 @@
 ---
 title: "Finally, an Open Standard for the Karpathy LLM Wiki is HERE"
-source: youtube
-url: https://www.youtube.com/watch?v=T33iI6izAKw
+source: "youtube"
+url: "https://www.youtube.com/watch?v=T33iI6izAKw"
 author: "Cole Medin"
-published: 2026-07-02
-created: 2026-08-24
+published: "2026-07-02"
+created: "2026-08-24"
 duration: "0:19:37"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "google"
+  - "harness-engineering"
+  - "local-llm"
+  - "mcp"
+  - "skills"
+  - "video-gen"
+  - "youtube-strategy"
+summary: "A couple months ago, Andre Karpathy released the idea of the LLM wiki. It's a pattern for building personal knowledge bases using LLMs and it totally took off and for good reason. There's a lot of power in the simplicity here."
 ---
 
 # Finally, an Open Standard for the Karpathy LLM Wiki is HERE

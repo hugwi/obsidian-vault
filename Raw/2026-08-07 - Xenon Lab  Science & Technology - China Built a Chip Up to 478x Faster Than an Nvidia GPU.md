@@ -1,19 +1,23 @@
 ---
 title: "China Built a Chip Up to 478x Faster Than an Nvidia GPU"
-source: youtube
-url: https://www.youtube.com/watch?v=q4DgFp9RAfo
+source: "youtube"
+url: "https://www.youtube.com/watch?v=q4DgFp9RAfo"
 author: "Xenon Lab | Science & Technology"
-published: 2026-08-07
-created: 2026-08-24
+published: "2026-08-07"
+created: "2026-08-24"
 duration: "0:01:19"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "context-engineering"
+  - "hardware"
+  - "nvidia"
+summary: "A chip made with an old 40-nanometer process is 478 times faster [music] than a graphics card. China has shown that it's not about the nanometers at all. Hello friends, this is Dmitri with your technology news."
 ---
 
 # China Built a Chip Up to 478x Faster Than an Nvidia GPU

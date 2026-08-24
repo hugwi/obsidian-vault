@@ -1,20 +1,21 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, design, software-engineering]
+domain: "[agentic-engineering, design, software-engineering]"
 tags:
-  - code-quality
-  - patterns
-  - ux-ui
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: quality-gates
+  - "code-quality"
+  - "patterns"
+  - "ux-ui"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "quality-gates"
 subtheme:
-  - code-review-gates
-  - automated-tests
-  - verification-loops
+  - "code-review-gates"
+  - "automated-tests"
+  - "verification-loops"
 ---
 
 # Agentic AI Coding: Best Practice Patterns for Speed with Quality

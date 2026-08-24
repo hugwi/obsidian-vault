@@ -1,19 +1,29 @@
 ---
 title: "Claude Code + Karpathy Slides Just Changed Presentations Forever (MARP System)"
-source: youtube
-url: https://www.youtube.com/watch?v=RBcc_ezfh1s
+source: "youtube"
+url: "https://www.youtube.com/watch?v=RBcc_ezfh1s"
 author: "Jay E | RoboNuggets"
-published: 2026-04-08
-created: 2026-08-24
+published: "2026-04-08"
+created: "2026-08-24"
 duration: "0:08:48"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "mcp"
+  - "openai"
+  - "skills"
+  - "video-gen"
+  - "web-design"
+  - "youtube-strategy"
+summary: "Andrej Karpathy just shared how he absorbs knowledge quickly and buried inside his now viral tweet with 18 million [music] views is this tool that most people scrolled right past. It's called Marp and it turns your AI agent into a full-blown slide designer, which can effectively replace Canva, PowerPoint, and Gamma. And the best part is it's blazing fast, it's completely free, and in this video I'll teach you how you can use it as well."
 ---
 
 # Claude Code + Karpathy Slides Just Changed Presentations Forever (MARP System)

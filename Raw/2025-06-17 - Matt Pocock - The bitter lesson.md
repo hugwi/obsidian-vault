@@ -1,19 +1,22 @@
 ---
 title: "The bitter lesson"
-source: youtube
-url: https://www.youtube.com/watch?v=HtsFKx9mAu8
+source: "youtube"
+url: "https://www.youtube.com/watch?v=HtsFKx9mAu8"
 author: "Matt Pocock"
-published: 2025-06-17
-created: 2026-08-24
+published: "2025-06-17"
+created: "2026-08-24"
 duration: "0:01:21"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "engineering"
+summary: "If you're building anything that involves AI, then you have to know about the bitter lesson. The bitter lesson is an article by Rich Sutton from March 13th, 2019. And the best quote from it is also the first sentence."
 ---
 
 # The bitter lesson

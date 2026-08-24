@@ -1,19 +1,36 @@
 ---
 title: "Matt Pocock’s Agentic Engineering Workflow (just copy him)"
-source: youtube
-url: https://www.youtube.com/watch?v=nQwJVHCtDDY
+source: "youtube"
+url: "https://www.youtube.com/watch?v=nQwJVHCtDDY"
 author: "David Ondrej"
-published: 2026-06-18
-created: 2026-08-24
+published: "2026-06-18"
+created: "2026-08-24"
 duration: "1:02:24"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "business"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "google"
+  - "harness-engineering"
+  - "local-llm"
+  - "mcp"
+  - "openai"
+  - "security"
+  - "skills"
+  - "video-gen"
+  - "voice-ai"
+  - "youtube-strategy"
+summary: "Everyone's obsessed with the uh model and I think they should be more interested in the harness, what you can do to get the most out of the harness, giving it the right prompts, giving [music] it the right skills to work with and improving the environment in which the model runs. As I sort of said with Fable, like the model is useful, but I think the harness has an equal amount of work and you have much more control of the harness than you do the model. People are focused on the wrong thing."
 ---
 
 # Matt Pocock’s Agentic Engineering Workflow (just copy him)

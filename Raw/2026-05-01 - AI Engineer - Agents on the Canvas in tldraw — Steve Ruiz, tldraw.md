@@ -1,19 +1,25 @@
 ---
 title: "Agents on the Canvas in tldraw — Steve Ruiz, tldraw"
-source: youtube
-url: https://www.youtube.com/watch?v=sPUjIBH5Cwg
+source: "youtube"
+url: "https://www.youtube.com/watch?v=sPUjIBH5Cwg"
 author: "AI Engineer"
-published: 2026-05-01
-created: 2026-08-24
+published: "2026-05-01"
+created: "2026-08-24"
 duration: "0:19:53"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "business"
+  - "google"
+  - "local-llm"
+  - "web-design"
+summary: "Hey, I'm going to I'm going to kick off. Uh Sorry, we're starting a little bit late here. I am Steve Ruiz from Teal Draw."
 ---
 
 # Agents on the Canvas in tldraw — Steve Ruiz, tldraw

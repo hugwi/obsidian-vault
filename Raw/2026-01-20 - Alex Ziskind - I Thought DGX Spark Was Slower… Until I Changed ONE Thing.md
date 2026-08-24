@@ -1,19 +1,32 @@
 ---
 title: "I Thought DGX Spark Was Slower… Until I Changed ONE Thing"
-source: youtube
-url: https://www.youtube.com/watch?v=Ze5XLooTt6g
+source: "youtube"
+url: "https://www.youtube.com/watch?v=Ze5XLooTt6g"
 author: "Alex Ziskind"
-published: 2026-01-20
-created: 2026-08-24
+published: "2026-01-20"
+created: "2026-08-24"
 duration: "0:15:04"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "apple"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "hardware"
+  - "local-llm"
+  - "nvidia"
+  - "openai"
+  - "video-gen"
+  - "web-design"
+  - "youtube-strategy"
+summary: "What if I told you that what you've seen so far about the DGX Spark being slower is [music] wrong? Yeah, and that of course goes for all the other Grace Black old machines like the Dell DB10 and the MSI Edge Expert. We'll get into those in another video cuz here's how most of us on YouTube test this [music] out."
 ---
 
 # I Thought DGX Spark Was Slower… Until I Changed ONE Thing

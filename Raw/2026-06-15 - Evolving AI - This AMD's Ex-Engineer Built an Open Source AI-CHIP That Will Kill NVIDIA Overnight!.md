@@ -1,19 +1,27 @@
 ---
 title: "This AMD's Ex-Engineer Built an Open Source AI-CHIP That Will Kill NVIDIA Overnight!"
-source: youtube
-url: https://www.youtube.com/watch?v=4cjfwrSiaXY
+source: "youtube"
+url: "https://www.youtube.com/watch?v=4cjfwrSiaXY"
 author: "Evolving AI"
-published: 2026-06-15
-created: 2026-08-24
+published: "2026-06-15"
+created: "2026-08-24"
 duration: "0:11:01"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "apple"
+  - "context-engineering"
+  - "evaluation"
+  - "hardware"
+  - "local-llm"
+  - "nvidia"
+  - "video-gen"
+summary: "Let me tell you about the guy who might be quietly building the thing that ends in videos golden run. His name is Jim Keller and if you follow chips at all you already know the legend. This is the man who designed AMD's Zen architecture, the one that dragged AMD back from the dead."
 ---
 
 # This AMD's Ex-Engineer Built an Open Source AI-CHIP That Will Kill NVIDIA Overnight!

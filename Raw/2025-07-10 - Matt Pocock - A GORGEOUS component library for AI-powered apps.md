@@ -1,19 +1,21 @@
 ---
 title: "A GORGEOUS component library for AI-powered apps"
-source: youtube
-url: https://www.youtube.com/watch?v=1yoW9OH9YAk
+source: "youtube"
+url: "https://www.youtube.com/watch?v=1yoW9OH9YAk"
 author: "Matt Pocock"
-published: 2025-07-10
-created: 2026-08-24
+published: "2025-07-10"
+created: "2026-08-24"
 duration: "0:00:46"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "engineering"
+summary: "Here's a really nice component library that you will enjoy if you're building AI powered apps in Typescript. It's called KBO UI and it's a really nice extra set of components on top of Shad CN. For instance, there's a really nice chatbot input here saying hello world for instance."
 ---
 
 # A GORGEOUS component library for AI-powered apps

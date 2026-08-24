@@ -1,19 +1,21 @@
 ---
 title: "Delete (most of) your docs"
-source: youtube
-url: https://www.youtube.com/watch?v=Fj8DKMbdIzU
+source: "youtube"
+url: "https://www.youtube.com/watch?v=Fj8DKMbdIzU"
 author: "Matt Pocock"
-published: 2026-07-16
-created: 2026-08-24
+published: "2026-07-16"
+created: "2026-08-24"
 duration: "0:02:04"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "skills"
+summary: "There's this really annoying pattern that I see people do everywhere that I think is making their AI coding output worse, not better, and costing them tokens. Now, most of the time when I let AI explore my codebase, the only thing AI has to go on is the code itself. And it the code is supposed to be sort of self-explanatory."
 ---
 
 # Delete (most of) your docs

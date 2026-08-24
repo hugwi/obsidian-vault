@@ -1,19 +1,25 @@
 ---
 title: "Perplexity Open-Sourced a Scanner Every Dev Should Know (Bumblebee)"
-source: youtube
-url: https://www.youtube.com/watch?v=L6iAw5yitfc
+source: "youtube"
+url: "https://www.youtube.com/watch?v=L6iAw5yitfc"
 author: "Better Stack"
-published: 2026-05-26
-created: 2026-08-24
+published: "2026-05-26"
+created: "2026-08-24"
 duration: "0:08:22"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "engineering"
+  - "local-llm"
+  - "mcp"
+  - "video-gen"
+summary: "You know what's annoying about supply chain attacks? By the time everyone is panicking, the question is not is production safe, it's did anyone install this thing locally? It's a new open source tool from Perplexity that scans your dev machine for packages, extensions, and MCP configs without running your package managers or executing project code."
 ---
 
 # Perplexity Open-Sourced a Scanner Every Dev Should Know (Bumblebee)

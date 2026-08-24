@@ -1,19 +1,27 @@
 ---
 title: "OpenAI Is FALLING Apart And Sam Altman Is Panicking"
-source: youtube
-url: https://www.youtube.com/watch?v=ehYixQAzVsw
+source: "youtube"
+url: "https://www.youtube.com/watch?v=ehYixQAzVsw"
 author: "Finance Bureau"
-published: 2026-08-22
-created: 2026-08-24
+published: "2026-08-22"
+created: "2026-08-24"
 duration: "0:15:32"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "anthropic"
+  - "engineering"
+  - "hardware"
+  - "microsoft"
+  - "nvidia"
+  - "openai"
+  - "video-gen"
+summary: "Open AAI just paid out $7 billion to some of its own employees as it bought back their shares. The tender offer valued the company at $852 billion unchanged from its March round and OpenAI funded the entire thing itself rather than bringing in outside [music] buyers. Then within 72 hours, Brad Litecap, its chief operating officer of 8 years, said he was leaving."
 ---
 
 # OpenAI Is FALLING Apart And Sam Altman Is Panicking

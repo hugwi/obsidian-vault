@@ -1,19 +1,32 @@
 ---
 title: "Jira and Linear are legacy software"
-source: youtube
-url: https://www.youtube.com/watch?v=pzUn9wTCgcw
+source: "youtube"
+url: "https://www.youtube.com/watch?v=pzUn9wTCgcw"
 author: "Theo - t3․gg"
-published: 2026-03-27
-created: 2026-08-24
+published: "2026-03-27"
+created: "2026-08-24"
 duration: "0:23:36"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "business"
+  - "context-engineering"
+  - "evaluation"
+  - "google"
+  - "mcp"
+  - "openai"
+  - "security"
+  - "skills"
+  - "video-gen"
+  - "web-design"
+summary: "If you're anything like me, you probably hate issue trackers, which is why it's so exciting to see them die. That said, I'm a little scared of what's next. I need to address something really quick though."
 ---
 
 # Jira and Linear are legacy software

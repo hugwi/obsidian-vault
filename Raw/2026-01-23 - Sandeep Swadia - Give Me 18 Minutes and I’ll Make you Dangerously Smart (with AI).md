@@ -1,19 +1,26 @@
 ---
 title: "Give Me 18 Minutes and I’ll Make you Dangerously Smart (with AI)"
-source: youtube
-url: https://www.youtube.com/watch?v=A8_nNYLTXEQ
+source: "youtube"
+url: "https://www.youtube.com/watch?v=A8_nNYLTXEQ"
 author: "Sandeep Swadia"
-published: 2026-01-23
-created: 2026-08-24
+published: "2026-01-23"
+created: "2026-08-24"
 duration: "0:18:57"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "engineering"
+  - "microsoft"
+  - "security"
+  - "video-gen"
+  - "voice-ai"
+summary: "Most people are letting AI destroy their ability to think, training AI to become their own replacement. Tragic, because AI can make you dangerously intelligent. I went from being homeless to an MIT grad and running and advising AI companies worth billions."
 ---
 
 # Give Me 18 Minutes and I’ll Make you Dangerously Smart (with AI)

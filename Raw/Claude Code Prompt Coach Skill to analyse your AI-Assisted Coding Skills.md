@@ -1,20 +1,21 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering]
+domain: "[agentic-engineering]"
 tags:
-  - claude-code
-  - metrics
-  - skills
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: productivity-measurement
+  - "claude-code"
+  - "metrics"
+  - "skills"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "productivity-measurement"
 subtheme:
-  - observability-traces
-  - dora-delivery-metrics
-  - cost-optimization
+  - "observability-traces"
+  - "dora-delivery-metrics"
+  - "cost-optimization"
 ---
 
 # Claude Code Prompt Coach Skill to analyse your AI-Assisted Coding Skills

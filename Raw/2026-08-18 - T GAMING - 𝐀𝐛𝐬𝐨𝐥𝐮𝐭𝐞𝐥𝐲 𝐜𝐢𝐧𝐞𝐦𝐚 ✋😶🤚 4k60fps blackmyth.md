@@ -1,19 +1,21 @@
 ---
 title: "𝐀𝐛𝐬𝐨𝐥𝐮𝐭𝐞𝐥𝐲 𝐜𝐢𝐧𝐞𝐦𝐚 ✋😶🤚 [4k60fps] #blackmyth"
-source: youtube
-url: https://www.youtube.com/watch?v=XuAPVmLQyvY
+source: "youtube"
+url: "https://www.youtube.com/watch?v=XuAPVmLQyvY"
 author: "T GAMING"
-published: 2026-08-18
-created: 2026-08-24
+published: "2026-08-18"
+created: "2026-08-24"
 duration: "0:00:45"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "hardware"
+  - "skills"
 ---
 
 # 𝐀𝐛𝐬𝐨𝐥𝐮𝐭𝐞𝐥𝐲 𝐜𝐢𝐧𝐞𝐦𝐚 ✋😶🤚 [4k60fps] #blackmyth

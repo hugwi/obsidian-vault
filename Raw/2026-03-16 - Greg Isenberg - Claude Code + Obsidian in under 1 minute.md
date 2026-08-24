@@ -1,19 +1,26 @@
 ---
 title: "Claude Code + Obsidian in under 1 minute"
-source: youtube
-url: https://www.youtube.com/watch?v=yJK5GueSHmU
+source: "youtube"
+url: "https://www.youtube.com/watch?v=yJK5GueSHmU"
 author: "Greg Isenberg"
-published: 2026-03-16
-created: 2026-08-24
+published: "2026-03-16"
+created: "2026-08-24"
 duration: "0:00:46"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "business"
+  - "context-engineering"
+  - "skills"
+  - "web-design"
+  - "youtube-strategy"
+summary: "If you take notes, Claude just became your best thinking partner. But first, you need to download this free note-taking tool called Obsidian. It links all your notes as .md files in one place called a vault."
 ---
 
 # Claude Code + Obsidian in under 1 minute

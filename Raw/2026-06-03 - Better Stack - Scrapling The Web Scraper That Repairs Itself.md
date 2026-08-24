@@ -1,19 +1,26 @@
 ---
 title: "Scrapling: The Web Scraper That Repairs Itself"
-source: youtube
-url: https://www.youtube.com/watch?v=q-uj7wk0LRI
+source: "youtube"
+url: "https://www.youtube.com/watch?v=q-uj7wk0LRI"
 author: "Better Stack"
-published: 2026-06-03
-created: 2026-08-24
+published: "2026-06-03"
+created: "2026-08-24"
 duration: "0:06:10"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+  - "engineering"
+  - "security"
+  - "video-gen"
+  - "web-design"
+summary: "This is Scrapling, a Python scraper that tries to fix the worst part of web scraping. The scraper works today, then breaks the second the site changes. One renamed class, one moved div, one bot check, and now your data pipeline is dead."
 ---
 
 # Scrapling: The Web Scraper That Repairs Itself

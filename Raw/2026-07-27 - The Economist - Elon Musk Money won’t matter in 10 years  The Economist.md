@@ -1,19 +1,20 @@
 ---
 title: "Elon Musk: Money won’t matter in 10 years | The Economist"
-source: youtube
-url: https://www.youtube.com/watch?v=8YEdm-ZTgT4
+source: "youtube"
+url: "https://www.youtube.com/watch?v=8YEdm-ZTgT4"
 author: "The Economist"
-published: 2026-07-27
-created: 2026-08-24
+published: "2026-07-27"
+created: "2026-08-24"
 duration: "0:02:56"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+summary: ">> [laughter] >> I'm not sure that the people who bought your shares think that money won't matter in 2036. You you want money for goods and services. Well, if that is so abundance that uh there's more that the robots and AI are providing more goods and services than you than any human could possibly consume, what do you need money for in that case?"
 ---
 
 # Elon Musk: Money won’t matter in 10 years | The Economist

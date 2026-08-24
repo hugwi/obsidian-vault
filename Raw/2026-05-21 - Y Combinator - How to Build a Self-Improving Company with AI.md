@@ -1,19 +1,27 @@
 ---
 title: "How to Build a Self-Improving Company with AI"
-source: youtube
-url: https://www.youtube.com/watch?v=X_JsIHUfUjc
+source: "youtube"
+url: "https://www.youtube.com/watch?v=X_JsIHUfUjc"
 author: "Y Combinator"
-published: 2026-05-21
-created: 2026-08-24
+published: "2026-05-21"
+created: "2026-08-24"
 duration: "0:13:28"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "business"
+  - "context-engineering"
+  - "evaluation"
+  - "security"
+  - "skills"
+  - "video-gen"
+summary: "This is based a little bit off a talk Diana gave. There's a video up over the weekend, which is super cool. Um Jack Dorsey was tweeting some stuff like two or three weeks ago that I thought was super cool."
 ---
 
 # How to Build a Self-Improving Company with AI

@@ -1,19 +1,34 @@
 ---
 title: "The $15,000 AI Bill. Your $20 Subscription is a DELUSION"
-source: youtube
-url: https://www.youtube.com/watch?v=UfApUobqN8Y
+source: "youtube"
+url: "https://www.youtube.com/watch?v=UfApUobqN8Y"
 author: "The Infographics Show"
-published: 2026-06-09
-created: 2026-08-24
+published: "2026-06-09"
+created: "2026-08-24"
 duration: "0:18:11"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "business"
+  - "context-engineering"
+  - "evaluation"
+  - "google"
+  - "hardware"
+  - "microsoft"
+  - "nvidia"
+  - "openai"
+  - "video-gen"
+  - "voice-ai"
+  - "web-design"
+  - "youtube-strategy"
+summary: "You think your $20 AI subscription is the deal of the century. A power user on tools like Claude Code actually costs $15,000 a year to run, but you're only paying a fraction of that because venture capitalists are footing the bill. You're living inside the AI Uber moment, a temporary illusion built to get you hooked before the price tags change, but the money is running out."
 ---
 
 # The $15,000 AI Bill. Your $20 Subscription is a DELUSION

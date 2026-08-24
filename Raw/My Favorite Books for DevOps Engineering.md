@@ -1,13 +1,14 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [software-engineering]
+domain: "[software-engineering]"
 tags:
-  - patterns
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
+  - "patterns"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
 ---
 
 # My Favorite Books for DevOps Engineering

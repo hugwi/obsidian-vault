@@ -1,19 +1,25 @@
 ---
 title: "Stop Paying for ElevenLabs — NEW #1 AI Voice Is FREE"
-source: youtube
-url: https://www.youtube.com/watch?v=NDMO7xksmG0
+source: "youtube"
+url: "https://www.youtube.com/watch?v=NDMO7xksmG0"
 author: "Malva AI"
-published: 2025-12-19
-created: 2026-08-24
+published: "2025-12-19"
+created: "2026-08-24"
 duration: "0:08:02"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "engineering"
+  - "security"
+  - "video-gen"
+  - "voice-ai"
+  - "youtube-strategy"
+summary: "Creating AI voices just changed forever. From today on, overpaying for AI is over. I've been getting ripped off for months."
 ---
 
 # Stop Paying for ElevenLabs — NEW #1 AI Voice Is FREE

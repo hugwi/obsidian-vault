@@ -1,19 +1,24 @@
 ---
 title: "You Don't Need a GPU Anymore"
-source: youtube
-url: https://www.youtube.com/watch?v=eyre-Qmm95E
+source: "youtube"
+url: "https://www.youtube.com/watch?v=eyre-Qmm95E"
 author: "TheVibeFounder"
-published: 2026-08-21
-created: 2026-08-24
+published: "2026-08-21"
+created: "2026-08-24"
 duration: "0:00:36"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "hardware"
+  - "local-llm"
+  - "nvidia"
+  - "video-gen"
+summary: "Nvidia CEO is crying in his car tonight because 2,000 developers stopped needing his GPUs. This is day 182 of building you 100X. Free, open source, and it kills the part everybody quit on, renting cloud GPUs, writing training scripts, debugging for 3 days straight."
 ---
 
 # You Don't Need a GPU Anymore

@@ -1,19 +1,26 @@
 ---
 title: "This Tiny Engine Runs Impossibly Big AI Models Locally! (colibrì)"
-source: youtube
-url: https://www.youtube.com/watch?v=3OqZHYNKc9A
+source: "youtube"
+url: "https://www.youtube.com/watch?v=3OqZHYNKc9A"
 author: "Better Stack"
-published: 2026-07-25
-created: 2026-08-24
+published: "2026-07-25"
+created: "2026-08-24"
 duration: "0:11:35"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "business"
+  - "context-engineering"
+  - "evaluation"
+  - "hardware"
+  - "local-llm"
+  - "video-gen"
+summary: "This is a 744 billion parameter language model, the GLM 5.2. For context, that is the same size class as the Frontier models running in data centers full of GPUs. Now, what if you could run that model locally on your consumer hardware?"
 ---
 
 # This Tiny Engine Runs Impossibly Big AI Models Locally! (colibrì)

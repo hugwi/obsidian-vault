@@ -1,19 +1,32 @@
 ---
 title: "Claude Fable 5 is BANNED. What to do?"
-source: youtube
-url: https://www.youtube.com/watch?v=bdhUBBACglw
+source: "youtube"
+url: "https://www.youtube.com/watch?v=bdhUBBACglw"
 author: "Greg Isenberg"
-published: 2026-06-13
-created: 2026-08-24
+published: "2026-06-13"
+created: "2026-08-24"
 duration: "0:24:56"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "business"
+  - "context-engineering"
+  - "google"
+  - "hardware"
+  - "local-llm"
+  - "nvidia"
+  - "skills"
+  - "video-gen"
+  - "web-design"
+  - "youtube-strategy"
+summary: "I had my entire weekend planned [music] out. I was going to lock in and use the most powerful AI model on the planet, Fable 5, to build this crazy idea I've been sitting on. the US government sent Anthropic a letter."
 ---
 
 # Claude Fable 5 is BANNED. What to do?

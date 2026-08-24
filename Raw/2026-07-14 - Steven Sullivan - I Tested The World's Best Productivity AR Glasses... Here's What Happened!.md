@@ -1,19 +1,27 @@
 ---
 title: "I Tested The World's Best Productivity AR Glasses... Here's What Happened!"
-source: youtube
-url: https://www.youtube.com/watch?v=0Y1nGOWkrtk
+source: "youtube"
+url: "https://www.youtube.com/watch?v=0Y1nGOWkrtk"
 author: "Steven Sullivan"
-published: 2026-07-14
-created: 2026-08-24
+published: "2026-07-14"
+created: "2026-08-24"
 duration: "0:16:23"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "apple"
+  - "context-engineering"
+  - "google"
+  - "video-gen"
+  - "voice-ai"
+  - "web-design"
+  - "youtube-strategy"
+summary: "For the past 7 days, I've been testing the most luxurious AR glasses bundle that exists, the InAir 2 Elite Suite. An AR glasses pack that's really designed to replace your computer or even complement it. I have previously talked about the InAir 2 Go Pack, so if you want to see that video, it's a bit of a precursor to this one, but not at all necessary."
 ---
 
 # I Tested The World's Best Productivity AR Glasses... Here's What Happened!

@@ -1,19 +1,27 @@
 ---
 title: "How To De-Slop A Codebase Ruined By AI (with one skill)"
-source: youtube
-url: https://www.youtube.com/watch?v=3MP8D-mdheA
+source: "youtube"
+url: "https://www.youtube.com/watch?v=3MP8D-mdheA"
 author: "Matt Pocock"
-published: 2026-04-29
-created: 2026-08-24
+published: "2026-04-29"
+created: "2026-08-24"
 duration: "0:11:19"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "engineering"
+  - "harness-engineering"
+  - "local-llm"
+  - "security"
+  - "skills"
+  - "video-gen"
+summary: "You've probably seen the thousands of LinkedIn CEO posts saying that code is cheap and they can move faster than ever before. But what's happening is that AI has simply accelerated software entropy. In other words, codebases are falling apart faster than they ever have before because every time that you make a change that doesn't take into account the entire codebase, you are likely to introduce little things, weird things that make the codebase harder to change."
 ---
 
 # How To De-Slop A Codebase Ruined By AI (with one skill)

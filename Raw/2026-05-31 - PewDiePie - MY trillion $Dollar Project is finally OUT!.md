@@ -1,19 +1,28 @@
 ---
 title: "MY trillion $Dollar Project is finally OUT!"
-source: youtube
-url: https://www.youtube.com/watch?v=rAzT5lcezPs
+source: "youtube"
+url: "https://www.youtube.com/watch?v=rAzT5lcezPs"
 author: "PewDiePie"
-published: 2026-05-31
-created: 2026-08-24
+published: "2026-05-31"
+created: "2026-08-24"
 duration: "0:17:06"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+  - "engineering"
+  - "google"
+  - "local-llm"
+  - "video-gen"
+  - "voice-ai"
+  - "web-design"
+summary: "I am really releasing a project I've been working on for myself today called Odysseus. Google, I don't have tissues, but I have baby wipes. More like uh do not be not No, that's not right."
 ---
 
 # MY trillion $Dollar Project is finally OUT!

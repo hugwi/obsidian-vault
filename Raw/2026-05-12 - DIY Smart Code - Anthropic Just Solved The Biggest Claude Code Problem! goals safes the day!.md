@@ -1,19 +1,22 @@
 ---
 title: "Anthropic Just Solved The Biggest Claude Code Problem! /goals safes the day!"
-source: youtube
-url: https://www.youtube.com/watch?v=v0zG69WGKAQ
+source: "youtube"
+url: "https://www.youtube.com/watch?v=v0zG69WGKAQ"
 author: "DIY Smart Code"
-published: 2026-05-12
-created: 2026-08-24
+published: "2026-05-12"
+created: "2026-08-24"
 duration: "0:01:46"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+summary: "There's a new slash command in Cloud Code and Haiku judges Sonnet now. It's called slash goal and it just made typing keep going obsolete. You state one completion condition."
 ---
 
 # Anthropic Just Solved The Biggest Claude Code Problem! /goals safes the day!

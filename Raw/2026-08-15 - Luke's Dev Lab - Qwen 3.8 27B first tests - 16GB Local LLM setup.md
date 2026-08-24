@@ -1,19 +1,31 @@
 ---
 title: "Qwen 3.8 27B first tests - 16GB Local LLM setup"
-source: youtube
-url: https://www.youtube.com/watch?v=1EzVVj7DFPc
+source: "youtube"
+url: "https://www.youtube.com/watch?v=1EzVVj7DFPc"
 author: "Luke's Dev Lab"
-published: 2026-08-15
-created: 2026-08-24
+published: "2026-08-15"
+created: "2026-08-24"
 duration: "0:25:34"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "hardware"
+  - "harness-engineering"
+  - "local-llm"
+  - "mcp"
+  - "openai"
+  - "video-gen"
+  - "youtube-strategy"
+summary: "Like Yeah, this is by far the best I have seen on this test. Hey, welcome to Luke's Dev Lab. My name's Luke, and I know a lot of you have been waiting for this video."
 ---
 
 # Qwen 3.8 27B first tests - 16GB Local LLM setup

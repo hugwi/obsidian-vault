@@ -1,19 +1,31 @@
 ---
 title: "Local AI Explained | Hardware, Setup and Models"
-source: youtube
-url: https://www.youtube.com/watch?v=QKdKcFjjZhE
+source: "youtube"
+url: "https://www.youtube.com/watch?v=QKdKcFjjZhE"
 author: "Syntax"
-published: 2026-03-12
-created: 2026-08-24
+published: "2026-03-12"
+created: "2026-08-24"
 duration: "0:25:00"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "apple"
+  - "context-engineering"
+  - "evaluation"
+  - "hardware"
+  - "local-llm"
+  - "mcp"
+  - "nvidia"
+  - "video-gen"
+  - "youtube-strategy"
+summary: "What you are looking at is an LLM running inside my home. It's actually on that mini PC back there. And I'm getting over 40 tokens per second [music] using this particular model to get a very decent answer to this JavaScript question that I just asked it."
 ---
 
 # Local AI Explained | Hardware, Setup and Models

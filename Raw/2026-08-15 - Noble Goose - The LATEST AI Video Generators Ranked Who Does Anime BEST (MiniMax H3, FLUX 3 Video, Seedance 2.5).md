@@ -1,19 +1,24 @@
 ---
 title: "The LATEST AI Video Generators Ranked: Who Does Anime BEST? (MiniMax H3, FLUX 3 Video, Seedance 2.5)"
-source: youtube
-url: https://www.youtube.com/watch?v=t6v0U_HnYGY
+source: "youtube"
+url: "https://www.youtube.com/watch?v=t6v0U_HnYGY"
 author: "Noble Goose"
-published: 2026-08-15
-created: 2026-08-24
+published: "2026-08-15"
+created: "2026-08-24"
 duration: "0:11:35"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "engineering"
+  - "local-llm"
+  - "video-gen"
+  - "youtube-strategy"
+summary: "There are three massive new video models out right now and they're changing the game for AI filmmaking. Today we're testing CSD 2.5, MiniMax H3, and Flex 3 video across three challenges ranging from easy to hard to see which model comes out on top. We're going to be scoring all the models on output quality, prompt adherence, as well as value."
 ---
 
 # The LATEST AI Video Generators Ranked: Who Does Anime BEST? (MiniMax H3, FLUX 3 Video, Seedance 2.5)

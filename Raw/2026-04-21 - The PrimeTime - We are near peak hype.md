@@ -1,19 +1,29 @@
 ---
 title: "We are near peak hype"
-source: youtube
-url: https://www.youtube.com/watch?v=rAREqdtUN48
+source: "youtube"
+url: "https://www.youtube.com/watch?v=rAREqdtUN48"
 author: "The PrimeTime"
-published: 2026-04-21
-created: 2026-08-24
+published: "2026-04-21"
+created: "2026-08-24"
 duration: "0:09:46"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "google"
+  - "hardware"
+  - "openai"
+  - "video-gen"
+  - "web-design"
+summary: "It wasn't thought possible that hype could reach this level, but it turns out it is possible. Hype has reached a new level unseen since 2017 Bitcoin era. And no, I'm not talking about Cloud Mythos."
 ---
 
 # We are near peak hype

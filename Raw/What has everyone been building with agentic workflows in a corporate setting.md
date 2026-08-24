@@ -1,20 +1,21 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents]
+domain: "[agentic-engineering, ai-agents]"
 tags:
-  - code-review
-  - harness
-  - orchestration
-  - testing
-source: readwise
-created: 2026-06-23
-rating: 
-action: 
-theme: workflow-phases-gates
+  - "code-review"
+  - "harness"
+  - "orchestration"
+  - "testing"
+  - "clip/video"
+source: "readwise"
+created: "2026-06-23"
+rating:
+action:
+theme: "workflow-phases-gates"
 subtheme:
-  - human-in-loop
-  - plan-phase
+  - "human-in-loop"
+  - "plan-phase"
 ---
 
 # What has everyone been building with agentic workflows in a corporate setting?

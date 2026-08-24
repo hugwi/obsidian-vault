@@ -1,19 +1,26 @@
 ---
 title: "Context as a Variable: The Architecture Killing Context Rot"
-source: youtube
-url: https://www.youtube.com/watch?v=AvIujLlbmks
+source: "youtube"
+url: "https://www.youtube.com/watch?v=AvIujLlbmks"
 author: "Cloud Codes"
-published: 2026-08-12
-created: 2026-08-24
+published: "2026-08-12"
+created: "2026-08-24"
 duration: "0:00:55"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "anthropic"
+  - "context-engineering"
+  - "engineering"
+  - "evaluation"
+  - "harness-engineering"
+summary: "The same model weights scored 30% on Arc AGI 3 and then 95. 12 days apart and nobody retrained anything. What changed was a loop around the model."
 ---
 
 # Context as a Variable: The Architecture Killing Context Rot

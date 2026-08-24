@@ -1,19 +1,26 @@
 ---
 title: "Claude Code is Expensive. This MCP Server Fixes It (Context Mode)"
-source: youtube
-url: https://www.youtube.com/watch?v=QUHrntlfPo4
+source: "youtube"
+url: "https://www.youtube.com/watch?v=QUHrntlfPo4"
 author: "Better Stack"
-published: 2026-03-13
-created: 2026-08-24
+published: "2026-03-13"
+created: "2026-08-24"
 duration: "0:06:09"
 categories:
   - "[[Raw]]"
-action: review
-read: false
+action: "review"
+read: "false"
 rating:
 tags:
-  - clip/video
-  - claude-code
+  - "clip/video"
+  - "claude-code"
+  - "agents"
+  - "context-engineering"
+  - "engineering"
+  - "local-llm"
+  - "mcp"
+  - "video-gen"
+summary: "If you've been coding in Claude code, you've probably experienced context load. The problem is that every MCP tool call in Claude code is ridiculously expensive because every one of these calls dumps its full output directly into the model's 200k context window. And the more tools you have under the tool belt, the faster your context depletes."
 ---
 
 # Claude Code is Expensive. This MCP Server Fixes It (Context Mode)
