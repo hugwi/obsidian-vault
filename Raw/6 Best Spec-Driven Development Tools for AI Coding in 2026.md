@@ -1,7 +1,6 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, design]
 tags:
   - spec-driven
   - ux-ui
@@ -13,6 +12,8 @@ theme: work-breakdown-specs
 subtheme:
   - spec-driven
   - architecture-design
+domain:
+  - agentic-engineering
 ---
 
 # 6 Best Spec-Driven Development Tools for AI Coding in 2026

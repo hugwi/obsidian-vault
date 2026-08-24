@@ -1,7 +1,6 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [design, software-engineering]
 tags:
   - frontend
   - ux-ui
@@ -9,6 +8,10 @@ source: readwise
 created: 2026-06-23
 rating: 
 action: 
+domain:
+  - design
+  - software-engineering
+type: inspiration
 ---
 
 # Discover community-made UI components | 21st

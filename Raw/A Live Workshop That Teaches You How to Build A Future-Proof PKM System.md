@@ -1,7 +1,6 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [design, knowledge-management]
 tags:
   - pkm
   - productivity
@@ -10,6 +9,8 @@ source: readwise
 created: 2026-06-23
 rating: 
 action: 
+domain:
+  - knowledge-management
 ---
 
 # A Live Workshop That Teaches You How to Build A Future-Proof PKM System

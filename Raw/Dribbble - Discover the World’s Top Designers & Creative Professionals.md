@@ -1,13 +1,15 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [design]
 tags:
   - ux-ui
 source: readwise
 created: 2026-06-23
 rating: 
 action: 
+domain:
+  - design
+type: inspiration
 ---
 
 # Dribbble - Discover the World’s Top Designers & Creative Professionals

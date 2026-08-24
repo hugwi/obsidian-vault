@@ -1,7 +1,6 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, design, product-business]
 tags:
   - context-management
   - startup
@@ -14,6 +13,9 @@ theme: context-engineering
 subtheme:
   - retrieval-rag
   - context-window
+domain:
+  - agentic-engineering
+  - product-business
 ---
 
 # AI’s trillion-dollar opportunity: Context graphs

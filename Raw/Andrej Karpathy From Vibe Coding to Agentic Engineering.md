@@ -1,13 +1,14 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [design]
 tags:
   - ux-ui
 source: readwise
 created: 2026-06-23
 rating: 
 action: 
+domain:
+  - agentic-engineering
 ---
 
 # Andrej Karpathy: From Vibe Coding to Agentic Engineering

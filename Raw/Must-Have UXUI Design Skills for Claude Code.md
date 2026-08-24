@@ -1,7 +1,6 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [ai-agents, design]
 tags:
   - tools
   - ux-ui
@@ -9,6 +8,10 @@ source: readwise
 created: 2026-06-23
 rating: 
 action: 
+domain:
+  - ai-agents
+  - design
+type: skill
 ---
 
 # Must-Have UX/UI Design Skills for Claude Code

@@ -123,6 +123,12 @@ Do **not** add a redundant `title:` — the filename is the title.
 - **Web clip template**: `Templates/web-clip-template.md`
 - **Project workflow**: `Project workflow.md` (root) + `Templates/Project Template.md`
 - **Design inspiration**: `Inspiration.md` (root) + `Templates/Bases/Inspiration.base`
+- **Design**: hub `Design.md` (root) + `Templates/Bases/Design.base` · subpages
+  `AI Design.md` (design × agents), `Design Fundamentals.md` (tool-agnostic craft),
+  `Inspiration.md` (taste library). Everything design carries `domain: design` — there
+  is no `design` tag. Design notes also carry `type:`
+  (`article | video | skill | tool | inspiration | note`), and `rating:` is left blank
+  for the user to set. `published:` is backfilled only where the source exposes it.
 
 ## Raw triage props
 Every note in `Raw/` carries two extra props for triage:

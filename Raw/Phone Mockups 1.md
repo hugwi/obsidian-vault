@@ -1,10 +1,8 @@
 ---
-type: "inspiration"
 title: "Phone Mockups 1 | Community Components"
 categories:
   - "[[Raw]]"
 project:
-domain: "design"
 source_url: "https://21st.dev/@solaceui/components/phone-mockups-1"
 platform: "21st.dev"
 thumbnail_url: "https://21st.dev/api/og/component/solaceui/phone-mockups-1"
@@ -38,6 +36,9 @@ tags:
   - "web-design"
   - "ui"
   - "ux"
+domain:
+  - design
+type: inspiration
 ---
 # Phone Mockups 1 | Community Components
 

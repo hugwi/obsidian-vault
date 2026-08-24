@@ -1,7 +1,6 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents, design]
 tags:
   - harness
   - orchestration
@@ -14,6 +13,9 @@ action:
 theme: workflow-phases-gates
 subtheme:
   - harness-loops
+domain:
+  - agentic-engineering
+  - ai-agents
 ---
 
 # # Skill Issue: Harness Engineering for Coding Agents

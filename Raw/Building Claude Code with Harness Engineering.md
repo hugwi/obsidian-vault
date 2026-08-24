@@ -1,7 +1,6 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, design]
 tags:
   - claude-code
   - harness
@@ -16,6 +15,8 @@ subtheme:
   - harness-loops
   - plan-phase
   - durable-execution
+domain:
+  - agentic-engineering
 ---
 
 # Building Claude Code with Harness Engineering

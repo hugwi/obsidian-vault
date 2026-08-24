@@ -1,7 +1,6 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [design, software-engineering]
 tags:
   - patterns
   - ux-ui
@@ -9,6 +8,8 @@ source: readwise
 created: 2026-06-23
 rating: 
 action: 
+domain:
+  - software-engineering
 ---
 
 # Adapter and Facade Patterns

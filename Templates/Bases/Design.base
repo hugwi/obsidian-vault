@@ -5,49 +5,38 @@ filters:
 properties:
   file.name:
     displayName: Note
-  theme:
-    displayName: Theme
-  subtheme:
-    displayName: Sub-theme
-  file.tags:
-    displayName: Tags
+  type:
+    displayName: Type
+  stars:
+    displayName: Stars
   rating:
     displayName: Rating
-  action:
-    displayName: Action
-  platform:
-    displayName: Platform
-  thumbnail_url:
-    displayName: Thumbnail
+  published:
+    displayName: Published
+  created:
+    displayName: Added
   source:
     displayName: Source
 views:
   - type: table
-    name: 📐 Method & toolkit
-    filters:
-      and:
-        - file.folder == ""
-        - file.tags.contains("design-automation")
+    name: All design
     order:
       - file.name
-      - theme
-      - subtheme
-      - file.tags
-  - type: table
-    name: 🛠 Tools & skills
-    filters:
-      and:
-        - file.folder == "Raw"
-        - or:
-            - file.tags.contains("skills")
-            - file.tags.contains("claude-code")
-    order:
-      - file.name
+      - type
+      - stars
       - rating
-      - action
+      - published
+      - created
       - source
+    sort:
+      - property: rating
+        direction: DESC
+      - property: published
+        direction: DESC
+      - property: created
+        direction: DESC
     columnSize:
-      file.name: 500
+      file.name: 480
   - type: cards
     name: 🖼 Inspiration
     filters:
@@ -58,45 +47,3 @@ views:
       - platform
       - rating
     image: thumbnail_url
-  - type: table
-    name: 🎨 Craft references
-    filters:
-      and:
-        - file.folder == "Raw"
-        - '!file.tags.contains("skills")'
-    order:
-      - file.name
-      - rating
-      - action
-      - source
-    columnSize:
-      file.name: 555
-  - type: table
-    name: 🔨 To implement
-    filters:
-      and:
-        - action == "implement"
-    order:
-      - file.name
-      - rating
-      - subtheme
-  - type: table
-    name: ⭐ Top rated
-    filters:
-      and:
-        - rating >= 5
-    order:
-      - file.name
-      - rating
-      - action
-    sort:
-      - property: rating
-        direction: DESC
-  - type: table
-    name: All design notes
-    order:
-      - file.name
-      - theme
-      - subtheme
-      - rating
-      - action

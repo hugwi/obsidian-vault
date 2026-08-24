@@ -1,10 +1,8 @@
 ---
-type: "inspiration"
 title: "Hotel Management Dashboard UI Design"
 categories:
   - "[[Raw]]"
 project:
-domain: "design"
 source_url: "https://dribbble.com/shots/27072001-Hotel-Management-Dashboard-UI-Design"
 platform: "dribbble.com"
 thumbnail_url: "https://cdn.dribbble.com/userupload/46686851/file/875e4b53fe3fcff735ea193a76005e44.png?resize=1600x1200"
@@ -32,6 +30,9 @@ tags:
   - "web-design"
   - "ui"
   - "ux"
+domain:
+  - design
+type: inspiration
 ---
 # Hotel Management Dashboard UI Design
 

@@ -1,7 +1,6 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, design, software-engineering]
 tags:
   - frontend
   - skills
@@ -13,6 +12,11 @@ action:
 theme: human-ux-frontend
 subtheme:
   - design-systems-ui
+domain:
+  - agentic-engineering
+  - design
+  - software-engineering
+type: skill
 ---
 
 # Top 8 Claude Skills for UI/UX Engineers

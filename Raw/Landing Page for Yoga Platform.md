@@ -1,9 +1,7 @@
 ---
-type: inspiration
 title: Landing Page for Yoga Platform
 categories:
   - "[[Raw]]"
-domain: design
 source_url: https://dribbble.com/shots/24325045-Landing-Page-for-Yoga-Platform
 platform: dribbble.com
 thumbnail_url: https://cdn.dribbble.com/userupload/15023900/file/original-ccf7358e67c02f6c2b8b2aae66554e49.png?resize=1600x1200&vertical=center
@@ -25,6 +23,9 @@ tags:
   - ui
   - ux
   - landing-page
+domain:
+  - design
+type: inspiration
 ---
 
 # Landing Page for Yoga Platform

@@ -1,7 +1,6 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [ai-agents, design]
 tags:
   - tools
   - ux-ui
@@ -9,6 +8,11 @@ source: readwise
 created: 2026-06-23
 rating: 
 action: 
+domain:
+  - ai-agents
+  - design
+type: video
+published: 2026-05-03
 ---
 
 # Open Design is Here: The Open-Source Claude Code Design Alternative

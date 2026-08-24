@@ -1,7 +1,6 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, design]
 tags:
   - claude-code
   - skills
@@ -13,6 +12,10 @@ action:
 theme: human-ux-frontend
 subtheme:
   - design-systems-ui
+domain:
+  - agentic-engineering
+  - design
+type: skill
 ---
 
 # 7 Claude Code Design Skills That Follow a Real Design Process

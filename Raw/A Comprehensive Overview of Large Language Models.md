@@ -1,7 +1,6 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [ai-agents, design]
 tags:
   - models
   - ux-ui
@@ -9,6 +8,8 @@ source: readwise
 created: 2026-06-23
 rating: 
 action: 
+domain:
+  - ai-agents
 ---
 
 # A Comprehensive Overview of Large Language Models

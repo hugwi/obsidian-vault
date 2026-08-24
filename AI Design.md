@@ -2,11 +2,11 @@
 created: 2026-08-23
 categories:
   - "[[Resources]]"
-domain: design
 project: "[[Blog ideas]]"
 theme: human-ux-frontend
 subtheme:
   - design-systems-ui
+  - skill-tool-extension
   - browser-automation
 tags:
   - agentic-engineering
@@ -14,19 +14,65 @@ tags:
   - design-automation
   - frontend
   - web-design
+  - skills
   - claude-code
   - workflow
+domain:
+  - agentic-engineering
+  - design
+type: note
 ---
 
-# Designing with Agents — A Working Method
+# AI Design
 
-> Hub: [[Design with Agents]] · inventory companion: [[Frontend and UI-UX Design — Agent Toolkit]]
+> Hub: [[Design]] · human-side craft: [[Design Fundamentals]] · taste library: [[Inspiration]]
 
-[[Frontend and UI-UX Design — Agent Toolkit]] is the inventory: every skill, plugin, and
-MCP the vault has clipped. This note is the other altitude — how those pieces chain into
-**one pipeline**, stage by stage, so a session doesn't start from a blank prompt every
-time. Written for [[Blog ideas]] Idea 1 (reducing AI UX/UI slop) and the [[Netlight]]
-UX/UI audit offer; sits alongside [[Agentic Engineering]]'s `human-ux-frontend` theme.
+The cross-section: **design × agents**. How to get an agent to produce frontend that
+doesn't look agent-made — the method, and the inventory of tools it draws on. Written
+for [[Blog ideas]] Idea 1 (reducing AI UX/UI slop) and the [[Netlight]] UX/UI audit
+offer; it is [[Agentic Engineering]]'s `human-ux-frontend` theme read end to end.
+
+Anything tool-agnostic — Kennedy's rules, button anatomy, native-feel guides — lives in
+[[Design Fundamentals]] instead.
+
+---
+
+## 0. The two source articles
+
+Almost everything below traces back to these two. Read them first; both are unpacked
+step by step in §2 and §4.
+
+**[[7 Claude Code Design Skills That Follow a Real Design Process]]** — Julian
+Oczkowski, 29 years across Adobe/IBM/Danone as IC, design manager and dev team lead.
+Readwise clip, 2026-06-23. **A process**: seven sequential Claude Code skills
+(`npx skills add julianoczkowski/designer-skills`), Grill Me through Design Review.
+The line worth stealing whole: *AI is not replacing the tool, it is replacing the
+process* — prompt-and-pray gives you **faster chaos**.
+
+**[[Turn Claude Into A Design GENIUS In 3 Simple Steps]]** — `@devanshsharma6865`,
+YouTube transcript, 2026-07-23. **A taste-and-iteration loop**: cultivate a personal
+taste library → pick flexible skills and MCPs (where Impeccable comes from, §5) → run
+the anti-one-shot 5 → 3 → tweak-bar sequence. Its diagnosis is the sharper one — the
+failure is not technical, it is *generic*.
+
+### Why both, and where they disagree
+
+They are not two versions of the same advice, and the gap between them is the point.
+
+| | 7 skills | 3 steps |
+|---|---|---|
+| Shape | Sequential gates, one path | Parallel variants, then converge |
+| Fixes slop by | Removing the freedom to invent | Supplying taste worth imitating |
+| Weak spot | Nothing supplies the taste the brief asks for | No requirements gate before building |
+| Design review | Step 7, automated via Playwright MCP | The tweak bar, human-driven |
+
+Each covers the other's gap, which is why the method below merges them instead of
+picking one: the seven-step spine (§2), with the 5 → 3 → tweak funnel dropped in where
+the build step sits (§3).
+
+---
+
+# Part I — The method
 
 ## The spine
 
@@ -46,7 +92,7 @@ inputs to the build step are no longer empty.
 
 ---
 
-## A. Stage 1 — Taste: two different mechanisms, don't conflate them
+## 1. Stage 1 — Taste: two different mechanisms, don't conflate them
 
 **Extraction from a live site** pulls a specific site's DNA into a report you build
 from. Two tools clipped, both with open questions:
@@ -75,10 +121,10 @@ collecting, not extracting:
 **The vault's own taste library already exists and is the bottleneck.** The
 "Inspiration - Media" Web Clipper template writes `type: inspiration` clips into `Raw/`
 (remote URLs only, rendered by `Templates/Scripts/remote-media`), feeding [[Inspiration]].
-**Currently 3 clips.** Every later stage in this pipeline assumes a taste library with
-real coverage — divergence needs multiple aesthetic families to draw from, convergence
-needs reference images to match a feel against. Three clips can't supply that. This is
-the single most actionable gap in the whole method.
+Every later stage in this pipeline assumes a taste library with real coverage —
+divergence needs multiple aesthetic families to draw from, convergence needs reference
+images to match a feel against. This is the single most actionable gap in the whole
+method.
 
 **The taste-library-as-app idea** (from the design-genius clip, step 1): don't just
 collect screenshots — build a small app around them. Group by design type, store the
@@ -98,13 +144,12 @@ never means cloning a product's actual functionality, only its surface.
 
 ---
 
-## B. Stage 2 — The seven-skill design process
+## 2. Stage 2 — The seven-skill design process
 
-Source: [[7 Claude Code Design Skills That Follow a Real Design Process]] — Julian
-Oczkowski, 29 years across Adobe/IBM/Danone as IC, design manager, and dev team lead.
-His framing, worth stealing whole: **AI is not replacing the tool, it is replacing the
-process** — and skipping straight to "type a prompt, watch code appear" is how you get
-**faster chaos**. These seven Claude Code skills (`npx skills add
+Source: [[7 Claude Code Design Skills That Follow a Real Design Process]]. His framing,
+worth stealing whole: **AI is not replacing the tool, it is replacing the process** —
+and skipping straight to "type a prompt, watch code appear" is how you get **faster
+chaos**. These seven Claude Code skills (`npx skills add
 julianoczkowski/designer-skills`) encode a professional design process end to end.
 
 1. **Grill Me** — relentless requirements interrogation before any code is written,
@@ -144,7 +189,7 @@ actual difference between this and "build me a dashboard."
 
 ---
 
-## C. Stage 3+4 — The 5 → 3 → tweak bar sequence
+## 3. Stage 3+4 — The 5 → 3 → tweak bar sequence
 
 Source: [[Turn Claude Into A Design GENIUS In 3 Simple Steps]], step 3. This is the
 deliberately anti-one-shot funnel: you cannot judge a design direction from a single
@@ -179,7 +224,7 @@ chosen wastes the generation on a direction you might not keep.
 **The four things every design prompt carries**, regardless of stage:
 1. **Aesthetic** — the general design family being targeted.
 2. **Reference image or live URL** — pulled from the taste library; match the *feel*,
-   never the content (this is the reference/replication line from section A again).
+   never the content (this is the reference/replication line from §1 again).
 3. **Intent** — what is this, who is it for, what should they do (read everything and
    leave? click through? fill a form?).
 4. **Guardrails** — the never-list: no purple gradients, no Inter, no 3D SaaS blobs, etc.
@@ -190,20 +235,18 @@ something different. The clip rates Impeccable and taste-skill above the narrowe
 skills, above Anthropic's own `frontend-design`, and above `ui-ux-pro-max`, *specifically
 because they're not prescriptive*. The trade-off is real, though: being flexible means
 output quality falls back entirely on your prompting and your taste library — the tool
-won't compensate for either being thin. See
-[[Frontend and UI-UX Design — Agent Toolkit]] §1 for the full Impeccable/taste-skill
-writeup.
+won't compensate for either being thin. Full writeup in §5.
 
 ---
 
-## D. Stage 5 — Verification and best practices
+## 4. Stage 5 — Verification and best practices
 
 Design skills without a feedback loop just relocate the slop. Verification closes the
 loop with something other than a vibe check.
 
 **The review loop.** Playwright MCP headless browser opens the app, navigates every
 page, screenshots each, then the design-review skill runs against the screenshots
-autonomously (step C7 above) — catching sparse layouts, wrong ordering, missing dark
+autonomously (step 7 of §2) — catching sparse layouts, wrong ordering, missing dark
 mode, accessibility gaps, and proposing/applying fixes. **Lighthouse** is the numeric
 gate on top of that: the seven-skill process reported 91 performance / 100
 accessibility as the target range.
@@ -249,18 +292,117 @@ worth adopting verbatim as a house gate regardless of which skill built the page
 - `prefers-reduced-motion` respected
 - Responsive at 375 / 768 / 1024 / 1440
 
-**Impeccable as the polish/critique pass.** Not a generator — a *transform* over
-existing UI, which is why it belongs at verification rather than at build time: 23
-commands (`bolder`, `overdrive`, `clarify`, quieter, critique, polish, …), 46 catalogued
-slop patterns across seven axes (typography, colour, spatial design, responsiveness,
-interaction, motion, UX writing), a CLI that scans a codebase against the pattern list
-and renders findings on a dev server, plus a **live mode** for clicking through the site
-component by component and adjusting in place. Sibling: **taste-skill**
-(`npx skills add https://github.com/Leonxlnx/taste-skill`) — same job (strip AI tells,
-push layout/typography/motion/spacing), different hand. See
-[[Frontend and UI-UX Design — Agent Toolkit]] §1 for both in full.
+**Other ways to see the result:**
 
-**Anthropic's `frontend-design` conventions worth adopting as house rules**, independent
+- [[web-infra-devmidscene AI-powered, vision-driven UI automation for every platform.]] —
+  vision-driven UI automation across platforms.
+- [[browser-usebrowser-use 🌐 Make websites accessible for AI agents. Automate tasks online with ease.]]
+- [[Automating e2e manual labor with Claude Code]] — plain-English E2E; good for complex
+  flows, slower and costlier than traditional runners.
+- [[firstloophqclaude-code-test-runner An automated E2E natural language test runner built on Claude Code]]
+- [[Introducing visual-plan - rich plans for Claude Code + Codex]] — interactive visual
+  plans and PR recaps; catches design mistakes before the build.
+- [[Agents on the Canvas in tldraw — Steve Ruiz, tldraw]] — agents working on a canvas
+  rather than in text.
+- [[penpotpenpot Penpot The open-source design tool for design and code collaboration]] —
+  open-source design/code collaboration if a real design file is ever needed.
+
+---
+
+# Part II — The toolkit
+
+## 5. Impeccable — the front-end design skill
+
+Source: [[Turn Claude Into A Design GENIUS In 3 Simple Steps]] (step 2).
+
+- `impeccable.style` · open source (Apache-2.0) · `pbakaus/impeccable`. Ships a CLI.
+  > **Verified against the installed package, 2026-08-24** — the clip's figures have
+  > aged. Now **61.9k stars**, version **4.1.1**, and **59** detector rules rather than
+  > the 46 slop patterns the clip quotes. The 23 commands and seven axes still hold.
+  > Install: `npx impeccable install` (needs Node ≥ 22.12), then `/impeccable init`.
+- **One skill, 23 commands** that transform existing UI rather than generate it:
+  `bolder` ("pushes safe designs towards impact without sliding into chaos"),
+  `overdrive`, `clarify`, plus critique/polish/quieter variants.
+- Targets slop across **seven axes**: typography, colour, spatial design,
+  responsiveness, interaction, motion, UX writing.
+- The CLI scans a codebase against the detector rules and renders findings on a dev
+  server. Exit code `2` when findings exist, `0` when clean — so it works as a gate.
+- **Live mode**: bring the site up, click component by component, adjust in place —
+  Claude-design-like, but visual instead of terminal-only.
+
+It belongs at *verification* rather than build time: it is a transform over existing UI,
+not a generator.
+
+**Sibling: taste-skill** (v2, experimental, ~66k stars) — same job, different hand:
+strips AI tells, pushes layout, typography, motion, spacing. Install
+`npx skills add https://github.com/Leonxlnx/taste-skill`
+([[Must-Have UXUI Design Skills for Claude Code]]).
+
+The clip's own verdict: Impeccable and taste-skill are the two worth having *because
+they are flexible, not prescriptive*. Both rated above Anthropic's own `frontend-design`
+and above `ui-ux-pro-max`.
+
+---
+
+## 6. Imitating a website
+
+Three different mechanisms in the vault, in decreasing order of fidelity:
+
+**Design Extract** (Claude Code plugin) — [[3 New Claude Code Repos Will 100x Your Next Project]].
+The strongest evidence for "imitate any site". It pulls from a target URL:
+
+- components in use and how to rebuild them
+- **motion language** — the scroll-driven animation behaviour, which the clip claims
+  no other tool extracts
+- brand voice, responsive behaviour, interaction states (hover / focus / active)
+- output is a full report you build from, not a code dump
+
+*Unverified:* the clip is a YouTube Short and never gives the repo URL. Confirm the
+actual repository before installing.
+
+**AIDesigner reference modes** — [[AIDesigner]]. MCP + agent-skills package
+(`npx -y @aidesigner/agent-skills init`, hosts: Claude Code default, Cursor, Codex).
+Takes a `mode` of `inspire` | `clone` | `enhance` with a required `url`, via MCP param
+or `--mode`/`--url` on the CLI. Marked *coming soon* in the clipped docs — check
+whether it shipped.
+
+**Reference-by-prompt** — the low-tech version, and the one the design-genius clip
+actually endorses: drop screenshots *and live URLs* into the prompt and ask to match
+the **feel**, not the content. Explicitly framed as not copying. Applies to body
+layout as much as heroes — "Claude can see it, apply that formatting to my page."
+
+> Positioning note for [[Blog ideas]]: extract-and-rebuild is exactly the mechanism
+> that manufactures gen-2 slop at scale. The interesting essay line is *reference vs.
+> replication* — same tool, and only the intent differs.
+
+---
+
+## 7. Skill landscape
+
+| Skill / collection | Source | What it adds |
+|---|---|---|
+| **Impeccable** | impeccable.style, 61.9k★ | 23 transform commands, 59 detector rules, CLI + live mode |
+| **taste-skill** | Leonxlnx/taste-skill, ~66k★ | Anti-slop layout, type, motion, spacing |
+| **frontend-design** (Anthropic) | anthropics/skills · anthropics/claude-code | The official anti-slop brief |
+| **web-design-guidelines** (Vercel) | vercel-labs/agent-skills, MIT | 100+ design principles; triggers on "review my UI", "check accessibility" |
+| **react-best-practices**, **composition-patterns**, **react-native-skills** | vercel-labs/agent-skills, MIT | Performance, component architecture, mobile |
+| **ui-ux-pro-max** | nextlevelbuilder, MIT | v2 **Design System Generator** — pattern, style, palette, type pairing, effects, anti-patterns, pre-delivery checklist |
+| **Designer Skills Collection** | Owl-Listener/designer-skills, MIT | **63 skills + 27 commands in 8 plugins**: research, systems, strategy, UI, interaction, prototyping/testing, design ops, toolkit |
+| **bencium UX designer** | bencium/…-design-skill | Two SKILL.md files: controlled + innovative UX designer |
+| **AccessLint plugin** | accesslint/claude-marketplace, MIT | `contrast-checker`, `refactor`, `use-of-color`, `link-purpose` |
+| **shadcn-ui** | developer-kit@shadcn-ui | Component-library fluency (Radix + Tailwind) |
+| **ui-animation** | — | Motion, easing, timing, reduced-motion, framer-motion, springs |
+| **AIDesigner** | aidesigner.ai | MCP: generate / refine / preview UI in-repo, stack-aware |
+| **Open Design** | Next.js 16 app, self-hosted | Open-source Claude-design alternative |
+
+Refs: [[Top 8 Claude Skills for UIUX Engineers]] ·
+[[Must-Have UXUI Design Skills for Claude Code]] ·
+[[I Built 63 Design Skills For Claude - and They're Free]] ·
+[[nextlevelbuilderui-ux-pro-max-skill An AI SKILL that provide design intelligence for building professional UIUX multiple platforms]] ·
+[[Open Design is Here The Open-Source Claude Code Design Alternative]] ·
+[[AIDesigner]]
+
+**Anthropic `frontend-design` conventions worth adopting as house rules**, independent
 of whether that specific skill built the page:
 - Banned fonts: Inter, Roboto, Arial, system fonts, Space Grotesk ("overused by AI")
 - Four pre-code decisions: purpose, tone, constraints, differentiation
@@ -268,61 +410,78 @@ of whether that specific skill built the page:
 - One orchestrated page-load moment beats scattered micro-interactions
 - Asymmetric, grid-breaking composition over safe centred layouts
 
-**Security caveat, applies to every skill named in this note.** Snyk's *ToxicSkills*
-research found prompt injection in **36% of skills tested** and **1,467 malicious
-payloads** across the ecosystem. Read `SKILL.md` and any bundled scripts before
-installing — this applies as much to Grill Me / Design Extract / ui-ux-pro-max as to
-anything unfamiliar. See [[Top 8 Claude Skills for UIUX Engineers]] for the fuller
-install-hygiene checklist (check the source, review `allowed-tools`, scan with Snyk if
-available).
+⚠️ **Supply chain.** Snyk's *ToxicSkills* research found prompt injection in **36% of
+skills tested** and **1,467 malicious payloads** across the ecosystem. Read `SKILL.md`
+and any bundled scripts before installing — this applies as much to Grill Me / Design
+Extract / ui-ux-pro-max as to anything unfamiliar. See
+[[Top 8 Claude Skills for UIUX Engineers]] for the fuller install-hygiene checklist
+(check the source, review `allowed-tools`, scan with Snyk if available).
 
 ---
 
-## E. Craft references worth knowing independent of any tool
+## 8. Taste library — the thing that actually differentiates
 
-These don't chain into the pipeline the way A–D do — they're the human-side judgment
-the tools are trying to encode, worth reading once regardless of tooling:
+"AI has no taste." The counter is a **curated inspiration library**: screenshot from
+Dribbble, Pinterest, X; group by design type; store vocabulary/keywords per item plus a
+copyable image prompt and a copyable brief. Then point the agent at the library instead
+of at the average of the web.
 
-- [[7 Rules for Creating Gorgeous UI]] (Erik Kennedy) — light comes from the sky
-  (shadows tell the brain what it's looking at), design in black-and-white first before
-  color, double your whitespace.
-- [[Every UIUX Concept Explained in Under 10 Minutes]] (Kole Jain) — containers as
-  affordance signifiers, hierarchy through size/position/color, four-point spacing grids,
-  one font family per design, every interaction needs a response state.
-- [[UX UI tips A guide to creating buttons]] (Sarah Edwards) — button anatomy (corner
-  radius, padding, safe space, shadow), the full state set (default/hover/pressed/focused/
-  disabled), minimum 10mm×10mm tap targets, WCAG contrast on button text.
+This already exists in the vault: [[Inspiration]] + the **Inspiration - Media** Web
+Clipper template writing `type: inspiration` clips into `Raw/` (remote URLs only,
+rendered by `Templates/Scripts/remote-media`).
+
+Component-level inspiration: [[Discover community-made UI components 21st]] (21st.dev —
+copy-prompt per component: buttons, cards, pricing, heroes, shaders),
+[[React Components, Templates & Themes — 12,000+ Crafted UI]], [[142 JavaScript Text Effects]].
+
+Also in the vault: [[Claude Code Just Killed $10,000 Websites (Here’s Proof)]] — the
+four-step hype version (Claude Code + framer-motion + ui-ux-pro-max + 21st.dev). Kept as
+an artefact of the genre, not as guidance.
 
 ---
 
-## F. Putting it together — one recipe for tomorrow
+## 9. One recipe for tomorrow
 
 1. **Grow the taste library first**, or the rest is theatre. Screenshot from Dribbble /
    Pinterest / X, group by type, note vocabulary, generate a copyable prompt + brief per
-   item (§A). If you have a specific site to match, run it through Design Extract or
-   drop the URL directly into the prompt (§A) — verify Design Extract's repo before
-   relying on it.
+   item (§1). If you have a specific site to match, run it through Design Extract or
+   drop the URL directly into the prompt (§6) — verify Design Extract's repo first.
 2. **Run Grill Me → Design Brief → IA → Tokens → Brief-to-Tasks** before any component
-   gets built (§B 1–5). This is the artefact set that makes step 3 below possible.
-3. **Diverge**: five aesthetics, one screen, compare (§C). Pick one.
+   gets built (§2, 1–5). This is the artefact set that makes step 3 possible.
+3. **Diverge**: five aesthetics, one screen, compare (§3). Pick one.
 4. **Converge**: three layout variants of the winner, pick one, then build a tweak bar
-   into the dev server for fonts/colour/motion/imagery instead of re-prompting (§C).
+   into the dev server for fonts/colour/motion/imagery instead of re-prompting (§3).
    Generate hero/asset imagery only now that the direction is locked.
-5. **Build** (§B6) — the skill has a brief, tokens, IA, and a task list to execute
-   against.
-6. **Verify**: Playwright screenshot review + Lighthouse (§B7, §D), then a slop pass
-   with Impeccable or taste-skill and the pre-delivery checklist (§D).
+5. **Build** (§2, step 6) — the skill has a brief, tokens, IA, and a task list to
+   execute against.
+6. **Verify**: screenshot review + Lighthouse (§4), then a slop pass with Impeccable or
+   taste-skill and the pre-delivery checklist (§4, §5).
 
 | Need | Reach for |
 |---|---|
-| A direction, from nothing | Taste library (§A) + 5-way divergence (§C) |
-| To match one specific site's feel | Design Extract or drop the live URL/screenshot directly into the prompt (§A) |
+| A direction, from nothing | Taste library (§1) + 5-way divergence (§3) |
+| To match one specific site's feel | Design Extract or drop the live URL/screenshot into the prompt (§6) |
 | Components (buttons, cards, pricing, heroes) | 21st.dev copy-prompt, shadcn-ui |
-| It to stop looking AI-made | Impeccable or taste-skill as a transform pass (§D) |
-| A design system from a one-line brief | ui-ux-pro-max Design System Generator |
-| Proof, not vibes | Playwright *or* `chrome-devtools` MCP + Lighthouse + perf trace + the pre-delivery checklist (§D) |
+| It to stop looking AI-made | Impeccable or taste-skill as a transform pass (§5) |
+| A design system from a one-line brief | ui-ux-pro-max Design System Generator (§7) |
+| Proof, not vibes | Playwright *or* `chrome-devtools` MCP + Lighthouse + perf trace + the pre-delivery checklist (§4) |
+| Human design fundamentals | [[Design Fundamentals]] |
 
 ---
+
+## 10. Where this lands
+
+- **[[Blog ideas]] Idea 1** — the anti-slop tooling above *is* the constructive half of
+  that post. Impeccable's detector rules and seven axes are a ready-made checklist to
+  hand readers; the ui-ux-pro-max anti-pattern list ("no AI purple/pink gradients, no
+  harsh animations, no emojis as icons") is a second, independent one. The gen-3 motion
+  thesis is directly testable against `ui-animation` and Impeccable's motion axis.
+- **[[Netlight]] UX/UI audits** — an audit needs a rubric. Candidate rubric = Impeccable's
+  7 axes + Vercel's 100+ guidelines + AccessLint contrast/colour/link checks + the
+  pre-delivery checklist (contrast 4.5:1, visible focus, `prefers-reduced-motion`,
+  breakpoints at 375/768/1024/1440). Positioning still open vs. [[AI Transformation]].
+- **[[Agentic Engineering]]** — this is the `theme: human-ux-frontend` slice, read
+  end-to-end instead of one clip at a time.
 
 ## Open questions
 
@@ -333,7 +492,7 @@ the tools are trying to encode, worth reading once regardless of tooling:
       soon" in the clipped docs — check whether they've shipped.
 - [ ] **Impeccable vs. taste-skill** — every clip compares them side by side and none
       concludes. Install both, run them on the same page, decide.
-- [ ] [[Inspiration]] has **3 clips**. Every stage in this method assumes a real taste
-      library exists; grow it before judging whether any of the rest of this pays off.
+- [ ] Grow [[Inspiration]] before judging whether any of the rest of this pays off —
+      every stage assumes a real taste library exists.
 - [ ] Audit any skill named here against the ToxicSkills findings (36% prompt-injection
       rate in the tested set) before installing, not after.

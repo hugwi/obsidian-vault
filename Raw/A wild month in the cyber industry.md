@@ -1,7 +1,6 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, design]
 tags:
   - metrics
   - ux-ui
@@ -13,6 +12,8 @@ theme: workflow-phases-gates
 subtheme:
   - event-driven
   - harness-loops
+domain:
+  - agentic-engineering
 ---
 
 # A wild month in the cyber industry

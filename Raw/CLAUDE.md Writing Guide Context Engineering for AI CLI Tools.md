@@ -1,7 +1,6 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, design]
 tags:
   - context-management
   - skills
@@ -16,6 +15,8 @@ subtheme:
   - system-prompt-rules
   - compaction-caching
   - memory-persistence
+domain:
+  - agentic-engineering
 ---
 
 # CLAUDE.md Writing Guide: Context Engineering for AI CLI Tools

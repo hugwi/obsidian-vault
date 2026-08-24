@@ -1,7 +1,6 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents, design]
 tags:
   - claude-code
   - orchestration
@@ -16,6 +15,9 @@ subtheme:
   - skill-tool-extension
   - coordinator-patterns
   - parallel-fan-out
+domain:
+  - agentic-engineering
+  - ai-agents
 ---
 
 # Built a multi-agent skill for Claude Code - routes tasks to 6 different AI models based on what each does best

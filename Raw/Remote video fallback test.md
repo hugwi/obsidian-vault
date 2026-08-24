@@ -1,9 +1,7 @@
 ---
-type: inspiration
 title: Remote video fallback test
 categories:
   - "[[Raw]]"
-domain: design
 source_url: https://dribbble.com/shots/popular
 platform: dribbble.com
 thumbnail_url: 
@@ -24,6 +22,9 @@ tags:
   - web-design
   - ui
   - ux
+domain:
+  - design
+type: inspiration
 ---
 
 # Remote video fallback test

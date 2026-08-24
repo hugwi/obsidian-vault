@@ -1,7 +1,6 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, design]
 tags:
   - claude-code
   - skills
@@ -14,6 +13,8 @@ theme: multi-agent-orchestration
 subtheme:
   - skill-tool-extension
   - sub-agents
+domain:
+  - agentic-engineering
 ---
 
 # AI Sorcery: Demo of a Claude Code Plugin

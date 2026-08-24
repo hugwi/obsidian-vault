@@ -1,7 +1,6 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, design]
 tags:
   - skills
   - ux-ui
@@ -12,6 +11,10 @@ action:
 theme: multi-agent-orchestration
 subtheme:
   - skill-tool-extension
+domain:
+  - agentic-engineering
+  - design
+type: skill
 ---
 
 # I Built 63 Design Skills For Claude - and They're Free

@@ -1,9 +1,7 @@
 ---
-type: inspiration
 title: Remote video test
 categories:
   - "[[Raw]]"
-domain: design
 source_url: https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/
 platform: commondatastorage.googleapis.com
 thumbnail_url: https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg
@@ -18,6 +16,9 @@ tags:
   - web-design
   - ui
   - ux
+domain:
+  - design
+type: inspiration
 ---
 
 # Remote video test

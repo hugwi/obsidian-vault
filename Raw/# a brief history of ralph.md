@@ -1,7 +1,6 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, design, knowledge-management]
 tags:
   - context-management
   - productivity
@@ -16,6 +15,9 @@ theme: workflow-phases-gates
 subtheme:
   - plan-phase
   - harness-loops
+domain:
+  - agentic-engineering
+  - knowledge-management
 ---
 
 # # a brief history of ralph

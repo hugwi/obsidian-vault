@@ -1,7 +1,6 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, design]
 tags:
   - claude-code
   - efficiency
@@ -16,6 +15,8 @@ theme: productivity-measurement
 subtheme:
   - cost-optimization
   - technical-debt
+domain:
+  - agentic-engineering
 ---
 
 # 3 New Claude Code Repos Will 100x Your Next Project

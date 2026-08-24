@@ -1,7 +1,6 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, design, software-engineering]
 tags:
   - code-quality
   - patterns
@@ -15,6 +14,9 @@ subtheme:
   - code-review-gates
   - automated-tests
   - verification-loops
+domain:
+  - agentic-engineering
+  - software-engineering
 ---
 
 # Agentic AI Coding: Best Practice Patterns for Speed with Quality

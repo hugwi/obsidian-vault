@@ -1,9 +1,7 @@
 ---
-type: "inspiration"
 title: "Financial Dashboard - B2B Sales Pipeline & Revenue Tracking"
 categories:
   - "[[Raw]]"
-domain: "design"
 source_url: "https://dribbble.com/shots/27606181-Financial-Dashboard-B2B-Sales-Pipeline-Revenue-Tracking"
 platform: "dribbble.com"
 thumbnail_url: "https://cdn.dribbble.com/userupload/48556246/file/08515bfa69a616df29fc490bfbc19bf1.png?crop=0x0-3200x2400&resize=1600x1200"
@@ -28,6 +26,9 @@ tags:
   - "web-design"
   - "ui"
   - "ux"
+domain:
+  - design
+type: inspiration
 ---
 # Financial Dashboard - B2B Sales Pipeline & Revenue Tracking
 

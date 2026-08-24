@@ -2,13 +2,18 @@
 created: 2026-08-02
 categories:
   - "[[Resources]]"
-domain: design
 tags:
   - inspiration
   - web-design
+domain:
+  - design
+type: note
 ---
 
 # Inspiration
+
+> Hub: [[Design]] · why it matters: [[AI Design]] §8 — every stage of the method assumes
+> this library exists with real coverage.
 
 Visual overview of every clipping with `type: inspiration` — web design saved from
 21st.dev, Dribbble, Pinterest and anywhere else that exposes an image or a video.

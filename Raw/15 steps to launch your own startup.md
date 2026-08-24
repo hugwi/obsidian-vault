@@ -1,7 +1,6 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, design, product-business]
 tags:
   - skills
   - startup
@@ -14,6 +13,9 @@ theme: industry-product
 subtheme:
   - careers-talent
   - enterprise-adoption
+domain:
+  - agentic-engineering
+  - product-business
 ---
 
 # 15 steps to launch your own startup

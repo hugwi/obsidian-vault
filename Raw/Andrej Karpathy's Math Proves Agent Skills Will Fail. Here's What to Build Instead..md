@@ -1,7 +1,6 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents, design, knowledge-management]
 tags:
   - harness
   - orchestration
@@ -17,6 +16,10 @@ theme: multi-agent-orchestration
 subtheme:
   - sub-agents
   - coordinator-patterns
+domain:
+  - agentic-engineering
+  - ai-agents
+  - knowledge-management
 ---
 
 # Andrej Karpathy's Math Proves Agent Skills Will Fail. Here's What to Build Instead.

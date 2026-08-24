@@ -1,7 +1,6 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, design]
 tags:
   - skills
   - ux-ui
@@ -12,6 +11,10 @@ action:
 theme: human-ux-frontend
 subtheme:
   - design-systems-ui
+domain:
+  - agentic-engineering
+  - design
+type: article
 ---
 
 # 7 Rules for Creating Gorgeous UI

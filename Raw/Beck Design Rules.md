@@ -1,7 +1,6 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, design]
 tags:
   - code-quality
   - ux-ui
@@ -13,6 +12,10 @@ theme: quality-gates
 subtheme:
   - code-review-gates
   - automated-tests
+domain:
+  - agentic-engineering
+  - design
+type: article
 ---
 
 # Beck Design Rules

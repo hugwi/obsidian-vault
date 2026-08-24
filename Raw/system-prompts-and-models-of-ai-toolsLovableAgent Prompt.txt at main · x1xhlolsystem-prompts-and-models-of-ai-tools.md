@@ -1,7 +1,6 @@
 ---
 categories:
   - "[[Raw]]"
-domain: [agentic-engineering, ai-agents, design]
 tags:
   - harness
   - tools
@@ -13,6 +12,12 @@ action:
 theme: agents-models
 subtheme:
   - coding-agent-platforms
+domain:
+  - agentic-engineering
+  - ai-agents
+  - design
+type: tool
+stars: 143054
 ---
 
 # system-prompts-and-models-of-ai-tools/Lovable/Agent Prompt.txt at main · x1xhlol/system-prompts-and-models-of-ai-tools
