@@ -1,0 +1,67 @@
+---
+title: "Stop Asking AI To Build The Whole Game At Once"
+source: youtube
+url: https://www.youtube.com/watch?v=mjg_JUMar04
+author: "Can It Code?"
+published: 2026-08-10
+created: 2026-08-24
+duration: "0:06:50"
+categories:
+  - "[[Raw]]"
+action: review
+read: false
+rating:
+tags:
+  - clip/video
+  - claude-code
+---
+
+# Stop Asking AI To Build The Whole Game At Once
+
+![Stop Asking AI To Build The Whole Game At Once](https://www.youtube.com/embed/mjg_JUMar04)
+
+## Description
+
+Making winter survival game from scratch.
+Four AI models, each with one job. No single mega-prompt. Every job gets
+a fresh chat and ends with a test, so when something breaks, one job goes
+back — not the game.
+
+Built in Godot. Snow with real depth, footprints painted into one image,
+Blender models written as scripts, and a bear you cannot outrun.
+
+CHAPTERS
+0:00  This one is different
+0:16  Four models, four jobs
+0:43  The part nobody talks about
+0:53  One Pinterest photo
+1:07  The color bible
+1:18  Never ask for the whole game
+1:45  Ground that remembers
+2:27  Snow that slows you down
+2:42  Footprints
+3:04  Nobody modeled this house
+3:35  Tip: don't ask AI for realistic
+3:47  Making the character
+4:50  One panel changes everything
+5:36  Two enemies
+6:21  The house opens up
+6:45  What next
+
+TOOLS
+Godot · Blender · Meshy · Fable 5 · Opus 5 · GPT-5.6 Sol · Kimi K3
+
+CREDITS
+Visual reference: "The Snow Girl" (2017) by Mixtape Club
+Production design: R. Kikuo Johnson
+
+Bear model: "Realistic Animated Bear 3D Model" by WildMesh 3D
+https://sketchfab.com/3d-models/realistic-animated-bear-3d-model-bffc3c87d2d148ff8533e1cc8a11c9f1
+Licensed under Creative Commons Attribution (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
+
+#gamedev #godot #aitools #indiedev #blender
+
+## Transcript
+
+This video will be different, because in this one, I'm gonna show you how I built this. It was made in Godot. And yes, it's not one prompt. And I want to show you the whole process how I usually work with AI models. And I'm using 4. Fable 5, Opus 5, GPT-5.6 Sol, and Kimi K3. And each of those models has different responsibility. Fable 5 takes the hard calls. What we build and why. Opus 5 writes the mechanics and build models too. GPT-5.6 is my Blender guy, sometimes mechanics too. And Kimi K3 is Blender only. It has a really good feel of aesthetics, I noticed. So how do you start? And that's the hard part. I had a few of these and I finished none. They all looked right, but none of them had a gameplay loop. This one started the same way. I was looking at Pinterest and that one's scene stopped me. And I just wanted to make it a game, so badly. So I made it a reference, not to copy it, to catch the same feeling. And we started with a color bible. But the picture is daylight, and I wanted the same place after dark. So every color gets translated first. From now on, nothing goes in the game without it. Okay, let's make a game. Do not ask for the whole game in one prompt. Let the best model write the plan. Every job then gets its own clean session. And every job ends the same way. A test. If it fails, one job goes back, not the game. So one job, one fresh chat. The model is not carrying 9 other jobs, so it reads less, and to make fewer mistakes. It also uses fewer tokens. So first job on the list. The ground. I told Fable what I wanted. Snow deep in one place, and thin in another. Fable made a plan, and Opus rolled it. It starts flat. Completely flat. Every corner gets asked one question. How high are you? A hundred and ten thousand of them, 60 times a second. You may ask why I do not save the answers once. Because the height keeps changing. A boot presses the snow down, the wind builds a drift up. And I never asked about the whole map. Only a hundred and twenty meters of it. And it slides along with the character. Next house. Some trees and a car. These are just placeholders. The real Blender models come later. Then we put snow on the ground. And remember, the ground has height. So the snow can be deep here and thin there. And now the snow slows you down. Deep snow, you walk. Thin snow, you can run. And finally, footprints. You can see where you walked. It is a small thing, but it makes the world feel alive. Behind the scenes, it works like this. Every step paints into one picture, not a list of footprints. One image, fixed size. The snow reads it. The winds erase it. The enemy rides into the same one. A thousand tracks goes to the same as one. Okay, now let's replace those placeholders with real Blender models. Nobody modeled this house by hand. An AI model wrote a script. Blender run it. Every line adds one piece. So when the roof is wrong, I do not touch the mesh. I fix one line and run it again. Now let's add it to the scene. And yes, it is much better. Let's do the same with trees and a car. Okay, it is starting to look like a game. If you like this video, click subscribe button. Quick tip. Don't ask AI for realistic meshes. It will not deliver. Simple shapes, it does well. This house is just boxes and a roof. The light does the rest and we will work on it in a second. But first, let's replace a character placeholder with the real character. And first, I wanted to create a concept with GPT. So that's the prompt for GPT. And those are the results. And those images goes to Meshy AI. I like to use the tool for generating a character meshes. We have 8000 polygons, which is perfectly fine for a main character. Okay, let's texture it. And that's fine. We will map the colors to our Color Bible later. And this time I also decided to use the animations from Meshy directly. And the rigged character looks much more simple and has like less details and a bit different colors. But as I said, we will fix it and it will look perfectly fine in our game. And there it is. Our new character is in the game. And it looks really, really cool now. Let's just look around. I love those footprints. And the fact that each footprint can have like a different depth. And also the snow that you feel where it's deep. Okay, so we have the character and we have all of the meshes on the map. We will play with the light a bit. About the lighting. It is really helpful to ask your AI model to expose you this kind of lighting control panel with those sliders so we can play around. Of course, if you can't do that directly in the game engine, for example, Godot. So here I have a few presets. Each of them reflects a different daytime. So let's play along. This one is like a flat, a nightfall. And you can see how much this scene changes. Deep night, which is a bit lighter and a white out. Blizzard, a lot more density of the fog and the sunrise. I love this one. It is really warm here. And then pale day, midday. So you can see how much the same scene differs based on the lighting settings. And I love this that you can affect the game a lot this way. And now the enemies. I want very few of them, but every meeting should be able to kill you. Right now there are two. A starving man and bears. I found the bear on Sketchfab with CC attribution and a lot of animations. So I downloaded it. But the bear is realistic here and we need more low poly models. So I asked AI to decimate it in Blender. And here you can see a three stages of decimation. And decimation simply reducing a polygon counts. The man sees you. The bear smells you on the wind. This part is still a prototype. You press F and the gun finds the target. The bear, you cannot outrun ever. So it warns you first and then it charges. It knocks you down and for now you just lie there. Last thing I want to show you. The house interior. It's not a different location, it's the same one. So player sees the danger outside the house. How does it work? Simple. The moment I step inside, the roof and the front wall come off. That's it. But there is also another system. When our character goes behind some object, for example a tree, then the whole shape fades out. How? The camera shoots a ray at me all the time. And that's it guys. If you want more deep dive videos, let me know in the comments.
