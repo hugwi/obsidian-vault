@@ -75,6 +75,8 @@ One skill that you can make to see other repos. A lot of syncing between the tea
 A bad code change in someones else repo. Other team they have another change. There could also be technical details. 
 
 
+![[Recording 20260831160014.m4a]]
+
 
 ## How can we make our team 10 times faster.
 
