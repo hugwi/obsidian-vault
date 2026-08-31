@@ -70,7 +70,11 @@ Scrap this repo and make a new repo. but no ones does that.
 Not taking something from the lighthouse team
 ### What is the cutting edge workflows that work?  
 
+Cross team and repo. Working across different stacks. 
+One skill that you can make to see other repos. A lot of syncing between the teams. 
+A bad code change in someones else repo. Other team they have another change. There could also be technical details. 
 
+## How can we make our team 10 times faster.
 
 ## AI Governance
 **Lacking security and oversight.** 
