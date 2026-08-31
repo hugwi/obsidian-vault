@@ -77,6 +77,8 @@ A bad code change in someones else repo. Other team they have another change. Th
 
 ![[Recording 20260831160014.m4a]]
 
+- What is working for similar clients? What are they doing? 
+- How to we reap the benefits since token cost? Do we need to allocate more people ? 
 # Hugo och Thor Advisory
 AI advisory från andra kunder.  
 
