@@ -77,6 +77,8 @@ A bad code change in someones else repo. Other team they have another change. Th
 
 ![[Recording 20260831160014.m4a]]
 
+# Hugo och Thor Advisory
+AI advisory från andra kunder.  
 
 ## How can we make our team 10 times faster.
 
