@@ -41,3 +41,37 @@ AI PM hos oss som blir tillgänglig oktober
 Finns det dedikerade resurser redan?  
 Inte formal design 
 annat team i usa hade jobbat med spec driven development
+
+
+# Meeting 31 August
+
+## Agentic Engineering
+
+### Aproach it from engineering
+- All disciplines to work 
+- Agentic products
+
+Early adopters are using and 
+
+Design create document 
+
+Difficult - cross org 
+example from the engineering
+13 eng teams. 
+forma agentic toolkit made by leadership - start developing skills in the same codebase. Look up the strategy in confluence 
+
+haven't fundamentally changed how our team work. Some have automated testing and deployment. Cloud claude that can look at PRs. 
+Experimental. 
+
+We're lacking a deep understanding on how it should work in a different organisations. 
+
+Scrap this repo and make a new repo. but no ones does that.
+
+Not taking something from the lighthouse team
+### What is the cutting edge workflows that work?  
+
+
+
+## AI Governance
+**Lacking security and oversight.** 
+What's the blast radius. 
