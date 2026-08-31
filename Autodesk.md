@@ -79,6 +79,12 @@ A bad code change in someones else repo. Other team they have another change. Th
 
 - What is working for similar clients? What are they doing? 
 - How to we reap the benefits since token cost? Do we need to allocate more people ? 
+- Yeah, because that's the question, as I'm sure you are also getting. I mean, right now, our little organization inside of Autodesk, we're responsible for our cloud bills. And so now we're comparing it to, okay, are we going to have high cloud budgets for our own or are we going to hire more people? Like we're alread
+- I would like us to, I would like us to have an organization that can deliver on the goals we set for ourselves quicker or more reliably
+- Try to look at what other organizations are doing that actually works. and have that like as a, instead of iterating our way into the minima that we can find ourselves, trying to look more holistically at what other people are doing and coming at it from both ends. Can you hello? Yeah, I was just going to say that, so I second that. So I think what Mathias is doing is great. He's working on one individual team and it's great that we see like some progress on that team, but that's not enough sort of for us. That's more a separate effort, but we are also looking at bigger things, which is what talking about.
+- When we're not a unicorn, there's so many other organizations that do exactly what we do, which is like product development between 10 and 20 teams, aligning with some overarching strategy and then having some level of autonomy within each team that on the busines
+- There is like rigorous architectural processes have this like you always, when you commit an ADR, go update documentation and that's the thing you're looking for is like you always have to collapse all of the ADRs, like apply them onto each other and then it's like a migration record and the database is the documentation.
+
 # Hugo och Thor Advisory
 AI advisory från andra kunder.  
 
