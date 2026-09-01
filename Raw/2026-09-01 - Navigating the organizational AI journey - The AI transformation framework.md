@@ -31,37 +31,13 @@ A 2026 paper in Business Horizons that introduces the "AI transformation framewo
 
 ## Diagrams
 
-Figure 1 — The AI transformation framework cube (three dimensions; a position in the cube is defined by each dimension's low/high score).
+Figure 1 — The AI transformation framework cube (automation × augmentation × data richness).
 
-```
-               DATA RICHNESS
-                    ▲
-     high  ┌─────────┴─────────┐
-           │         │         │
-           │  Data-driven      │  Robust automation
-           │  enhancement      │  (high aut, low aug,  high)
-           │  high richness    │
-           │  low aut, low aug │
-  ┌───┐    ├───────────────────┤
-  │   │    │                   │
-  │AUG│ low│  Manual isolated  │  Automated efficiency
-  │   │    │  data scarcity    │  (low richness)
-  │   │    │  (low/low/low)    │
-  └───┘    ├───────────────────┤
-  │ low    │                   │
-  └────────┴───────────────────▶  AUTOMATION
-              low           high
-```
+![[AI-Transformation-Framework-Figure1.jpg]]
 
-Figure 2 — Integrated intelligence as the sweet spot (high automation + high augmentation + high data richness).
+Figure 2 — Integrated intelligence as the sweet spot (high × high × high).
 
-```
-    high  ▲          Integrated intelligence
-   AUG     │         (high/high/high) = the value sweet spot
-           │         best achieved sequentially, not all at once
-           └──────────────────────▶  DATA RICHNESS  →  AUTOMATION
-        low stretch from current quadrant, improving one axis at a time
-```
+![[AI-Transformation-Framework-Figure2.jpg]]
 
 ## PDF
 
