@@ -14,11 +14,27 @@ rating:
 tags:
   - clip/video
   - claude-code
+  - ai-coding-agents
+  - software-factory
+  - build-vs-buy
+  - agent-orchestration
+  - coding-harness
+  - openai-codex
+  - anthropic-claude
+  - devtools
+  - enterprise-ai
+  - context-engineering
+  - agent-workflows
+  - merge-queue
 ---
 
 # How to Build a Software Factory for AI Coding Agents
 
 ![How to Build a Software Factory for AI Coding Agents](https://www.youtube.com/embed/tGbjIvvYuHE)
+
+## Summary
+
+Dex (Human Layer) and Vaibhav (Boundary) break down the architecture of modern software factories for AI coding agents, covering the build-vs-buy spectrum across four layers: development environments, coding harnesses, control planes, and orchestration. They advocate for open, composable systems where engineers can mix components rather than being locked into fully managed or fully in-house stacks. The conversation contrasts Boundary's in-house factory with fully managed cloud agents, using real examples like headless Claude Code/Codex sessions, CodeRabbit review loops, and agent-driven merge queues. They also debate OpenAI Codex vs Anthropic Claude for agent work, noting many top developers have shifted to Codex for engineering tasks while keeping Opus for content and judgment-heavy work, and emphasize that the goal is roughly 95% automation with humans retained where external information or judgment is still needed.
 
 ## Description
 
