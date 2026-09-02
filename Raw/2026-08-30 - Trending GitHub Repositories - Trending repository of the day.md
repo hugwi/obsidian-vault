@@ -12,10 +12,10 @@ read: "false"
 rating: ""
 tags:
   - "clip/x"
-  - "architecture"
-  - "maintainability"
-  - "code-navigation"
-  - "agents"
+  - "archify"
+  - "workflow-diagrams"
+  - "html-visualizations"
+  - "self-contained"
 summary: "Trending repository of the day 📈
 
 archify
@@ -23,11 +23,13 @@ archify
 Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export. Last 24h: 3,902 ⭐
 Total: 32,898 ⭐️
 https://t.co/ggvj9dnkoQ"
-theme: "comprehension-maintainability"
+theme:
+  - "comprehension-maintainability"
+  - "workflow-phases-gates"
+  - "productivity-measurement"
 subtheme:
-  - "code-navigation"
-  - "code-disposability"
-  - "architecture-design"
+  - "html-diagrams"
+  - "workflow-visualization"
 domain: "agentic-engineering"
 ---
 

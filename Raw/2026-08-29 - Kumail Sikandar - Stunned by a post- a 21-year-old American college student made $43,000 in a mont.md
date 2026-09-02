@@ -12,11 +12,19 @@ read: "false"
 rating: ""
 tags:
   - "clip/x"
-  - "skills"
-  - "agent-skills"
-  - "claude-code"
-  - "tooling"
+  - "ai-virtual-girlfriend"
+  - "onlyfans"
+  - "virtual-influencer"
+  - "ai-generated-content"
+  - "workflow-implementation"
 summary: "Stunned by a post: a 21-year-old American college student made $43,000 in a month with an AI virtual girlfriend. He set up an OnlyFans account called Maya."
+theme:
+  - "comprehension-maintainability"
+  - "work-breakdown-specs"
+subtheme:
+  - "ai-generated-virtual-influencer"
+  - "virtual-person-creation"
+domain: "agentic-engineering"
 ---
 
 # Stunned by a post: a 21-year-old American college student made $43,000 in a month with an AI virtual girlfriend.

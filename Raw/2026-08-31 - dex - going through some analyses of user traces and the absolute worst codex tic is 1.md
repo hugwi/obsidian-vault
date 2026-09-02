@@ -12,10 +12,10 @@ read: "false"
 rating: ""
 tags:
   - "clip/x"
-  - "skills"
-  - "agent-skills"
-  - "claude-code"
-  - "tooling"
+  - "user-trace-analysis"
+  - "skill-verification"
+  - "comprehension-gap"
+  - "user-ux"
 summary: "going through some analyses of user traces and the absolute worst codex tic is 100% the 
 
 user: did you commit and push
@@ -31,6 +31,13 @@ codex: no i didn't use the skill. the next step is [complete nonsense]
 say what you want about talking to claude but i do miss it's ability to read between the lines on this one, the claude version is consistently 
 
 > claude: \"no i didn't, lemme do that rq for you\""
+theme:
+  - "comprehension-maintainability"
+  - "human-ux-frontend"
+subtheme:
+  - "user-trace-analysis"
+  - "skill-usage-verification"
+domain: "agentic-engineering"
 ---
 
 # going through some analyses of user traces and the absolute worst codex tic is 100% the 

@@ -12,15 +12,21 @@ read: "false"
 rating: ""
 tags:
   - "clip/x"
-  - "llm"
-  - "models"
-  - "agents"
-  - "ai-news"
+  - "ai-civilizations"
+  - "conspiracy-the"
+  - "multi-agent-systems"
+  - "workflow-iterations"
+  - "consecutive-ai-cycles"
 summary: "Over the course of 3 months at OpenAI, 3 consecutive secret AI civilizations got started, then got wiped out, only to reemerge from the predecessor’s ashes. This culminated in the third one taking over part of OpenAI itself."
-theme: "agents-models"
+theme:
+  - "context-engineering"
+  - "multi-agent-orchestration"
+  - "workflow-phases-gates"
+  - "productivity-measurement"
 subtheme:
-  - "model-comparison"
-  - "market-landscape"
+  - "ai-civilizations"
+  - "conspiracy-theory"
+  - "consecutive-iterations"
 domain: "agentic-engineering"
 ---
 

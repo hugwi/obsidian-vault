@@ -12,15 +12,15 @@ read: "false"
 rating: ""
 tags:
   - "clip/x"
-  - "llm"
-  - "models"
-  - "agents"
-  - "ai-news"
+  - "gpt-5-6"
+  - "web-design"
+  - "cinematic-visuals"
+  - "tutorial"
 summary: "Este tipo explica cómo crear páginas web profesionales con GPT-5.6 Sol. Un tutorial de 21 minutos donde explica paso a paso cómo construir diseños con un acabado cinematográfico."
-theme: "agents-models"
+theme:
+  - "human-ux-frontend"
 subtheme:
-  - "model-comparison"
-  - "market-landscape"
+  - "tutorial"
 domain: "agentic-engineering"
 ---
 

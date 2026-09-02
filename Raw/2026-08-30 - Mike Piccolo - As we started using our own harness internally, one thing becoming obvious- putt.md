@@ -12,15 +12,15 @@ read: "false"
 rating: ""
 tags:
   - "clip/x"
-  - "multi-agent"
-  - "orchestration"
-  - "agents"
-  - "harness"
+  - "multi-agent-orchestration"
+  - "coding-agents"
+  - "workflow-automation"
 summary: "As we started using our own harness internally, one thing becoming obvious: putting multiple coding agents in tabs is not multi-agent orchestration. In our harness, Pi, Claude Code, Codex and even VS Code are workers on the same engine."
-theme: "multi-agent-orchestration"
+theme:
+  - "multi-agent-orchestration"
 subtheme:
-  - "coordinator-patterns"
-  - "parallel-fan-out"
+  - "agent-triggering"
+  - "work-handoff"
 domain: "agentic-engineering"
 ---
 

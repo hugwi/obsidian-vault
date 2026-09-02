@@ -12,15 +12,17 @@ read: "false"
 rating: ""
 tags:
   - "clip/x"
-  - "context-engineering"
-  - "agents"
-  - "claude-code"
-  - "comprehension"
+  - "ai-coding"
+  - "context-management"
+  - "output-quality"
+  - "token-efficiency"
 summary: "A few lessons into @mattpocockuk's AI Coding Crash Course and I'm already absorbing his context paranoia. Not just because of token costs, but because bloated context degrades output quality in ways you don't always notice until it's too late."
-theme: "context-engineering"
+theme:
+  - "comprehension-maintainability"
+  - "workflow-phases-gates"
 subtheme:
-  - "compaction-caching"
-  - "comprehension-debt"
+  - "context-paranoia"
+  - "token-costs"
 domain: "agentic-engineering"
 ---
 

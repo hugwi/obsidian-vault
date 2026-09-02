@@ -12,7 +12,16 @@ read: "false"
 rating: ""
 tags:
   - "clip/x"
+  - "ai-ethics"
+  - "human-ai-interaction"
+  - "ai-communication"
 summary: "Jensen Huang on The smartest person he's ever met: https://t.co/2MjzuWZrJP"
+theme:
+  - "comprehension-maintainability"
+subtheme:
+  - "ai-ethics"
+  - "human-ai-interaction"
+domain: "agentic-engineering"
 ---
 
 # Jensen Huang on The smartest person he's ever met: https://t.co/2MjzuWZrJP

@@ -12,7 +12,17 @@ read: "false"
 rating: ""
 tags:
   - "clip/x"
+  - "human-rights"
+  - "anonymity"
+  - "digital-libraries"
+  - "peer-to-peer-networks"
 summary: "@threepointone if you care about the human right to copy, here are ~27 individuals I've found over the years pushing the frontier publicly. And there are many more doing it anonymously, creating/running things like Annas Archive, pirate bays, etc."
+theme:
+  - "human-ux-frontend"
+subtheme:
+  - "human-rights"
+  - "anonymity"
+domain: "agentic-engineering"
 ---
 
 # @threepointone if you care about the human right to copy, here are ~27 individuals I've found over the years pushing the frontier publicly.

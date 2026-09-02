@@ -12,10 +12,10 @@ read: "false"
 rating: ""
 tags:
   - "clip/x"
-  - "llm"
-  - "models"
-  - "agents"
-  - "ai-news"
+  - "grok-bot"
+  - "ai-agent"
+  - "bloomberg-terminal"
+  - "24-7-operation"
 summary: "Grok Bot is the best AI agent right now
 
 It gives you an army of agents that can do work for you 24/7
@@ -23,10 +23,12 @@ It gives you an army of agents that can do work for you 24/7
 If you set it up correctly, you gain super powers
 
 In this article, I cover how to turn Grok Bot into your own Bloomberg Terminal https://t.co/AR17qf56WD"
-theme: "agents-models"
+theme:
+  - "multi-agent-orchestration"
+  - "work-breakdown-specs"
 subtheme:
-  - "model-comparison"
-  - "market-landscape"
+  - "agent-teams"
+  - "24-7-operation"
 domain: "agentic-engineering"
 ---
 

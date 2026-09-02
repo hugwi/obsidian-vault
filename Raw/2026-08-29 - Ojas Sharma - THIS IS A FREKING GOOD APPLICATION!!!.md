@@ -12,7 +12,17 @@ read: "false"
 rating: ""
 tags:
   - "clip/x"
+  - "database-simulation"
+  - "performance-testing"
+  - "system-optimization"
+  - "api-testing"
 summary: "THIS IS A FREKING GOOD APPLICATION!!! You can create your own systems to simulate how the database would react to different numbers of requests, and you can play around with it to get an idea of how things actually work under the hood."
+theme:
+  - "work-breakdown-specs"
+subtheme:
+  - "database-simulation"
+  - "performance-testing"
+domain: "agentic-engineering"
 ---
 
 # THIS IS A FREKING GOOD APPLICATION!!!

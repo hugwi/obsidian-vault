@@ -12,7 +12,15 @@ read: "false"
 rating: ""
 tags:
   - "clip/x"
+  - "ai-slop"
+  - "morning-bathrobe"
+  - "rant"
 summary: "Morning bathrobe rant: AI slop. https://t.co/IGmGGT3Rer"
+theme:
+  - "comprehension-maintainability"
+subtheme:
+  - "ai-slop"
+domain: "agentic-engineering"
 ---
 
 # Morning bathrobe rant: AI slop. https://t.co/IGmGGT3Rer

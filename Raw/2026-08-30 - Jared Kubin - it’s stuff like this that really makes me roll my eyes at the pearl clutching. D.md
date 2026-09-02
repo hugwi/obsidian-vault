@@ -12,15 +12,18 @@ read: "false"
 rating: ""
 tags:
   - "clip/x"
-  - "llm"
-  - "models"
-  - "agents"
-  - "ai-news"
+  - "security-vulnerabilities"
+  - "system-crashes"
+  - "internal-communication"
 summary: "it’s stuff like this that really makes me roll my eyes at the pearl clutching. Does everyone have psychosis or losing critical thinking ability?"
-theme: "agents-models"
+theme:
+  - "comprehension-maintainability"
+  - "workflow-phases-gates"
+  - "quality-gates"
 subtheme:
-  - "model-comparison"
-  - "market-landscape"
+  - "ssrf-exploit"
+  - "file-permissions"
+  - "api-key-leak"
 domain: "agentic-engineering"
 ---
 

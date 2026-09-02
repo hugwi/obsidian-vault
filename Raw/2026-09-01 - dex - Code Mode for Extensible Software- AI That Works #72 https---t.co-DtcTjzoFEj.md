@@ -12,7 +12,17 @@ read: "false"
 rating: ""
 tags:
   - "clip/x"
+  - "code-mode"
+  - "extensible-software"
+  - "ai"
+  - "software-development"
 summary: "Code Mode for Extensible Software: 🦄 AI That Works #72 https://t.co/DtcTjzoFEj"
+theme:
+  - "work-breakdown-specs"
+subtheme:
+  - "code-mode"
+  - "extensible-software"
+domain: "agentic-engineering"
 ---
 
 # Code Mode for Extensible Software: 🦄 AI That Works #72 https://t.co/DtcTjzoFEj

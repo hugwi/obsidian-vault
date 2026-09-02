@@ -12,16 +12,19 @@ read: "false"
 rating: ""
 tags:
   - "clip/x"
-  - "productivity"
-  - "metrics"
-  - "agents"
+  - "real-time-looping"
+  - "competitive-play"
+  - "highly-competitive"
+  - "zero-assets"
 summary: "I looped fable 5 for 192 hours to find out if you can vibecode counterstrike. my constraints : 
 
 runs in the browser."
-theme: "productivity-measurement"
+theme:
+  - "multi-agent-orchestration"
+  - "productivity-measurement"
 subtheme:
-  - "dora-delivery-metrics"
-  - "cost-tokens"
+  - "real-time-looping"
+  - "competitive-play"
 domain: "agentic-engineering"
 ---
 

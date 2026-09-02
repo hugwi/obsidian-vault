@@ -12,17 +12,23 @@ read: "false"
 rating: ""
 tags:
   - "clip/x"
-  - "context-engineering"
-  - "agents"
-  - "claude-code"
-  - "comprehension"
+  - "anthropic-hackathon"
+  - "claudemodules"
+  - "open-source"
+  - "agent-orchestration"
+  - "workflow-phases"
 summary: "The winner of an Anthropic hackathon open sourced his entire Claude Code setup. 68 subagents, 286 skills, 94 commands, MIT license
 
 ECC turns Claude Code from one assistant into a full engineering team."
-theme: "context-engineering"
+theme:
+  - "multi-agent-orchestration"
+  - "work-breakdown-specs"
+  - "quality-gates"
+  - "human-ux-frontend"
 subtheme:
-  - "compaction-caching"
-  - "comprehension-debt"
+  - "plan-review-build-repair"
+  - "security-scanning"
+  - "tdd-workflow"
 domain: "agentic-engineering"
 ---
 

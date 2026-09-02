@@ -12,7 +12,15 @@ read: "false"
 rating: ""
 tags:
   - "clip/x"
+  - "bro-commands"
+  - "show-me-commands"
+  - "command-interpretation"
 summary: "@_richardberry did you try /bro or /show-me https://t.co/D2OmGoNN8L"
+theme:
+  - "comprehension-maintainability"
+subtheme:
+  - "bro-commands"
+domain: "agentic-engineering"
 ---
 
 # @_richardberry did you try /bro or /show-me https://t.co/D2OmGoNN8L

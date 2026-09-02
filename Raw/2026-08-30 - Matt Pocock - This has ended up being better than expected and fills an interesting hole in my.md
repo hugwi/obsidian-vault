@@ -12,11 +12,18 @@ read: "false"
 rating: ""
 tags:
   - "clip/x"
-  - "skills"
-  - "agent-skills"
-  - "claude-code"
-  - "tooling"
+  - "workflow-optimization"
+  - "token-cost-management"
+  - "afk-agent-implementation"
+  - "skill-development"
 summary: "This has ended up being better than expected and fills an interesting hole in my skills. Most folks don't have an AFK agent workflow set up yet."
+theme:
+  - "workflow-phases-gates"
+  - "comprehension-maintainability"
+subtheme:
+  - "afk-agent-workflow"
+  - "token-efficiency"
+domain: "agentic-engineering"
 ---
 
 # This has ended up being better than expected and fills an interesting hole in my skills.
