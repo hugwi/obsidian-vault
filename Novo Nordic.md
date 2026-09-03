@@ -58,3 +58,16 @@ AI marketplace -
 MCP servers  - AI connectors team that builds MCP servers  that we can reuse and blueprints 
 Golden path for builders is something AI marketplace to 
 Time to first token on our platform is a minute 
+
+Patient data is not approved from our platform (it's a grey zone some people use it)
+
+Business application - Good something Practice (GXP) good document practices 
+Some use cases that are not sensitive
+
+Make sure to get the onboarding compliance course 
+Novo Access - access to github 
+Get mac
+Can do daily 
+
+- Ping Micheal about the documents 
+- Andreas Christenssen should ask him 
