@@ -84,3 +84,7 @@ Not connected langfuse with the proxy. We have so much traffic on the proxy
 Consume the LLM and senf the logs from tracing 
 
 
+
+
+Hey everyone, on Monday me and Mark is starting a super excited assignment where we will help to build fundamental AI capabilities for the research department.
+I've added the scope of the project so you can all look at it. I think it's a bit agenerated, to be honest, but you need to read between the lines.
