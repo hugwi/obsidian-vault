@@ -71,3 +71,16 @@ Can do daily
 
 - Ping Micheal about the documents 
 - Andreas Christenssen should ask him 
+
+AI gateway is a kill switch - No central hub they need to go through. 
+C level see's other tools than you're avergage worker 
+Enforce guidelines 
+AI gatway Novo owns - it's for Novo compliance 
+
+Langfuse is what you own 
+How many use your MCP you need to get yourself 
+
+Not connected langfuse with the proxy. We have so much traffic on the proxy
+Consume the LLM and senf the logs from tracing 
+
+
