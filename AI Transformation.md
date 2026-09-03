@@ -172,3 +172,8 @@ https://codescene.com/blog/agentic-ai-coding-best-practice-patterns-for-speed-wi
 **Context**We know from [](https://arxiv.org/pdf/2601.02200) [peer-reviewed research](https://arxiv.org/pdf/2601.02200) that AI performs best in healthy code; agents get confused by the same patterns as humans. As evident from the following graph, you want to aim for a Code Health of at least 9.5, ideally a perfect 10.0.
 
 ![[Pasted image 20260516221518.png]]
+
+
+## Meeting Chirstoph
+- T
+Much more emphasis 
