@@ -33,3 +33,8 @@ Lägg till autonom agenter. För oklart vad autonoma agenter faller in mot vanli
 Lite mer heltäckande 
 agent platformen är något som kommer upp mycket 
 bra och intressanta 
+
+
+# 
+Agent core for the agentic runtime
+azure ai agent on azure corresponding)
