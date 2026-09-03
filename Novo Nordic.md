@@ -86,5 +86,28 @@ Consume the LLM and senf the logs from tracing
 
 
 
-Hey everyone, on Monday me and Mark is starting a super excited assignment where we will help to build fundamental AI capabilities for the research department.
-I've added the scope of the project so you can all look at it. I think it's a bit agenerated, to be honest, but you need to read between the lines.
+Goldfish can yo
+
+Hey everyone! On **Monday**, Mark and I are starting a super exciting assignment where we’ll help build foundational AI capabilities for **Novo Nordisk’s Research Department.**
+I’ve added the project scope for anyone who wants to take a look. It feels a bit AI-generated, to be honest, so you may need to read between the lines.
+
+We’re especially excited because this is also an **important collaboration with ProServe**. We really want to show how one plus one can equal three, and why Netlight is the perfect partner for this kind of engagement.
+
+I have a few questions where I’d love your help:
+
+1. Is there somewhere we can get an overview of what the different teams at Novo are doing and which agent capabilities they’ve already built? We really don’t want to reinvent the wheel, and I’m sure there are many useful modules and learnings from the awesome Netlighters already working here.
+
+We met with Andreas today, who gave us a lot of valuable insight. I also understand that Michael Ludwig has done quite a bit in this area, so I’d love to set up a meeting with you as soon as possible. If you can squeeze in some time before Monday, that would be a dream.
+
+2. If you have any material, examples, repositories, or other resources that could help us ramp up and speed up delivery before Monday, please reach out or share them in this thread.
+
+3. If you have experience with any of the areas below, or know someone who does, we’d really appreciate your input:
+
+- Understanding available data and its sensitivity levels
+- Data-classification enforcement and approval-gate patterns for each Golden Path archetype’s regulatory tier
+- Reusable MCP components
+- Data-classification and Good Practice (GxP) handling for each Golden Path archetype
+- Evaluation harnesses
+- CI/CD pipeline templates for assembling, testing, and deploying shared components
+
+Any insights, existing solutions, or relevant contacts would be super helpful. Please drop a comment in the thread!
