@@ -421,6 +421,12 @@ Samtliga återkopplingar visar att Person E snabbt har anpassat sig till Netligh
 ## Sen 
 + Hoppa modul i kommunikation kan göras 
 
+	learning driving team
+
+## Reuben colleague 
+- Reuben is a unpolished diamond
+	- Both communication and work
+	- Miss details
 
 # Trial period motivation
 Erik visar stark leverans och förtroendeskapande beteende över hela CCB. Han tar sig an komplexa utmaningar, lär sig snabbt, kommunicerar pedagogiskt och bidrar med positiv energi. Tydligt fokus på kundvärde och god relationsbyggare som passar väl i kulturen.
