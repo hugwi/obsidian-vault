@@ -86,28 +86,22 @@ Consume the LLM and senf the logs from tracing
 
 
 
-Goldfish can yo
+Goldfish can you rephrase the text above so it's follow a good structured but still prserving my tone
 
-Hey everyone! On **Monday**, Mark and I are starting a super exciting assignment where we’ll help build foundational AI capabilities for **Novo Nordisk’s Research Department.**
-I’ve added the project scope for anyone who wants to take a look. It feels a bit AI-generated, to be honest, so you may need to read between the lines.
+Hey everyone, on Monday me and Mark is starting a super excited assignment where we will help to build fundamental AI capabilities for the research department.
+I've added the scope of the project so you can all look at it. I think it's a bit agenerated, to be honest, but you need to read between the lines.
+We are super excited for this project since it's also an important collaboration with Proserve.
+Thus we really want to showcase how one plus one equals three. And why Netlight is a perfect partner for this kind of engagement.
 
-We’re especially excited because this is also an **important collaboration with ProServe**. We really want to show how one plus one can equal three, and why Netlight is the perfect partner for this kind of engagement.
+I have some open questions that I would love to get help with.
+1. Is there any place where you can see what all teams does on Novo and what kind of agenda capabilities they were building? We are really trying to not reinvent the wheel here and think we can use a lot of the modules that have already been built by you awesome Netlighters out there. We had a meeting today with Andreas, who helped us gain a lot of insight into this, and I think Mikael Ludwig has also done a lot of things related to this, so would love to set up a meeting ASAP with you. If we could already have this, if you have any time to squeeze out to help us with this before Monday, that would be a dream coming true.
+2. And if you have anything out there that would help us speed up that delivery and getting more knowledgeable before our meeting on Monday, please reach out or write the thread here. That would be awesome.
+3. And if there are any of the axes or education or anything related to that that you have know-how in and could help us with, that's also great.
 
-I have a few questions where I’d love your help:
-
-1. Is there somewhere we can get an overview of what the different teams at Novo are doing and which agent capabilities they’ve already built? We really don’t want to reinvent the wheel, and I’m sure there are many useful modules and learnings from the awesome Netlighters already working here.
-
-We met with Andreas today, who gave us a lot of valuable insight. I also understand that Michael Ludwig has done quite a bit in this area, so I’d love to set up a meeting with you as soon as possible. If you can squeeze in some time before Monday, that would be a dream.
-
-2. If you have any material, examples, repositories, or other resources that could help us ramp up and speed up delivery before Monday, please reach out or share them in this thread.
-
-3. If you have experience with any of the areas below, or know someone who does, we’d really appreciate your input:
-
-- Understanding available data and its sensitivity levels
-- Data-classification enforcement and approval-gate patterns for each Golden Path archetype’s regulatory tier
-- Reusable MCP components
-- Data-classification and Good Practice (GxP) handling for each Golden Path archetype
-- Evaluation harnesses
-- CI/CD pipeline templates for assembling, testing, and deploying shared components
-
-Any insights, existing solutions, or relevant contacts would be super helpful. Please drop a comment in the thread!
+Here are some of the fundamentals that we are also asked to build, so if you have any insights in this area, please drop a comment in the thread.
+1. An important part of this project would also be understanding what kind of data we have and what data sensitivity we have, so if you have any knowledge in this, please reach out.
+2. data-classification enforcement, and approval-gate patterns appropriate to each Golen Path archetype’s regulatory tier
+3. reusable components for MCP
+4. Defining the data-classification and Good Practice (“**GxP**”) handling approach for each Golden Path archetype
+5. Developing an evaluation harness 
+6. CI/CD pipeline templates for assembling,
