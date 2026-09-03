@@ -175,5 +175,28 @@ https://codescene.com/blog/agentic-ai-coding-best-practice-patterns-for-speed-wi
 
 
 ## Meeting Chirstoph
-- T
-Much more emphasis 
+Books 
+- Transformred 
+- Rewired book
+
+Much more emphasis for a person 
+
+
+# What
+## AI strategy 
+- How do we adopt AI? 
+- Intention? 
+- Growth? Disruptive? Productvity? 
+## Domain Prioritization
+- Pick domains that are crucial to your transformation
+- Data is ready for that domain? Ready is the person to adopt and lead data? 
+- Most valuable is the mindset shift? It's centrally steered through a mental. Need to steer it decentrally? 
+- Transformation never ends. 
+
+# How 
+- Vertical - 
+- Horizontal - know how AI used. Meeting are transcribed. ANything knows how to create a summary. Many small wins create a big win. 
+- AI ops - Tooling, governance,. security. 
+- Data maturity - 
+- Org dev & Role shifts - fullstack more, product manager. How is the role changing? Which individual do we need to recruit. 
+- 
