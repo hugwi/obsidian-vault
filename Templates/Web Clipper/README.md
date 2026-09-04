@@ -120,11 +120,11 @@ to project** command (Cmd/Ctrl+P → "project"). See [[Project workflow]].
 
 ## Per-platform notes
 
-- **YouTube**: open the **Transcript** panel on the video page *before* clipping —
+- **YouTube**: open the **Transcript** panel on the video page *before* saving —
   the transcript is scraped from the DOM (`#segments-container`). Summary context
   = description + transcript, so it still produces a summary if no transcript.
 - **Reddit / X**: these are SPAs with changing CSS. Scroll to load the post/thread
-  (and comments) before clipping. If selectors break after a site redesign, update
+  (and comments) before saving. If selectors break after a site redesign, update
   the `selector:`/`selectorHtml:` paths via right-click → Inspect.
 - **Article**: generic fallback using Obsidian's readability extraction
   (`{{content}}`). Use it (pick manually from the clipper dropdown) for any blog
@@ -272,7 +272,7 @@ The workflow is built in two layers, and most new sites need only the first.
 
 Often you can skip even this. The generic selectors plus `media_url_image_meta`
 (`og:image`, `twitter:image`, schema, `<video poster>`) already cover most sites — try
-clipping one first and only add a selector if `media_url_image` comes back empty.
+saving one first and only add a selector if `media_url_image` comes back empty.
 
 **2. Presentation** — `Templates/Scripts/remote-media/view.js`
 
@@ -369,8 +369,8 @@ The note body captures the shot's text with
 Images are stripped from that markdown deliberately — the renderer already shows them, and
 embedding them twice would double every remote request.
 
-**Scroll through the shot before clipping.** Dribbble lazy-loads images below the fold, and
-the clipper only sees the DOM as it stands when you press clip. An image that has not
+**Scroll through the shot before saving.** Dribbble lazy-loads images below the fold, and
+the clipper only sees the DOM as it stands when you press save. An image that has not
 loaded yet has no usable `src` to capture.
 
 ### Known limitation

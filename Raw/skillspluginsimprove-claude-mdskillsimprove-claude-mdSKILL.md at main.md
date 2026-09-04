@@ -1,4 +1,6 @@
 ---
+categories:
+  - "[[Raw]]"
 title: "skills/plugins/improve-claude-md/skills/improve-claude-md/SKILL.md at main"
 source: "https://github.com/humanlayer/skills/blob/main/plugins/improve-claude-md/skills/improve-claude-md/SKILL.md"
 author:

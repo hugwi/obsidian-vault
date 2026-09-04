@@ -152,7 +152,7 @@ into `Raw/`. These notes store **remote URLs only — never download the media**
   desktop Electron/Chromium, yes on Obsidian iOS/WKWebView). The browser extension is
   irrelevant — the renderer runs in Obsidian, not the browser.
 - Plus `type: inspiration`, `platform:`, `thumbnail_url:`, `saved_at:` (alongside the usual
-  `categories: "[[Clippings]]"`, `created:`, `rating:`, `action:`).
+  `categories: "[[Raw]]"`, `created:`, `rating:`, `action:`).
 - Default tags: `inspiration`, `web-design`, `ui`, `ux`. Add finer ones by hand
   (`animation`, `navigation`, `mobile`, `landing-page`, `typography`, `dashboard`,
   `interaction-design`).

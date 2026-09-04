@@ -173,7 +173,7 @@ run(VAULT, { project: "Ethira" }).then((out) => {
     const cells = JSON.stringify(tableRows(out));
 
     check("counts the material", /\*\*7\*\* linked notes/.test(out[0].text), out[0].text);
-    check("counts triaged clippings", /\(1 triaged\)/.test(out[0].text), out[0].text);
+    check("counts triaged raw notes", /\(1 triaged\)/.test(out[0].text), out[0].text);
 
     check("lists packets", sections.includes("📦 Intermediate packets (2)"), sections);
     check("scopes ethira/api to Ethira", cells.includes("[[ethira api limits]]"), cells);

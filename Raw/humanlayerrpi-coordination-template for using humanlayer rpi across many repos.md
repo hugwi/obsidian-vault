@@ -1,4 +1,6 @@
 ---
+categories:
+  - "[[Raw]]"
 title: "humanlayer/rpi-coordination-template: for using humanlayer rpi across many repos"
 source: "https://github.com/humanlayer/rpi-coordination-template"
 author:

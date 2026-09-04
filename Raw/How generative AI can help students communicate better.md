@@ -1,4 +1,6 @@
 ---
+categories:
+  - "[[Raw]]"
 title: "How generative AI can help students communicate better"
 source: "https://www.mckinsey.com/featured-insights/themes/how-generative-ai-can-help-students-communicate-better"
 author:

@@ -10,7 +10,8 @@ rating:
 action:
 description: "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface - koala73/worldmonitor"
 tags:
-  - raw  - "clip/video"
+  - raw
+  - "clip/video"
 ---
 ## World Monitor
 

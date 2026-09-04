@@ -1,4 +1,6 @@
 ---
+categories:
+  - "[[Raw]]"
 title: "Building the Agent Harness: Subdirectory CLAUDE.md Files"
 source: "https://dev.to/tacoda/building-the-agent-harness-subdirectory-claudemd-files-dcl"
 author:
@@ -9,7 +11,8 @@ rating:
 action:
 description: "The technical deep-dive on the harness system. Why one big instruction file doesn't scale, how subdirectory CLAUDE.md files scope guidance, and what goes in each one. Tagged with ai, architecture, programming, claude."
 tags:
-  - raw  - "agents"
+  - raw
+  - "agents"
   - "clip/video"
   - "harness-engineering"
 ---

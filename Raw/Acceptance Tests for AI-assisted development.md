@@ -1,4 +1,6 @@
 ---
+categories:
+  - "[[Raw]]"
 title: "Acceptance Tests for AI-assisted development"
 source: "https://matteo.vaccari.name/posts/acceptance-tests-for-ai-assisted-development/"
 author:

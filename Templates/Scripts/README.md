@@ -43,7 +43,7 @@ scripts go here rather than in a new root folder.
 
 | View | Used by |
 |---|---|
-| `remote-media/` | `type: inspiration` clippings — still image, or thumbnail + on-demand remote video |
+| `remote-media/` | `type: inspiration` raw notes — still image, or thumbnail + on-demand remote video |
 | `remote-video/` | compatibility shim forwarding to `remote-media` (see below) |
 | `project-desk/` | project notes — gathers attached material; `{mode: "board"}` on [[Projects]] |
 
@@ -52,7 +52,7 @@ anywhere, `{mode: "board"}` renders every project grouped by status. See
 [[Project workflow]]. Verify with `node Templates/Scripts/project-desk/test.js`.
 
 `remote-media` was called `remote-video` until it grew still-image support, at which point
-the name was actively misleading on an image-only clipping. `remote-video/view.js` is now a
+the name was actively misleading on an image-only raw note. `remote-video/view.js` is now a
 one-line forwarder so notes clipped before the rename keep working. Delete that folder once
 nothing references it:
 

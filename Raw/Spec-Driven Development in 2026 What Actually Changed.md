@@ -1,4 +1,6 @@
 ---
+categories:
+  - "[[Raw]]"
 title: "Spec-Driven Development in 2026: What Actually Changed"
 source: "https://www.youtube.com/watch?v=b6cbxSaa4U4"
 author:
@@ -7,7 +9,8 @@ published: "2026-04-22"
 created: "2026-06-30"
 description: "One spec-driven framework grew 863% in six months. Another in the same category grew 18%. This is the honest six-month update on OpenSpec, BMAD, Spec Kit, Ag..."
 tags:
-  - raw  - "agentic-engineering"
+  - raw
+  - "agentic-engineering"
   - "spec-driven-development"
   - "agents"
   - "anthropic"

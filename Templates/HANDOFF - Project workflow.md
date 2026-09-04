@@ -10,7 +10,7 @@ below is done and the open items are closed or dropped.
 
 ## What we built
 
-Working a project meant remembering which clippings belonged to it and hand-editing
+Working a project meant remembering which raw notes belonged to it and hand-editing
 frontmatter to attach them. Now:
 
 1. **A note joins a project** by carrying `project: "[[Name]]"` — on *any* note, in *any*
@@ -35,7 +35,7 @@ intermediate packets. `status: pursue` is the "want to pursue, not started" shel
 | `Templates/Commands/*.md` — the two palette commands | written, **never run** |
 | `Templates/Raycast/*.js` — capture + open | 38 checks green; capture run once for real from the CLI, **never run from Raycast** |
 | `Templates/Bases/Projects.base` — status views + 📎 Material | **never opened**; see `hasProperty` risk below |
-| `project:` on all clipping templates | committed; **the 6 clipper JSONs need re-importing into the browser extension** |
+| `project:` on all capture templates | committed; **the 6 clipper JSONs need re-importing into the browser extension** |
 | Ethira, Datahub, PII wired to the desk | done. PII was created — 17 notes pointed at a project with no note |
 
 **This is the single most important thing to know:** every test in this work runs against
@@ -64,7 +64,7 @@ not register until you do.
    `project != null`** — noted in `Project workflow.md` too.
 4. **Palette commands.** Cmd+P → `project`. They appear as *Templater: Insert
    Commands/Capture to project*. Run both. Expect: a fresh `- YYYY-MM-DD — ` bullet under
-   `## Log` with the cursor on it; and `project: "[[…]]"` written into a clipping's
+   `## Log` with the cursor on it; and `project: "[[…]]"` written into a raw note's
    frontmatter.
 5. **Raycast.** Settings → Extensions → `+` → Add Script Directory →
    `<vault>/Templates/Raycast`. **Most likely failure: `env: node: No such file or
@@ -79,7 +79,7 @@ not register until you do.
 ## Constraints — do not relax these
 
 - **Never move a file to attach it to a project.** The `project:` property is the whole
-  mechanism; a clipping stays in `Raw/` and keeps `categories: "[[Raw]]"`.
+  mechanism; a raw note stays in `Raw/` and keeps `categories: "[[Raw]]"`.
 - **The folder does not file anything — the property does.** A note in `Raw/`
   without `categories: "[[Raw]]"` is invisible to every view. This is why the five
   `*-summary.json` clipper templates got `categories` when they were repointed, not just
@@ -115,7 +115,7 @@ in prose in `Project workflow.md`.
   longer exist, and its hand-maintained Active Projects table duplicates the board.
   Offered, never done.
 - **Clipper filenames** still carry date prefixes (`2026-08-04 - Title`) while the 444
-  existing clippings use bare titles. Left alone because X and Reddit titles are not
+  existing raw notes use bare titles. Left alone because X and Reddit titles are not
   unique without the snippet. One line each in `noteNameFormat` if wanted.
 - **`clip/article` tags** are nested, not `lowercase-hyphenated` per CLAUDE.md, and
   redundant with `type:`. Cosmetic.

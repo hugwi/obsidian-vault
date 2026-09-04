@@ -1,4 +1,6 @@
 ---
+categories:
+  - "[[Raw]]"
 title: "Harness engineering: leveraging Codex in an agent-first world"
 source: "https://openai.com/index/harness-engineering/?utm_source=chatgpt.com"
 author:

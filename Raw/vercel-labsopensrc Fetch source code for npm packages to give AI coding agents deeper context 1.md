@@ -1,4 +1,6 @@
 ---
+categories:
+  - "[[Raw]]"
 title: "vercel-labs/opensrc: Fetch source code for npm packages to give AI coding agents deeper context"
 source: "https://github.com/vercel-labs/opensrc"
 author:
@@ -6,7 +8,8 @@ published:
 created: "2026-07-08"
 description: "Fetch source code for npm packages to give AI coding agents deeper context - vercel-labs/opensrc"
 tags:
-  - raw  - "agentic-engineering"
+  - raw
+  - "agentic-engineering"
   - "file-search"
   - "agents"
   - "clip/video"

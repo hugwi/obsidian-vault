@@ -1,4 +1,6 @@
 ---
+categories:
+  - "[[Raw]]"
 title: "Factory-AI/eslint-plugin: Factory's custom linters"
 source: "https://github.com/Factory-AI/eslint-plugin"
 author:

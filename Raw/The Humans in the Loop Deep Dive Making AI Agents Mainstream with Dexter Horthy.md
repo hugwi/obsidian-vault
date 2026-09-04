@@ -11,7 +11,8 @@ rating:
 action:
 description: "A Special-Edition Interview on What's Needed to Drive Mainstream Agentic Adoption"
 tags:
-  - raw  - "agents"
+  - raw
+  - "agents"
   - "clip/video"
 ---
 *This special edition of The Humans in the Loop features an in-depth interview on a specific topic for builders working in AI. If you have thoughts or feedback on this format, please feel free to email [andrew@heavybit.com](mailto:andrew@heavybit.com).*

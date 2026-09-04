@@ -1,4 +1,4 @@
-# Handoff — Inspiration clipping workflow
+# Handoff — Inspiration media workflow
 
 Written 2026-08-04. Last commit: `6438b7f` on `main`. Working tree clean, pushed.
 
@@ -50,7 +50,7 @@ worth knowing:
 
 ## Pick up here — remaining open item
 
-Pinterest still needs one real clipping pass. Dribbble and 21st.dev have both been
+Pinterest still needs one real capture pass. Dribbble and 21st.dev have both been
 confirmed from browser DOM through Web Clipper into an Obsidian note. For 21st.dev the
 verified component was `@solaceui/components/phone-mockups-1`: direct poster, derived
 MP4, live bundle, demo source, and description all landed correctly. The supplied
@@ -102,7 +102,7 @@ covered by tests:
   page. Triggers are URL regexes only.
 - **Do not assume Chromium's media support.** HLS/`.m3u8` fails on desktop Electron
   but plays on Obsidian iOS/WKWebView, so the renderer feature-detects with
-  `canPlayType` rather than hardcoding. The clipping *browser* is irrelevant — the
+  `canPlayType` rather than hardcoding. The capture browser is irrelevant — the
   renderer runs inside Obsidian.
 
 ## Blocked in the container, needs a real machine
@@ -142,7 +142,7 @@ down the candidate list on load error.
 - Three test notes in `Raw/` can be deleted: `Remote video test.md`,
   `Remote video fallback test.md`. (`Landing Page for Yoga Platform.md` is a real clip
   worth keeping.)
-- Seven existing Readwise design clippings could be backfilled with
+- Seven existing Readwise design raw notes could be backfilled with
   `type: inspiration` so they appear in the Inspiration base.
 - An `AGENTS.md` pointing at `CLAUDE.md` was offered for cross-tool agents, never
   started.

@@ -7,8 +7,8 @@
 //   ```
 //
 // A note joins a project by carrying `project: "[[Name]]"` — that works on *any*
-// note regardless of its `categories`, which is the whole point: a clipping stays a
-// clipping in `Raw/` and still shows up here as raw material. Wikilinking the
+// note regardless of its `categories`, which is the whole point: a raw note stays in
+// `Raw/` and still shows up here as raw material. Wikilinking the
 // project note from anywhere also counts, so a passing mention in a daily note is
 // picked up without bookkeeping.
 
@@ -47,7 +47,7 @@ const STATUS_ALIASES = {
     archived: "done",
 };
 
-// Clipping triage vocabulary, in the order the vault reads it: what you will build
+// Raw-material triage vocabulary, in the order the vault reads it: what you will build
 // first, then what still needs a pass, then what you keep for reference.
 const ACTIONS = [
     { id: "implement", label: "🔨 To implement" },
@@ -276,14 +276,14 @@ function renderDesk(project) {
 
     const material = materialFor(project, projectPage);
     const own = material.filter((page) => hasCategory(page, "Projects"));
-    const clippings = material.filter((page) => hasCategory(page, "Raw"));
+    const rawMaterial = material.filter((page) => hasCategory(page, "Raw"));
     const resources = material.filter((page) => hasCategory(page, "Resources"));
     const areas = material.filter((page) => hasCategory(page, "Areas"));
     const people = material.filter((page) => hasCategory(page, "People"));
     const daily = material.filter((page) => hasCategory(page, "Daily"));
 
     const claimed = new Set(
-        [...own, ...clippings, ...resources, ...areas, ...people, ...daily]
+        [...own, ...rawMaterial, ...resources, ...areas, ...people, ...daily]
             .map((page) => page.file.path)
     );
 
@@ -292,11 +292,11 @@ function renderDesk(project) {
 
     // Distilled = raw material you have actually made a call on. The ratio is the
     // honest measure of whether a project is being worked or just collected into.
-    const triaged = clippings.filter((page) => page.action || page.rating).length;
+    const triaged = rawMaterial.filter((page) => page.action || page.rating).length;
 
     dv.paragraph([
         `**${material.length}** linked notes`,
-        `**${clippings.length}** raw material (${triaged} triaged)`,
+        `**${rawMaterial.length}** raw material (${triaged} triaged)`,
         `**${own.length}** own notes`,
         `**${tasks.length}** open tasks`,
     ].join(" · "));
@@ -304,7 +304,7 @@ function renderDesk(project) {
     if (!material.length) {
         dv.paragraph(
             `Nothing is attached yet. Add \`project: "[[${project}]]"\` to a ` +
-            "clipping or note — or just wikilink this note from it."
+            "raw note — or just wikilink this note from it."
         );
     }
 
@@ -314,11 +314,11 @@ function renderDesk(project) {
         { header: "Updated", cell: (page) => dateOf(page.file.mtime) },
     ]);
 
-    if (clippings.length) {
-        dv.header(3, `🧱 Raw material (${clippings.length})`);
+    if (rawMaterial.length) {
+        dv.header(3, `🧱 Raw material (${rawMaterial.length})`);
 
         for (const action of ACTIONS) {
-            const group = clippings.filter(
+            const group = rawMaterial.filter(
                 (page) => (page.action ?? null) === action.id
             );
 

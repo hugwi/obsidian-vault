@@ -1,4 +1,6 @@
 ---
+categories:
+  - "[[Raw]]"
 title: "unclebob/empire-2025"
 source: "https://github.com/unclebob/empire-2025"
 author:

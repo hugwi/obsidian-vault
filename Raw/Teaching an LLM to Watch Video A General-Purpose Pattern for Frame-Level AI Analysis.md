@@ -1,4 +1,6 @@
 ---
+categories:
+  - "[[Raw]]"
 title: "Teaching an LLM to Watch Video: A General-Purpose Pattern for Frame-Level AI Analysis"
 source: "https://dev.to/littler00t/teaching-an-llm-to-watch-video-a-general-purpose-pattern-for-frame-level-ai-analysis-2phm"
 author:
@@ -7,7 +9,8 @@ published: "2026-02-28"
 created: "2026-08-01"
 description: "How a personal frustration with workout form turned into a reusable MCP server for video... Tagged with ai, mcp, llm, openai."
 tags:
-  - raw  - "clip/video"
+  - raw
+  - "clip/video"
   - "video-gen"
 ---
 *How a personal frustration with workout form turned into a reusable MCP server for video intelligence*

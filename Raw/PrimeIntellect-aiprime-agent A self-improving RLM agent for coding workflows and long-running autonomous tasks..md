@@ -1,4 +1,6 @@
 ---
+categories:
+  - "[[Raw]]"
 title: "PrimeIntellect-ai/prime-agent: A self-improving RLM agent for coding workflows and long-running autonomous tasks."
 source: "https://github.com/PrimeIntellect-ai/prime-agent"
 author:

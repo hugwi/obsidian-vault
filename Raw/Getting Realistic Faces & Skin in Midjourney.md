@@ -1,4 +1,6 @@
 ---
+categories:
+  - "[[Raw]]"
 title: "Getting Realistic Faces & Skin in Midjourney"
 source: "https://medium.com/creative-1/getting-realistic-faces-skin-in-midjourney-deep-dive-d85a63a62693"
 author:
@@ -7,7 +9,8 @@ published: "2025-04-30"
 created: "2026-08-07"
 description: "How to Make Midjourney Faces Look Real (Without That Weird AI Glow)"
 tags:
-  - raw  - "clip/video"
+  - raw
+  - "clip/video"
 ---
 How to Make Midjourney Faces Look Real (Without That Weird AI Glow)
 

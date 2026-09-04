@@ -1,4 +1,6 @@
 ---
+categories:
+  - "[[Raw]]"
 title: "devsquad-copilot/.github/plugins/devsquad/skills/domain-glossary/SKILL.md at main"
 source: "https://github.com/microsoft/devsquad-copilot/blob/main/.github/plugins/devsquad/skills/domain-glossary/SKILL.md?utm_source=chatgpt.com"
 author:

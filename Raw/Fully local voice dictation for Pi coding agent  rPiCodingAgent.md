@@ -1,4 +1,6 @@
 ---
+categories:
+  - "[[Raw]]"
 title: "Fully local voice dictation for Pi coding agent : r/PiCodingAgent"
 source: "https://www.reddit.com/r/PiCodingAgent/comments/1ta97mk/fully_local_voice_dictation_for_pi_coding_agent/"
 author:
@@ -7,7 +9,8 @@ published: "2026-05-11"
 created: "2026-06-29"
 description:
 tags:
-  - raw  - "pi-voice"
+  - raw
+  - "pi-voice"
   - "agents"
   - "clip/video"
   - "local-llm"

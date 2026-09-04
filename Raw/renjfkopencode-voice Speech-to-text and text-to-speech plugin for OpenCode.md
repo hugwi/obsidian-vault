@@ -1,4 +1,6 @@
 ---
+categories:
+  - "[[Raw]]"
 title: "renjfk/opencode-voice: Speech-to-text and text-to-speech plugin for OpenCode"
 source: "https://github.com/renjfk/opencode-voice"
 author:
@@ -6,7 +8,8 @@ published:
 created: "2026-06-29"
 description: "Speech-to-text and text-to-speech plugin for OpenCode - renjfk/opencode-voice"
 tags:
-  - raw  - "voice"
+  - raw
+  - "voice"
   - "clip/video"
   - "voice-ai"
 ---

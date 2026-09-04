@@ -1,4 +1,6 @@
 ---
+categories:
+  - "[[Raw]]"
 title: "Best Codebase Visualization Tools (Graphs, Maps, Diagrams)"
 source: "https://www.repowise.dev/blog/comparisons/best-codebase-visualization-tools"
 author:
@@ -7,7 +9,8 @@ published: "2026-05-20"
 created: "2026-06-25"
 description: "The best codebase visualization tools do one job well: they turn a pile of imports, folders, and ownership history into a picture you can act on. That…"
 tags:
-  - raw  - "clip/video"
+  - raw
+  - "clip/video"
 ---
 ## Why visualization actually helps
 

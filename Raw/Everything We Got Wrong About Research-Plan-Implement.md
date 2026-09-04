@@ -1,4 +1,6 @@
 ---
+categories:
+  - "[[Raw]]"
 title: "Everything We Got Wrong About Research-Plan-Implement"
 source: "https://www.youtube.com/watch?v=UNzCG3lw6O0"
 author:
@@ -7,7 +9,8 @@ published: "2026-06-29"
 created: "2026-07-01"
 description: "Dexter Horthy (HumanLayer) Keynote at the Coding Agents Conference at the Computer History Museum, March 3rd, 2026.Abstract // RPI was supposed to fix AI cod..."
 tags:
-  - raw  - "skills"
+  - raw
+  - "skills"
   - "agentic-engineering"
   - "agents"
   - "clip/video"

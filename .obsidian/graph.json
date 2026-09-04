@@ -22,7 +22,7 @@
       }
     },
     {
-      "query": "[\"categories\":\"Clippings\"]",
+      "query": "[\"categories\":\"Raw\"]",
       "color": {
         "a": 1,
         "rgb": 9127187

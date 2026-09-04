@@ -11,7 +11,8 @@ rating:
 action:
 description: "Junie is the #1 coding agent on SWE-Rebench and it'll save you a bunch of tokens - https://jb.gg/Fireship-Junie-GAUse code: FIRESHIP20 to to get 20 free AI c..."
 tags:
-  - raw  - "agents"
+  - raw
+  - "agents"
   - "clip/video"
   - "context-engineering"
   - "engineering"

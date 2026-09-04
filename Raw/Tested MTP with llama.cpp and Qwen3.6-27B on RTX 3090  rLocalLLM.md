@@ -1,4 +1,6 @@
 ---
+categories:
+  - "[[Raw]]"
 title: "Tested MTP with llama.cpp and Qwen3.6-27B on RTX 3090 : r/LocalLLM"
 source: "https://www.reddit.com/r/LocalLLM/comments/1tf002j/tested_mtp_with_llamacpp_and_qwen3627b_on_rtx_3090/"
 author:
@@ -7,7 +9,8 @@ published: "2026-05-16"
 created: "2026-07-13"
 description:
 tags:
-  - raw  - "clip/video"
+  - raw
+  - "clip/video"
   - "local-llm"
 ---
 I have just compiled the new release of llama.cpp that includes MTP and tried it for agentic coding on my RTX 3090.

@@ -1,4 +1,6 @@
 ---
+categories:
+  - "[[Raw]]"
 title: "Coding with Local Agents on an RTX 3090"
 source: "https://praeclarum.org/2026/05/05/coding-with-local-agents.html"
 author:
@@ -7,7 +9,8 @@ published: "2026-05-05"
 created: "2026-07-13"
 description: "TL;DR Running coding agents on local machines has never been easier. This article gives easy setup instructions for running Qwen 3.6 27B on an RTX 3090 in Li..."
 tags:
-  - raw  - "agents"
+  - raw
+  - "agents"
   - "clip/video"
   - "local-llm"
 ---

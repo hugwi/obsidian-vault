@@ -1,4 +1,6 @@
 ---
+categories:
+  - "[[Raw]]"
 title: "Pi AI has had voice-to-voice for over a year now. It still has the best human voices. It has no limits. And it is FREE. : r/ChatGPT"
 source: "https://www.reddit.com/r/ChatGPT/comments/1froqps/pi_ai_has_had_voicetovoice_for_over_a_year_now_it/"
 author:
@@ -7,7 +9,8 @@ published: "2024-09-28"
 created: "2026-06-29"
 description:
 tags:
-  - raw  - "clip/video"
+  - raw
+  - "clip/video"
   - "voice-ai"
 ---
 I am flabbergasted how no one seems to know about this free, no limits chatting AI.

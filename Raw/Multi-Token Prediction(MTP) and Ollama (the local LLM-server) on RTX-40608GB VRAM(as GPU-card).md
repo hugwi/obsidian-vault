@@ -1,4 +1,6 @@
 ---
+categories:
+  - "[[Raw]]"
 title: "Multi-Token Prediction(MTP) and Ollama (the local LLM-server) on RTX-4060/8GB VRAM(as GPU-card)"
 source: "https://medium.com/@ion.stefanache0/multi-token-prediction-mtp-and-ollama-the-local-llm-server-6d8d8d61157e"
 author:
@@ -7,7 +9,8 @@ published: "2026-06-17"
 created: "2026-07-13"
 description: "Hi everybody!"
 tags:
-  - raw  - "clip/video"
+  - raw
+  - "clip/video"
   - "hardware"
   - "local-llm"
 ---

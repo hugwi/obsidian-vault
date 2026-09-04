@@ -1,4 +1,6 @@
 ---
+categories:
+  - "[[Raw]]"
 title: "repowise-dev/repowise: Codebase intelligence for AI and humans: code health scores, auto-generated docs, git analytics, dead code detection, and architectural decisions via MCP."
 source: "https://github.com/repowise-dev/repowise"
 author:
@@ -6,7 +8,8 @@ published:
 created: "2026-06-25"
 description: "Codebase intelligence for AI and humans: code health scores, auto-generated docs, git analytics, dead code detection, and architectural decisions via MCP. - repowise-dev/repowise"
 tags:
-  - raw  - "clip/video"
+  - raw
+  - "clip/video"
   - "mcp"
 ---
 [![repowise — the codebase intelligence layer for your AI coding agent](https://github.com/repowise-dev/repowise/raw/main/.github/assets/banner.png)](https://www.repowise.dev/)

@@ -1,4 +1,6 @@
 ---
+categories:
+  - "[[Raw]]"
 title: "Running Gemma 4 on a Modest Machine: Unsloth vs LM Studio vs llama.cpp vs Ollama"
 source: "https://dev.to/skomfi/running-gemma-4-on-a-modest-machine-unsloth-vs-lm-studio-vs-llamacpp-vs-ollama-11cp"
 author:
@@ -7,7 +9,8 @@ published: "2026-05-24"
 created: "2026-07-13"
 description: "This is a submission for the Gemma 4 Challenge: Write About Gemma 4  When local AI conversations... Tagged with devchallenge, gemmachallenge, gemma."
 tags:
-  - raw  - "clip/video"
+  - raw
+  - "clip/video"
   - "local-llm"
 ---
 Gemma 4 Challenge: Write about Gemma 4 Submission

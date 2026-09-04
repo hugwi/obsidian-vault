@@ -1,4 +1,6 @@
 ---
+categories:
+  - "[[Raw]]"
 title: "Turn Claude Into A Design GENIUS In 3 Simple Steps"
 source: "https://www.youtube.com/watch?v=7FU98O0JLHs"
 author:
@@ -7,7 +9,8 @@ published: "2026-07-23"
 created: "2026-08-01"
 description: "🟡Higgsfield: https://higgsfield.ai/s/mcp-chase-h-ai-ohgbot ⚡Master Claude Code: https://www.skool.com/chase-ai🔥FREE community: https://www.skool.com/chase-..."
 tags:
-  - raw  - "anthropic"
+  - raw
+  - "anthropic"
   - "business"
   - "claude-code"
   - "clip/video"

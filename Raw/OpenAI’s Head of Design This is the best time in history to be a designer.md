@@ -1,4 +1,6 @@
 ---
+categories:
+  - "[[Raw]]"
 title: "OpenAI’s Head of Design: This is the best time in history to be a designer"
 source: "https://www.lennysnewsletter.com/p/openais-head-of-design-this-is-the?utm_source=post-email-title&publication_id=10845&post_id=209801560&utm_campaign=email-post-title&isFreemail=true&r=hmf3g&triedRedirect=true"
 author:

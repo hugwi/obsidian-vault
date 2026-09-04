@@ -1,4 +1,6 @@
 ---
+categories:
+  - "[[Raw]]"
 title: "I Built a Company Run Entirely by AI Agents. Here's How (and What Went Wrong)."
 source: "https://dev.to/nunc/i-built-a-company-run-entirely-by-ai-agents-heres-how-and-what-went-wrong-4hli"
 author:
@@ -7,7 +9,8 @@ published: "2026-02-10"
 created: "2026-07-13"
 description: "Seven AI agents. One cheap VPS. A corporate hierarchy with a CEO, CTO, and five employees, all of... Tagged with ai, agents, opensource, experiment."
 tags:
-  - raw  - "agents"
+  - raw
+  - "agents"
   - "clip/video"
 ---
 Seven AI agents. One cheap VPS. A corporate hierarchy with a CEO, CTO, and five employees, all of them bots. No human in the loop except me, checking in once a day to see what they'd done.

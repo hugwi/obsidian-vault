@@ -50,7 +50,7 @@ write("Datahub.md", project("Datahub", "status: someday"));
 write("PII.md", '---\ncategories:\n  - "[[Projects]]"\n---\n\nNo project property at all.\n');
 // Belongs to Ethira, so it is not a project itself.
 write("adr-tool-routing.md", project("Ethira"));
-write("Raw/Some clip.md", '---\ncategories:\n  - "[[Raw]]"\nproject: "[[Ethira]]"\n---\n');
+write("Raw/Some raw note.md", '---\ncategories:\n  - "[[Raw]]"\nproject: "[[Ethira]]"\n---\n');
 write("Templates/Project Template.md", project("Project Template"));
 
 const hubs = vault.findHubs(root);
@@ -64,7 +64,7 @@ check("finds project notes", names.includes("Ethira"), names.join(", "));
 check("finds one with no project property", names.includes("PII"), names.join(", "));
 check("skips notes inside a project", !names.includes("adr-tool-routing"), names.join(", "));
 check("skips templates", !names.includes("Project Template"), names.join(", "));
-check("skips clippings", !names.includes("Some clip"), names.join(", "));
+check("skips raw notes", !names.includes("Some raw note"), names.join(", "));
 check(
     "orders active first",
     names.join(" | ") === "Ethira | Ethirium | PII | Datahub",

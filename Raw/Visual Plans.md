@@ -10,7 +10,8 @@ rating:
 action:
 description: "Agent-Native Plans turns your coding agent's plan into a structured, reviewable document — diagrams, wireframes, annotated code, comments, and share links. Install once from the CLI; reviewers you share with edit as a guest and sign in only to save or share."
 tags:
-  - raw  - "clip/video"
+  - raw
+  - "clip/video"
 ---
 Agent-Native Plans is visual plan mode for coding agents. It turns an ordinary Codex, Claude Code, Markdown, or pasted implementation plan into a structured review surface with rich text, diagrams, wireframes, annotated code walkthroughs and file trees, annotations, comments, and shareable links.
 

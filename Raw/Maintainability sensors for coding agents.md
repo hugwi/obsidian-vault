@@ -1,4 +1,6 @@
 ---
+categories:
+  - "[[Raw]]"
 title: "Maintainability sensors for coding agents"
 source: "https://martinfowler.com/articles/sensors-for-coding-agents.html?utm_source=chatgpt.com"
 author:
