@@ -105,3 +105,6 @@ Here are some of the fundamentals that we are also asked to build, so if you hav
 4. Defining the data-classification and Good Practice (“**GxP**”) handling approach for each Golden Path archetype
 5. Developing an evaluation harness 
 6. CI/CD pipeline templates for assembling,
+
+
+# Micheal Ludvig 
