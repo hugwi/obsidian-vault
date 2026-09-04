@@ -39,5 +39,5 @@ await dv.view("Templates/Scripts/project-desk");
 ```
 
 <!-- Everything above the desk you write; everything in it is gathered. A note joins
-     this project by carrying `project: "[[This project]]"` — including clippings,
+     this project by carrying `project: "[[This project]]"` — including raw notes,
      which stay in `Raw/`. Wikilinking this note also counts. -->

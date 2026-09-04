@@ -39,14 +39,14 @@ A note with no `status` counts as active.
 
 Two ways, both of which leave the source note where it is:
 
-1. **`project: "[[Ethira]]"`** on any note — a clipping in `Raw/`, a person in
+1. **`project: "[[Ethira]]"`** on any note — an external source note in `Raw/`, a person in
    `References/`, a resource at the root. The note keeps its own `categories`; the
    property is purely a "this belongs to that project" pointer. Use
    `project: ethira/api` to scope it to a slice — the parent project still shows it.
 2. **A wikilink to the project note** from anywhere. Cheapest possible capture: type
    `[[Ethira]]` in today's daily note and it lands under *Recent mentions*.
 
-Nothing moves folders. A clipping that becomes your own thinking gets rewritten into
+Nothing moves folders. A raw note that becomes your own thinking gets rewritten into
 a new note at the root — that is the only case where a file leaves `Raw/`.
 
 ## Capture into it
@@ -59,7 +59,7 @@ Two command-palette entries do the property-writing for you. Hit Cmd/Ctrl+P and 
   with the project's own content in front of you. Choose *➕ New note* instead and it asks
   for a title and makes a plain root note in `[[Inbox]]`. Esc cancels.
 - **Attach note to project** — run it while reading any note and pick a project; it writes
-  `project: "[[Name]]"` into that note's frontmatter. This is the one for clippings.
+  `project: "[[Name]]"` into that note's frontmatter. This is the one for existing raw notes.
 
 Both are Templater templates in `Templates/Commands/`, backed by user scripts in
 `Templates/Templater/` — see the README there.
@@ -92,7 +92,7 @@ which renders the desk:
 | Section | What lands there |
 |---|---|
 | 📦 Intermediate packets | your own notes carrying this `project:` — specs, ADRs, benchmarks |
-| 🧱 Raw material | attached clippings, split by `action:` (implement / review / insight / untriaged) |
+| 🧱 Raw material | attached raw notes, split by `action:` (implement / review / insight / untriaged) |
 | 📚 Resources · 🗂️ Areas · 👤 People | supporting notes by category |
 | 🗓️ Recent mentions | the last 10 daily notes that link the project |
 | ✅ Open tasks | unchecked tasks across the project note and its packets |

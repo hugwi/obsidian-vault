@@ -13,10 +13,10 @@ tags:
   - inbox
 status: inbox
 ---
-# Clipping Template
+# Raw Template
 
 ## Summary
-<!-- One paragraph: what is this about and why did I clip it? -->
+<!-- One paragraph: what is this about and why did I save it? -->
 
 ## Key points
 - 

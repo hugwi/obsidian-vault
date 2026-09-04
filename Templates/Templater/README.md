@@ -38,7 +38,7 @@ hotkeys in Settings → Hotkeys (search "project").
 | `Capture to project` | Pick a project → opens it with the cursor on a fresh `- YYYY-MM-DD — ` bullet under `## Log`. Pick *➕ New note* → prompts for a title and creates a root note in `[[Inbox]]`. Esc cancels. |
 | `Attach note to project` | Pick a project → writes `project: "[[Name]]"` into the frontmatter of the note you are currently reading. Nothing moves folders. |
 
-`Attach note to project` is the fast path for clippings: read it, hit the hotkey, pick
+`Attach note to project` is the fast path for raw notes: read it, hit the hotkey, pick
 the project, and it shows up under 🧱 Raw material on that project's desk.
 
 ## Two things worth knowing

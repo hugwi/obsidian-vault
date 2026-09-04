@@ -1,5 +1,5 @@
 <%*
-// Attaches the note you are reading to a project — a clipping, a daily note, anything.
+// Attaches the note you are reading to a project — a raw note, a daily note, anything.
 // Writes one property. The file does not move and nothing else is touched.
 const picked = await tp.user.projects(tp, {
     placeholder: "Attach this note to which project?",

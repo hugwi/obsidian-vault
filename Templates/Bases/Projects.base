@@ -77,7 +77,7 @@ views:
       - outcome
       - due
   # Raw material: notes attached to a project that are not project notes themselves
-  # — clippings, resources, people. They keep their own category and folder.
+  # — raw notes, resources, people. They keep their own category and folder.
   - type: table
     name: 📎 Material
     filters:

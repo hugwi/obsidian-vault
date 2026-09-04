@@ -69,7 +69,7 @@ if renames:
 ```
 
 4. Review the printed rename list and the resulting `git status`.
-5. Check that wikilinks, embeds, project properties, and clipping links still resolve. Use Obsidian’s link updater or search/replace where needed.
+5. Check that wikilinks, embeds, project properties, and source links still resolve. Use Obsidian’s link updater or search/replace where needed.
 6. Commit and push the renames:
 
 ```bash
