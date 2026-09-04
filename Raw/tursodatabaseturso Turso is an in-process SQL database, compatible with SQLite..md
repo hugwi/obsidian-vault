@@ -10,8 +10,7 @@ rating:
 action:
 description: "Turso is an in-process SQL database, compatible with SQLite. - tursodatabase/turso"
 tags:
-  - "clippings"
-  - "clip/video"
+  - raw  - "clip/video"
 ---
 [![Turso Database](https://github.com/tursodatabase/turso/raw/main/assets/turso.png)](https://github.com/tursodatabase/turso/blob/main/assets/turso.png)
 

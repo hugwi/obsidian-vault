@@ -7,8 +7,7 @@ published: "2026-02-28"
 created: "2026-08-01"
 description: "How a personal frustration with workout form turned into a reusable MCP server for video... Tagged with ai, mcp, llm, openai."
 tags:
-  - "clippings"
-  - "clip/video"
+  - raw  - "clip/video"
   - "video-gen"
 ---
 *How a personal frustration with workout form turned into a reusable MCP server for video intelligence*

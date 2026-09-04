@@ -11,8 +11,7 @@ rating:
 action:
 description: "Hey! I've made this neat little Obsidian plugin that I'm excited to share with you.QuickAdd: https://github.com/chhoumann/quickaddQuickAdd Q&A: https://bager..."
 tags:
-  - "clippings"
-  - "clip/video"
+  - raw  - "clip/video"
   - "evaluation"
   - "skills"
   - "video-gen"

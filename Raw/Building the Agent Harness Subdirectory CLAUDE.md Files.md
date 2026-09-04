@@ -9,8 +9,7 @@ rating:
 action:
 description: "The technical deep-dive on the harness system. Why one big instruction file doesn't scale, how subdirectory CLAUDE.md files scope guidance, and what goes in each one. Tagged with ai, architecture, programming, claude."
 tags:
-  - "clippings"
-  - "agents"
+  - raw  - "agents"
   - "clip/video"
   - "harness-engineering"
 ---

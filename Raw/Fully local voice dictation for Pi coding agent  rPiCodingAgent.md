@@ -7,8 +7,7 @@ published: "2026-05-11"
 created: "2026-06-29"
 description:
 tags:
-  - "clippings"
-  - "pi-voice"
+  - raw  - "pi-voice"
   - "agents"
   - "clip/video"
   - "local-llm"

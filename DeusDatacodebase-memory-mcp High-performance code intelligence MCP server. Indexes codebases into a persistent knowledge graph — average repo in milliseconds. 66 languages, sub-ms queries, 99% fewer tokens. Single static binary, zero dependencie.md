@@ -10,8 +10,7 @@ published:
 created: 2026-04-08
 description: "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 66 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies. - DeusData/codebase-memory-mcp"
 tags:
-  - "clippings"
-  - agent-plugins-mcp
+  - raw  - agent-plugins-mcp
 ---
 ## codebase-memory-mcp
 

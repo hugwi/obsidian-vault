@@ -1,4 +1,6 @@
 ---
+categories:
+  - "[[Raw]]"
 title: "Karpathy's LLM Knowledge Base: Build Your Second Brain"
 source: "https://codersera.com/blog/karpathy-llm-knowledge-base-second-brain/"
 author:
@@ -7,7 +9,7 @@ published: 2026-04-06
 created: 2026-08-21
 description: "How Andrej Karpathy uses an LLM to build a self-maintaining wiki—a personal knowledge base of interlinked markdown notes. Full setup + how to copy it."
 tags:
-  - "clippings"
+  - raw
 ---
 **Quick answer.** Andrej Karpathy's LLM knowledge base is a self-maintaining personal wiki: an LLM ingests his notes, conversations, and reading, then writes structured, interlinked markdown files he edits and re-feeds. The result is a second brain that grows itself — not generating code but generating knowledge structure. You can replicate it with any local or hosted LLM plus a markdown editor like Obsidian.
 

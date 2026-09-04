@@ -11,8 +11,7 @@ rating:
 action:
 description: "How do we get AI coding agents to solve hard problems in complex, brownfield codebases?"
 tags:
-  - "clippings"
-  - "agents"
+  - raw  - "agents"
   - "clip/video"
   - "context-engineering"
 ---

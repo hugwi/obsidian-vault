@@ -7,8 +7,7 @@ published: "2024-05-29"
 created: "2026-08-07"
 description: "exactly the problem i have with i need to push glasses to sit well enough and see the full picture"
 tags:
-  - "clippings"
-  - "clip/video"
+  - raw  - "clip/video"
 ---
 Yesterday I got the Air 2 Pro. Connected and boom, huge picture, impressive.
 

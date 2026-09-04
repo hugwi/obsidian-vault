@@ -10,7 +10,6 @@ published: 2026-03-12
 created: 2026-06-07
 description: "Harness engineering is the art and science of leveraging your coding agent's configuration points to improve output quality and increase task success rates."
 tags:
-  - "clippings"
-  - harness-engineering
+  - raw  - harness-engineering
 ---
 study testing 138 agentfiles across various repos

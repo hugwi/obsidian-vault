@@ -1,4 +1,6 @@
 ---
+categories:
+  - "[[Raw]]"
 title: "The Spine of Agentic AI: How Vector Databases Give AI Memory and Meaning"
 source: "https://medium.com/@keven1894/the-spine-of-agentic-ai-how-vector-databases-give-ai-memory-and-meaning-f639d82fcab5"
 author:
@@ -7,7 +9,7 @@ published: 2025-10-17
 created: 2026-08-20
 description: "Embeddings in Agentic-AI Applications like Power Chatbots, Automated Pipelines, and Intelligent Assistants"
 tags:
-  - "clippings"
+  - raw
 ---
 Embeddings in Agentic-AI Applications like Power Chatbots, Automated Pipelines, and Intelligent Assistants
 

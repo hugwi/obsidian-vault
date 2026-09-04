@@ -10,8 +10,7 @@ rating:
 action:
 description: "Skills for coding agents. Contribute to BuilderIO/skills development by creating an account on GitHub."
 tags:
-  - "clippings"
-  - "agents"
+  - raw  - "agents"
   - "clip/video"
   - "skills"
 ---

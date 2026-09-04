@@ -6,8 +6,7 @@ published:
 created: "2026-06-29"
 description: "Speech-to-text and text-to-speech plugin for OpenCode - renjfk/opencode-voice"
 tags:
-  - "clippings"
-  - "voice"
+  - raw  - "voice"
   - "clip/video"
   - "voice-ai"
 ---

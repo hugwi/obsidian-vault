@@ -11,8 +11,7 @@ rating:
 action:
 description: "A practical guide to Matt Pocock's mattpocock/skills repository — the .claude directory that makes Claude Code follow team conventions for PRDs, TDD, refactors, and git safety."
 tags:
-  - "clippings"
-  - "claude-code"
+  - raw  - "claude-code"
   - "clip/video"
   - "skills"
 ---

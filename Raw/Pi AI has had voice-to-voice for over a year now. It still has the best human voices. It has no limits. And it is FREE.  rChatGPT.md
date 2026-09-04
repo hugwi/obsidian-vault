@@ -7,8 +7,7 @@ published: "2024-09-28"
 created: "2026-06-29"
 description:
 tags:
-  - "clippings"
-  - "clip/video"
+  - raw  - "clip/video"
   - "voice-ai"
 ---
 I am flabbergasted how no one seems to know about this free, no limits chatting AI.

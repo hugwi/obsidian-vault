@@ -7,8 +7,7 @@ published:
 created: "2026-06-29"
 description: "Free, open-source mobile app for Claude Code. Control Claude AI from your phone with end-to-end encryption and seamless workflow. Get started with npm install -g happy."
 tags:
-  - "clippings"
-  - "remote-code"
+  - raw  - "remote-code"
   - "claude-code"
   - "clip/video"
 ---

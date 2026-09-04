@@ -10,8 +10,7 @@ published: 2026-03-24
 created: 2026-06-07
 description: "Dexter Horthy (HumanLayer) Keynote at the Coding Agents Conference at the Computer History Museum, March 3rd, 2026.Abstract // RPI was supposed to fix AI cod..."
 tags:
-  - "clippings"
-  - orchestration
+  - raw  - orchestration
 ---
 ![](https://www.youtube.com/watch?v=YwZR6tc7qYg)
 

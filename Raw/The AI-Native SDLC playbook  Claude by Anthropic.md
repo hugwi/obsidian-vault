@@ -6,8 +6,7 @@ published: "Aug 21"
 created: "2026-08-24"
 description: "How to transform your software development lifecycle with AI—stage by stage."
 tags:
-  - "clippings"
-  - "anthropic"
+  - raw  - "anthropic"
   - "clip/video"
 ---
 ## Code is no longer the bottleneck

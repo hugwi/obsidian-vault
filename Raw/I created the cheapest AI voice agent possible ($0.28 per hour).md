@@ -6,8 +6,7 @@ published:
 created: "2026-07-13"
 description: "30x cheaper than Elevenlabs and OpenAI. Code Included!"
 tags:
-  - "clippings"
-  - "agents"
+  - raw  - "agents"
   - "clip/video"
   - "voice-ai"
 ---

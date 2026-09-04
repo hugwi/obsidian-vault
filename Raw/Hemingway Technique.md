@@ -7,8 +7,7 @@ published: "2026-04-20"
 created: "2026-07-08"
 description: "Free, open-source mobile app for Claude Code. Control Claude AI from your phone with end-to-end encryption and seamless workflow. Get started with npm install -g happy."
 tags:
-  - "clippings"
-  - "clip/video"
+  - raw  - "clip/video"
 ---
 Ernest Hemingway used a smart trick when writing. He would stop mid-sentence or at a point where he knew what came next. This made it much easier to start writing again the next day. He didn’t have to figure out where to begin. The idea is simple: keep your momentum by always having a clear next step ready.
 

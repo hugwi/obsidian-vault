@@ -10,8 +10,7 @@ rating:
 action:
 description: "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies. - DeusData/codebase-memory-mcp"
 tags:
-  - "clippings"
-  - "clip/video"
+  - raw  - "clip/video"
   - "context-engineering"
   - "mcp"
 ---

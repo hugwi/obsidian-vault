@@ -7,8 +7,7 @@ published: "2026-05-12"
 created: "2026-07-27"
 description: "I ran Gemma 4 on my own RTX 3090 today. Three times faster than Qwen 3.6 on the same hardware, same build. The numbers below, plus the flag combination that..."
 tags:
-  - "clippings"
-  - "clip/video"
+  - raw  - "clip/video"
 ---
 I ran Gemma 4 on my own RTX 3090 today. Three times faster than Qwen 3.6 on the same hardware, same build. The numbers below, plus the flag combination that almost broke my bench.
 

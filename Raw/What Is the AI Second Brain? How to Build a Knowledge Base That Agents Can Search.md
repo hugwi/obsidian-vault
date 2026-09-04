@@ -1,4 +1,6 @@
 ---
+categories:
+  - "[[Raw]]"
 title: "What Is the AI Second Brain? How to Build a Knowledge Base That Agents Can Search"
 source: "https://www.mindstudio.ai/blog/what-is-ai-second-brain"
 author:
@@ -7,7 +9,7 @@ published: 2026-05-27
 created: 2026-08-21
 description: "An AI second brain stores your notes, decisions, and context so agents can retrieve them by meaning. Learn the architecture and tools to build one."
 tags:
-  - "clippings"
+  - raw
 ---
 ## Why Your AI Agents Keep Forgetting Everything
 

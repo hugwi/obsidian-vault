@@ -6,8 +6,7 @@ published:
 created: "2026-06-25"
 description: "Workshop materials and demo app for 'Principles of Agentic Engineering' by Cole Medin — the AI layer concept, the PIV loop, and 15 reusable Claude Code commands you can drop into any project. - coleam00/ai-transformation-workshop"
 tags:
-  - "clippings"
-  - "agentic-engineering"
+  - raw  - "agentic-engineering"
   - "workshop"
   - "agents"
   - "claude-code"

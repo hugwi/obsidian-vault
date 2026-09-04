@@ -7,8 +7,7 @@ published: "2026-07-01"
 created: "2026-08-02"
 description: "Learn how to make AI videos look more cinematic and less AI-generated using better lighting, camera language, composition, pacing, reference control, and a practical creative workflow with Elser AI."
 tags:
-  - "clippings"
-  - "clip/video"
+  - raw  - "clip/video"
   - "video-gen"
 ---
 The easiest way to spot an AI video is not always a distorted hand or strange face. Sometimes the video looks technically clean, but still feels artificial. The lighting is too perfect. The camera movement is too floaty. Every frame looks equally important. The subject is centered without intention. The motion feels impressive but not motivated. The result is polished, but strangely empty.

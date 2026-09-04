@@ -7,8 +7,7 @@ published: "2025-04-30"
 created: "2026-08-07"
 description: "How to Make Midjourney Faces Look Real (Without That Weird AI Glow)"
 tags:
-  - "clippings"
-  - "clip/video"
+  - raw  - "clip/video"
 ---
 How to Make Midjourney Faces Look Real (Without That Weird AI Glow)
 

@@ -6,8 +6,7 @@ published:
 created: "2026-07-08"
 description: "Fetch source code for npm packages to give AI coding agents deeper context - vercel-labs/opensrc"
 tags:
-  - "clippings"
-  - "agentic-engineering"
+  - raw  - "agentic-engineering"
   - "file-search"
   - "agents"
   - "clip/video"

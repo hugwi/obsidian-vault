@@ -7,8 +7,7 @@ published: "2026-05-05"
 created: "2026-07-13"
 description: "TL;DR Running coding agents on local machines has never been easier. This article gives easy setup instructions for running Qwen 3.6 27B on an RTX 3090 in Li..."
 tags:
-  - "clippings"
-  - "agents"
+  - raw  - "agents"
   - "clip/video"
   - "local-llm"
 ---

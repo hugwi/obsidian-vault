@@ -1,4 +1,6 @@
 ---
+categories:
+  - "[[Raw]]"
 title: "jamesmcroft/obsidian-ai-second-brain: A starter template for building an AI-augmented Second Brain using Obsidian, CODE/PARA, and AI skills, including templates, queries, and AI instructions to get started"
 source: "https://github.com/jamesmcroft/obsidian-ai-second-brain"
 author:
@@ -6,7 +8,7 @@ published:
 created: 2026-08-21
 description: "A starter template for building an AI-augmented Second Brain using Obsidian, CODE/PARA, and AI skills, including templates, queries, and AI instructions to get started - jamesmcroft/obsidian-ai-second-brain"
 tags:
-  - "clippings"
+  - raw
 ---
 ## 🧠 Obsidian AI Second Brain
 

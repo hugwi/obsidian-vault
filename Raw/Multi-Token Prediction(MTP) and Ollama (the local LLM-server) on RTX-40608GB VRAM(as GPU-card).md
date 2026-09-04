@@ -7,8 +7,7 @@ published: "2026-06-17"
 created: "2026-07-13"
 description: "Hi everybody!"
 tags:
-  - "clippings"
-  - "clip/video"
+  - raw  - "clip/video"
   - "hardware"
   - "local-llm"
 ---

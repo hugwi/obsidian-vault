@@ -7,8 +7,7 @@ published: "2026-05-24"
 created: "2026-07-13"
 description: "This is a submission for the Gemma 4 Challenge: Write About Gemma 4  When local AI conversations... Tagged with devchallenge, gemmachallenge, gemma."
 tags:
-  - "clippings"
-  - "clip/video"
+  - raw  - "clip/video"
   - "local-llm"
 ---
 Gemma 4 Challenge: Write about Gemma 4 Submission

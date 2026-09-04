@@ -1,4 +1,6 @@
 ---
+categories:
+  - "[[Raw]]"
 title: "netdata/skills: Agent Skills for setting up, instrumenting, and troubleshooting infrastructure with Netdata."
 source: "https://github.com/netdata/skills"
 author:
@@ -6,7 +8,7 @@ published:
 created: 2026-08-21
 description: "Agent Skills for setting up, instrumenting, and troubleshooting infrastructure with Netdata. - netdata/skills"
 tags:
-  - "clippings"
+  - raw
 ---
 ## netdata/skills
 

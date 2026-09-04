@@ -7,8 +7,7 @@ published: "2026-04-03"
 created: "2026-08-19"
 description: "Everything about dark mode on Mac - how to enable it, schedule it, fix it, use it per-app, and automate it. The definitive guide to Mac dark mode in 2026."
 tags:
-  - "clippings"
-  - "clip/video"
+  - raw  - "clip/video"
 ---
 ## What Is Dark Mode on Mac?
 

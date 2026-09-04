@@ -6,8 +6,7 @@ published:
 created: "2026-08-06"
 description: "A collaborative AI workspace, built on your company context. Build and orchestrate agents right alongside your team's projects, meetings, and connected apps."
 tags:
-  - "clippings"
-  - "clip/video"
+  - raw  - "clip/video"
 ---
 ## ✅ REVISED PROMPTS
 

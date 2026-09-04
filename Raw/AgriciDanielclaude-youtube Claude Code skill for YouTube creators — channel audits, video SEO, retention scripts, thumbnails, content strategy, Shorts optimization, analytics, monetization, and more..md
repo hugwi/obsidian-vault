@@ -6,8 +6,7 @@ published:
 created: "2026-08-02"
 description: "Claude Code skill for YouTube creators — channel audits, video SEO, retention scripts, thumbnails, content strategy, Shorts optimization, analytics, monetization, and more. - AgriciDaniel/claude-youtube"
 tags:
-  - "clippings"
-  - "business"
+  - raw  - "business"
   - "claude-code"
   - "clip/video"
   - "skills"

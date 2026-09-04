@@ -7,8 +7,7 @@ published: "2026-05-16"
 created: "2026-07-13"
 description:
 tags:
-  - "clippings"
-  - "clip/video"
+  - raw  - "clip/video"
   - "local-llm"
 ---
 I have just compiled the new release of llama.cpp that includes MTP and tried it for agentic coding on my RTX 3090.
