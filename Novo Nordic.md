@@ -116,6 +116,17 @@ Can be a direct competitor or a good collaboration
 Enterprise ai is a parallell organisation
 Christian engelbrekt from NL 
 
+Golden paths with 
+We build guides and what to do? 
+
+Understand who pays? 
+Talk to people at Chirstoph eichelberger 
+
+Ai spedning budget is stupid and don't check ROI 
+Worry more about AWS Proserve 
+Default AWS services are blocked  
+
+Big novo incident
 ##  Who's gonna pay and how what did they come? 
 
 ## Crhistopher Herde 
