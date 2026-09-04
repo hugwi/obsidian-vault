@@ -106,5 +106,22 @@ Here are some of the fundamentals that we are also asked to build, so if you hav
 5. Developing an evaluation harness 
 6. CI/CD pipeline templates for assembling,
 
+# Micheal Ludwig 
+Central IT where NL is 
+Least patient and most technically capable  
+RD are the free roamer 
+AI marketplace was the first real success product team for AI 
+Can be a direct competitor or a good collaboration 
 
-# Micheal Ludvig 
+Enterprise ai is a parallell organisation
+Christian engelbrekt from NL 
+
+##  Who's gonna pay and how what did they come? 
+
+## Crhistopher Herde 
+He's doing similar to what Micheal is doing 
+Golden agentic path 
+It's very ambitious said Micheal 
+It has to do with the london based team
+## Johny birch 
+
