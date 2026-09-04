@@ -182,6 +182,30 @@ MTP acceptance:       70.2%
 measured peak VRAM:   20,586 MiB
 ```
 
+### Verified GPU placement — 2026-09-03
+
+The Qwen 3.8 service now uses explicit CUDA-only placement in Docker:
+
+```text
+--device CUDA0 --gpu-layers all --split-mode none --main-gpu 0
+--kv-offload --op-offload --fit off
+```
+
+`--fit off` prevents llama.cpp from silently adjusting the configuration to
+fit by moving work away from the GPU. The service recreated successfully on the
+RTX 3090, passed its health check, and reported approximately 20.6 GiB VRAM in
+use with only 1.4 GiB host RAM used by the container. A 256-token request
+measured 57.7 generated tokens/s with MTP enabled, compared with the earlier
+49.13 tokens/s SPEED-Bench coding result; these are different tests, so the
+figures should not be treated as a strict apples-to-apples benchmark.
+
+The host experienced an out-of-memory event on 2026-09-02 at 09:19 while the
+27B model was running. Linux killed the Qwen container's `llama-server`, which
+Docker restarted with exit code 137. GPU offload does not eliminate host RAM:
+the process still needs system memory for runtime state, buffers, mapped data,
+and pinned CUDA transfers. The RTX 3090 deployment therefore remains GPU-first,
+but the 131K context and concurrent model services still require monitoring.
+
 ### Weight memory is not total inference memory
 
 The model file is only one consumer of VRAM. A useful approximation is:
