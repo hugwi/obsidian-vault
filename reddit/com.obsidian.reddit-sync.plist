@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  launchd job: sync saved Reddit posts into the vault every day at 07:30.
+
+  Install:
+    1. Edit VAULT_PATH below to your real vault path (two places).
+    2. cp com.obsidian.reddit-sync.plist ~/Library/LaunchAgents/
+    3. launchctl load ~/Library/LaunchAgents/com.obsidian.reddit-sync.plist
+
+  Run it once by hand to check:
+    launchctl start com.obsidian.reddit-sync
+
+  Uninstall:
+    launchctl unload ~/Library/LaunchAgents/com.obsidian.reddit-sync.plist
+-->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.obsidian.reddit-sync</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>VAULT_PATH/reddit/run.sh</string>
+        <!-- Feed mode needs no Reddit app. Drop this argument to use the
+             OAuth API instead (requires credentials in .env). -->
+        <string>--from-feed</string>
+    </array>
+
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>7</integer>
+        <key>Minute</key>
+        <integer>30</integer>
+    </dict>
+
+    <!-- If the Mac was asleep at 07:30, run as soon as it wakes. -->
+    <key>RunAtLoad</key>
+    <false/>
+
+    <key>StandardOutPath</key>
+    <string>VAULT_PATH/reddit/launchd.log</string>
+    <key>StandardErrorPath</key>
+    <string>VAULT_PATH/reddit/launchd.log</string>
+
+    <key>ProcessType</key>
+    <string>Background</string>
+</dict>
+</plist>

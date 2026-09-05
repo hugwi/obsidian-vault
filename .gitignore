@@ -25,3 +25,8 @@
 # Plugin data with secrets/local state — don't commit
 .obsidian/plugins/obsidian-git/data.json
 .obsidian/plugins/readwise-official/data.json
+
+# Reddit sync — credentials and local run state
+reddit/.env
+reddit/*.log
+reddit/__pycache__/
