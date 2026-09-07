@@ -317,3 +317,30 @@ Person S visar stark teknisk problemlösning och tydlig teknisk kommunikation. H
 
 Affärssinne  
 Person S tar plats i framsätet, väljer rätt saker att göra och driver arbetet mot tydliga mål. Han vill skapa sammanhållning i teamet och ser till att involvera rätt personer vid rätt tid, vilket ger ett jämnt och hållbart tempo. A beskriver också att Person S har starkt affärssinne och kreativitet, litar på sin förmåga och inte fastnar i en snäv roll, utan hjälper teamet att lyckas tillsammans.
+
+
+--- 
+
+### Competence
+
+- Quickly became confident in data engineering.
+- Drives important topics within his team.
+- Is a go-to person for other teams.
+- Confirmed by Sebastian Rundlund in the sister team.
+### Business Sense
+- Has moved beyond individual contribution and feel ownership for the topics that the team drive but also the success and well being of the team
+- He is a person that take ownership with the team but also help others Instead of just focusing on his own task
+- I've also heard from Linnea that he improves the mood and team spirit in the team
+--- 
+- Actively works to remove bottlenecks.
+- Noticed pull requests were reviewed too slowly.
+- Took ownership of improving the process.
+- Recognized when he became the bottleneck.
+- Raised this with the team.
+- Continues working to remove bottlenecks.
+- These examples strongly demonstrate his business sense.
+
+### Creativity
+- Collects and responds to feedback.
+- Received feedback during his AVA project.
+- Brought that learning into Scania.

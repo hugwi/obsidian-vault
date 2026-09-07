@@ -434,3 +434,72 @@ Erik visar stark leverans och förtroendeskapande beteende över hela CCB. Han t
 - Kompetens: Har snabbt tagit över och förbättrat en komplex kodbas, levererar värde tidigt och inger förtroende. Kan förklara teknik på ett enkelt och tillgängligt sätt och använder nätverket effektivt. Han har tagit över en komplex kodbas från en senior kollega och gör det galant. Hans DC har själv sagt att han har jobbat väldigt bra hittills!
 - Kreativitet: Tar initiativ, vågar testa nytt och lär sig kontinuerligt. Lyfter blicken, tar in ny information och omsätter den i arbetet. Lägger tid på förberedelser och sprider positiv energi i teamet. Hans social kompetens och nätverkssökande gör honom till en solid Netlighter.
 - Affärssinne: Genuint engagerad i kunden och inriktad på att leverera affärsvärde. Bygger relationer både internt och externt, smälter in i gruppen och trivs i Netlights kultur.
+
+
+--- 
+
+## Assignment and Starting Point
+
+- Started at Netlight in February.
+- Joined the Scania project days later.
+- Took over a complex codebase.
+- Inherited it from a departing senior.
+- Repository intricacies made the start difficult.
+- Discussed the challenges extensively.
+- Support was sometimes limited by missing context.
+- Took responsibility and moved work forward.
+- Progressed beyond handling assigned tasks.
+- Now drives improvements independently.
+- Takes a more senior technical role.
+
+## Overall Strengths
+
+- Strengths extend beyond technical competence.
+- Particularly strong in creativity and business sense.
+- Builds trust with non-technical stakeholders.
+- Explains technical topics clearly.
+- Is likeable and easy to work with.
+
+## Creativity and Ownership
+
+- Takes ownership of his development.
+- Found his DC independently.
+- Drove the matching process himself.
+- Owns the DC relationship.
+- Reaches beyond his DC when needed.
+- Uses the wider Netlight network.
+- Finds relevant help and perspectives.
+
+- Actively asks for feedback.
+- Acts on the feedback.
+- Checks whether he has improved.
+- Consistently closes the feedback loop.
+- Does this better than most Netlighters, including myself.
+
+> “I really like how you are proactive and reach out to other teams and people in order to speed up processes which otherwise are typically bottlenecks.”
+
+## Business Sense
+
+- Receives strong feedback from his DC and PO.
+- Focuses on delivering value.
+- Asks relevant questions.
+- Seeks the right solutions.
+- Understands the broader context.
+- Looks beyond immediate problems.
+- Considers the bigger picture.
+- Thinks about principles and future use-cases.
+
+> “Eric wants to deliver value in every situation and asks relevant questions to find the right answers and understand the broader context.”
+
+> “You don’t try to personalise your solutions, but instead think about how they will fit into the bigger scheme, thinking about principles and future use cases.”
+
+## Growth and Next-Level Readiness
+
+- Is on a strong development trajectory.
+- Ready to take more responsibility.
+- Can step into a driving role.
+- Expected to drive topics forward.
+- Can take over senior responsibilities.
+- Oscar is confident in his readiness.
+- Ready to become more senior in the team.
+- Shows readiness for the next level.
