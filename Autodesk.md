@@ -101,3 +101,52 @@ AI advisory från andra kunder.
 ## AI Governance
 **Lacking security and oversight.** 
 What's the blast radius. 
+
+
+--- 
+
+Talking points**0–3 min — Set the context and objective**
+Align on the purpose of the session and acknowledge that there may have been different expectations of the original AI SDLC scope.
+**3–10 min — Autodesk’s ambition and current situation**
+Let Guro and Håkon explain:
+
+* What business outcomes are they trying to accelerate through AI?
+* How does the agentic working group led by Carl Christensen fit in? Who are main drivers of the transformation?
+* Do they already have a strategy on how to enable the organisation or is that something they'd also want from a partnership? 
+* (What is currently working, and where are the biggest bottlenecks?)
+* Are the main challenges technical, organisational, cross-team or related to change/adoption?
+
+**10–17 min — Clarify the potential scopes**
+Explore:
+
+* How does Autodesk see the balance between what it wants to own and drive internally, and where additional capacity, expertise or an external perspective might be helpful?
+* What mandate, sponsorship and decision-making authority would such a role require?
+* (What would success look like in 6–12 months?)
+
+**17–24 min — Ownership and partnership model**
+Are they looking for advice, hands-on execution, a PM/transformation lead, or a combination?
+Explicitly distinguish the two possible tracks:
+
+* **Mathias/Hugo:** team-level AI SDLC and engineering enablement.
+* **Andreas:** broader AI PM/transformation role focused on change management, adoption and an agentic transformation across Autodesk.
+
+Clarify whether these are connected parts of one initiative or genuinely separate needs.
+**24–28 min — Discuss possible next step and setup**
+Only after the need is clear, discuss what a potential Netlight contribution could look like:
+
+* Mathias and Hugo for focused AI SDLC enablement.
+* Andreas or another profile for a broader transformation/PM role.
+* Additional senior AI, organisational or architecture support if required.
+
+**28–30 min — Agree concrete next steps**
+Close by agreeing:
+
+* Which scope Autodesk wants to investigate further.
+* Who owns the next decision on their side.
+* Whether to proceed with a separate conversation involving Andreas.
+* What information, examples or proposal they want from Netlight next.
+
+### Recommended framing
+
+>“Our main goal today is to understand whether we are talking about the continuation of a focused AI SDLC initiative, or whether there is a broader institutional AI and agentic transformation emerging. We would like to understand the ambition, the challenges and what Autodesk wants to own themselves before discussing the right setup or profiles.”
+
