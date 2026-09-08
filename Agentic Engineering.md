@@ -14,6 +14,7 @@ solves** (not by tool type). Every note carries a `theme` + 1–3 `subtheme` tag
 below is a live view grouped by sub-theme. Mark a note `read: true` to track progress, and set
 `rating` (1–7) + `action` (review / implement / insight) to triage.
 
+> What I run today: [[Agentic Engineering — Current Setup]]
 > What to build now: [[Agentic Engineering — Implementation Guide]]
 > Current-trend landscape & sources: [[Agentic Engineering — Trends 2026]]
 > Raw article list: [[Raw.base]] · taxonomy notes: [[_clusters_view]]
@@ -72,6 +73,7 @@ below is a live view grouped by sub-theme. Mark a note `read: true` to track pro
 - All topics: ![[Agentic Engineering.base#All topics]]
 
 ## Key notes
+- [[Agentic Engineering — Current Setup]] — the harnesses, hooks, and telemetry actually running
 - [[agentic-systems-architecture]] — Ethira architecture
 - [[agentic-systems-tools-and-prompts]] — tools catalog
 - [[Agentic Engineering — Implementation Guide]] — what to build, ranked + compared
