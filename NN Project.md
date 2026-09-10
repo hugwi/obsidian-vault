@@ -6,7 +6,9 @@ created: 2026-06-23
 ---
 
 # Questions 
-- Enagement deliveralbe: Are they referring to migrate it or 
+- Enagement deliveralbe: Are they referring to migrate the two use cases or only showcase that they can recreate the same capability 
+- MVP
+- Optimizing for fast experimentation 
 
 Prosurf/AWS to work on a data platform 
 Rearchitecture
