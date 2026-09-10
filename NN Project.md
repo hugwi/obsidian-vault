@@ -470,8 +470,29 @@ Content authoring
 
 Michal generated the SOP we trust himo
 
- Reserach and development worked as seperate organisation but has recently merged
+<mark style="background: #FFF3A3A6;"> Reserach and development worked as seperate organisation but has recently merged</mark>
  - research is confidential and conduct experiments and trails on animal and some for few people maybe 
 	 - reserach are fee to explore 
  - mike and christoffer was part of develpoment that is regulated
- 
+
+Good to know where the agent comes from 
+- content authoring come from development
+- research agent come from research
+
+# Research 
+- heavily invested into aws
+
+# Development 
+Heavily invested ni dbx 
+
+Probably use databricks for agentic work
+index in the vector store 
+
+# Req_SOPs-AGENTIC-GOLDEN_PATH_WIP
+- protection handling - lifecycle for handling business-critical information 
+	- classification of data business critical or non
+	- confidentiality levels 
+			- stricyl confidential 
+			- confidential 
+			- internal 
+			- public
