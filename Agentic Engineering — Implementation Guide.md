@@ -25,16 +25,17 @@ Ranked by impact ÷ effort. Most are <1 day.
 1. **Lean CLAUDE.md + progressive disclosure** (Low) — root <60 lines, push domain rules to `docs/*.md` with trigger pointers. Cuts every-session context. → *context-engineering*
 2. **Prompt/prefix caching + static↔dynamic prompt boundary** (Low) — 10% cache cost vs 100%; split stable instructions from per-task. → *context-engineering, agents-models*
 3. **RTK output compressor** (Low) — `rtk init -g --auto-patch`; 60–90% fewer tokens on git/test/lint output. → *context-engineering* · https://github.com/rtk-ai/rtk
-4. **Karpathy 4 rules in CLAUDE.md** (Low) — think-first / simplicity / surgical / goal-driven. Stops overengineering. → *workflow-phases-gates* · https://github.com/multica-ai/andrej-karpathy-skills
-5. **Mutation testing on changed files** (Low) — Stryker on the PR diff; proves tests catch bugs, keeps agents honest. → *quality-gates* · https://stryker-mutator.io
-6. **ESLint 5-rule guardrail** (Low) — no-comments, max-2-params, 50 lines/fn, 250 lines/file, no-magic-numbers; agent can't edit the config. → *quality-gates*
-7. **Adversarial self-review prompt** (Low) — "pretend you hate this diff — what's broken?" on `git diff`. Catches first-pass misses. → *quality-gates*
-8. **TASK_STATE.md / progress.md handoff** (Low) — durable checkpoint file that survives compaction + session resets. → *context-engineering, workflow-phases-gates*
-9. **Skills over subagents** (Low) — lazy-loaded `SKILL.md` (~100 tok at startup) instead of eager subagents; portable across tools. → *multi-agent-orchestration*
-10. **LiteLLM model routing** (Low–Med) — cheap model for simple tasks, Opus for hard; 30–50% spend cut + fallback chains. → *agents-models, productivity-measurement* · https://github.com/BerriAI/litellm
-11. **Git worktree + devcontainer isolation** (Med) — clean branch/sandbox per parallel agent task. → *multi-agent-orchestration*
-12. **Browser MCPs for E2E** (Low) — `claude mcp add playwright` / `chrome-devtools`; English-language UI tests. → *human-ux-frontend*
-13. **Prompt Coach skill** (Low) — audits your `~/.claude` logs for model overspend + prompt quality. → *productivity-measurement* · https://github.com/hancengiz/claude-code-prompt-coach-skill
+4. **Pilot one codebase-intelligence layer** (Med) — benchmark Graft first for lightweight token-efficient navigation; evaluate Repowise separately if Git/test/health/workspace intelligence is required. Keep deterministic lint boundaries. → [[Code graph tools - Graft Repowise and Dependency Cruiser]]
+5. **Karpathy 4 rules in CLAUDE.md** (Low) — think-first / simplicity / surgical / goal-driven. Stops overengineering. → *workflow-phases-gates* · https://github.com/multica-ai/andrej-karpathy-skills
+6. **Mutation testing on changed files** (Low) — Stryker on the PR diff; proves tests catch bugs, keeps agents honest. → *quality-gates* · https://stryker-mutator.io
+7. **ESLint 5-rule guardrail** (Low) — no-comments, max-2-params, 50 lines/fn, 250 lines/file, no-magic-numbers; agent can't edit the config. → *quality-gates*
+8. **Adversarial self-review prompt** (Low) — "pretend you hate this diff — what's broken?" on `git diff`. Catches first-pass misses. → *quality-gates*
+9. **TASK_STATE.md / progress.md handoff** (Low) — durable checkpoint file that survives compaction + session resets. → *context-engineering, workflow-phases-gates*
+10. **Skills over subagents** (Low) — lazy-loaded `SKILL.md` (~100 tok at startup) instead of eager subagents; portable across tools. → *multi-agent-orchestration*
+11. **LiteLLM model routing** (Low–Med) — cheap model for simple tasks, Opus for hard; 30–50% spend cut + fallback chains. → *agents-models, productivity-measurement* · https://github.com/BerriAI/litellm
+12. **Git worktree + devcontainer isolation** (Med) — clean branch/sandbox per parallel agent task. → *multi-agent-orchestration*
+13. **Browser MCPs for E2E** (Low) — `claude mcp add playwright` / `chrome-devtools`; English-language UI tests. → *human-ux-frontend*
+14. **Prompt Coach skill** (Low) — audits your `~/.claude` logs for model overspend + prompt quality. → *productivity-measurement* · https://github.com/hancengiz/claude-code-prompt-coach-skill
 
 > **Biggest structural bets (Med–High, schedule deliberately):** a knowledge-graph index for
 > token reduction at scale (code-review-graph / Graphify), a structured workflow (QRSPI / BMAD /
@@ -46,21 +47,24 @@ Ranked by impact ÷ effort. Most are <1 day.
 
 ### What to implement (ranked)
 1. **Prompt & prefix caching** (Low) — cache repeated system prompts/rules; 10% cache cost vs 100% input. — [[Effective Context Engineering for AI Agents|Effective Context Engineering for AI Agents]] · https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents
-2. *[[tirth8205code-review-graph Local knowledge graph for Claude Code. Builds a persistent map of your codebase so Claude reads only what matters — 6.8× fewer tokens on reviews and up to 49× on daily coding tasks.|code-review-graph]]* (Med) — tree-sitter AST → SQLite knowledge graph; blast-radius analysis, 6.8× fewer tokens on reviews, 49× on daily tasks, 19 languages. — [[tirth8205code-review-graph Local knowledge graph for Claude Code. Builds a persistent map of your codebase so Claude reads only what matters — 6.8× fewer tokens on reviews and up to 49× on daily coding tasks.|code-review-graph]], [[Graphify + code-review-graph Build a Self-Updating Knowledge Graph for Claude Code and other AI Coding Agent|Graphify + code-review-graph]] · https://github.com/tirth8205/code-review-graph
-3. **Context Mode MCP** (Med) — sandboxes tool outputs (56KB→299B), FTS5 index, survives compaction, up to 99% per-file reduction. — [[Claude Code is Expensive. This MCP Server Fixes It (Context Mode)|Claude Code is Expensive. This MCP Server Fixes It]]
-4. **Session handoff files (TASK_STATE.md + SESSION_HANDOFF.md)** (Low) — structured checkpoint surviving compaction. — [[Why Claude Code Forgets What It Was Doing (And How to Fix It)|Why Claude Code Forgets What It Was Doing]]
-5. **RTK (Rust Token Killer)** (Low) — CLI proxy cutting git/test/lint output 60–90%; single binary, auto-rewrite hook. — [[rtk-airtk CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies|rtk]] · https://github.com/rtk-ai/rtk
-6. **Dirac (hash-anchored edits)** (Med) — AST-aware edits avoid line-drift; ~64.8% cheaper, multi-file batching. — [[GitHub - dirac-rundirac Open Source Coding Agent singularly focused efficiency. Reduces API costs by 50-80% vs other agent AND improves the code quality at the same time. Uses Hash Anchored edits, massively parallel operations, AST manipulation and m|dirac]] · https://github.com/dirac-run/dirac
-7. **CLAUDE.md progressive disclosure** (Low) — root <60–100 lines; move task rules to `docs/`, point with triggers. — [[CLAUDE.md Writing Guide Context Engineering for AI CLI Tools|CLAUDE.md Writing Guide]], [[Stop Bloating Your CLAUDE.md Progressive Disclosure for AI Coding Tools|Stop Bloating Your CLAUDE.md]]
-8. **Graphify** (Med) — multi-modal knowledge graph (code + PDFs/images), 70× fewer tokens at scale. — [[This Tool Fixes AI Coding at Scale with 70x Fewer Tokens (Graphify)|This Tool Fixes AI Coding at Scale with 70x Fewer Tokens]] · https://github.com/safishamsi/graphify
-9. **Mem0 + reflection layer** (Med) — persistent layered memory (raw → summary → insight), prevents memory rot. — [[I built Claude's Dreams feature myself using Mem0 and Codex, and it changed how I code|I built Claude's Dreams feature… using Mem0]] · https://mem0.ai
-10. **Semantic retrieval (Turbopuffer + Voyage)** (Med) — embeddings cut wasted file reads on unknown codebases. — [[Benchmarking semantic code retrieval on Claude Code — Kuba Rogut, Turbopuffer|Benchmarking semantic code retrieval on Claude Code]] · https://turbopuffer.com
-11. **TOON (Token-Oriented Object Notation)** (Low) — JSON replacement for prompts; <50% tokens on uniform arrays. — [[Stop Wasting Tokens A Smarter Alternative to JSON for LLM Pipelines|Stop Wasting Tokens]] · https://toon-format.dev
-12. **Caliber / rule-porter** (Low) — auto-generate & sync CLAUDE.md ↔ `.cursor/rules` ↔ AGENTS.md. — [[caliber-ai-orgai-setup Continuously sync your AI setups with one command. Codebase tailor suited agent skills, MCPs and config files for Claude Code, Cursor, and Codex.|caliber]], [[nedcodes-okrule-porter Convert AI IDE rules between Cursor, Windsurf, CLAUDE.md, AGENTS.md, and Copilot. Bidirectional. Zero dependencies.|rule-porter]] · https://github.com/caliber-ai-org/ai-setup · https://github.com/nedcodes-ok/rule-porter
+2. **Graft vs Repowise measured pilot** (Med) — choose one primary codebase-intelligence MCP; baseline 10 real tasks, pilot Graft first, then test Repowise only if its broader intelligence layers are needed. — [[Code graph tools - Graft Repowise and Dependency Cruiser]]
+3. *[[tirth8205code-review-graph Local knowledge graph for Claude Code. Builds a persistent map of your codebase so Claude reads only what matters — 6.8× fewer tokens on reviews and up to 49× on daily coding tasks.|code-review-graph]]* (Med) — tree-sitter AST → SQLite knowledge graph; blast-radius analysis, 6.8× fewer tokens on reviews, 49× on daily tasks, 19 languages. — [[tirth8205code-review-graph Local knowledge graph for Claude Code. Builds a persistent map of your codebase so Claude reads only what matters — 6.8× fewer tokens on reviews and up to 49× on daily coding tasks.|code-review-graph]], [[Graphify + code-review-graph Build a Self-Updating Knowledge Graph for Claude Code and other AI Coding Agent|Graphify + code-review-graph]] · https://github.com/tirth8205/code-review-graph
+4. **Context Mode MCP** (Med) — sandboxes tool outputs (56KB→299B), FTS5 index, survives compaction, up to 99% per-file reduction. — [[Claude Code is Expensive. This MCP Server Fixes It (Context Mode)|Claude Code is Expensive. This MCP Server Fixes It]]
+5. **Session handoff files (TASK_STATE.md + SESSION_HANDOFF.md)** (Low) — structured checkpoint surviving compaction. — [[Why Claude Code Forgets What It Was Doing (And How to Fix It)|Why Claude Code Forgets What It Was Doing]]
+6. **RTK (Rust Token Killer)** (Low) — CLI proxy cutting git/test/lint output 60–90%; single binary, auto-rewrite hook. — [[rtk-airtk CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies|rtk]] · https://github.com/rtk-ai/rtk
+7. **Dirac (hash-anchored edits)** (Med) — AST-aware edits avoid line-drift; ~64.8% cheaper, multi-file batching. — [[GitHub - dirac-rundirac Open Source Coding Agent singularly focused efficiency. Reduces API costs by 50-80% vs other agent AND improves the code quality at the same time. Uses Hash Anchored edits, massively parallel operations, AST manipulation and m|dirac]] · https://github.com/dirac-run/dirac
+8. **CLAUDE.md progressive disclosure** (Low) — root <60–100 lines; move task rules to `docs/`, point with triggers. — [[CLAUDE.md Writing Guide Context Engineering for AI CLI Tools|CLAUDE.md Writing Guide]], [[Stop Bloating Your CLAUDE.md Progressive Disclosure for AI Coding Tools|Stop Bloating Your CLAUDE.md]]
+9. **Graphify** (Med) — multi-modal knowledge graph (code + PDFs/images), 70× fewer tokens at scale. — [[This Tool Fixes AI Coding at Scale with 70x Fewer Tokens (Graphify)|This Tool Fixes AI Coding at Scale with 70x Fewer Tokens]] · https://github.com/safishamsi/graphify
+10. **Mem0 + reflection layer** (Med) — persistent layered memory (raw → summary → insight), prevents memory rot. — [[I built Claude's Dreams feature myself using Mem0 and Codex, and it changed how I code|I built Claude's Dreams feature… using Mem0]] · https://mem0.ai
+11. **Semantic retrieval (Turbopuffer + Voyage)** (Med) — embeddings cut wasted file reads on unknown codebases. — [[Benchmarking semantic code retrieval on Claude Code — Kuba Rogut, Turbopuffer|Benchmarking semantic code retrieval on Claude Code]] · https://turbopuffer.com
+12. **TOON (Token-Oriented Object Notation)** (Low) — JSON replacement for prompts; <50% tokens on uniform arrays. — [[Stop Wasting Tokens A Smarter Alternative to JSON for LLM Pipelines|Stop Wasting Tokens]] · https://toon-format.dev
+13. **Caliber / rule-porter** (Low) — auto-generate & sync CLAUDE.md ↔ `.cursor/rules` ↔ AGENTS.md. — [[caliber-ai-orgai-setup Continuously sync your AI setups with one command. Codebase tailor suited agent skills, MCPs and config files for Claude Code, Cursor, and Codex.|caliber]], [[nedcodes-okrule-porter Convert AI IDE rules between Cursor, Windsurf, CLAUDE.md, AGENTS.md, and Copilot. Bidirectional. Zero dependencies.|rule-porter]] · https://github.com/caliber-ai-org/ai-setup · https://github.com/nedcodes-ok/rule-porter
 
 ### Comparisons
 | Option | Best for | Tradeoff | Repo |
 |---|---|---|---|
+| Graft | lightweight, working-tree-fresh agent context | narrower intelligence; no vector search | https://github.com/trailhq/Graft |
+| Repowise | graph + Git + tests + decisions + health + workspaces | heavier index; AGPL/commercial | https://github.com/repowise-dev/repowise |
 | code-review-graph | pure code (backend/monorepo) | code only; 6.8× | https://github.com/tirth8205/code-review-graph |
 | Graphify | multi-modal (code + docs + images) | heavier; 70× at scale | https://github.com/safishamsi/graphify |
 | Mem0 (layered) | control: filters, raw/summary/insight | manual upkeep | https://mem0.ai |
@@ -74,6 +78,7 @@ Ranked by impact ÷ effort. Most are <1 day.
 - Trim CLAUDE.md to <60 lines, move gotchas to `docs/` with IMPORTANT triggers (~30 min).
 - `rtk init -g --auto-patch` — 60–90% off git/test/lint output (~45 min).
 - Add `.claude/task-state.md` (current/done/next/open-questions), update each step — survives compaction.
+- Baseline 10 representative agent tasks, then repeat with Graft as the only code-context MCP; keep it only if correctness holds and total tokens or wall time improve by ≥20%.
 
 ---
 

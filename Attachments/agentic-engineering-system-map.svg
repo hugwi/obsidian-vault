@@ -1,0 +1,228 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1150" viewBox="0 0 1500 1150">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d1526"/>
+      <stop offset="1" stop-color="#0b1220"/>
+    </linearGradient>
+  </defs>
+  <style>
+    text { font-family: Inter, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+  </style>
+  <rect width="1500" height="1150" fill="url(#bg)"/>
+
+  <!-- ===== header ===== -->
+  <text x="70" y="54" font-size="32" font-weight="700" fill="#f1f5f9" letter-spacing="0.5">AGENTIC ENGINEERING — SYSTEM MAP</text>
+  <text x="70" y="82" font-size="14.5" fill="#94a3b8">Lifecycle + platform + type — a synthesis of the 2026 sources (Factory · Sonar · OpenAI · GitHub Spec Kit · Thoughtworks · Dex Horthy · Matt Pocock) and the vault's corpus.</text>
+
+  <!-- ===== stage cards ===== -->
+  <!-- C1 INTENT -->
+  <g>
+    <rect x="70" y="118" width="318" height="228" rx="14" fill="#101a2e" stroke="#ffffff14"/>
+    <rect x="71" y="119" width="316" height="4" rx="2" fill="#818cf8"/>
+    <text x="88" y="156" font-size="16" font-weight="700" fill="#a5b4fc">01 · INTENT &amp; DESIGN</text>
+    <text x="88" y="180" font-size="12" fill="#8fa2bf">Turn a goal into executable work — the</text>
+    <text x="88" y="196" font-size="12" fill="#8fa2bf">contract both humans and agents code against.</text>
+    <line x1="86" y1="212" x2="372" y2="212" stroke="#ffffff14"/>
+    <circle cx="104" cy="234" r="2.2" fill="#818cf8"/>
+    <text x="116" y="238" font-size="12.5" fill="#c9d4e6">Spec-driven development (SDD, Spec Kit)</text>
+    <circle cx="104" cy="254" r="2.2" fill="#818cf8"/>
+    <text x="116" y="258" font-size="12.5" fill="#c9d4e6">QRSPI planning — 8-phase state machine</text>
+    <circle cx="104" cy="274" r="2.2" fill="#818cf8"/>
+    <text x="116" y="278" font-size="12.5" fill="#c9d4e6">Requirements &amp; acceptance criteria</text>
+    <circle cx="104" cy="294" r="2.2" fill="#818cf8"/>
+    <text x="116" y="298" font-size="12.5" fill="#c9d4e6">Architecture · ADRs · design constraints</text>
+    <circle cx="104" cy="314" r="2.2" fill="#818cf8"/>
+    <text x="116" y="318" font-size="12.5" fill="#c9d4e6">Vertical slicing into tasks</text>
+  </g>
+  <g stroke="#64748b" stroke-width="2.2">
+    <line x1="394" y1="232" x2="416" y2="232"/>
+    <polygon points="420,232 410,227 410,237" fill="#64748b" stroke="none"/>
+  </g>
+
+  <!-- C2 CONTEXT -->
+  <g>
+    <rect x="424" y="118" width="318" height="228" rx="14" fill="#101a2e" stroke="#ffffff14"/>
+    <rect x="425" y="119" width="316" height="4" rx="2" fill="#38bdf8"/>
+    <text x="442" y="156" font-size="16" font-weight="700" fill="#7dd3fc">02 · CONTEXT &amp; KNOWLEDGE</text>
+    <text x="442" y="180" font-size="12" fill="#8fa2bf">Make the engineering system legible so</text>
+    <text x="442" y="196" font-size="12" fill="#8fa2bf">agents can retrieve what they need to decide.</text>
+    <line x1="440" y1="212" x2="726" y2="212" stroke="#ffffff14"/>
+    <circle cx="458" cy="234" r="2.2" fill="#38bdf8"/>
+    <text x="470" y="238" font-size="12.5" fill="#c9d4e6">AGENTS.md · CONTEXT.md · CLAUDE.md</text>
+    <circle cx="458" cy="254" r="2.2" fill="#38bdf8"/>
+    <text x="470" y="258" font-size="12.5" fill="#c9d4e6">Repo maps · symbol / code search</text>
+    <circle cx="458" cy="274" r="2.2" fill="#38bdf8"/>
+    <text x="470" y="278" font-size="12.5" fill="#c9d4e6">Domain model · architecture docs</text>
+    <circle cx="458" cy="294" r="2.2" fill="#38bdf8"/>
+    <text x="470" y="298" font-size="12.5" fill="#c9d4e6">Dependency maps · service catalog</text>
+    <circle cx="458" cy="314" r="2.2" fill="#38bdf8"/>
+    <text x="470" y="318" font-size="12.5" fill="#c9d4e6">Skills · MCP · tools · instructions</text>
+  </g>
+  <g stroke="#64748b" stroke-width="2.2">
+    <line x1="748" y1="232" x2="770" y2="232"/>
+    <polygon points="774,232 764,227 764,237" fill="#64748b" stroke="none"/>
+  </g>
+
+  <!-- C3 EXECUTION -->
+  <g>
+    <rect x="778" y="118" width="318" height="228" rx="14" fill="#101a2e" stroke="#ffffff14"/>
+    <rect x="779" y="119" width="316" height="4" rx="2" fill="#fbbf24"/>
+    <text x="796" y="156" font-size="16" font-weight="700" fill="#fcd34d">03 · EXECUTION &amp; ORCHESTRATION</text>
+    <text x="796" y="180" font-size="12" fill="#8fa2bf">Let agents actually perform the engineering</text>
+    <text x="796" y="196" font-size="12" fill="#8fa2bf">work, under harness control &amp; orchestration.</text>
+    <line x1="794" y1="212" x2="1080" y2="212" stroke="#ffffff14"/>
+    <circle cx="812" cy="234" r="2.2" fill="#fbbf24"/>
+    <text x="824" y="238" font-size="12.5" fill="#c9d4e6">Coding agents · auto / supervised mode</text>
+    <circle cx="812" cy="254" r="2.2" fill="#fbbf24"/>
+    <text x="824" y="258" font-size="12.5" fill="#c9d4e6">Cloud &amp; background agents</text>
+    <circle cx="812" cy="274" r="2.2" fill="#fbbf24"/>
+    <text x="824" y="278" font-size="12.5" fill="#c9d4e6">Subagents · parallel fan-out</text>
+    <circle cx="812" cy="294" r="2.2" fill="#fbbf24"/>
+    <text x="824" y="298" font-size="12.5" fill="#c9d4e6">Sandboxes · worktrees · credentials</text>
+    <circle cx="812" cy="314" r="2.2" fill="#fbbf24"/>
+    <text x="824" y="318" font-size="12.5" fill="#c9d4e6">Tool use · task orchestration</text>
+  </g>
+  <g stroke="#64748b" stroke-width="2.2">
+    <line x1="1102" y1="232" x2="1124" y2="232"/>
+    <polygon points="1128,232 1118,227 1118,237" fill="#64748b" stroke="none"/>
+  </g>
+
+  <!-- C4 VERIFICATION -->
+  <g>
+    <rect x="1132" y="118" width="318" height="228" rx="14" fill="#101a2e" stroke="#ffffff14"/>
+    <rect x="1133" y="119" width="316" height="4" rx="2" fill="#34d399"/>
+    <text x="1150" y="156" font-size="16" font-weight="700" fill="#6ee7b7">04 · VERIFICATION &amp; QUALITY</text>
+    <text x="1150" y="180" font-size="12" fill="#8fa2bf">Turn “the agent says it's correct” into</text>
+    <text x="1150" y="196" font-size="12" fill="#8fa2bf">real evidence — deterministic &amp; agentic.</text>
+    <line x1="1148" y1="212" x2="1434" y2="212" stroke="#ffffff14"/>
+    <circle cx="1166" cy="234" r="2.2" fill="#34d399"/>
+    <text x="1178" y="238" font-size="12.5" fill="#c9d4e6">Unit · integration · E2E tests</text>
+    <circle cx="1166" cy="254" r="2.2" fill="#34d399"/>
+    <text x="1178" y="258" font-size="12.5" fill="#c9d4e6">TDD · property-based checks</text>
+    <circle cx="1166" cy="274" r="2.2" fill="#34d399"/>
+    <text x="1178" y="278" font-size="12.5" fill="#c9d4e6">Linters · type checks · schema</text>
+    <circle cx="1166" cy="294" r="2.2" fill="#34d399"/>
+    <text x="1178" y="298" font-size="12.5" fill="#c9d4e6">Architecture &amp; security rules</text>
+    <circle cx="1166" cy="314" r="2.2" fill="#34d399"/>
+    <text x="1178" y="318" font-size="12.5" fill="#c9d4e6">Agentic review · evals</text>
+  </g>
+
+  <!-- composition arrows: spine down into delivery band -->
+  <g fill="none" stroke-linecap="round">
+    <g stroke="#818cf8" opacity="0.6"><line x1="229" y1="352" x2="229" y2="376"/><polygon points="229,384 224,376 234,376" fill="#818cf8"/></g>
+    <g stroke="#38bdf8" opacity="0.6"><line x1="583" y1="352" x2="583" y2="376"/><polygon points="583,384 578,376 588,376" fill="#38bdf8"/></g>
+    <g stroke="#fbbf24" opacity="0.6"><line x1="937" y1="352" x2="937" y2="376"/><polygon points="937,384 932,376 942,376" fill="#fbbf24"/></g>
+    <g stroke="#34d399" opacity="0.6"><line x1="1291" y1="352" x2="1291" y2="376"/><polygon points="1291,384 1286,376 1296,376" fill="#34d399"/></g>
+  </g>
+
+  <!-- ===== DELIVERY & SDLC AUTOMATION (composition) ===== -->
+  <g>
+    <rect x="70" y="386" width="1380" height="134" rx="14" fill="#151029" stroke="#a78bfa2e"/>
+    <rect x="71" y="387" width="1378" height="4" rx="2" fill="#a78bfa"/>
+    <text x="88" y="422" font-size="16" font-weight="700" fill="#c4b5fd">DELIVERY · SDLC AUTOMATION</text>
+    <text x="88" y="446" font-size="12.5" fill="#8fa2bf">Vertical workflows — each one composes domains 1–4 into a recurring, end-to-end flow.</text>
+    <g font-size="12.5" text-anchor="middle" dominant-baseline="central">
+      <rect x="70" y="460" width="220" height="30" rx="15" fill="#a78bfa1f"/>
+      <text x="180" y="476" fill="#d9ccff">Automated PR review</text>
+      <rect x="302" y="460" width="220" height="30" rx="15" fill="#a78bfa1f"/>
+      <text x="412" y="476" fill="#d9ccff">CI remediation</text>
+      <rect x="534" y="460" width="220" height="30" rx="15" fill="#a78bfa1f"/>
+      <text x="644" y="476" fill="#d9ccff">Bug triage · classification</text>
+      <rect x="766" y="460" width="220" height="30" rx="15" fill="#a78bfa1f"/>
+      <text x="876" y="476" fill="#d9ccff">Dependency updates → PR</text>
+      <rect x="998" y="460" width="220" height="30" rx="15" fill="#a78bfa1f"/>
+      <text x="1108" y="476" fill="#d9ccff">Security autofix</text>
+      <rect x="1230" y="460" width="220" height="30" rx="15" fill="#a78bfa1f"/>
+      <text x="1340" y="476" fill="#d9ccff">Incident investigation</text>
+    </g>
+  </g>
+
+  <!-- delivery -> operate -->
+  <g stroke="#94a3b8" stroke-width="2">
+    <line x1="760" y1="526" x2="760" y2="552"/>
+    <polygon points="760,560 755,552 765,552" fill="#94a3b8"/>
+  </g>
+
+  <!-- ===== OPERATE · MAINTAIN · LEARN ===== -->
+  <g>
+    <rect x="70" y="560" width="1380" height="222" rx="14" fill="#17101f" stroke="#fb71852b"/>
+    <rect x="71" y="561" width="1378" height="4" rx="2" fill="#fb7185"/>
+    <text x="88" y="596" font-size="16" font-weight="700" fill="#fda4af">OPERATE · MAINTAIN · LEARN</text>
+    <text x="88" y="620" font-size="12.5" fill="#8fa2bf">Keep the codebase healthy and make the factory itself improve — everything here loops back.</text>
+    <line x1="86" y1="656" x2="1434" y2="656" stroke="#ffffff14"/>
+    <circle cx="106" cy="682" r="2.2" fill="#fb7185"/>
+    <text x="118" y="686" font-size="12.5" fill="#c9d4e6">Code health · tech-debt gardening</text>
+    <circle cx="400" cy="682" r="2.2" fill="#fb7185"/>
+    <text x="412" y="686" font-size="12.5" fill="#c9d4e6">Architecture &amp; documentation drift</text>
+    <circle cx="706" cy="682" r="2.2" fill="#fb7185"/>
+    <text x="718" y="686" font-size="12.5" fill="#c9d4e6">Refactors · migrations · dead-code removal</text>
+    <circle cx="1012" cy="682" r="2.2" fill="#fb7185"/>
+    <text x="1024" y="686" font-size="12.5" fill="#c9d4e6">Sensors &amp; telemetry — agent · CI · prod</text>
+    <circle cx="106" cy="712" r="2.2" fill="#fb7185"/>
+    <text x="118" y="716" font-size="12.5" fill="#c9d4e6">Failure analysis → eval datasets</text>
+    <circle cx="400" cy="712" r="2.2" fill="#fb7185"/>
+    <text x="412" y="716" font-size="12.5" fill="#c9d4e6">Improve skills · prompts · standards</text>
+    <circle cx="706" cy="712" r="2.2" fill="#fb7185"/>
+    <text x="718" y="716" font-size="12.5" fill="#c9d4e6">Incident → regression → permanent fix</text>
+  </g>
+
+  <!-- feedback loop: operate back up to intent -->
+  <path d="M 70 742 C 40 742, 26 730, 26 700 L 26 260 C 26 242, 38 234, 58 234 L 60 234" fill="none" stroke="#fb7185" stroke-width="2.4" opacity="0.9"/>
+  <polygon points="71,232 58,224 58,240" fill="#fb7185" opacity="0.9"/>
+  <text transform="rotate(-90 26 520)" x="26" y="520" text-anchor="middle" font-size="10.5" letter-spacing="2" fill="#fb7185" opacity="0.85">FEEDBACK LOOP</text>
+
+  <!-- ===== PLATFORM · HARNESS · CONTROL ===== -->
+  <g>
+    <rect x="70" y="812" width="1380" height="130" rx="14" fill="#0d1526" stroke="#ffffff14"/>
+    <rect x="71" y="813" width="1378" height="4" rx="2" fill="#64748b"/>
+    <text x="88" y="846" font-size="15.5" font-weight="700" fill="#e2e8f0">PLATFORM · HARNESS · CONTROL — the substrate beneath every layer</text>
+    <g font-size="11.5" text-anchor="middle" dominant-baseline="central">
+      <rect x="70" y="868" width="162" height="28" rx="14" fill="#ffffff10"/>
+      <text x="151" y="883" fill="#cbd5e1">Sandboxes &amp; compute</text>
+      <rect x="244" y="868" width="162" height="28" rx="14" fill="#ffffff10"/>
+      <text x="325" y="883" fill="#cbd5e1">Model routing</text>
+      <rect x="418" y="868" width="162" height="28" rx="14" fill="#ffffff10"/>
+      <text x="499" y="883" fill="#cbd5e1">Identity &amp; permissions</text>
+      <rect x="592" y="868" width="162" height="28" rx="14" fill="#ffffff10"/>
+      <text x="673" y="883" fill="#cbd5e1">Secrets</text>
+      <rect x="766" y="868" width="162" height="28" rx="14" fill="#ffffff10"/>
+      <text x="847" y="883" fill="#cbd5e1">CI / CD infrastructure</text>
+      <rect x="940" y="868" width="162" height="28" rx="14" fill="#ffffff10"/>
+      <text x="1021" y="883" fill="#cbd5e1">Observability infra</text>
+      <rect x="1114" y="868" width="162" height="28" rx="14" fill="#ffffff10"/>
+      <text x="1195" y="883" fill="#cbd5e1">Cost controls</text>
+      <rect x="1288" y="868" width="162" height="28" rx="14" fill="#ffffff10"/>
+      <text x="1369" y="883" fill="#cbd5e1">Policy &amp; audit</text>
+    </g>
+    <text x="88" y="924" font-size="11.5" fill="#64748b">DORA: the quality internal platform is the distribution &amp; governance mechanism for AI.</text>
+  </g>
+
+  <!-- ===== TYPE — orthogonal axis ===== -->
+  <g>
+    <rect x="70" y="962" width="1380" height="160" rx="14" fill="#101a2e" stroke="#ffffff14"/>
+    <text x="88" y="988" font-size="11.5" font-weight="600" letter-spacing="1.5" fill="#94a3b8">TYPE — ORTHOGONAL AXIS · WHAT KIND OF THING IS IT?</text>
+
+    <text x="88" y="1018" font-size="13.5" font-weight="700" fill="#34d399">OUTCOMES</text>
+    <text x="88" y="1040" font-size="11.5" fill="#64748b">state we aim for</text>
+    <text x="88" y="1058" font-size="11.5" fill="#c9d4e6">code health · quality ·</text>
+    <text x="88" y="1074" font-size="11.5" fill="#c9d4e6">maintainability · delivery speed</text>
+
+    <text x="452" y="1018" font-size="13.5" font-weight="700" fill="#a78bfa">PRACTICES · METHODOLOGIES</text>
+    <text x="452" y="1040" font-size="11.5" fill="#64748b">how humans &amp; agents work</text>
+    <text x="452" y="1058" font-size="11.5" fill="#c9d4e6">SDD · QRSPI · vertical slicing ·</text>
+    <text x="452" y="1074" font-size="11.5" fill="#c9d4e6">test practices · TDD</text>
+
+    <text x="820" y="1018" font-size="13.5" font-weight="700" fill="#38bdf8">CAPABILITIES</text>
+    <text x="820" y="1040" font-size="11.5" fill="#64748b">reusable building blocks</text>
+    <text x="820" y="1058" font-size="11.5" fill="#c9d4e6">E2E runner · linters · sensors ·</text>
+    <text x="820" y="1074" font-size="11.5" fill="#c9d4e6">repo search · sandbox · skills</text>
+
+    <text x="1180" y="1018" font-size="13.5" font-weight="700" fill="#fbbf24">WORKFLOWS</text>
+    <text x="1180" y="1040" font-size="11.5" fill="#64748b">capabilities composed end-to-end</text>
+    <text x="1180" y="1058" font-size="11.5" fill="#c9d4e6">auto bug fixing · automated PR ·</text>
+    <text x="1180" y="1074" font-size="11.5" fill="#c9d4e6">incident remediation · code gardening</text>
+
+    <line x1="86" y1="1092" x2="1434" y2="1092" stroke="#ffffff10"/>
+    <text x="88" y="1110" font-size="11" fill="#64748b">Processes such as QRSPI &amp; SDD are sequences across the domains — not members of a single stage. Humans gate intent, verification &amp; deployment.</text>
+  </g>
+</svg>
