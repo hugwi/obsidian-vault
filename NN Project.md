@@ -317,6 +317,7 @@ Michail will be back from our side
 - Taoxigolist which reaserach  of molecules 
 - Regulatory aspect what kind of experiment did you contact before giving it too humans. Try to improve this 
 - Two featues 
+- Research or discovery agent
 	- Search engine
 	- docuemnt
 	- Was fiddly and non technical 
@@ -435,3 +436,34 @@ One is completely new
 ## SOP 
 
 Custom programming - 
+
+
+# Processes landscape
+- management processes
+- core processes
+	- clinical trial
+	- approvals
+	- report
+	- commdercialise
+- evertythin is defined in 
+- support processes
+	- data & IT
+
+
+# clinical trial 
+- submission and registration is one parocess that is relevant
+
+# Core process that are relevant
+## Discover product 
+two different teams
+- research and identification 
+- development prtofoliok
+## Evaluate safety and Efficiacy
+## Digital Data & IT is relevant for us
+
+Research agent
+- 
+
+Content authoring 
+- helping to get approval authory
+- als helping to evaluate safety and efficiacy 
