@@ -498,4 +498,11 @@ index in the vector store
 			- confidential 
 			- internal 
 			- public
-	- 
+	- o
+
+# Data braches Agentic AI 
+- How is personal data breaches different from other systems?  
+
+
+# Links
+docs.run.gdai.dev
