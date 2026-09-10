@@ -506,3 +506,10 @@ index in the vector store
 
 # Links
 docs.run.gdai.dev
+
+Agentic run modularize how to deploy it 
+
+
+# AI worfklows are easy to build with AI pipelines
+
+Multi agent orchestration maybe not being covered Databrics	
