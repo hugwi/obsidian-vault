@@ -168,7 +168,7 @@ R&D steering committee
 
 Hugo and mark AI Engineer 
 Susu Data & AI Engineer 
-Michal - Senior machine learning engineer 
+Michal - Senior machine learning engineer has been working with christoffer so must be experiences 
 Mike - ead data solution engineer
 
 Christoffer hjort - lear machine learning engineer 
@@ -467,3 +467,11 @@ Research agent
 Content authoring 
 - helping to get approval authory
 - als helping to evaluate safety and efficiacy 
+
+Michal generated the SOP we trust himo
+
+ Reserach and development worked as seperate organisation but has recently merged
+ - research is confidential and conduct experiments and trails on animal and some for few people maybe 
+	 - reserach are fee to explore 
+ - mike and christoffer was part of develpoment that is regulated
+ 
