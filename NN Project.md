@@ -513,3 +513,6 @@ Agentic run modularize how to deploy it
 # AI worfklows are easy to build with AI pipelines
 
 Multi agent orchestration maybe not being covered Databrics	
+
+
+<mark style="background: #FFB86CA6;">Are we building the components or the golden path? </mark>
