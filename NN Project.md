@@ -490,9 +490,12 @@ index in the vector store
 
 # Req_SOPs-AGENTIC-GOLDEN_PATH_WIP
 - protection handling - lifecycle for handling business-critical information 
+		- business - need to go through a lot of work and assessment 
+	- non - business - destryo what. rare that agentic system use business critical
 	- classification of data business critical or non
 	- confidentiality levels 
 			- stricyl confidential 
 			- confidential 
 			- internal 
 			- public
+	- 
