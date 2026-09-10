@@ -5,6 +5,9 @@ domain: clients
 created: 2026-06-23
 ---
 
+# Questions 
+- Enagement deliveralbe: Are they referring to migrate it or 
+
 Prosurf/AWS to work on a data platform 
 Rearchitecture
 Data in general 
@@ -516,3 +519,5 @@ Multi agent orchestration maybe not being covered Databrics
 
 
 <mark style="background: #FFB86CA6;">Are we building the components or the golden path? </mark>
+
+
