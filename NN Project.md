@@ -522,4 +522,13 @@ Multi agent orchestration maybe not being covered Databrics
 
 <mark style="background: #FFB86CA6;">Are we building the components or the golden path? </mark>
 
+--- 
+# Meeting 11 September
+- Finished the discovery this week? 
+- AI Marketplace could contact them
+- Agent run is still a closed beta
 
+
+# People 
+- AI Marketplace: Rasmus (RUEK)
+- Agent Run: Feisal (FEAD)
