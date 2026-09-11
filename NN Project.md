@@ -527,6 +527,17 @@ Multi agent orchestration maybe not being covered Databrics
 - Finished the discovery this week? 
 - AI Marketplace could contact them
 - Agent run is still a closed beta
+- Christoph have meeting with SOW with the legal team
+- Laslov had concerns related the golden paths. Keep the code to the highest standard quality. Not only composable on componenet level. Level of the code. Use pydantic models. 
+- Code details we will take as it come - christoffer. Challenge between flexibiliity and restrictions. Need to be done together with the developer and engineers. 
+- github repo is up and runningl. 
+- github pages are not enabled. agent run or databricks apps is an option. 
+- dbx cost with zero user 2000 dkk 
+- Susu say agent run would be the best start
+- just host the release to show it to stakeholders
+- can we get an aws account to host it as a static app. What do we need this accounts for. we will have dev/test/val account. What do we need it for? We can ask for them when we need then but it's no problem 
+- agent run we can use to host apps 
+- Can use new technology 
 
 
 # People 
