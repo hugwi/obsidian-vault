@@ -536,7 +536,7 @@ Multi agent orchestration maybe not being covered Databrics
 - Susu say agent run would be the best start
 - just host the release to show it to stakeholders
 - can we get an aws account to host it as a static app. What do we need this accounts for. we will have dev/test/val account. What do we need it for? We can ask for them when we need then but it's no problem 
-- agent run we can use to host apps 
+- <mark style="background: #FFB8EBA6;"> agent run we can use to host apps. Is there any restriction for this? Will we be too limited? </mark>
 - Can use new technology 
 
 
