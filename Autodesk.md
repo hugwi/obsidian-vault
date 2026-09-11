@@ -201,3 +201,6 @@ send screenshot, encapture information to send a screenshot
 - langfuse for monitoring and evaluation
 - simple framwroks not langchain or not 
 - change for simpler model and more advnces model
+- The need for image scan  
+- Only use vector database no graph database 
+- it's confidential and stric confidential 
