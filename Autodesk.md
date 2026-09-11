@@ -150,3 +150,17 @@ Close by agreeing:
 
 >“Our main goal today is to understand whether we are talking about the continuation of a focused AI SDLC initiative, or whether there is a broader institutional AI and agentic transformation emerging. We would like to understand the ambition, the challenges and what Autodesk wants to own themselves before discussing the right setup or profiles.”
 
+
+# Eskalering i projektet
+Nu måste vi få upp farten de går för sakta
+
+Crls vision är inte samma som teams 
+
+3 veckor har vi en kick off week 
+nästa halvåret strategiskför AI löfte 
+8+ ska var bärare av två aktivitet 
+
+2 dagars workshop 
+Vad ska vi göra nästa halvåret 
+
+tar långt att gå saker godkänt 
