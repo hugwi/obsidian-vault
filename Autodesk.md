@@ -189,4 +189,15 @@ tar långt att gå saker godkänt o
 	- frontend
 		- vue 
 	We should prioritize the the agentic framework Susu
-- 
+
+## Agentic architecture
+chunking embedding, indexing 
+cosmos db
+send screenshot, encapture information to send a screenshot
+- language syntax engine
+- claude 4.6 model 
+- retrievel tool 
+- tool to query the data
+- langfuse for monitoring and evaluation
+- simple framwroks not langchain or not 
+- change for simpler model and more advnces model
