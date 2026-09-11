@@ -163,4 +163,9 @@ nästa halvåret strategiskför AI löfte
 2 dagars workshop 
 Vad ska vi göra nästa halvåret 
 
-tar långt att gå saker godkänt 
+tar långt att gå saker godkänt o
+
+
+ # Sept 11 
+- one time generation. it's better  to do module  
+- 
