@@ -168,4 +168,14 @@ tar långt att gå saker godkänt o
 
  # Sept 11 
 - one time generation. it's better  to do module  
-- 
+- Migrate the sandbox to dev. Now we're caollaborating with bart, mortiz, 
+- create necessaryt credential and review changes
+
+- Novoscribe
+	- clinical protocol they mainly use it here 
+		- Can edit the file 
+	- no mcp since it's quite stable
+	- Auth
+		- furture intra id
+	- Database  
+	- oauth system authentication
