@@ -179,3 +179,14 @@ tar långt att gå saker godkänt o
 		- furture intra id
 	- Database  
 	- oauth system authentication
+	- amazon api gatway
+	- azure ad
+	- private and public api
+	- mongodb 
+	- s3 
+	- sqs
+	- ecs fargate + nginx
+	- frontend
+		- vue 
+	We should prioritize the the agentic framework Susu
+- 
